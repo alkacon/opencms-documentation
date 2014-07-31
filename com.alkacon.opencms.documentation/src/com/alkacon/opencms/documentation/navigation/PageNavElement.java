@@ -27,14 +27,30 @@
 
 package com.alkacon.opencms.documentation.navigation;
 
+/**
+ * Wraps a navigation entry of the page navigation.
+ */
 public class PageNavElement {
 
+    /** Title of the navigation element */
     private String m_title;
+
+    /** Nesting level of the navigation element */
     private int m_level;
+
+    /** Position of the element in the navigation list */
     private int m_position;
+
+    /** Link to the element on the page */
     private String m_link;
 
-    public PageNavElement(int level, int position, String title, String link) {
+    /**
+     * @param level Nesting level of the navigation element
+     * @param position Position of the element on the page
+     * @param title Title of the element
+     * @param link Link to the element
+     */
+    public PageNavElement(final int level, final int position, final String title, final String link) {
 
         m_level = level;
         m_position = position;
@@ -42,21 +58,33 @@ public class PageNavElement {
         m_link = link;
     }
 
+    /**
+     * @return Title of the navigation element
+     */
     public String getTitle() {
 
         return m_title;
     }
 
+    /**
+     * @return Nesting level of the navigation element
+     */
     public int getNavLevel() {
 
         return m_level;
     }
 
+    /**
+     * @return Position of the navigation element
+     */
     public int getPosition() {
 
         return m_position;
     }
 
+    /**
+     * @return Link to the navigation element
+     */
     public String getLink() {
 
         return m_link;
