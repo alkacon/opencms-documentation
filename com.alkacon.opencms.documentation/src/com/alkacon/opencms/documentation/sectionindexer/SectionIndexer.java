@@ -91,11 +91,14 @@ public class SectionIndexer {
      * @param level The section level.
      * @return The index of the section, e.g. "2.1.3"
      */
-    private String getSectionIndex(int level) {
+    public String getSectionIndex(int level) {
 
-        increaseSectionIndex(level);
-        return indexToString(level);
-
+        if (level <= 4) {
+            increaseSectionIndex(level);
+            return indexToString(level);
+        } else {
+            return "";
+        }
     }
 
     /**
