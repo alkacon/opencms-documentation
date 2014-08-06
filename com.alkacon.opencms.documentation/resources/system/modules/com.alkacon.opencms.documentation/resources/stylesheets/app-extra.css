@@ -1,0 +1,42 @@
+i.page-nav-btn {
+    background: none repeat scroll 0 0 #585f69;
+    border-radius: 6px 0 0 6px !important;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 7px 9px;
+    position: fixed;
+    right: 0;
+    top: 220px;
+    z-index: 4444;
+}
+
+.page-nav {
+	background: none repeat scroll 0 0 #585f69;
+    border: 1px solid #666d76;
+    border-radius: 6px 0 0 6px !important;
+    display: none;
+    padding: 10px 10px 15px 15px;
+    position: fixed;
+    right: 0;
+    top: 120px;
+    min-width: 200px;
+    max-width: 650px;
+    z-index: 4444;
+}
+
+.page-nav .page-nav-content {
+	overflow-y: auto;
+	max-height: 500px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.page-nav .heading {
+	color: #fff;
+}
+.page-nav .page-nav-content .list-group {
+	margin-bottom: 0px;	
+}

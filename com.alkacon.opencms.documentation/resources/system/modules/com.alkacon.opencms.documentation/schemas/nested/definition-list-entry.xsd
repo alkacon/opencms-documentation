@@ -1,0 +1,36 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+
+	<xsd:element name="DocumentationDefinitionListEntrys" type="OpenCmsDocumentationDefinitionListEntrys"/>
+
+	<xsd:complexType name="OpenCmsDocumentationDefinitionListEntrys">
+		<xsd:sequence>
+			<xsd:element name="DocumentationDefinitionListEntry" type="OpenCmsDocumentationDefinitionListEntry" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsDocumentationDefinitionListEntry">
+		<xsd:sequence>
+			<xsd:element name="Term" type="OpenCmsString" />
+			<xsd:element name="Icon" type="OpenCmsVfsFile" minOccurs="0" />
+			<xsd:element name="Link" type="OpenCmsVfsFile" minOccurs="0" />
+			<xsd:element name="Description" type="OpenCmsHtml" />
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<defaults/>
+			<layouts>
+				<layout element="Icon" widget="ImageGalleryWidget" />
+				<layout element="Description" widget="HtmlWidget" configuration="height:40px,link,image,table,hidebuttons:underline;strikethrough;alignleft;alignright;aligncenter;justify;indent;outdend;blockquote;hr;print,stylesformat:/system/modules/com.alkacon.opencms.documentation/resources/tinymce/styles.xml,imagegallery{useformat:true,formatnames: 'inline:Inline', formatvalues: ['14x?']}" />
+			</layouts>
+			<validationrules/>
+			<relations/>
+			<searchsettings containerPageOnly="true"/>
+		</xsd:appinfo>
+	</xsd:annotation>
+
+</xsd:schema>

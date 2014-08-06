@@ -1,0 +1,1951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<export>
+	<info>
+		<creator>Admin</creator>
+		<opencms_version>9.4.8</opencms_version>
+		<createdate>Wed, 06 Aug 2014 13:33:53 GMT</createdate>
+		<infoproject>Offline</infoproject>
+		<export_version>7</export_version>
+	</info>
+	<module>
+		<name>com.alkacon.opencms.documentation</name>
+		<nicename><![CDATA[OpenCms Documentation]]></nicename>
+		<class/>
+		<description/>
+		<version>0.5</version>
+		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
+		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
+		<datecreated/>
+		<userinstalled/>
+		<dateinstalled/>
+		<dependencies/>
+		<exportpoints/>
+		<resources>
+			<resource uri="/system/modules/com.alkacon.opencms.documentation/"/>
+			<resource uri="/system/workplace/resources/filetypes/documentation-topic.png"/>
+			<resource uri="/system/workplace/resources/filetypes/documentation-topic_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/documentation-html.png"/>
+			<resource uri="/system/workplace/resources/filetypes/documentation-html_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/documentation-codeblock.png"/>
+			<resource uri="/system/workplace/resources/filetypes/documentation-codeblock_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/documentation-section.png"/>
+			<resource uri="/system/workplace/resources/filetypes/documentation-section_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/documentation-figure.png"/>
+			<resource uri="/system/workplace/resources/filetypes/documentation-figure_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/documentation-topic-row.png"/>
+			<resource uri="/system/workplace/resources/filetypes/documentation-topic-row_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/documentation-glossar-entry.png"/>
+			<resource uri="/system/workplace/resources/filetypes/documentation-glossar-entry_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/documentation-glossar.png"/>
+			<resource uri="/system/workplace/resources/filetypes/documentation-glossar_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/documentation-definition-list.png"/>
+			<resource uri="/system/workplace/resources/filetypes/documentation-definition-list_big.png"/>
+		</resources>
+		<parameters/>
+		<resourcetypes>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="documentation-topic" id="351">
+				<param name="schema">/system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="documentation-html" id="352">
+				<param name="schema">/system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="documentation-codeblock" id="353">
+				<param name="schema">/system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="documentation-section" id="354">
+				<param name="schema">/system/modules/com.alkacon.opencms.documentation/schemas/documentation-section.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="documentation-figure" id="356">
+				<param name="schema">/system/modules/com.alkacon.opencms.documentation/schemas/documentation-figure.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="documentation-definition-list" id="357">
+				<param name="schema">/system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="documentation-topic-row" id="358">
+				<param name="schema">/system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic-row.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="documentation-glossar-entry" id="359">
+				<param name="schema">/system/modules/com.alkacon.opencms.documentation/schemas/documentation-glossar-entry.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="documentation-glossar" id="355">
+				<param name="schema">/system/modules/com.alkacon.opencms.documentation/schemas/documentation-glossar.xsd</param>
+			</type>
+		</resourcetypes>
+		<explorertypes>
+			<explorertype name="documentation-topic" key="fileicon.documentation-topic" icon="documentation-topic.png" bigicon="documentation-topic_big.png" reference="xmlcontent">
+				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=documentation-topic" order="10" autosetnavigation="false" autosettitle="false" key="title.documentation-topic"/>
+			</explorertype>
+			<explorertype name="documentation-html" key="fileicon.documentation-html" icon="documentation-html.png" bigicon="documentation-html_big.png" reference="xmlcontent">
+				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=documentation-html" order="10" autosetnavigation="false" autosettitle="false" key="title.documentation-html"/>
+			</explorertype>
+			<explorertype name="documentation-codeblock" key="fileicon.documentation-codeblock" icon="documentation-codeblock.png" bigicon="documentation-codeblock_big.png" reference="xmlcontent">
+				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=documentation-codeblock" order="10" autosetnavigation="false" autosettitle="false" key="title.documentation-codeblock"/>
+			</explorertype>
+			<explorertype name="documentation-section" key="fileicon.documentation-section" icon="documentation-section.png" bigicon="documentation-section_big.png" reference="xmlcontent">
+				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=documentation-section" order="10" autosetnavigation="false" autosettitle="false" key="title.documentation-section"/>
+			</explorertype>
+			<explorertype name="documentation-figure" key="fileicon.documentation-figure" icon="documentation-figure.png" bigicon="documentation-figure_big.png" reference="xmlcontent">
+				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=documentation-figure" order="10" autosetnavigation="false" autosettitle="false" key="title.documentation-figure"/>
+			</explorertype>
+			<explorertype name="documentation-definition-list" key="fileicon.documentation-definition-list" icon="documentation-definition-list.png" bigicon="documentation-definition-list_big.png" reference="xmlcontent">
+				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=documentation-definition-list" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-definition-list" key="title.documentation-definition-list"/>
+			</explorertype>
+			<explorertype name="documentation-topic-row" key="fileicon.documentation-topic-row" icon="documentation-topic-row.png" bigicon="documentation-topic-row_big.png" reference="xmlcontent">
+				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=documentation-topic-row" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-topic-row" key="title.documentation-topic-row"/>
+			</explorertype>
+			<explorertype name="documentation-glossar-entry" key="fileicon.documentation-glossar-entry" icon="documentation-glossar-entry.png" bigicon="documentation-glossar-entry_big.png" reference="xmlcontent">
+				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=documentation-glossar-entry" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-glossar-entry" key="title.documentation-glossar-entry"/>
+			</explorertype>
+			<explorertype name="documentation-glossar" key="fileicon.documentation-glossar" icon="documentation-glossar.png" bigicon="documentation-glossar_big.png" reference="xmlcontent">
+				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=documentation-glossar" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-glossar" key="title.documentation-glossar"/>
+			</explorertype>
+		</explorertypes>
+	</module>
+	<files>
+		<file>
+			<destination>system</destination>
+			<type>folder</type>
+			<uuidstructure>8f3a3ffc-1c78-11e4-b201-d9f74955ba1b</uuidstructure>
+			<datelastmodified>Tue, 05 Aug 2014 08:14:45 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 05 Aug 2014 08:14:45 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol>
+				<accessentry>
+					<uuidprincipal>ROLE.WORKPLACE_USER</uuidprincipal>
+					<flags>514</flags>
+					<permissionset>
+						<allowed>1</allowed>
+						<denied>0</denied>
+					</permissionset>
+				</accessentry>
+			</accesscontrol>
+		</file>
+		<file>
+			<destination>system/modules</destination>
+			<type>folder</type>
+			<uuidstructure>908fbe18-1c78-11e4-b201-d9f74955ba1b</uuidstructure>
+			<datelastmodified>Tue, 05 Aug 2014 08:14:47 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 05 Aug 2014 08:14:47 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol>
+				<accessentry>
+					<uuidprincipal>ROLE.WORKPLACE_USER</uuidprincipal>
+					<flags>514</flags>
+					<permissionset>
+						<allowed>5</allowed>
+						<denied>0</denied>
+					</permissionset>
+				</accessentry>
+			</accesscontrol>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation</destination>
+			<type>folder</type>
+			<uuidstructure>c432bd74-fc66-11e3-8410-fb93821e3720</uuidstructure>
+			<datelastmodified>Wed, 25 Jun 2014 12:46:45 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 25 Jun 2014 12:46:45 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/.config</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/.config</destination>
+			<type>module_config</type>
+			<uuidstructure>d9a929aa-fc67-11e3-8410-fb93821e3720</uuidstructure>
+			<uuidresource>d9a929ab-fc67-11e3-8410-fb93821e3720</uuidresource>
+			<datelastmodified>Wed, 06 Aug 2014 09:28:23 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 25 Jun 2014 12:54:31 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation/elements</destination>
+			<type>folder</type>
+			<uuidstructure>663e49c2-fd17-11e3-8938-fb93821e3720</uuidstructure>
+			<datelastmodified>Thu, 26 Jun 2014 09:51:09 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 26 Jun 2014 09:51:09 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/elements/footer.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/elements/footer.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>fdb085dd-17d3-11e4-a3fa-b7bfd6088c56</uuidstructure>
+			<uuidresource>fdb085de-17d3-11e4-a3fa-b7bfd6088c56</uuidresource>
+			<datelastmodified>Wed, 06 Aug 2014 07:45:50 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 30 Jul 2014 10:26:38 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Footer of a documenation page]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/elements/header.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/elements/header.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>54d313a9-17c6-11e4-a3fa-b7bfd6088c56</uuidstructure>
+			<uuidresource>54d313aa-17c6-11e4-a3fa-b7bfd6088c56</uuidresource>
+			<datelastmodified>Wed, 06 Aug 2014 08:10:56 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 30 Jul 2014 08:48:52 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Page header for documentation pages]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/elements/pagenavigation.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/elements/pagenavigation.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>d4a5195a-05d5-11e4-a74d-1305b26fecac</uuidstructure>
+			<uuidresource>d4a5195b-05d5-11e4-a74d-1305b26fecac</uuidresource>
+			<datelastmodified>Wed, 06 Aug 2014 07:32:10 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 07 Jul 2014 12:54:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Navigation for the sections in a documentation page]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[uri]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/elements/sitenavigation.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/elements/sitenavigation.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>9907934b-1d35-11e4-a450-d9f74955ba1b</uuidstructure>
+			<uuidresource>9907934c-1d35-11e4-a450-d9f74955ba1b</uuidresource>
+			<datelastmodified>Wed, 06 Aug 2014 07:26:06 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 06 Aug 2014 06:47:56 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Site-Navigation]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters</destination>
+			<type>folder</type>
+			<uuidstructure>c4349236-fc66-11e3-8410-fb93821e3720</uuidstructure>
+			<datelastmodified>Wed, 25 Jun 2014 12:46:45 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 25 Jun 2014 12:46:45 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-codeblock-formatter-config.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-codeblock-formatter-config.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>f301d65e-fd33-11e3-8938-fb93821e3720</uuidstructure>
+			<uuidresource>f301d65f-fd33-11e3-8938-fb93821e3720</uuidresource>
+			<datelastmodified>Tue, 15 Jul 2014 09:45:01 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 26 Jun 2014 13:15:31 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter for documentation code block]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-codeblock-formatter.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-codeblock-formatter.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>f29b9a7b-fd33-11e3-8938-fb93821e3720</uuidstructure>
+			<uuidresource>f29b9a7c-fd33-11e3-8938-fb93821e3720</uuidresource>
+			<datelastmodified>Mon, 07 Jul 2014 15:22:44 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 26 Jun 2014 13:15:30 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[never]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-definition-list-formatter-config.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-definition-list-formatter-config.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>bc20c4fb-005d-11e4-8f23-1305b26fecac</uuidstructure>
+			<uuidresource>bc20c4fc-005d-11e4-8f23-1305b26fecac</uuidresource>
+			<datelastmodified>Tue, 15 Jul 2014 09:45:28 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 30 Jun 2014 13:52:11 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter for documentation definition list]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-definition-list-formatter.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-definition-list-formatter.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>bc1ddec8-005d-11e4-8f23-1305b26fecac</uuidstructure>
+			<uuidresource>bc1ddec9-005d-11e4-8f23-1305b26fecac</uuidresource>
+			<datelastmodified>Tue, 15 Jul 2014 08:18:45 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 30 Jun 2014 13:52:11 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[never]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-figure-formatter-config.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-figure-formatter-config.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>407204ce-0038-11e4-83a1-fb93821e3720</uuidstructure>
+			<uuidresource>407204cf-0038-11e4-83a1-fb93821e3720</uuidresource>
+			<datelastmodified>Wed, 30 Jul 2014 09:27:05 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 30 Jun 2014 09:23:52 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter for documentation figure]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-figure-formatter.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-figure-formatter.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>406f1e9b-0038-11e4-83a1-fb93821e3720</uuidstructure>
+			<uuidresource>406f1e9c-0038-11e4-83a1-fb93821e3720</uuidresource>
+			<datelastmodified>Wed, 30 Jul 2014 09:27:26 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 30 Jun 2014 09:23:52 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[never]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-glossar-formatter-config.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-glossar-formatter-config.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>034dfc86-1d4c-11e4-9d87-d9f74955ba1b</uuidstructure>
+			<uuidresource>034dfc87-1d4c-11e4-9d87-d9f74955ba1b</uuidresource>
+			<datelastmodified>Wed, 06 Aug 2014 12:48:23 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 06 Aug 2014 09:28:23 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter for documentation glossar]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-glossar-formatter.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-glossar-formatter.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>034aef43-1d4c-11e4-9d87-d9f74955ba1b</uuidstructure>
+			<uuidresource>034aef44-1d4c-11e4-9d87-d9f74955ba1b</uuidresource>
+			<datelastmodified>Wed, 06 Aug 2014 13:05:59 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 06 Aug 2014 09:28:23 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-html-formatter-config.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-html-formatter-config.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>cce759c8-fd33-11e3-8938-fb93821e3720</uuidstructure>
+			<uuidresource>cce759c9-fd33-11e3-8938-fb93821e3720</uuidresource>
+			<datelastmodified>Tue, 15 Jul 2014 09:46:06 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 26 Jun 2014 13:14:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter for Documentation HTML]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-html-formatter.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-html-formatter.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>cce13f45-fd33-11e3-8938-fb93821e3720</uuidstructure>
+			<uuidresource>cce13f46-fd33-11e3-8938-fb93821e3720</uuidresource>
+			<datelastmodified>Mon, 07 Jul 2014 15:23:31 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 26 Jun 2014 13:14:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[never]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-section-formatter-config.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-section-formatter-config.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>0d7cf942-0038-11e4-83a1-fb93821e3720</uuidstructure>
+			<uuidresource>0d7cf943-0038-11e4-83a1-fb93821e3720</uuidresource>
+			<datelastmodified>Thu, 31 Jul 2014 12:59:20 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 30 Jun 2014 09:22:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter for documentation section]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-section-formatter.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-section-formatter.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>0d7a130f-0038-11e4-83a1-fb93821e3720</uuidstructure>
+			<uuidresource>0d7a1310-0038-11e4-83a1-fb93821e3720</uuidresource>
+			<datelastmodified>Thu, 31 Jul 2014 10:23:48 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 30 Jun 2014 09:22:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-topic-formatter-config.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-topic-formatter-config.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>8fac2612-fd33-11e3-8938-fb93821e3720</uuidstructure>
+			<uuidresource>8fac2613-fd33-11e3-8938-fb93821e3720</uuidresource>
+			<datelastmodified>Tue, 08 Jul 2014 09:44:11 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 26 Jun 2014 13:12:44 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter for documentation topic]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-topic-formatter.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-topic-formatter.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>8fa6329f-fd33-11e3-8938-fb93821e3720</uuidstructure>
+			<uuidresource>8fa632a0-fd33-11e3-8938-fb93821e3720</uuidresource>
+			<datelastmodified>Wed, 30 Jul 2014 09:19:11 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 26 Jun 2014 13:12:44 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[never]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-topic-row-formatter-config.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-topic-row-formatter-config.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>ff0bc485-17b8-11e4-a3fa-b7bfd6088c56</uuidstructure>
+			<uuidresource>ff0bc486-17b8-11e4-a3fa-b7bfd6088c56</uuidresource>
+			<datelastmodified>Wed, 30 Jul 2014 07:13:24 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 30 Jul 2014 07:13:24 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter for topic row]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-topic-row-formatter.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-topic-row-formatter.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>ff092c72-17b8-11e4-a3fa-b7bfd6088c56</uuidstructure>
+			<uuidresource>ff092c73-17b8-11e4-a3fa-b7bfd6088c56</uuidresource>
+			<datelastmodified>Wed, 30 Jul 2014 08:14:31 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 30 Jul 2014 07:13:24 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation/i18n</destination>
+			<type>folder</type>
+			<uuidstructure>d992955c-fc67-11e3-8410-fb93821e3720</uuidstructure>
+			<datelastmodified>Wed, 25 Jun 2014 12:54:31 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 25 Jun 2014 12:54:31 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/i18n/com.alkacon.opencms.documentation.workplace</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/i18n/com.alkacon.opencms.documentation.workplace</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>d997293e-fc67-11e3-8410-fb93821e3720</uuidstructure>
+			<uuidresource>d997293f-fc67-11e3-8410-fb93821e3720</uuidresource>
+			<datelastmodified>Wed, 06 Aug 2014 10:11:31 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 25 Jun 2014 12:54:31 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation/images</destination>
+			<type>folder</type>
+			<uuidstructure>c944096e-17c6-11e4-a3fa-b7bfd6088c56</uuidstructure>
+			<datelastmodified>Wed, 30 Jul 2014 08:52:07 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 30 Jul 2014 08:52:07 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/images/Alkacon_Logo_1000_transparent_24bit.png</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/images/Alkacon_Logo_1000_transparent_24bit.png</destination>
+			<type>image</type>
+			<uuidstructure>f42c3246-17c9-11e4-a3fa-b7bfd6088c56</uuidstructure>
+			<uuidresource>f42c3247-17c9-11e4-a3fa-b7bfd6088c56</uuidresource>
+			<datelastmodified>Wed, 30 Jul 2014 09:14:48 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 30 Jul 2014 09:14:48 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Alkacon_Logo_1000_transparent_24bit]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1000,h:325]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/images/OpenCms_Logo_800_transparent_24bit.png</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/images/OpenCms_Logo_800_transparent_24bit.png</destination>
+			<type>image</type>
+			<uuidstructure>f43050fa-17c9-11e4-a3fa-b7bfd6088c56</uuidstructure>
+			<uuidresource>f43050fb-17c9-11e4-a3fa-b7bfd6088c56</uuidresource>
+			<datelastmodified>Wed, 30 Jul 2014 09:14:48 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 30 Jul 2014 09:14:48 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms_Logo_800_transparent_24bit]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:800,h:192]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation/resources</destination>
+			<type>folder</type>
+			<uuidstructure>c6e04ea2-00ef-11e4-aa3f-1305b26fecac</uuidstructure>
+			<datelastmodified>Tue, 01 Jul 2014 07:17:36 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 01 Jul 2014 07:17:36 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation/resources/highlight-js</destination>
+			<type>folder</type>
+			<uuidstructure>d29485e4-00ef-11e4-aa3f-1305b26fecac</uuidstructure>
+			<datelastmodified>Tue, 01 Jul 2014 07:18:16 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 01 Jul 2014 07:17:55 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[highlight.js syntax highlighter (version 8)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/resources/highlight-js/highlight.pack.js</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/resources/highlight-js/highlight.pack.js</destination>
+			<type>plain</type>
+			<uuidstructure>29b86a38-00f0-11e4-aa3f-1305b26fecac</uuidstructure>
+			<uuidresource>29b86a39-00f0-11e4-aa3f-1305b26fecac</uuidresource>
+			<datelastmodified>Tue, 01 Jul 2014 07:20:22 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 01 Jul 2014 07:20:22 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[highlight.pack]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation/resources/highlight-js/styles</destination>
+			<type>folder</type>
+			<uuidstructure>338dcf5b-00f0-11e4-aa3f-1305b26fecac</uuidstructure>
+			<datelastmodified>Tue, 01 Jul 2014 07:20:38 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 01 Jul 2014 07:20:38 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/resources/highlight-js/styles/default.css</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/resources/highlight-js/styles/default.css</destination>
+			<type>plain</type>
+			<uuidstructure>3d6be70e-00f0-11e4-aa3f-1305b26fecac</uuidstructure>
+			<uuidresource>3d6be70f-00f0-11e4-aa3f-1305b26fecac</uuidresource>
+			<datelastmodified>Tue, 01 Jul 2014 07:20:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 01 Jul 2014 07:20:55 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[default]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation/resources/js</destination>
+			<type>folder</type>
+			<uuidstructure>f0d2c404-0cf6-11e4-a7cb-b7bfd6088c56</uuidstructure>
+			<datelastmodified>Wed, 16 Jul 2014 14:39:21 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 16 Jul 2014 14:39:06 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Javascript resources]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/resources/js/app-extra.js</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/resources/js/app-extra.js</destination>
+			<type>plain</type>
+			<uuidstructure>05df8f47-0cf7-11e4-a7cb-b7bfd6088c56</uuidstructure>
+			<uuidresource>05df8f48-0cf7-11e4-a7cb-b7bfd6088c56</uuidresource>
+			<datelastmodified>Tue, 05 Aug 2014 09:57:23 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 16 Jul 2014 14:39:42 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/resources/js/documentation.js</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/resources/js/documentation.js</destination>
+			<type>plain</type>
+			<uuidstructure>93c9d506-17cd-11e4-a3fa-b7bfd6088c56</uuidstructure>
+			<uuidresource>93c9d507-17cd-11e4-a3fa-b7bfd6088c56</uuidresource>
+			<datelastmodified>Thu, 31 Jul 2014 09:27:45 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 30 Jul 2014 09:40:44 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Special java-script used in the documentation]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation/resources/stylesheets</destination>
+			<type>folder</type>
+			<uuidstructure>85d3af3c-010e-11e4-aa3f-1305b26fecac</uuidstructure>
+			<datelastmodified>Tue, 01 Jul 2014 10:57:41 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 01 Jul 2014 10:57:41 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/resources/stylesheets/app-extra.css</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/resources/stylesheets/app-extra.css</destination>
+			<type>plain</type>
+			<uuidstructure>442a2c72-0cf6-11e4-a7cb-b7bfd6088c56</uuidstructure>
+			<uuidresource>442a2c73-0cf6-11e4-a7cb-b7bfd6088c56</uuidresource>
+			<datelastmodified>Wed, 06 Aug 2014 07:33:41 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 16 Jul 2014 14:34:17 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/resources/stylesheets/documentation.css</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/resources/stylesheets/documentation.css</destination>
+			<type>plain</type>
+			<uuidstructure>9a48a74e-010e-11e4-aa3f-1305b26fecac</uuidstructure>
+			<uuidresource>9a48a74f-010e-11e4-aa3f-1305b26fecac</uuidresource>
+			<datelastmodified>Mon, 04 Aug 2014 10:05:50 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 01 Jul 2014 10:58:15 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[CSS styles for the documentation contents (additionally to the bootstrap styles)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/resources/stylesheets/page-extra.css</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/resources/stylesheets/page-extra.css</destination>
+			<type>plain</type>
+			<uuidstructure>406f322d-0cf4-11e4-a7cb-b7bfd6088c56</uuidstructure>
+			<uuidresource>406f322e-0cf4-11e4-a7cb-b7bfd6088c56</uuidresource>
+			<datelastmodified>Wed, 16 Jul 2014 14:22:10 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 16 Jul 2014 14:19:52 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Additional styles to the page.css from the module com.alkacon.bootstrap.formatters]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation/resources/tinymce</destination>
+			<type>folder</type>
+			<uuidstructure>2b590ea0-067e-11e4-909a-1305b26fecac</uuidstructure>
+			<datelastmodified>Tue, 08 Jul 2014 08:59:29 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 08 Jul 2014 08:59:29 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/resources/tinymce/styles.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/resources/tinymce/styles.xml</destination>
+			<type>plain</type>
+			<uuidstructure>3838f4a2-067e-11e4-909a-1305b26fecac</uuidstructure>
+			<uuidresource>3838f4a3-067e-11e4-909a-1305b26fecac</uuidresource>
+			<datelastmodified>Tue, 08 Jul 2014 11:01:37 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 08 Jul 2014 08:59:50 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas</destination>
+			<type>folder</type>
+			<uuidstructure>c435cab8-fc66-11e3-8410-fb93821e3720</uuidstructure>
+			<datelastmodified>Wed, 25 Jun 2014 12:46:45 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 25 Jun 2014 12:46:45 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>f2174f40-fd33-11e3-8938-fb93821e3720</uuidstructure>
+			<uuidresource>f2174f41-fd33-11e3-8938-fb93821e3720</uuidresource>
+			<datelastmodified>Tue, 01 Jul 2014 14:27:59 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 26 Jun 2014 13:15:29 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Schema for documentation code block]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>bc1700f5-005d-11e4-8f23-1305b26fecac</uuidstructure>
+			<uuidresource>bc1700f6-005d-11e4-8f23-1305b26fecac</uuidresource>
+			<datelastmodified>Tue, 15 Jul 2014 08:15:37 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 30 Jun 2014 13:52:11 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Schema for documentation definition list]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/schemas/documentation-figure.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/documentation-figure.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>404f6190-0038-11e4-83a1-fb93821e3720</uuidstructure>
+			<uuidresource>404f6191-0038-11e4-83a1-fb93821e3720</uuidresource>
+			<datelastmodified>Wed, 16 Jul 2014 14:00:36 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 30 Jun 2014 09:23:52 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Schema for documentation figure]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/schemas/documentation-glossar-entry.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/documentation-glossar-entry.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>2a6d3434-1d4b-11e4-a450-d9f74955ba1b</uuidstructure>
+			<uuidresource>2a6d3435-1d4b-11e4-a450-d9f74955ba1b</uuidresource>
+			<datelastmodified>Wed, 06 Aug 2014 13:30:06 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 06 Aug 2014 09:22:19 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Schema for documentation glossar entry]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/schemas/documentation-glossar.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/documentation-glossar.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>0337b558-1d4c-11e4-9d87-d9f74955ba1b</uuidstructure>
+			<uuidresource>0337b559-1d4c-11e4-9d87-d9f74955ba1b</uuidresource>
+			<datelastmodified>Wed, 06 Aug 2014 09:38:20 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 06 Aug 2014 09:28:23 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Schema for documentation glossar]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>cc5504ca-fd33-11e3-8938-fb93821e3720</uuidstructure>
+			<uuidresource>cc5504cb-fd33-11e3-8938-fb93821e3720</uuidresource>
+			<datelastmodified>Mon, 14 Jul 2014 12:36:29 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 26 Jun 2014 13:14:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Schema for documentation html]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/schemas/documentation-section.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/documentation-section.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>0d6af7d4-0038-11e4-83a1-fb93821e3720</uuidstructure>
+			<uuidresource>0d6af7d5-0038-11e4-83a1-fb93821e3720</uuidresource>
+			<datelastmodified>Wed, 16 Jul 2014 08:19:52 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 30 Jun 2014 09:22:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Schema for documentation section]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic-row.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic-row.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>fea190f7-17b8-11e4-a3fa-b7bfd6088c56</uuidstructure>
+			<uuidresource>fea190f8-17b8-11e4-a3fa-b7bfd6088c56</uuidresource>
+			<datelastmodified>Wed, 06 Aug 2014 08:13:34 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 30 Jul 2014 07:13:24 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Schema for documentation topic row]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>8f858b34-fd33-11e3-8938-fb93821e3720</uuidstructure>
+			<uuidresource>8f858b35-fd33-11e3-8938-fb93821e3720</uuidresource>
+			<datelastmodified>Wed, 06 Aug 2014 08:35:39 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 26 Jun 2014 13:12:44 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Schema for documentation topic]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/nested</destination>
+			<type>folder</type>
+			<uuidstructure>efd0736f-fc6c-11e3-8410-fb93821e3720</uuidstructure>
+			<datelastmodified>Wed, 25 Jun 2014 13:30:56 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 25 Jun 2014 13:30:56 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/schemas/nested/definition-list-entry.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/nested/definition-list-entry.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>03a44e63-005f-11e4-8f23-1305b26fecac</uuidstructure>
+			<uuidresource>03a44e64-005f-11e4-8f23-1305b26fecac</uuidresource>
+			<datelastmodified>Tue, 15 Jul 2014 08:16:28 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 30 Jun 2014 14:01:21 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/schemas/nested/documentation-topic-item-entry.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/nested/documentation-topic-item-entry.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>b3e3d259-17bc-11e4-a3fa-b7bfd6088c56</uuidstructure>
+			<uuidresource>b3e3d25a-17bc-11e4-a3fa-b7bfd6088c56</uuidresource>
+			<datelastmodified>Wed, 30 Jul 2014 08:07:56 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 30 Jul 2014 07:39:56 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Topic link in a topicrow-item]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/schemas/nested/documentation-topic-item.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/nested/documentation-topic-item.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>b0a3df06-17bb-11e4-a3fa-b7bfd6088c56</uuidstructure>
+			<uuidresource>b0a3df07-17bb-11e4-a3fa-b7bfd6088c56</uuidresource>
+			<datelastmodified>Wed, 30 Jul 2014 08:08:01 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 30 Jul 2014 07:32:41 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[List topics and give an overview on them]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/schemas/nested/link-list.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/nested/link-list.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>89e19b9d-fd03-11e3-8938-fb93821e3720</uuidstructure>
+			<uuidresource>89e19b9e-fd03-11e3-8938-fb93821e3720</uuidresource>
+			<datelastmodified>Wed, 06 Aug 2014 09:12:44 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 26 Jun 2014 07:28:59 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/schemas/nested/link-or-list.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/nested/link-or-list.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>1f535bff-fd04-11e3-8938-fb93821e3720</uuidstructure>
+			<uuidresource>1f535c00-fd04-11e3-8938-fb93821e3720</uuidresource>
+			<datelastmodified>Thu, 26 Jun 2014 09:38:11 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 26 Jun 2014 07:33:09 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/schemas/nested/link.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/nested/link.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>c2508bfb-fd01-11e3-8938-fb93821e3720</uuidstructure>
+			<uuidresource>c2508bfc-fd01-11e3-8938-fb93821e3720</uuidresource>
+			<datelastmodified>Thu, 26 Jun 2014 08:12:44 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 26 Jun 2014 07:16:14 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/schemas/nested/status-metadata.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/nested/status-metadata.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>a1244ec4-0740-11e4-9ef6-1305b26fecac</uuidstructure>
+			<uuidresource>a1244ec5-0740-11e4-9ef6-1305b26fecac</uuidresource>
+			<datelastmodified>Wed, 09 Jul 2014 08:17:12 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 09 Jul 2014 08:11:29 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/schemas/nested/todo-list.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/nested/todo-list.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>03c4df96-0741-11e4-9ef6-1305b26fecac</uuidstructure>
+			<uuidresource>03c4df97-0741-11e4-9ef6-1305b26fecac</uuidresource>
+			<datelastmodified>Wed, 09 Jul 2014 08:16:49 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 09 Jul 2014 08:14:14 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation/templates</destination>
+			<type>folder</type>
+			<uuidstructure>4ea22879-0295-11e4-8167-1305b26fecac</uuidstructure>
+			<datelastmodified>Thu, 03 Jul 2014 09:35:02 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 03 Jul 2014 09:35:02 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/templates/documentation-template.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/templates/documentation-template.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>52e80f8b-0295-11e4-8167-1305b26fecac</uuidstructure>
+			<uuidresource>52e8369c-0295-11e4-8167-1305b26fecac</uuidresource>
+			<datelastmodified>Wed, 06 Aug 2014 08:06:20 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 03 Jul 2014 09:35:09 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Template to display documentation topics, using the Unify Bootstrap wrapper]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Documentation template]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/workplace</destination>
+			<type>folder</type>
+			<uuidstructure>825afce2-11b7-11db-91cd-fdbae480bac9</uuidstructure>
+			<datelastmodified>Mon, 27 Mar 2006 12:00:00 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 27 Jun 2005 08:00:00 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>content-encoding</name>
+					<value><![CDATA[UTF-8]]></value>
+				</property>
+				<property>
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+				<property>
+					<name>login-form</name>
+					<value><![CDATA[/system/login/index.html]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol>
+				<accessentry>
+					<uuidprincipal>ALL_OTHERS</uuidprincipal>
+					<flags>134</flags>
+					<permissionset>
+						<allowed>0</allowed>
+						<denied>0</denied>
+					</permissionset>
+				</accessentry>
+				<accessentry>
+					<uuidprincipal>ROLE.WORKPLACE_USER</uuidprincipal>
+					<flags>518</flags>
+					<permissionset>
+						<allowed>5</allowed>
+						<denied>0</denied>
+					</permissionset>
+				</accessentry>
+			</accesscontrol>
+		</file>
+		<file>
+			<destination>system/workplace/resources</destination>
+			<type>folder</type>
+			<uuidstructure>82c16052-11b7-11db-91cd-fdbae480bac9</uuidstructure>
+			<datelastmodified>Mon, 27 Mar 2006 12:00:00 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 27 Jun 2005 08:00:00 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/workplace/resources/filetypes</destination>
+			<type>folder</type>
+			<uuidstructure>83ca1dcc-11b7-11db-91cd-fdbae480bac9</uuidstructure>
+			<datelastmodified>Mon, 27 Jun 2005 08:00:00 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 27 Jun 2005 08:00:00 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/documentation-codeblock.png</source>
+			<destination>system/workplace/resources/filetypes/documentation-codeblock.png</destination>
+			<type>image</type>
+			<uuidstructure>192f4760-0bf1-11e4-a03c-b7bfd6088c56</uuidstructure>
+			<uuidresource>192f4761-0bf1-11e4-a03c-b7bfd6088c56</uuidresource>
+			<datelastmodified>Tue, 05 Aug 2014 14:56:29 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 15 Jul 2014 07:24:46 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/documentation-codeblock_big.png</source>
+			<destination>system/workplace/resources/filetypes/documentation-codeblock_big.png</destination>
+			<type>image</type>
+			<uuidstructure>6861c7e0-0bf1-11e4-a03c-b7bfd6088c56</uuidstructure>
+			<uuidresource>6861c7e1-0bf1-11e4-a03c-b7bfd6088c56</uuidresource>
+			<datelastmodified>Tue, 05 Aug 2014 14:56:29 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 15 Jul 2014 07:26:59 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/documentation-definition-list.png</source>
+			<destination>system/workplace/resources/filetypes/documentation-definition-list.png</destination>
+			<type>image</type>
+			<uuidstructure>84c3977e-1cb0-11e4-bf92-d9f74955ba1b</uuidstructure>
+			<uuidresource>84c3977f-1cb0-11e4-bf92-d9f74955ba1b</uuidresource>
+			<datelastmodified>Tue, 05 Aug 2014 14:55:19 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 05 Aug 2014 14:55:19 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[documentation-definition-list]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/documentation-definition-list_big.png</source>
+			<destination>system/workplace/resources/filetypes/documentation-definition-list_big.png</destination>
+			<type>image</type>
+			<uuidstructure>84c5e172-1cb0-11e4-bf92-d9f74955ba1b</uuidstructure>
+			<uuidresource>84c5e173-1cb0-11e4-bf92-d9f74955ba1b</uuidresource>
+			<datelastmodified>Tue, 05 Aug 2014 14:55:19 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 05 Aug 2014 14:55:19 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[documentation-definition-list_big]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/documentation-figure.png</source>
+			<destination>system/workplace/resources/filetypes/documentation-figure.png</destination>
+			<type>image</type>
+			<uuidstructure>40692b23-0038-11e4-83a1-fb93821e3720</uuidstructure>
+			<uuidresource>40692b24-0038-11e4-83a1-fb93821e3720</uuidresource>
+			<datelastmodified>Tue, 05 Aug 2014 14:55:19 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 30 Jun 2014 09:23:52 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[documentation-figure-icon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/documentation-figure_big.png</source>
+			<destination>system/workplace/resources/filetypes/documentation-figure_big.png</destination>
+			<type>image</type>
+			<uuidstructure>406ab1c7-0038-11e4-83a1-fb93821e3720</uuidstructure>
+			<uuidresource>406ab1c8-0038-11e4-83a1-fb93821e3720</uuidresource>
+			<datelastmodified>Tue, 05 Aug 2014 14:55:19 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 30 Jun 2014 09:23:52 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[documentation-figure-icon_big]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/documentation-glossar-entry.png</source>
+			<destination>system/workplace/resources/filetypes/documentation-glossar-entry.png</destination>
+			<type>image</type>
+			<uuidstructure>2a7c9d87-1d4b-11e4-a450-d9f74955ba1b</uuidstructure>
+			<uuidresource>2a7c9d88-1d4b-11e4-a450-d9f74955ba1b</uuidresource>
+			<datelastmodified>Wed, 06 Aug 2014 13:25:32 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 06 Aug 2014 09:22:20 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[documentation-glossar-icon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/documentation-glossar-entry_big.png</source>
+			<destination>system/workplace/resources/filetypes/documentation-glossar-entry_big.png</destination>
+			<type>image</type>
+			<uuidstructure>2a7f0e8b-1d4b-11e4-a450-d9f74955ba1b</uuidstructure>
+			<uuidresource>2a7f0e8c-1d4b-11e4-a450-d9f74955ba1b</uuidresource>
+			<datelastmodified>Wed, 06 Aug 2014 13:25:40 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 06 Aug 2014 09:22:20 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[documentation-glossar-entry-icon_big]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/documentation-glossar.png</source>
+			<destination>system/workplace/resources/filetypes/documentation-glossar.png</destination>
+			<type>image</type>
+			<uuidstructure>033dcfdb-1d4c-11e4-9d87-d9f74955ba1b</uuidstructure>
+			<uuidresource>033dcfdc-1d4c-11e4-9d87-d9f74955ba1b</uuidresource>
+			<datelastmodified>Wed, 06 Aug 2014 13:25:52 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 06 Aug 2014 09:28:23 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[documentation-glossar-icon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/documentation-glossar_big.png</source>
+			<destination>system/workplace/resources/filetypes/documentation-glossar_big.png</destination>
+			<type>image</type>
+			<uuidstructure>033ff2bf-1d4c-11e4-9d87-d9f74955ba1b</uuidstructure>
+			<uuidresource>033ff2c0-1d4c-11e4-9d87-d9f74955ba1b</uuidresource>
+			<datelastmodified>Wed, 06 Aug 2014 13:25:46 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 06 Aug 2014 09:28:23 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[documentation-glossar-icon_big]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/documentation-html.png</source>
+			<destination>system/workplace/resources/filetypes/documentation-html.png</destination>
+			<type>image</type>
+			<uuidstructure>cc58ae4d-fd33-11e3-8938-fb93821e3720</uuidstructure>
+			<uuidresource>cc58ae4e-fd33-11e3-8938-fb93821e3720</uuidresource>
+			<datelastmodified>Tue, 05 Aug 2014 15:18:21 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 26 Jun 2014 13:14:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[documentation-html-icon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/documentation-html_big.png</source>
+			<destination>system/workplace/resources/filetypes/documentation-html_big.png</destination>
+			<type>image</type>
+			<uuidstructure>cc5d6941-fd33-11e3-8938-fb93821e3720</uuidstructure>
+			<uuidresource>cc5d6942-fd33-11e3-8938-fb93821e3720</uuidresource>
+			<datelastmodified>Tue, 05 Aug 2014 15:18:06 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 26 Jun 2014 13:14:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[documentation-html-icon_big]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/documentation-section.png</source>
+			<destination>system/workplace/resources/filetypes/documentation-section.png</destination>
+			<type>image</type>
+			<uuidstructure>0d6eef77-0038-11e4-83a1-fb93821e3720</uuidstructure>
+			<uuidresource>0d6eef78-0038-11e4-83a1-fb93821e3720</uuidresource>
+			<datelastmodified>Tue, 05 Aug 2014 15:18:06 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 30 Jun 2014 09:22:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[documentation-section-icon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/documentation-section_big.png</source>
+			<destination>system/workplace/resources/filetypes/documentation-section_big.png</destination>
+			<type>image</type>
+			<uuidstructure>0d74e2eb-0038-11e4-83a1-fb93821e3720</uuidstructure>
+			<uuidresource>0d74e2ec-0038-11e4-83a1-fb93821e3720</uuidresource>
+			<datelastmodified>Tue, 05 Aug 2014 15:18:06 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 30 Jun 2014 09:22:27 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[documentation-section-icon_big]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/documentation-topic-row.png</source>
+			<destination>system/workplace/resources/filetypes/documentation-topic-row.png</destination>
+			<type>image</type>
+			<uuidstructure>fecd0dca-17b8-11e4-a3fa-b7bfd6088c56</uuidstructure>
+			<uuidresource>fecd0dcb-17b8-11e4-a3fa-b7bfd6088c56</uuidresource>
+			<datelastmodified>Wed, 06 Aug 2014 08:05:07 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 30 Jul 2014 07:13:24 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[documentation-topic-row-icont]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/documentation-topic-row_big.png</source>
+			<destination>system/workplace/resources/filetypes/documentation-topic-row_big.png</destination>
+			<type>image</type>
+			<uuidstructure>feff8f7e-17b8-11e4-a3fa-b7bfd6088c56</uuidstructure>
+			<uuidresource>feff8f7f-17b8-11e4-a3fa-b7bfd6088c56</uuidresource>
+			<datelastmodified>Wed, 06 Aug 2014 08:04:57 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 30 Jul 2014 07:13:24 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[documentation-topic-row-icon_big]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/documentation-topic.png</source>
+			<destination>system/workplace/resources/filetypes/documentation-topic.png</destination>
+			<type>image</type>
+			<uuidstructure>8f8c6907-fd33-11e3-8938-fb93821e3720</uuidstructure>
+			<uuidresource>8f8c6908-fd33-11e3-8938-fb93821e3720</uuidresource>
+			<datelastmodified>Tue, 05 Aug 2014 14:55:19 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 26 Jun 2014 13:12:44 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[documentation-topic-icon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/documentation-topic_big.png</source>
+			<destination>system/workplace/resources/filetypes/documentation-topic_big.png</destination>
+			<type>image</type>
+			<uuidstructure>8f92356b-fd33-11e3-8938-fb93821e3720</uuidstructure>
+			<uuidresource>8f92356c-fd33-11e3-8938-fb93821e3720</uuidresource>
+			<datelastmodified>Tue, 05 Aug 2014 14:55:19 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 26 Jun 2014 13:12:44 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[documentation-topic-icon_big]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+	</files>
+</export>

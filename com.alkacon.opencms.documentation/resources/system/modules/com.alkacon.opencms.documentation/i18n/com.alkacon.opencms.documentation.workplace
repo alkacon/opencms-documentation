@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlVfsBundles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/xmlvfsbundle.xsd">
+  <Bundle language="en">
+    <Message>
+      <Key><![CDATA[title.documentation-topic]]></Key>
+      <Value><![CDATA[Create a new documentation topic]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.documentation-topic]]></Key>
+      <Value><![CDATA[Topic]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.documentation-html]]></Key>
+      <Value><![CDATA[Create a new documentation HTML]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.documentation-html]]></Key>
+      <Value><![CDATA[HTML]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.documentation-codeblock]]></Key>
+      <Value><![CDATA[Create a new documentation code block]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.documentation-codeblock]]></Key>
+      <Value><![CDATA[Code]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.documentation-section]]></Key>
+      <Value><![CDATA[Section]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.documentation-section]]></Key>
+      <Value><![CDATA[Create a new documentation section]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.documentation-figure]]></Key>
+      <Value><![CDATA[Figure]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.documentation-figure]]></Key>
+      <Value><![CDATA[Create a new figure in the documentation]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.documentation-definition-list]]></Key>
+      <Value><![CDATA[Definition List]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.documentation-definition-list]]></Key>
+      <Value><![CDATA[A list of definitions, typically rendered as <dl>-list in HTML]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.documentation-definition-list]]></Key>
+      <Value><![CDATA[Create a new documentation definition list]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.documentation-topic-row]]></Key>
+      <Value><![CDATA[Given an overview on some topics and link to them]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.documentation-topic-row]]></Key>
+      <Value><![CDATA[Topic Overview]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.documentation-topic-row]]></Key>
+      <Value><![CDATA[Create a new topic overview]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.AlkaconDocumentationTopicFrame.Overview]]></Key>
+      <Value><![CDATA[Topic Overview]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.AlkaconDocumentationTopicFrame.Overview.help]]></Key>
+      <Value><![CDATA[Overview on what the topic is about. Including rich information about related topics.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.AlkaconDocumentationTopicFrame.Teaser]]></Key>
+      <Value><![CDATA[Teaser for the topic]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.AlkaconDocumentationTopicFrame.Teaser.help]]></Key>
+      <Value><![CDATA[Short version of the topic overview, used to give a preview on the topic. If not given, the first part of the topic overview is taken.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.AlkaconDocumentationTopicFrame.RelatedLinks]]></Key>
+      <Value><![CDATA[Related links]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.AlkaconDocumentationTopicFrame.RelatedLinks.help]]></Key>
+      <Value><![CDATA[A collection of links to related to the topic - can be other topics or any other resource.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.AlkaconDocumentationTopicFrame.StatusMetaData]]></Key>
+      <Value><![CDATA[Status information]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.AlkaconDocumentationTopicFrame.StatusMetaData.help]]></Key>
+      <Value><![CDATA[Information about the status of the topic's content that is shown offline to help the editors.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationStatusMetadata.Todos]]></Key>
+      <Value><![CDATA[Todos]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationStatusMetadata.Todos.help]]></Key>
+      <Value><![CDATA[Todos for a topic, section etc. Shown only offline.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationTodoList.Todo]]></Key>
+      <Value><![CDATA[Todo]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationTodoList.Todo.help]]></Key>
+      <Value><![CDATA[Todo for a topic, section etc. Shown only offline.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationLink.URI]]></Key>
+      <Value><![CDATA[URI]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationLink.URI.help]]></Key>
+      <Value><![CDATA[The URI to link to.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationLink.LinkText]]></Key>
+      <Value><![CDATA[Text]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationLink.LinkText.help]]></Key>
+      <Value><![CDATA[The (clickable) text shown for the link. If not given, the URI is displayed.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationLink.LinkDescription]]></Key>
+      <Value><![CDATA[Description]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationLink.LinkDescription.help]]></Key>
+      <Value><![CDATA[Optional information on the referenced document.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationLinkList.Title]]></Key>
+      <Value><![CDATA[Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationLinkList.Title.help]]></Key>
+      <Value><![CDATA[Title shown above the list and mapped to the Title property.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationLinkList.Description]]></Key>
+      <Value><![CDATA[Description]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationLinkList.Description.help]]></Key>
+      <Value><![CDATA[Description for the list.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationLinkList.Link]]></Key>
+      <Value><![CDATA[Link]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationLinkList.Link.help]]></Key>
+      <Value><![CDATA[Link displayed in the list.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationLinkList.ListInfo]]></Key>
+      <Value><![CDATA[Extra information]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationLinkList.ListInfo.help]]></Key>
+      <Value><![CDATA[Informations displayed below the links of the list.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationLinkOrList.Link]]></Key>
+      <Value><![CDATA[Link]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationLinkOrList.LinkList]]></Key>
+      <Value><![CDATA[List of links]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationCodeBlock.ProgrammingLanguage]]></Key>
+      <Value><![CDATA[Programming language]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationCodeBlock.ProgrammingLanguage.help]]></Key>
+      <Value><![CDATA[Language of the code. The information is used for code highlighting. If not given, the language is detected automatically.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationCodeBlock.Code]]></Key>
+      <Value><![CDATA[Code]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationDefinitionList.Title]]></Key>
+      <Value><![CDATA[Title (for Title property)]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationDefinitionList.Title.help]]></Key>
+      <Value><![CDATA[The title is mapped to the Title property of the content.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationDefinitionList.Heading]]></Key>
+      <Value><![CDATA[Heading]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationDefinitionList.Heading.help]]></Key>
+      <Value><![CDATA[Heading shown above the list.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationDefinitionList.PropertyDef]]></Key>
+      <Value><![CDATA[Property Definition]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationDefinitionList.PropertyDef.help]]></Key>
+      <Value><![CDATA[If checked, it is assumed you define terms that are "Code" and the format is adjusted.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationDefinitionList.Entry]]></Key>
+      <Value><![CDATA[Definition]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationDefinitionList.Entry.help]]></Key>
+      <Value><![CDATA[A single definition in the list.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationDefinitionListEntry.Term]]></Key>
+      <Value><![CDATA[Term]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationDefinitionListEntry.Term.help]]></Key>
+      <Value><![CDATA[The term that is defined or described.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationDefinitionListEntry.Icon]]></Key>
+      <Value><![CDATA[Icon]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationDefinitionListEntry.Icon]]></Key>
+      <Value><![CDATA[Optional icon shown in front of the term.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationDefinitionListEntry.Link]]></Key>
+      <Value><![CDATA[Link]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationDefinitionListEntry.Link.help]]></Key>
+      <Value><![CDATA[A link providing further information on the term defined. The term is made clickable.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationDefinitionListEntry.Description]]></Key>
+      <Value><![CDATA[Description]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationDefinitionListEntry.Description.help]]></Key>
+      <Value><![CDATA[Definition/description of the term.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationFigure.Identifier]]></Key>
+      <Value><![CDATA[Identifier]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationFigure.Identifier.help]]></Key>
+      <Value><![CDATA[Identifier used as anchor for linking to the figure.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationFigure.Title]]></Key>
+      <Value><![CDATA[Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationFigure.Title.help]]></Key>
+      <Value><![CDATA[Title shown below the figure and used as Title property.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationFigure.Description]]></Key>
+      <Value><![CDATA[Description]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationFigure.Description.help]]></Key>
+      <Value><![CDATA[Additional description for the figure.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationFigure.Image]]></Key>
+      <Value><![CDATA[Image]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationHtml.Html]]></Key>
+      <Value><![CDATA[Html]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationHtml.Html.help]]></Key>
+      <Value><![CDATA[A snippet of text. Please stick to the provided highlighting options.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationSection.Title]]></Key>
+      <Value><![CDATA[Title (property)]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationSection.Title.help]]></Key>
+      <Value><![CDATA[Title mapped to the Title property]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationSection.Headline]]></Key>
+      <Value><![CDATA[Headline]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationSection.Headline.help]]></Key>
+      <Value><![CDATA[Headline of the section]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationSection.RefId]]></Key>
+      <Value><![CDATA[Identifier]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationSection.RefId.help]]></Key>
+      <Value><![CDATA[Identifier used as anchor to link to the section.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationSection.StatusMetaData]]></Key>
+      <Value><![CDATA[Status]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationSection.StatusMetaData]]></Key>
+      <Value><![CDATA[Information on the state of this section shown offline to help editors.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationTopicrow.Title]]></Key>
+      <Value><![CDATA[Title]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationTopicrow.Title.help]]></Key>
+      <Value><![CDATA[Title used as title property and optionally displayed above the topic row.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationTopicrow.Description]]></Key>
+      <Value><![CDATA[Description]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationTopicrow.Description.help]]></Key>
+      <Value><![CDATA[Optional description for the kind of topics that are linked to in the row.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationTopicrow.Item]]></Key>
+      <Value><![CDATA[Item]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationTopicrow.Item.help]]></Key>
+      <Value><![CDATA[A list of links grouped in a box.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationTopicrowItem.Headline]]></Key>
+      <Value><![CDATA[Headline]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationTopicrowItem.Headline.help]]></Key>
+      <Value><![CDATA[Headline shown above the topic list.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationTopicrowItem.Topic]]></Key>
+      <Value><![CDATA[Topic link]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationTopicrowItem.Topic.help]]></Key>
+      <Value><![CDATA[Link to a topic.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationTopicrowItemEntry.PageLink]]></Key>
+      <Value><![CDATA[Page link]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationTopicrowItemEntry.PageLink.help]]></Key>
+      <Value><![CDATA[Link to the page where the topic is located.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationTopicrowItemEntry.Topic]]></Key>
+      <Value><![CDATA[Topic link]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[label.DocumentationTopicrowItemEntry.Topic.help]]></Key>
+      <Value><![CDATA[Link to the topic on the linked page (to retrieve topic information).]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.documentation-glossar-entry]]></Key>
+      <Value><![CDATA[Entry in the glossar of the documentation.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.documentation-glossar-entry]]></Key>
+      <Value><![CDATA[Glossar Entry]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.documentation-glossar-entry]]></Key>
+      <Value><![CDATA[Create a new documentation glossar entry]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.documentation-glossar]]></Key>
+      <Value><![CDATA[Glossar]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.documentation-glossar]]></Key>
+      <Value><![CDATA[A glossar that collects entries from specific folders and allows to add new entries.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.documentation-glossar]]></Key>
+      <Value><![CDATA[Create a new documentation glossar]]></Value>
+    </Message>
+  </Bundle>
+</XmlVfsBundles>

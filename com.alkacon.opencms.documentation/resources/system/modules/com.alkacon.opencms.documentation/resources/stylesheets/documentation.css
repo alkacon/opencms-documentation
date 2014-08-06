@@ -1,0 +1,13 @@
+div.documentation-section {
+	padding-bottom: 20px;
+}
+span.footnote {
+	font-size: small;
+	font-family: monospace;
+	background-color: gray;
+}
+
+span.footnote-hover:hover {
+	color: #e74c3c;
+	cursor: help;
+}

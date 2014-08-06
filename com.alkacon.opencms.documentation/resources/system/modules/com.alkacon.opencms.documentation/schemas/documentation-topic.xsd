@@ -1,0 +1,45 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+	<xsd:include schemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/nested/link-or-list.xsd"/>
+	<xsd:include schemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/nested/status-metadata.xsd"/>
+
+	<xsd:element name="AlkaconDocumentationTopicFrames" type="OpenCmsAlkaconDocumentationTopicFrames"/>
+
+	<xsd:complexType name="OpenCmsAlkaconDocumentationTopicFrames">
+		<xsd:sequence>
+			<xsd:element name="AlkaconDocumentationTopicFrame" type="OpenCmsAlkaconDocumentationTopicFrame" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsAlkaconDocumentationTopicFrame">
+		<xsd:sequence>
+			<xsd:element name="Overview" type="OpenCmsHtml" />
+			<xsd:element name="Teaser" type="OpenCmsHtml" minOccurs="0" />
+			<xsd:element name="RelatedLinks" type="OpenCmsDocumentationLinkOrList" minOccurs="0" maxOccurs="unbounded" />
+			<xsd:element name="StatusMetaData" type="OpenCmsDocumentationStatusMetadata" />
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<mappings/>
+			<defaults>
+				<default element="Overview" value="Add topic overview here" />
+			</defaults>
+			<layouts>
+				<layout element="Overview" widget="HtmlWidget" configuration="height:300px,link,image,table,source,hidebuttons:underline;strikethrough;alignleft;alignright;aligncenter;justify;indent;outdend;blockquote;hr;print,stylesformat:/system/modules/com.alkacon.opencms.documentation/resources/tinymce/styles.xml,imagegallery{useformat:true,formatnames: 'inline:Inline', formatvalues: ['14x?']}" />
+				<layout element="Teaser" widget="HtmlWidget" configuration="height:150px,link,image,table,source,hidebuttons:underline;strikethrough;alignleft;alignright;aligncenter;justify;indent;outdend;blockquote;hr;print,stylesformat:/system/modules/com.alkacon.opencms.documentation/resources/tinymce/styles.xml,imagegallery{useformat:true,formatnames: 'inline:Inline', formatvalues: ['14x?']}" />
+			</layouts>
+			<validationrules/>
+			<relations/>
+			<tabs>
+				<tab element="RelatedLinks" collapse="false" name="General" />
+				<tab element="StatusMetaData" collapse="true" />
+			</tabs>
+			<searchsettings containerPageOnly="true"/>
+		</xsd:appinfo>
+	</xsd:annotation>
+
+</xsd:schema>

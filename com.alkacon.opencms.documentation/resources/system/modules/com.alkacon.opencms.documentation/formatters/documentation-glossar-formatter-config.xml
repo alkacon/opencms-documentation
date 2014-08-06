@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[Sample formatter for Documentation Glossar]]></NiceName>
+    <Type><![CDATA[documentation-glossar]]></Type>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.opencms.documentation/formatters/documentation-glossar-formatter.jsp]]></target>
+        <uuid>034aef43-1d4c-11e4-9d87-d9f74955ba1b</uuid>
+      </link>
+    </Jsp>
+    <Rank><![CDATA[1000]]></Rank>
+    <Match>
+      <Width>
+        <Width><![CDATA[-1]]></Width>
+      </Width>
+    </Match>
+    <Preview>false</Preview>
+    <SearchContent>true</SearchContent>
+    <AutoEnabled>true</AutoEnabled>
+    <Detail>true</Detail>
+    <NestedContainers>false</NestedContainers>
+    <Setting>
+      <PropertyName><![CDATA[heading]]></PropertyName>
+      <DisplayName><![CDATA[Show heading]]></DisplayName>
+      <Widget><![CDATA[checkbox]]></Widget>
+      <Default><![CDATA[False]]></Default>
+    </Setting>
+  </NewFormatter>
+</NewFormatters>

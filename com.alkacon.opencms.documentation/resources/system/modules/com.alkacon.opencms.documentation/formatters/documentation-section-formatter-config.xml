@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[Sample formatter for Documentation Section]]></NiceName>
+    <Type><![CDATA[documentation-section]]></Type>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.opencms.documentation/formatters/documentation-section-formatter.jsp]]></target>
+        <uuid>0d7a130f-0038-11e4-83a1-fb93821e3720</uuid>
+      </link>
+    </Jsp>
+    <Rank><![CDATA[1000]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[documentation-content]]></ContainerType>
+      </Types>
+    </Match>
+    <Preview>false</Preview>
+    <SearchContent>true</SearchContent>
+    <AutoEnabled>true</AutoEnabled>
+    <Detail>true</Detail>
+    <NestedContainers>false</NestedContainers>
+    <Setting>
+      <PropertyName><![CDATA[level]]></PropertyName>
+      <DisplayName><![CDATA[Nesting level of the section]]></DisplayName>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[1]]></Default>
+      <WidgetConfig><![CDATA[1:One|2:Two|3:Three|4:Four]]></WidgetConfig>
+    </Setting>
+  </NewFormatter>
+</NewFormatters>
