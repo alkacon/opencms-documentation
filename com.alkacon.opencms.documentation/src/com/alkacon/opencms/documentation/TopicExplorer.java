@@ -47,8 +47,13 @@ import org.apache.commons.logging.Log;
  */
 public class TopicExplorer extends CmsJspBean {
 
+    /** Logger for the class */
     protected static final Log LOG = CmsLog.getLog(TopicExplorer.class);
 
+    /**
+     * Returns the content of the topic found on the explored page, or null if an exception was thrown.
+     * @return content of the found topic, or null if an exception was thrown
+     */
     public CmsJspContentAccessBean getTopicContent() {
 
         try {
@@ -62,6 +67,11 @@ public class TopicExplorer extends CmsJspBean {
         }
     }
 
+    /**
+     * Returns the content of the topic found on the explored page.
+     * @return content of the found topic
+     * @throws Exception
+     */
     private CmsJspContentAccessBean getTopicContentInternal() throws Exception {
 
         CmsJspStandardContextBean cmsBean = CmsJspStandardContextBean.getInstance(getRequest());
