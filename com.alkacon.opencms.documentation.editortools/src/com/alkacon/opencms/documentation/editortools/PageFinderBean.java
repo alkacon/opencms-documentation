@@ -27,16 +27,15 @@
 
 package com.alkacon.opencms.documentation.editortools;
 
+import com.alkacon.opencms.documentation.editortools.utils.PageFinder;
+
 import org.opencms.file.CmsObject;
 import org.opencms.file.CmsResource;
 import org.opencms.jsp.CmsJspBean;
 import org.opencms.main.CmsLog;
-import org.opencms.relations.CmsRelation;
-import org.opencms.relations.CmsRelationFilter;
 import org.opencms.util.CmsCollectionsGenericWrapper;
 import org.opencms.util.CmsUUID;
 
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -47,13 +46,10 @@ import org.apache.commons.logging.Log;
 /**
  * Helper to find pages where a content is placed on.
  */
-public class PageFinder extends CmsJspBean {
+public class PageFinderBean extends CmsJspBean {
 
     /** The log object for this class. */
     private static final Log LOG = CmsLog.getLog(CmsUUID.class);
-
-    /** Type id of container pages */
-    private static final int CONTAINERPAGE_TYPE_ID = 13;
 
     /** the lazily initialized map of resource - pages on relations */
     private Map<CmsUUID, List<PageBean>> m_pages;
@@ -66,7 +62,7 @@ public class PageFinder extends CmsJspBean {
 
         try {
             if (isNotInitialized()) {
-                throw (new Exception("Object of type TopicExplorer is not initialized. Pleas call init(...)"));
+                throw (new Exception("Object of type TopicExplorer is not initialized. Please call init(...)"));
             }
             return getDisplayedOnLinksInternal();
         } catch (Exception e) {
@@ -84,6 +80,7 @@ public class PageFinder extends CmsJspBean {
         if (m_pages == null) {
             m_pages = CmsCollectionsGenericWrapper.createLazyMap(new Transformer() {
 
+                @SuppressWarnings("synthetic-access")
                 public Object transform(Object resourceId) {
 
                     String id = resourceId.toString();
@@ -99,25 +96,16 @@ public class PageFinder extends CmsJspBean {
         return m_pages;
     }
 
+    /** Returns a list of container pages (as PageBeans) on which the given resource is shown.
+     * @param structureId Structure id of the resource for which pages should be searched.
+     * @return List of PageBean objects intantiated with the container pages the given resource is shown at
+     */
     private List<PageBean> getDisplayedOnLinksForResource(final CmsUUID structureId) {
 
         List<PageBean> result = new LinkedList<PageBean>();
+        CmsObject cmsObject = this.getCmsObject();
+        List<CmsResource> sources = PageFinder.getDisplayedOnPages(cmsObject, structureId);
         try {
-            CmsObject cmsObject = this.getCmsObject();
-            CmsRelationFilter filter = CmsRelationFilter.SOURCES;
-            CmsResource resource = cmsObject.readResource(structureId);
-            List<CmsRelation> relations = cmsObject.getRelationsForResource(resource, filter);
-            List<CmsResource> sources = new LinkedList<CmsResource>();
-            for (CmsRelation relation : relations) {
-                sources.add(cmsObject.readResource(relation.getSourceId()));
-            }
-            Iterator<CmsResource> sourceIterator = sources.iterator();
-            while (sourceIterator.hasNext()) {
-                CmsResource source = sourceIterator.next();
-                if (source.getTypeId() != CONTAINERPAGE_TYPE_ID) {
-                    sourceIterator.remove();
-                }
-            }
             for (CmsResource source : sources) {
                 result.add(new PageBean(cmsObject.getSitePath(source), cmsObject.readPropertyObject(
                     source,
