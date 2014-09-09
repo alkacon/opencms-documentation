@@ -34,52 +34,77 @@ import org.opencms.main.CmsException;
 import java.util.LinkedList;
 import java.util.List;
 
+/** Bean for convenient access of all TODOs on one page */
 public class PageTodos {
 
-    private CmsObject m_cmsObject;
+    /** page bean */
     private PageBean m_pageBean;
-    private CmsResource m_page;
+    /** topic todos */
     private TopicBean m_topicTodos;
+    /** section todos for each section */
     private List<SectionBean> m_sectionTodos;
 
-    public PageTodos(CmsResource page, CmsObject cmsObject)
+    /** Construct a new PageTodos object, holding the todos for the given page.
+     * @param page Page for which todos are stored
+     * @param cmsObject CmsObject used to initialize the page bean
+     * @throws CmsException
+     */
+    public PageTodos(final CmsResource page, final CmsObject cmsObject)
     throws CmsException {
 
-        m_page = page;
-        m_cmsObject = cmsObject;
         m_topicTodos = null;
         m_sectionTodos = new LinkedList<SectionBean>();
-        initPageBean();
+        initPageBean(page, cmsObject);
     }
 
-    void initPageBean() throws CmsException {
+    /** Init the page bean.
+     * @param page resource of the container page
+     * @param cmsObject CmsObject used to get informations from the provided page
+     * @throws CmsException
+     */
+    private void initPageBean(final CmsResource page, final CmsObject cmsObject) throws CmsException {
 
-        m_pageBean = new PageBean(m_cmsObject.getSitePath(m_page), m_cmsObject.readPropertyObject(
-            m_page,
-            "NavText",
-            true).getValue(), m_cmsObject.readPropertyObject(m_page, "Title", true).getValue());
+        m_pageBean = new PageBean(
+            cmsObject.getSitePath(page),
+            cmsObject.readPropertyObject(page, "NavText", true).getValue(),
+            cmsObject.readPropertyObject(page, "Title", true).getValue());
     }
 
+    /**
+     * @return PageBean holding the page information
+     */
     public PageBean getPageInfo() {
 
         return m_pageBean;
     }
 
-    public void addTopic(TopicBean topic) {
+    /** Set the topic todos. If set more than once, the Topic bean gets overwritten.
+     * @param topic TopicBean to add
+     */
+    public void addTopic(final TopicBean topic) {
 
         m_topicTodos = topic;
     }
 
-    public void addSection(SectionBean section) {
+    /**Add section todos for one section.
+     * @param section SectionBean to add
+     */
+    public void addSection(final SectionBean section) {
 
         m_sectionTodos.add(section);
     }
 
+    /**
+     * @return TopicBean with the topic TODOs
+     */
     public TopicBean getTopic() {
 
         return m_topicTodos;
     }
 
+    /**
+     * @return Get the list of sections holding there TODOs
+     */
     public List<SectionBean> getSectionList() {
 
         return m_sectionTodos;
