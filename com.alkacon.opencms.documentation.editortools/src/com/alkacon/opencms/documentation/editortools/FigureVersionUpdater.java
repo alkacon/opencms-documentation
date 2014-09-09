@@ -41,16 +41,26 @@ import org.opencms.xml.types.I_CmsXmlContentValue;
 
 import org.apache.commons.logging.Log;
 
+/** */
 public class FigureVersionUpdater extends CmsJspBean {
 
     /** The log object for this class. */
     private static final Log LOG = CmsLog.getLog(CmsUUID.class);
 
+    /** type id of documentation-figure */
     private static final int DOCUMENTATION_FIGURE_TYPE_ID = 356;
+
+    /** the version value that should be set */
     private String m_newVersion = null;
+    /** the documentation-figure resource where the new version should be set */
     private CmsResource m_figureResource = null;
 
-    public void setFileAndVersion(String uuid, String newVersion) {
+    /** Set the documentation figure that should be adjusted and the new version number
+     * @param uuid Structure id of the documentation-figure resource where the version number should be changed
+     * @param newVersion the version number that should be set
+     */
+    @SuppressWarnings({"null", "unused"})
+    public void setFileAndVersion(final String uuid, final String newVersion) {
 
         try {
             CmsUUID id = new CmsUUID(uuid);
@@ -68,6 +78,9 @@ public class FigureVersionUpdater extends CmsJspBean {
         }
     }
 
+    /** Update the version number.
+     * @return true if the update was successful, otherwise false.
+     */
     public boolean getUpdateVersionNumber() {
 
         if ((m_figureResource == null) || (m_newVersion == null)) {
