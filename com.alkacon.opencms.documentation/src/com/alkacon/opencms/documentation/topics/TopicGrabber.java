@@ -56,7 +56,8 @@ public class TopicGrabber extends CmsJspBean {
     /** Logger for the class */
     protected static final Log LOG = CmsLog.getLog(TopicGrabber.class);
 
-    Map<String, CmsJspContentAccessBean> m_topics = null;
+    /** Lazily generated map that has page URLs as keys and topic contents as values. */
+    private Map<String, CmsJspContentAccessBean> m_topics = null;
 
     /**
      * Returns a lazily initialized map with links to pages as keys and the content of the topic found on the respective page as value, or null if no topic was found.
@@ -93,7 +94,11 @@ public class TopicGrabber extends CmsJspBean {
         return m_topics;
     }
 
-    private CmsJspContentAccessBean getTopicContentForPage(String url) {
+    /** Returns the topic placed on the page with the given VFS URL
+     * @param url VFS URL of the page where the topic is searched on
+     * @return Topic content as CmsJspContentAccessBean
+     */
+    CmsJspContentAccessBean getTopicContentForPage(String url) {
 
         try {
             CmsObject cmsObject = this.getCmsObject();
