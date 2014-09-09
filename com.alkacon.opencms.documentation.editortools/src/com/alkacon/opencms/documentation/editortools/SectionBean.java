@@ -31,14 +31,25 @@ import org.opencms.util.CmsUUID;
 
 import java.util.List;
 
+/** Bean to expose information about a section and it's TODOs easily in a JSP. */
 public class SectionBean {
 
+    /** Structure id of the documentation-section content */
     private CmsUUID m_structureId;
+    /** Headline of the section */
     private String m_headline;
+    /** RefId of the section content */
     private String m_refId;
+    /** Todos of the section */
     private List<String> m_todos;
 
-    public SectionBean(CmsUUID structureId, String headline, String refId, List<String> todos) {
+    /** Constructor for the section bean where all values are set.
+     * @param structureId Structure id of the documentation-section content
+     * @param headline The section's headline
+     * @param refId The section's RefId
+     * @param todos the TODOs for the section
+     */
+    public SectionBean(final CmsUUID structureId, final String headline, final String refId, final List<String> todos) {
 
         m_headline = headline;
         m_refId = refId;
@@ -46,21 +57,33 @@ public class SectionBean {
         m_structureId = structureId;
     }
 
+    /**
+     * @return Headline of the section
+     */
     public String getHeadline() {
 
         return m_headline;
     }
 
+    /**
+     * @return RefId of the section
+     */
     public String getRefId() {
 
         return m_refId;
     }
 
+    /**
+     * @return Todos for the section
+     */
     public List<String> getTodos() {
 
         return m_todos;
     }
 
+    /**
+     * @return Structure id of the documentation-section resource.
+     */
     public CmsUUID getStructureId() {
 
         return m_structureId;
