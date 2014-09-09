@@ -27,29 +27,49 @@
 
 package com.alkacon.opencms.documentation.editortools;
 
+/** Bean to provide information to build a link to a page (i.e., a Title, NavText and the VFS URI). */
 public class PageBean {
 
+    /** The page title */
     private String m_title;
+    /** A navigation text for the page */
     private String m_navText;
+    /** Link to the page (VFS URI) */
     private String m_link;
 
-    public PageBean(String link, String navText, String title) {
+    /**
+     * Page bean constructor that get's all the values available via the bean as arguments. 
+     * 
+     * @param link VFS URI of the page
+     * @param navText NavText property of the page
+     * @param title Title property of the page
+     */
+    public PageBean(final String link, final String navText, final String title) {
 
         m_title = title;
         m_navText = navText;
         m_link = link;
     }
 
+    /**
+     * @return Title of the page
+     */
     public String getTitle() {
 
         return m_title;
     }
 
+    /**
+     * @return Navigation text for the page
+     */
     public String getNavText() {
 
         return m_navText;
     }
 
+    /**
+     * @return Link to the page (VFS URI).
+     */
     public String getLink() {
 
         return m_link;
