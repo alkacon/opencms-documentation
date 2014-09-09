@@ -41,8 +41,16 @@ import org.opencms.xml.content.CmsXmlContentFactory;
 
 import java.util.List;
 
+/**
+ * Class to auto-correct content. Used by the auto-correct-xml content formatter.
+ */
 public class AutoCorrectContent extends CmsJspActionElement {
 
+    /**
+     * Does the auto-correction. Folder and type of the contents are specified via parameters handed over to the JSP that instantiates AutoCorrectContent.
+     * 
+     * @return Either "Ok", if everything went right, or otherwise the stacktrace of the error
+     */
     public String autocorrect() {
 
         String folder = getRequest().getParameter("folder");
