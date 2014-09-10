@@ -27,14 +27,13 @@
 
 package com.alkacon.opencms.documentation.editortools;
 
-import org.opencms.file.CmsObject;
+import com.alkacon.opencms.documentation.editortools.utils.PageFinder;
+
 import org.opencms.file.CmsResource;
 import org.opencms.jsp.CmsJspBean;
 import org.opencms.main.CmsException;
 import org.opencms.main.CmsLog;
 import org.opencms.main.OpenCms;
-import org.opencms.relations.CmsRelation;
-import org.opencms.relations.CmsRelationFilter;
 import org.opencms.search.CmsSearchException;
 import org.opencms.search.CmsSearchResource;
 import org.opencms.search.solr.CmsSolrIndex;
@@ -43,8 +42,6 @@ import org.opencms.util.CmsUUID;
 
 import java.util.Collection;
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
@@ -54,24 +51,39 @@ import javax.servlet.jsp.PageContext;
 
 import org.apache.commons.logging.Log;
 
+/** Collect all TODOs from Topics and Sections, sort them by pages and expose them as Collection of PageTodos. */
+
 public class TodoCollector extends CmsJspBean {
 
     /** The log object for this class. */
     private static final Log LOG = CmsLog.getLog(CmsUUID.class);
 
+    /** Folder where the content of the documentation is stored in (relative to the site path) */
     private static final String CONTENT_SEARCH_FOLDER = "/opencms-documentation/.content";
+    /** Name of the documentation's topic type */
     private static final String TOPIC_TYPE_NAME = "documentation-topic";
+    /** Name of the documentation's section type */
     private static final String SECTION_TYPE_NAME = "documentation-section";
+    /** Search index used for collecting TODOs */
     private static final String SOLR_INDEX_NAME = "Solr Offline";
 
-    /** Type id of container pages */
-    private static final int CONTAINERPAGE_TYPE_ID = 13;
+    /** Headline Solr field */
+    static final String HEADLINE_SOLR_FIELD = "headline_en";
+    /** RefId Solr field */
+    static final String REF_ID_SOLR_FIELD = "refId_en";
+    /** Todos Solr field */
+    static final String TODOS_SOLR_FIELD = "todos_en";
 
+    /** Map with containerpages as keys (UUIDs) and the corresponding page todos as values */
     Map<CmsUUID, PageTodos> m_todos = null;
+    /** Locale for which all TODOs are collected for */
     String m_locale;
 
+    /** Initialize the bean and collect all TODOs.
+     * @see org.opencms.jsp.CmsJspBean#init(javax.servlet.jsp.PageContext, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+     */
     @Override
-    public void init(PageContext pageContext, HttpServletRequest request, HttpServletResponse response) {
+    public void init(final PageContext pageContext, final HttpServletRequest request, final HttpServletResponse response) {
 
         super.init(pageContext, request, response);
         try {
@@ -81,11 +93,18 @@ public class TodoCollector extends CmsJspBean {
         }
     }
 
+    /**
+     * @return Collection of all PageTodos
+     */
     public Collection<PageTodos> getTodos() {
 
         return m_todos.values();
     }
 
+    /** Collect the TODOs for all Topics and Sections of the documentation.
+     * 
+     * @throws CmsSearchException
+     */
     private void collectTodos() throws CmsSearchException {
 
         m_locale = getCmsObject().getRequestContext().getLocale().getLanguage();
@@ -94,6 +113,10 @@ public class TodoCollector extends CmsJspBean {
         collectSectionTodos();
     }
 
+    /** Collect all Topic TODOs
+     * 
+     * @throws CmsSearchException
+     */
     private void collectTopicTodos() throws CmsSearchException {
 
         CmsSolrIndex index = OpenCms.getSearchManager().getIndexSolr(SOLR_INDEX_NAME);
@@ -104,7 +127,12 @@ public class TodoCollector extends CmsJspBean {
         }
     }
 
-    private String buildQuery(String requestedType) {
+    /**
+     * Build the Solr query for collecting TODOs
+     * @param requestedType requested resource type (by name, e.g. TOPIC_TYPE_NAME or SECTION_TYPE_NAME)
+     * @return Solr query for collecting the TODOs from the contents of the given resource type
+     */
+    private String buildQuery(final String requestedType) {
 
         return "q=todos_"
             + m_locale
@@ -116,10 +144,14 @@ public class TodoCollector extends CmsJspBean {
             + "\"&rows=100000";
     }
 
-    private void addTopicTodos(CmsSearchResource topic) {
+    /** Add the TODOs of a found Topic to the pageTodos
+     * 
+     * @param topic Topic found via the Solr search
+     */
+    private void addTopicTodos(final CmsSearchResource topic) {
 
-        List<CmsResource> pages = getPagesForResource(topic.getStructureId());
-        TopicBean topicBean = new TopicBean(topic.getStructureId(), topic.getMultivaluedField("todos_en"));
+        List<CmsResource> pages = PageFinder.getDisplayedOnPages(getCmsObject(), topic.getStructureId());
+        TopicBean topicBean = new TopicBean(topic.getStructureId(), topic.getMultivaluedField(TODOS_SOLR_FIELD));
         for (CmsResource page : pages) {
             if (!m_todos.containsKey(page.getStructureId())) {
                 try {
@@ -133,6 +165,10 @@ public class TodoCollector extends CmsJspBean {
         }
     }
 
+    /** Collect all Section TODOs
+     * 
+     * @throws CmsSearchException
+     */
     private void collectSectionTodos() throws CmsSearchException {
 
         CmsSolrIndex index = OpenCms.getSearchManager().getIndexSolr(SOLR_INDEX_NAME);
@@ -143,14 +179,18 @@ public class TodoCollector extends CmsJspBean {
         }
     }
 
-    private void addSectionTodos(CmsSearchResource section) {
+    /** Add a section with it's TODOs to the correct PageTodo in the map of PageTodos
+     * 
+     * @param section
+     */
+    private void addSectionTodos(final CmsSearchResource section) {
 
-        List<CmsResource> pages = getPagesForResource(section.getStructureId());
+        List<CmsResource> pages = PageFinder.getDisplayedOnPages(getCmsObject(), section.getStructureId());
         SectionBean sectionBean = new SectionBean(
             section.getStructureId(),
-            section.getField("headline_en"),
-            section.getField("refId_en"),
-            section.getMultivaluedField("todos_en"));
+            section.getField(HEADLINE_SOLR_FIELD),
+            section.getField(REF_ID_SOLR_FIELD),
+            section.getMultivaluedField(TODOS_SOLR_FIELD));
         for (CmsResource page : pages) {
             if (!m_todos.containsKey(page.getStructureId())) {
                 try {
@@ -162,46 +202,5 @@ public class TodoCollector extends CmsJspBean {
             PageTodos pageTodos = m_todos.get(page.getStructureId());
             pageTodos.addSection(sectionBean);
         }
-    }
-
-    private List<CmsResource> getPagesForResource(final CmsUUID structureId) {
-
-        List<CmsResource> result = new LinkedList<CmsResource>();
-        try {
-            CmsObject cmsObject = this.getCmsObject();
-            CmsRelationFilter filter = CmsRelationFilter.SOURCES;
-            CmsResource resource = cmsObject.readResource(structureId);
-            List<CmsRelation> relations = cmsObject.getRelationsForResource(resource, filter);
-            result = new LinkedList<CmsResource>();
-            for (CmsRelation relation : relations) {
-                result.add(cmsObject.readResource(relation.getSourceId()));
-            }
-            Iterator<CmsResource> sourceIterator = result.iterator();
-            while (sourceIterator.hasNext()) {
-                CmsResource source = sourceIterator.next();
-                if (source.getTypeId() != CONTAINERPAGE_TYPE_ID) {
-                    sourceIterator.remove();
-                }
-            }
-            return result;
-        } catch (Exception e) {
-            LOG.error(e.getStackTrace());
-            return result;
-        }
-    }
-
-    private String getTodosFieldName() {
-
-        return "todos_" + m_locale;
-    }
-
-    private String getHeadlineFieldName() {
-
-        return "headline_" + m_locale;
-    }
-
-    private String getRefIdFieldName() {
-
-        return "refId_" + m_locale;
     }
 }
