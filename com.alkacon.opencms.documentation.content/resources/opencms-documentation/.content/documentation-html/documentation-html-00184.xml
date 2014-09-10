@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The class <code>org.opencms.search.solr.CmsSolrResultList</code> encapsulates a list of 'OpenCms resource documents' (<code>CmsSearchResource</code>).<br />The list can be accessed exactly like an <code>ArrayList</code> with entries of the type <code>CmsSearchResource</code> that extend the type <code>CmsResource</code> and holds the Solr implementation of <code>I_CmsSearchDocument</code> as member. This format enables you to deal with the results as with a well known <code>List</code> and work on its entries like you do on <code>CmsResource</code>.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

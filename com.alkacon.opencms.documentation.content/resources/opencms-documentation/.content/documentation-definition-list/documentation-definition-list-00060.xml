@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Macros usable in default values]]></Title>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[%(page_title)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If the content is placed exactly at one page, the macro expands to the <code>Title</code> property of this page. Otherwise, it expands to the empty string.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[%(page_nav)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If the content is placed exactly at one page, the macro expands to the <code>NavPos</code> property of this page. Otherwise, it expands to the empty string.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[%(no_prefix:{string})]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If the macro is expanded at the beginning of a string, it expands to the empty string. Otherwise, it expands to the value given as <code>{string}</code>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[%(value:{XPath})]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The macro expands to the value of the current content's element that is accessed via the given <code>{XPath}</code>.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

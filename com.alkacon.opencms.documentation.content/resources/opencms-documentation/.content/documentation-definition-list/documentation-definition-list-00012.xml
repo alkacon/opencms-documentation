@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[XML Contents: Available field types]]></Title>
+    <Heading><![CDATA[Available XML field types]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[OpenCmsBoolean]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Represents a Boolean value as String (<code>'true'</code>/<code>'false'</code>).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[OpenCmsCategory]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Can handle one or more selected categories.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[OpenCmsColor]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Stores a hexadecimal color value.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[OpenCmsTimeDate]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Handles a date value.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[OpenCmsHtml]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Used for rich text editor fields (keeps internal relations, e.g., text links intact).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[OpenCmsLocale]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Stores a locale value.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[OpenCmsPlainTextString]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Stores the extracted text for a field containing HTML.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[OpenCmsString]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Stores a simple String 1:1.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[OpenCmsVarLink]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Can handle internal and external links at once.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[OpenCmsVfsFile]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Designated for storing internal file references.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[OpenCmsVfsImage]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Refers internal images (handles image format, scaling, description …).</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

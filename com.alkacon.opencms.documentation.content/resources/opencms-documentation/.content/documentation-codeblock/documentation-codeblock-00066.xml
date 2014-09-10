@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
+  <DocumentationCodeBlock language="en">
+    <Code><![CDATA[http://localhost:8080/opencms/opencms/handleSolrSelect?
+    fq=type:v8article
+    &fq=lastmodified:[NOW-1DAY TO NOW]
+    &fq=Title_prop:Flower]]></Code>
+  </DocumentationCodeBlock>
+</DocumentationCodeBlocks>

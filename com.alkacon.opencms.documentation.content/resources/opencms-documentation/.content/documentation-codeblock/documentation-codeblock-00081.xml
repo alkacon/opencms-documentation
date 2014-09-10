@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
+  <DocumentationCodeBlock language="en">
+    <Code><![CDATA[<indexsource>
+	<name>solr_source</name>
+	<indexer class="org.opencms.search.CmsVfsIndexer" />
+	<resources>
+		<resource>/sites/default/</resource>
+	</resources>
+	<documenttypes-indexed>
+		<name>xmlcontent-solr</name>
+		<name>containerpage</name>
+		<name>xmlpage</name>
+		<name>text</name>
+		<name>pdf</name>
+		<name>image</name>
+		<name>msoffice-ole2</name>
+		<name>msoffice-ooxml</name>
+		<name>openoffice</name>
+	</documenttypes-indexed>
+</indexsource>]]></Code>
+  </DocumentationCodeBlock>
+</DocumentationCodeBlocks>

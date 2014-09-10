@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[UserBean: useful properties]]></Title>
+    <Heading><![CDATA[List of useful properties]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[guestUser]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns <code>true</code> if the user is not logged in.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[fullName]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns “firstname lastname (username)”.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[firstname]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns the firstname of the user.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[lastname]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns the lastname of the user.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[email]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns the email of the user.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[address]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns the address of the user.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[institution]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns the institution information of the user.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

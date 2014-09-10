@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>The containers in a container page template are dynamically filled up with content. To render such content or enrich it with special JavaScript functionality, certain formatter specific CSS styles or JavaScript sources may be necessary. OpenCms allows formatters to add CSS styles and JavaScript to a template. The mechanism is called head includes. It has the following advantages:</p>
+<ul>
+<li>Scripts / styles are included on demand.</li>
+<li>If several elements on a page require the same scripts / styles, they are included just once.</li>
+<li>Scripts / styles are closely tied to the formatters that employ them.</li>
+</ul>]]></content>
+    </Overview>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

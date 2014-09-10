@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Sitemap Editor's context menu options]]></Title>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[Show parent sitemap]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Shows the parent sitemap of the current sitemap. The options appears only in a sub-sitemaps.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Edit aliases]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>TODO</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Refresh]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Refresh the view on the sitemap.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Show workplace]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Opens the OpenCms workplace in a new window.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Preferences]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/views-in-opencms/the-page-editor/]]></target>
+            <uuid>772a450b-02c1-11e4-8167-1305b26fecac</uuid>
+            <anchor><![CDATA[context_menu_preferences]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Open a dialog to edit the user preferences. See <a href="%(link0)">here</a> for more information.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Logout]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Logout from OpenCms and redirect to the login page.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

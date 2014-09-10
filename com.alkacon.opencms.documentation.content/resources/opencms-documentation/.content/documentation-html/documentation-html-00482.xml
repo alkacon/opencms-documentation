@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>When configuring a formatter that exposes a nested container, you should check the option "Nested containers" in the formatter configuration. Your formatter might work also without checking this option, but this could not be the case in future OpenCms versions. Besides that fact, the option will cause some extra validations.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

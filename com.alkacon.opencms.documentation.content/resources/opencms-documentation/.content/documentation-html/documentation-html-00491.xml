@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Once the three modules are loaded, you can add suitable virtual hosts configurations for your OpenCms websites. OpenCms uses name-based hosting, i.e., the server name is used to identify the website that should be servered. Thus multiple sites are reachable under one server with the same IP-Address.</p>
+<p>To configure a site, add a virtual host to your Apache configuration. In the default Apache installation on Ubuntu, this is preferably done via a site configuration. Site configurations are stored as <code>/etc/apache/sites-available and enabled/</code> via <code>a2ensite</code>. Enabled site configurations are linked in the folder <code>/etc/apache/sites-enabled/</code>. Alternatively, your virtual host configuration can be placed in the <code>httpd.conf</code> file.</p>
+<p>Here is a possible configuration that tries to increase performance by calling Tomcat as few as possible and that also involves some configurations to increase security. We configure the web-address <code>www.example.com</code> to be an OpenCms website.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

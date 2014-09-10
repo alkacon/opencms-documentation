@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The content editor in OpenCms 8.5 has been completely rewritten in HTML 5 for ease-of-use and speed. The editor is automatically generated based on XML schemas describing the structure of content types. It provides a rich user interface for the content managers that are used to generate XML files based on the XML schemas. The generated XML is then stored in the OpenCms repository.</p>
+<p><strong>Main features of the content editor are:</strong></p>
+<ul>
+<li>Runs on the client side and provides a highly responsive user experience.</li>
+<li>Automatically generated from an XML schema, no programming required.</li>
+<li>Provides a large selection of rich user interface widgets.</li>
+<li>Can be extended with custom user interface widgets for special use cases.</li>
+<li>Generates XML files that are validated against the XML schema and stored in the database.</li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

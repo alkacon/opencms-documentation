@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[VFS file widget configuration options]]></Title>
+    <Heading><![CDATA[Available configuration options]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[hidesiteselector]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The site selector is hidden (default).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[showsiteselector]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The site selector is shown.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[excludefiles]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Files are hidden in the popup tree.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[includefiles]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Files are shown in the popup tree (default).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[projectaware]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Show only resources of the current project.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[notprojectaware]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Do not filter resources by project (default).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[startsite]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The site or folder the popup tree is opened with.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

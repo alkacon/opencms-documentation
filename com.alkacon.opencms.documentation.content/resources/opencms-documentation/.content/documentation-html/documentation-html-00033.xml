@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Interesting in the above code fragment is:</p>
+<ul>
+<li><em>The code is placed in a separate scope (via the surrounding “<code>$(function () {…});</code>”).</em> In the scope we have a scope-“global” variable storing the current UGC-session. Moreover, we declare a variable to store the content read from the server and possibly other variables may be useful, such as <code>formId</code> in the example.</li>
+<li><em><code>window.initUgc</code> is a function defined by the UGC JavaScript API and overwritten in the above code.</em> The function is called when the UGC API is completely loaded and ready to use. In this function you should:
+<ul>
+<li>Set a wait indicator handler (optional)</li>
+<li>Set an error handler for client-side errors (optional)</li>
+<li>Get the session object for the current session</li>
+</ul>
+</li>
+</ul>
+<div class="alert alert-danger">Do <em>not</em> use any of the UGC API functions until <code>initUgc</code> is called! This leads to errors, since the API may not be loaded.</div>
+<ul>
+<li><em>The established session is destroyed when the page is left</em> (calling <code>session.destroy()</code> in <code>(window).unload(…)</code>).</li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

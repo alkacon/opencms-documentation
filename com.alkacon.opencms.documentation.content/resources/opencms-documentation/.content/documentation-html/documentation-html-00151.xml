@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The <code>rdfa</code> attribute of the <code>&lt;cms:formatter&gt;</code> tag is used in a similar manner to the <code>val</code> attribute. Assume the content has a field with the name <code>Title</code>. In EL with <code>${rdfa.Title}</code> you get the specific CSS attributes, which are required to enable the inline editing for this content field. These automatically generated attributes have to be set as attribute on the HTML element, which surrounds the field content. Please note that the inline editing feature cannot be applied to field contents, that are manipulated in a JSP, e.g., with <code>cms:stripHtml()</code> or <code>cms:trimToSize()</code>.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

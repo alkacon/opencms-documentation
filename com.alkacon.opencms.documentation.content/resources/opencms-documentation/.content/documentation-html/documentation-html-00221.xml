@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://docs.oracle.com/javase/1.5.0/docs/guide/intl/locale.doc.html]]></target>
+          <anchor><![CDATA[util-text]]></anchor>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://lucidworks.lucidimagination.com/display/solr/Language+Analysis]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>In this example, text is sorted according to the default German rules provided by Java. The rules for sorting German in Java are defined in a package called Java Locale.<br />Locales are typically defined as a combination of language and country, but you can specify just the language if you want. For example, if you specify "de" as the language, you will get sorting that works well for German language. If you specify "de" as the language and "CH" as the country, you will get German sorting specifically tailored for Switzerland. You can see a list of supported Locales <a href="%(link0)">here</a>. And in order to get more general information about how text analysis is working with Solr have a look at <a href="%(link1)">Language Analysis</a> page.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

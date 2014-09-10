@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>By <code>${content.valueList.Paragraph}</code> a list of <code>CmsJspContentAccessValueWrapper</code> objects is returned. By <code>${paragraph.value.Headline}</code> and <code>${paragraph.value.Text}</code> the nested values of the list elements are accessed. Just replace the <code>.value</code> with rdfa to get the css attributes required for inline editing. To enable the inline editing add <code>${paragraph.rdfa.Headline}</code> and <code>${paragraph.rdfa.Text}</code> to the HTML tag, which surround the field content:</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

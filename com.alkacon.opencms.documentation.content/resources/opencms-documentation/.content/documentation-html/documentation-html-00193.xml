@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The OpenCms SolrSelect request handler does not support the external HTTP Solr Server. So if your HTTP Solr Server is directly reachable by <code>http://&lt;your_server&gt;</code> there will no permission check performed and indexed data that is secret will be accessible. What means that you are <strong>self-responsible</strong> for resources that have permission restrictions set on the VFS of OpenCms. But of course you can use the method</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

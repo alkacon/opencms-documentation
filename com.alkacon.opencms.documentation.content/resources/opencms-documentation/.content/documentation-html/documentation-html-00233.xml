@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://chemistry.apache.org/java/download.html]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>OpenCms version 8.5 and later comes with CMIS connectivity out of the box. So no configuration is required on the OpenCms side. We assume that an OpenCms instance is running locally under <code>http://localhost:8080/opencms</code>, where <code>opencms</code> is the web application name.</p>
+<p>We use the Apache Chemistry Workbench for this example. This is a Java GUI client application for accessing arbitrary CMIS repositories. You can download it from <a href="%(link0)">here</a>.</p>
+<p>Start the Apache Chemistry Workbench and click the "Connection" button. The following dialog will open:</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

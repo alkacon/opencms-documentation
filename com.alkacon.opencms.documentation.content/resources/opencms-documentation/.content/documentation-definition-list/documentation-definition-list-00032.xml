@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[RequestContextBean: Useful properties to access further interesting Java beans]]></Title>
+    <Heading><![CDATA[List of properties to access further interesting Java beans]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[currentUser]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[sec_user_bean]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Access to the <a href="%(link0)">user bean</a> <code>org.opencms.file.CmsUser</code>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[currentProject]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[sec_project_bean]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Access to the <a href="%(link0)">project bean</a> <code>org.opencms.file.CmsProject</code>.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

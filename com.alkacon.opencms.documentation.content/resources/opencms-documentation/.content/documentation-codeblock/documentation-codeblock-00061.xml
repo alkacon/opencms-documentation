@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
+  <DocumentationCodeBlock language="en">
+    <Code><![CDATA[<p>The locale of the request specific locale is "${cms.locale}".</p>
+
+<p>The locale of your workplace is "${cms.workplaceLocale}".</p>
+
+<p>To change the request specific locale, add the parameter "__locale=de" to the url.</p>
+
+<p>The workplace locale is set via the preferences in your OpenCms workplace.</p>]]></Code>
+  </DocumentationCodeBlock>
+</DocumentationCodeBlocks>

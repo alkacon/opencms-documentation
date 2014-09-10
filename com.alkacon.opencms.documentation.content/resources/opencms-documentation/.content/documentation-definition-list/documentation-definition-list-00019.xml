@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Clone module dialog fields]]></Title>
+    <Heading><![CDATA[The "Clone Module" dialogs translation options]]></Heading>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[Prefix Substitution]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Content types defined in XSDs are made available as resource types (and explorer types) with a unique name and ID in the opencms-modules.xml (the file is located in the RFS in the folder <code>WEB-INF/config/</code>). The unique names are used for example in module and sitemap configurations. While new IDs for cloned types are chosen automatically, the unique names are adjusted via prefix substitution. If present, the given “Source prefix name” is removed from the original name of the resource type and afterwards the “Target prefix name” is prepended.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Formatter Substitution]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Before OpenCms 9, formatters where configured in XSDs. If the formatters were part of the cloned module, or, if a module containing the original formatters has been cloned in advance, the URI to the formatters stored in the XSDs has to be adjusted. In particular, the module name in the path has to be updated. This is achieved by setting the “Formatter source” to the name of the module that contained the original formatters, and the “Formatter target” to the name of the module where the cloned formatters are located.</p>
+<p>Note that formatter configs are not adjusted.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Change contents to new resource types]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>XML contents contain a link to the XSD that defines their type. If the “Change contents to new resource types”-option is checked, in all contents of the currently selected site, these links are adjusted to refer to the cloned XSDs. Ensure that you select the appropriate site in the menu bar of the workplace.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Change references in container pages]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Container pages may contain references to resources that are part of the source module. For example, it could be referred to a dynamic function. Checking this option, links to such resources are redirected to the clones. The changes are performed for all container pages of the site selected when cloning. Ensure to select the appropriate site in the menu bar of the workplace.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Apply changes to all sites]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If checked, the currently selected site in the workplace is ignored and the changes in contents and container pages (if they should be performed at all) are applied in all sites.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

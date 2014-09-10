@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/mounting-the-vfs/network-share-access-smb-cifs-integration-/]]></target>
+          <uuid>f537a403-0cd1-11e4-a7cb-b7bfd6088c56</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>By default, the OpenCms VFS and hence all files located there can only be accessed via the traditional workplace's explorer. This explorer has several advantages, because it allows to use all "special" features of the VFS, and editing XML files opens the content editor. But it causes also some inconvenience:</p>
+<ul>
+<li>You have to leave your usual work environment.</li>
+<li>You are tied to the source code editor shipped with OpenCms.</li>
+<li>You cannot keep several files open for editing, copying and comparing them.</li>
+<li>You have to change sites when changing files in the root site and viewing changes in web page.</li>
+</ul>
+<p>To overcome the described drawbacks, OpenCms allows you to mount the virtual file system to the real file system of your computer. Two ways to mount the VFS are possible and described in distinct topics. We recommend to use <a href="%(link0)">JLan for exposing the VFS as SMB/CIFS network share</a>.</p>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>Mounting the VFS to your computers file system allows direct access to resources in the VFS without using the traditional workplace's explorer. In particular, you are not tied to special editors anymore and can open several files in parallel. OpenCms provides two ways to mount the VFS.</p>]]></content>
+    </Teaser>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

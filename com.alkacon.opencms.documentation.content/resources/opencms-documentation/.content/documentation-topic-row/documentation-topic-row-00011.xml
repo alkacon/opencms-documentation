@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationTopicrows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic-row.xsd">
+  <DocumentationTopicrow language="en">
+    <Title><![CDATA[Groups of content elements]]></Title>
+    <Description name="Description0">
+      <links/>
+      <content><![CDATA[<p>Usually, content elements are added to container pages and each element is independed of others. Two special predefined contents allow to group content elements on container pages. Groups of elements can be added to other pages, or moved at a page. If elements are added/removed from a group, this affects all instances of the group.</p>]]></content>
+    </Description>
+    <Item>
+      <Headline/>
+      <Topic>
+        <PageLink>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/special-predefined-content-types/element-group/]]></target>
+            <uuid>6f4b9948-18b5-11e4-8e8b-b7bfd6088c56</uuid>
+          </link>
+        </PageLink>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/special-predefined-content-types/inheritance-group/]]></target>
+            <uuid>7b70e1e2-18b5-11e4-8e8b-b7bfd6088c56</uuid>
+          </link>
+        </PageLink>
+      </Topic>
+    </Item>
+  </DocumentationTopicrow>
+</DocumentationTopicrows>

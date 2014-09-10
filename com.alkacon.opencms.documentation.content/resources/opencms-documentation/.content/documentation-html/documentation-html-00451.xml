@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link2" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[fig_location_picker_widget]]></anchor>
+        </link>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[https://www.google.de]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[https://developers.google.com/maps/]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>The location picker widget allows to select a location via a map and to store information about the selected location and how it should be displayed in a map. The widget works for <a href="%(link0)">Google Maps</a>, displays a Google Maps map in the widget and stores the data relevant to display a map using the <a href="%(link1)">Google Maps API</a>. Be sure to meet the licence conditions when using Google Maps.</p>
+<p>If a location is chosen, the widget looks as in Figure <a href="%(link2)">[location_picker_widget]</a>.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

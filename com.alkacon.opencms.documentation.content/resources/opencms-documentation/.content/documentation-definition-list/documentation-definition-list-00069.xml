@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Explorer view - Lock types and symbols]]></Title>
+    <Heading><![CDATA[Lock types and symbols]]></Heading>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[No lock]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>No lock is shown, if the resource is not locked at all.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Exclusive lock]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_workplace/lock_user.gif]]></target>
+          <uuid>ce7175c7-37e8-11e4-8113-d144f6bb3566</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>An exclusive lock on single files and folders. You locked the resource</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Inherited lock]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_workplace/lock_user.gif]]></target>
+          <uuid>ce7175c7-37e8-11e4-8113-d144f6bb3566</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>An inherited lock. If a folder is locked, all resources inside the folder are locked. Possibly exclusive locks on the resources are replaced by inherited locks. You locked the folder.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Shared lock]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_workplace/lock_shared.gif]]></target>
+          <uuid>e61fedfc-37e8-11e4-8113-d144f6bb3566</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>For resources with siblings, the resource that is worked on gets an exclusive lock, all other siblings get a shared lock to prevent concurrent manipulation of the siblings.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Others lock]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_workplace/lock_other.gif]]></target>
+          <uuid>92fb0741-37e9-11e4-8113-d144f6bb3566</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The lock indicates that the resource is locked by another user.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

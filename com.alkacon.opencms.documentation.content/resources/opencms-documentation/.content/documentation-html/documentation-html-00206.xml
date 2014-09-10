@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The element <code>searchsetting</code> is used to declare the source (XSD content elements) and its corresponding destination (Solr fields) of the mapping. The attribute <code>element</code> is used to specify the XSD content element that should be mapped to a Solr field.</p>
+<p>In order to specify the Solr destination field, the child element <code>&lt;solrfield&gt;</code> is used. The following list contains its possible attributes.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

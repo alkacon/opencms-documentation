@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/building-a-page-navigation/changing-the-navigational-behavior-of-pages/]]></target>
+          <uuid>b37f0b50-1bac-11e4-bfa5-b7bfd6088c56</uuid>
+          <anchor><![CDATA[background]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>The navigations build via the <code>&lt;cms:navigation&gt;</code> tag include only resources that have at least one of the properties <code>NavText</code> or <code>NavPos</code> set. Other resources are ignored. Furthermore, resources where the <code>NavInfo</code> property is set to <code>ignoreInDefaultNav</code>, are ignored. Read more on this <a href="%(link0)">here</a>.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

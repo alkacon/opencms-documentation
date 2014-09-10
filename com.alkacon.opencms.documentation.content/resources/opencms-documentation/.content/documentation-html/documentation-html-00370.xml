@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The virtual file system provides the usual features of a "normal" file system:</p>
+<ul>
+<li>Files and folders can be moved, copied and deleted</li>
+<li>Permissions can be set</li>
+<li>Resources are locked if someone edits them</li>
+<li>Resouces have a creation and a "last modified" date</li>
+</ul>
+<p>But the VFS comes also with some extra features:</p>
+<ul>
+<li>Resources are typed (finer than just distinguishing file and folder)</li>
+<li>Resources have, potentially also user-defined, properties attached</li>
+<li>Resources in the system can be related (i.e., a dependency between them is established)</li>
+<li>The history of resources (state when publishing a resource) can be saved and restored</li>
+<li>When resources are moved, links are automatically adjusted (if the link-relationship-engine is used)</li>
+</ul>
+<p>Moreover, the traditional workplace's explorer allows you to publish resources. But more on this in the next section.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

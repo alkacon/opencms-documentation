@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The <code>&lt;xsd:choice&gt;</code>-node can be used in the same way as a <code>&lt;xsd:sequence&gt;</code> to describe an OpenCms type. It has to be defined in XML schema definition of a <strong>nested XML content</strong>. The element in the root schema has to be <strong>optional</strong>. Add attribute <code>minOccurs="0"</code> on the element to make it optional. <strong>Root XML Schema Definition:</strong></p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

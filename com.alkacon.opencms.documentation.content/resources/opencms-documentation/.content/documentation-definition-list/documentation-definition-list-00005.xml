@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[UGC Configuration Content - Settings for file uploads]]></Title>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[Upload folder]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Specifies the folder to which files are loaded up.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Max. upload size]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If set, the size (in Bytes) of each file that can be uploaded is limited to the set value.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Valid extensions]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>A list of file extensions separated by “;”. If set, only files with listed extensions can be loaded up. Otherwise, there is no restriction on file extensions.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

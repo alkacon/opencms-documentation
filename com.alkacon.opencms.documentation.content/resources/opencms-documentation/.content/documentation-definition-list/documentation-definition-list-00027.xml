@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[StandardContextBean: Useful properties for formatting elements]]></Title>
+    <Heading><![CDATA[List of useful properties for formatting elements]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[edited]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns <code>true</code> if the element was re-rendered without reloading the whole page, e.g., after editing the element’s content or moving the element on the page. This state might lead to limited functionality of javascript. Therefore, you might display just a “please reload” message.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[element]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns the currently rendered element.<br />Return type: <code>org.opencms.xml.containerpage.CmsContainerElementBean</code></p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[container]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns the container the currently rendered element is part of.<br />Return type: <code>org.opencms.xml.containerpage.CmsContainerBean</code></p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[detailContent]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[sec_resource_bean]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Returns the current detail content, or null if no detail content is requested.<br />Return type: <code>org.opencms.file.CmsResource</code> (see <a href="%(link0)">here</a>)</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[detailPageAvailable]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns <code>true</code> if a detail page is available for the current element.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[detailRequest]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns <code>true</code> if this is a request to a detail page.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

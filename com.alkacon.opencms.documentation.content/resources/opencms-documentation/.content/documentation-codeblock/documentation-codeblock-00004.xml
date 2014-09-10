@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
+  <DocumentationCodeBlock language="en">
+    <Code><![CDATA[$(function() {
+    var session = null;
+    var content = null;
+    var formId = "myFormId";
+
+    // function registered as wait callback
+    // argument: boolean, indicating if waiting for a Server reply
+    function waitCallback(isWaiting) { 
+        if (isWaiting) {
+            // …
+        } else {
+            // …
+        }
+    }
+    
+    // function registered as client error callback
+    //argument: string array with stack trace
+    function clientErrorCallback(error) { 
+        // …
+    }
+
+    // … ALL FUNCTIONS EXPLAINED IN THE FOLLOWING SUBSECTIONS …
+
+    window.initUgc = function() {
+        // set the wait indicator callback
+        OpenCmsUgc.setWaitIndicatorCallback(waitCallback);
+        // set the client-side error callback
+        OpenCmsUgc.setErrorCallback(clientErrorCallback);
+        // … do whatever else you want, e.g., get a session object:
+        // Assumption: sessionId is exposed at the <form>-tag as attribute
+        //             “session-id”
+        var sessionId = $( "#" + formId ).attr("session-id");
+        getSession(sessionId); // getSession() is a function you have to write
+                               // see the next subsection.
+    }
+    
+    $(window).unload(function() {
+        if (session != null) { session.destroy(); }
+    });
+});]]></Code>
+  </DocumentationCodeBlock>
+</DocumentationCodeBlocks>

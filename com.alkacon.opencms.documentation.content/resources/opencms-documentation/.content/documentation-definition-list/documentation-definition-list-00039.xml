@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[ProjectBean: Useful properties]]></Title>
+    <Heading><![CDATA[List of useful properties]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[name]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns the name of the project.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[description]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns the description of the project.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[dateCreated]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns the creation date of the project.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[uuid]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns the id of the project.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

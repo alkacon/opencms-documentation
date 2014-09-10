@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Sitemap Editor - Toolbar options]]></Title>
+    <Heading><![CDATA[Available options]]></Heading>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[Publish]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_big_ade/publishBigIconActive.png]]></target>
+          <uuid>7bb2098c-02bc-11e4-8167-1305b26fecac</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/views-in-opencms/the-page-editor/index.html]]></target>
+            <uuid>772fc350-02c1-11e4-8167-1305b26fecac</uuid>
+            <anchor><![CDATA[Publish]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Opens the <a href="%(link0)"><strong>Publish</strong> dialog</a>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Clipboard]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_big_ade/clipboardBigIconActive.png]]></target>
+          <uuid>7b857ae4-02bc-11e4-8167-1305b26fecac</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Shows recently modified or deleted pages.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Create page]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_big_ade/searchBigIconActive.png]]></target>
+          <uuid>7bc6550c-02bc-11e4-8167-1305b26fecac</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Enables the content manager to create new pages in the sitemap.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Change editor's view]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_big_ade/sitemapBigIconActive.png]]></target>
+          <uuid>7bd0b564-02bc-11e4-8167-1305b26fecac</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Switches the View of the sitemap editor. Three views are available: Sitemap (default), Resources (all VFS resources), Galleries (only galleries).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Context menu]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_big_ade/menuBigIconActive.png]]></target>
+          <uuid>7ba7d044-02bc-11e4-8167-1305b26fecac</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Shows the context menu for the sitemap.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Close]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_big_ade/resetBigIconActive.png]]></target>
+          <uuid>7bbc90f4-02bc-11e4-8167-1305b26fecac</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Return to the page editor.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

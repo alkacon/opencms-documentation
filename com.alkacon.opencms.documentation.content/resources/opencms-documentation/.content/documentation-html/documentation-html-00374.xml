@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The "Basic Properties" tab is a configurable set of properties available to content editors. Our interest is in the last two tabs: "Individual Properties" and "Shared Properties". In both tabs you can set every property you like. Existing ones or newly created ones. So why can everything be done twice?</p>
+<p><em>Files can have siblings.</em> Siblings are kind of links. I.e., the same content is reachable from two different places in the VFS. If you set a property as shared property, it will be set at all siblings. Individual properties are only set at the one sibling and not on the others. If a property is set as individual and shared property, the value set at the individual version of the property overwrites the shared value.</p>
+<p>The concept of siblings is implemented as follows in OpenCms. <em>Each resource of the VFS consists of two or three different database entries</em>: A structure entry, a resource entry and, if it is a file, a content entry. The different parts serve these purposes:</p>
+<ul>
+<li>The <em>structure part</em> mainly locates the resource in the VFS.</li>
+<li>The <em>resource part</em> captures meta data of the resource, e.g., its type, state (modified, added, deleted, ...), creation and "last modified" date, creating/modifying user, etc.</li>
+<li>The <em>content part</em>, that is only present for files, simply stores the file content as a blob.</li>
+</ul>
+<p><em>Siblings are resources with different structure parts, but identical resource and content parts.</em> Now, what makes the difference between shared and individual properties? The properties are attached to different parts of the resource:</p>
+<ul>
+<li><em>Shared properties</em> are attached to the <em>resource part</em> of a resource.</li>
+<li><em>Individual properties</em> are attached to the <em>structure part</em>.</li>
+</ul>
+<p>You get the difference? Ok. Now, you may notice that for folders there is no distinction between shared and individual properties. For folders, siblings are simply not allowed. Thus structure and resource parts for a folder are in one-to-one relationship and it does not make a difference where the properties are attached.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

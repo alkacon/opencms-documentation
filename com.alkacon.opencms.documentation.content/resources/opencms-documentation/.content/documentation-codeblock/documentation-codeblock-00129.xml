@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
+  <DocumentationCodeBlock language="en">
+    <Code><![CDATA[<%@page taglibs="c,cms" %> 
+<c:set var="navStartLevel">1</c:set>
+<cms:navigation type="treeForFolder" startLevel="${navStartLevel}" endLevel="4" var="nav"/>
+<ul class="nav-side list-group sidebar-nav-v1">		
+	<c:forEach items="${nav.items}" var="elem">
+		<li class='nav-side-level-${elem.navTreeLevel - navStartLevel} 
+		           list-group-item 
+		           ${!elem.navigationLevel && nav.isActive[elem.resourceName]?"active":""}'>
+			<a href="<cms:link>${elem.resourceName}</cms:link>">${elem.navText}</a>
+		</li>
+	</c:forEach>
+</ul>]]></Code>
+  </DocumentationCodeBlock>
+</DocumentationCodeBlocks>

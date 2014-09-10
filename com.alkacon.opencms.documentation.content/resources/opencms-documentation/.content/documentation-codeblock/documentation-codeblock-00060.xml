@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
+  <DocumentationCodeBlock language="en">
+    <Code><![CDATA[<html>
+ <head>
+  <title>${cms.title}</title>	
+  <!-- meta info etc. -->
+  <cms:enable-ade/>
+  <c:choice>
+   <c:when test="${cms.isOnlineProject}">
+    <cms:headincludes type="javascript" 
+                      defaults="%(link.weak:/.../jquery-1.10.2.min.js)" />
+   </c:when>
+   <c:otherwise>
+    <cms:headincludes type="javascript" 
+                      defaults="%(link.weak:/.../jquery-1.10.2.js)" />
+   </c:otherwise>
+  </c:choice>
+ </head>
+ <body>
+  <c:if test="${cms.isEditMode}">
+   <!--=== Placeholder for OpenCms toolbar in the offline project ===-->
+   <div style="background: lightgray; height: 35px">&nbsp;</div>
+  </c:if>
+  <!-- Further code for creating the template -->
+ </body>
+</html>]]></Code>
+  </DocumentationCodeBlock>
+</DocumentationCodeBlocks>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://www.alkacon.com/en/products/ocee/index.htm]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>Using the database replication feature of the (non-free) <a href="%(link0)">Alkacon OpenCms Enterprise Extensions</a>, it is easy to replicate the complete (or parts of the) OpenCms repository data to remote database instances.</p>
+<p>These remote instances are also automatically updated when changed data is published. Using this feature it is for example possible to have a separate OpenCms "work" instance inside of a secured Intranet, and a public "production" OpenCms server in a DMZ.</p>
+<p>The OpenCms workplace is not available at all on the public "production" server.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

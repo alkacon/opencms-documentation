@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[cms:headincludes - supported attributes]]></Title>
+    <Heading><![CDATA[Attributes supported by <code>&lt;cms:headincludes&gt;</code>]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[type (required)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Type of the allowed includes. Allowed values are <code>css</code> and <code>javascript</code>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[defaults (optional)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>List of CSS / javascript files that should be included by default. The files are given as “|”-separated list.<br />Example: <code>defaults="%(link.weak:/path/to/my/default.css)</code><code>|%(link.weak:/path/to/my/alternative.css)"</code></p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[closetags (optional)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If set to <code>true</code>, the HTML-tags produced by <code>&lt;cms:headincludes&gt;</code> are all closed according to the XHTML standard. Otherwise they are not explicitly closed if not necessary - as common practice.<br />Default: <code>false</code></p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[detailtype (optional)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Set the value to the type of the container that has the attribute <code>detailview</code> set to <code>true</code>. This may increase performance.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[detailwidth (optional)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Set the value to the width of the container that has the attribute <code>detailview</code> set to <code>true</code>. This may increase performance.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

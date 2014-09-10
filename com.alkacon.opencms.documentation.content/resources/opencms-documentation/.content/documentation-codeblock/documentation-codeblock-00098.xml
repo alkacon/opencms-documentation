@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
+  <DocumentationCodeBlock language="en">
+    <Code><![CDATA[<repositories>
+  ...
+  <repository name="cmis-offline" class="org.opencms.cmis.CmsCmisRepository">
+    <params>
+      <param name="project">Offline</param>
+      <param name="description">Offline project CMIS repository</param>
+      <param name="index">Solr Offline</param>
+    </params>
+  </repository>
+  <repository name="cmis-online" class="org.opencms.cmis.CmsCmisRepository">
+    <params>
+      <param name="project">Online</param>
+      <param name="description">Online project CMIS repository</param>
+      <param name="index">Solr Online</param>
+    </params>
+  </repository>
+...
+</repositories>]]></Code>
+  </DocumentationCodeBlock>
+</DocumentationCodeBlocks>

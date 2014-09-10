@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The <code>&lt;xsd:choice&gt;</code>-element can be used as single or multiple choice. To use the single choice do not use any attributes on the <code>&lt;xsd:choice&gt;</code>-node. This is the default setting.<br />To use the multiple choice set following attributes:</p>
+<ul>
+<li><code>minOccurs="0"</code> and</li>
+<li><code>maxOccurs="[max number of elements]"</code>, e.g., <code>maxOccurs="5"</code></li>
+</ul>
+<p><strong>Single choice:</strong></p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

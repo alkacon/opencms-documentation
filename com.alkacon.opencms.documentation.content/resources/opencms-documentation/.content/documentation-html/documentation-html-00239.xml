@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The CMIS implementation of OpenCms does not support all optional CMIS features, and not all OpenCms functionality. The currently unsupported features are:</p>
+<ul>
+<li>Versioning and PWCs</li>
+<li>Unfiled and multifiled resources</li>
+<li>Changing permissions/access control entries</li>
+<li>Changelogs</li>
+<li>Policies</li>
+<li>CMIS-SQL support</li>
+</ul>
+<p>Although queries don't support CMIS-SQL, querying is still possible using Solr queries. If a Solr index is configured for a repository as described above, OpenCms will report that repository as queryable, but standard CMIS clients that rely on CMIS-SQL being available for queryable repositories may not work.</p>
+<p>Publishing files is not supported, since the CMIS standard has no concept of “Offline” and “Online” mode like OpenCms. The Offline and Online repositories in the standard configuration are completely independent from the CMIS point of view. Although the CMIS implementation provides basic access control lists for resources, those are very incomplete compared to the OpenCms permission system, and are not sufficient to determine whether a user can perform an action through CMIS. So if you writing a client application to access OpenCms through CMIS, you need to use the "allowable actions" API call to determine whether an operation can be performed before actually trying to perform it.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

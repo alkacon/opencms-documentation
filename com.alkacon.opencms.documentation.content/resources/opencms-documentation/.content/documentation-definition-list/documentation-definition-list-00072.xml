@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Explorer - publish options]]></Title>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[Publish directly]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Publish the resource directly. For folders, all resources inside the folder will be published as well.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Publish scheduled (only single files)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Publish the (file) resource at a chosen date, alter or remove the scheduled publish date.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Sometimes it is necessary to make the OpenCms workplace only available for specific IPs. This can be achieved by setting up a firewall application for the web server that filters the access to the OpenCms workplace.</p>
+<p>Another option is to add additional rewrite rules to the virtual host configuration of the OpenCms workplace in your Apache configuration.<br />The following example blocks all IP addresses that do not start with <code>127.0.</code>. It can be modified to allow other IPs to access the OpenCms workplace server. For more details, refer to the Apache <code>mod_rewrite</code> module documentation.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

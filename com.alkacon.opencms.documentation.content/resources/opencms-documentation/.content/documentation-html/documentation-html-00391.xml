@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/caching-in-opencms/the-flex-cache/]]></target>
+          <uuid>836b2208-2164-11e4-a141-d9f74955ba1b</uuid>
+          <anchor><![CDATA[cache_directives]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>Using &lt;cms:navigation&gt; is not very challenging. But building a good navigation is. Questions you should ask yourself, when implementing a navigation are:</p>
+<ul>
+<li><strong><em>How should I style my navigation?</em></strong> Styling a navigation is not trivial. At the above example, you see a lot of class attributes at the tags that do the styling for the example. If you work with nested lists for styling different levels of your navigation, be sure that in all cases every list has a closing tag.</li>
+<li><strong><em>How to get your navigation at your web pages?</em></strong> There are basically three options to get the navigation on your page:
+<ul>
+<li>You can include the navigation via <code>&lt;cms:include&gt;</code> into the template. Then it behaves as configured for all pages using the template. No further parameters can be set.</li>
+<li>You make the navigation a dynamic function and add it to a (model) page. Then you may adjust its look via element settings or parameters passed to the dynamic function.</li>
+<li>You make up an own content that renders the navigation. That provides you the most freedom to change and alter things.</li>
+</ul>
+</li>
+<li><strong><em>How should I cache navigations?</em></strong> It is important to choose the right caching options for your navigation. Typically, use <code>uri</code> as <a href="%(link0)">flex cache directive</a> at the JSP rendering the navigation by setting the <code>cache</code> property of the JSP to this value. Additionally, the directive <code>container-element</code> or <code>user</code> may be useful.</li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>It is not possible to create completely new OpenCms properties through CMIS. You can only define new properties from OpenCms itself. These new properties may not be immediately visible through the CMIS interface, as the list of valid OpenCms properties in the CMIS implementation is only refreshed every 5 minutes.</p>
+<p>When uploading new files into OpenCms via CMIS, the OpenCms resource type will be automatically determined from the file extension of the uploaded file. You can override this by specifying the <code>opencms-special:resource-type</code> property with the OpenCms resource type as a value when creating a new document through CMIS.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

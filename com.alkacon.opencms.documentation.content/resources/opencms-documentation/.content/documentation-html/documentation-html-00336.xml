@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The basic functionality of OpenCms is the core system. All additional features including the template that renders the website itself are encapsulated into modules. Commonly one could say that modules are extensions, plugins or packages that are easily to install and extend the basic core functionality for further features, functions, content types, layouts and so on. Modules contain all resources (source files, images, style sheets, JSPs, property files, configurations …) that are required for a demarcated functionality. All modules are located at <code>/system/modules/</code> in the root site of the VFS. In general there is no convention about the module structure, but of course there are best practices. This chapter gives a brief introduction on how to create and structure a module.</p>
+<p>The administration view of the workplace offers a tool to manage modules. After Logging into the workplace switch to the “Administration View” and select “Module Management” -&gt; “New Module”. In the upcoming dialog you will be asked to enter a package name that must fulfill the Java package name conventions. Please use <code>my.template</code> as package name if you follow this short tutorial. Moreover, you can enter a nice name and a module description as well as a module number, a group and optionally a module action class. Below the author information you can select which folders should be created automatically. If you check all the options a folder <code>/system/modules/my.template/</code> is created and it contains the following sub-folders:</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

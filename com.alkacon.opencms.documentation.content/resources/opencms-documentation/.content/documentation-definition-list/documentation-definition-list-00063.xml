@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Heading><![CDATA[Attributes of the <code>&lt;tab&gt</code> node]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[element]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Name of the first <code>&lt;xsd:element&gt;</code> placed in the tab.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[collapse]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If only one element (typically a nested content with sub-elements) should appear in one tab, the element's name can be hidden. Therefor, set <code>collapse="true"</code>. Otherwise, omit it, or set it to <code>false</code>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[name]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Define the name shown in the tab. This attribute supports <code>%(key.)</code> macro to insert localized messages. If the attribute is not given, the element's name is used as tab name.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

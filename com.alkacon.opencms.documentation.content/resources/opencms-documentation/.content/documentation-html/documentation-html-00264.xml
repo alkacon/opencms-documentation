@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>By default, the XML sitemap will contain all navigation entries in and below the current folder, the URLs for all detail pages whose base container pages are in or below the current folder, and all aliases whose alias paths are below the current folder and whose action is defined as "Show page".</p>
+<p>"Include folder" entries allows you to define folders whose whole contents, including resources from subfolders, will be included in the XML sitemap.</p>
+<p>"Exclude folder" entries allow you to define folders whose whole contents, including resources from subfolders, will be excluded from the XML sitemap.</p>
+<p>If you check the "Container page dates" option, the last modification date of container pages will be computed from the last modification date of their contents.</p>
+<p>Note that the XML sitemap output will always correspond to the online project state of resources, and will only contain pages which are visible to the Guest user.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

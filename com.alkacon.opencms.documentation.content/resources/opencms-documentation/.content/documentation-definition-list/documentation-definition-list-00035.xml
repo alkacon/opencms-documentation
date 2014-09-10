@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[VfsAccessBean: Useful properties to access further Java beans]]></Title>
+    <Heading><![CDATA[List of useful properties to access further Java beans]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[permissions]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Access to the permission set bean <code>org.opencms.security.CmsPermissionSet</code>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[resource]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[sec_resource_bean]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Access to the <a href="%(link0)">resource bean</a> <code>org.opencms.file.CmsResource</code>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[xml]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Access to the content access bean <code>org.opencms.jsp.util.CmsJspContentAccessBean</code>.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

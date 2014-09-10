@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/]]></target>
+          <uuid>ce157352-1bcf-11e4-bfa5-b7bfd6088c56</uuid>
+          <anchor><![CDATA[structure]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>In an XSD, the appearance of the content in the content editor can be configured in various ways:</p>
+<ul>
+<li>widgets used for elements are configurable,</li>
+<li>elements can be hidden dependend on context information (e.g., depending on the user)</li>
+<li>elements can be grouped into tabs.</li>
+</ul>
+<p>See <a href="%(link0)">here</a> to find out where to place configuration options in an XSD in general.</p>]]></content>
+    </Overview>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

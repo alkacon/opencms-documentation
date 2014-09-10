@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/background/the-virtual-file-system/]]></target>
+          <uuid>a39f771c-2793-11e4-b2bf-49dbf0abad32</uuid>
+          <anchor><![CDATA[individual_vs_shared_properties]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>The "Edit properties" dialog allows to edit properties of a resource. Depending on your permissions and the actual resource it may differ slightly. The dialog has the following tabs:</p>
+<ul>
+<li>The <em>"Basic properties"</em> tab is shown for all users that have access to the dialog. It is in particular intended for properties that should be changable easily by content editors.</li>
+<li>The <em>"Complete properties"</em> tab shows all properties of a folder. Template developers are allowed to add further properties.</li>
+<li>The <em>"Individual  properties"</em> and the <em>"Shared properties"</em> tabs show all individiual/shared properties of a file and template developers get an option to add properties. More information about the difference between individual and shared properties is found <a href="%(link0)">here</a>.</li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

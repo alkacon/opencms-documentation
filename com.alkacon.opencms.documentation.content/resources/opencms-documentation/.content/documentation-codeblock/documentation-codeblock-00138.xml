@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
+  <DocumentationCodeBlock language="en">
+    <Code><![CDATA[function validateHandler(errors) {
+    // form validation handler that displays the results of the server side validation in a simple alert
+    if ($.isEmptyObject(errors)) {
+        alert("The values are valid!");
+    } else {
+        var out = "The following errors occurred:\n"
+        for ( var key in errors) {
+            out += "\n" + key + " : " + errors[key];
+        }
+        alert(out);
+    }
+}]]></Code>
+  </DocumentationCodeBlock>
+</DocumentationCodeBlocks>

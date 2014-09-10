@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/views-in-opencms/the-content-editor/]]></target>
+          <uuid>00a4c7ee-0812-11e4-8e56-b7bfd6088c56</uuid>
+          <anchor><![CDATA[vfs_image_widget]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>OpenCms scales images if requested and caches scaled versions. We demonstrate how to use the <code>&lt;cms:img&gt;</code>-tag in a formatter to scale images.</p>
+<p>Note that this is just one way to scale images. Images may also be scaled, cropped, etc. when inserting them into the content. Consult the <a href="%(link0)">description of the VfsImageWidget</a> for such options.</p>]]></content>
+    </Overview>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

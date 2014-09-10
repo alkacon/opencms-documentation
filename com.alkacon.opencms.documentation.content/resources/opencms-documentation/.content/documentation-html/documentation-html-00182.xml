@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://www.lucidimagination.com/blog/2009/03/31/nested-queries-in-solr/]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://wiki.apache.org/solr/FrontPage]]></target>
+          <anchor><![CDATA[Search_and_Indexing]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>For more information, see Yonik Seeley's blog on <a href="%(link0)">Nested Queries in Solr</a>.</p>
+<p>You can pass any "Solr valid" input to the new OpenCms Solr request handler (handleSolrSelect). To get familiar with the Solr query syntax the Solr Wiki page lends itself: <a href="%(link1)">Search and Indexing</a>.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

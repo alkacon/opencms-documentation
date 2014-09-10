@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Category widget configuration options]]></Title>
+    <Heading><![CDATA[Available configuration options]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[category]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Path to the root category to restrict the shown categories to that category's children.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[onlyleafs]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Starts the selection in a list view.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[parentSelection]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Signals whether to store the parents of the selected categories also.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

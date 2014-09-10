@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/security/I_CmsPasswordHandler.html]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/security/CmsDefaultPasswordHandler.html]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>It is possible to write a user defined password validation handler class to force the OpenCms users to enter a "strong" password matching the requested policies. Therefore, the interface <a href="%(link0)"><code>org.opencms.security. I_CmsPasswordHandler</code></a> has to be implemented. Usually, it is sufficient to extend the class <a href="%(link1)"><code>CmsDefaultPasswordHandler</code></a> in the same package and overwrite the method <code>validatePassword(String password)</code>.</p>
+<p>This handler class has to be configured in the OpenCms configuration file <code>WEB-INF/config/opencms-system.xml</code>. The class attribute value of the element <code>&lt;passwordhandler&gt;</code> has to be set to the new password validation handler class.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

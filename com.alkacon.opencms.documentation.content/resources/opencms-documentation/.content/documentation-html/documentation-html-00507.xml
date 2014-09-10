@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>OpenCms only uses prepared statements when accessing the database through JDBC, so it is not possible to pass database queries directly through OpenCms.</p>
+<p>So far there are no known leaks in OpenCms enabling SQL-Injection.</p>
+<p>Customized website applications should use the OpenCms API and prepared statements to access the database for security reasons.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

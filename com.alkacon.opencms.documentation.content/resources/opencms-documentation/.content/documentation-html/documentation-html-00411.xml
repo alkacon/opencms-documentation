@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>In the <code>updateValues(...)</code> function we first copy the current input form values to the mapping. Second, we adjust the values for files that are uploaded and insert the links to the uploaded files. The function could also manipulate the mapping further, e.g., if a an optional nested content has none of its elements none-empty, it can be deleted. To explore and manipulate the mapping, the UGC object provides various methods.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

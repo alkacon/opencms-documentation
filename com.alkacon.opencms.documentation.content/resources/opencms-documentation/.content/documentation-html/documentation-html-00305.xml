@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[https://github.com/alkacon/modules-v8/blob/branch_8_5_x/modules/org.opencms.dev.demo/resources/system/modules/org.opencms.dev.demo/pages/simple-collector.jsp]]></target>
+        </link>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/demos/lists-and-detail-pages/]]></target>
+          <uuid>017a27d0-22c2-11e4-8f7a-d9f74955ba1b</uuid>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[https://github.com/alkacon/modules-v8/blob/branch_8_5_x/src-modules/org/opencms/dev/demo/CmsSimpleResourceCollector.java]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>OpenCms is distributed with a set of standard collectors that can be used for example to collect all resources of a specific type and folder. The v8 modules cover a huge set of different collector usage examples, e.g., <a href="%(link0)">a simple collector demo</a>.</p>
+<p>Code examples for a simple collector class and a JSP you’ll find here:</p>
+<ul>
+<li><a href="%(link1)" target="_blank">Collector class example</a></li>
+<li><a href="%(link2)" target="_blank">Collector JSP example</a></li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

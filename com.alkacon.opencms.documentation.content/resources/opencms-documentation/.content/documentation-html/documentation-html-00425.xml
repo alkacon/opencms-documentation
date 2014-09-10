@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/the-opencms-module-system/]]></target>
+          <uuid>7387573f-0b56-11e4-8c80-b7bfd6088c56</uuid>
+          <anchor><![CDATA[add_resource_type]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>Content type definitions are usually shipped with modules and placed in the module's subfolder named <code>schemas/</code>. If you want to define a content type that should be available as resource and explorer type, i.e., if you want to create contents of that type via the "Add wizard" of the page editor, than it is the easiest way to use the <a href="%(link0)">"Add resource type"</a> function from the administration's "Module management". This will create a content type definition in the respective folder of your module (and does a lot more). To get the content type you want, just adjust the created example XSD.</p>
+<p>If you want to add a new content type that should not be configured as resource/explorer type then the xsd-file can be added via the traditional workplace's explorer. Content type defintions that are not configured as resource/explorer types are usually definitions of nested contents. Such definitions are by convention placed in the module's subfolder <code>schemas/nested/</code>. XSDs are just text files (type plain). Click "New" and choose "Text file" in the explorer. Best practice is to copy the content of an existing XSD to your new file and adjust it to your needs.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

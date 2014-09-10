@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>In the folder structure of a website in OpenCms there are various resources that should not be displayed in the sitemap. For example, these are:</p>
+<ul>
+<li><code>.content/</code> folders</li>
+<li>configuration files</li>
+</ul>
+<p>These resources should typically not be shown in the sitemap view of the sitemap editor either. Hence, ignoring them is what you should do.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

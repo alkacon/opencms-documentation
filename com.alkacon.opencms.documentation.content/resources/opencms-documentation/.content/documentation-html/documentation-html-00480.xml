@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://files.opencms.org/javadoc/tld/cms/container.html]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>To expose a nested container via a formatter, use the <a href="%(link0)"><code>&lt;cms:container&gt;</code>-tag</a> in the formatter. You can use the tag exactly like in a template JSP. There is only one detail you should know: In contrast to top-level containers, the <code>name</code> attribute of a nested container will not directly form the container's name. This is necessary to keep container names unique at a page, even if two formatters add containers with the same name attribute.</p>
+<p>You should take care that each container rendered by your formatter has a unique name inside your formatter. This is for example relevant when you design a tab element with a varying number of tabs, each tab having an own container. Here's an example of a formatter for such a tab element.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

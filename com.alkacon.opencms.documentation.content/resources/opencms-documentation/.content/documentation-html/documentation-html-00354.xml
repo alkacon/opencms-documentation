@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The <code>&lt;default-preferences&gt;</code> node has three children of type <code>&lt;preference-tab&gt;</code>. You should know:</p>
+<ul>
+<li><strong>The tab configuration must not be changed</strong>.</li>
+<li>The order of the <code>&lt;preference&gt;</code> nodes inside a <code>&lt;preference-tab&gt;</code> specifies in which order the preferences are displayed.</li>
+</ul>
+<p>Since the tab configuration does not directly correspond to the tabs of the preferences dialog, here is some info about the different tabs:</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

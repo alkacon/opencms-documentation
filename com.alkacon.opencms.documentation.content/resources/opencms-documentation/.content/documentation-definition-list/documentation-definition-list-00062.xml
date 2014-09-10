@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[UGC-wrapper: Exploring and manipulating the form]]></Title>
+    <Heading><![CDATA[Exploring and manipulating the form]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[getForm(name?)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns the HTML element of the form's input field specified by <code>name</code>. If <code>name</code> is not given, the method returns the HTML element of the whole form.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[getFormVal(name)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns the current value of the form's input field specified by <code>name</code>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[setForm(name?,value?)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If called without parameters, the method fills all content values into the form. If called with a <code>name</code>, it fills only the form field <code>name</code> with the assigned content value. If <code>name</code> and <code>value</code> are given, it fills the form field name with value.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[formHas(fieldname1,fieldname2,...)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Checks, if all form fields listed as arguments have a non-empty value.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[formHasNot(fieldname1,fieldname2,...)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Checks, if all form fields listed as arguments have an empty value.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[formHasOne(fieldname1,fieldname2,...)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Checks if at least one of the listed form fields is non-empty.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

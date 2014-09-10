@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
+  <DocumentationCodeBlock language="en">
+    <Code><![CDATA[<xsd:choice>
+   <xsd:element name="VariableLink" type="OpenCmsVarLink" minOccurs="0" />
+   <xsd:element name="LinkGallery" type="OpenCmsVfsFile" minOccurs="0" />
+   <xsd:element name="DownloadGallery" type="OpenCmsVfsFile" minOccurs="0" />
+</xsd:choice>]]></Code>
+  </DocumentationCodeBlock>
+</DocumentationCodeBlocks>

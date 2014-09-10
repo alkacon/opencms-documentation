@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Formatter configuration options (Basic configuration)]]></Title>
+    <Heading><![CDATA[Options set in the "Basic configuration" tab]]></Heading>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[Display name]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>When you select the formatter for a content, or you add/remove formatters in the sitemap configuration, this name is presented in the select box to identify the formatter.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Resource type]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The type of the resources that should be formatted with the configured formatter.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[JSP]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The formatter to use.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Rank]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Formatters for resources of the same type are ordered by rank. If more than one formatter is available when you place a resource at a page, the formatter with the highest rank is chosen by default. (The choice can be altered manually via a setting that is automatically available for elements that can be formatted with different formatters.)</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Match]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Match defines in which containers a formatter can be applied. You can either specify containers via their <code>width</code> attribute or via there <code>type</code> attribute. If you choose width, the value specified as "Width" in the formatter configuration corresponds to the minimal width a container must have (set as "width" attribute), and the optional "Maximum width" specifies the maximal value of the width attribute that is allowed in case the formatter should be appliable.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Use for preview]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Resources can be previewed in the "Add wizard" or in the workplace's explorer. Check this option, if the formatter should be used for such previews.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Search content]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If a resource is added to a page, it's content may or may not be indexed for the page. If this option is checked and the resource is searchable at all, the page where it is placed will be found, when you search for content of the resource. </p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Enabled]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Check this option to make the formatter automatically available in the page editor. If the option is not checked, you can make it available via the sitemap configuration.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Use as detail formatter]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If checked, the formatter can be used when the resource is rendered in detail view.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Nested containers]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Check this option, if the formatter introduces a nested container.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[CSS includes]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/creating-a-template/advanced-template-features/head-includes/]]></target>
+            <uuid>6c12ef88-1bdd-11e4-bfa5-b7bfd6088c56</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Add formatter-specific CSS styles here. See <a href="%(link0)">here</a> for details.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Javascript includes]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/creating-a-template/advanced-template-features/head-includes/]]></target>
+            <uuid>6c12ef88-1bdd-11e4-bfa5-b7bfd6088c56</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Add formatter-specific JavaScript here. See <a href="%(link0)">here</a> for details.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

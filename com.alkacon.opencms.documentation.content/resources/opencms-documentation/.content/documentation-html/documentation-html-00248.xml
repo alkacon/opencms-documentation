@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The CIFS / SMB protocol has no support for file types, properties, or publishing. It also lacks direct support for copying and moving files. When creating files via network share access, the appropriate resource type is determined via the file extension mappings in opencms-vfs.xml.  This means copying (which is just done by creating a new file and copying the contents of the old file to the new one) may not preserve the resource type if there is no unique file extension mapping for the type, and will not preserve properties or other metadata.</p>
+<p>CIFS / SMB only works reasonably fast on a low-latency network, so we do not recommend using it over the internet or other high-latency connections.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

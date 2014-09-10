@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Configure the model page in the sitemap configuration file: <code>/{sitefolder}/{sub sitemap path}/.content/.config</code>. In tab "Model pages" add a new node for each model page and select its path. Now the configured model pages appear in the list of container pages of the <strong>Create page</strong> dialog in the sitemap editor. In order to display a nice entry for the model, edit its <strong>Title and Description</strong> property. If it’s set as default, this page is also used to create the new page, when it is added over the Context menu in the sitemap editor. Further use the check box of the page model configuration to control the visibility of the inherited page models from the upper sitemaps.</p>
+<div class="alert alert-info">You can combine the model pages with other techniques like element groups and inheritance groups for better organizing common content parts on the website.</div>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

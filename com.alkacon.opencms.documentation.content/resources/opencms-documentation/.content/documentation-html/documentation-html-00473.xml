@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<div class="alert alert-info">This configuration is only valid if OpenCms has been installed as the ROOT web application in Tomcat.</div>
+<p>Edit the file <code>WEB-INF/config/opencms-importexport.xml</code> in your OpenCms installation. Remove the <code>${SERVLET_NAME}</code> macro, such that the originally containing the macro look as shown below:</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

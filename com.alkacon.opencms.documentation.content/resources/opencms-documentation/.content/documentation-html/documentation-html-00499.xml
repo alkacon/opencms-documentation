@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Configuring a secure virtual host is nearly identical to the configuration of a non-secure one. The differences are:</p>
+<ol>
+<li>The port has to be changed to 443.</li>
+<li>The SSL engine has to be configured.</li>
+</ol>
+<p>In contrast to the configuration of the non-secure site above, of course you should not redirect to a secure site again (part 5).</p>
+<p>Below, we provide the configuration of a secure site, in particular of the site where the non-secure site configured above redirects to for workplace access. It nearly mirrors the config file from the unsecured site. Only two spots are important:</p>
+<ol>
+<li>The port in the <code>VirtualHost</code> node has changed to the SSL port <code>443</code>.</li>
+<li>Part 5 is replaced. Formerly, we redirected to the secured site. Now we set up the SSL engine.</li>
+</ol>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

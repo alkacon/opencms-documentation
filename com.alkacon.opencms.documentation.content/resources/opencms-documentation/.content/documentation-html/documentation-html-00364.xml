@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Contents do not belong to a single web page. They may be placed on several pages and potentially on every single page of your site. Sometimes it is preferable to place them only on pages in a specific sub-site. Sometimes you may want to share them between different web sites.</p>
+<p><em>OpenCms stores content usually in the web site.</em> The site's main folder contains a special sub-folder named <code>.content/</code>. Content of different type is typically placed in separate sub-folders of <code>.content/</code>. For example, if there exists a type "article", there might be a folder <code>.content/article/</code> where all the "article" contents are stored.</p>
+<p>To attach content to sub-sites of your main site. If you create a sub-sitemap for the sub site in OpenCms, this sub-site's main folder will have a <code>.content/</code> sub-folder as well. Here, content that is somehow specific to the sub-site can be placed</p>
+<p>Last but not least, if you run more than one web site with a single OpenCms installation and you want to share content between differnt sites, you can store content in the <code>shared/</code> folder in the root site.</p>
+<p>Where you store content on your site is configurable. Also which contents are accessible in which sub-site. Your content may be placed at several of the locations mentioned above.</p>
+<p>Independent of the folder where content is stored, the name given to a content file is an important issue. Content is usually created by dragging it on a web page. Hence, the file where the content is stored has to be created and named automatically. OpenCms names content files by the following scheme: <code>{type name}_{number}.xml</code>. The number is chosen automatically, such that it is unique in the folder where the file is stored. Prefix and suffix can be configured, if wanted.</p>
+<div class="alert alert-info">If you look up a file that stores a content, have a look at it's type: The file has the type of content. Or, more precisely, the configured resource type.</div>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

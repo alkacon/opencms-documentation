@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
+  <DocumentationCodeBlock language="en">
+    <Code><![CDATA["/news-alias-1","/demo/about/index.html","redirect"
+"/news-alias-2","/demo/about/index.html"
+"/demo/([a-z]+).html","/demo/$1-old.html","permanentRedirect","rewrite"]]></Code>
+  </DocumentationCodeBlock>
+</DocumentationCodeBlocks>

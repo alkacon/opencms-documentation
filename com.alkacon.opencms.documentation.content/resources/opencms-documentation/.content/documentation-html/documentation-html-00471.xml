@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>To make OpenCms work properly with Apache,<strong> install it as ROOT web application</strong>. To do so, rename the <code>opencms.war</code> file to <code>ROOT.war</code>. This is necessary to remove all OpenCms specific path parts (i.e., http://www.example.com<strong>/opencms/opencms/</strong>index.html) from the visible URLs.</p>
+<p>After renaming the war file, deploy it by pasting it into Tomcat's <code>webapps/</code> folder.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

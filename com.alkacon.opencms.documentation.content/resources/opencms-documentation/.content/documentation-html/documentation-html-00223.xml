@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://lucene.apache.org/solr/api-3_6_1/org/apache/solr/response/SolrQueryResponse.html]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>Currently the OpenCms search API does not support full-featured Solr highlighting. But you can make use of the Solr default highlighting mechanism or course and:</p>
+<ul>
+<li>Call <code>org.opencms.search.solr.CmsSolrResultList#getSolrQueryResponse()</code> that returns a <code>SolrQueryResponse</code> as documented in <a href="%(link0)">the solr API documentation</a>.</li>
+<li>Or you can use the above mentioned OpenCms Solr Select handler at <code>http://localhost:8080/opencms/opencms/handleSolrSelect</code></li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

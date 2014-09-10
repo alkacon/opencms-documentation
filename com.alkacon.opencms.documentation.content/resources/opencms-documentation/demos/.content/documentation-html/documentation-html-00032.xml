@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://files.opencms.org/javadoc/tld/cms/img.html]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>We use the tag &lt;cms:img&gt; to scale the images. For the example, we altered the scaletype parameter. The tag has many more options. Please consult the <a href="%(link0)" target="_blank">taglib documentation</a> for it. If you are offline, you may alter the parameters of the <code>&lt;cms:img&gt;</code>-tags to see what happens.</p>
+<div class="alert alert-info">All scaling configured in the formatter is done on the server-side. Hence, you may not know what is the "best" size for the image on the client and may adjust the image size on the client again. Nevertheless, server-side scaling has many advantages, e.g., thumbnails can be generated, parts of pictures can be extracted, picture quality can be changed, special effects can be added to the pictures.</div>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

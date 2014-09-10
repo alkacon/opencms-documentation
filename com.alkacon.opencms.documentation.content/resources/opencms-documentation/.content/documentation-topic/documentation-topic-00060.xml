@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://www.opencms-wiki.org/wiki/]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>We recommend to use the Apache webserver and the Tomcat servlet container for running OpenCms. Here is how to configure Apache to communicate with Tomcat via AJP (Apache JServ Protocol) using the module proxy_ajp, that is shipped with Apache by default (from version 2.2 onwards).</p>
+<p>Other ways to configure Apache accordingly are described in the <a href="%(link0)" target="_blank">OpenCms wiki</a>.</p>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>Configure Apache to communicate with Tomcat via AJP using the proxy_ajp module.</p>]]></content>
+    </Teaser>
+    <NewInDocuVersion><![CDATA[9.5]]></NewInDocuVersion>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

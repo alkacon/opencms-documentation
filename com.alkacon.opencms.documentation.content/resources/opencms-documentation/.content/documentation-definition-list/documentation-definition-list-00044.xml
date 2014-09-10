@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Solr: Values for the type-attribute of <mapping>-element]]></Title>
+    <Heading><![CDATA[Values for the <code>type</code>-attribute of <code>&lt;mapping&gt;</code>-element]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[item]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Map a structured content item to a Solrfield.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[attribute]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Maps a resource attribute to a Solrfield. Possible arguments are <code>dateReleased</code> and <code>dateExpired</code>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[content]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Map the XML content to the target field. This value expects no argument.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[property]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Map the value of a resource property to the Solr target field.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[property-search]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Search the parents of the resource for the value of the passed resource property and map this value to the Solr target field.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[dynamic]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Use an instance of the interface <code>I_CmsSearchFieldMapping</code> to map content if the requirements for the field mapping are more "dynamic" than just: <em>static piece of content -&gt; specified field defined in the Solr schema</em>.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

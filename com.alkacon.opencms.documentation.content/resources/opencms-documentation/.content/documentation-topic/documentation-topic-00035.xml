@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>OpenCms stores all resources in a database. The the entries make up a virtual file system (VFS). It can be considered as a usual real file system, i.e., a folder structure with files in different folders. But it provides some more features. All resources in the VFS, folders and files, carry extra information. Moreover, there exist two versions off the VFS: "Offline" and "Online" and even the history of files is stored. To understand OpenCms, it is <em>not</em> necessary to fully understand all details of the VFS and the database structure, but some points are useful to know for understanding how OpenCms works.</p>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>The topic provides the most important information on how OpenCms stores resources. It clarifies the difference between "offline" and "online", root and subsite, shared and individual properties.</p>]]></content>
+    </Teaser>
+    <NewInDocuVersion><![CDATA[9.5]]></NewInDocuVersion>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

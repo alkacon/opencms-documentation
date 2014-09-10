@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The Settings that are configured in the formatter configuration shown above can be accessed in the configured formatter via their "Setting name".</p>
+<p>Note that there are two ways to access element settings:</p>
+<ul>
+<li>Via EL: <code>${cms.element.settings['setting name']}</code></li>
+<li>Via a tag: <code>&lt;cms:elementsetting name="setting name" default="defaultvalue" /&gt;</code></li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

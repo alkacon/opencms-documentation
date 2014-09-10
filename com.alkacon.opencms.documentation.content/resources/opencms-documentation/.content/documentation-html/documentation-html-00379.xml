@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>JSPs are the files that render HTML output. Rendering is not performed by OpenCms. It is done by the servlet container, e.g., by TomCat. The servlet container needs to have the JSPs physically present in the RFS to render them. Hence, JSPs are first exported to the RFS before they are rendered. The JSP repository is placed in the folder <code>{webapp home}/WEB-INF/jsp/</code>. The subfolder <code>offline/</code> contains the JSPs form the offline version of the VFS, the subfolder <code>online/</code> the JSPs from the online version. The remaining sub-folders resemble the VFS folder structure. JSPs are usually exported when they are rendered the first time. If a JSP changed, it is exported again when it should be rendered afterward.</p>
+<p><em>Since export happens automatically when it is necessary, you usually do not have to touch the JSP repository.</em> There is just one situation, where changes in a JSP will not propagate to the repository:</p>
+<div class="alert alert-danger">When a JSP that is included into another JSP via a hard include, i.e., by &lt;%@include %&gt;, and you alter the included JSP, OpenCms will not recognize that the whole outer JSP has to be updated. Then it's time to clear the JSP repository (or simply delete the affected JSP in the repository).</div>
+<p>You can flush the JSP repository via the cache administration.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

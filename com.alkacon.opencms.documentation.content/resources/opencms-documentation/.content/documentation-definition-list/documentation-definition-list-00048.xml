@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[SEO: Actions available for simple aliases]]></Title>
+    <Heading><![CDATA[Actions available for simple aliases]]></Heading>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[Temporary redirect (302)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>A temporary redirect will be sent to the browser, with the current link to the target resource as the new URL.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Permanent redirect (301)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>A permanent redirect will be sent to the browser, with the current link to the target resource as the new URL.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Show page]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>OpenCms will try to load the target resource directly in the current request.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

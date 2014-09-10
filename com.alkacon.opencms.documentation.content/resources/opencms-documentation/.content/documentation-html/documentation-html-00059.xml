@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<ol>
+<li>Create a new container page in the explorer view.</li>
+<li>If the template property is not set on the site folder, set the template property accordingly.</li>
+<li>Create several model pages, one for each template, if the website should have pages with different template configuration.</li>
+<li>Place the model pages in the following folder of the sub sitemap: <code>/{sitefolder}/{sub sitemap path}/.content/.new/</code></li>
+<li>Open the preview by clicking this page and drop those elements that should be copied when creating a page of this model.<br /><br /></li>
+</ol>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

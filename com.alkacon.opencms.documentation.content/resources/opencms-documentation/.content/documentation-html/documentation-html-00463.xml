@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://www.alkacon.com]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>OpenCms can connect to several different database management systems. The list provides an overview on the various provided database connectors and the DBMS versions for which the connetors are tested. <strong>Probably the connectors work also for newer versions of the DBMSs.</strong></p>
+<div class="alert alert-danger">Only the connectors that are displayed <strong>bold</strong> are officially supported by <a href="%(link0)">Alkacon Software GmbH</a>, the main developer of OpenCms.</div>
+<ul>
+<li><strong>MySQL</strong><br />
+<ul>
+<li>MySQL Community Server 5.1 (tested)</li>
+<li>MySQL Community Server 5.5 (tested)</li>
+<li><strong>MySQL Community Server 5.6 (recommended)</strong></li>
+</ul>
+</li>
+<li><strong>Oracle</strong>
+<ul>
+<li>Oracle 9i (tested)</li>
+<li>Oracle 10g (tested)</li>
+<li>Oracle 11g (tested)</li>
+</ul>
+</li>
+<li><strong>PostgreSQL</strong>
+<ul>
+<li>PostgreSQL 7.4.x (tested)</li>
+<li><em>PostgreSQL &gt; 7.4.x (untested)</em></li>
+</ul>
+</li>
+<li><strong>MS SQL Server</strong>
+<ul>
+<li>MS SQL Server 2000 (tested)</li>
+<li>MS SQL Server 2005 (tested)</li>
+</ul>
+</li>
+<li><strong>DB2</strong>
+<ul>
+<li>DB2 9.7.x (tested)</li>
+</ul>
+</li>
+<li><strong>AS400</strong></li>
+<li>HSQLDB
+<ul>
+<li>HSQLDB 1.8.0 (tested)</li>
+</ul>
+</li>
+<li>PostgreSQL (JPA based)
+<ul>
+<li>PostgreSQL 7.4.x or newer</li>
+</ul>
+</li>
+<li>MS SQL Server (JPA based)</li>
+<li>HSQLDB (JPA based)</li>
+<li>Apache Derby (JPA based)</li>
+<li>Borland INterbase (JPA based)</li>
+<li>Borland JDataStore (JPA based)</li>
+<li>Empress (JPA based)</li>
+<li>Firebird (JPA based)</li>
+<li>H2 Database Engine (JPA based)</li>
+<li>Informix Dynamic Server (JPA based)</li>
+<li>InterSystems Cache (JPA based)</li>
+<li>Sybase Adaptive Server (JPA based)</li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

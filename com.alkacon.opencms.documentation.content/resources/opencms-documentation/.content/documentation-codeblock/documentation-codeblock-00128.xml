@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
+  <DocumentationCodeBlock language="en">
+    <Code><![CDATA[<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	
+  <xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+
+  <xsd:element name="Textblocks" type="OpenCmsTextblocks"/>
+	
+  <xsd:complexType name="OpenCmsTextblocks">
+    <xsd:sequence>
+      <xsd:element name="Textblock" 
+                   type="OpenCmsTextblock" 
+                   minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="OpenCmsTextblock">
+    <xsd:sequence>
+      <xsd:element name="Title" type="OpenCmsString" minOccurs="0" />
+      <xsd:element name="Headline" type="OpenCmsString" />
+      <xsd:element name="Text" type="OpenCmsHtml" />
+    </xsd:sequence>
+    <xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
+  </xsd:complexType>
+
+  <xsd:annotation>
+    <xsd:appinfo>
+      <mappings>
+        <mapping element="Title" mapto="property:Title" useDefault="true" />
+        <mapping element="Title" mapto="galleryName" useDefault="true" />
+      </mappings>
+      <defaults>
+        <default element="Title" 
+                 value="%(page_title)%(no_prefix:: )%(value:Headline[1])" resolveMacros="false" />
+      </defaults>
+    </xsd:appinfo>
+  </xsd:annotation>
+
+</xsd:schema>]]></Code>
+  </DocumentationCodeBlock>
+</DocumentationCodeBlocks>

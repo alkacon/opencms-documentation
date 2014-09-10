@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>To use this feature, create a new file of type "SEO file" in the root folder of your site. Using this feature only makes sense if your host is set up so that the OpenCms site is mapped to the root of your domain, i.e., that <code>http://yourhost.com/robots.txt</code> will be retrieved from the OpenCms site's root folder.</p>
+<p>Edit the SEO file and set the mode to "<code>robots.txt</code>". By default, when the <code>robots.txt</code> file is requested from OpenCms, it will only contain references to the existing XML sitemaps of your site. To add additional entries, you need to add them to the "<code>robots.txt</code> content"-field of your SEO file.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

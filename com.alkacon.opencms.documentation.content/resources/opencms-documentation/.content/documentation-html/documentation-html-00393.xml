@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link2" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/building-a-page-navigation/]]></target>
+          <uuid>bb7cd4b2-1bdd-11e4-bfa5-b7bfd6088c56</uuid>
+        </link>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/building-a-page-navigation/]]></target>
+          <uuid>bb7cd4b2-1bdd-11e4-bfa5-b7bfd6088c56</uuid>
+        </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/building-a-page-navigation/]]></target>
+          <uuid>bb7cd4b2-1bdd-11e4-bfa5-b7bfd6088c56</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>If a resource is shown in the navigation or not, depends on the properties set at the resource. The interesting properties are <code>NavText</code>, <code>NavPos</code> and  <code>NavInfo</code>. Here is what behaviour they provoke:</p>
+<ul>
+<li>If <code>NavInfo</code> is set to <code>ignoreInDefaultNav</code>, the resource is a hidden page. It is shown in light gray in the sitemap editor and ignored in all <a href="%(link0)">dynamic navigations build via <code>&lt;cms:navigation&gt;</code></a>.</li>
+<li>If <code>NavText</code> is not set, the page is shown in the sitemap editor with it's name as title. The influence on <a href="%(link1)">navigations build via <code>&lt;cms:navigation&gt;</code></a> depends on the actual use of <code>NavText</code>.</li>
+<li>The value of the <code>NavPos</code> property (a <code>double</code>), specifies the position of a page in the navigation. Pages with higher <code>NavPos</code> values are shown below pages with lower such values. If you move a page in the sitemap editor, the <code>NavPos</code> value is changed. If no <code>NavPos</code> property is set, the default value <code>1</code> is chosen.</li>
+<li>If <code>NavText</code> and <code>NavPos</code> are not set, then the resource is not shown in the sitemap editor (except in the resource view) and in all <a href="%(link2)">navigations build with <code>&lt;cms:navigation&gt;</code></a>. <code>NavText</code> and <code>NavPos</code> are properties are removed if you select "Remove from sitemap" in the sitemap editor.</li>
+</ul>
+<p>An important aspect is, which property should be set where. Typically a page consists of the folder and the container page in the folder. To get the navigation right, the <code>NavText</code> and <code>NavPos</code> properties should only be set at the folder. That is what the sitemap editor does. Thus, unless you have multiple, navigable pages in one folder, which is unusual:</p>
+<div class="alert alert-danger">Do not set <code>NavText</code> and <code>NavPos</code> in the page editor to change the navigation text or the position of the page in the navigation! Use the sitemap editor.</div>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

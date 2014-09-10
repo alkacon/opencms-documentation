@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>OpenCms performs a permission check for all resulting documents and throws those away that the current user is not allowed to retrieve and expands the result for the next best matching documents on the fly. This security check is very cost intensive and should be replaced/improved with a pure index based permission check.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Simple aliases consist of an <strong>alias path</strong>, a <strong>target resource</strong>, and an <strong>action</strong> that determines what happens when the path is requested from OpenCms. Simple aliases are directly connected to their target resource, so they will continue to point to that resource even if it is moved or renamed. Valid alias paths consist of one or more segments which each consist of a <code>/</code> and one or more characters. This means that they may not end with a trailing <code>/</code>. There are three possible actions which can be performed if the path of an alias is requested from OpenCms:</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

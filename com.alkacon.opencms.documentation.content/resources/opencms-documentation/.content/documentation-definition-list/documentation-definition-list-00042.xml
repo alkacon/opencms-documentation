@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Solr: Default index fields]]></Title>
+    <Heading><![CDATA[List of default index fields]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[id]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Structure id used as unique identifier for a document (The structure id of the resource).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[path]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Full root path (The root path of the resource, e.g., <code>/sites/default/flower_en/.content/article.html</code>)</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[path_hierarchy]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The full path as (path tokenized field type: <code>text_path</code>).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[parent-folders]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Parent folders (multi-valued field containing an entry for each parent path as root path).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[type]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Type name (the resource type name).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[res_locales]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Existing locale nodes for XML content and all available locales in case of binary files.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[created]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The creation date (The date when the resource itself has being created).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[lastmodified]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The date last modified (The last modification date of the resource itself).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[contentdate]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The content date (The date when the resource's content has been modified).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[released]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The release and expiration date of the resource.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[content]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>A general content field that holds all extracted resource data (all languages, type text_general).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[contentblob]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The serialized extraction result (content_blob) to improve the extraction performance while indexing.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[category]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>All categories as general text.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[category_exact]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>All categories as exact string for faceting reasons.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[text_<locale>]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Extracted textual content optimized for the language specific search (Default languages: en, de, el, es, fr, hu, it).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[timestamp]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The time when the document was indexed last time.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[*_prop]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>All properties of a resource as searchable and stored text (field name: <code>&lt;Property_Definition_Name&gt;_prop</code> as <code>text_general</code>).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[*_exact]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>All properties of a resource as exact not stored string (field name: <code>&lt;Property_Definition_Name&gt;_exact</code> as <code>string</code>)</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

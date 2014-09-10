@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[sec_share_configuration]]></anchor>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://svn.alfresco.com/repos/alfresco-open-mirror/alfresco/HEAD/root/projects/alfresco-jlan/guides/JLAN_Server_Installation_Guide.pdf]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>If no port is given, the standard SMB port (445) will be used. The reason to use another port than 445 is that in some operating systems, e.g., Linux, programs not running under the “root” user have not the necessary permissions to listen on port numbers &lt; 1025. This is why the port is set to 1445 in the example configuration <code>jlanConfig.xml.linux</code>. If you use a non-standard port such as 1445, we recommend using a tool such as socat or iptables to forward port 445 to the port you are using, since some clients (such as Microsoft Windows) may not be able to connect to network shares on non-standard ports.</p>
+<p>Please note that although it is possible to configure network shares in <code>jlanConfig.xml</code>, we recommend to configure OpenCms network shares in <code>opencms-importexport.xml</code>, as described <a href="%(link0)">here</a>.</p>
+<p>To use network shares with some older operating systems such as Windows XP, using NetBIOS may be required. Please refer to the <a href="%(link1)">JLAN server installation guide</a> for information about setting up NetBIOS. </p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

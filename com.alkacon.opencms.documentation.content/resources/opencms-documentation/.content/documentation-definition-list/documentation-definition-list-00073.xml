@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Explorer - Resource operations]]></Title>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[Copy]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Copy the resource to another place. For files, also siblings can be created.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Rename/Move]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Move the resource - where moving it inside a folder is the same as renaming. Note that the relationship engine takes care that links to the resource do not break when you move it.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Delete]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Delete the resource. Note that the resource is still availabe online until the deleted resource is published. Therefore, deleted resources are only striked out and not removed in the explorer view of the offline project until they are published.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Undo changes]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Reset the offline version of the resource to the online version, loosing all unpublished changes.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Replace (binary files only)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Upload another file that replaces the current one.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Permissions]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>View and change permissions set for the resource</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

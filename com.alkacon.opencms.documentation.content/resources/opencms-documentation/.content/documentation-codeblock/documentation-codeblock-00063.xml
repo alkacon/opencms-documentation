@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
+  <DocumentationCodeBlock language="en">
+    <Code><![CDATA[<%@page taglibs="c" %>
+
+<c:set var="uri" value="${cms.requestContext.uri}" />
+
+<p> The "NavText" property value of the current URI (file
+    ${cms.vfs.resource[uri].name}) is 
+    "${cms.vfs.property[uri]['NavText']}".
+</p>
+<p> The Text value of a selected Jumbotron XML content is
+    "${cms.vfs.xml['/demo/.content/jumbotrons/jt_00001.xml'].value.Text}".
+</p>]]></Code>
+  </DocumentationCodeBlock>
+</DocumentationCodeBlocks>

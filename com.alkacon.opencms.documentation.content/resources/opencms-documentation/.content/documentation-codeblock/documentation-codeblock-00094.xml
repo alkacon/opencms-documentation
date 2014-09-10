@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
+  <DocumentationCodeBlock language="en">
+    <Code><![CDATA[<!-- define a field type for German collation -->
+<fieldType name="collatedGERMAN" class="solr.TextField">
+  <analyzer>
+    <tokenizer class="solr.KeywordTokenizerFactory"/>
+    <filter class="solr.CollationKeyFilterFactory"
+        language="de"
+        strength="primary"
+    />
+  </analyzer>
+</fieldType>
+...
+<!-- define a field to store the German collated manufacturer names -->
+<field name="manuGERMAN" type="collatedGERMAN" indexed="true" stored="false" />
+...
+<!-- copy the text to this field. We could create French, English, Spanish versions too, 
+  -- and sort differently for different users!
+  -->
+<copyField source="manu" dest="manuGERMAN"/>]]></Code>
+  </DocumentationCodeBlock>
+</DocumentationCodeBlocks>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The elements default, option and help are all optional, while value is mandatory. There should be only one default option that is set true. If more than one is detected, only the first default found is actually used. If no option is given, the value of option defaults to the value of the given value. If no help is given, the default is <code>null</code>.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

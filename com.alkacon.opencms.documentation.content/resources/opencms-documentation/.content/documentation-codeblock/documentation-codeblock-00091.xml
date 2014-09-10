@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
+  <DocumentationCodeBlock language="en">
+    <Code><![CDATA[<index class="org.opencms.search.solr.CmsSolrIndex">
+   <name>Solr Offline</name>
+   <rebuild>offline</rebuild>
+   <project>Offline</project>
+   <locale>all</locale>
+   <configuration>solr_fields</configuration>
+   <sources>
+     [...]
+   </sources>
+   <param name="search.solr.postProcessor">
+      my.package.MyPostProcessor
+  </param>
+</index>]]></Code>
+  </DocumentationCodeBlock>
+</DocumentationCodeBlocks>

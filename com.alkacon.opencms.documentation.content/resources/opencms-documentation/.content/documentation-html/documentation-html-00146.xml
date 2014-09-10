@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Inline editing is configured inside a formatter JSP. Each formatter of a resource type defines its own inline edit behavior. E.g., an article can be dropped to the center column as well as to the side column, but the editor should only be able to edit the article in the center column. To achieve this behavior, only the formatter used to render the article in the center column container should enable the inline editing.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

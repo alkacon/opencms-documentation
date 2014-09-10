@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
+  <DocumentationCodeBlock language="en">
+    <Code><![CDATA[use mysql;
+insert into user values ('localhost', 'opencmsuser', password('XXXXX'),\
+   'N','N','N','N','N','N','N','N','N','N','N','N','N','N');
+insert into db values ('localhost', 'opencms', 'opencmsuser',\
+   'Y','Y','Y','Y','Y','Y','Y','Y','Y','Y');
+flush privileges;]]></Code>
+  </DocumentationCodeBlock>
+</DocumentationCodeBlocks>

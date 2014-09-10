@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[https://github.com/alkacon/modules-v8/blob/branch_9_0_x/modules/com.alkacon.opencms.v8.template3/resources/system/modules/com.alkacon.opencms.v8.template3/templates/main.jsp]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>Take a look at the OpenCms <a href="%(link0)">template 3</a> of the demo modules. This has the <code>centercontainer</code> marked for detail view and the <code>leftcontainerDetail</code> as well as the <code>rightcontainerDetail</code> set as the detail containers.</p>
+<p>Usually when placing a content element on a container page, the reference to this element is stored within the container page XML-content. With the elements in detail containers, this would not work, as there is only one detail page content for many news items.</p>
+<p>When using the detail containers feature OpenCms will automatically create and manage a new container page XML-content for each news item. Within this content the element references will be stored. In case of the news <code>/.content/news/news_0001.html</code> this would be <code>/.content/news/.detailContainers/news_0001.html</code>. So by convention the file is placed in a subfolder to the news item location called <code>.detailContainers</code> and it is named like the news itself. During the rendering process the same convention is used to look up detail container elements. So deleting a <code>.detailContainers</code>-folder will remove all related elements to the present news.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

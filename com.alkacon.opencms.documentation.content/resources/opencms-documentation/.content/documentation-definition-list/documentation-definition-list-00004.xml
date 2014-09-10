@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[UGC Configuration Content - General Settings]]></Title>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[Content type]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The content type for which contents should be edited/added.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Content folder]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The folder, where content is loaded from, created in and stored to. For security reasons all operations on content are limited this single folder.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Name pattern]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The name pattern, defining the names given to newly created contents. The pattern has to use the macro <code>%(number)</code>, e.g., “<code>ugc_%(number).xml</code>”.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Locale]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The locale in which the content is read/wrote.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Guest user substitute]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The name of the user that performs the content access when a guest user uses UGC. Users that are not logged in, i.e., guest users, have no permissions to access/edit/add content in OpenCms. Thus, to allow guests to use UGC, the access to the content must be performed by another user with the according permissions. If you do not set a user here, guest simply cannot perform UGC actions.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Automatic publishing]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If checked, new contents and alterations to existing contents via UGC are published directly. Otherwise, the changes remain unpublished till a user from the configured “Project group” publishes the changes.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Project group]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Group of users that can publish changes made via UGC. The changes are performed in a special project for each session. If “Automatic publishing” in this configuration file is not checked, the project is not published directly. Thus, a user with according permissions must publish the project.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

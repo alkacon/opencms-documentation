@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://wiki.apache.org/solr/CoreAdmin]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p><em>Core</em> is the wording in the Solr world for thinking of several indexes. Preferring the correct speech, let's say core instead index. Multiple cores should only be required if you have completely different applications but want a single Solr Server that manages all the data. See <a href="%(link0)">Solr Core Administration</a> for detailed information. So assuming you have configured multiple Solr cores and you would like to query a specific one you have to tell Solr/OpenCms which core/index you want to search on. This is done by a special parameter:</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[native_api]]></anchor>
+        </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[server_side_preparation]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>For connecting a webform and an XML content via UGC you can either <a href="%(link0)">use the native JavaScript API</a>, or the object-oriented, jQuery-based wrapper for this API. The wrapper provides a more abstract view on the connection between form and content. Thus, it probably helps to implement your own UGC connection easier than with the native API.</p>
+<p>The wrapper has in particular the following advantages:</p>
+<ul>
+<li>You set up just one mapping relation between content elements and form fields and you can use it for getting values from the content and writing values to the content.</li>
+<li>The UGC object provided by the wrapper takes care of mapping relation.</li>
+<li>The UGC object provides several useful methods to manipulate the mapped values.</li>
+</ul>
+<p>To use the wrapper, include it the respective JavaScript into your formatter as headinclude (see <a href="%(link1)">here</a>). Then instantiate your own UGC object and use the object for all UGC specific actions. We recommend to make up a new namespace for your UGC code by wrapping it with <code>$(function() { /* ... */ });</code>.</p>
+<p>In the following, we explain how to work with the UGC object. Note that we use the function names from the initialization section to refer to the respective callback or event handlers later on.</p>
+<div class="alert alert-info">A complete example on how to use the object is shipped with the demo, where UGC is used to allow posting blog entries.</div>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

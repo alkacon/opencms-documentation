@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[UGC Configuration Content - Security settings]]></Title>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[Max. number of contents]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Specifies the maximal number of contents allowed in the configured “Content folder”. If not set, the number is not limited.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Queue wait time]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The delay time between generating new sessions (in milliseconds).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Queue maximum length]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The maximal number of session that wait for creation. If more session requests are present at the same time, they are ignored.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

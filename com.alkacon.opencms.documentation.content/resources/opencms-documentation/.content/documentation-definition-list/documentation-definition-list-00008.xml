@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Function pages overview]]></Title>
+    <Heading><![CDATA[Function pages available]]></Heading>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[HTML redirect]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>A HTML Redirect might be accessible through the page navigation and redirects the browser to another URI within the site or to an external link. It might also be excluded from navigation but necessary if a page / sub-site has moved to another location and to prevent dead links from users' bookmarks.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Navigation level]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Navigation level is a special navigation folder, which redirects to the first container page inside this folder. Use this option, if you would like to list several sub pages in one navigation level without an overview page. Read more about navigation level in Section <a href="%(link0)">TODO:LINK Navigation level</a>.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

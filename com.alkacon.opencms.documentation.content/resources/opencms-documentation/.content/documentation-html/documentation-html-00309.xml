@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/ade-configuration/]]></target>
+          <uuid>40522cc2-18b2-11e4-8e8b-b7bfd6088c56</uuid>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/file/collectors/I_CmsResourceCollector.html]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>Typically a collector allows the creation of new content instances of the resource type it collects by clicking on the “plus” symbol of the flyout-menu of the first list entry. New resources are created inside a configured folder (see <a href="%(link0)">(sub-)sitemap configuration and module configuration</a>); typically below a <code>/.content/</code> directory inside the VFS of OpenCms. Please have a look at the Java documentation of <a href="%(link1)" target="_blank">the resource collector's interface</a> methods <code>getCreateLink()</code> and <code>getCreateParam()</code> for more details about creating resources with collectors.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

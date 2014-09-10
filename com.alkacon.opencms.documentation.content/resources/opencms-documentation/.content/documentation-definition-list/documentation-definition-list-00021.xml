@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Link gallery widget's configuration options]]></Title>
+    <Heading><![CDATA[Configuration options for the link gallery widget]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[class]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>An optional class implementing dynamic startup configurations and format values.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[startup]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The startup folder, set to <code>dynamic</code> if you want to use the custom class.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[type]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Can be <code>gallery</code> or <code>category</code>, set to <code>dynamic</code> if you want to use the custom class.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

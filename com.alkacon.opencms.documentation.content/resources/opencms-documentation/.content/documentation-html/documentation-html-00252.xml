@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>All alias matching for incoming requests is handled by the class <code>org.opencms.main.CmsAliasResourceHandler</code>, which is by default configured in the <code>opencms-system.xml</code> configuration file in the <code>&lt;resourceinit&gt;</code>-element. Even if this handler is removed from the configuration, it is still possible to edit aliases through the user interface, although they will have no effect.</p>
+<p>For paths which actually exist in the VFS, and for paths that start with <code>/system/</code>, the alias resource handler will not be used. Note that aliases are only active for a single site. For example, it is possible to use the same alias path for different simple aliases on different sites. Note that, due to the limitations of redirects, request parameters will not be preserved if a POST request's path matches an alias path and a redirect action is performed.<br /><br /></p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

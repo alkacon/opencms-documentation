@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[StandardContextBean: Useful properties to access further interesting Java beans]]></Title>
+    <Heading><![CDATA[List of useful properties to access further interesting Java beans]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[requestContext]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[sec_request_context_bean]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Access to the <a href="%(link0)">request context bean</a> <code>org.opencms.file.CmsRequestContext</code>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[vfs]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[sec_vfs_access_bean]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Access to the <a href="%(link0)">VFS access bean</a> <code>org.opencms.jsp.util.CmsJspVfsAccessBean</code>.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

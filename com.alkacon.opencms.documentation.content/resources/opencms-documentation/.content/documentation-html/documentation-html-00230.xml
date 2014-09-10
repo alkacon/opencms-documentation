@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://wiki.apache.org/solr/CommonQueryParameters]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>In order to return only permission checked resources (what is an expensive task) we only return this limited number of results. For paging over results please have a look at at the Solr parameters <code>rows</code> and <code>start</code>, e.g., at <a href="%(link0)">http://wiki.apache.org/solr/CommonQueryParameters</a>. Since OpenCms version 8.5.x you can increase the resulting documents to a size of your choice.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

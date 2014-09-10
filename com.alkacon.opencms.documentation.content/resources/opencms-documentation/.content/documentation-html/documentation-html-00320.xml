@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[detailpages_configuringcontentspecificurlpart]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>Resources created via “drag &amp; drop” are typically located in a directory that is configured either in the module configuration or in the sitemap configuration. Usually it is a sub-directory of a <code>/.content/</code> folder of a sitemap. If no detail page is configured, the URL for a news article points directly the the article's resource, e.g., it would look like: <code>http://www.example.com/en/.content/news/news_00005.html</code>. By using detail pages the URL is changed to <code>{detail page URL}{a generated title}{a suffix}</code>. This technique offers the capability to auto-generate meaningful URLs without <code>/.content/</code> in it.</p>
+<p>By configuring a detail page for the resource type <code>football-news</code> at: <code>/en/football/news/</code> will make a news article about the defender Rafael that is located at: <code>/en/.content/football-news/news_0096845.html</code> and <a href="%(link0)">whose "Title"-element is mapped to "urlName"</a> available under:</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

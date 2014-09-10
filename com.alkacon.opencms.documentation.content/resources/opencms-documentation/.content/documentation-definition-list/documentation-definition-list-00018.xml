@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Download gallery widget's configuration options]]></Title>
+    <Heading><![CDATA[Available configuration options]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[class]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Provide a class to configure the widget dynamically. The class must implement the interface <code>I_CmsImageWidgetDynamicConfiguration</code>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[startup]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The startup (gallery) folder, for the widget. Set the value to <code>dynamic</code> if it should be configured by class given via parameter <code>class</code>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[gallerytypes]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Set which types of galleries are considered by the widget. Suitable types are <code>downloadgallery</code> and <code>imagegallery</code>. The value has to be a comma separated list.</p>
+<p>Default:  <code>imagegallery,downloadgallery</code></p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The tag creates a new session and exposes the session-id via the variable set in the attribute <code>var</code>. If <code>var</code> is not given, the session-id is exposed via the variable <code>formSessionId</code>.</p>
+<p>The attribute <code>configPath</code> is mandatory. Here the OpenCms VFS URI of the UGC configuration content that should be used to set up the session is given. Value <code>${content.filename}</code> will yield the according URI if you use the tag in the formatter of a UGC configuration. This is recommended.</p>
+<p><strong>To create a session for editing an existent content</strong> use the tag as in the above example:</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

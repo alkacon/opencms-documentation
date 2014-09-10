@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
+  <DocumentationCodeBlock language="en">
+    <Code><![CDATA[function updateValues() { 
+  var result = {} ; 
+  result["Title[1]"] =  $("input[name='titlefield']").val();
+  result["Paragraph[1]/Text[1]"] = $("input[name='textfield']").val(); 
+  // …
+  return result; 
+}]]></Code>
+  </DocumentationCodeBlock>
+</DocumentationCodeBlocks>

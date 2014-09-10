@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
+  <DocumentationCodeBlock language="en">
+    <Code><![CDATA[<flexcache>
+	<cache-enabled>true</cache-enabled> 
+	<cache-offline>false</cache-offline>
+	<maxcachebytes>8000000</maxcachebytes> 
+	<avgcachebytes>6000000</avgcachebytes>
+	<maxentrybytes>400000</maxentrybytes> 
+	<maxkeys>2000</maxkeys>
+</flexcache>]]></Code>
+  </DocumentationCodeBlock>
+</DocumentationCodeBlocks>
