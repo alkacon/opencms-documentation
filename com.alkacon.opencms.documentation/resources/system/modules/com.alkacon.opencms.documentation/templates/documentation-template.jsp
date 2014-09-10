@@ -70,8 +70,13 @@
 		<div class="row">
 			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 		
+				<%-- Menu for view switching (editor vs. user) --%>
+				<c:if test="${!cms.isOnlineProject}">
+					<cms:include file="%(link.strong:/system/modules/com.alkacon.opencms.documentation/elements/viewSwitcher.jsp:c673fbf4-38ea-11e4-9c91-578a14069906)" />
+				</c:if>
+				
 				<!-- BEGIN: Site Navigation -->
-				<cms:include file="%(link.strong:/system/modules/com.alkacon.opencms.documentation/elements/sitenavigation2.jsp:8d667ace-2930-11e4-b03d-d144f6bb3566)" />
+				<cms:include file="%(link.strong:/system/modules/com.alkacon.opencms.documentation/elements/sitenavigation.jsp:8d667ace-2930-11e4-b03d-d144f6bb3566)" />
 				<!-- END: Site Navigation -->
 				
 			</div>

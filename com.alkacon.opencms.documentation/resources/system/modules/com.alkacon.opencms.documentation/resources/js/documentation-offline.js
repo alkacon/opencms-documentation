@@ -11,6 +11,15 @@ function placeHintsForDemoContentWrappers() {
     });
 }
 
+function addClickHandlers() {
+	var docButton = $('a.documentation-change-view')
+    docButton.click(function(){
+        $.get(docButton.data('documentation-change-view-url'), function() {
+            location.reload();
+        });
+    });
+}
+
 $('document').ready(function() {
     if($("body").data("documentation-editor") != true) {
         $(window).bind("load", hideEditPoints);
@@ -18,4 +27,5 @@ $('document').ready(function() {
     $(".scroll-left").scrollLeft();
     $(".documentation-source-link").prepend("Source-URL: ");
     placeHintsForDemoContentWrappers();
+    addClickHandlers();
 });
