@@ -25,7 +25,7 @@ configurations { compile { description = 'used to compile the modules jars'
 // import dependencies
 apply from: 'dependencies.gradle'
 
-modules_oamp_all.split(',').each{ moduleName ->
+modules_documentation_all.split(',').each{ moduleName ->
     sourceSets.create(moduleName,{
         java {
             srcDir "${moduleName}/src"
@@ -72,7 +72,7 @@ modules_oamp_all.split(',').each{ moduleName ->
         ext.moduleName = moduleName
         ext.moduleVersion= moduleVersion
         manifest {
-            attributes 'Implementation-Title': 'Alkacon OAMP', 'Implementation-Version': moduleVersion
+            attributes 'Implementation-Title': 'Alkacon OpenCms Documentation', 'Implementation-Version': moduleVersion
         }
         from sourceSets[moduleName].output
         archiveName moduleName+'.jar'
