@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<export>
+	<info>
+		<creator>Admin</creator>
+		<opencms_version>9.4.8</opencms_version>
+		<createdate>Wed, 10 Sep 2014 08:43:02 GMT</createdate>
+		<infoproject>Offline</infoproject>
+		<export_version>7</export_version>
+	</info>
+	<module>
+		<name>com.alkacon.opencms.documentation.editortools.content</name>
+		<nicename><![CDATA[OpenCms documentation editor tools content]]></nicename>
+		<class/>
+		<description><![CDATA[Provides pages that expose editor tools for the documentation. Has to be placed in the same site as the documentation content.]]></description>
+		<version>0.7</version>
+		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
+		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
+		<datecreated/>
+		<userinstalled/>
+		<dateinstalled/>
+		<dependencies/>
+		<exportpoints/>
+		<resources>
+			<resource uri="/opencms-documentation-editor-tools/"/>
+		</resources>
+		<parameters/>
+	</module>
+	<files>
+		<file>
+			<destination>opencms-documentation-editor-tools</destination>
+			<type>subsitemap</type>
+			<uuidstructure>28547f56-2d2a-11e4-93f4-d144f6bb3566</uuidstructure>
+			<datelastmodified>Wed, 10 Sep 2014 08:40:12 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 26 Aug 2014 14:06:21 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavInfo</name>
+					<value><![CDATA[ignoreInDefaultNav]]></value>
+				</property>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.125]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Documentation tools]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Documentation tools]]></value>
+				</property>
+				<property>
+					<name>opencms.documentation.version</name>
+					<value><![CDATA[9.5]]></value>
+				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.opencms.documentation.editortools/templates/documentation-editortools-template.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation-editor-tools/index.html</source>
+			<destination>opencms-documentation-editor-tools/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>285bf96b-2d2a-11e4-93f4-d144f6bb3566</uuidstructure>
+			<uuidresource>285bf96c-2d2a-11e4-93f4-d144f6bb3566</uuidresource>
+			<datelastmodified>Tue, 09 Sep 2014 09:43:17 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 26 Aug 2014 14:06:21 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms documentation editor tools]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation-editor-tools/.content</destination>
+			<type>content_folder</type>
+			<uuidstructure>336bda5e-2d2a-11e4-93f4-d144f6bb3566</uuidstructure>
+			<datelastmodified>Tue, 26 Aug 2014 14:06:40 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 26 Aug 2014 14:06:40 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation-editor-tools/.content/.config</source>
+			<destination>opencms-documentation-editor-tools/.content/.config</destination>
+			<type>sitemap_config</type>
+			<uuidstructure>336e2450-2d2a-11e4-93f4-d144f6bb3566</uuidstructure>
+			<uuidresource>336e2451-2d2a-11e4-93f4-d144f6bb3566</uuidresource>
+			<datelastmodified>Tue, 09 Sep 2014 13:39:50 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 26 Aug 2014 14:06:40 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>512</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Sitemap configuration file]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation-editor-tools/.content/.new</destination>
+			<type>folder</type>
+			<uuidstructure>a6a44570-2e8c-11e4-8af3-d144f6bb3566</uuidstructure>
+			<datelastmodified>Thu, 28 Aug 2014 08:29:57 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 28 Aug 2014 08:23:55 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation-editor-tools/.content/.new/default_documentation_editortools_model.xml</source>
+			<destination>opencms-documentation-editor-tools/.content/.new/default_documentation_editortools_model.xml</destination>
+			<type>containerpage</type>
+			<uuidstructure>bfc05762-2e8c-11e4-8af3-d144f6bb3566</uuidstructure>
+			<uuidresource>bfc05763-2e8c-11e4-8af3-d144f6bb3566</uuidresource>
+			<datelastmodified>Thu, 28 Aug 2014 08:24:54 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 28 Aug 2014 08:24:37 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Default model page for editortools]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation-editor-tools/.content/auto-correct-xml</destination>
+			<type>folder</type>
+			<uuidstructure>582b14ab-2e7f-11e4-8af3-d144f6bb3566</uuidstructure>
+			<datelastmodified>Thu, 28 Aug 2014 06:48:40 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 28 Aug 2014 06:48:40 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00001.xml</source>
+			<destination>opencms-documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00001.xml</destination>
+			<type>auto-correct-xml</type>
+			<uuidstructure>582f5a6d-2e7f-11e4-8af3-d144f6bb3566</uuidstructure>
+			<uuidresource>582f5a6e-2e7f-11e4-8af3-d144f6bb3566</uuidresource>
+			<datelastmodified>Tue, 09 Sep 2014 13:41:40 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 28 Aug 2014 06:48:40 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00002.xml</source>
+			<destination>opencms-documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00002.xml</destination>
+			<type>auto-correct-xml</type>
+			<uuidstructure>1937019b-2e89-11e4-8af3-d144f6bb3566</uuidstructure>
+			<uuidresource>1937019c-2e89-11e4-8af3-d144f6bb3566</uuidresource>
+			<datelastmodified>Tue, 09 Sep 2014 13:41:53 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 28 Aug 2014 07:58:29 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation-editor-tools/content-sanitizers</destination>
+			<type>folder</type>
+			<uuidstructure>05526e8f-2e7f-11e4-8af3-d144f6bb3566</uuidstructure>
+			<datelastmodified>Thu, 28 Aug 2014 06:46:33 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 28 Aug 2014 06:46:21 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[2.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Content Sanitizers]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content Sanitizers]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation-editor-tools/content-sanitizers/index.html</source>
+			<destination>opencms-documentation-editor-tools/content-sanitizers/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>05583af4-2e7f-11e4-8af3-d144f6bb3566</uuidstructure>
+			<uuidresource>05583af5-2e7f-11e4-8af3-d144f6bb3566</uuidresource>
+			<datelastmodified>Thu, 28 Aug 2014 07:58:29 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 28 Aug 2014 06:46:21 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content Sanitizers]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation-editor-tools/editing-the-documentation</destination>
+			<type>folder</type>
+			<uuidstructure>3ff42768-3759-11e4-9771-d144f6bb3566</uuidstructure>
+			<datelastmodified>Mon, 08 Sep 2014 13:08:49 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 08 Sep 2014 13:08:39 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.5]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Editing the documentation]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Editing the documentation]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation-editor-tools/editing-the-documentation/index.html</source>
+			<destination>opencms-documentation-editor-tools/editing-the-documentation/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>3ff8e25d-3759-11e4-9771-d144f6bb3566</uuidstructure>
+			<uuidresource>3ff8e25e-3759-11e4-9771-d144f6bb3566</uuidresource>
+			<datelastmodified>Mon, 08 Sep 2014 13:08:49 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 08 Sep 2014 13:08:39 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Editing the documentation]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation-editor-tools/screenshot-review</destination>
+			<type>folder</type>
+			<uuidstructure>289bf625-31c7-11e4-8511-d144f6bb3566</uuidstructure>
+			<datelastmodified>Mon, 01 Sep 2014 11:00:39 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 01 Sep 2014 11:00:17 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[3.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Screenshot review]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Screenshot review]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation-editor-tools/screenshot-review/index.html</source>
+			<destination>opencms-documentation-editor-tools/screenshot-review/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>28a14d5a-31c7-11e4-8511-d144f6bb3566</uuidstructure>
+			<uuidresource>28a14d5b-31c7-11e4-8511-d144f6bb3566</uuidresource>
+			<datelastmodified>Mon, 01 Sep 2014 12:06:12 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 01 Sep 2014 11:00:17 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Screenshot review]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation-editor-tools/todos</destination>
+			<type>folder</type>
+			<uuidstructure>fd064175-2e7e-11e4-8af3-d144f6bb3566</uuidstructure>
+			<datelastmodified>Thu, 28 Aug 2014 06:46:13 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 28 Aug 2014 06:46:07 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Todos]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Todos]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation-editor-tools/todos/index.html</source>
+			<destination>opencms-documentation-editor-tools/todos/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>fd0f422a-2e7e-11e4-8af3-d144f6bb3566</uuidstructure>
+			<uuidresource>fd0f422b-2e7e-11e4-8af3-d144f6bb3566</uuidresource>
+			<datelastmodified>Thu, 28 Aug 2014 06:46:43 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 28 Aug 2014 06:46:07 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Todos]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+	</files>
+</export>
