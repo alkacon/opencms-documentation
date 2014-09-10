@@ -5,7 +5,11 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <cms:formatter var="content">
 <div>
-	<c:if test="${not cms.isOnlineProject}">
+	${cms.enableReload}
+	<c:set var="isEditor">
+		<cms:property name="opencms.documentation.editor" file="search" default="false" />
+	</c:set>
+	<c:if test="${not cms.isOnlineProject and isEditor}">
 		<div class="alert alert-info">
 			Edit me to change the topics meta-data.
 		</div>

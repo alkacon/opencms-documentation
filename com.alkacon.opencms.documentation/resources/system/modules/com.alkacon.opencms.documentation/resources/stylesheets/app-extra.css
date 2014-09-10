@@ -40,3 +40,28 @@ i.page-nav-btn {
 .page-nav .page-nav-content .list-group {
 	margin-bottom: 0px;	
 }
+
+.list-group-inner {
+	margin-bottom:-1px;
+}
+
+span.nav-side-toggle-sublevel {
+	display: inline-block;
+	width: 25px;
+	text-decoration: none;
+}
+
+a:hover > span.nav-side-toggle-sublevel {
+	color: #555;
+}
+
+a > span.nav-side-toggle-sublevel:hover {
+	color: #b31b34;
+}
+ul.nav-side a:focus {
+	color: #555;
+	text-decoration: none;
+}
+ul.nav-side a:hover {
+	color: #b31b34;
+}

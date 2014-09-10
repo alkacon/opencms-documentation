@@ -1,4 +1,4 @@
-<%@page taglibs="cms" %>
+<%@page buffer="none" session="false" trimDirectiveWhitespaces="true" taglibs="cms" %>
 <!--=== Top ===-->
 <div class="top">
 <%-- 
@@ -12,7 +12,7 @@
 <!--=== Header ===-->
 <div class="header">
 	<div class="navbar navbar-default" role="navigation">
-        <div class="container">
+        <div class="container-fluid container-main">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
@@ -36,7 +36,7 @@
 
 <!--=== Breadcrumbs ===-->
 <div class="breadcrumbs margin-bottom-30">
-	<div class="container">
+	<div class="container-fluid container-main">
         <h1 class="pull-left"><cms:info property="opencms.title" /></h1>
         <cms:include file="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/elements/nav-breadcrumb.jsp:6f6f2ea3-1bb3-11e3-a120-000c29f9a2ec)">
 			<cms:param name="startlevel">0</cms:param>

@@ -8,7 +8,7 @@
 		<c:if test="${content.value.Heading.exists}">
 			<h5 class="heading" ${content.rdfa.Heading}>${content.value.Heading}</h5>
 		</c:if>
-		<dl>
+		<dl ${cms.element.settings['style'] eq 'compact'?'class="documentation-dl-compact"':''} >
 			<c:set var="isPropertyDef" value="${content.value.PropertyDef == 'true'}" />
 			<c:forEach var="entry" items="${content.valueList.Entry}">
 				<dt>

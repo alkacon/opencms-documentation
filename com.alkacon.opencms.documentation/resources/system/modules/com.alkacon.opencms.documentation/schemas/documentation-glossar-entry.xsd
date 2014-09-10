@@ -31,7 +31,7 @@
 				<default element="Description" value="Add the description" />
 			</defaults>
 			<layouts>
-				<layout element="Description" widget="HtmlWidget" configuration="" />
+				<layout element="Description" widget="HtmlWidget" configuration="height:800px,spellcheck,link,image,table,source,hidebuttons:underline;strikethrough;alignleft;alignright;aligncenter;justify;indent;outdend;blockquote;hr;print,stylesformat:/system/modules/com.alkacon.opencms.documentation/resources/tinymce/styles.xml,imagegallery{useformat:true,formatnames: 'inline:Inline', formatvalues: ['14x?']}" />
 			</layouts>
 			<validationrules/>
 			<relations/>

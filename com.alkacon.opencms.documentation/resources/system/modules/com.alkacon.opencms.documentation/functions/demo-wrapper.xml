@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DynamicFunctions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/function.xsd">
+  <DynamicFunction language="en">
+    <Title><![CDATA[Demo Wrapper]]></Title>
+    <Description><![CDATA[Wrapper for demo contents]]></Description>
+    <FunctionProvider>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.opencms.documentation/functions/demo-wrapper.jsp]]></target>
+        <uuid>652697a0-1e12-11e4-a270-d9f74955ba1b</uuid>
+      </link>
+    </FunctionProvider>
+    <ContainerSettings>
+      <Type><![CDATA[documentation-content]]></Type>
+      <MinWidth/>
+    </ContainerSettings>
+  </DynamicFunction>
+</DynamicFunctions>

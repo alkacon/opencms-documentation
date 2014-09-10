@@ -1,6 +1,7 @@
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
 
 	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+	<xsd:include schemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/nested/version-info.xsd"/>
 	<xsd:include schemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/nested/status-metadata.xsd"/>
 
 	<xsd:element name="DocumentationSections" type="OpenCmsDocumentationSections"/>
@@ -16,6 +17,8 @@
 			<xsd:element name="Title" type="OpenCmsString" minOccurs="0"/>
 			<xsd:element name="Headline" type="OpenCmsString"/>
 			<xsd:element name="RefId" type="OpenCmsString" minOccurs="0"/>
+			<xsd:element name="VersionInfo" type="OpenCmsDocumentationVersionInfo" />
+			<xsd:element name="DocuVersionInfo" type="OpenCmsDocumentationVersionInfo" />
 			<xsd:element name="StatusMetaData" type="OpenCmsDocumentationStatusMetadata" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
@@ -24,19 +27,31 @@
 	<xsd:annotation>
 		<xsd:appinfo>
 			<mappings>
-				<mapping element="Title" mapto="property:Title" />
+				<mapping element="Title" mapto="property:Title" useDefault="true" />
 			</mappings>
 			<defaults>
 				<default element="Headline" value="Add a headline"/>
+				<default element="Title" value="%(page_title)%(no_prefix: - )%(value:Headline[1])" resolveMacros="false"/>
 			</defaults>
 			<layouts/>
 			<validationrules/>
 			<relations/>
 			<tabs>
 				<tab element="Title" collapse="false" name="General" />
+				<tab element="VersionInfo" collapse="false" name="Version info" />
 				<tab element="StatusMetaData" collapse="true" />
 			</tabs>
-			<searchsettings containerPageOnly="true"/>
+			<searchsettings>
+				<searchsetting element="Headline"  searchcontent="true">
+					<solrfield targetfield="headline" />
+				</searchsetting>
+				<searchsetting element="RefId"  searchcontent="true">
+					<solrfield targetfield="refId" />
+				</searchsetting>
+				<searchsetting element="StatusMetaData/Todos/Todo" searchcontent="true">
+					<solrfield targetfield="todos" />
+				</searchsetting>
+			</searchsettings>
 		</xsd:appinfo>
 	</xsd:annotation>
 

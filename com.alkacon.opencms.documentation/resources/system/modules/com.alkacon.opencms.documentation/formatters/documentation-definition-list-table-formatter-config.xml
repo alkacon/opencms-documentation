@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[Format definition list as table]]></NiceName>
+    <Type><![CDATA[documentation-definition-list]]></Type>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.opencms.documentation/formatters/documentation-definition-list-table-formatter.jsp]]></target>
+        <uuid>f02be9bc-26c5-11e4-be78-49dbf0abad32</uuid>
+      </link>
+    </Jsp>
+    <Rank><![CDATA[1000]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[documentation-section]]></ContainerType>
+      </Types>
+    </Match>
+    <Preview>false</Preview>
+    <SearchContent>true</SearchContent>
+    <AutoEnabled>true</AutoEnabled>
+    <Detail>true</Detail>
+    <NestedContainers>false</NestedContainers>
+    <HeadIncludeCss>
+      <CssLink>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/com.alkacon.opencms.documentation/resources/stylesheets/definition-list-table.css]]></target>
+          <uuid>f0e05043-26c6-11e4-be78-49dbf0abad32</uuid>
+        </link>
+      </CssLink>
+    </HeadIncludeCss>
+  </NewFormatter>
+</NewFormatters>

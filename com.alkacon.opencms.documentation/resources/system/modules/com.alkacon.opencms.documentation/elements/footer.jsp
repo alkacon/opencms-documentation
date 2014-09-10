@@ -1,8 +1,8 @@
-<%@page taglibs="cms,c" %>
+<%@page buffer="none" session="false" trimDirectiveWhitespaces="true" taglibs="cms,c" %>
 <footer>
 	<!--=== Copyright ===-->
 	<div class="copyright">
-		<div class="container">
+		<div class="container-fluid container-main">
 			<div class="row">
 			
 			<div class="col-sm-9">

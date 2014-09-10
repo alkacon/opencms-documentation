@@ -9,45 +9,34 @@ function replaceFootnotes() {
     
 }
 
-function indexSections() {
-    var currentIndex = new Array(0,0,0,0);
-    var indexString;
-    var level;
-    $(".section").each(function(index) {
-       if($(this).hasClass("section-level-1")) {
-           level = 1;
-       } else if ($(this).hasClass("section-level-2")) {
-           level = 2;
-       } else if ($(this).hasClass("section-level-3")) {
-           level = 3;
-       } else if ($(this).hasClass("section-level-4")) {
-           level = 4;
-       }
-       currentIndex = increaseIndex(currentIndex, level);
-       indexString = buildIndexString(currentIndex, level);
-       $(this).prepend("<a name='" + indexString + "'></a>" + indexString + " ");
-       console.log( index + ": " + $(this).text());
-    });
+function expand(e) {
+    $(this).removeClass('icon-expand');
+    $(this).addClass('icon-collapse');
+    $(this).parent().parent().next().show();
+    $(this).unbind("click",expand);
+    $(this).bind("click",collapse);    
+    e.preventDefault();
 }
 
-function buildIndexString(currentIndex, level) {
-    var indexString = currentIndex[0];
-    for (var i = 1; i < level; i++) {
-        indexString += "." + currentIndex[i];
-    }
-    return indexString;
-}
-
-function increaseIndex(currentIndex, level) {
-    var levelIndex = level - 1;
-    currentIndex[levelIndex] = currentIndex[levelIndex] + 1;
-    for (var i = level; i <= 4; i++) {
-        currentIndex[i] = 0;
-    }
-    return currentIndex;
+function collapse(e) {
+    $(this).removeClass('icon-collapse');
+    $(this).addClass('icon-expand');
+    $(this).parent().parent().next().hide();
+    $(this).unbind("click",collapse);
+    $(this).bind("click",expand);
+    e.preventDefault();
 }
 
 $('document').ready(function() {
-        replaceFootnotes();
-        indexSections();
+    replaceFootnotes();
+    $("span.nav-side-toggle-sublevel.icon-collapse").bind("click",collapse);
+    $("span.nav-side-toggle-sublevel.icon-expand").bind("click",expand);
+    $("span.nav-side-toggle-sublevel").mouseenter( 
+            function() {
+                $(this).parent().mouseleave();
+    });
+    $("span.nav-side-toggle-sublevel").mouseleave( 
+            function() {
+                $(this).parent().mouseenter();
+    });
 });

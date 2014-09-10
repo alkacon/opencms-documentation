@@ -28,8 +28,8 @@
 					<cms:contentload editable="true">
 						<cms:contentaccess var="entry" />
 						<a name="${entry.value.RefId.exists?entry.value.RefId:entry.value.Term}"></a>
-						<dt ${entry.rdfa.Term}>${entry.value.Term}</dt>
-						<dd ${entry.rdfa.Description}>${entry.value.Description}</dd>
+						<dt>${entry.value.Term}</dt>
+						<dd>${entry.value.Description}</dd>
 					</cms:contentload>
 					</dl>
 				</c:when>

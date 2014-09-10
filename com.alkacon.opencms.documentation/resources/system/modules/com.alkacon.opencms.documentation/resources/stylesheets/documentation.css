@@ -11,3 +11,41 @@ span.footnote-hover:hover {
 	color: #e74c3c;
 	cursor: help;
 }
+
+.xscroll {
+	overflow-x:auto;
+}
+
+iframe.opencms-documentation-source {
+	border: none;
+	display: none;
+	width: 100%;
+}
+
+iframe.opencms-documentation-source.contenteditor {
+	min-width:950px;
+}
+
+.documentation-source-link {
+	font-style: monospace;
+	background-color: lightgray;
+	border: 1px solid darkgray;
+	padding: 5px 10px;
+	margin: 10px 0px;
+}
+
+div.documentation-demo-source {
+	margin-bottom: 15px;
+}
+
+div.container-fluid.container-main {
+	max-width: 1350px;
+}
+
+div.panel-body-documentation > a {
+	text-decoration:none;
+}
+h4.panel-title-documentation > a:active {
+	color:inherit;
+
+	}

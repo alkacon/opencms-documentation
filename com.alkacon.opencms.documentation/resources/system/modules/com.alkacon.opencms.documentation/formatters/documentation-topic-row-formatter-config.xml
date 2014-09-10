@@ -12,14 +12,20 @@
     </Jsp>
     <Rank><![CDATA[1000]]></Rank>
     <Match>
-      <Width>
-        <Width><![CDATA[-1]]></Width>
-      </Width>
+      <Types>
+        <ContainerType><![CDATA[documentation-overview]]></ContainerType>
+      </Types>
     </Match>
     <Preview>false</Preview>
     <SearchContent>true</SearchContent>
     <AutoEnabled>true</AutoEnabled>
     <Detail>true</Detail>
     <NestedContainers>false</NestedContainers>
+    <Setting>
+      <PropertyName><![CDATA[showteaser]]></PropertyName>
+      <DisplayName><![CDATA[Show topic teasers]]></DisplayName>
+      <Widget><![CDATA[checkbox]]></Widget>
+      <Default><![CDATA[true]]></Default>
+    </Setting>
   </NewFormatter>
 </NewFormatters>

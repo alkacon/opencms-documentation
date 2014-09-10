@@ -1,0 +1,12 @@
+table.documentation-dl-table {
+	width: 100%;
+}
+
+table.documentation-dl-table td {
+	border: 1px solid black;
+	padding: 5px 10px;
+}
+
+table.documentation-dl-table td > p {
+	display: inline;
+}

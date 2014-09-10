@@ -11,12 +11,20 @@
       <Value><![CDATA[Topic]]></Value>
     </Message>
     <Message>
+      <Key><![CDATA[desc.documentation-topic]]></Key>
+      <Value><![CDATA[Holds a general description of a pages topic. Has to be placed on EACH page of the documentation.]]></Value>
+    </Message>
+    <Message>
       <Key><![CDATA[title.documentation-html]]></Key>
       <Value><![CDATA[Create a new documentation HTML]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[fileicon.documentation-html]]></Key>
       <Value><![CDATA[HTML]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.documentation-html]]></Key>
+      <Value><![CDATA[An HTML text snippet. Must be wrapped by a section.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[title.documentation-codeblock]]></Key>
@@ -27,20 +35,36 @@
       <Value><![CDATA[Code]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[fileicon.documentation-section]]></Key>
-      <Value><![CDATA[Section]]></Value>
+      <Key><![CDATA[desc.documentation-codeblock]]></Key>
+      <Value><![CDATA[Code fragments with syntax highlighting. Must be wrapped in a section.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[title.documentation-section]]></Key>
       <Value><![CDATA[Create a new documentation section]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[fileicon.documentation-figure]]></Key>
-      <Value><![CDATA[Figure]]></Value>
+      <Key><![CDATA[fileicon.documentation-section]]></Key>
+      <Value><![CDATA[Section]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.documentation-section]]></Key>
+      <Value><![CDATA[Section headline and a nested container. Topic content must be structured in sections.]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[title.documentation-figure]]></Key>
       <Value><![CDATA[Create a new figure in the documentation]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.documentation-figure]]></Key>
+      <Value><![CDATA[Figure]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.documentation-figure]]></Key>
+      <Value><![CDATA[Place an image inside a section. It can be inline or showed with title and reference.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.documentation-definition-list]]></Key>
+      <Value><![CDATA[Create a new documentation definition list]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[fileicon.documentation-definition-list]]></Key>
@@ -51,20 +75,16 @@
       <Value><![CDATA[A list of definitions, typically rendered as <dl>-list in HTML]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[title.documentation-definition-list]]></Key>
-      <Value><![CDATA[Create a new documentation definition list]]></Value>
-    </Message>
-    <Message>
-      <Key><![CDATA[desc.documentation-topic-row]]></Key>
-      <Value><![CDATA[Given an overview on some topics and link to them]]></Value>
+      <Key><![CDATA[title.documentation-topic-row]]></Key>
+      <Value><![CDATA[Create a new topic overview]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[fileicon.documentation-topic-row]]></Key>
       <Value><![CDATA[Topic Overview]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[title.documentation-topic-row]]></Key>
-      <Value><![CDATA[Create a new topic overview]]></Value>
+      <Key><![CDATA[desc.documentation-topic-row]]></Key>
+      <Value><![CDATA[Given an overview on some topics and link to them]]></Value>
     </Message>
     <Message>
       <Key><![CDATA[label.AlkaconDocumentationTopicFrame.Overview]]></Key>
@@ -319,7 +339,7 @@
       <Value><![CDATA[Status]]></Value>
     </Message>
     <Message>
-      <Key><![CDATA[label.DocumentationSection.StatusMetaData]]></Key>
+      <Key><![CDATA[label.DocumentationSection.StatusMetaData.help]]></Key>
       <Value><![CDATA[Information on the state of this section shown offline to help editors.]]></Value>
     </Message>
     <Message>
@@ -401,6 +421,38 @@
     <Message>
       <Key><![CDATA[title.documentation-glossar]]></Key>
       <Value><![CDATA[Create a new documentation glossar]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.documentation-demo-wrapper]]></Key>
+      <Value><![CDATA[Demo Wrapper]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.documentation-demo-wrapper]]></Key>
+      <Value><![CDATA[Create a new documentation demo wrapper]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.documentation-demo-source]]></Key>
+      <Value><![CDATA[Create a new demo source]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.documentation-demo-source]]></Key>
+      <Value><![CDATA[Demo Source]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.documentation-demo-source]]></Key>
+      <Value><![CDATA[Content to display demo sources. Sources can be different for the online and offline project.]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[title.documentation-demo-article]]></Key>
+      <Value><![CDATA[Create a new demo article]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[fileicon.documentation-demo-article]]></Key>
+      <Value><![CDATA[Demo Article]]></Value>
+    </Message>
+    <Message>
+      <Key><![CDATA[desc.documentation-demo-article]]></Key>
+      <Value><![CDATA[The demo content used for many demos.]]></Value>
     </Message>
   </Bundle>
 </XmlVfsBundles>

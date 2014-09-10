@@ -1,0 +1,36 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+	<xsd:include schemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/nested/image-and-link.xsd"/>
+	
+
+	<xsd:element name="DocumentationDemoSourceItems" type="OpenCmsDocumentationDemoSourceItems"/>
+
+	<xsd:complexType name="OpenCmsDocumentationDemoSourceItems">
+		<xsd:sequence>
+			<xsd:element name="DocumentationDemoSourceItem" type="OpenCmsDocumentationDemoSourceItem" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsDocumentationDemoSourceItem">
+		<xsd:choice>
+			<xsd:element name="SourceCode" type="OpenCmsVfsFile" minOccurs="0" />
+			<xsd:element name="ContentEditor" type="OpenCmsVfsFile" minOccurs="0" />
+			<xsd:element name="SitemapEditor" type="OpenCmsVfsFile" minOccurs="0" />
+			<xsd:element name="Explorer" type="OpenCmsVfsFile" minOccurs="0" />
+			<xsd:element name="Image" type="OpenCmsDocumentationImageAndLink" minOccurs="0" />
+		</xsd:choice>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<defaults/>
+			<layouts/>
+			<validationrules/>
+			<relations/>
+			<searchsettings containerPageOnly="true"/>
+		</xsd:appinfo>
+	</xsd:annotation>
+
+</xsd:schema>

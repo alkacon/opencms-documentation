@@ -16,6 +16,7 @@
 			<xsd:element name="Title" type="OpenCmsString"/>
 			<xsd:element name="Description" type="OpenCmsHtml" minOccurs="0"/>
 			<xsd:element name="Image" type="OpenCmsVfsFile"/>
+			<xsd:element name="OpenCmsVersion" type="OpenCmsString" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
 	</xsd:complexType>
@@ -26,6 +27,7 @@
 				<default element="Identifier" value="Add identifier" />
 				<default element="Title" value="Add title" />
 				<default element="Image" value="/opencms-documentation/.galleries/pictures/default.png" />
+				<default element="OpenCmsVersion" value="%(opencms.version)" />
 			</defaults>
 			<mappings>
 				<mapping element="Title" mapto="urlName" />
@@ -37,7 +39,11 @@
 			</layouts>
 			<validationrules/>
 			<relations/>
-			<searchsettings containerPageOnly="true"/>
+			<searchsettings>
+				<searchsetting element="OpenCmsVersion" searchcontent="true" >
+					<solrfield targetfield="version" />
+				</searchsetting>
+			</searchsettings>
 		</xsd:appinfo>
 	</xsd:annotation>
 
