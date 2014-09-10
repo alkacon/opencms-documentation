@@ -60,9 +60,13 @@
 	<div class="container-fluid container-main">
 		<div class="row">
 			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-		
+				
+				<%-- Back to the documentation --%>
+				<div class="tag-box tag-box-v4">
+					<a class="btn-u btn-u-default btn-block" style="text-align:center;" href="<cms:link>/opencms-documentation/</cms:link>">Back to the documentation</a>
+				</div>
 				<!-- BEGIN: Site Navigation -->
-				<cms:include file="%(link.strong:/system/modules/com.alkacon.opencms.documentation/elements/sitenavigation2.jsp:8d667ace-2930-11e4-b03d-d144f6bb3566)">
+				<cms:include file="%(link.strong:/system/modules/com.alkacon.opencms.documentation/elements/sitenavigation.jsp:8d667ace-2930-11e4-b03d-d144f6bb3566)">
 					<cms:param name="resource">/${fn:substringBefore(fn:substring(cms.requestContext.uri,1,-1),"/")}/</cms:param>
 					<cms:param name="navStartLevel">1</cms:param>
 					<cms:param name="maxNavLevels">4</cms:param>
