@@ -1,0 +1,34 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+
+	<xsd:element name="AutoCorrectXmls" type="OpenCmsAutoCorrectXmls"/>
+
+	<xsd:complexType name="OpenCmsAutoCorrectXmls">
+		<xsd:sequence>
+			<xsd:element name="AutoCorrectXml" type="OpenCmsAutoCorrectXml" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsAutoCorrectXml">
+		<xsd:sequence>
+			<xsd:element name="Folder" type="OpenCmsVfsFile" />
+			<xsd:element name="Type" type="OpenCmsString" />
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<mappings />
+			<defaults />
+			<layouts>
+				<layout element="Type" widget="TypeComboWidget" />
+			</layouts>
+			<validationrules/>
+			<relations/>
+			<searchsettings containerPageOnly="true"/>
+		</xsd:appinfo>
+	</xsd:annotation>
+
+</xsd:schema>
