@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>When you run a target, the created files are placed in subfolders of the configured <code>build_directory</code>. In particular:</p>
+<ul>
+<li><code>libs/</code> contains <code>.jar</code> files</li>
+<li><code>classes/</code> contains <code>.class</code> files</li>
+<li><code>modulesZip/</code> contains <code>.zip</code> files of modules (as imported in OpenCms)</li>
+<li><code>distributions/</code> contains files for distribution, i.e., <code>opencms.war</code>, <code>opencms-{version}.zip</code>, <code>updater.zip</code>.</li>
+<li>... the other folders are not so interesting.</li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

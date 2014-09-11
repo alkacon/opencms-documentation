@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[https://github.com/alkacon/opencms-core/releases]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>To get the latest release, go to</p>
+<ul>
+<li><a href="%(link0)">https://github.com/alkacon/opencms-core/releases</a></li>
+</ul>
+<p> and choose the release, you want to manipulate. Then:</p>
+<ul>
+<li>Download the source code</li>
+<li>Extract the source code archive to the Eclipse workspace</li>
+<li>Open Eclipse and add a new Java project where you use the name of the downloaded release as project name</li>
+<li>Right-click on the project and select "Configure" -&gt; "Convert to Gradle"</li>
+<li>Refresh Gradle dependencies (dependency errors may remain, but are unproblematic)</li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

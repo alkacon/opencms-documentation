@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>We recommend to place your code in packages that are named as the module that the code is shipped with. It's a convention, not law, but useful. In the packages, just add classes as you like. When your setup is correct. You should have full access to the OpenCms API, can look in it's code and get auto-completion.</p>
+<p>When it comes to compiling, choose "Run as" -&gt; "External tools configurations ..." and select "Gradle Build". In the appearing dialog, you add a new configuration for your project and select the task "jar". It will compile all your classes and put them in a jar file when you run the configuration. The resulting jar is found in the subfolder <code>/build/libs/</code> of your project's main folder.</p>
+<p>To expose the library in OpenCms, copy it to the folder <code>/WEB-INF/lib/</code> of your OpenCms' webapp home folder on the RFS. When you want to ship the jar with your module. Add it in the module's <code>/lib/</code> subfolder in the VFS and set the export point for that folder to <code>/WEB-INf/lib/</code>.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

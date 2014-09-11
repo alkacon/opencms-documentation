@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>9.4.8</opencms_version>
-		<createdate>Wed, 10 Sep 2014 07:49:54 GMT</createdate>
+		<createdate>Thu, 11 Sep 2014 12:00:47 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -33,8 +33,8 @@
 			<destination>opencms-documentation</destination>
 			<type>subsitemap</type>
 			<uuidstructure>7afb3d20-02bc-11e4-8167-1305b26fecac</uuidstructure>
-			<datelastmodified>Wed, 03 Sep 2014 13:04:35 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Wed, 10 Sep 2014 14:35:01 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Thu, 03 Jul 2014 14:15:26 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -2728,6 +2728,36 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00169.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00169.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>997e7350-399c-11e4-afc5-578a14069906</uuidstructure>
+			<uuidresource>997e7351-399c-11e4-afc5-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 10:15:53 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 10:15:48 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00170.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00170.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>5e489042-399d-11e4-afc5-578a14069906</uuidstructure>
+			<uuidresource>5e489043-399d-11e4-afc5-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 10:21:40 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 10:21:18 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/.content/documentation-definition-list</destination>
 			<type>folder</type>
 			<uuidstructure>4a7120eb-05a8-11e4-a26d-1305b26fecac</uuidstructure>
@@ -4301,6 +4331,26 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.content/documentation-definition-list/documentation-definition-list-00080.xml</source>
+			<destination>opencms-documentation/.content/documentation-definition-list/documentation-definition-list-00080.xml</destination>
+			<type>documentation-definition-list</type>
+			<uuidstructure>ac5d34f4-3994-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>ac5d34f5-3994-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 09:24:28 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 09:19:03 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms Development - Interesting Gradle targets]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/.content/documentation-figure</destination>
 			<type>folder</type>
 			<uuidstructure>ba6c8981-05a7-11e4-a26d-1305b26fecac</uuidstructure>
@@ -5868,6 +5918,26 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[administration_overview]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/documentation-figure-00079.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/documentation-figure-00079.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>9c0c3f81-399b-11e4-afc5-578a14069906</uuidstructure>
+			<uuidresource>9c0c3f82-399b-11e4-afc5-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 10:09:48 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 10:08:42 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[create_gradle_project]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -11954,7 +12024,7 @@
 			<uuidstructure>c19e7ffd-2c60-11e4-a2c8-d144f6bb3566</uuidstructure>
 			<uuidresource>c19e7ffe-2c60-11e4-a2c8-d144f6bb3566</uuidresource>
 			<datelastmodified>Mon, 25 Aug 2014 14:38:09 GMT</datelastmodified>
-			<userlastmodified>editor</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 25 Aug 2014 14:04:40 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -13801,6 +13871,276 @@
 			<datelastmodified>Tue, 09 Sep 2014 08:21:03 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 09 Sep 2014 08:12:59 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00522.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00522.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>5dbfe24f-3984-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>5dbfe250-3984-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 07:38:42 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 07:22:19 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00523.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00523.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>cdfa215a-3986-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>cdfa215b-3986-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 07:44:36 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 07:39:47 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00524.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00524.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>91acdad4-3987-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>91acdad5-3987-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 08:02:08 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 07:45:15 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00525.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00525.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>b8bacd2e-3989-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>b8bacd2f-3989-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 08:02:44 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 08:00:40 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00526.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00526.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>871f27bc-398f-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>871f27bd-398f-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 08:49:59 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 08:42:13 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00527.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00527.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>bdf6cef6-3990-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>bdf6cef7-3990-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 08:52:52 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 08:50:55 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00528.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00528.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>f3a49c48-3991-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>f3a49c49-3991-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 09:03:47 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 08:59:34 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00529.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00529.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>b6343289-3992-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>b634328a-3992-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 09:09:57 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 09:05:01 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00530.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00530.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>81a18776-3993-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>81a18777-3993-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 09:13:27 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 09:10:42 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00531.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00531.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>14f85720-3994-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>14f85721-3994-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 09:24:38 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 09:14:49 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00532.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00532.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>8ea907dd-3995-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>8ea907de-3995-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 09:29:29 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 09:25:23 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00533.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00533.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>2ddeb91c-399c-11e4-afc5-578a14069906</uuidstructure>
+			<uuidresource>2ddeb91d-399c-11e4-afc5-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 10:14:38 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 10:12:47 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00534.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00534.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>afe06e54-399c-11e4-afc5-578a14069906</uuidstructure>
+			<uuidresource>afe06e55-399c-11e4-afc5-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 10:18:54 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 10:16:25 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00535.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00535.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>3677631e-399d-11e4-afc5-578a14069906</uuidstructure>
+			<uuidresource>3677631f-399d-11e4-afc5-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 10:21:01 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 10:20:11 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00536.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00536.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>7221e496-399d-11e4-afc5-578a14069906</uuidstructure>
+			<uuidresource>7221e497-399d-11e4-afc5-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 10:25:14 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 10:21:51 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00537.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00537.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>6549f879-399e-11e4-afc5-578a14069906</uuidstructure>
+			<uuidresource>6549f87a-399e-11e4-afc5-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 10:32:32 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 10:28:39 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00538.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00538.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>fd5a5892-399e-11e4-afc5-578a14069906</uuidstructure>
+			<uuidresource>fd5a5893-399e-11e4-afc5-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 10:34:46 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 10:32:54 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00539.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00539.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>4b250cac-399f-11e4-afc5-578a14069906</uuidstructure>
+			<uuidresource>4b250cad-399f-11e4-afc5-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 10:39:45 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 10:35:05 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -20034,7 +20374,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[OpenCms documentation editor tools - What are editor tools for?]]></value>
+					<value><![CDATA[What are editor tools for?]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -20326,7 +20666,7 @@
 			<type>documentation-section</type>
 			<uuidstructure>1fc0b3c4-3281-11e4-84a4-d144f6bb3566</uuidstructure>
 			<uuidresource>1fc0b3c5-3281-11e4-84a4-d144f6bb3566</uuidresource>
-			<datelastmodified>Wed, 10 Sep 2014 07:02:41 GMT</datelastmodified>
+			<datelastmodified>Thu, 11 Sep 2014 07:21:41 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 02 Sep 2014 09:11:29 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -20334,7 +20674,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Extending OpenCms - Add a headline]]></value>
+					<value><![CDATA[OpenCms Development - What does "OpenCms development" mean?]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -21501,6 +21841,26 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00385.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00385.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>b23e5e43-3986-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>b23e5e44-3986-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 08:58:51 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 07:39:00 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms development - Scenario: Writing own templates and formatters]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>opencms-documentation/.content/documentation-section/documentation-section-00386.xml</source>
 			<destination>opencms-documentation/.content/documentation-section/documentation-section-00386.xml</destination>
 			<type>documentation-section</type>
@@ -21695,6 +22055,266 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[The administration view - Administrative tasks]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00396.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00396.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>803fcb8f-3987-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>803fcb90-3987-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 08:58:55 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 07:44:46 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms development - Scenario: Adding own Java code to your modules]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00397.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00397.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>58e2f941-3989-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>58e2f942-3989-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 10:28:33 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 07:57:59 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Installing Eclipse and Gradle - Why is Eclipse with Gradle the preferred setup?]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00398.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00398.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>aa7f27b9-3989-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>aa7f27ba-3989-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 08:00:27 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 08:00:16 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms development - Creating a project for your extensions]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00399.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00399.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>56e60824-398f-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>56e60825-398f-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 08:42:07 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 08:40:52 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms development - Write code, compile and add it to OpenCms]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00400.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00400.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>ae914f80-3990-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>ae914f81-3990-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 08:50:37 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 08:50:29 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms development - Additional hints]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00401.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00401.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>e1b31ac3-3991-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>e1b31ac4-3991-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 08:59:24 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 08:59:04 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms development - Scenario: Working at the OpenCms core]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00402.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00402.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>904580fd-3992-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>904580fe-3992-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 09:04:11 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 09:03:57 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms development - Check out the OpenCms source]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00403.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00403.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>a90e90f4-3992-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>a90e90f5-3992-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 09:05:50 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 09:04:39 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms development - Get the source for a release]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00404.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00404.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>759237e1-3993-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>759237e2-3993-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 09:10:34 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 09:10:22 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms development - Get the latest source]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00405.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00405.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>f4ff116a-3993-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>f4ff116b-3993-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 09:14:05 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 09:13:56 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms development - Core development configuration]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00406.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00406.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>27c61879-399d-11e4-afc5-578a14069906</uuidstructure>
+			<uuidresource>27c6187a-399d-11e4-afc5-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 10:20:05 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 10:19:46 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms development - Some background information about the Gradle configuration]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00407.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00407.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>f4f06a4d-399e-11e4-afc5-578a14069906</uuidstructure>
+			<uuidresource>f4f06a4e-399e-11e4-afc5-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 10:32:47 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 10:32:40 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Installing Eclipse and Gradle - Getting Eclipse]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00408.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00408.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>4067df97-399f-11e4-afc5-578a14069906</uuidstructure>
+			<uuidresource>4067df98-399f-11e4-afc5-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 10:34:57 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 10:34:47 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Installing Eclipse and Gradle - Adding the Gradle plugin]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -23282,7 +23902,7 @@
 			<type>documentation-topic</type>
 			<uuidstructure>1fbb5c92-3281-11e4-84a4-d144f6bb3566</uuidstructure>
 			<uuidresource>1fbb5c93-3281-11e4-84a4-d144f6bb3566</uuidresource>
-			<datelastmodified>Wed, 10 Sep 2014 07:10:05 GMT</datelastmodified>
+			<datelastmodified>Thu, 11 Sep 2014 07:21:10 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 02 Sep 2014 09:11:29 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -23290,7 +23910,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Extending OpenCms]]></value>
+					<value><![CDATA[OpenCms Development]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -23598,6 +24218,26 @@
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-topic/documentation-topic-00074.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic/documentation-topic-00074.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>58d9d17f-3989-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>58d9d180-3989-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 10:28:09 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 07:57:59 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Installing Eclipse and Gradle]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -28385,6 +29025,30 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.galleries/pictures/NewGradleProject.png</source>
+			<destination>opencms-documentation/.galleries/pictures/NewGradleProject.png</destination>
+			<type>image</type>
+			<uuidstructure>b0059ef4-399b-11e4-afc5-578a14069906</uuidstructure>
+			<uuidresource>b0059ef5-399b-11e4-afc5-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 10:09:16 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 10:09:16 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[NewGradleProject]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:525,h:500]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>opencms-documentation/.galleries/pictures/Open_EditAliasesDialog.png</source>
 			<destination>opencms-documentation/.galleries/pictures/Open_EditAliasesDialog.png</destination>
 			<type>image</type>
@@ -32282,7 +32946,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Demo - Container-page information: ]]></value>
+					<value><![CDATA[Demo - Container-page information:]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -32565,7 +33229,12 @@
 			<datecreated>Mon, 11 Aug 2014 07:19:03 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Element settings]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -32580,7 +33249,12 @@
 			<datecreated>Mon, 11 Aug 2014 07:25:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Dynamic functions]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -32595,7 +33269,12 @@
 			<datecreated>Mon, 11 Aug 2014 08:24:51 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Dynamic function detail pages]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -32645,7 +33324,12 @@
 			<datecreated>Tue, 12 Aug 2014 05:48:07 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Flex cache settings]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -32660,7 +33344,12 @@
 			<datecreated>Tue, 12 Aug 2014 06:58:18 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Navigation example II]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -32675,7 +33364,12 @@
 			<datecreated>Tue, 12 Aug 2014 09:57:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Navigation level]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -32690,7 +33384,12 @@
 			<datecreated>Tue, 12 Aug 2014 10:10:14 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[subpage 1]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -32705,7 +33404,12 @@
 			<datecreated>Tue, 12 Aug 2014 10:25:03 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[subpage 2]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -32720,7 +33424,12 @@
 			<datecreated>Tue, 12 Aug 2014 10:34:48 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Inline editing]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -32735,7 +33444,12 @@
 			<datecreated>Tue, 12 Aug 2014 12:43:38 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Head includes]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -32750,7 +33464,12 @@
 			<datecreated>Wed, 13 Aug 2014 05:59:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Image scaling]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -32780,7 +33499,12 @@
 			<datecreated>Wed, 13 Aug 2014 07:39:07 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Accessing container-page information]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -32795,7 +33519,12 @@
 			<datecreated>Wed, 13 Aug 2014 08:15:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Lists and detail pages]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -32810,7 +33539,12 @@
 			<datecreated>Wed, 13 Aug 2014 09:39:27 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Article detail views]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -32825,7 +33559,12 @@
 			<datecreated>Wed, 13 Aug 2014 10:54:39 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Calculation result]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -33941,52 +34680,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>opencms-documentation/extending-opencms</destination>
-			<type>folder</type>
-			<uuidstructure>1fb234cd-3281-11e4-84a4-d144f6bb3566</uuidstructure>
-			<datelastmodified>Tue, 02 Sep 2014 09:11:56 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 02 Sep 2014 09:11:29 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[2.875]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[Extending OpenCms]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Extending OpenCms]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>opencms-documentation/extending-opencms/index.html</source>
-			<destination>opencms-documentation/extending-opencms/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>1fc34bd6-3281-11e4-84a4-d144f6bb3566</uuidstructure>
-			<uuidresource>1fc34bd7-3281-11e4-84a4-d144f6bb3566</uuidresource>
-			<datelastmodified>Tue, 02 Sep 2014 09:11:56 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 02 Sep 2014 09:11:29 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Extending OpenCms]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<destination>opencms-documentation/glossar</destination>
 			<type>folder</type>
 			<uuidstructure>70a2525e-1d51-11e4-9d87-d9f74955ba1b</uuidstructure>
@@ -34469,6 +35162,98 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Network share access]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/opencms-development</destination>
+			<type>folder</type>
+			<uuidstructure>1fb234cd-3281-11e4-84a4-d144f6bb3566</uuidstructure>
+			<datelastmodified>Thu, 11 Sep 2014 07:21:56 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 02 Sep 2014 09:11:29 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[2.875]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[OpenCms development]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms development]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/opencms-development/index.html</source>
+			<destination>opencms-documentation/opencms-development/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>1fc34bd6-3281-11e4-84a4-d144f6bb3566</uuidstructure>
+			<uuidresource>1fc34bd7-3281-11e4-84a4-d144f6bb3566</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 10:21:51 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 02 Sep 2014 09:11:29 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms development]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/opencms-development/installing-eclipse-and-gradle</destination>
+			<type>folder</type>
+			<uuidstructure>58ccb21a-3989-11e4-81c6-578a14069906</uuidstructure>
+			<datelastmodified>Thu, 11 Sep 2014 07:58:13 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 07:57:59 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Installing Eclipse and Gradle]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Installing Eclipse and Gradle]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/opencms-development/installing-eclipse-and-gradle/index.html</source>
+			<destination>opencms-documentation/opencms-development/installing-eclipse-and-gradle/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>58e67bb3-3989-11e4-81c6-578a14069906</uuidstructure>
+			<uuidresource>58e67bb4-3989-11e4-81c6-578a14069906</uuidresource>
+			<datelastmodified>Thu, 11 Sep 2014 10:35:05 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 11 Sep 2014 07:57:59 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Installing Eclipse and Gradle]]></value>
 				</property>
 			</properties>
 			<relations/>

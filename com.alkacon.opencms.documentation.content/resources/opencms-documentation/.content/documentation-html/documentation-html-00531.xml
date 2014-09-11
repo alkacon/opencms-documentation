@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Once, you got the OpenCms source and have it present in a Gradle project, you can configure:</p>
+<ul>
+<li>the path were builds are placed: Therefore edit <code>gradle.properties</code> in the project's main folder and edit the <code>entry build_directory</code>.</li>
+</ul>
+<p>Once, configuration is done, you can build your project with Gradle. Therefore:</p>
+<ul>
+<li>Choose "Run as" -&gt; "External tools configurations ..."</li>
+<li>Choose "Gradle Build" -&gt; "{project name}"</li>
+<li>Choose adequate targets</li>
+<li>Click "Run"</li>
+</ul>
+<p>You will have a lot of target to choose for building OpenCms. Here are the interesting ones.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>
