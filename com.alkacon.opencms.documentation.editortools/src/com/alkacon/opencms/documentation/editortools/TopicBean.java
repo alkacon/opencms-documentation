@@ -36,7 +36,7 @@ import java.util.List;
  */
 public class TopicBean {
 
-    /** Sturcture id of the topic resource. */
+    /** Structure id of the topic resource. */
     private CmsUUID m_structureId;
     /** List of the Topic's TODOs */
     private List<String> m_todos;
