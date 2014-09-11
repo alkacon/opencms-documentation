@@ -31,22 +31,37 @@ import org.opencms.util.CmsUUID;
 
 import java.util.List;
 
+/**
+ * Bean to conveniently get topic TODOs in a JSP.
+ */
 public class TopicBean {
 
+    /** Sturcture id of the topic resource. */
     private CmsUUID m_structureId;
+    /** List of the Topic's TODOs */
     private List<String> m_todos;
 
-    public TopicBean(CmsUUID structureId, List<String> todos) {
+    /** Construct the bean and set it's values. 
+     * @param structureId Structure id of the topic resource.
+     * @param todos TODOs for the topic. 
+     */
+    public TopicBean(final CmsUUID structureId, final List<String> todos) {
 
         m_todos = todos;
         m_structureId = structureId;
     }
 
+    /**
+     * @return The TODOs of the topic.
+     */
     public List<String> getTodos() {
 
         return m_todos;
     }
 
+    /**
+     * @return The sturcture id of the topic resource.
+     */
     public CmsUUID getStructureId() {
 
         return m_structureId;
