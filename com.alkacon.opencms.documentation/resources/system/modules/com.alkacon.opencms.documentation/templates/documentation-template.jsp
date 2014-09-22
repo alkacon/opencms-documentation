@@ -3,9 +3,6 @@
 <fmt:setLocale value="${cms.locale}" />
 
 <jsp:useBean id="sectionIndexer" class="com.alkacon.opencms.documentation.sectionindexer.SectionIndexer" scope="request" />
-<jsp:useBean id="topicGrabber" class="com.alkacon.opencms.documentation.topics.TopicGrabber">
-	<% topicGrabber.init(pageContext, request, response); %>
-</jsp:useBean>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -53,7 +50,6 @@
 <c:set var="isEditor">
 	<cms:property name="opencms.documentation.editor" file="search" default="false" />
 </c:set>
-<c:set var="topicContent" value="${topicGrabber.topicContent[cms.requestContext.uri]}" />
 
 <body data-documentation-editor="${isEditor}">
 	<div class="page-wrap">
@@ -83,10 +79,11 @@
 			<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
 			
 				<!-- BEGIN: Topic Container -->
-				<c:if test="${not cms.isOnlineProject && empty topicContent}">
-					<div class="alert alert-danger">Please add a topic in the container below.</div>
-		    	</c:if>
-		   		<cms:container name="documentation-topic-container" type="documentation-topic" width="1350" maxElements="1" />
+		   		<cms:container name="documentation-topic-container" type="documentation-topic" width="1350" maxElements="1">
+					<c:if test="${not cms.isOnlineProject}">
+						<div class="tag-box tag-box-v6"><h2>Add a topic here!</h2></div>
+			    	</c:if>
+		   		</cms:container>
 			    <!-- END: Topic Container -->
 
 				<!-- BEGIN: Page Navigation -->
@@ -94,7 +91,11 @@
 				<!-- END: Page Navigation -->
 
 				<!-- Here goes all the documentation topic's content -->
-				<cms:container name="documentation-content-container" type="documentation-content" width="1350" detailview="true" />
+				<cms:container name="documentation-content-container" type="documentation-content" width="1350" detailview="true">
+					<c:if test="${not cms.isOnlineProject}">
+						<div class="tag-box tag-box-v6"><h2>Put section contents here.</h2></div>
+					</c:if>
+				</cms:container>
 			</div>
 		</div>
 	</div><!--/container-->		

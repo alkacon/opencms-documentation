@@ -1,9 +1,7 @@
-<%@page buffer="none" session="false" trimDirectiveWhitespaces="true" %><%--
---%><%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms" %><%--
---%><%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %><%--
---%><%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %><%--
---%><%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %><%--
---%><fmt:setLocale value="${cms.locale}" />
+<%@page buffer="none" session="false" trimDirectiveWhitespaces="true" taglibs="cms,c,fmt,fn" %>
+
+<fmt:setLocale value="${cms.locale}" />
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -78,11 +76,20 @@
 				</div>
 				<div class="col-lg-9 col-md-9 col-sm-3 col-xs-12">
 
-					<!-- Here goes an (optional) introduction to the overview -->
-					<cms:container name="documentation-topic-container" type="documentation-topic" width="1200" />
+					<!-- BEGIN: Topic Container -->
+		   		<cms:container name="documentation-topic-container" type="documentation-topic" width="1350" maxElements="1">
+					<c:if test="${not cms.isOnlineProject}">
+						<div class="tag-box tag-box-v6"><h2>Add a topic here!</h2></div>
+			    	</c:if>
+		   		</cms:container>
+			    <!-- END: Topic Container -->
 
-					<!-- Here go all the overviews content -->
-					<cms:container name="documentation-overview-container" type="documentation-overview" width="1200" />
+				<!-- Here goes all the documentation topic's content -->
+				<cms:container name="documentation-overview-container" type="documentation-overview" width="1350" detailview="true">
+					<c:if test="${not cms.isOnlineProject}">
+						<div class="tag-box tag-box-v6"><h2>Put section contents here.</h2></div>
+					</c:if>
+				</cms:container>
 				</div>
 			</div>
 		</div><!--/container-->		
