@@ -4,17 +4,14 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link0" internal="true" type="IMG">
-          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_big_ade/publishBigIconActive.png]]></target>
-          <uuid>7bb2098c-02bc-11e4-8167-1305b26fecac</uuid>
-          <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/background/the-virtual-file-system/]]></target>
+          <uuid>a39f771c-2793-11e4-b2bf-49dbf0abad32</uuid>
+          <anchor><![CDATA[individual_vs_shared_properties]]></anchor>
         </link>
       </links>
-      <content><![CDATA[<p>After you have finished your work and you want to make your changes visible to the public now, you need to publish what will make the changed content visible in the online version of the website. To publish the edited pages and also other changes you have done, click on the <img dir="ltr" style="width: 14px;" title="publishBigIconActive" src="%(link0)" alt="publishBigIconActive" /> <strong>Publish</strong> icon. The publish list contains all unpublished resources that have been added, modified or deleted by the current user. Unchanged resources are never shown in the publish list. If a resource is locked by another user it will not be shown in the publish list. For a better overview the publish list is split into different sections each representing a user session. It is possible to select <strong>single</strong> resources with a checkbox, select / deselect all displayed resources or select / deselect all resources of a certain <strong>session</strong>. On hovering, an option – to <strong>remove</strong> a single resource from the user's personal publish list – appears. If an item was removed from the publish list, it will reappear if the dialog is opened again. Selecting an option will also affect siblings or related resources, if existent. This behavior can be turned off/on by the option called "Include related resources" / “Include siblings”.</p>
-<ul>
-<li><strong>Include related resources</strong> will publish all new / changed resources that are related to the original resource (e.g. images or linked resources)</li>
-<li><strong>Include siblings</strong> will publish resources that are directly link to the original resource and that get changed when the original resource gets changed.</li>
-</ul>]]></content>
+      <content><![CDATA[<p>Permissions are handled as ACLs (Access Control Lists) in OpenCms. This allows for fine-grained access control. For each resource rights can be set for single users, for groups and for "others" that are not listed as user or belong to one of the listed groups.</p>
+<p>The ACLs are attached to the resource part of an VFS resource. Thus, for siblings there is just one permission set that can be set <em>explicitely</em>. Nevertheless, siblings can have different <em>inherited</em> permissions. See <a href="%(link0)">here</a> for the general resource concept in OpenCms.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

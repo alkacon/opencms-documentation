@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The value of an editor field can depend on the value of another editor field. For example, an image can have a copyright attached as property that you want to store and maybe adjust in your content. Then, you can update the editor field with the copyright information whenever the image is exchanged.</p>
+<p>To make fields dependent an editor change handler has to be registered in the content type definition. Here is an example:</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

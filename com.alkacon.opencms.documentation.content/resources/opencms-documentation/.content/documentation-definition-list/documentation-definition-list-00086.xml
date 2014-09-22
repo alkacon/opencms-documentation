@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Predefined groups in OpenCms]]></Title>
+    <Heading><![CDATA[Predefinied groups in OpenCms and their pecularities]]></Heading>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[Administrators]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>All members of the administrators group are automatically root administrators.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Users]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Users in this group are automatically workplace users.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Guests]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Guest and Export user are in this group. It is in particular used for all users that do not log in.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

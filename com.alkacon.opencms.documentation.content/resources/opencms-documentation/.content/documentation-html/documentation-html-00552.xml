@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>To clarify how permissions work, an example is of great help. Assume, we have a group "A" and a group "B", and a folder</p>
+<ul>
+<li><code>/main-folder/</code></li>
+</ul>
+<p>with</p>
+<ul>
+<li><code>/main-folder/sub-folder/</code></li>
+</ul>
+<p>as subfolder. Now we want all members of group A and B to have read access to <code>/main-folder/</code>, but only members of group A to have access to <code>/main-folder/sub-folder/</code>.</p>
+<p>We set read access explicitely to "Allowed" for groups A and B on <code>/main-folder/</code>. Hence, as expected user that are at least in one of the groups A or B have read access to the main folder, and, via inheritance, also to <code>/main-folder/sub-folder/</code>.</p>
+<p>Now we want to limit read access to the subfolder to members of group A, i.e., users only in group B and not in group A should not get access, but users that are members in both groups should.</p>
+<p>The first thought is to deny read access for <code>/main-folder/sub-folder/</code> for members of group B. But that will result in a wrong permission set: Users that are member of both groups will not be able to read resources in folder <code>/main-folder/sub-folder/</code>, as shown in the graphic below:</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/ade/contenteditor/CmsEditorChangeHandlerProperty.html]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>In the example, we use the <a href="%(link0)"><code>CmsEditorChangeHandlerProperty</code></a> to observe the <code>Image</code> editor field and copy the <code>Copytext</code> property of the resource given as value of the <code>Image</code> field to the field <code>CopyText</code>. Whenever the value of <code>Image</code> changes, the value of <code>CopyText</code> will be updated.</p>
+<p>Notice the following pecularities:</p>
+<ul>
+<li>You can alter the <code>CopyText</code> value in the content editor and your alteration will be stored. Only if you change the <code>Image</code> value, your altered value will be replaced.</li>
+<li>Altering the <code>CopyText</code> will not update the <code>Copyright</code> property of the image. If you want that: define a mapping from <code>CopyText</code> the the <code>Copyright</code> property.</li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

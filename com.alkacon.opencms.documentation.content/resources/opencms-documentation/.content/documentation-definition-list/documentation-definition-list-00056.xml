@@ -132,5 +132,12 @@
         <content><![CDATA[<p>To be used together with formatter JSPs. Use this directive to ensure, that an element is rendered correctly inside a container, if it occurs several times on a single page inside different containers.</p>]]></content>
       </Description>
     </Entry>
+    <Entry>
+      <Term><![CDATA[device]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>To be used when JSPs render device specific, either by evaluating the template context via the provider or the &lt;cms:device&gt; tag. The directive causes the flex cache to cache different versions of HTML output for different contexts.</p>]]></content>
+      </Description>
+    </Entry>
   </DocumentationDefinitionList>
 </DocumentationDefinitionLists>

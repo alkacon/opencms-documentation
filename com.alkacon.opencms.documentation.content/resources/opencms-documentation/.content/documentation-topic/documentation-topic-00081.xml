@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/background/permissions-in-opencms/permissions-on-vfs-resources/]]></target>
+          <uuid>41f42fc3-3d99-11e4-b238-578a14069906</uuid>
+        </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/background/permissions-in-opencms/users-groups-roles-and-ous/]]></target>
+          <uuid>3728d42c-3e3c-11e4-8375-578a14069906</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>Roles describe what an OpenCms user should do. A role control the permissions of users wrt. to system specific functions. Here, you can get an overview on the available roles.</p>
+<p>What you will not find here, but elsewhere is:</p>
+<ul>
+<li><a href="%(link0)">General information on permissions in OpenCms</a></li>
+<li><a href="%(link1)">Information on groups, users, and OUs</a></li>
+<li>Concrete information on how roles are assigned to users</li>
+</ul>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>Each OpenCms user acts in a special role - reaching from root administrators to element authors. Learn about the available roles and the permissions implied by a role.</p>]]></content>
+    </Teaser>
+    <NewInDocuVersion><![CDATA[9.5]]></NewInDocuVersion>
+    <StatusMetaData>
+      <Todos>
+        <Todo><![CDATA[Review and probably change the description of the rules - version 9.5 roles were not finally implemented when writing the topic.]]></Todo>
+      </Todos>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

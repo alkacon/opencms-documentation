@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/background/permissions-in-opencms/users-groups-roles-and-ous/roles-in-opencms/]]></target>
+          <uuid>7b2475f3-3e45-11e4-8375-578a14069906</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>In OpenCms you can define groups and add users to groups. Furthermore, each user has roles in OpenCms. <em>Both, groups and roles are used to set the permissions of a user.</em> But, the permissions of groups and roles are given with different focus:</p>
+<ul>
+<li><em>Groups are used to control access to resources in the VFS.</em></li>
+<li><em>Roles are used to control access to the system's functions according to the requirements of the respective role, e.g., control if the workplace can be accessed, if resources can be published, if user accounts can be managed, ...<br /></em></li>
+</ul>
+<p>The different focus of groups and roles also implies differences in their handling:</p>
+<ul>
+<li>Roles are fixed while groups can be created or deleted</li>
+<li>Group permissions can be set at all resources, role permissions are typically not added to resources, except in some <code>/system/</code> folders.</li>
+<li>Roles may outrival permissions set at groups or users, e.g., for the root administrator all permission settings are ignored, he always has all permissions.</li>
+</ul>
+<p>Thus, when you think on designing your permission system in OpenCms:</p>
+<ul>
+<li>Have a look at what a user should be able to do and assign it's role according to the tasks. An overview on the available roles is found <a href="%(link0)">here</a>.</li>
+<li>Think about which users should have access to which resources and use groups to allow or deny access.</li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

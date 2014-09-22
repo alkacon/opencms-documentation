@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Publish dialog: Selection options]]></Title>
+    <Heading><![CDATA[Selection options]]></Heading>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[This page]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>This option is available when you open the publish dialog from the page editor or in an content editor. The dialog shows the changed resources that are placed on the currently requested page (URL) - or placed in a container on the container page available at this URI</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[My changes]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[fig_publish_dialog]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Shows all changes done by the logged-in user. Changes are grouped in sessions, as shown in Figure <a href="%(link0)">publish_dialog</a>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Project]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Shows all changed resources belonging to the selected project.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Direct publish]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>This option is only available if you click on "Publish directly" in a resource's context menu in the workplace's explorer view. If chosen, all resources published with the resource you want to publish directly are shown.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

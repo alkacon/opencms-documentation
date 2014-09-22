@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/loader/I_CmsTemplateContextProvider.html]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>The default context provider distinguishes the contexts desktop, mobile and tablet. The context is chosen via server-side analysis of the HTTP request header information HTTP-Accept and User-Agent.</p>
+<p>If you prefer another variant to detect devices or another set of available contexts, you can achieve this by writing your own template context provider. Your provider must implement the interface <code><a href="%(link0)">I_CmsTemplateContextProvider</a></code> from the package <code>org.opencms.loader</code>. See the JavaDoc and the source code for more information.</p>
+<div class="alert alert-info">Be sure, that the default context provider is really insufficient for your application before you start writing your own provider.</div>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

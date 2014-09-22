@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Organizational units (OUs) are meant to make rights management in complex systems easier. All user management in OpenCms is permformed in OUs. By default, OpenCms has just one OU: The root OU, where all resources of the VFS belong to. Typically, you do not need to add more OUs.</p>
+<div class="alert alert-info">If you do not need to equip a user with a special role only for special (sub-)sites of your OpenCms installation, stick to the one root OU and do not care about OUs at all. Only when you use OpenCms to handle, for example, many sites, or various subsites that should be managed by different users, then setting up serveral sub OUs will be your choice.</div>
+<p>For each sub OU you can specify users and groups and assign roles to users. Furthermore, you can restrict the resources that belong to an OU.</p>
+<p>In essence, OUs allow you to:</p>
+<ul>
+<li>assign roles of users only for parts of your website(s)</li>
+<li>decentralize user management</li>
+</ul>
+<p>But how do users choose their OU? If you have more than one OU, the login dialog changes and users have to select the OU on login.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

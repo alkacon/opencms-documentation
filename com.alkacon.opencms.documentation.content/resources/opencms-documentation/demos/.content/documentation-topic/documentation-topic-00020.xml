@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>The value of one editor field or even the widget configuration can depend on the values of other editor fields. The dependencies are defined in the XSD defining the content. We show two examples of dependent fields: One time we change a field's value, one time we change the editor configuration.</p>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>Two examples that show how dependent fields work.</p>]]></content>
+    </Teaser>
+    <NewInVersion><![CDATA[9.5]]></NewInVersion>
+    <NewInDocuVersion><![CDATA[9.5]]></NewInDocuVersion>
+    <StatusMetaData>
+      <Todos>
+        <Todo><![CDATA[Add example for changing widget configuration ]]></Todo>
+      </Todos>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

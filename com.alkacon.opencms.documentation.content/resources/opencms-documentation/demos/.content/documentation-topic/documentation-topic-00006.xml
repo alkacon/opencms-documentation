@@ -12,6 +12,10 @@
       <content><![CDATA[<p>The flex cache caches the HTML output of JSPs in the memory (RAM) of your server. We demonstrate different variants of caching. Therefore, we include two JSPs into each other, both showing the current time. Playing with the cache directives set at the JSPs, the time is refreshed differently. Futhermore, we show how navigations should be cached.</p>
 <p>To get more information on caching in OpenCms, consult the <a href="%(link0)">topics on caching</a>.</p>]]></content>
     </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>Caching is important - learn at a simple example how flex cache configurations change dynamic behavior.</p>]]></content>
+    </Teaser>
     <StatusMetaData>
       <Todos/>
     </StatusMetaData>

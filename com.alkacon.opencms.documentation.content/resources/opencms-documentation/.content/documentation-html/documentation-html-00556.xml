@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Resources in OpenCms are typed and for each type the explorer type configuration specifies where and when resources of the type are shown in OpenCms. Consider, for example, a content type configured as resource and explorer type. Here the explorer type configuration controls if and where an entry in the "Add wizard" in the traditional workplace appears, what icon is used for resources of that type, etc.</p>
+<p>Not resources of every type are of interest for each user. For example, a content used for configuration may not be of interest for the usual content editor. Hence, it is useful to hide resources for some users at some places. Moreover, there may be situations where some users should be able to add existing resources of a type to a page, but not to add new resources. There are more scenarios you can think of.</p>
+<p>Type specific permissions allow you to set permissions according to this scenarios.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

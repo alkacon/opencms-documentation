@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The root OU differs from sub OUs wrt. the available roles. OpenCms system management is always tied to the root OU, thus the respective roles are only available in this OU. In particular, in sub OUs you can not assign the roles:</p>
+<ul>
+<li>Root administrator</li>
+<li>Database manager</li>
+<li>Workplace manager</li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

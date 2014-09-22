@@ -13,12 +13,17 @@
           <uuid>7bb2098c-02bc-11e4-8167-1305b26fecac</uuid>
         </link>
       </Icon>
+      <Link>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/typical-tasks/publishing-changes/]]></target>
+          <uuid>0d84280e-3d6a-11e4-88c7-578a14069906</uuid>
+        </link>
+      </Link>
       <Description name="Description0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/default/opencms-documentation/views-in-opencms/the-ade-views/the-page-editor/index.html]]></target>
-            <uuid>772fc350-02c1-11e4-8167-1305b26fecac</uuid>
-            <anchor><![CDATA[Publish]]></anchor>
+            <target><![CDATA[/sites/default/opencms-documentation/typical-tasks/publishing-changes/]]></target>
+            <uuid>0d84280e-3d6a-11e4-88c7-578a14069906</uuid>
           </link>
         </links>
         <content><![CDATA[<p>Opens the <a href="%(link0)"><strong>Publish</strong> dialog</a>.</p>]]></content>
@@ -32,6 +37,13 @@
           <uuid>7b857ae4-02bc-11e4-8167-1305b26fecac</uuid>
         </link>
       </Icon>
+      <Link>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/views-in-opencms/the-ade-views/the-sitemap-editor/]]></target>
+          <uuid>270e7393-06a0-11e4-909a-1305b26fecac</uuid>
+          <anchor><![CDATA[clipboard]]></anchor>
+        </link>
+      </Link>
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>Shows recently modified or deleted pages.</p>]]></content>
@@ -45,6 +57,13 @@
           <uuid>7bc6550c-02bc-11e4-8167-1305b26fecac</uuid>
         </link>
       </Icon>
+      <Link>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/views-in-opencms/the-ade-views/the-sitemap-editor/]]></target>
+          <uuid>270e7393-06a0-11e4-909a-1305b26fecac</uuid>
+          <anchor><![CDATA[create_page]]></anchor>
+        </link>
+      </Link>
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>Enables the content manager to create new pages in the sitemap.</p>]]></content>
@@ -58,6 +77,13 @@
           <uuid>7bd0b564-02bc-11e4-8167-1305b26fecac</uuid>
         </link>
       </Icon>
+      <Link>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/views-in-opencms/the-ade-views/the-sitemap-editor/]]></target>
+          <uuid>270e7393-06a0-11e4-909a-1305b26fecac</uuid>
+          <anchor><![CDATA[change_view]]></anchor>
+        </link>
+      </Link>
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>Switches the View of the sitemap editor. Three views are available: Sitemap (default), Resources (all VFS resources), Galleries (only galleries).</p>]]></content>
@@ -71,6 +97,13 @@
           <uuid>7ba7d044-02bc-11e4-8167-1305b26fecac</uuid>
         </link>
       </Icon>
+      <Link>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/views-in-opencms/the-ade-views/the-sitemap-editor/]]></target>
+          <uuid>270e7393-06a0-11e4-909a-1305b26fecac</uuid>
+          <anchor><![CDATA[context_menu]]></anchor>
+        </link>
+      </Link>
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>Shows the context menu for the sitemap.</p>]]></content>
@@ -85,8 +118,13 @@
         </link>
       </Icon>
       <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Return to the page editor.</p>]]></content>
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/views-in-opencms/the-ade-views/the-page-editor/]]></target>
+            <uuid>772a450b-02c1-11e4-8167-1305b26fecac</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Close the sitemap editor and return to the <a href="%(link0)">page editor</a> at the page from where the sitemap editor was opened.</p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>

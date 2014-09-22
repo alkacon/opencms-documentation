@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Roles available in all OUs]]></Title>
+    <Heading><![CDATA[Roles available in all OUs]]></Heading>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[Administrator]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_ade/changedIcon.png]]></target>
+          <uuid>7b168c7d-02bc-11e4-8167-1305b26fecac</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>An administrator has all rights inside the OU. Consequently, he also has all other OU-specific roles. In particular, permissions on VFS resources are ignored for administrators, as they are VFS resource managers.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Account manager]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_ade/changedIcon.png]]></target>
+          <uuid>7b168c7d-02bc-11e4-8167-1305b26fecac</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The account manager can manage users and groups. Account managers are automatically workplace users (and have all the roles implied by workplace users).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Project manager]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The Project manager can manage projects. This role was important in older OpenCms versions, but in current versions, there usually is no need to manually add, delete or manage projects. The role implies being a workplace user, and thus also the roles implied by workplace user.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[VFS resource manager]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_ade/changedIcon.png]]></target>
+          <uuid>7b168c7d-02bc-11e4-8167-1305b26fecac</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The VFS resource manager can manage all resources in the OU. Hence, he can add, delete and alter all resources. Permission checks are ignored. For example, a resource manager may add and edit JSPs. Being a VFS resource manager involves having all the roles listed below.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Template developer]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_ade/changedIcon.png]]></target>
+          <uuid>7b168c7d-02bc-11e4-8167-1305b26fecac</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Template developers can add and edit model pages. Note that, before OpenCms version 9.5, they could also add and edit JSPs. To allow such JSP manipulation, now the role VFS resource manager is required. Template developers automatically have all the roles listed below.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Workplace user]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_ade/changedIcon.png]]></target>
+          <uuid>7b168c7d-02bc-11e4-8167-1305b26fecac</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>A workplace user can access the traditional workplace and thus browse the VFS via the explorer. He cannot access the root site and has only very limited access to administrative tools. Workplace users automatically have all the roles listed below.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Category editor]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The category editor has access only to ADE views. He can create, edit and delete categories via the sitemap editor. He automatically has all the roles listed below, except being a gallery editor.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Gallery editor]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_ade/changedIcon.png]]></target>
+          <uuid>7b168c7d-02bc-11e4-8167-1305b26fecac</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Gallery editors have only access to ADE views. They can create or delete (image, download, ...) galleries via the sitemap editor. They have also all of the roles listed below.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Editor]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_ade/changedIcon.png]]></target>
+          <uuid>7b168c7d-02bc-11e4-8167-1305b26fecac</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>An editor can create, delete and alter content on pages and change the sitemap. The role implies being an element author.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Element author]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_ade/changedIcon.png]]></target>
+          <uuid>7b168c7d-02bc-11e4-8167-1305b26fecac</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>An element author can only access the page editor (and content editors). He can create, add and edit content elements.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

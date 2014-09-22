@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationSections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-section.xsd">
+  <DocumentationSection language="en">
+    <Headline><![CDATA[Defining dependencies between editor fields]]></Headline>
+    <VersionInfo>
+      <NewIn>
+        <Version><![CDATA[9.5]]></Version>
+        <ImprovementDescription name="ImprovementDescription0">
+          <links/>
+          <content><![CDATA[<p>Editor fields can depend on each other. That is, the value in one field can depend on the values in other fields - i.e., it changes when the value in the other field(s) change.</p>
+<p>For example you can use this dependency to:</p>
+<ul>
+<li>Place the copyright information of a picture into an editor field when loading the picture in another field.</li>
+<li>Generate a drop-down list with the values of other fields</li>
+</ul>]]></content>
+        </ImprovementDescription>
+      </NewIn>
+    </VersionInfo>
+    <DocuVersionInfo/>
+    <StatusMetaData>
+      <Todos>
+        <Todo><![CDATA[Extend content]]></Todo>
+      </Todos>
+    </StatusMetaData>
+  </DocumentationSection>
+</DocumentationSections>
