@@ -1,8 +1,4 @@
-<%@page buffer="none" session="false" trimDirectiveWhitespaces="true"%>
-<%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
-<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<%@page buffer="none" session="false" trimDirectiveWhitespaces="true" taglibs="cms,c,fmt,fn" %>
 <cms:formatter var="content">
 <div>
 	${cms.enableReload}
@@ -25,6 +21,52 @@
 			</div>
 		</c:if>
 	</c:if>
-	<div class="tag-box tag-box-v6" ${content.rdfa.Overview}>${content.value.Overview}</div>
+	<div class="tag-box tag-box-v3" ${content.rdfa.Overview}>${content.value.Overview}</div>
+	<c:set var="relatedLinks" value="${content.valueList.RelatedLinks}" />
+	<c:if test="${cms:getListSize(relatedLinks) > 0}">
+		<div class="tag-box tag-box-v6">
+			<h5>Related links</h5>
+			<ul>
+				<c:forEach var="linkItem" items="${relatedLinks}">
+					<c:choose>
+						<c:when test="${linkItem.value.Link.exists}">
+							<c:set var="link" value="${linkItem.value.Link}" />
+							<c:set var="uri"><cms:link>${link.value.URI}</cms:link></c:set>
+							<li>
+								<a href="${uri}">${link.value.LinkText.exists?link.value.LinkText:uri}</a>
+								<c:if test="${link.value.LinkDescription.exists}">
+									<blockquote>${link.value.LinkDescription}</blockquote>
+								</c:if>
+							</li>
+						</c:when>
+						<c:otherwise>
+						<li>
+							<c:if test="${linkItem.value.Title.exists}">
+								<h4>${linkItem.value.Title}</h4>
+							</c:if>
+							<c:if test="${linkItem.value.Description.exists}">
+								<blockquote>${linkItem.value.Description}</blockquote>
+							</c:if>
+							<ul>
+								<c:forEach var="link" items="${linkItem.value.LinkList}">
+									<c:set var="uri"><cms:link>${link.value.URI}</cms:link></c:set>
+							<li>
+								<a href="${uri}">${link.value.LinkText.exists?link.value.LinkText:uri}</a>
+								<c:if test="${link.value.LinkDescription.exists}">
+									<blockquote>${link.value.LinkDescription}</blockquote>
+								</c:if>
+							</li>
+								</c:forEach>
+							</ul>
+							<c:if test="${linkItem.value.ListInfo.exists}">
+								<blockquote>${linkItem.value.ListInfo}</blockquote>
+							</c:if>
+						</li>
+						</c:otherwise>
+					</c:choose>
+				</c:forEach>
+			</ul>
+		</div>
+	</c:if>
 </div>
 </cms:formatter>
