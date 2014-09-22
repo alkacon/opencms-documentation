@@ -1,12 +1,13 @@
-<%@page buffer="none" session="false" trimDirectiveWhitespaces="true"%>
-<%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
-<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<%@page buffer="none" session="false" trimDirectiveWhitespaces="true" taglibs="cms,c,fmt,fn" %>
+
 <cms:formatter var="content">
 	<div class="tag-box tag-box-v4">
 		<div style="height:35px;background-color:gray;">&nbsp;</div>
-		<cms:container type="demo-content" name="demo-content-container" tagClass="documentation-demo-content" />
+		<cms:container type="demo-content" name="demo-content-container" tagClass="documentation-demo-content">
+			<h2>
+				Please add the results of the demo or remove the frame if not needed.
+			</h2>
+		</cms:container>
 		<div style="height:35px;background-color:gray;">&nbsp;</div>
 	</div>
 </cms:formatter>
