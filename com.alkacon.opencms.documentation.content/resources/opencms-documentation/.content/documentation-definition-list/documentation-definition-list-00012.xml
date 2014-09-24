@@ -2,84 +2,35 @@
 
 <DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
   <DocumentationDefinitionList language="en">
-    <Title><![CDATA[XML Contents: Available field types]]></Title>
-    <Heading><![CDATA[Available XML field types]]></Heading>
-    <PropertyDef>true</PropertyDef>
+    <Title><![CDATA[Cache Administration: Flushing tool options]]></Title>
+    <Heading><![CDATA[Flushing tools and options]]></Heading>
+    <PropertyDef>false</PropertyDef>
     <Entry>
-      <Term><![CDATA[OpenCmsBoolean]]></Term>
+      <Term><![CDATA[Flex Cache]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Represents a Boolean value as String (<code>'true'</code>/<code>'false'</code>).</p>]]></content>
+        <content><![CDATA[<p>For flushing, you can choose if you want to flush the cache for online resources and if you want to flush the whole cache (keys and variations), or only the stored variations of HTML output.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[OpenCmsCategory]]></Term>
+      <Term><![CDATA[Core Cache]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Can handle one or more selected categories.</p>]]></content>
+        <content><![CDATA[<p>Core cache flushing, flushes always the whole cache. No options are available.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[OpenCmsColor]]></Term>
+      <Term><![CDATA[Image Cache]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Stores a hexadecimal color value.</p>]]></content>
+        <content><![CDATA[<p>The image cache flushing tool allows to specify a date, such that only images (image variations) are removed that have not been requested after the given date.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[OpenCmsTimeDate]]></Term>
+      <Term><![CDATA[JSP Repository]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Handles a date value.</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
-      <Term><![CDATA[OpenCmsHtml]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Used for rich text editor fields (keeps internal relations, e.g., text links intact).</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
-      <Term><![CDATA[OpenCmsLocale]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Stores a locale value.</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
-      <Term><![CDATA[OpenCmsPlainTextString]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Stores the extracted text for a field containing HTML.</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
-      <Term><![CDATA[OpenCmsString]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Stores a simple String 1:1.</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
-      <Term><![CDATA[OpenCmsVarLink]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Can handle internal and external links at once.</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
-      <Term><![CDATA[OpenCmsVfsFile]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Designated for storing internal file references.</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
-      <Term><![CDATA[OpenCmsVfsImage]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Refers internal images (handles image format, scaling, description …).</p>]]></content>
+        <content><![CDATA[<p>The JSP repository can only be flushed completely. Afterward, all JSPs that are requested must be exported to the server again, before they are executed.</p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>

@@ -8,11 +8,15 @@
           <target><![CDATA[/sites/default/opencms-documentation/demos/image-scaling/]]></target>
           <uuid>d13ee036-22ae-11e4-8f7a-d9f74955ba1b</uuid>
         </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/administration/cache-administration/]]></target>
+          <uuid>c13b9306-43eb-11e4-8dcd-6725b2578a6f</uuid>
+        </link>
       </links>
       <content><![CDATA[<p>Images that are loaded up to the VFS are stored their in the format they were loaded up. When an image is first requested, the image is scaled as requested (see <a href="%(link0)">the topic on image scaling</a>) and the scaled version is exported to the RFS of your server. Exported image versions are found in the folder <code>{webapp-home}/WEB-INF/imagecache/{VFS root path of the image}/</code>. The name of the image is extended by a unique identifier for the version of the image in the RFS.</p>
 <p>If the same image is requested a second time in the same version, i.e., scaled with the same parameters, the cached version is delivered. Neither the database request for the uploaded image nor the scaling procedure is repeated.</p>
 <p>If the image is requested with different scaling parameters, the original version of the image is loaded again from the VFS, is scaled, and then cached as a second version of the same image.</p>
-<p>You can view the state of the image cache and flush the cache via the cache administration.</p>]]></content>
+<p>You can view the state of the image cache and flush the cache via the <a href="%(link1)">cache administration</a>.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>
