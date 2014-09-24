@@ -1,5 +1,7 @@
 <%@page buffer="none" session="false" trimDirectiveWhitespaces="true" taglibs="cms,c,fmt,fn" %>
 
+<jsp:useBean id="sectionIndexer" class="com.alkacon.opencms.documentation.sectionindexer.SectionIndexer" scope="request" />
+
 <fmt:setLocale value="${cms.locale}" />
 
 <!DOCTYPE html>
@@ -55,6 +57,11 @@
 
 	<!--=== Header ===-->
 	<cms:include file="%(link.strong:/system/modules/com.alkacon.opencms.documentation/elements/header.jsp:54d313a9-17c6-11e4-a3fa-b7bfd6088c56)" />
+	
+	
+	<!-- BEGIN: Page Navigation -->
+	<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/pagenavigation.jsp:d4a5195a-05d5-11e4-a74d-1305b26fecac)" />
+	<!-- END: Page Navigation -->
 
 	<!--=== Content Part ===-->
 	<div class="container-fluid container-main">
