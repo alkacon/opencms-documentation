@@ -3,10 +3,13 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<ol start="2">
-<li><em>Configuring the template provider when configuring the used template:</em> Set the property <code>template</code> at the folder or container page where you want to specifiy the template to:</li>
-</ol>]]></content>
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[fig_edit_scheduled_job]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>At the first page of the dialog for editing jobs, as shown in Figure <a href="%(link0)">[edit_scheduled_job]</a>, you first get displayed the current server time and then you can fill out the following options for the job.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

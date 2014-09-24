@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Scheduled job: Job settings]]></Title>
+    <Heading><![CDATA[Job settings]]></Heading>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[Job name]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Name of the job used in the job list.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Java class]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/scheduler/I_CmsScheduledJob.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>Java class that executes the job. The class has to implement <a href="%(link0)"><code>org.opencms.scheduler.I_CmsScheduledJob</code></a>. There are several classes shipped with OpenCms. They can be selected via a drop-down list.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Cron expression]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[cron_format]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>A cron expression that specifies when the job should be executed. See <a href="%(link0)">below</a> for the syntax of cron expressions.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Reuse instance]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If checked, an instance of the class executing the job is created only when the job is executed the first time. The instance is then used for all repetitions of the job. If unchecked, the job is performed by a new instance each time.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Active]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If checked the job performed at the specified dates (see the cron expression). If unchecked, the job is still listed, but not permformed.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationFigures xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-figure.xsd">
+  <DocumentationFigure language="en">
+    <Identifier><![CDATA[inline_editor_result]]></Identifier>
+    <Title><![CDATA[The inline editor as configured via (a variant of) the above formatter.]]></Title>
+    <Description name="Description0">
+      <links/>
+      <content><![CDATA[<p>All texts rendered by the formatter can be edited inline. Moreover, a lot of edit points and plus symbols appear at the right-hand side of the editor. These are the shown because of RDFA annotations for content fields that are not directly editable. In particular, the edit point we hover over belongs to the first paragraph, the plus directly below to this paragraphs headline (that is not provided in the content). Furthermore, we get and edit point to edit or remove the image and a plus sign to add a link to the first paragraph.</p>
+<p>For the second paragraph we again get an edit point for editing the paragraph and two pluses: one for adding an image and one for adding a link. Note that the headline of the second paragraph is directly editable and has no extra edit point - as it has in the first paragraph.</p>]]></content>
+    </Description>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/opencms-documentation/.galleries/pictures/ResultOfComplexExample.png]]></target>
+        <uuid>de22d7a3-431f-11e4-a380-6725b2578a6f</uuid>
+      </link>
+    </Image>
+    <OpenCmsVersion><![CDATA[9.4.8]]></OpenCmsVersion>
+  </DocumentationFigure>
+</DocumentationFigures>

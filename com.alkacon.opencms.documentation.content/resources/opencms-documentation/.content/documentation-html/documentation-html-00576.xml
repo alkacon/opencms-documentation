@@ -4,8 +4,7 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>In both variants, you first specify the context provider (the default provider in the examples) and then the template for which the provider is used. In the first variant, the macro <code>%(templatepath)</code> is used to specify the template. It is resolved to ???.</p>
-<p>Once a template context provider is configured the preview functions and the additional element settings for chosing when to deliver content are available.</p>]]></content>
+      <content><![CDATA[<p>In another box, you have to provide context information. Each job performed in OpenCms must be performed in a context, i.e., by a user, in a project, for a locale, etc. The context specific settings are:</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

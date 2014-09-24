@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Permission dialog: Sections]]></Title>
+    <Heading><![CDATA[Sections of the permission dialog]]></Heading>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[View selection]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The permission dialog has two views: "Summary" and "Details" view, where the details view provides some extra information, e.g., from which resource permissions are inherited.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Responsibility information]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/notification/CmsContentNotificationJob.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>Lists the users that are declared responsible for the resource. If a job of type <a href="%(link0)"><code>org.opencms.notification.CmsContentNotificationJob</code></a> is run, responsible users are notified via email in special situations (the resource will shortly be expired, released or outdated).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Information on inherited permissions]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>List of all permissions that are inherited from parent folders.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Information on directly set permissions]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Information on directly set permissions, responsibilities and inheritance behavior of permissions. In this section permissions can be added, deleted or altered.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

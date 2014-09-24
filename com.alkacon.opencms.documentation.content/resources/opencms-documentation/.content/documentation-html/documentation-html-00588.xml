@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Many actions, you may want to take place instantly. But for some actions there are good reasons to perform them at a certain time or date, or to automatically repeat them in a specified time interval. For example:</p>
+<ul>
+<li>Publish a project's resources at a certain time when they should go "online".</li>
+<li>Clean up the image cache frequently</li>
+<li>Delete expired resources from time to time</li>
+<li>...</li>
+</ul>
+<p>The reason for executing a one-time-task scheduled may have two different reasons. Either, the task's result should not appear before a certain date, or the task is resource intensive and should be performed at a time when your website is not visited too often, e.g., over night.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>
