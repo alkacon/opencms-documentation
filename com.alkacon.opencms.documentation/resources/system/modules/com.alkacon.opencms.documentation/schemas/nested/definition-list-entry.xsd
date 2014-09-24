@@ -14,7 +14,7 @@
 		<xsd:sequence>
 			<xsd:element name="Term" type="OpenCmsString" />
 			<xsd:element name="Icon" type="OpenCmsVfsFile" minOccurs="0" />
-			<xsd:element name="Link" type="OpenCmsVfsFile" minOccurs="0" />
+			<xsd:element name="Link" type="OpenCmsVarLink" minOccurs="0" />
 			<xsd:element name="Description" type="OpenCmsHtml" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>

@@ -11,6 +11,6 @@
 		</c:when>
 		<c:otherwise><c:set var="language"></c:set></c:otherwise>
 		</c:choose>
-		<pre><code class="${language}"><c:out value="${content.value.Code}" escapeXml="true" /></code></pre>	
+		<pre class="${cms.element.settings['linenumbers'] eq 'true'?'show-linenumbers':''}"><code class="${language}"><c:out value="${content.value.Code}" escapeXml="true" /></code></pre>	
 	</div>
 </cms:formatter>
