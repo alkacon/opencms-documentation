@@ -50,21 +50,35 @@ import java.util.Map;
  */
 public class ContentActionPerformer extends CmsJspActionElement {
 
-    private String[] m_folders;
-    private Integer m_typeId;
+    /** folders where content is searched in */
+    private String[] m_folders = null;
+    /** type id of the content that is searched for */
+    private Integer m_typeId = null;
 
     /**
-     * Does the auto-correction. Folder and type of the contents are specified via parameters handed over to the JSP that instantiates AutoCorrectContent.
-     * 
-     * @return Either "Ok", if everything went right, or otherwise the stacktrace of the error
+     * Command interface used to allow several tasks to be preformed on each resource.
      */
     public interface Command {
 
+        /**
+         * Method that should be executed to perform a task/command.
+         * @param cmsObject CmsObject that can be used for the task
+         * @param resource Resource on which the task is performed
+         * @return true if the task was successfully performed, false otherwise
+         * @throws CmsException can be thrown to allow resource operations without direct error handling.
+         */
         public boolean execute(CmsObject cmsObject, CmsResource resource) throws CmsException;
     }
 
+    /**
+     * Wraps the auto-correct-content method as command.
+     */
     public class AutoCorrectCommand implements Command {
 
+        /**
+         * Autocorrects the content of the given CmsResource.
+         * @see com.alkacon.opencms.documentation.editortools.ContentActionPerformer.Command#execute(org.opencms.file.CmsObject, org.opencms.file.CmsResource)
+         */
         public boolean execute(CmsObject cmsObject, CmsResource resource) throws CmsException {
 
             if (resource.isFile()) {
@@ -82,8 +96,16 @@ public class ContentActionPerformer extends CmsJspActionElement {
         }
     }
 
+    /**
+     * Wraps the delete-unused-content method as command.
+     */
     public class DeleteUnusedContentCommand implements Command {
 
+        /**
+         * Checks if the provided resource is placed on a container page. If not, it deletes the resource. Deletion is not published.
+         * 
+         * @see com.alkacon.opencms.documentation.editortools.ContentActionPerformer.Command#execute(org.opencms.file.CmsObject, org.opencms.file.CmsResource)
+         */
         public boolean execute(CmsObject cmsObject, CmsResource resource) throws CmsException {
 
             if (PageFinder.getDisplayedOnPages(cmsObject, resource.getStructureId()).isEmpty()) {
@@ -97,7 +119,12 @@ public class ContentActionPerformer extends CmsJspActionElement {
         }
     }
 
-    public String doAction(Command action) {
+    /**
+     * Searches all resources of specified type and folder and performs the given action on each of the found resources.
+     * @param action The action to perform on all found resources.
+     * @return A String value saying on how many resources the action has been performed, or the stacktrace of an exception, if one occurs.
+     */
+    public String doAction(final Command action) {
 
         int countActions = 0;
         try {
@@ -111,7 +138,7 @@ public class ContentActionPerformer extends CmsJspActionElement {
             for (String folder : m_folders) {
                 List<CmsResource> resources = cmsObject.getResourcesInFolder(folder, CmsResourceFilter.ALL);
                 for (CmsResource resource : resources) {
-                    if (resource.getTypeId() == m_typeId) {
+                    if (resource.getTypeId() == m_typeId.intValue()) { //if m_typeId would be null, this line is never reached
                         if (action.execute(cmsObject, resource) == true) {
                             countActions++;
                         }
@@ -124,23 +151,36 @@ public class ContentActionPerformer extends CmsJspActionElement {
         return ("Performed action on " + countActions + " contents.");
     }
 
+    /**
+     * Sets the member variables m_folders and m_typeId
+     * 
+     * @throws CmsLoaderException Can occur when getting the type id from a type name.
+     */
     private void setFoldersAndTypeId() throws CmsLoaderException {
 
         setFolders();
         setTypeId();
     }
 
+    /**
+     * Read the folder parameters and store the values in m_folders.
+     */
     private void setFolders() {
 
         Map<String, String[]> parameterMap = getRequest().getParameterMap();
         m_folders = parameterMap.get("folder");
     }
 
+    /**
+     * Read the typeName parameter, get the type id for the name and store it in m_typeId.
+     * 
+     * @throws CmsLoaderException
+     */
     private void setTypeId() throws CmsLoaderException {
 
         String typeName = getRequest().getParameter("typeName");
         CmsResourceManager manager = OpenCms.getResourceManager();
         I_CmsResourceType type = manager.getResourceType(typeName);
-        m_typeId = type.getTypeId();
+        m_typeId = Integer.valueOf(type.getTypeId());
     }
 }
