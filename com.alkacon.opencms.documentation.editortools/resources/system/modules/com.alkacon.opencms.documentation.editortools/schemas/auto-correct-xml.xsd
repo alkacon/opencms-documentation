@@ -12,7 +12,7 @@
 
 	<xsd:complexType name="OpenCmsAutoCorrectXml">
 		<xsd:sequence>
-			<xsd:element name="Folder" type="OpenCmsVfsFile" />
+			<xsd:element name="Folder" type="OpenCmsVfsFile" maxOccurs="unbounded" />
 			<xsd:element name="Type" type="OpenCmsString" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
