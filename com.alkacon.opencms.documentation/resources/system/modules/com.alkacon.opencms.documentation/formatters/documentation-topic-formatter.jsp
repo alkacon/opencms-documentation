@@ -22,15 +22,15 @@
 		</c:if>
 	</c:if>
 	<div class="tag-box tag-box-v3" ${content.rdfa.Overview}>${content.value.Overview}</div>
-	<c:set var="relatedLinks" value="${content.valueList.RelatedLinks}" />
+	<c:set var="relatedLinks" value="${content.subValueList.RelatedLinks}" />
 	<c:if test="${cms:getListSize(relatedLinks) > 0}">
 		<div class="tag-box tag-box-v6">
 			<h5>Related links</h5>
 			<ul>
 				<c:forEach var="linkItem" items="${relatedLinks}">
 					<c:choose>
-						<c:when test="${linkItem.value.Link.exists}">
-							<c:set var="link" value="${linkItem.value.Link}" />
+						<c:when test='${linkItem.name eq "Link"}'>
+							<c:set var="link" value="${linkItem}" />
 							<c:set var="uri"><cms:link>${link.value.URI}</cms:link></c:set>
 							<li>
 								<a href="${uri}">${link.value.LinkText.exists?link.value.LinkText:uri}</a>
@@ -40,24 +40,26 @@
 							</li>
 						</c:when>
 						<c:otherwise>
-						<li>
+						<li style="list-style-type:square;">
 							<c:if test="${linkItem.value.Title.exists}">
 								<h4>${linkItem.value.Title}</h4>
 							</c:if>
 							<c:if test="${linkItem.value.Description.exists}">
 								<blockquote>${linkItem.value.Description}</blockquote>
 							</c:if>
-							<ul>
-								<c:forEach var="link" items="${linkItem.value.LinkList}">
-									<c:set var="uri"><cms:link>${link.value.URI}</cms:link></c:set>
-							<li>
-								<a href="${uri}">${link.value.LinkText.exists?link.value.LinkText:uri}</a>
-								<c:if test="${link.value.LinkDescription.exists}">
-									<blockquote>${link.value.LinkDescription}</blockquote>
-								</c:if>
-							</li>
-								</c:forEach>
-							</ul>
+							<c:if test="${linkItem.value.LinkList.exists}">
+								<ul>
+									<c:forEach var="link" items="${linkItem.value.LinkList}">
+										<c:set var="uri"><cms:link>${link.value.URI}</cms:link></c:set>
+								<li>
+									<a href="${uri}">${link.value.LinkText.exists?link.value.LinkText:uri}</a>
+									<c:if test="${link.value.LinkDescription.exists}">
+										<blockquote>${link.value.LinkDescription}</blockquote>
+									</c:if>
+								</li>
+									</c:forEach>
+								</ul>
+							</c:if>
 							<c:if test="${linkItem.value.ListInfo.exists}">
 								<blockquote>${linkItem.value.ListInfo}</blockquote>
 							</c:if>
