@@ -4,7 +4,9 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>In OpenCms the XSD choice element extends the XML Schema definition. The XSD choice provides a single or multiple choices of OpenCms types in arbitrary order. This chapter describes how to use the choice element within XSD and how to access the values in a JSP with EL.</p>]]></content>
+      <content><![CDATA[<p>The most important information is the help option on commands. You can get the signature of all available methods that make up commands, grouped by the classes that provide the methods, using <code>help *</code>. You can also search for signatures of methods whose name contains a special substring by typing <code>help {string}</code>. This search is <em>not</em> case-sensitive.</p>
+<p>Signatures are shown as <code>methodName(arg1,arg2,..,argn)</code>. To use the method as command type <code>methodName arg1 arg2 ... argn</code>.</p>
+<p>Let's see a very simple use-case of the help function. You want to login to OpenCms, but don't know exactly how. Thus, you search for login commands via <code>help login</code>. The shell will tell you:</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

@@ -3,8 +3,18 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>With EL the nested content field can be accessed as seen in the following example:</p>]]></content>
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://www.alkacon.com/en/products/ocee/cluster_package/index.html]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>The OpenCms shell is perfect for automatizing tasks. In particular, tasks that include not only OpenCms specific parts, but also "normal" shell commands. You can call the OpenCms shell from a shell script and paste it an OpenCms script that it should execute.</p>
+<p>Particular use cases are</p>
+<ul>
+<li>Automatically install extra modules when deploying OpenCms</li>
+<li>Automatically export database data or modules, e.g., for moving the exported data to another server for backup.</li>
+</ul>
+<p>The OpenCms shell also supports import and export in <a href="%(link0)">clusters</a>.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>
