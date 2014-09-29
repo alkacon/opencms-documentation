@@ -1,6 +1,7 @@
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
 
 	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+	<xsd:include schemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/nested/documentation-glossar-match.xsd"/>
 
 	<xsd:element name="AlkaconDocumentationGlossarEntrys" type="OpenCmsAlkaconDocumentationGlossarEntrys"/>
 
@@ -13,8 +14,9 @@
 	<xsd:complexType name="OpenCmsAlkaconDocumentationGlossarEntry">
 		<xsd:sequence>
 			<xsd:element name="Term" type="OpenCmsString" />
-			<xsd:element name="RefId" type="OpenCmsString" minOccurs="0" />
-			<xsd:element name="Match" type="OpenCmsString" minOccurs="0" maxOccurs="unbounded" />
+			<xsd:element name="RefId" type="OpenCmsString" />
+			<xsd:element name="Synonym" type="OpenCmsString" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element name="Match" type="OpenCmsDocumentationGlossarMatch" minOccurs="0" maxOccurs="unbounded" />
 			<xsd:element name="Description" type="OpenCmsHtml" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
@@ -33,7 +35,9 @@
 			<layouts>
 				<layout element="Description" widget="HtmlWidget" configuration="height:800px,spellcheck,link,image,table,source,hidebuttons:underline;strikethrough;alignleft;alignright;aligncenter;justify;indent;outdend;blockquote;hr;print,stylesformat:/system/modules/com.alkacon.opencms.documentation/resources/tinymce/styles.xml,imagegallery{useformat:true,formatnames: 'inline:Inline', formatvalues: ['14x?']}" />
 			</layouts>
-			<validationrules/>
+			<validationrules>
+				<rule element="RefId" regex=".*" type="error" message="Please provide a reference id." />
+			</validationrules>
 			<relations/>
 			<searchsettings/>
 		</xsd:appinfo>
