@@ -3,10 +3,22 @@
 <AlkaconDocumentationGlossarEntrys xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-glossar-entry.xsd">
   <AlkaconDocumentationGlossarEntry language="en">
     <Term><![CDATA[VFS (virtual file system)]]></Term>
-    <Match><![CDATA[VFS]]></Match>
-    <Match><![CDATA[virtual file system]]></Match>
-    <Match><![CDATA[Virtual file system]]></Match>
-    <Match><![CDATA[Virtual FIle System]]></Match>
+    <Synonym><![CDATA[virtual file system]]></Synonym>
+    <Synonym><![CDATA[file system, virtual]]></Synonym>
+    <Match>
+      <MatchString><![CDATA[VFS]]></MatchString>
+      <CaseSensitive>true</CaseSensitive>
+    </Match>
+    <Match>
+      <MatchString><![CDATA[VFSs]]></MatchString>
+      <CaseSensitive>true</CaseSensitive>
+    </Match>
+    <Match>
+      <MatchString><![CDATA[virtual file system]]></MatchString>
+    </Match>
+    <Match>
+      <MatchString><![CDATA[virtual file systems]]></MatchString>
+    </Match>
     <Description name="Description0">
       <links>
         <link name="link0" internal="true" type="A">

@@ -4,10 +4,15 @@
   <AlkaconDocumentationGlossarEntry language="en">
     <Term><![CDATA[ADE (Advanced Direct Edit)]]></Term>
     <RefId><![CDATA[ade]]></RefId>
-    <Match><![CDATA[ADE]]></Match>
-    <Match><![CDATA[advanced direct edit]]></Match>
-    <Match><![CDATA[Advanced direct edit]]></Match>
-    <Match><![CDATA[Advanced Direct Edit]]></Match>
+    <Synonym><![CDATA[advanced direct edit]]></Synonym>
+    <Synonym><![CDATA[direct edit]]></Synonym>
+    <Match>
+      <MatchString><![CDATA[ADE]]></MatchString>
+      <CaseSensitive>true</CaseSensitive>
+    </Match>
+    <Match>
+      <MatchString><![CDATA[advanced direct edit]]></MatchString>
+    </Match>
     <Description name="Description0">
       <links>
         <link name="link0" internal="true" type="A">

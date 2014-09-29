@@ -3,12 +3,22 @@
 <AlkaconDocumentationGlossarEntrys xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-glossar-entry.xsd">
   <AlkaconDocumentationGlossarEntry language="en">
     <Term><![CDATA[RFS (real file system)]]></Term>
-    <Match><![CDATA[RFS]]></Match>
-    <Match><![CDATA[real file system]]></Match>
-    <Match><![CDATA[Real file systems]]></Match>
-    <Match><![CDATA[RFSs]]></Match>
-    <Match><![CDATA[Real file system]]></Match>
-    <Match><![CDATA[Real file systems]]></Match>
+    <Synonym><![CDATA[real file system]]></Synonym>
+    <Synonym><![CDATA[file system, real]]></Synonym>
+    <Match>
+      <MatchString><![CDATA[RFS]]></MatchString>
+      <CaseSensitive>true</CaseSensitive>
+    </Match>
+    <Match>
+      <MatchString><![CDATA[RFSs]]></MatchString>
+      <CaseSensitive>true</CaseSensitive>
+    </Match>
+    <Match>
+      <MatchString><![CDATA[real file system]]></MatchString>
+    </Match>
+    <Match>
+      <MatchString><![CDATA[real file systems]]></MatchString>
+    </Match>
     <Description name="Description0">
       <links/>
       <content><![CDATA[<p>RFS, real file system, we call the file system on the server where OpenCms is running. Several configuration files, e.g., the <code>opencms-vfs.xml</code>, <code>opencms-modules.xml</code>, etc. are located at the real file system.</p>

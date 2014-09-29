@@ -3,10 +3,13 @@
 <AlkaconDocumentationGlossarEntrys xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-glossar-entry.xsd">
   <AlkaconDocumentationGlossarEntry language="en">
     <Term><![CDATA[workplace (traditional workplace)]]></Term>
-    <Match><![CDATA[workplace]]></Match>
-    <Match><![CDATA[Workplace]]></Match>
-    <Match><![CDATA[traditional workplace]]></Match>
-    <Match><![CDATA[Traditional workplace]]></Match>
+    <RefId><![CDATA[workplace]]></RefId>
+    <Match>
+      <MatchString><![CDATA[workplace]]></MatchString>
+    </Match>
+    <Match>
+      <MatchString><![CDATA[traditional workplace]]></MatchString>
+    </Match>
     <Description name="Description0">
       <links>
         <link name="link0" internal="true" type="A">
