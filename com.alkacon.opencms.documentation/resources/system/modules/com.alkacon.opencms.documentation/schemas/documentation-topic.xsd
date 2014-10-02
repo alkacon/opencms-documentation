@@ -18,7 +18,7 @@
 			<xsd:element name="Title" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="Overview" type="OpenCmsHtml" />
 			<xsd:element name="Teaser" type="OpenCmsHtml" minOccurs="0" />
-			<xsd:element name="RelatedLinks" type="OpenCmsDocumentationLinkOrList" minOccurs="0" maxOccurs="unbounded" />
+			<xsd:element name="RelatedLinks" type="OpenCmsDocumentationLinkOrList" minOccurs="0" />
 			<xsd:element name="NewInVersion" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="NewInDocuVersion" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="StatusMetaData" type="OpenCmsDocumentationStatusMetadata" />
@@ -52,7 +52,7 @@
 			<relations/>
 			<tabs>
 				<tab element="Title" collapse="false" name="Overview and Teaser" />
-				<tab element="RelatedLinks" collapse="false" name="General" />
+				<tab element="RelatedLinks" collapse="true" name="Related Links" />
 				<tab element="NewInVersion" collapse="false" name="Version info" />
 				<tab element="StatusMetaData" collapse="true" name="Status" />
 			</tabs>
