@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationGlossarEntrys xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-glossar-entry.xsd">
+  <AlkaconDocumentationGlossarEntry language="en">
+    <Term><![CDATA[basic schema type]]></Term>
+    <RefId><![CDATA[basic_schema_type]]></RefId>
+    <Synonym><![CDATA[schema type, basic]]></Synonym>
+    <Match>
+      <MatchString><![CDATA[basic schema type]]></MatchString>
+    </Match>
+    <Description name="Description0">
+      <links/>
+      <content><![CDATA[<p>A basic schema type is a schema type supplied by OpenCms. Such basic schema types are, e.g., OpenCmsString, OpenCmsVfsFile, etc. In all schemas that are used to define content types, the part defining the content's structure must have schema elements with basic schema types as leaves<span class="footnote">Leaves are nodes that do not have subnodes - or more precisely in our context, do not have the schema type of a nested content.</span>.</p>]]></content>
+    </Description>
+  </AlkaconDocumentationGlossarEntry>
+</AlkaconDocumentationGlossarEntrys>

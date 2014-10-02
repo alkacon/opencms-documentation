@@ -16,7 +16,7 @@
       <Term><![CDATA[Users]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Users in this group are automatically workplace users.</p>]]></content>
+        <content><![CDATA[<p>Whenever you assign a role to a user, he is added to the users group. If you remove the role, he will also loose his group membership (even if you explicitely added him to the group before). Typically, all users should be in the users group. For example, the rights to read view and write content in the default site is granted to members of the Users group. The same holds for the <code>/shared/</code> folder.</p>]]></content>
       </Description>
     </Entry>
     <Entry>

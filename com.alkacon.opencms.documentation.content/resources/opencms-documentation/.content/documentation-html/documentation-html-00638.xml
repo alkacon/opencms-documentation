@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>You may run into a scenario, where the value of one schema element is somehow related to the value of another schema element (or even of many other such elements). When a content is edited in the content editor and the editor field that displays a schema element changes, it may be valuable to adjust the value displayed in another editor field.</p>
+<p>An example are copyright information on images. Your content may allow to insert images and set copyright information on such images. If a picture is exchanged, the copyright information should be adjusted accordingly (possibly read from a property of the picture).</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

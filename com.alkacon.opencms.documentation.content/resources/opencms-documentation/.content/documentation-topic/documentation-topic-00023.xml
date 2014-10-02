@@ -4,19 +4,14 @@
   <AlkaconDocumentationTopicFrame language="en">
     <Overview name="Overview0">
       <links/>
-      <content><![CDATA[<p>In OpenCms content is stored in XML files. Contents have different content types (e.g., a news article, a blog entry, a teaser row, …). For each type, the XML structure is different. The structure is defined by an XML schema definition (XSD). The XSD has to be coded manually and configured as a resource and explorer type. After that, the generation of XML content is supported by a form-based editor.</p>
-<p>XML contents, in the following called only contents, can be placed in containers via drag &amp; drop. How single contents are rendered is defined by formatters (JSPs). For one content type several formatters can exists. Which formatter is chosen for rendering can depend on the actual container where the content is placed in, or can even be selected by the content manager itself.</p>
-<p>For each formatter a formatter configuration defines in which containers or situations the formatter applies.</p>
-<p>The topics listed here provide you with all the information you may need about content in OpenCms.</p>]]></content>
+      <content><![CDATA[<p>Content is the heart of a content management system. So the concept of content is essential. In the topics listed below, you find information on content in OpenCms.</p>]]></content>
     </Overview>
     <Teaser name="Teaser0">
       <links/>
       <content><![CDATA[<p>An overview on content-related topics. Learn for example, how to define new content types and how to render content.</p>]]></content>
     </Teaser>
     <StatusMetaData>
-      <Todos>
-        <Todo><![CDATA[Add some content to this topic, describing the interplay between xsds, xml-files and formatters]]></Todo>
-      </Todos>
+      <Todos/>
     </StatusMetaData>
   </AlkaconDocumentationTopicFrame>
 </AlkaconDocumentationTopicFrames>

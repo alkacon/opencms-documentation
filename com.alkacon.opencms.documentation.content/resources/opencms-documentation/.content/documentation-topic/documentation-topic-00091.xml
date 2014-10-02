@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>OpenCms allows to make fields in the content editor dependent on other fields. You can listen to changes made in an editor field and then react on that change by adjusting values in other fields. Potentially, you can react also in a different way if you write your own change handler. Which handler listens to which editor fields (or, more precise, to changes on which schema elements) is configured in the schema definition of a content type.</p>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>The entered in one editor field should influence the value of another field? No problem - make the fields dependent.</p>]]></content>
+    </Teaser>
+    <NewInVersion><![CDATA[9.5]]></NewInVersion>
+    <NewInDocuVersion><![CDATA[9.5]]></NewInDocuVersion>
+    <StatusMetaData>
+      <Todos>
+        <Todo><![CDATA[What about changing a widgets behavior?]]></Todo>
+      </Todos>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

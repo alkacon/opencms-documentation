@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[ADE configuration: Resource type configuration options]]></Title>
+    <Heading><![CDATA[Resource type configuration options]]></Heading>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[Type name]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Select the resource type you want to configure.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Disabled]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Set "Disabled" to "False" to enable using the content type, i.e., allow adding new and existing contents of that type. Set it to "True" to disable the content type (do not show it in the add wizard or show content). Set it to "Adding disabled" if you do not want to allow adding new contents of a type, but allow editing existing contents (that could, for example, be given via model pages).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Folder]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Choose in which folder the content should be stored. Here you can either choose an absolute path or just a folder name. If you choose the folder name, the content will be placed in a subfolder of <code>.content/</code> with the given name. If, in a sitemap configuration, you choose "Local contents", the sitemap's local <code>.content/</code> folder will be used, otherwise a <code>.content/</code> folder an above sitemap. By default, content is stored in a subfolder <code>{resource type name}/</code> of the <code>.content/</code> folder.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Name pattern]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The name pattern to be used if new content of the specified resource type is added to a page. A typical pattern has the format <code>{prefix}_%(number).xml</code>. Be sure to use the <code>%(number)</code> macro to guarantee distinct names for all contents in a folder. The default name pattern is <code>{resource type name}_%(number).xml</code>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Detail pages disabled]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The add wizard of the sitemap editor has a tab "Detail pages" where you can add detail pages for resource types. If you check "Disable detail pages", a page for the resource type will <em>not</em> appear.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Element view]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/configuration/ade-configuration/resource-type-configuration/configuration-of-element-views/]]></target>
+            <uuid>944a9ef8-4871-11e4-8008-336f7b60f7b1</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Resource types can be grouped in element views. Elements of a type can only be added, edited or removed from a page if the specific view is chosen. Otherwise, for all elements of the type, neither edit points are shown, nor are the types visible in the add wizard. Element views can be used to separate tasks or to control access to resource types. Read more about them <a href="%(link0)">here</a>. By default, the "Default" element view is chosen.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

@@ -2,18 +2,10 @@
 
 <DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
   <DocumentationCodeBlock language="en">
-    <Code><![CDATA[<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
-
-    <!-- ... -->
-
-    <xsd:annotation>
-        <xsd:appinfo>
-            
-            <!-- PUT CONFIGURATIONS HERE -->
-            
-        </xsd:appinfo>
-    </xsd:annotation> 
-
-</xsd:schema>]]></Code>
+    <Code><![CDATA[<tabs>
+    <tab element="Title" collapse="false" name="General" />
+    <tab element="Author" collapse="false" name="AuthorTab" />
+    <tab element="Availability" collapse="true" name="Availability" />
+</tabs>]]></Code>
   </DocumentationCodeBlock>
 </DocumentationCodeBlocks>

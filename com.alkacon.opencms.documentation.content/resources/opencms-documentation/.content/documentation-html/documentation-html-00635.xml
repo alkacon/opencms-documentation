@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/xml/content/I_CmsXmlContentVisibilityHandler.html]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>To implement your own visibility handler, you have to implement the interface <code><a href="%(link0)">I_CmsXmlContentVisibilityHandler</a></code> found in the package <code>org.opencms.xml.content</code>. The only method to implement is <code>isValueVisible(..)</code>. The method return a Boolean value, indicating if the element should be shown or not. The method's arguments provide various contextual information to decide about the visibility. Additionally a configuration string is provided and you are completely free about how to parse and use it.</p>
+<p>To use the self-defined handler, provide its qualified name as <code>class</code> attribute in the <code>&lt;visibility&gt;</code> node.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

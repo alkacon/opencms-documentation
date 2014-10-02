@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>For historical reasons, assigning a role to a user will automatically add the user to the Users group. Removing all roles from a user will cancel his membership in the Users group also automatically.</p>
+<p>When you once assigned a role to a user you can remove him from the users group and he will not lose his role. This should usually not be necessary, but if you do so, keep in mind that the user is added to the Users group again when you change his role.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

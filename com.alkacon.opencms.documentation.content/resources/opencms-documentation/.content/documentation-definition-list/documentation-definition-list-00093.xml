@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[ADE configuration: Sitemap specific resource type configuration options]]></Title>
+    <Heading><![CDATA[Sitemap specific resource type configuration options]]></Heading>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[Disable all]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Disables all resource types configured via module configurations or parent sitemaps. In consequence, only resource types explicitely configured in the sitemap will be available.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Local contents]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If checked, a local <code>.content/</code> folder is created and, whenever as "Folder" in a resource type configuration only a name is chosen, the resources will be stored locally in a subfolder of the <code>.content/</code> folder. If the option is not checked, the <code>.content/</code> folder of a parent sitemap or the site will be used.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Prefer detail pages]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If you link to a content that is stored locally in the sitemap and your sitemap has a detail page for contents of that type configured, then this detail page will be preferred over a detail page that might be configured for the calling (sub-)site, i.e., the (sub-)site where the link to the content is placed. If the option is not checked, the detail page from the "calling (sub)site" will be preferred.</p>
+<div class="alert alert-info">The feature only works for content that is stored locally in a folder under the (sub-)sites main folder.</div>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

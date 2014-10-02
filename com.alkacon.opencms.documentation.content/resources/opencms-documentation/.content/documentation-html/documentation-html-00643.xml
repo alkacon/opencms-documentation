@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p><em>Synchronization of values of schema elements is a <strong>feature of the content editor</strong>.</em> You just configure the editor to synchronize values. That is, when <em>in the content editor</em>, a value is changed for one language, the values of the corresponding schema elements in all other languages (if the schema elements are present at all) are also changed. If you change a value in the source code, no synchronization is performed.</p>
+<p><em>Configuring synchronized schema elements adds an <strong>extra option in the form-based content editor</strong>.</em> Because usually synchronized schema elements can have different values in different languages if the source code of the XML content is edited, the form-based content editor provides an option "Synchronize" in the "Copy locale" dialog when synchronized values are configured. This will sync the language specific values to the value from the currently edited locale.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

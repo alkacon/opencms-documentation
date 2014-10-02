@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[XSDs: Basic schema types]]></Title>
+    <Heading><![CDATA[The basic schema types]]></Heading>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[OpenCmsBoolean]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Stores a Boolean value, i.e., <code>true</code> or <code>false</code>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[OpenCmsCategory]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Stores multiple categories</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[OpenCmsColor]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Stores a color value</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[OpenCmsHtml]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Stores strings with HTML markup. In particular, it extracts links in HTML and adjusts (internal) links with the link substitution manager, such that for example also exported VFS resources are found. Furthermore, for links to VFS resources the link relationship engine is used - thus they are also correctly found when they moved.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[OpenCmsLocale]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Stores the name of a locale, e.g., "en" or "de".</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[OpenCmsPlainTextString]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Stores arbitrary strings and stripes away HTML markup when indexing the value for search.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[OpenCmsString]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Stores arbitrary strings and does not further manipulate them.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[OpenCmsDateTime]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Stores a time stamp as <code>long int</code>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[OpenCmsVarLink]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Stores internal and external links.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[OpenCmsVfsFile]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Stores links to VFS resources, i.e., internal links.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[OpenCmsVfsImage]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/widget-configuration/]]></target>
+            <uuid>a8badf1f-489a-11e4-8008-336f7b60f7b1</uuid>
+            <anchor><![CDATA[VfsImageWidget]]></anchor>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/widget-configuration/]]></target>
+            <uuid>a8badf1f-489a-11e4-8008-336f7b60f7b1</uuid>
+            <anchor><![CDATA[ImageGalleryWidget]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Stores links to an image and serveral extra information on the image. It is not necessary to use this type for images - unless you want all the extra information. You can also use <code>OpenCmsVfsFile</code>. Check the description of the image widgets (<a href="%(link0)">VfsImageWidget</a> and <a href="%(link1)">ImageGalleryWidget</a>) for further information.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>
