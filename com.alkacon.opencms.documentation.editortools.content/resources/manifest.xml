@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>9.4.8</opencms_version>
-		<createdate>Wed, 24 Sep 2014 10:47:44 GMT</createdate>
+		<createdate>Thu, 02 Oct 2014 09:15:45 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -71,7 +71,7 @@
 			<type>containerpage</type>
 			<uuidstructure>285bf96b-2d2a-11e4-93f4-d144f6bb3566</uuidstructure>
 			<uuidresource>285bf96c-2d2a-11e4-93f4-d144f6bb3566</uuidresource>
-			<datelastmodified>Tue, 09 Sep 2014 09:43:17 GMT</datelastmodified>
+			<datelastmodified>Thu, 02 Oct 2014 09:13:44 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 26 Aug 2014 14:06:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -498,6 +498,21 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00012.xml</source>
+			<destination>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00012.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>a2b62f54-4a13-11e4-9129-336f7b60f7b1</uuidstructure>
+			<uuidresource>a2b62f55-4a13-11e4-9129-336f7b60f7b1</uuidresource>
+			<datelastmodified>Thu, 02 Oct 2014 09:12:24 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 02 Oct 2014 09:08:12 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation-editor-tools/.content/documentation-section</destination>
 			<type>folder</type>
 			<uuidstructure>83c4a842-43c1-11e4-8dcd-6725b2578a6f</uuidstructure>
@@ -745,6 +760,26 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Editing the documentation - What's special for figures?<br />]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00013.xml</source>
+			<destination>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00013.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>8b0916af-4a13-11e4-9129-336f7b60f7b1</uuidstructure>
+			<uuidresource>8b0916b0-4a13-11e4-9129-336f7b60f7b1</uuidresource>
+			<datelastmodified>Thu, 02 Oct 2014 09:09:18 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 02 Oct 2014 09:07:32 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms documentation editor tools - What are editor tools for?]]></value>
 				</property>
 			</properties>
 			<relations/>
