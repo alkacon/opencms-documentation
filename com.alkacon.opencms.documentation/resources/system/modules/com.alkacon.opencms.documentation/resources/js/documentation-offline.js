@@ -13,9 +13,6 @@ function addClickHandlers() {
 }
 
 $('document').ready(function() {
-    if($("body").data("documentation-editor") != true) {
-        $(window).bind("load", hideEditPoints);
-    }
     $(".scroll-left").scrollLeft();
     $(".documentation-source-link").prepend("Source-URL: ");
     addClickHandlers();
