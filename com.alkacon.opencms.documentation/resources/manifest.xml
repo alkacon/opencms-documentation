@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>9.4.8</opencms_version>
-		<createdate>Mon, 29 Sep 2014 10:25:03 GMT</createdate>
+		<createdate>Thu, 02 Oct 2014 08:36:27 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -52,6 +52,8 @@
 			<resource uri="/system/workplace/resources/filetypes/documentation-demo-wrapper_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/documentation-demo-source.png"/>
 			<resource uri="/system/workplace/resources/filetypes/documentation-demo-source_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/documentation-dummy-content.png"/>
+			<resource uri="/system/workplace/resources/filetypes/documentation-dummy-content_big.png"/>
 		</resources>
 		<parameters/>
 		<resourcetypes>
@@ -94,6 +96,9 @@
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="documentation-demo-source" id="361">
 				<param name="schema">/system/modules/com.alkacon.opencms.documentation/schemas/documentation-demo-source.xsd</param>
 			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="documentation-dummy-content" id="362">
+				<param name="schema">/system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd</param>
+			</type>
 		</resourcetypes>
 		<explorertypes>
 			<explorertype name="documentation-topic" key="fileicon.documentation-topic" icon="documentation-topic.png" bigicon="documentation-topic_big.png" reference="xmlcontent">
@@ -135,16 +140,19 @@
 			<explorertype name="documentation-demo-source" key="fileicon.documentation-demo-source" icon="documentation-demo-source.png" bigicon="documentation-demo-source_big.png" reference="xmlcontent">
 				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=documentation-demo-source" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-demo-source" key="title.documentation-demo-source"/>
 			</explorertype>
+			<explorertype name="documentation-dummy-content" key="fileicon.documentation-dummy-content" icon="documentation-dummy-content.png" bigicon="documentation-dummy-content_big.png" reference="xmlcontent">
+				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=documentation-dummy-content" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-dummy-content" key="title.documentation-dummy-content"/>
+			</explorertype>
 		</explorertypes>
 	</module>
 	<files>
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>42ea1337-422f-11e4-bef5-6725b2578a6f</uuidstructure>
-			<datelastmodified>Mon, 22 Sep 2014 08:05:48 GMT</datelastmodified>
+			<uuidstructure>62b39dc7-47c7-11e4-8b14-336f7b60f7b1</uuidstructure>
+			<datelastmodified>Mon, 29 Sep 2014 10:57:20 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 22 Sep 2014 08:05:48 GMT</datecreated>
+			<datecreated>Mon, 29 Sep 2014 10:57:20 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -163,10 +171,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>43fbf7a3-422f-11e4-bef5-6725b2578a6f</uuidstructure>
-			<datelastmodified>Mon, 22 Sep 2014 08:05:49 GMT</datelastmodified>
+			<uuidstructure>64012ca3-47c7-11e4-8b14-336f7b60f7b1</uuidstructure>
+			<datelastmodified>Mon, 29 Sep 2014 10:57:22 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 22 Sep 2014 08:05:49 GMT</datecreated>
+			<datecreated>Mon, 29 Sep 2014 10:57:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -201,7 +209,7 @@
 			<type>module_config</type>
 			<uuidstructure>d9a929aa-fc67-11e3-8410-fb93821e3720</uuidstructure>
 			<uuidresource>d9a929ab-fc67-11e3-8410-fb93821e3720</uuidresource>
-			<datelastmodified>Wed, 13 Aug 2014 10:52:23 GMT</datelastmodified>
+			<datelastmodified>Mon, 29 Sep 2014 13:27:04 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 25 Jun 2014 12:54:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -242,7 +250,7 @@
 			<type>jsp</type>
 			<uuidstructure>a6fdeaa0-38d7-11e4-9c91-578a14069906</uuidstructure>
 			<uuidresource>a6fdeaa1-38d7-11e4-9c91-578a14069906</uuidresource>
-			<datelastmodified>Wed, 10 Sep 2014 12:47:32 GMT</datelastmodified>
+			<datelastmodified>Mon, 29 Sep 2014 14:14:16 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 10 Sep 2014 10:45:59 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -438,7 +446,7 @@
 			<type>jsp</type>
 			<uuidstructure>8d667ace-2930-11e4-b03d-d144f6bb3566</uuidstructure>
 			<uuidresource>8d667acf-2930-11e4-b03d-d144f6bb3566</uuidresource>
-			<datelastmodified>Wed, 10 Sep 2014 14:13:04 GMT</datelastmodified>
+			<datelastmodified>Tue, 30 Sep 2014 12:12:20 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 21 Aug 2014 12:42:03 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -462,7 +470,7 @@
 			<type>jsp</type>
 			<uuidstructure>c673fbf4-38ea-11e4-9c91-578a14069906</uuidstructure>
 			<uuidresource>c673fbf5-38ea-11e4-9c91-578a14069906</uuidresource>
-			<datelastmodified>Wed, 10 Sep 2014 14:23:24 GMT</datelastmodified>
+			<datelastmodified>Thu, 02 Oct 2014 08:15:58 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 10 Sep 2014 13:02:53 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -479,6 +487,65 @@
 			</properties>
 			<relations/>
 			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation/elementviews</destination>
+			<type>folder</type>
+			<uuidstructure>074209da-47d2-11e4-9d1c-336f7b60f7b1</uuidstructure>
+			<datelastmodified>Mon, 29 Sep 2014 12:13:46 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 29 Sep 2014 12:13:31 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Element views exposed by that module]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/elementviews/editor-view.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/elementviews/editor-view.xml</destination>
+			<type>elementview</type>
+			<uuidstructure>4af2879d-47d2-11e4-9d1c-336f7b60f7b1</uuidstructure>
+			<uuidresource>4af2879e-47d2-11e4-9d1c-336f7b60f7b1</uuidresource>
+			<datelastmodified>Tue, 30 Sep 2014 10:02:28 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 29 Sep 2014 12:15:25 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Editor element view]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol>
+				<accessentry>
+					<uuidprincipal>ROLE.WORKPLACE_USER</uuidprincipal>
+					<flags>516</flags>
+					<permissionset>
+						<allowed>0</allowed>
+						<denied>4</denied>
+					</permissionset>
+				</accessentry>
+			</accesscontrol>
 		</file>
 		<file>
 			<destination>system/modules/com.alkacon.opencms.documentation/formatters</destination>
@@ -963,7 +1030,7 @@
 			<type>jsp</type>
 			<uuidstructure>0d7a130f-0038-11e4-83a1-fb93821e3720</uuidstructure>
 			<uuidresource>0d7a1310-0038-11e4-83a1-fb93821e3720</uuidresource>
-			<datelastmodified>Thu, 31 Jul 2014 10:23:48 GMT</datelastmodified>
+			<datelastmodified>Tue, 30 Sep 2014 06:22:12 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 30 Jun 2014 09:22:27 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2063,7 +2130,7 @@
 			<type>xmlvfsbundle</type>
 			<uuidstructure>d997293e-fc67-11e3-8410-fb93821e3720</uuidstructure>
 			<uuidresource>d997293f-fc67-11e3-8410-fb93821e3720</uuidresource>
-			<datelastmodified>Thu, 14 Aug 2014 07:35:27 GMT</datelastmodified>
+			<datelastmodified>Tue, 30 Sep 2014 10:02:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 25 Jun 2014 12:54:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2345,7 +2412,7 @@
 			<type>plain</type>
 			<uuidstructure>ef5ad321-23bf-11e4-a9de-49dbf0abad32</uuidstructure>
 			<uuidresource>ef5ad322-23bf-11e4-a9de-49dbf0abad32</uuidresource>
-			<datelastmodified>Wed, 10 Sep 2014 13:40:51 GMT</datelastmodified>
+			<datelastmodified>Tue, 30 Sep 2014 06:07:31 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 14 Aug 2014 14:33:18 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2513,7 +2580,7 @@
 			<type>plain</type>
 			<uuidstructure>406f322d-0cf4-11e4-a7cb-b7bfd6088c56</uuidstructure>
 			<uuidresource>406f322e-0cf4-11e4-a7cb-b7bfd6088c56</uuidresource>
-			<datelastmodified>Wed, 16 Jul 2014 14:22:10 GMT</datelastmodified>
+			<datelastmodified>Tue, 30 Sep 2014 12:11:37 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 16 Jul 2014 14:19:52 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2774,7 +2841,7 @@
 			<type>plain</type>
 			<uuidstructure>8f858b34-fd33-11e3-8938-fb93821e3720</uuidstructure>
 			<uuidresource>8f858b35-fd33-11e3-8938-fb93821e3720</uuidresource>
-			<datelastmodified>Mon, 08 Sep 2014 12:59:47 GMT</datelastmodified>
+			<datelastmodified>Wed, 01 Oct 2014 13:49:20 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 26 Jun 2014 13:12:44 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3448,6 +3515,54 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[documentation-demo-wrapper_big]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/documentation-dummy-content.png</source>
+			<destination>system/workplace/resources/filetypes/documentation-dummy-content.png</destination>
+			<type>image</type>
+			<uuidstructure>bc4441de-47da-11e4-b3a1-336f7b60f7b1</uuidstructure>
+			<uuidresource>bc4441df-47da-11e4-b3a1-336f7b60f7b1</uuidresource>
+			<datelastmodified>Mon, 29 Sep 2014 13:15:51 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 29 Sep 2014 13:15:51 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[documentation-dummy-content]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/documentation-dummy-content_big.png</source>
+			<destination>system/workplace/resources/filetypes/documentation-dummy-content_big.png</destination>
+			<type>image</type>
+			<uuidstructure>bc4b46c2-47da-11e4-b3a1-336f7b60f7b1</uuidstructure>
+			<uuidresource>bc4b46c3-47da-11e4-b3a1-336f7b60f7b1</uuidresource>
+			<datelastmodified>Mon, 29 Sep 2014 13:15:51 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 29 Sep 2014 13:15:51 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[documentation-dummy-content_big]]></value>
 				</property>
 				<property type="shared">
 					<name>image.size</name>
