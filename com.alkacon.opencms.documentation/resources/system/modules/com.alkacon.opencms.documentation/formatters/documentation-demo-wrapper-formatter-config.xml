@@ -21,5 +21,11 @@
     <AutoEnabled>true</AutoEnabled>
     <Detail>true</Detail>
     <NestedContainers>false</NestedContainers>
+    <HeadIncludeCss>
+      <CssInline><![CDATA[div.documentation-demo-wrapper-bar {
+    height:35px;
+    background-color:#717984;
+}]]></CssInline>
+    </HeadIncludeCss>
   </NewFormatter>
 </NewFormatters>
