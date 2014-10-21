@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>9.4.8</opencms_version>
-		<createdate>Thu, 02 Oct 2014 09:15:45 GMT</createdate>
+		<createdate>Tue, 21 Oct 2014 06:13:02 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -13,22 +13,25 @@
 		<nicename><![CDATA[OpenCms documentation editor tools content]]></nicename>
 		<class/>
 		<description><![CDATA[Provides pages that expose editor tools for the documentation. Has to be placed in the same site as the documentation content.]]></description>
-		<version>0.7</version>
+		<version>0.8</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated/>
 		<userinstalled/>
 		<dateinstalled/>
-		<dependencies/>
+		<dependencies>
+			<dependency name="com.alkacon.opencms.documentation.editortools" version="0.7"/>
+			<dependency name="com.alkacon.opencms.documentation.content" version="9.5"/>
+		</dependencies>
 		<exportpoints/>
 		<resources>
-			<resource uri="/opencms-documentation-editor-tools/"/>
+			<resource uri="/documentation-editor-tools/"/>
 		</resources>
 		<parameters/>
 	</module>
 	<files>
 		<file>
-			<destination>opencms-documentation-editor-tools</destination>
+			<destination>documentation-editor-tools</destination>
 			<type>subsitemap</type>
 			<uuidstructure>28547f56-2d2a-11e4-93f4-d144f6bb3566</uuidstructure>
 			<datelastmodified>Wed, 10 Sep 2014 08:40:12 GMT</datelastmodified>
@@ -66,8 +69,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/index.html</source>
-			<destination>opencms-documentation-editor-tools/index.html</destination>
+			<source>documentation-editor-tools/index.html</source>
+			<destination>documentation-editor-tools/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>285bf96b-2d2a-11e4-93f4-d144f6bb3566</uuidstructure>
 			<uuidresource>285bf96c-2d2a-11e4-93f4-d144f6bb3566</uuidresource>
@@ -86,7 +89,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>opencms-documentation-editor-tools/.content</destination>
+			<destination>documentation-editor-tools/.content</destination>
 			<type>content_folder</type>
 			<uuidstructure>336bda5e-2d2a-11e4-93f4-d144f6bb3566</uuidstructure>
 			<datelastmodified>Tue, 26 Aug 2014 14:06:40 GMT</datelastmodified>
@@ -99,8 +102,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/.config</source>
-			<destination>opencms-documentation-editor-tools/.content/.config</destination>
+			<source>documentation-editor-tools/.content/.config</source>
+			<destination>documentation-editor-tools/.content/.config</destination>
 			<type>sitemap_config</type>
 			<uuidstructure>336e2450-2d2a-11e4-93f4-d144f6bb3566</uuidstructure>
 			<uuidresource>336e2451-2d2a-11e4-93f4-d144f6bb3566</uuidresource>
@@ -131,7 +134,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>opencms-documentation-editor-tools/.content/.new</destination>
+			<destination>documentation-editor-tools/.content/.new</destination>
 			<type>folder</type>
 			<uuidstructure>a6a44570-2e8c-11e4-8af3-d144f6bb3566</uuidstructure>
 			<datelastmodified>Thu, 28 Aug 2014 08:29:57 GMT</datelastmodified>
@@ -149,8 +152,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/.new/default_documentation_editortools_model.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/.new/default_documentation_editortools_model.xml</destination>
+			<source>documentation-editor-tools/.content/.new/default_documentation_editortools_model.xml</source>
+			<destination>documentation-editor-tools/.content/.new/default_documentation_editortools_model.xml</destination>
 			<type>containerpage</type>
 			<uuidstructure>bfc05762-2e8c-11e4-8af3-d144f6bb3566</uuidstructure>
 			<uuidresource>bfc05763-2e8c-11e4-8af3-d144f6bb3566</uuidresource>
@@ -169,7 +172,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>opencms-documentation-editor-tools/.content/auto-correct-xml</destination>
+			<destination>documentation-editor-tools/.content/auto-correct-xml</destination>
 			<type>folder</type>
 			<uuidstructure>582b14ab-2e7f-11e4-8af3-d144f6bb3566</uuidstructure>
 			<datelastmodified>Thu, 28 Aug 2014 06:48:40 GMT</datelastmodified>
@@ -182,8 +185,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00001.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00001.xml</destination>
+			<source>documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00001.xml</source>
+			<destination>documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00001.xml</destination>
 			<type>auto-correct-xml</type>
 			<uuidstructure>582f5a6d-2e7f-11e4-8af3-d144f6bb3566</uuidstructure>
 			<uuidresource>582f5a6e-2e7f-11e4-8af3-d144f6bb3566</uuidresource>
@@ -197,8 +200,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00002.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00002.xml</destination>
+			<source>documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00002.xml</source>
+			<destination>documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00002.xml</destination>
 			<type>auto-correct-xml</type>
 			<uuidstructure>1937019b-2e89-11e4-8af3-d144f6bb3566</uuidstructure>
 			<uuidresource>1937019c-2e89-11e4-8af3-d144f6bb3566</uuidresource>
@@ -212,8 +215,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00003.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00003.xml</destination>
+			<source>documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00003.xml</source>
+			<destination>documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00003.xml</destination>
 			<type>auto-correct-xml</type>
 			<uuidstructure>fcf67668-432c-11e4-86d3-6725b2578a6f</uuidstructure>
 			<uuidresource>fcf67669-432c-11e4-86d3-6725b2578a6f</uuidresource>
@@ -227,8 +230,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00004.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00004.xml</destination>
+			<source>documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00004.xml</source>
+			<destination>documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00004.xml</destination>
 			<type>auto-correct-xml</type>
 			<uuidstructure>4eb37356-432d-11e4-86d3-6725b2578a6f</uuidstructure>
 			<uuidresource>4eb37357-432d-11e4-86d3-6725b2578a6f</uuidresource>
@@ -242,8 +245,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00005.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00005.xml</destination>
+			<source>documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00005.xml</source>
+			<destination>documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00005.xml</destination>
 			<type>auto-correct-xml</type>
 			<uuidstructure>62b1dbda-432d-11e4-86d3-6725b2578a6f</uuidstructure>
 			<uuidresource>62b1dbdb-432d-11e4-86d3-6725b2578a6f</uuidresource>
@@ -257,8 +260,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00006.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00006.xml</destination>
+			<source>documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00006.xml</source>
+			<destination>documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00006.xml</destination>
 			<type>auto-correct-xml</type>
 			<uuidstructure>985d7b9e-432d-11e4-86d3-6725b2578a6f</uuidstructure>
 			<uuidresource>985d7b9f-432d-11e4-86d3-6725b2578a6f</uuidresource>
@@ -272,8 +275,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00007.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00007.xml</destination>
+			<source>documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00007.xml</source>
+			<destination>documentation-editor-tools/.content/auto-correct-xml/auto-correct-xml-00007.xml</destination>
 			<type>auto-correct-xml</type>
 			<uuidstructure>adbcd3b2-432d-11e4-86d3-6725b2578a6f</uuidstructure>
 			<uuidresource>adbcd3b3-432d-11e4-86d3-6725b2578a6f</uuidresource>
@@ -287,7 +290,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>opencms-documentation-editor-tools/.content/documentation-definition-list</destination>
+			<destination>documentation-editor-tools/.content/documentation-definition-list</destination>
 			<type>folder</type>
 			<uuidstructure>87a43314-43c9-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<datelastmodified>Wed, 24 Sep 2014 09:02:37 GMT</datelastmodified>
@@ -300,8 +303,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-definition-list/documentation-definition-list-00001.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-definition-list/documentation-definition-list-00001.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-definition-list/documentation-definition-list-00001.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-definition-list/documentation-definition-list-00001.xml</destination>
 			<type>documentation-definition-list</type>
 			<uuidstructure>87a67d06-43c9-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<uuidresource>87a67d07-43c9-11e4-8dcd-6725b2578a6f</uuidresource>
@@ -320,7 +323,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>opencms-documentation-editor-tools/.content/documentation-html</destination>
+			<destination>documentation-editor-tools/.content/documentation-html</destination>
 			<type>folder</type>
 			<uuidstructure>bf3973bb-43c1-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<datelastmodified>Wed, 24 Sep 2014 08:06:54 GMT</datelastmodified>
@@ -333,8 +336,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00001.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00001.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-html/documentation-html-00001.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-html/documentation-html-00001.xml</destination>
 			<type>documentation-html</type>
 			<uuidstructure>ed6dc2ae-43c1-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<uuidresource>ed6dc2af-43c1-11e4-8dcd-6725b2578a6f</uuidresource>
@@ -348,8 +351,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00002.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00002.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-html/documentation-html-00002.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-html/documentation-html-00002.xml</destination>
 			<type>documentation-html</type>
 			<uuidstructure>5f01bdfe-43c7-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<uuidresource>5f01bdff-43c7-11e4-8dcd-6725b2578a6f</uuidresource>
@@ -363,8 +366,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00003.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00003.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-html/documentation-html-00003.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-html/documentation-html-00003.xml</destination>
 			<type>documentation-html</type>
 			<uuidstructure>ec40308b-43c7-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<uuidresource>ec40308c-43c7-11e4-8dcd-6725b2578a6f</uuidresource>
@@ -378,8 +381,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00004.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00004.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-html/documentation-html-00004.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-html/documentation-html-00004.xml</destination>
 			<type>documentation-html</type>
 			<uuidstructure>6eb47db5-43c8-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<uuidresource>6eb47db6-43c8-11e4-8dcd-6725b2578a6f</uuidresource>
@@ -393,8 +396,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00005.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00005.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-html/documentation-html-00005.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-html/documentation-html-00005.xml</destination>
 			<type>documentation-html</type>
 			<uuidstructure>17737f0f-43c9-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<uuidresource>17737f10-43c9-11e4-8dcd-6725b2578a6f</uuidresource>
@@ -408,8 +411,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00006.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00006.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-html/documentation-html-00006.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-html/documentation-html-00006.xml</destination>
 			<type>documentation-html</type>
 			<uuidstructure>a210f623-43cb-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<uuidresource>a210f624-43cb-11e4-8dcd-6725b2578a6f</uuidresource>
@@ -423,8 +426,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00007.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00007.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-html/documentation-html-00007.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-html/documentation-html-00007.xml</destination>
 			<type>documentation-html</type>
 			<uuidstructure>c3534bba-43cd-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<uuidresource>c3534bbb-43cd-11e4-8dcd-6725b2578a6f</uuidresource>
@@ -438,8 +441,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00008.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00008.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-html/documentation-html-00008.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-html/documentation-html-00008.xml</destination>
 			<type>documentation-html</type>
 			<uuidstructure>df425e64-43ce-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<uuidresource>df425e65-43ce-11e4-8dcd-6725b2578a6f</uuidresource>
@@ -453,8 +456,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00009.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00009.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-html/documentation-html-00009.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-html/documentation-html-00009.xml</destination>
 			<type>documentation-html</type>
 			<uuidstructure>7eaa35e3-43d0-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<uuidresource>7eaa35e4-43d0-11e4-8dcd-6725b2578a6f</uuidresource>
@@ -468,8 +471,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00010.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00010.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-html/documentation-html-00010.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-html/documentation-html-00010.xml</destination>
 			<type>documentation-html</type>
 			<uuidstructure>08ee542d-43d1-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<uuidresource>08ee542e-43d1-11e4-8dcd-6725b2578a6f</uuidresource>
@@ -483,8 +486,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00011.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00011.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-html/documentation-html-00011.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-html/documentation-html-00011.xml</destination>
 			<type>documentation-html</type>
 			<uuidstructure>6ed9adc9-43d2-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<uuidresource>6ed9adca-43d2-11e4-8dcd-6725b2578a6f</uuidresource>
@@ -498,8 +501,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00012.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-html/documentation-html-00012.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-html/documentation-html-00012.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-html/documentation-html-00012.xml</destination>
 			<type>documentation-html</type>
 			<uuidstructure>a2b62f54-4a13-11e4-9129-336f7b60f7b1</uuidstructure>
 			<uuidresource>a2b62f55-4a13-11e4-9129-336f7b60f7b1</uuidresource>
@@ -513,7 +516,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>opencms-documentation-editor-tools/.content/documentation-section</destination>
+			<destination>documentation-editor-tools/.content/documentation-section</destination>
 			<type>folder</type>
 			<uuidstructure>83c4a842-43c1-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<datelastmodified>Wed, 24 Sep 2014 08:05:14 GMT</datelastmodified>
@@ -526,8 +529,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00001.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00001.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-section/documentation-section-00001.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-section/documentation-section-00001.xml</destination>
 			<type>documentation-section</type>
 			<uuidstructure>83c851c4-43c1-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<uuidresource>83c851c5-43c1-11e4-8dcd-6725b2578a6f</uuidresource>
@@ -546,8 +549,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00002.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00002.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-section/documentation-section-00002.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-section/documentation-section-00002.xml</destination>
 			<type>documentation-section</type>
 			<uuidstructure>d08d2ea3-43c1-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<uuidresource>d08d2ea4-43c1-11e4-8dcd-6725b2578a6f</uuidresource>
@@ -566,8 +569,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00003.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00003.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-section/documentation-section-00003.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-section/documentation-section-00003.xml</destination>
 			<type>documentation-section</type>
 			<uuidstructure>203ba4a9-43c7-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<uuidresource>203ba4aa-43c7-11e4-8dcd-6725b2578a6f</uuidresource>
@@ -586,8 +589,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00004.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00004.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-section/documentation-section-00004.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-section/documentation-section-00004.xml</destination>
 			<type>documentation-section</type>
 			<uuidstructure>e4b02786-43c7-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<uuidresource>e4b02787-43c7-11e4-8dcd-6725b2578a6f</uuidresource>
@@ -606,8 +609,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00005.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00005.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-section/documentation-section-00005.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-section/documentation-section-00005.xml</destination>
 			<type>documentation-section</type>
 			<uuidstructure>46a89180-43c8-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<uuidresource>46a89181-43c8-11e4-8dcd-6725b2578a6f</uuidresource>
@@ -626,8 +629,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00006.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00006.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-section/documentation-section-00006.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-section/documentation-section-00006.xml</destination>
 			<type>documentation-section</type>
 			<uuidstructure>09724a8a-43c9-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<uuidresource>09724a8b-43c9-11e4-8dcd-6725b2578a6f</uuidresource>
@@ -646,8 +649,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00007.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00007.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-section/documentation-section-00007.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-section/documentation-section-00007.xml</destination>
 			<type>documentation-section</type>
 			<uuidstructure>dc9cb684-43ca-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<uuidresource>dc9cb685-43ca-11e4-8dcd-6725b2578a6f</uuidresource>
@@ -666,8 +669,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00008.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00008.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-section/documentation-section-00008.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-section/documentation-section-00008.xml</destination>
 			<type>documentation-section</type>
 			<uuidstructure>8c35692c-43cb-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<uuidresource>8c35692d-43cb-11e4-8dcd-6725b2578a6f</uuidresource>
@@ -686,8 +689,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00009.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00009.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-section/documentation-section-00009.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-section/documentation-section-00009.xml</destination>
 			<type>documentation-section</type>
 			<uuidstructure>ce1405ce-43ce-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<uuidresource>ce1405cf-43ce-11e4-8dcd-6725b2578a6f</uuidresource>
@@ -706,8 +709,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00010.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00010.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-section/documentation-section-00010.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-section/documentation-section-00010.xml</destination>
 			<type>documentation-section</type>
 			<uuidstructure>6cc7cf8d-43d0-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<uuidresource>6cc7cf8e-43d0-11e4-8dcd-6725b2578a6f</uuidresource>
@@ -726,8 +729,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00011.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00011.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-section/documentation-section-00011.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-section/documentation-section-00011.xml</destination>
 			<type>documentation-section</type>
 			<uuidstructure>f822dc17-43d0-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<uuidresource>f822dc18-43d0-11e4-8dcd-6725b2578a6f</uuidresource>
@@ -746,8 +749,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00012.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00012.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-section/documentation-section-00012.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-section/documentation-section-00012.xml</destination>
 			<type>documentation-section</type>
 			<uuidstructure>5a035bd3-43d2-11e4-8dcd-6725b2578a6f</uuidstructure>
 			<uuidresource>5a035bd4-43d2-11e4-8dcd-6725b2578a6f</uuidresource>
@@ -766,8 +769,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00013.xml</source>
-			<destination>opencms-documentation-editor-tools/.content/documentation-section/documentation-section-00013.xml</destination>
+			<source>documentation-editor-tools/.content/documentation-section/documentation-section-00013.xml</source>
+			<destination>documentation-editor-tools/.content/documentation-section/documentation-section-00013.xml</destination>
 			<type>documentation-section</type>
 			<uuidstructure>8b0916af-4a13-11e4-9129-336f7b60f7b1</uuidstructure>
 			<uuidresource>8b0916b0-4a13-11e4-9129-336f7b60f7b1</uuidresource>
@@ -786,7 +789,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>opencms-documentation-editor-tools/content-sanitizers</destination>
+			<destination>documentation-editor-tools/content-sanitizers</destination>
 			<type>folder</type>
 			<uuidstructure>05526e8f-2e7f-11e4-8af3-d144f6bb3566</uuidstructure>
 			<datelastmodified>Thu, 28 Aug 2014 06:46:33 GMT</datelastmodified>
@@ -812,8 +815,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/content-sanitizers/index.html</source>
-			<destination>opencms-documentation-editor-tools/content-sanitizers/index.html</destination>
+			<source>documentation-editor-tools/content-sanitizers/index.html</source>
+			<destination>documentation-editor-tools/content-sanitizers/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>05583af4-2e7f-11e4-8af3-d144f6bb3566</uuidstructure>
 			<uuidresource>05583af5-2e7f-11e4-8af3-d144f6bb3566</uuidresource>
@@ -832,7 +835,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>opencms-documentation-editor-tools/editing-the-documentation</destination>
+			<destination>documentation-editor-tools/editing-the-documentation</destination>
 			<type>folder</type>
 			<uuidstructure>3ff42768-3759-11e4-9771-d144f6bb3566</uuidstructure>
 			<datelastmodified>Mon, 08 Sep 2014 13:08:49 GMT</datelastmodified>
@@ -858,8 +861,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/editing-the-documentation/index.html</source>
-			<destination>opencms-documentation-editor-tools/editing-the-documentation/index.html</destination>
+			<source>documentation-editor-tools/editing-the-documentation/index.html</source>
+			<destination>documentation-editor-tools/editing-the-documentation/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>3ff8e25d-3759-11e4-9771-d144f6bb3566</uuidstructure>
 			<uuidresource>3ff8e25e-3759-11e4-9771-d144f6bb3566</uuidresource>
@@ -878,7 +881,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>opencms-documentation-editor-tools/screenshot-review</destination>
+			<destination>documentation-editor-tools/screenshot-review</destination>
 			<type>folder</type>
 			<uuidstructure>289bf625-31c7-11e4-8511-d144f6bb3566</uuidstructure>
 			<datelastmodified>Mon, 01 Sep 2014 11:00:39 GMT</datelastmodified>
@@ -904,8 +907,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/screenshot-review/index.html</source>
-			<destination>opencms-documentation-editor-tools/screenshot-review/index.html</destination>
+			<source>documentation-editor-tools/screenshot-review/index.html</source>
+			<destination>documentation-editor-tools/screenshot-review/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>28a14d5a-31c7-11e4-8511-d144f6bb3566</uuidstructure>
 			<uuidresource>28a14d5b-31c7-11e4-8511-d144f6bb3566</uuidresource>
@@ -924,7 +927,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>opencms-documentation-editor-tools/todos</destination>
+			<destination>documentation-editor-tools/todos</destination>
 			<type>folder</type>
 			<uuidstructure>fd064175-2e7e-11e4-8af3-d144f6bb3566</uuidstructure>
 			<datelastmodified>Thu, 28 Aug 2014 06:46:13 GMT</datelastmodified>
@@ -950,8 +953,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation-editor-tools/todos/index.html</source>
-			<destination>opencms-documentation-editor-tools/todos/index.html</destination>
+			<source>documentation-editor-tools/todos/index.html</source>
+			<destination>documentation-editor-tools/todos/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>fd0f422a-2e7e-11e4-8af3-d144f6bb3566</uuidstructure>
 			<uuidresource>fd0f422b-2e7e-11e4-8af3-d144f6bb3566</uuidresource>
