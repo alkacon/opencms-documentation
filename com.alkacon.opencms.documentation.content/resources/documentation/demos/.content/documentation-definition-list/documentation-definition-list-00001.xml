@@ -35,7 +35,7 @@
             <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/ade/contenteditor/CmsEditorChangeHandlerProperty.html]]></target>
           </link>
         </links>
-        <content><![CDATA[<p>Configuration is handler specific, hence it depends on the class you specified in the <code>class</code> attribute. For example, the <code><a href="%(link0)">CmsEditorChangeHandlerProperty</a></code> takes a property name and path to the field that should be updated with the property, where the two are separated by <code>|</code>. The path can be given relative to the observed field or absolute.</p>]]></content>
+        <content><![CDATA[<p>Configuration is handler specific, hence it depends on the class you specified in the <code>class</code> attribute. For example, the <code><a href="%(link0)">CmsEditorChangeHandlerProperty</a></code> takes a property name and the path to the field that should be updated with the property, where the two are separated by <code>|</code>. The path can be given relative to the observed field or absolute.</p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>
