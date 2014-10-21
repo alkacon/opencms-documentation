@@ -1,9 +1,9 @@
 <%@page taglibs="c" import="org.opencms.file.CmsProperty, org.opencms.file.CmsObject, org.opencms.xml.containerpage.CmsADESessionCache, org.opencms.util.CmsUUID" %>
 <c:set var="cmsObject" value="${cms.vfs.cmsObject}" />
-<c:set var="editorViewLink">%(link.strong:/system/modules/com.alkacon.opencms.documentation/element-views/editor-view.xml:4af2879d-47d2-11e4-9d1c-336f7b60f7b1)</c:set>
+<c:set var="editorViewLink">%(link.strong:/system/modules/com.alkacon.opencms.documentation/elementviews/editor-view.xml:4af2879d-47d2-11e4-9d1c-336f7b60f7b1)</c:set>
 <%  CmsObject cmsObject = (CmsObject) pageContext.getAttribute("cmsObject");
 	CmsProperty editorProperty = null;
-	String resource = "/opencms-documentation/";
+	String resource = "/documentation/";
 	String editorPropertyName = "opencms.documentation.editor";
 
 	CmsADESessionCache sessionCache = CmsADESessionCache.getCache(request, cmsObject);
