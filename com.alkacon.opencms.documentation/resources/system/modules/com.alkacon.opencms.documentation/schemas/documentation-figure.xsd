@@ -34,7 +34,7 @@
 				<mapping element="Identifier" mapto="property:Title" />
 			</mappings>
 			<layouts>
-				<layout element="Image" widget="ImageGalleryWidget" />
+				<layout element="Image" widget="ImageGalleryWidget" configuration="{ useformat: true }"/>
 				<layout element="Description" widget="HtmlWidget" configuration="height:200px,link,image,table,hidebuttons:underline;strikethrough;alignleft;alignright;aligncenter;justify;indent;outdend;blockquote;hr;print,stylesformat:/system/modules/com.alkacon.opencms.documentation/resources/tinymce/styles.xml,imagegallery{useformat:true,formatnames: 'inline:Inline', formatvalues: ['14x?']}" />
 			</layouts>
 			<validationrules/>
