@@ -10,8 +10,8 @@ function replaceFootnotes() {
 }
 
 function expand(e) {
-    $(this).removeClass('icon-expand');
-    $(this).addClass('icon-collapse');
+    $(this).removeClass('fa-toggle-right');
+    $(this).addClass('fa-toggle-down');
     $(this).parent().parent().next().show();
     $(this).unbind("click",expand);
     $(this).bind("click",collapse);    
@@ -19,8 +19,8 @@ function expand(e) {
 }
 
 function collapse(e) {
-    $(this).removeClass('icon-collapse');
-    $(this).addClass('icon-expand');
+    $(this).removeClass('fa-toggle-down');
+    $(this).addClass('fa-toggle-right');
     $(this).parent().parent().next().hide();
     $(this).unbind("click",collapse);
     $(this).bind("click",expand);
@@ -29,8 +29,8 @@ function collapse(e) {
 
 $('document').ready(function() {
     replaceFootnotes();
-    $("span.nav-side-toggle-sublevel.icon-collapse").bind("click",collapse);
-    $("span.nav-side-toggle-sublevel.icon-expand").bind("click",expand);
+    $("span.nav-side-toggle-sublevel.data-nav-collapse").bind("click",collapse);
+    $("span.nav-side-toggle-sublevel.data-nav-expand").bind("click",expand);
     $("span.nav-side-toggle-sublevel").mouseenter( 
             function() {
                 $(this).parent().mouseleave();
