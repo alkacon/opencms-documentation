@@ -1,3 +1,7 @@
+.heading {
+	text-align: left;
+}
+
 i.page-nav-btn {
     background: none repeat scroll 0 0 #585f69;
     border-radius: 6px 0 0 6px !important;
@@ -47,7 +51,7 @@ i.page-nav-btn {
 
 span.nav-side-toggle-sublevel {
 	display: inline-block;
-	width: 25px;
+	width: 18px;
 	text-decoration: none;
 }
 
@@ -58,10 +62,27 @@ a:hover > span.nav-side-toggle-sublevel {
 a > span.nav-side-toggle-sublevel:hover {
 	color: #b31b34;
 }
+
+li.active > a:hover > span.nav-side-toggle-sublevel {
+	color: #fff;
+}
+
+li.active > a > span.nav-side-toggle-sublevel:hover {
+	color: #b31b34;
+}
+
 ul.nav-side a:focus {
 	color: #555;
 	text-decoration: none;
 }
 ul.nav-side a:hover {
 	color: #b31b34;
+}
+
+.servive-block-documentation {
+	text-align: left;
+}
+
+.servive-block-documentation p, .servive-block-documentation h2 {
+	color: #555;
 }
