@@ -2,8 +2,6 @@
 	elementFormDefault="qualified">
 
 	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd" />
-	<xsd:include
-		schemaLocation="opencms://system/modules/com.alkacon.bootstrap.dev.demo/schemas/nested/script.xsd" />
 
 	<xsd:element name="DocumentationDemoArticles" type="OpenCmsDocumentationDemoArticles" />
 
