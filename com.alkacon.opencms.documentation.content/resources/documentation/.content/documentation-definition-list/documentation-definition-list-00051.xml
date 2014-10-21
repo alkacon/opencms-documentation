@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Module configuration: the tabs]]></Title>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[Resource types]]></Term>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/ade-configuration/resource-type-configuration/]]></target>
+          <uuid>8053896a-4871-11e4-8008-336f7b60f7b1</uuid>
+        </link>
+      </Link>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Defines a resource type‘s name and name pattern, default folder, formatter and more.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Property configuration]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Defines which properties get displayed under "Basic Properties" tab for the property dialog in ADE.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Functions]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Defines a dynamic function that is shipped with the module. (A name for identification and a JSP provider is required at least.)</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>
