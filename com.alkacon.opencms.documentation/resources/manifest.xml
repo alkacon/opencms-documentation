@@ -4,7 +4,7 @@
 	<info>
 		<creator>daniel</creator>
 		<opencms_version>9.4.8</opencms_version>
-		<createdate>Wed, 22 Oct 2014 09:13:24 GMT</createdate>
+		<createdate>Wed, 22 Oct 2014 09:36:27 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -100,7 +100,7 @@
 				<param name="schema">/system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd</param>
 			</type>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="documentation-demo-layout-element" id="372">
-				<param name="schema">/system/modules/com.alkacon.opencms.documentation/schemas/documentation-demo-layout-element.xsd</param>
+				<param name="schema">/system/modules/com.alkacon.opencms.documentation/schemas/demo/documentation-demo-layout-element.xsd</param>
 			</type>
 		</resourcetypes>
 		<explorertypes>
@@ -1606,7 +1606,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>f25fa147-591b-11e4-9013-005056b61161</uuidstructure>
 			<uuidresource>f25fa148-591b-11e4-9013-005056b61161</uuidresource>
-			<datelastmodified>Tue, 21 Oct 2014 14:53:47 GMT</datelastmodified>
+			<datelastmodified>Wed, 22 Oct 2014 09:32:23 GMT</datelastmodified>
 			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Tue, 21 Oct 2014 12:15:29 GMT</datecreated>
 			<usercreated>daniel</usercreated>
@@ -2770,26 +2770,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.opencms.documentation/schemas/documentation-demo-layout-element.xsd</source>
-			<destination>system/modules/com.alkacon.opencms.documentation/schemas/documentation-demo-layout-element.xsd</destination>
-			<type>plain</type>
-			<uuidstructure>f2456279-591b-11e4-9013-005056b61161</uuidstructure>
-			<uuidresource>f245627a-591b-11e4-9013-005056b61161</uuidresource>
-			<datelastmodified>Tue, 21 Oct 2014 12:50:28 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 21 Oct 2014 12:15:29 GMT</datecreated>
-			<usercreated>daniel</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Sample resource type schema]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>system/modules/com.alkacon.opencms.documentation/schemas/documentation-demo-source.xsd</source>
 			<destination>system/modules/com.alkacon.opencms.documentation/schemas/documentation-demo-source.xsd</destination>
 			<type>plain</type>
@@ -3028,21 +3008,46 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>system/modules/com.alkacon.opencms.documentation/schemas/nested</destination>
-			<type>folder</type>
-			<uuidstructure>efd0736f-fc6c-11e3-8410-fb93821e3720</uuidstructure>
-			<datelastmodified>Wed, 25 Jun 2014 13:30:56 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 25 Jun 2014 13:30:56 GMT</datecreated>
-			<usercreated>Admin</usercreated>
+			<source>system/modules/com.alkacon.opencms.documentation/schemas/demo/documentation-demo-layout-element.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/demo/documentation-demo-layout-element.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>f2456279-591b-11e4-9013-005056b61161</uuidstructure>
+			<uuidresource>f245627a-591b-11e4-9013-005056b61161</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 09:28:44 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 12:15:29 GMT</datecreated>
+			<usercreated>daniel</usercreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Sample resource type schema]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.opencms.documentation/schemas/nested/container.xsd</source>
-			<destination>system/modules/com.alkacon.opencms.documentation/schemas/nested/container.xsd</destination>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/demo/nested</destination>
+			<type>folder</type>
+			<uuidstructure>a1e0f5eb-59cd-11e4-a531-005056b61161</uuidstructure>
+			<datelastmodified>Wed, 22 Oct 2014 09:27:39 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Wed, 22 Oct 2014 09:27:24 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested schemas for demo contents]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/schemas/demo/nested/container.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/demo/nested/container.xsd</destination>
 			<type>plain</type>
 			<uuidstructure>62ea0e1d-591c-11e4-9013-005056b61161</uuidstructure>
 			<uuidresource>62ea0e1e-591c-11e4-9013-005056b61161</uuidresource>
@@ -3057,6 +3062,19 @@
 					<value><![CDATA[Nested content for layout elements, captures information for a single container]]></value>
 				</property>
 			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/nested</destination>
+			<type>folder</type>
+			<uuidstructure>efd0736f-fc6c-11e3-8410-fb93821e3720</uuidstructure>
+			<datelastmodified>Wed, 25 Jun 2014 13:30:56 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 25 Jun 2014 13:30:56 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
 			<relations/>
 			<accesscontrol/>
 		</file>

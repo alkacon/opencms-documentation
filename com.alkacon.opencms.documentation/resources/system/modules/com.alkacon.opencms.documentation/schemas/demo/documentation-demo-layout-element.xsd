@@ -1,7 +1,7 @@
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
 
 	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
-	<xsd:include schemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/nested/container.xsd"/>
+	<xsd:include schemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/demo/nested/container.xsd"/>
 	
 
 	<xsd:element name="DocumentationLayoutElements" type="OpenCmsDocumentationLayoutElements"/>
