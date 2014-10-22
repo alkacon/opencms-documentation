@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationLayoutElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-demo-layout-element.xsd">
+  <DocumentationLayoutElement language="en">
+    <Container>
+      <Id><![CDATA[demo-content-nested-1]]></Id>
+      <Type><![CDATA[nested-demo-content]]></Type>
+      <EditableBy><![CDATA[ROLE.ELEMENT_AUTHOR]]></EditableBy>
+    </Container>
+    <Container>
+      <Id><![CDATA[demo-content-nested-2]]></Id>
+      <Type><![CDATA[nested-demo-content]]></Type>
+      <EditableBy><![CDATA[ROLE.DEVELOPER]]></EditableBy>
+    </Container>
+  </DocumentationLayoutElement>
+</DocumentationLayoutElements>

@@ -8,21 +8,24 @@
           <target><![CDATA[/sites/default/documentation/background/permissions-in-opencms/permissions-on-resource-and-explorer-types/]]></target>
           <uuid>53a32c5a-3e3c-11e4-8375-578a14069906</uuid>
         </link>
-        <link name="link1" internal="true" type="A">
-          <target><![CDATA[/sites/default/documentation/background/permissions-in-opencms/users-groups-roles-and-ous/]]></target>
-          <uuid>3728d42c-3e3c-11e4-8375-578a14069906</uuid>
-        </link>
       </links>
       <content><![CDATA[<p>OpenCms allows to set permissions for users or groups at each resource in the VFS. Five different permissions are distinguished. Permissions can be inherited or overwritten. We provide you with an overview on the permission system in OpenCms. You should know the system's pecularities before assigning permissions.</p>
-<div class="alert alert-info">Note: We speak about permissions directly attached to VFS resources here. For permissions on resource and explorer types, see <a href="%(link0)">here</a>.</div>
-<ul>
-<li><a href="%(link1)">Learn more about users, groups, roles and OUs.</a></li>
-</ul>]]></content>
+<div class="alert alert-info">Note: We speak about permissions directly attached to VFS resources here. For permissions on resource and explorer types, see <a href="%(link0)">here</a>.</div>]]></content>
     </Overview>
     <Teaser name="Teaser0">
       <links/>
       <content><![CDATA[<p>OpenCms distinguishes five permissions. Each assignable to users or groups for every single resource. Learn how the permission system works.</p>]]></content>
     </Teaser>
+    <RelatedLinks>
+      <Link>
+        <URI><![CDATA[/documentation/background/permissions-in-opencms/users-groups-roles-and-ous/]]></URI>
+        <LinkText><![CDATA[Learn more about users, groups, roles and OUs.]]></LinkText>
+      </Link>
+      <Link>
+        <URI><![CDATA[/documentation/background/permissions-in-opencms/permissions-on-resource-and-explorer-types/]]></URI>
+        <LinkText><![CDATA[See how you can set permissions on resource types.]]></LinkText>
+      </Link>
+    </RelatedLinks>
     <StatusMetaData>
       <Todos/>
     </StatusMetaData>

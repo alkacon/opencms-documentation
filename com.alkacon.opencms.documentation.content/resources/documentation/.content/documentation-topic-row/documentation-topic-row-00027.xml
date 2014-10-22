@@ -19,7 +19,17 @@
         </AltTeaser>
       </Topic>
       <Topic>
-        <PageLink/>
+        <PageLink>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/documentation/demos/advanced-container-usage/]]></target>
+            <uuid>9c886d4d-5911-11e4-a97a-005056b61161</uuid>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[Containers: Attach permissions and placeholders for empty containers.]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>OpenCms 9.5 adds the attribute <code>editableby</code> to the <code>&lt;cms:container&gt;</code> tag. Using it, you can specify which users are able to add or remove elements in a container. Moreover the <code>&lt;cms:container&gt;</code> tag can have a body. The body's HTML is shown in the container whenever it is empty.</p>]]></content>
+        </AltTeaser>
       </Topic>
     </Item>
   </DocumentationTopicrow>

@@ -4,7 +4,7 @@
 	<info>
 		<creator>daniel</creator>
 		<opencms_version>9.4.8</opencms_version>
-		<createdate>Tue, 21 Oct 2014 10:08:53 GMT</createdate>
+		<createdate>Wed, 22 Oct 2014 09:12:48 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -33,7 +33,7 @@
 			<destination>documentation</destination>
 			<type>subsitemap</type>
 			<uuidstructure>7afb3d20-02bc-11e4-8167-1305b26fecac</uuidstructure>
-			<datelastmodified>Tue, 21 Oct 2014 07:46:55 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 14:56:01 GMT</datelastmodified>
 			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Thu, 03 Jul 2014 14:15:26 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2920,7 +2920,7 @@
 			<type>documentation-definition-list</type>
 			<uuidstructure>d2735944-05e2-11e4-b0e2-1305b26fecac</uuidstructure>
 			<uuidresource>d2735945-05e2-11e4-b0e2-1305b26fecac</uuidresource>
-			<datelastmodified>Mon, 18 Aug 2014 09:24:19 GMT</datelastmodified>
+			<datelastmodified>Wed, 22 Oct 2014 06:15:17 GMT</datelastmodified>
 			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Mon, 07 Jul 2014 14:27:27 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6473,7 +6473,7 @@
 			<type>documentation-figure</type>
 			<uuidstructure>d2e07f8d-3daa-11e4-9221-578a14069906</uuidstructure>
 			<uuidresource>d2e07f8e-3daa-11e4-9221-578a14069906</uuidresource>
-			<datelastmodified>Tue, 21 Oct 2014 08:46:58 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 10:33:18 GMT</datelastmodified>
 			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Tue, 16 Sep 2014 14:07:41 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6493,7 +6493,7 @@
 			<type>documentation-figure</type>
 			<uuidstructure>8496d1af-3e36-11e4-8375-578a14069906</uuidstructure>
 			<uuidresource>8496d1b0-3e36-11e4-8375-578a14069906</uuidresource>
-			<datelastmodified>Tue, 21 Oct 2014 08:46:58 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 10:33:41 GMT</datelastmodified>
 			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Wed, 17 Sep 2014 06:47:40 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6513,7 +6513,7 @@
 			<type>documentation-figure</type>
 			<uuidstructure>1ac5c79d-3e37-11e4-8375-578a14069906</uuidstructure>
 			<uuidresource>1ac5eeae-3e37-11e4-8375-578a14069906</uuidresource>
-			<datelastmodified>Tue, 21 Oct 2014 08:46:58 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 10:33:59 GMT</datelastmodified>
 			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Wed, 17 Sep 2014 06:51:52 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -6802,6 +6802,66 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[contenteditor_error]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/.content/documentation-figure/documentation-figure-00100.xml</source>
+			<destination>documentation/.content/documentation-figure/documentation-figure-00100.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>58b0da32-59c2-11e4-a531-005056b61161</uuidstructure>
+			<uuidresource>58b0da33-59c2-11e4-a531-005056b61161</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 08:09:21 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Wed, 22 Oct 2014 08:06:37 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[sitemapeditor_templatesview]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/.content/documentation-figure/documentation-figure-00101.xml</source>
+			<destination>documentation/.content/documentation-figure/documentation-figure-00101.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>87e74465-59c4-11e4-a531-005056b61161</uuidstructure>
+			<uuidresource>87e74466-59c4-11e4-a531-005056b61161</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 08:22:53 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Wed, 22 Oct 2014 08:22:15 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[templatemodels_elementsettings]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/.content/documentation-figure/documentation-figure-00102.xml</source>
+			<destination>documentation/.content/documentation-figure/documentation-figure-00102.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>e011200e-59c7-11e4-a531-005056b61161</uuidstructure>
+			<uuidresource>e011200f-59c7-11e4-a531-005056b61161</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 08:48:32 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Wed, 22 Oct 2014 08:46:12 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[sitemapconfig_templatemodels]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -7727,6 +7787,21 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>documentation/.content/documentation-html/documentation-html-00025.xml</source>
+			<destination>documentation/.content/documentation-html/documentation-html-00025.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>57e05c82-59bd-11e4-9326-005056b61161</uuidstructure>
+			<uuidresource>57e05c83-59bd-11e4-9326-005056b61161</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 07:50:01 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Wed, 22 Oct 2014 07:30:48 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>documentation/.content/documentation-html/documentation-html-00026.xml</source>
 			<destination>documentation/.content/documentation-html/documentation-html-00026.xml</destination>
 			<type>documentation-html</type>
@@ -7796,6 +7871,21 @@
 			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Tue, 08 Jul 2014 10:25:02 GMT</datecreated>
 			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/.content/documentation-html/documentation-html-00031.xml</source>
+			<destination>documentation/.content/documentation-html/documentation-html-00031.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>16391519-59c0-11e4-9326-005056b61161</uuidstructure>
+			<uuidresource>1639151a-59c0-11e4-9326-005056b61161</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 07:56:19 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Wed, 22 Oct 2014 07:50:26 GMT</datecreated>
+			<usercreated>daniel</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -8087,21 +8177,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>documentation/.content/documentation-html/documentation-html-00051.xml</source>
-			<destination>documentation/.content/documentation-html/documentation-html-00051.xml</destination>
-			<type>documentation-html</type>
-			<uuidstructure>a48075fb-0739-11e4-9ef6-1305b26fecac</uuidstructure>
-			<uuidresource>a48075fc-0739-11e4-9ef6-1305b26fecac</uuidresource>
-			<datelastmodified>Wed, 09 Jul 2014 14:56:18 GMT</datelastmodified>
-			<userlastmodified>daniel</userlastmodified>
-			<datecreated>Wed, 09 Jul 2014 07:21:28 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>documentation/.content/documentation-html/documentation-html-00052.xml</source>
 			<destination>documentation/.content/documentation-html/documentation-html-00052.xml</destination>
 			<type>documentation-html</type>
@@ -8185,51 +8260,6 @@
 			<datelastmodified>Wed, 17 Sep 2014 10:55:37 GMT</datelastmodified>
 			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Tue, 16 Sep 2014 13:58:23 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>documentation/.content/documentation-html/documentation-html-00058.xml</source>
-			<destination>documentation/.content/documentation-html/documentation-html-00058.xml</destination>
-			<type>documentation-html</type>
-			<uuidstructure>01ed346f-0778-11e4-aa3d-1305b26fecac</uuidstructure>
-			<uuidresource>01ed3470-0778-11e4-aa3d-1305b26fecac</uuidresource>
-			<datelastmodified>Wed, 09 Jul 2014 14:54:52 GMT</datelastmodified>
-			<userlastmodified>daniel</userlastmodified>
-			<datecreated>Wed, 09 Jul 2014 14:47:53 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>documentation/.content/documentation-html/documentation-html-00059.xml</source>
-			<destination>documentation/.content/documentation-html/documentation-html-00059.xml</destination>
-			<type>documentation-html</type>
-			<uuidstructure>d99d76a5-0779-11e4-aa3d-1305b26fecac</uuidstructure>
-			<uuidresource>d99d76a6-0779-11e4-aa3d-1305b26fecac</uuidresource>
-			<datelastmodified>Wed, 09 Jul 2014 15:01:56 GMT</datelastmodified>
-			<userlastmodified>daniel</userlastmodified>
-			<datecreated>Wed, 09 Jul 2014 15:01:05 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>documentation/.content/documentation-html/documentation-html-00060.xml</source>
-			<destination>documentation/.content/documentation-html/documentation-html-00060.xml</destination>
-			<type>documentation-html</type>
-			<uuidstructure>42cd1b41-077a-11e4-aa3d-1305b26fecac</uuidstructure>
-			<uuidresource>42cd1b42-077a-11e4-aa3d-1305b26fecac</uuidresource>
-			<datelastmodified>Wed, 09 Jul 2014 15:05:38 GMT</datelastmodified>
-			<userlastmodified>daniel</userlastmodified>
-			<datecreated>Wed, 09 Jul 2014 15:04:01 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -13592,6 +13622,51 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>documentation/.content/documentation-html/documentation-html-00418.xml</source>
+			<destination>documentation/.content/documentation-html/documentation-html-00418.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>10c0850f-59c1-11e4-9326-005056b61161</uuidstructure>
+			<uuidresource>10c08510-59c1-11e4-9326-005056b61161</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 08:35:46 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Wed, 22 Oct 2014 07:57:27 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/.content/documentation-html/documentation-html-00419.xml</source>
+			<destination>documentation/.content/documentation-html/documentation-html-00419.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>c5b4425d-59c2-11e4-a531-005056b61161</uuidstructure>
+			<uuidresource>c5b4425e-59c2-11e4-a531-005056b61161</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 08:20:47 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Wed, 22 Oct 2014 08:09:40 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/.content/documentation-html/documentation-html-00420.xml</source>
+			<destination>documentation/.content/documentation-html/documentation-html-00420.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>b7a44491-59c6-11e4-a531-005056b61161</uuidstructure>
+			<uuidresource>b7a44492-59c6-11e4-a531-005056b61161</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 08:53:49 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Wed, 22 Oct 2014 08:37:54 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>documentation/.content/documentation-html/documentation-html-00423.xml</source>
 			<destination>documentation/.content/documentation-html/documentation-html-00423.xml</destination>
 			<type>documentation-html</type>
@@ -17755,26 +17830,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>documentation/.content/documentation-section/documentation-section-00042.xml</source>
-			<destination>documentation/.content/documentation-section/documentation-section-00042.xml</destination>
-			<type>documentation-section</type>
-			<uuidstructure>78b055d6-0739-11e4-9ef6-1305b26fecac</uuidstructure>
-			<uuidresource>78b055d7-0739-11e4-9ef6-1305b26fecac</uuidresource>
-			<datelastmodified>Thu, 02 Oct 2014 08:32:43 GMT</datelastmodified>
-			<userlastmodified>daniel</userlastmodified>
-			<datecreated>Wed, 09 Jul 2014 07:20:14 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[The sitemap editor - Editing model pages]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>documentation/.content/documentation-section/documentation-section-00043.xml</source>
 			<destination>documentation/.content/documentation-section/documentation-section-00043.xml</destination>
 			<type>documentation-section</type>
@@ -17889,66 +17944,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Permissions on VFS resources - The available permissions]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>documentation/.content/documentation-section/documentation-section-00049.xml</source>
-			<destination>documentation/.content/documentation-section/documentation-section-00049.xml</destination>
-			<type>documentation-section</type>
-			<uuidstructure>b80cd9ea-0777-11e4-aa3d-1305b26fecac</uuidstructure>
-			<uuidresource>b80cd9eb-0777-11e4-aa3d-1305b26fecac</uuidresource>
-			<datelastmodified>Thu, 02 Oct 2014 08:32:43 GMT</datelastmodified>
-			<userlastmodified>daniel</userlastmodified>
-			<datecreated>Wed, 09 Jul 2014 14:45:49 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[The sitemap editor - About model pages]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>documentation/.content/documentation-section/documentation-section-00050.xml</source>
-			<destination>documentation/.content/documentation-section/documentation-section-00050.xml</destination>
-			<type>documentation-section</type>
-			<uuidstructure>45486643-0778-11e4-aa3d-1305b26fecac</uuidstructure>
-			<uuidresource>45486644-0778-11e4-aa3d-1305b26fecac</uuidresource>
-			<datelastmodified>Thu, 02 Oct 2014 08:32:43 GMT</datelastmodified>
-			<userlastmodified>daniel</userlastmodified>
-			<datecreated>Wed, 09 Jul 2014 14:49:46 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[The sitemap editor - Creation steps for a model page]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>documentation/.content/documentation-section/documentation-section-00051.xml</source>
-			<destination>documentation/.content/documentation-section/documentation-section-00051.xml</destination>
-			<type>documentation-section</type>
-			<uuidstructure>06988239-077a-11e4-aa3d-1305b26fecac</uuidstructure>
-			<uuidresource>0698823a-077a-11e4-aa3d-1305b26fecac</uuidresource>
-			<datelastmodified>Thu, 02 Oct 2014 08:32:43 GMT</datelastmodified>
-			<userlastmodified>daniel</userlastmodified>
-			<datecreated>Wed, 09 Jul 2014 15:02:20 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[The sitemap editor - Configuring a model page]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -23115,6 +23110,46 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>documentation/.content/documentation-section/documentation-section-00310.xml</source>
+			<destination>documentation/.content/documentation-section/documentation-section-00310.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>7129d254-59bb-11e4-9326-005056b61161</uuidstructure>
+			<uuidresource>7129d255-59bb-11e4-9326-005056b61161</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 07:30:41 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Wed, 22 Oct 2014 07:17:12 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Creating template models - The idea of template models]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/.content/documentation-section/documentation-section-00311.xml</source>
+			<destination>documentation/.content/documentation-section/documentation-section-00311.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>0a730383-59c0-11e4-9326-005056b61161</uuidstructure>
+			<uuidresource>0a730384-59c0-11e4-9326-005056b61161</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 07:56:33 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Wed, 22 Oct 2014 07:50:07 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Creating template models - Template JSP vs. template model]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>documentation/.content/documentation-section/documentation-section-00312.xml</source>
 			<destination>documentation/.content/documentation-section/documentation-section-00312.xml</destination>
 			<type>documentation-section</type>
@@ -25495,6 +25530,26 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>documentation/.content/documentation-section/documentation-section-00431.xml</source>
+			<destination>documentation/.content/documentation-section/documentation-section-00431.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>f99c9997-59c0-11e4-9326-005056b61161</uuidstructure>
+			<uuidresource>f99c9998-59c0-11e4-9326-005056b61161</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 07:57:14 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Wed, 22 Oct 2014 07:56:48 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Creating template models - Creating and editing template models]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>documentation/.content/documentation-section/documentation-section-00432.xml</source>
 			<destination>documentation/.content/documentation-section/documentation-section-00432.xml</destination>
 			<type>documentation-section</type>
@@ -26295,6 +26350,26 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>documentation/.content/documentation-section/documentation-section-00472.xml</source>
+			<destination>documentation/.content/documentation-section/documentation-section-00472.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>a4925ee0-59c6-11e4-a531-005056b61161</uuidstructure>
+			<uuidresource>a4925ee1-59c6-11e4-a531-005056b61161</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 08:37:43 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Wed, 22 Oct 2014 08:37:22 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Creating template models - Further configuration for template models]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>documentation/.content/documentation-section/documentation-section-00473.xml</source>
 			<destination>documentation/.content/documentation-section/documentation-section-00473.xml</destination>
 			<type>documentation-section</type>
@@ -27088,7 +27163,7 @@
 			<type>documentation-topic-row</type>
 			<uuidstructure>2016a42d-4891-11e4-8008-336f7b60f7b1</uuidstructure>
 			<uuidresource>2016a42e-4891-11e4-8008-336f7b60f7b1</uuidresource>
-			<datelastmodified>Tue, 30 Sep 2014 11:04:10 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 15:20:40 GMT</datelastmodified>
 			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Tue, 30 Sep 2014 11:01:27 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -27661,7 +27736,7 @@
 			<type>documentation-topic</type>
 			<uuidstructure>b834a776-1be0-11e4-bfa5-b7bfd6088c56</uuidstructure>
 			<uuidresource>b834a777-1be0-11e4-bfa5-b7bfd6088c56</uuidresource>
-			<datelastmodified>Thu, 02 Oct 2014 08:32:36 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 14:59:36 GMT</datelastmodified>
 			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Mon, 04 Aug 2014 14:07:50 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -28021,7 +28096,7 @@
 			<type>documentation-topic</type>
 			<uuidstructure>efe86129-2c35-11e4-a2c8-d144f6bb3566</uuidstructure>
 			<uuidresource>efe8883a-2c35-11e4-a2c8-d144f6bb3566</uuidresource>
-			<datelastmodified>Thu, 02 Oct 2014 08:32:36 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 10:47:28 GMT</datelastmodified>
 			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Mon, 25 Aug 2014 08:58:09 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -28441,7 +28516,7 @@
 			<type>documentation-topic</type>
 			<uuidstructure>3e656c29-334d-11e4-ae50-d144f6bb3566</uuidstructure>
 			<uuidresource>3e656c2a-334d-11e4-ae50-d144f6bb3566</uuidresource>
-			<datelastmodified>Thu, 02 Oct 2014 08:32:37 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 14:57:40 GMT</datelastmodified>
 			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Wed, 03 Sep 2014 09:32:38 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -28596,6 +28671,26 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>documentation/.content/documentation-topic/documentation-topic-00073.xml</source>
+			<destination>documentation/.content/documentation-topic/documentation-topic-00073.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>71216de2-59bb-11e4-9326-005056b61161</uuidstructure>
+			<uuidresource>71216de3-59bb-11e4-9326-005056b61161</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 09:06:13 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Wed, 22 Oct 2014 07:17:11 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Creating template models]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>documentation/.content/documentation-topic/documentation-topic-00074.xml</source>
 			<destination>documentation/.content/documentation-topic/documentation-topic-00074.xml</destination>
 			<type>documentation-topic</type>
@@ -28661,7 +28756,7 @@
 			<type>documentation-topic</type>
 			<uuidstructure>41f95fe8-3d99-11e4-b238-578a14069906</uuidstructure>
 			<uuidresource>41f95fe9-3d99-11e4-b238-578a14069906</uuidresource>
-			<datelastmodified>Thu, 02 Oct 2014 08:32:37 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 10:28:24 GMT</datelastmodified>
 			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Tue, 16 Sep 2014 12:01:57 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -28741,7 +28836,7 @@
 			<type>documentation-topic</type>
 			<uuidstructure>7b2d4f98-3e45-11e4-8375-578a14069906</uuidstructure>
 			<uuidresource>7b2d4f99-3e45-11e4-8375-578a14069906</uuidresource>
-			<datelastmodified>Thu, 02 Oct 2014 08:32:38 GMT</datelastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 10:41:30 GMT</datelastmodified>
 			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Wed, 17 Sep 2014 08:34:46 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -28952,15 +29047,15 @@
 			<destination>documentation/.galleries/icons_ade</destination>
 			<type>imagegallery</type>
 			<uuidstructure>7b059d6a-02bc-11e4-8167-1305b26fecac</uuidstructure>
-			<datelastmodified>Thu, 03 Jul 2014 14:15:26 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Wed, 22 Oct 2014 07:09:36 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Thu, 03 Jul 2014 14:15:26 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Normal sized ADE Icons]]></value>
+					<value><![CDATA[Documentation: ADE Icons (normal size)]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -30506,15 +30601,15 @@
 			<destination>documentation/.galleries/icons_big_ade</destination>
 			<type>imagegallery</type>
 			<uuidstructure>7b7acd6d-02bc-11e4-8167-1305b26fecac</uuidstructure>
-			<datelastmodified>Thu, 03 Jul 2014 14:15:27 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Wed, 22 Oct 2014 07:09:52 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Thu, 03 Jul 2014 14:15:27 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Big ADE Icons]]></value>
+					<value><![CDATA[Documentation: ADE Icons (big)]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -31964,15 +32059,15 @@
 			<destination>documentation/.galleries/icons_screenshot</destination>
 			<type>imagegallery</type>
 			<uuidstructure>5c05d1c7-05a7-11e4-a26d-1305b26fecac</uuidstructure>
-			<datelastmodified>Mon, 07 Jul 2014 07:21:58 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Wed, 22 Oct 2014 07:10:19 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Mon, 07 Jul 2014 07:21:48 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Icons taken as screenshot]]></value>
+					<value><![CDATA[Documentation: Icons (as screenshot)]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -32006,15 +32101,15 @@
 			<destination>documentation/.galleries/icons_workplace</destination>
 			<type>imagegallery</type>
 			<uuidstructure>b0bf39e3-37e8-11e4-8113-d144f6bb3566</uuidstructure>
-			<datelastmodified>Tue, 09 Sep 2014 06:15:33 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Wed, 22 Oct 2014 07:10:34 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Tue, 09 Sep 2014 06:15:26 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Workplace icons]]></value>
+					<value><![CDATA[Documentation: Workplace icons]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -32192,15 +32287,15 @@
 			<destination>documentation/.galleries/pictures</destination>
 			<type>imagegallery</type>
 			<uuidstructure>7be32c20-02bc-11e4-8167-1305b26fecac</uuidstructure>
-			<datelastmodified>Thu, 03 Jul 2014 14:15:28 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Wed, 22 Oct 2014 07:11:36 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Thu, 03 Jul 2014 14:15:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[(big) pictures]]></value>
+					<value><![CDATA[Documentation: Screenshots etc.]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -33839,6 +33934,30 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>documentation/.galleries/pictures/LayoutElementFormatterConfig.png</source>
+			<destination>documentation/.galleries/pictures/LayoutElementFormatterConfig.png</destination>
+			<type>image</type>
+			<uuidstructure>376d2a11-5934-11e4-9a44-005056b61161</uuidstructure>
+			<uuidresource>376d2a12-5934-11e4-9a44-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 15:09:13 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 15:09:13 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[LayoutElementFormatterConfig]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:941,h:935]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>documentation/.galleries/pictures/ModuleManagemenAddResourceType.png</source>
 			<destination>documentation/.galleries/pictures/ModuleManagemenAddResourceType.png</destination>
 			<type>image</type>
@@ -34433,6 +34552,78 @@
 				<property type="shared">
 					<name>image.size</name>
 					<value><![CDATA[w:984,h:799]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/.galleries/pictures/SitemapEditor_TemplatesView.png</source>
+			<destination>documentation/.galleries/pictures/SitemapEditor_TemplatesView.png</destination>
+			<type>image</type>
+			<uuidstructure>a4d139bb-59c2-11e4-a531-005056b61161</uuidstructure>
+			<uuidresource>a4d139bc-59c2-11e4-a531-005056b61161</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 08:08:45 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Wed, 22 Oct 2014 08:08:45 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[SitemapEditor_TemplatesView]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:958,h:292]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/.galleries/pictures/TemplateModels_SitemapConfigurationFile.png</source>
+			<destination>documentation/.galleries/pictures/TemplateModels_SitemapConfigurationFile.png</destination>
+			<type>image</type>
+			<uuidstructure>e67e05d1-59c7-11e4-a531-005056b61161</uuidstructure>
+			<uuidresource>e67e05d2-59c7-11e4-a531-005056b61161</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 08:46:22 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Wed, 22 Oct 2014 08:46:22 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[TemplateModels_SitemapConfigurationFile]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:939,h:568]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/.galleries/pictures/TemplateModels_SpecialElementSettings.png</source>
+			<destination>documentation/.galleries/pictures/TemplateModels_SpecialElementSettings.png</destination>
+			<type>image</type>
+			<uuidstructure>9c87441f-59c4-11e4-a531-005056b61161</uuidstructure>
+			<uuidresource>9c874420-59c4-11e4-a531-005056b61161</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 08:22:50 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Wed, 22 Oct 2014 08:22:50 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[TemplateModels_SpecialElementSettings]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:712,h:322]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -36780,11 +36971,11 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>documentation/creating-a-website/creating-a-template</destination>
+			<destination>documentation/creating-a-website/creating-a-template-jsp</destination>
 			<type>folder</type>
 			<uuidstructure>a2914c1c-1be1-11e4-bfa5-b7bfd6088c56</uuidstructure>
-			<datelastmodified>Tue, 19 Aug 2014 06:56:35 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Wed, 22 Oct 2014 06:23:44 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Mon, 04 Aug 2014 14:14:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -36795,23 +36986,23 @@
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[Creating a template]]></value>
+					<value><![CDATA[Creating a template JSP]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Creating a template]]></value>
+					<value><![CDATA[Creating a template JSP]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>documentation/creating-a-website/creating-a-template/index.html</source>
-			<destination>documentation/creating-a-website/creating-a-template/index.html</destination>
+			<source>documentation/creating-a-website/creating-a-template-jsp/index.html</source>
+			<destination>documentation/creating-a-website/creating-a-template-jsp/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>a29801e1-1be1-11e4-bfa5-b7bfd6088c56</uuidstructure>
 			<uuidresource>a29801e2-1be1-11e4-bfa5-b7bfd6088c56</uuidresource>
-			<datelastmodified>Tue, 19 Aug 2014 13:19:47 GMT</datelastmodified>
+			<datelastmodified>Wed, 22 Oct 2014 06:23:44 GMT</datelastmodified>
 			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Mon, 04 Aug 2014 14:14:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -36819,14 +37010,14 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Creating a template]]></value>
+					<value><![CDATA[Creating a template JSP]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>documentation/creating-a-website/creating-a-template/advanced-template-features</destination>
+			<destination>documentation/creating-a-website/creating-a-template-jsp/advanced-template-features</destination>
 			<type>folder</type>
 			<uuidstructure>4e272d0e-1bdd-11e4-bfa5-b7bfd6088c56</uuidstructure>
 			<datelastmodified>Tue, 19 Aug 2014 06:57:17 GMT</datelastmodified>
@@ -36852,8 +37043,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>documentation/creating-a-website/creating-a-template/advanced-template-features/index.html</source>
-			<destination>documentation/creating-a-website/creating-a-template/advanced-template-features/index.html</destination>
+			<source>documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/index.html</source>
+			<destination>documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>4e2de3d3-1bdd-11e4-bfa5-b7bfd6088c56</uuidstructure>
 			<uuidresource>4e2de3d4-1bdd-11e4-bfa5-b7bfd6088c56</uuidresource>
@@ -36872,7 +37063,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>documentation/creating-a-website/creating-a-template/advanced-template-features/device-dependent-design</destination>
+			<destination>documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/device-dependent-design</destination>
 			<type>folder</type>
 			<uuidstructure>18555cad-3ea9-11e4-a200-578a14069906</uuidstructure>
 			<datelastmodified>Wed, 17 Sep 2014 22:50:45 GMT</datelastmodified>
@@ -36898,8 +37089,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>documentation/creating-a-website/creating-a-template/advanced-template-features/device-dependent-design/index.html</source>
-			<destination>documentation/creating-a-website/creating-a-template/advanced-template-features/device-dependent-design/index.html</destination>
+			<source>documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/device-dependent-design/index.html</source>
+			<destination>documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/device-dependent-design/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>1866c1d6-3ea9-11e4-a200-578a14069906</uuidstructure>
 			<uuidresource>1866e8e7-3ea9-11e4-a200-578a14069906</uuidresource>
@@ -36918,7 +37109,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>documentation/creating-a-website/creating-a-template/advanced-template-features/head-includes</destination>
+			<destination>documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/head-includes</destination>
 			<type>folder</type>
 			<uuidstructure>6c12ef88-1bdd-11e4-bfa5-b7bfd6088c56</uuidstructure>
 			<datelastmodified>Mon, 04 Aug 2014 13:45:36 GMT</datelastmodified>
@@ -36944,8 +37135,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>documentation/creating-a-website/creating-a-template/advanced-template-features/head-includes/index.html</source>
-			<destination>documentation/creating-a-website/creating-a-template/advanced-template-features/head-includes/index.html</destination>
+			<source>documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/head-includes/index.html</source>
+			<destination>documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/head-includes/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>6c17aa7d-1bdd-11e4-bfa5-b7bfd6088c56</uuidstructure>
 			<uuidresource>6c17aa7e-1bdd-11e4-bfa5-b7bfd6088c56</uuidresource>
@@ -36958,6 +37149,52 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Head includes]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>documentation/creating-a-website/creating-template-models</destination>
+			<type>folder</type>
+			<uuidstructure>7119307d-59bb-11e4-9326-005056b61161</uuidstructure>
+			<datelastmodified>Wed, 22 Oct 2014 07:18:08 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Wed, 22 Oct 2014 07:17:11 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[2.5]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Creating template models]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Creating template models]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/creating-a-website/creating-template-models/index.html</source>
+			<destination>documentation/creating-a-website/creating-template-models/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>712c9176-59bb-11e4-9326-005056b61161</uuidstructure>
+			<uuidresource>712c9177-59bb-11e4-9326-005056b61161</uuidresource>
+			<datelastmodified>Wed, 22 Oct 2014 08:50:50 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Wed, 22 Oct 2014 07:17:12 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Creating template models]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -39353,6 +39590,26 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>documentation/demos/.content/documentation-topic/documentation-topic-00004.xml</source>
+			<destination>documentation/demos/.content/documentation-topic/documentation-topic-00004.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>9c92a682-5911-11e4-a97a-005056b61161</uuidstructure>
+			<uuidresource>9c92a683-5911-11e4-a97a-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 14:52:12 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 11:01:30 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Advanced container usage]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>documentation/demos/.content/documentation-topic/documentation-topic-00005.xml</source>
 			<destination>documentation/demos/.content/documentation-topic/documentation-topic-00005.xml</destination>
 			<type>documentation-topic</type>
@@ -39669,15 +39926,15 @@
 			<destination>documentation/demos/.galleries/demo-images</destination>
 			<type>imagegallery</type>
 			<uuidstructure>04646d3d-1e1e-11e4-8373-d9f74955ba1b</uuidstructure>
-			<datelastmodified>Thu, 07 Aug 2014 10:31:50 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Wed, 22 Oct 2014 07:12:15 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Thu, 07 Aug 2014 10:31:39 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Images used in the demos]]></value>
+					<value><![CDATA[Documentation: Demo images]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -39924,6 +40181,362 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Accessing container-page information]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>documentation/demos/advanced-container-usage</destination>
+			<type>subsitemap</type>
+			<uuidstructure>9c886d4d-5911-11e4-a97a-005056b61161</uuidstructure>
+			<datelastmodified>Tue, 21 Oct 2014 12:41:42 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 11:01:30 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.5]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Advanced container usage]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Advanced container usage]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/demos/advanced-container-usage/index.html</source>
+			<destination>documentation/demos/advanced-container-usage/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>9c97d6a4-5911-11e4-a97a-005056b61161</uuidstructure>
+			<uuidresource>9c97d6a5-5911-11e4-a97a-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 14:54:48 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 11:01:30 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Advanced container usage]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>documentation/demos/advanced-container-usage/.content</destination>
+			<type>content_folder</type>
+			<uuidstructure>9c144666-591f-11e4-9013-005056b61161</uuidstructure>
+			<datelastmodified>Tue, 21 Oct 2014 12:41:42 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 12:41:42 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/demos/advanced-container-usage/.content/.config</source>
+			<destination>documentation/demos/advanced-container-usage/.content/.config</destination>
+			<type>sitemap_config</type>
+			<uuidstructure>9c15f418-591f-11e4-9013-005056b61161</uuidstructure>
+			<uuidresource>9c15f419-591f-11e4-9013-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 14:00:33 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 12:41:42 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>512</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Sitemap configuration file]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>documentation/demos/advanced-container-usage/.content/documentation-demo-article</destination>
+			<type>folder</type>
+			<uuidstructure>d74dd8b0-5926-11e4-9013-005056b61161</uuidstructure>
+			<datelastmodified>Tue, 21 Oct 2014 13:33:28 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 13:33:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/demos/advanced-container-usage/.content/documentation-demo-article/documentation-demo-article-00001.xml</source>
+			<destination>documentation/demos/advanced-container-usage/.content/documentation-demo-article/documentation-demo-article-00001.xml</destination>
+			<type>documentation-demo-article</type>
+			<uuidstructure>d74f5f52-5926-11e4-9013-005056b61161</uuidstructure>
+			<uuidresource>d74f5f53-5926-11e4-9013-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 13:44:25 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 13:33:28 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>documentation/demos/advanced-container-usage/.content/documentation-demo-layout-element</destination>
+			<type>folder</type>
+			<uuidstructure>c1d68955-5922-11e4-9013-005056b61161</uuidstructure>
+			<datelastmodified>Tue, 21 Oct 2014 13:04:14 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 13:04:14 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/demos/advanced-container-usage/.content/documentation-demo-layout-element/documentation-demo-layout-element-00001.xml</source>
+			<destination>documentation/demos/advanced-container-usage/.content/documentation-demo-layout-element/documentation-demo-layout-element-00001.xml</destination>
+			<type>documentation-demo-layout-element</type>
+			<uuidstructure>c1d80ff7-5922-11e4-9013-005056b61161</uuidstructure>
+			<uuidresource>c1d80ff8-5922-11e4-9013-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 13:56:18 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 13:04:14 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>documentation/demos/advanced-container-usage/.content/documentation-demo-source</destination>
+			<type>folder</type>
+			<uuidstructure>fc519c6b-592b-11e4-9013-005056b61161</uuidstructure>
+			<datelastmodified>Tue, 21 Oct 2014 14:10:17 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 14:10:17 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/demos/advanced-container-usage/.content/documentation-demo-source/documentation-demo-source-00001.xml</source>
+			<destination>documentation/demos/advanced-container-usage/.content/documentation-demo-source/documentation-demo-source-00001.xml</destination>
+			<type>documentation-demo-source</type>
+			<uuidstructure>fc534a1d-592b-11e4-9013-005056b61161</uuidstructure>
+			<uuidresource>fc534a1e-592b-11e4-9013-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 14:11:15 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 14:10:17 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Add a new title here]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/demos/advanced-container-usage/.content/documentation-demo-source/documentation-demo-source-00002.xml</source>
+			<destination>documentation/demos/advanced-container-usage/.content/documentation-demo-source/documentation-demo-source-00002.xml</destination>
+			<type>documentation-demo-source</type>
+			<uuidstructure>400d7a03-592e-11e4-9013-005056b61161</uuidstructure>
+			<uuidresource>400d7a04-592e-11e4-9013-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 15:11:17 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 14:26:30 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Add a new title here]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>documentation/demos/advanced-container-usage/.content/documentation-html</destination>
+			<type>folder</type>
+			<uuidstructure>9cc02728-5928-11e4-9013-005056b61161</uuidstructure>
+			<datelastmodified>Tue, 21 Oct 2014 13:46:09 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 13:46:09 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/demos/advanced-container-usage/.content/documentation-html/documentation-html-00001.xml</source>
+			<destination>documentation/demos/advanced-container-usage/.content/documentation-html/documentation-html-00001.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>9cc1d4da-5928-11e4-9013-005056b61161</uuidstructure>
+			<uuidresource>9cc1d4db-5928-11e4-9013-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 14:04:25 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 13:46:09 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/demos/advanced-container-usage/.content/documentation-html/documentation-html-00002.xml</source>
+			<destination>documentation/demos/advanced-container-usage/.content/documentation-html/documentation-html-00002.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>6497e7ca-592b-11e4-9013-005056b61161</uuidstructure>
+			<uuidresource>6497e7cb-592b-11e4-9013-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 14:06:56 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 14:06:03 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/demos/advanced-container-usage/.content/documentation-html/documentation-html-00003.xml</source>
+			<destination>documentation/demos/advanced-container-usage/.content/documentation-html/documentation-html-00003.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>9ab84266-592b-11e4-9013-005056b61161</uuidstructure>
+			<uuidresource>9ab84267-592b-11e4-9013-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 14:10:00 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 14:07:34 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/demos/advanced-container-usage/.content/documentation-html/documentation-html-00004.xml</source>
+			<destination>documentation/demos/advanced-container-usage/.content/documentation-html/documentation-html-00004.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>704b8d75-592c-11e4-9013-005056b61161</uuidstructure>
+			<uuidresource>704b8d76-592c-11e4-9013-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 14:30:36 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 14:13:32 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/demos/advanced-container-usage/.content/documentation-html/documentation-html-00005.xml</source>
+			<destination>documentation/demos/advanced-container-usage/.content/documentation-html/documentation-html-00005.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>23ec174f-592e-11e4-9013-005056b61161</uuidstructure>
+			<uuidresource>23ec1750-592e-11e4-9013-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 14:26:16 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 14:25:43 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/demos/advanced-container-usage/.content/documentation-html/documentation-html-00006.xml</source>
+			<destination>documentation/demos/advanced-container-usage/.content/documentation-html/documentation-html-00006.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>890151a9-592e-11e4-9013-005056b61161</uuidstructure>
+			<uuidresource>890151aa-592e-11e4-9013-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 14:29:23 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 14:28:32 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>documentation/demos/advanced-container-usage/.content/documentation-section</destination>
+			<type>folder</type>
+			<uuidstructure>8fdbf48f-592b-11e4-9013-005056b61161</uuidstructure>
+			<datelastmodified>Tue, 21 Oct 2014 14:07:15 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 14:07:15 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/demos/advanced-container-usage/.content/documentation-section/documentation-section-00001.xml</source>
+			<destination>documentation/demos/advanced-container-usage/.content/documentation-section/documentation-section-00001.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>8fdd7b31-592b-11e4-9013-005056b61161</uuidstructure>
+			<uuidresource>8fdd7b32-592b-11e4-9013-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 14:07:26 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 14:07:16 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Advanced container usage - Formatter of the layout element]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>documentation/demos/advanced-container-usage/.content/documentation-section/documentation-section-00002.xml</source>
+			<destination>documentation/demos/advanced-container-usage/.content/documentation-section/documentation-section-00002.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>1081ff89-592e-11e4-9013-005056b61161</uuidstructure>
+			<uuidresource>1081ff8a-592e-11e4-9013-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 14:25:20 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 14:25:10 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Advanced container usage - Formatter configuration of the layout element]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -42438,7 +43051,7 @@
 			<type>containerpage</type>
 			<uuidstructure>2715c698-06a0-11e4-909a-1305b26fecac</uuidstructure>
 			<uuidresource>2715c699-06a0-11e4-909a-1305b26fecac</uuidresource>
-			<datelastmodified>Tue, 30 Sep 2014 06:54:29 GMT</datelastmodified>
+			<datelastmodified>Wed, 22 Oct 2014 09:08:50 GMT</datelastmodified>
 			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Tue, 08 Jul 2014 13:02:44 GMT</datecreated>
 			<usercreated>Admin</usercreated>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Its worth to make a note on the relation between template JSPs and template models. In OpenCms the "frame" of each web page is provided by a template JSP. It is your design decision if you provide only the HTML head and a big container in the body of your template JSP, or if you already define a more specific structure of your web pages in the template JSP. Templates are changed by changing the <code>template</code> property for a web page. You should keep in mind: what's placed in the template JSP is common to all pages using the template. If you change the template JSP, all pages using the template will change.</p>
+<p>In contrast, a template model is just a container page with some content on it, that is used as master for new pages. Putting the layout into template models makes your design more flexible in the sense that you can provide a set of layout elements and a template developer who can edit template models. Thus new page layouts can be generated as in a modular construction system, without ever touching a JSP again. In contrast to the template JSP, changes of a template model not necessarily change already existing pages created from the model. If you drop a content from the template model, it will still be present on all pages created by the model. If you add a new content, it will not appear on existing pages created by the model and also property changes at the template model will not propagate to existing pages. Altering contents may influence the copies, if the content is reused on the generated pages and not copied.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>
