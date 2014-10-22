@@ -2,9 +2,9 @@
 
 <export>
 	<info>
-		<creator>Admin</creator>
+		<creator>daniel</creator>
 		<opencms_version>9.4.8</opencms_version>
-		<createdate>Tue, 21 Oct 2014 06:11:41 GMT</createdate>
+		<createdate>Wed, 22 Oct 2014 09:13:24 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -99,6 +99,9 @@
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="documentation-dummy-content" id="362">
 				<param name="schema">/system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd</param>
 			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="documentation-demo-layout-element" id="372">
+				<param name="schema">/system/modules/com.alkacon.opencms.documentation/schemas/documentation-demo-layout-element.xsd</param>
+			</type>
 		</resourcetypes>
 		<explorertypes>
 			<explorertype name="documentation-topic" key="fileicon.documentation-topic" icon="documentation-topic.png" bigicon="documentation-topic_big.png" reference="xmlcontent">
@@ -142,6 +145,9 @@
 			</explorertype>
 			<explorertype name="documentation-dummy-content" key="fileicon.documentation-dummy-content" icon="documentation-dummy-content.png" bigicon="documentation-dummy-content_big.png" reference="xmlcontent">
 				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=documentation-dummy-content" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-dummy-content" key="title.documentation-dummy-content"/>
+			</explorertype>
+			<explorertype name="documentation-demo-layout-element" key="fileicon.documentation-demo-layout-element" icon="documentation-demo-content.png" bigicon="documentation-demo-content_big.png" reference="xmlcontent">
+				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=documentation-demo-layout-element" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-demo-layout-element" key="title.documentation-demo-layout-element"/>
 			</explorertype>
 		</explorertypes>
 	</module>
@@ -209,8 +215,8 @@
 			<type>module_config</type>
 			<uuidstructure>d9a929aa-fc67-11e3-8410-fb93821e3720</uuidstructure>
 			<uuidresource>d9a929ab-fc67-11e3-8410-fb93821e3720</uuidresource>
-			<datelastmodified>Mon, 29 Sep 2014 13:27:04 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 12:15:29 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Wed, 25 Jun 2014 12:54:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -1451,6 +1457,38 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-nested-container-formatter-config.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-nested-container-formatter-config.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>45a57fec-592a-11e4-9013-005056b61161</uuidstructure>
+			<uuidresource>45a57fed-592a-11e4-9013-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 14:01:56 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 13:58:01 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo article formatter: containers of type "nested-demo-content"]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-paste-script.jsp</source>
 			<destination>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-paste-script.jsp</destination>
 			<type>jsp</type>
@@ -1557,6 +1595,62 @@
 				<property>
 					<name>search.exclude</name>
 					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/demo/documentation-demo-layout-element-formatter-config.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/demo/documentation-demo-layout-element-formatter-config.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>f25fa147-591b-11e4-9013-005056b61161</uuidstructure>
+			<uuidresource>f25fa148-591b-11e4-9013-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 14:53:47 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 12:15:29 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Sample formatter for Documentation layout element]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/demo/documentation-demo-layout-element-formatter.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/demo/documentation-demo-layout-element-formatter.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>f25c6cf4-591b-11e4-9013-005056b61161</uuidstructure>
+			<uuidresource>f25c6cf5-591b-11e4-9013-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 14:13:09 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 12:15:29 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter for the demo layout element]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -2130,8 +2224,8 @@
 			<type>xmlvfsbundle</type>
 			<uuidstructure>d997293e-fc67-11e3-8410-fb93821e3720</uuidstructure>
 			<uuidresource>d997293f-fc67-11e3-8410-fb93821e3720</uuidresource>
-			<datelastmodified>Tue, 30 Sep 2014 10:02:09 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 12:15:29 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Wed, 25 Jun 2014 12:54:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -2676,6 +2770,26 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/schemas/documentation-demo-layout-element.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/documentation-demo-layout-element.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>f2456279-591b-11e4-9013-005056b61161</uuidstructure>
+			<uuidresource>f245627a-591b-11e4-9013-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 12:50:28 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 12:15:29 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Sample resource type schema]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.opencms.documentation/schemas/documentation-demo-source.xsd</source>
 			<destination>system/modules/com.alkacon.opencms.documentation/schemas/documentation-demo-source.xsd</destination>
 			<type>plain</type>
@@ -2721,8 +2835,8 @@
 			<type>plain</type>
 			<uuidstructure>404f6190-0038-11e4-83a1-fb93821e3720</uuidstructure>
 			<uuidresource>404f6191-0038-11e4-83a1-fb93821e3720</uuidresource>
-			<datelastmodified>Wed, 03 Sep 2014 06:13:31 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Wed, 22 Oct 2014 08:07:32 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Mon, 30 Jun 2014 09:23:52 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -2899,8 +3013,8 @@
 			<type>plain</type>
 			<uuidstructure>be89e1ec-3e8f-11e4-b97e-578a14069906</uuidstructure>
 			<uuidresource>be89e1ed-3e8f-11e4-b97e-578a14069906</uuidresource>
-			<datelastmodified>Wed, 17 Sep 2014 19:32:16 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Tue, 21 Oct 2014 07:36:08 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Wed, 17 Sep 2014 17:26:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -2923,6 +3037,26 @@
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/schemas/nested/container.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/nested/container.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>62ea0e1d-591c-11e4-9013-005056b61161</uuidstructure>
+			<uuidresource>62ea0e1e-591c-11e4-9013-005056b61161</uuidresource>
+			<datelastmodified>Tue, 21 Oct 2014 12:38:18 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 21 Oct 2014 12:18:38 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested content for layout elements, captures information for a single container]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>

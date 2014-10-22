@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[Sample formatter for Documentation layout element]]></NiceName>
+    <Type><![CDATA[documentation-demo-layout-element]]></Type>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.opencms.documentation/formatters/demo/documentation-demo-layout-element-formatter.jsp]]></target>
+        <uuid>f25c6cf4-591b-11e4-9013-005056b61161</uuid>
+      </link>
+    </Jsp>
+    <Rank><![CDATA[1000]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[demo-content]]></ContainerType>
+      </Types>
+    </Match>
+    <Preview>false</Preview>
+    <SearchContent>true</SearchContent>
+    <AutoEnabled>true</AutoEnabled>
+    <Detail>false</Detail>
+    <NestedContainers>true</NestedContainers>
+    <HeadIncludeCss>
+      <CssInline><![CDATA[div.big-colored-border {
+    border-style: solid;
+    border-color: #eee;
+    border-width: 20px;
+}]]></CssInline>
+    </HeadIncludeCss>
+  </NewFormatter>
+</NewFormatters>
