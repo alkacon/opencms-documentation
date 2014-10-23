@@ -4,7 +4,7 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>Use the <code>&lt;cms:contentload&gt;</code> tag to collect the resources.</p>]]></content>
+      <content><![CDATA[<p>OpenCms provides the tag <code>&lt;cms:contentload&gt;</code> to collect XML resources. The tag's body is rendered once for each collected content and <code>&lt;cms:contentaccess&gt;</code> is used to get access the content loaded in the current run:</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

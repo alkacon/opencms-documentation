@@ -8,14 +8,7 @@
       <Term><![CDATA[Show parent sitemap]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Shows the parent sitemap of the current sitemap. The options appears only in a sub-sitemaps.</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
-      <Term><![CDATA[Edit aliases]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>TODO</p>]]></content>
+        <content><![CDATA[<p>Shows the parent sitemap of the current sitemap. The options appears only in sub-sitemaps.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -26,7 +19,20 @@
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Show workplace]]></Term>
+      <Term><![CDATA[Advanced > Edit aliases]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/documentation/creating-a-website/seo/]]></target>
+            <uuid>516ba0f0-0cd6-11e4-a7cb-b7bfd6088c56</uuid>
+            <anchor><![CDATA[edit_aliases_dialog]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Shows the "Edit aliases dialog" for the sitemap. Read more <a href="%(link0)">here</a>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Advanced > Show workplace]]></Term>
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>Opens the OpenCms workplace in a new window.</p>]]></content>

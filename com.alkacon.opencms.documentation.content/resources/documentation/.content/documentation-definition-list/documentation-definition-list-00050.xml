@@ -20,8 +20,13 @@
     <Entry>
       <Term><![CDATA[Model pages]]></Term>
       <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Defines models to be used by the sitemap editor for generating new container pages.</p>]]></content>
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/documentation/creating-a-website/creating-template-models/]]></target>
+            <uuid>7119307d-59bb-11e4-9326-005056b61161</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Defines template models to be used by the sitemap editor for generating new container pages. Most of the configuration is added when a new template model is added via the sitemap editor. Read more on template models <a href="%(link0)">here</a>.</p>]]></content>
       </Description>
     </Entry>
     <Entry>

@@ -16,7 +16,26 @@
       <Term><![CDATA[Galleries]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Shows the available Galleries</p>]]></content>
+        <content><![CDATA[<p>Shows the galleries (image and download galleries) that are stored in the current sitemap. You can add, edit or remove galleries.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Templates]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/documentation/creating-a-website/creating-template-models/]]></target>
+            <uuid>7119307d-59bb-11e4-9326-005056b61161</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Shows the template models defined in the sitemap. You can add, edit or remove models. Read more about template models <a href="%(link0)">here</a>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Categories]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Shows the categories available in the current sitemap. Local categories, i.e., categories defined in the current sitemap can be edited. Global categories, i.e., categories defined in some parent sitemap or system wide, can only be viewed.</p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>

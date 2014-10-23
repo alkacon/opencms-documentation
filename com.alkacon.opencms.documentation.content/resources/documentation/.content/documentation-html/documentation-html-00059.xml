@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link2" internal="true" type="A">
+          <target><![CDATA[/sites/default/documentation/views-in-opencms/the-traditional-workplace/the-explorer-view/]]></target>
+          <uuid>64f5eee2-375e-11e4-9771-d144f6bb3566</uuid>
+        </link>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/documentation/views-in-opencms/the-ade-views/the-page-editor/]]></target>
+          <uuid>772a450b-02c1-11e4-8167-1305b26fecac</uuid>
+        </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/documentation/views-in-opencms/the-ade-views/the-sitemap-editor/]]></target>
+          <uuid>270e7393-06a0-11e4-909a-1305b26fecac</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>The properties dialog can be opened from various places:</p>
+<ul>
+<li><em><a href="%(link0)">The page editor</a></em>: Press "Properties" in the Context menu exposed via the editor toolbar to edit the properties of the current container page.</li>
+<li><em><a href="%(link1)">The sitemap editor</a></em>: Press "Properties" in the context menu of the sitemap or the single pages. <strong>Be aware that you edit the properties of folder and container page in the default sitemap editor view.</strong></li>
+<li><em><a href="%(link2)">The explorer view</a></em>: Right-click on a resource and choose "Properties" to edit the properties for a resource.</li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

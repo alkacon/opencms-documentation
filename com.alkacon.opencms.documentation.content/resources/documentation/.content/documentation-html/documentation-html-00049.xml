@@ -3,8 +3,13 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>Depending on the configured model pages provided by the template designer, you can select from different template pages meeting your requirements. You can drag a new container page to wherever you need it in the sitemap.</p>]]></content>
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/documentation/creating-a-website/creating-template-models/]]></target>
+          <uuid>7119307d-59bb-11e4-9326-005056b61161</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>Depending on the<a href="%(link0)"> configured template models</a> provided by the template developer, you can select from different pages meeting your requirements. You can drag a new container page to wherever you need it in the sitemap.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

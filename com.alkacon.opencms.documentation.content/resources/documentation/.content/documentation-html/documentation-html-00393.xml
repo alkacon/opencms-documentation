@@ -25,7 +25,7 @@
 <li>If <code>NavText</code> and <code>NavPos</code> are not set, then the resource is not shown in the sitemap editor (except in the resource view) and in all <a href="%(link2)">navigations build with <code>&lt;cms:navigation&gt;</code></a>. <code>NavText</code> and <code>NavPos</code> are properties are removed if you select "Remove from sitemap" in the sitemap editor.</li>
 </ul>
 <p>An important aspect is, which property should be set where. Typically a page consists of the folder and the container page in the folder. To get the navigation right, the <code>NavText</code> and <code>NavPos</code> properties should only be set at the folder. That is what the sitemap editor does. Thus, unless you have multiple, navigable pages in one folder, which is unusual:</p>
-<div class="alert alert-danger">Do not set <code>NavText</code> and <code>NavPos</code> in the page editor to change the navigation text or the position of the page in the navigation! Use the sitemap editor.</div>]]></content>
+<div class="alert alert-danger">Do not set <code>NavText</code> and <code>NavPos</code> in the page editor to change the navigation text or the position of the page in the navigation! <strong>Use the sitemap editor</strong>.</div>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

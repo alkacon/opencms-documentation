@@ -3,8 +3,15 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>If the provided widgets do not fulfill your entire requirements, it is possible to implement custom widgets for the content editor. The module named <code>org.opencms.dev.demo.customwidget</code> that is shipped with the standard OpenCms distribution shows how to implement custom widgets for the GWT based content editor without the need to write/compile any line of GWT code. The server side implementation is located at: <code>org.opencms.dev.demo.customwidget.CustomWidget</code></p>
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://grepcode.com/file/repo1.maven.org/maven2/org.opencms.modules/org.opencms.dev.demo.customwidget/8.5.1/org/opencms/dev/demo/customwidget]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://grepcode.com/file/repo1.maven.org/maven2/org.opencms.modules/org.opencms.dev.demo.customwidget/8.5.1/org/opencms/dev/demo/customwidget/CustomWidget.java]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>If the provided widgets do not fulfill your entire requirements, it is possible to implement custom widgets for the content editor. The module named <code><a href="%(link0)">org.opencms.dev.demo.customwidget</a></code> shows how to implement custom widgets for the GWT based content editor without the need to write/compile any line of GWT code. The server side implementation is located at: <code><a href="%(link1)">org.opencms.dev.demo.customwidget.CustomWidget</a></code></p>
 <p>The client side implementation is found in the VFS at: <code>/system/modules/org.opencms.dev.demo.customwidget/resources/mywidget.js</code>.</p>]]></content>
     </Html>
   </DocumentationHtml>

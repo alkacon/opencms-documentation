@@ -11,9 +11,9 @@
       </links>
       <content><![CDATA[<p>Imagine a JSP providing a list of resources by the usage of the <code>&lt;cms:contentload&gt;</code>.  To drop JSPs directly into a container page OpenCms offers <a href="%(link0)">dynamic functions</a>.</p>
 <ul>
-<li>Create a new dynamic function. Usually this resource is a part of the module and should be created in folder <code>/system/modules/{mymodule}/functions/</code>. E.g., in the module of the Development Demo the collector JSP is in folder: <code>/system/modules/org.opencms.dev.demo/functions/</code>.</li>
-<li>Select the JSP containing the collector. E.g., in the module of the development demoit the JSP <code>/system/modules/org.opencms.dev.demo/pages/collector.jsp</code>.</li>
-<li>To define the collector parameters set the initial request parameters in the dynamic function. E.g., in the collector.jsp of the development demo the parameters are set as follows:
+<li>Create a new dynamic function. Usually this resource is a part of the module and should be created in folder <code>/system/modules/{mymodule}/functions/</code>.</li>
+<li>Select the JSP containing the collector. </li>
+<li>To define the collector parameters set the initial request parameters in the dynamic function. E.g., use:
 <ul>
 <li><code>folder=/dev-demo/collector-with-detail-page/.content/article/</code></li>
 <li><code>type=ddarticle</code></li>

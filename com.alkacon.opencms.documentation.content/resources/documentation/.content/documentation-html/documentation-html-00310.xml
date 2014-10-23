@@ -4,11 +4,12 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<ul>
+      <content><![CDATA[<p>OpenCms ships with a whole bunch of collectors. The most useful are the Solr collectors.</p>
+<ul>
 <li>All resources matching a user defined Solr query:
 <ul>
 <li><code>byQuery</code> (executes the exact query)</li>
-<li><code>byContext</code> (considers the request context automatically)</li>
+<li><code>byContext</code> (considers the request context automatically, in particular locale and site root)</li>
 </ul>
 </li>
 <li>All resources in a folder or sub-tree:
