@@ -1,8 +1,12 @@
 function replaceFootnotes() {
     $('span.footnote').each(function() {
        var footnote = $(this).html();
-       var newTag = $("<span href='#' data-toggle='tooltip' title='" + footnote + "' class='glyphicon glyphicon-question-sign footnote-hover'></span>");
-       $(newTag).tooltip();
+       var newTag = $("<span data-toggle='tooltip' title='" + footnote + "' class='glyphicon glyphicon-question-sign footnote-hover'></span>");
+       $(newTag).tooltip({
+ 		   'selector': '',
+    		'placement': 'top',
+    		'container':'body'
+  		});
        $(this).wrap("<sup></sup>");
        $(this).replaceWith(newTag);
     });
