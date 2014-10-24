@@ -5,7 +5,7 @@
 	<c:set var="isEditor">
 		<cms:property name="opencms.documentation.editor" file="search" default="false" />
 	</c:set>
-	<c:if test="${not cms.isOnlineProject and isEditor}">
+	<c:if test="${not cms.isOnlineProject and isEditor and cms.vfs.exists['/documentation-editor-tools/']}">
 		<div class="alert alert-info">
 			Edit me to change the topics meta-data.
 		</div>
@@ -40,16 +40,15 @@
 							</li>
 						</c:when>
 						<c:otherwise>
-						<li style="list-style-type:square;">
+						<li style="list-style-type:none;">
 							<c:if test="${linkItem.value.Title.exists}">
-								<h4>${linkItem.value.Title}</h4>
+								<strong>${linkItem.value.Title}</strong>
 							</c:if>
 							<c:if test="${linkItem.value.Description.exists}">
 								<blockquote>${linkItem.value.Description}</blockquote>
 							</c:if>
-							<c:if test="${linkItem.value.LinkList.exists}">
 								<ul>
-									<c:forEach var="link" items="${linkItem.value.LinkList}">
+									<c:forEach var="link" items="${linkItem.valueList.Link}">
 										<c:set var="uri"><cms:link>${link.value.URI}</cms:link></c:set>
 								<li>
 									<a href="${uri}">${link.value.LinkText.exists?link.value.LinkText:uri}</a>
@@ -59,7 +58,6 @@
 								</li>
 									</c:forEach>
 								</ul>
-							</c:if>
 							<c:if test="${linkItem.value.ListInfo.exists}">
 								<blockquote>${linkItem.value.ListInfo}</blockquote>
 							</c:if>

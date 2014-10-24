@@ -28,7 +28,7 @@
 	<c:set var="isEditor">
 		<cms:property name="opencms.documentation.editor" file="search" default="false" />
 	</c:set>
-	<c:if test="${not cms.isOnlineProject and isEditor}">
+	<c:if test="${not cms.isOnlineProject and isEditor and cms.vfs.exists['/documentation-editor-tools/']}">
 		<c:set var="todoList" value="${content.value.StatusMetaData.value.Todos.valueList.Todo}" />
 		<c:if test="${not empty todoList}">
 			<div class="alert alert-block alert-info">
