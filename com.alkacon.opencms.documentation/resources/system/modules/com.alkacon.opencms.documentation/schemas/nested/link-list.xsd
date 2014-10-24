@@ -15,7 +15,7 @@
 		<xsd:sequence>
 			<xsd:element name="Title" type="OpenCmsString" minOccurs="0"/>
 			<xsd:element name="Description" type="OpenCmsHtml" minOccurs="0" />
-			<xsd:element name="Link" type="OpenCmsDocumentationLink" minOccurs="0" />
+			<xsd:element name="Link" type="OpenCmsDocumentationLink" maxOccurs="unbounded" />
 			<xsd:element name="ListInfo" type="OpenCmsHtml" minOccurs="0" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
