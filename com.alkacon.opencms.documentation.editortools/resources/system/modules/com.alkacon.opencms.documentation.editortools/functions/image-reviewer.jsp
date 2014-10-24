@@ -30,7 +30,7 @@
 		Images to review for version ${param.version}
 	</h3>
 	<c:set var="siteRoot">${cms.requestContext.siteRoot}</c:set>
-	<c:set var="queryString">fq=-version_${cms.locale}:${param.version}&fq=parent-folders:"/sites/default/opencms-documentation/.content/documentation-figure/"&fq=type:documentation-figure</c:set>
+	<c:set var="queryString">fq=-version_${cms.locale}:${param.version}&fq=parent-folders:"/sites/default/documentation/.content/documentation-figure/"&fq=type:documentation-figure</c:set>
 	<cms:contentload collector="byQuery" param='${queryString}&rows=100000000' preload="true">
 		<cms:contentinfo var="info" />
 		<c:set var="resultSize" value="${info.resultSize}" />
