@@ -7,44 +7,55 @@
     <PropertyDef>false</PropertyDef>
     <Entry>
       <Term><![CDATA[Properties]]></Term>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/documentation/typical-tasks/editing-properties/]]></target>
+          <uuid>7c8b0c3c-2c5f-11e4-a2c8-d144f6bb3566</uuid>
+        </link>
+      </Link>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Display and edit the OpenCms properties of the current container page</p>]]></content>
+        <content><![CDATA[<p>Display and edit the OpenCms properties of the current container page.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
       <Term><![CDATA[Page info]]></Term>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/documentation/views-in-opencms/the-ade-views/the-page-editor/]]></target>
+          <uuid>772a450b-02c1-11e4-8167-1305b26fecac</uuid>
+          <anchor><![CDATA[page_info]]></anchor>
+        </link>
+      </Link>
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>Show the elements used on the page, page attributes, like date created, date last modified, etc. and links to the page.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Availability]]></Term>
+      <Term><![CDATA[Show in device]]></Term>
       <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Opens the availability dialog.</p>]]></content>
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/device-dependent-design/]]></target>
+            <uuid>18555cad-3ea9-11e4-a200-578a14069906</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Allows to get previews of your page for different devices. The option is only available if a <a href="%(link0)">template context provider</a> is used.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Lock report]]></Term>
+      <Term><![CDATA[Element view]]></Term>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/documentation/views-in-opencms/the-ade-views/the-page-editor/]]></target>
+          <uuid>772a450b-02c1-11e4-8167-1305b26fecac</uuid>
+          <anchor><![CDATA[element_view]]></anchor>
+        </link>
+      </Link>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Lock state report of current container page.</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
-      <Term><![CDATA[Assign categories]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Dialog to assign categories to the current container page.</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
-      <Term><![CDATA[SEO options]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Tweak Search Engine Optimization options.</p>]]></content>
+        <content><![CDATA[<p>Shows the available element views and allows to switch the element view.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -55,7 +66,70 @@
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Show workplace]]></Term>
+      <Term><![CDATA[Edit small elements]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If elements that do not have a certain height edit points for these elements are only shown when this option is checked.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Advanced &gt; Availability]]></Term>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/documentation/views-in-opencms/the-ade-views/the-page-editor/]]></target>
+          <uuid>772a450b-02c1-11e4-8167-1305b26fecac</uuid>
+          <anchor><![CDATA[availability]]></anchor>
+        </link>
+      </Link>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Opens the availability dialog.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Advanced &gt; Lock report]]></Term>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/documentation/views-in-opencms/the-ade-views/the-page-editor/]]></target>
+          <uuid>772a450b-02c1-11e4-8167-1305b26fecac</uuid>
+          <anchor><![CDATA[lock_report]]></anchor>
+        </link>
+      </Link>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Lock state report of current container page.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Advanced &gt; Assign categories]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Opens a dialog to assign categories to the current container page.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Advanced &gt; SEO options]]></Term>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/documentation/views-in-opencms/the-ade-views/the-page-editor/]]></target>
+          <uuid>772a450b-02c1-11e4-8167-1305b26fecac</uuid>
+          <anchor><![CDATA[seo_options]]></anchor>
+        </link>
+      </Link>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Tweak Search Engine Optimization options.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Advanced &gt; Show workplace]]></Term>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/documentation/views-in-opencms/the-ade-views/the-page-editor/]]></target>
+          <uuid>772a450b-02c1-11e4-8167-1305b26fecac</uuid>
+          <anchor><![CDATA[show_workplace]]></anchor>
+        </link>
+      </Link>
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>Open the OpenCms workplace.</p>]]></content>
@@ -63,6 +137,13 @@
     </Entry>
     <Entry>
       <Term><![CDATA[Preferences]]></Term>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/documentation/views-in-opencms/the-ade-views/the-page-editor/]]></target>
+          <uuid>772a450b-02c1-11e4-8167-1305b26fecac</uuid>
+          <anchor><![CDATA[context_menu_preferences]]></anchor>
+        </link>
+      </Link>
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>Opens a dialog to edit the user's preferences, e.g., workplace language, startup folder, ....</p>]]></content>
@@ -73,6 +154,13 @@
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>Logout from the OpenCms workplace.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[About]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Display information about your OpenCms installation.</p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>

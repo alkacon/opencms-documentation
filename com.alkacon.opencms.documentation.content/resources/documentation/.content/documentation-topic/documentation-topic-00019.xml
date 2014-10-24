@@ -3,28 +3,27 @@
 <AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
   <AlkaconDocumentationTopicFrame language="en">
     <Overview name="Overview0">
-      <links>
-        <link name="link0" internal="true" type="A">
-          <target><![CDATA[/sites/default/documentation/demos/dynamic-functions/index.html]]></target>
-          <uuid>ab1a0e61-2127-11e4-a141-d9f74955ba1b</uuid>
-        </link>
-        <link name="link1" internal="true" type="A">
-          <target><![CDATA[/sites/default/documentation/demos/dynamic-function-detail-pages/index.html]]></target>
-          <uuid>4d2cb5d6-2130-11e4-a141-d9f74955ba1b</uuid>
-        </link>
-      </links>
-      <content><![CDATA[<p>The function detail page is a detail page mechanism for dynamic functions. This documentation part describes how to create and configure a detail page for a dynamic function. It uses links referring a locally installed OpenCms version &gt;= 8.5.</p>
-<ul>
-<li><a href="%(link0)">Click here to open the dynamic function demo</a></li>
-<li><a href="%(link1)">Click here to open the function detail page demo</a></li>
-</ul>]]></content>
+      <links/>
+      <content><![CDATA[<p>Function detail pages are a detail page mechanism for dynamic functions. Here we describe how to create and configure a detail page for a dynamic function.</p>]]></content>
     </Overview>
     <Teaser name="Teaser0">
       <links/>
-      <content><![CDATA[<p>The function detail page is a detail page mechanism for dynamic functions. This documentation part describes how to create and configure a detail page for a dynamic function.</p>]]></content>
+      <content><![CDATA[<p>The function detail page is a detail page mechanism for dynamic functions. We describe how to create and configure a detail page for a dynamic function.</p>]]></content>
     </Teaser>
+    <RelatedLinks>
+      <Link>
+        <URI><![CDATA[/documentation/demos/dynamic-functions/index.html]]></URI>
+        <LinkText><![CDATA[A dynamic function demo]]></LinkText>
+      </Link>
+      <Link>
+        <URI><![CDATA[/documentation/demos/dynamic-function-detail-pages/index.html]]></URI>
+        <LinkText><![CDATA[A function detail page demo]]></LinkText>
+      </Link>
+    </RelatedLinks>
     <StatusMetaData>
-      <Todos/>
+      <Todos>
+        <Todo><![CDATA[Rework (in the next version of the documentation)!]]></Todo>
+      </Todos>
     </StatusMetaData>
   </AlkaconDocumentationTopicFrame>
 </AlkaconDocumentationTopicFrames>

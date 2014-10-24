@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>This is the detail page for articles. The page itself can be filled with content as any other page. But, content that is not in the detailview container will appear also on all detail pages that show your detail content. You will notice that the overview above and the related links will appear on each special detail page, but not this section. Why? This section is in the detailview container, the other things are not.</p>
+<p>So what to put here? An idea would be to place the list of contents here inside the detailview container. If you do not want to use this page, you could also hide it in the navigation.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

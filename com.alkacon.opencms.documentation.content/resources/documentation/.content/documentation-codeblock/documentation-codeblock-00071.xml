@@ -4,10 +4,10 @@
   <DocumentationCodeBlock language="en">
     <ProgrammingLanguage><![CDATA[java]]></ProgrammingLanguage>
     <Code><![CDATA[CmsSolrIndex index = OpenCms.getSearchManager().getIndexSolr("Solr Online Index");
-CmsSolrQuery squery = 
-    new CmsSolrQuery( getCmsObject(),
-                      "path:/sites/default/xmlcontent/article_0001.html"
-                    );
+Map parameters = new HashMap<String,String>();
+parameters.put("path","/sites/default/xmlcontent/article_0001.html");
+
+CmsSolrQuery squery = new CmsSolrQuery(getCmsObject(), parameters);
 List<CmsResource> results = index.search(getCmsObject(), squery);]]></Code>
   </DocumentationCodeBlock>
 </DocumentationCodeBlocks>

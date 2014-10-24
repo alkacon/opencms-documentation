@@ -3,8 +3,14 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>In order to reuse existing content, click on the <strong>Add content</strong> icon, select one or more resource types and click on the results tab. All elements displayed can be dragged onto the page. You can refine your search by selecting single or multiple criteria in each tab (Types, Galleries, Categories and Advanced). A click on the results tab will refresh the result list containing all contents matching your given criteria.</p>]]></content>
+      <links>
+        <link name="link0" internal="true" type="IMG">
+          <target><![CDATA[/sites/default/documentation/.galleries/icons_big_ade/searchBigIconActive.png]]></target>
+          <uuid>7bc6550c-02bc-11e4-8167-1305b26fecac</uuid>
+          <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+        </link>
+      </links>
+      <content><![CDATA[<p>In order to reuse existing content, click on the <strong>Add content</strong> icon <img style="width: 14px;" title="searchBigIconActive" src="%(link0)" alt="" />, select one or more resource types and click on the results tab. All elements displayed can be dragged onto the page. You can refine your search by selecting single or multiple criteria in each tab (Types, Galleries, Categories and Advanced). A click on the results tab will refresh the result list containing all contents matching your given criteria.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

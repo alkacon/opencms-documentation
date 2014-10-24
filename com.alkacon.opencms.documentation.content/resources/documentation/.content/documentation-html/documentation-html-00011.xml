@@ -3,8 +3,27 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>To edit the container page’s properties, select the <strong>Properties</strong> option from the Context menu. The <strong>property dialog</strong> allows changing of all properties of the container page. Three different subsets of properties are available: <strong>Basic</strong>, <strong>Individual</strong> and <strong>Shared Properties</strong>. The basic properties are a configurable subset of available properties.</p>]]></content>
+      <links>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[http://files.opencms.org/javadoc/modules-workplace/index.html]]></target>
+        </link>
+        <link name="link3" internal="false" type="A">
+          <target><![CDATA[http://files.opencms.org/javadoc/gwt/index.html]]></target>
+        </link>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://files.opencms.org/javadoc/core/index.html]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://files.opencms.org/javadoc/core/index.html]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>The JavaDoc for the OpenCms source is available online. The documentation is split in four separate parts:</p>
+<ul>
+<li><a href="%(link0)" target="_blank">JavaDoc for the OpenCms core API</a></li>
+<li><a href="%(link1)" target="_blank">JavaDoc for the OpenCms setup API</a></li>
+<li><a href="%(link2)" target="_blank">JavaDoc for the OpenCms workplace modules API</a></li>
+<li><a href="%(link3)" target="_blank">JavaDoc for the OpenCms GWT Components API</a></li>
+</ul>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

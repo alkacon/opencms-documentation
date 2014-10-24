@@ -3,17 +3,15 @@
 <AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
   <AlkaconDocumentationTopicFrame language="en">
     <Overview name="Overview0">
-      <links>
-        <link name="link0" internal="true" type="A">
-          <target><![CDATA[/sites/default/documentation/demos/lists-and-detail-pages/]]></target>
-          <uuid>017a27d0-22c2-11e4-8f7a-d9f74955ba1b</uuid>
-        </link>
-      </links>
-      <content><![CDATA[<p>This is the detail page for articles.</p>
-<ul>
-<li><a href="%(link0)">Go back to the list of articles.</a></li>
-</ul>]]></content>
+      <links/>
+      <content><![CDATA[<p>This is the detail page for articles.</p>]]></content>
     </Overview>
+    <RelatedLinks>
+      <Link>
+        <URI><![CDATA[/documentation/demos/lists-and-detail-pages/]]></URI>
+        <LinkText><![CDATA[Go back to the demo's main page.]]></LinkText>
+      </Link>
+    </RelatedLinks>
     <StatusMetaData>
       <Todos/>
     </StatusMetaData>

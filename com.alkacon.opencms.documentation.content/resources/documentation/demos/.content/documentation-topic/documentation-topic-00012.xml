@@ -3,21 +3,19 @@
 <AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
   <AlkaconDocumentationTopicFrame language="en">
     <Overview name="Overview0">
-      <links>
-        <link name="link0" internal="true" type="A">
-          <target><![CDATA[/sites/default/documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/head-includes/]]></target>
-          <uuid>6c12ef88-1bdd-11e4-bfa5-b7bfd6088c56</uuid>
-        </link>
-      </links>
-      <content><![CDATA[<p>Head includes allow formatters to bring their own scripts and stylesheets. We present a formatter for the demo article that uses some special script. In its formatter configuration we add this script as head include, moreover, we add some extra styles.</p>
-<ul>
-<li><a href="%(link0)">Read more about head includes here</a>.</li>
-</ul>]]></content>
+      <links/>
+      <content><![CDATA[<p>Head includes allow formatters to bring their own scripts and stylesheets. We present a formatter for the demo article that uses some special script. In its formatter configuration we add this script as head include, moreover, we add some extra styles.</p>]]></content>
     </Overview>
     <Teaser name="Teaser0">
       <links/>
       <content><![CDATA[<p>See an example formatter that adds scripts and styles to a page.</p>]]></content>
     </Teaser>
+    <RelatedLinks>
+      <Link>
+        <URI><![CDATA[/documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/head-includes/]]></URI>
+        <LinkText><![CDATA[Read more about head includes here.]]></LinkText>
+      </Link>
+    </RelatedLinks>
     <StatusMetaData>
       <Todos/>
     </StatusMetaData>

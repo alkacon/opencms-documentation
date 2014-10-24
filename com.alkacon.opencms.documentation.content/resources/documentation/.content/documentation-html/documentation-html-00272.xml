@@ -3,8 +3,13 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<div class="alert alert-danger">All changes on the elements inside of the element group like editing, removing elements, moving elements insider the group as well as changing settings of the element are populated to all pages using this page model.</div>]]></content>
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/documentation/creating-a-website/creating-template-models/]]></target>
+          <uuid>7119307d-59bb-11e4-9326-005056b61161</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<div class="alert alert-danger">If an element group is placed on a <a href="%(link0)">template model</a>: All changes on the elements inside of the element group are populated to all pages using the template model. It does not matter if you edit the group on a "normal" container page or on the template model.</div>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

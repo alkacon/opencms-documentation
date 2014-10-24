@@ -3,8 +3,16 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>Choosing this entry will recover the last published state of the current container page.</p>]]></content>
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/documentation/additional-documentation/information-on-the-demo-modules/]]></target>
+          <uuid>41f69115-5b65-11e4-955d-005056b61161</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>The demo modules shipped with OpenCms present most of the features, in particular the new features, in action. It is meant to give an impression on what is possible and typically focuses on the latest features. Therefor, the demo website is already quite complex. Nevertheless, it provides an excellent source of information.</p>
+<ul>
+<li><a href="%(link0)">To get the most out of the demo modules, read this background information.</a></li>
+</ul>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>
