@@ -3,25 +3,26 @@
 <export>
 	<info>
 		<creator>daniel</creator>
-		<opencms_version>9.4.8</opencms_version>
-		<createdate>Wed, 22 Oct 2014 09:36:27 GMT</createdate>
+		<opencms_version>9.4.9</opencms_version>
+		<createdate>Mon, 27 Oct 2014 11:52:23 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
 	<module>
 		<name>com.alkacon.opencms.documentation</name>
 		<nicename><![CDATA[OpenCms Documentation]]></nicename>
+		<group>OpenCms Documentation</group>
 		<class/>
 		<description><![CDATA[Provides all the content types with formatters and templates to set up a topic-based documentation. Used for the OpenCms documentation.]]></description>
-		<version>0.8</version>
+		<version>9.5.0</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated/>
 		<userinstalled/>
 		<dateinstalled/>
 		<dependencies>
-			<dependency name="com.alkacon.bootstrap.basics" version="9.0.1"/>
-			<dependency name="com.alkacon.bootstrap.formatters" version="9.0.1"/>
+			<dependency name="com.alkacon.bootstrap.basics" version="9.5.0"/>
+			<dependency name="com.alkacon.bootstrap.formatters" version="9.5.0"/>
 		</dependencies>
 		<exportpoints>
 			<exportpoint uri="/system/modules/com.alkacon.opencms.documentation/lib/" destination="WEB-INF/lib/"/>
@@ -155,10 +156,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>610b78c0-554a-11e4-8792-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 16 Oct 2014 15:37:47 GMT</datelastmodified>
+			<uuidstructure>1d02a78b-5b72-11e4-869a-005056b61161</uuidstructure>
+			<datelastmodified>Fri, 24 Oct 2014 11:37:19 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 16 Oct 2014 15:37:47 GMT</datecreated>
+			<datecreated>Fri, 24 Oct 2014 11:37:19 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -177,10 +178,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>62c92e8c-554a-11e4-8792-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 16 Oct 2014 15:37:50 GMT</datelastmodified>
+			<uuidstructure>1eb2a1b7-5b72-11e4-869a-005056b61161</uuidstructure>
+			<datelastmodified>Fri, 24 Oct 2014 11:37:22 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 16 Oct 2014 15:37:50 GMT</datecreated>
+			<datecreated>Fri, 24 Oct 2014 11:37:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -216,7 +217,7 @@
 			<uuidstructure>d9a929aa-fc67-11e3-8410-fb93821e3720</uuidstructure>
 			<uuidresource>d9a929ab-fc67-11e3-8410-fb93821e3720</uuidresource>
 			<datelastmodified>Tue, 21 Oct 2014 12:15:29 GMT</datelastmodified>
-			<userlastmodified>daniel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 25 Jun 2014 12:54:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -400,8 +401,8 @@
 			<type>jsp</type>
 			<uuidstructure>54d313a9-17c6-11e4-a3fa-b7bfd6088c56</uuidstructure>
 			<uuidresource>54d313aa-17c6-11e4-a3fa-b7bfd6088c56</uuidresource>
-			<datelastmodified>Tue, 09 Sep 2014 13:03:35 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Mon, 27 Oct 2014 09:25:10 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Wed, 30 Jul 2014 08:48:52 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -452,8 +453,8 @@
 			<type>jsp</type>
 			<uuidstructure>8d667ace-2930-11e4-b03d-d144f6bb3566</uuidstructure>
 			<uuidresource>8d667acf-2930-11e4-b03d-d144f6bb3566</uuidresource>
-			<datelastmodified>Mon, 20 Oct 2014 13:49:15 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Fri, 24 Oct 2014 14:25:37 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Thu, 21 Aug 2014 12:42:03 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -1088,8 +1089,8 @@
 			<type>jsp</type>
 			<uuidstructure>8fa6329f-fd33-11e3-8938-fb93821e3720</uuidstructure>
 			<uuidresource>8fa632a0-fd33-11e3-8938-fb93821e3720</uuidresource>
-			<datelastmodified>Tue, 23 Sep 2014 12:55:44 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Mon, 27 Oct 2014 08:09:04 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Thu, 26 Jun 2014 13:12:44 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -1463,9 +1464,9 @@
 			<uuidstructure>45a57fec-592a-11e4-9013-005056b61161</uuidstructure>
 			<uuidresource>45a57fed-592a-11e4-9013-005056b61161</uuidresource>
 			<datelastmodified>Tue, 21 Oct 2014 14:01:56 GMT</datelastmodified>
-			<userlastmodified>daniel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 21 Oct 2014 13:58:01 GMT</datecreated>
-			<usercreated>daniel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1607,9 +1608,9 @@
 			<uuidstructure>f25fa147-591b-11e4-9013-005056b61161</uuidstructure>
 			<uuidresource>f25fa148-591b-11e4-9013-005056b61161</uuidresource>
 			<datelastmodified>Wed, 22 Oct 2014 09:32:23 GMT</datelastmodified>
-			<userlastmodified>daniel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 21 Oct 2014 12:15:29 GMT</datecreated>
-			<usercreated>daniel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -1639,9 +1640,9 @@
 			<uuidstructure>f25c6cf4-591b-11e4-9013-005056b61161</uuidstructure>
 			<uuidresource>f25c6cf5-591b-11e4-9013-005056b61161</uuidresource>
 			<datelastmodified>Tue, 21 Oct 2014 14:13:09 GMT</datelastmodified>
-			<userlastmodified>daniel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 21 Oct 2014 12:15:29 GMT</datecreated>
-			<usercreated>daniel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -2225,7 +2226,7 @@
 			<uuidstructure>d997293e-fc67-11e3-8410-fb93821e3720</uuidstructure>
 			<uuidresource>d997293f-fc67-11e3-8410-fb93821e3720</uuidresource>
 			<datelastmodified>Tue, 21 Oct 2014 12:15:29 GMT</datelastmodified>
-			<userlastmodified>daniel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 25 Jun 2014 12:54:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -2634,8 +2635,8 @@
 			<type>plain</type>
 			<uuidstructure>9a48a74e-010e-11e4-aa3f-1305b26fecac</uuidstructure>
 			<uuidresource>9a48a74f-010e-11e4-aa3f-1305b26fecac</uuidresource>
-			<datelastmodified>Wed, 17 Sep 2014 20:53:12 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Mon, 27 Oct 2014 07:30:07 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Tue, 01 Jul 2014 10:58:15 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -2816,7 +2817,7 @@
 			<uuidstructure>404f6190-0038-11e4-83a1-fb93821e3720</uuidstructure>
 			<uuidresource>404f6191-0038-11e4-83a1-fb93821e3720</uuidresource>
 			<datelastmodified>Wed, 22 Oct 2014 08:07:32 GMT</datelastmodified>
-			<userlastmodified>daniel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 30 Jun 2014 09:23:52 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -2994,7 +2995,7 @@
 			<uuidstructure>be89e1ec-3e8f-11e4-b97e-578a14069906</uuidstructure>
 			<uuidresource>be89e1ed-3e8f-11e4-b97e-578a14069906</uuidresource>
 			<datelastmodified>Tue, 21 Oct 2014 07:36:08 GMT</datelastmodified>
-			<userlastmodified>daniel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 17 Sep 2014 17:26:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -3014,9 +3015,9 @@
 			<uuidstructure>f2456279-591b-11e4-9013-005056b61161</uuidstructure>
 			<uuidresource>f245627a-591b-11e4-9013-005056b61161</uuidresource>
 			<datelastmodified>Wed, 22 Oct 2014 09:28:44 GMT</datelastmodified>
-			<userlastmodified>daniel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 21 Oct 2014 12:15:29 GMT</datecreated>
-			<usercreated>daniel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -3032,9 +3033,9 @@
 			<type>folder</type>
 			<uuidstructure>a1e0f5eb-59cd-11e4-a531-005056b61161</uuidstructure>
 			<datelastmodified>Wed, 22 Oct 2014 09:27:39 GMT</datelastmodified>
-			<userlastmodified>daniel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 22 Oct 2014 09:27:24 GMT</datecreated>
-			<usercreated>daniel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -3054,7 +3055,7 @@
 			<datelastmodified>Tue, 21 Oct 2014 12:38:18 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 21 Oct 2014 12:18:38 GMT</datecreated>
-			<usercreated>daniel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -3317,8 +3318,8 @@
 			<type>containerpage_template</type>
 			<uuidstructure>a1437bce-1d79-11e4-9d87-d9f74955ba1b</uuidstructure>
 			<uuidresource>a1437bcf-1d79-11e4-9d87-d9f74955ba1b</uuidresource>
-			<datelastmodified>Mon, 20 Oct 2014 10:21:21 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Mon, 27 Oct 2014 07:24:45 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Wed, 06 Aug 2014 14:54:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -3330,6 +3331,10 @@
 				<property type="shared">
 					<name>export</name>
 					<value><![CDATA[false]]></value>
+				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/css/style-editor.css]]></value>
 				</property>
 				<property>
 					<name>template.provider</name>
@@ -3345,8 +3350,8 @@
 			<type>containerpage_template</type>
 			<uuidstructure>52e80f8b-0295-11e4-8167-1305b26fecac</uuidstructure>
 			<uuidresource>52e8369c-0295-11e4-8167-1305b26fecac</uuidresource>
-			<datelastmodified>Mon, 20 Oct 2014 10:38:28 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Mon, 27 Oct 2014 07:24:32 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Thu, 03 Jul 2014 09:35:09 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -3366,6 +3371,10 @@
 				<property type="shared">
 					<name>export</name>
 					<value><![CDATA[false]]></value>
+				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/css/style-editor.css]]></value>
 				</property>
 				<property>
 					<name>template.provider</name>
