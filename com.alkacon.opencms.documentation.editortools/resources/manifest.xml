@@ -4,23 +4,24 @@
 	<info>
 		<creator>daniel</creator>
 		<opencms_version>9.4.9</opencms_version>
-		<createdate>Fri, 24 Oct 2014 10:20:09 GMT</createdate>
+		<createdate>Mon, 27 Oct 2014 12:05:38 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
 	<module>
 		<name>com.alkacon.opencms.documentation.editortools</name>
 		<nicename><![CDATA[OpenCms Documenation Administration]]></nicename>
+		<group>OpenCms Documentation</group>
 		<class/>
 		<description><![CDATA[Provides tools and extra contents to be used by editors]]></description>
-		<version>0.8</version>
+		<version>9.5.0</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated/>
 		<userinstalled/>
 		<dateinstalled/>
 		<dependencies>
-			<dependency name="com.alkacon.opencms.documentation" version="0.8"/>
+			<dependency name="com.alkacon.opencms.documentation" version="9.5.0"/>
 		</dependencies>
 		<exportpoints>
 			<exportpoint uri="/system/modules/com.alkacon.opencms.documentation.editortools/lib/" destination="WEB-INF/lib/"/>
@@ -46,10 +47,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>502e9e97-5aaa-11e4-a98c-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 23 Oct 2014 11:47:06 GMT</datelastmodified>
+			<uuidstructure>1d02a78b-5b72-11e4-869a-005056b61161</uuidstructure>
+			<datelastmodified>Fri, 24 Oct 2014 11:37:19 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 23 Oct 2014 11:47:06 GMT</datecreated>
+			<datecreated>Fri, 24 Oct 2014 11:37:19 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -68,10 +69,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>51dd1123-5aaa-11e4-a98c-005056b61161</uuidstructure>
-			<datelastmodified>Thu, 23 Oct 2014 11:47:09 GMT</datelastmodified>
+			<uuidstructure>1eb2a1b7-5b72-11e4-869a-005056b61161</uuidstructure>
+			<datelastmodified>Fri, 24 Oct 2014 11:37:22 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 23 Oct 2014 11:47:09 GMT</datecreated>
+			<datecreated>Fri, 24 Oct 2014 11:37:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -360,7 +361,7 @@
 			<uuidstructure>b99e4e87-31c7-11e4-8511-d144f6bb3566</uuidstructure>
 			<uuidresource>b99e4e88-31c7-11e4-8511-d144f6bb3566</uuidresource>
 			<datelastmodified>Fri, 24 Oct 2014 07:06:12 GMT</datelastmodified>
-			<userlastmodified>daniel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 01 Sep 2014 11:04:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -609,8 +610,8 @@
 			<type>containerpage_template</type>
 			<uuidstructure>0956e25f-2d2b-11e4-93f4-d144f6bb3566</uuidstructure>
 			<uuidresource>0956e260-2d2b-11e4-93f4-d144f6bb3566</uuidresource>
-			<datelastmodified>Mon, 20 Oct 2014 14:25:12 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Mon, 27 Oct 2014 12:05:21 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Tue, 26 Aug 2014 14:12:39 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -630,6 +631,10 @@
 				<property type="shared">
 					<name>export</name>
 					<value><![CDATA[false]]></value>
+				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/css/style-editor.css]]></value>
 				</property>
 				<property>
 					<name>template.provider</name>
