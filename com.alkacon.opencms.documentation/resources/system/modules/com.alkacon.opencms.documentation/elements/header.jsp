@@ -1,15 +1,26 @@
 <%@page buffer="none" session="false" trimDirectiveWhitespaces="true" taglibs="cms" %>
+<!--=== Header ===-->
+
 <!--=== Top ===-->
-<div class="top">
-<%-- 
-    <div class="container">
-        Todo: Top-Links?
+<div class="topbar">
+
+    <div class="container-fluid container-main">
+        <ul class="loginbar pull-right">
+            <li><a href="/opencms/opencms/">Welcome</a></li>
+            <li class="topbar-devider"></li>
+            <li><a href="/opencms/opencms/tutorial/">Tutorial</a></li>
+            <li class="topbar-devider"></li>
+            <li><a href="/opencms/opencms/release/">Release notes</a></li>
+            <li class="topbar-devider"></li>
+            <li><a href="/opencms/opencms/grid-demo/search-demo/">Search</a></li>
+            <li class="topbar-devider"></li>
+            <li><a href="/opencms/opencms/login/">Login</a></li>
+		</ul>
     </div> 
---%>
+
 </div><!--/top-->
 <!--=== End Top ===-->
 
-<!--=== Header ===-->
 <div class="header">
 	<div class="navbar navbar-default" role="navigation">
         <div class="container-fluid container-main">
