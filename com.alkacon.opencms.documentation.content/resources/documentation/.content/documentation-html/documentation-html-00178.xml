@@ -5,13 +5,18 @@
     <Html name="Html0">
       <links>
         <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/documentation/views-in-opencms/the-ade-views/the-page-editor/]]></target>
+          <uuid>772a450b-02c1-11e4-8167-1305b26fecac</uuid>
+          <anchor><![CDATA[context_menu_preferences]]></anchor>
+        </link>
+        <link name="link1" internal="true" type="A">
           <target><![CDATA[/sites/default/documentation/creating-a-website/ade-configuration/resource-type-configuration/configuration-of-element-views/]]></target>
           <uuid>944a9ef8-4871-11e4-8008-336f7b60f7b1</uuid>
         </link>
       </links>
       <content><![CDATA[<p>Container page elements can be grouped in views by there type. If elements are not in the view you currently work in, edit points on the elements are hidden and also the Add wizard does not provide the option to add such elements.</p>
-<p>The context menu option "Element view" is only shown if more than one such view is available (and non-empty concerning the available content types).</p>
-<p><a href="%(link0)">Here</a> you can learn more about element view, in particular how to configure them.</p>]]></content>
+<p>The context menu option "Element view" is only shown if more than one such view is available (and non-empty concerning the available content types). Each user can also choose his default element view via the <a href="%(link0)">user preferences</a>.</p>
+<p><a href="%(link1)">Here</a> you can learn more about element view, in particular how to configure them.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>
