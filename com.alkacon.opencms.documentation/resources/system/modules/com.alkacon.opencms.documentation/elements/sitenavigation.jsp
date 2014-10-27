@@ -17,7 +17,19 @@ int toInt(String val, int default_val) {
 <ul class="list-group nav-side sidebar-nav-v1">
 	<c:forEach items="${nav.items}" var="elem">
 		<c:if test="${not empty lastItem}">
-			<c:if test="${enterSubLevel}"><ul class="list-group list-group-inner nav-side sidebar-nav-v1" ${fn:startsWith(cms.requestContext.uri,lastItem.parentFolderName)?"":"style='display:none;'"}></c:if>
+			<c:if test="${enterSubLevel}">
+				<c:set var="lastParentFolder" value="${lastItem.parentFolderName}" />
+				<c:if test="${lastItem.navigationLevel}">
+					<c:set var="folders" value="${fn:split(lastParentFolder,'/')}" />
+					<c:set var="correctedParentFolder">/</c:set>
+					<c:forEach var="folder" items="${folders}" varStatus="status">
+						<c:if test="${status.index < (fn:length(folders)-1)}">
+							<c:set var="correctedParentFolder">${correctedParentFolder}${folder}/</c:set>
+						</c:if>
+					</c:forEach>
+					<c:set var="lastParentFolder" value="${correctedParentFolder}" />
+				</c:if>
+				<ul class="list-group list-group-inner nav-side sidebar-nav-v1" ${fn:startsWith(cms.requestContext.uri,lastParentFolder)?"":"style='display:none;'"}></c:if>
 			<c:if test="${exitSubLevel}"></ul></c:if>
 			
 			<li class="list-group-item nav-side-level-${lastItem.navTreeLevel - navStartLevel}<c:if test="${!lastItem.navigationLevel && nav.isActive[lastItem.resourceName]}"> active</c:if>">
@@ -38,7 +50,19 @@ int toInt(String val, int default_val) {
 		</c:if> 
 	</c:forEach>
 	<c:if test="${not empty lastItem}">
-		<c:if test="${enterSubLevel}"><ul class="list-group nav-side sidebar-nav-v1" ${fn:startsWith(cms.requestContext.uri,lastItem.resourceName)?"":"style='display:none;'"}></c:if>
+		<c:if test="${enterSubLevel}">
+			<c:set var="lastParentFolder" value="${lastItem.parentFolderName}" />
+			<c:if test="${lastItem.navigationLevel}">
+				<c:set var="folders" value="${fn:split(lastParentFolder,'/')}" />
+				<c:set var="correctedParentFolder">/</c:set>
+				<c:forEach var="folder" items="${folders}" varStatus="status">
+					<c:if test="${status.index < (fn:length(folders)-1)}">
+						<c:set var="correctedParentFolder">${correctedParentFolder}${folder}/</c:set>
+					</c:if>
+				</c:forEach>
+				<c:set var="lastParentFolder" value="${correctedParentFolder}" />
+			</c:if>
+			<ul class="list-group nav-side sidebar-nav-v1" ${fn:startsWith(cms.requestContext.uri,lastParentFolder)?"":"style='display:none;'"}></c:if>
 		<c:if test="${exitSubLevel}"></ul></c:if>
 		
 		<li class="list-group-item nav-side-level-${lastItem.navTreeLevel - navStartLevel}<c:if test="${!lastItem.navigationLevel && nav.isActive[lastItem.resourceName]}"> active</c:if>">
