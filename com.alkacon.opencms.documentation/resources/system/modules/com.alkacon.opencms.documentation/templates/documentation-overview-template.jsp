@@ -74,7 +74,7 @@
 					<!-- END: Site Navigation -->
 
 				</div>
-				<div class="col-lg-9 col-md-9 col-sm-3 col-xs-12">
+				<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
 
 					<!-- BEGIN: Topic Container -->
 		   		<cms:container name="documentation-topic-container" type="documentation-topic" width="1350" maxElements="1">
