@@ -6,15 +6,15 @@
 
     <div class="container-fluid container-main">
         <ul class="loginbar pull-right">
-            <li><a href="/opencms/opencms/">Welcome</a></li>
+            <li><a href="<cms:link>/</cms:link>">Welcome</a></li>
             <li class="topbar-devider"></li>
-            <li><a href="/opencms/opencms/tutorial/">Tutorial</a></li>
+            <li><a href="<cms:link>/tutorial/</cms:link>">Tutorial</a></li>
             <li class="topbar-devider"></li>
-            <li><a href="/opencms/opencms/release/">Release notes</a></li>
+            <li><a href="<cms:link>/release/</cms:link>">Release notes</a></li>
             <li class="topbar-devider"></li>
-            <li><a href="/opencms/opencms/grid-demo/search-demo/">Search</a></li>
+            <li><a href="<cms:link>/grid-demo/search-demo/</cms:link>">Search</a></li>
             <li class="topbar-devider"></li>
-            <li><a href="/opencms/opencms/login/">Login</a></li>
+            <li><a href="<cms:link>/login/</cms:link>">Login</a></li>
 		</ul>
     </div> 
 
