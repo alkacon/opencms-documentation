@@ -24,9 +24,11 @@
 				<button class="btn btn-default" id="go-${cms.element.id}">
 					Autocorrect contents!
 				</button>
-				<button class="btn btn-default" id="delete-${cms.element.id}">
-					Delete unused!
-				</button>
+				<c:if test="${not (content.value.NoDeleteOption.exists and (content.value.NoDeleteOption eq 'true'))}">
+					<button class="btn btn-default" id="delete-${cms.element.id}">
+						Delete unused!
+					</button>
+				</c:if>
 			</div>
 			<div id="result-${cms.element.id}"></div>
 			<c:set var="folderParams"></c:set>
@@ -42,6 +44,7 @@
 					   $('div#result-${cms.element.id}').prepend("<br /><strong>Result:</strong> ");
 				   });
 				});
+				<c:if test="${not (content.value.NoDeleteOption.exists and (content.value.NoDeleteOption eq 'true'))}">
 				$('button#delete-${cms.element.id}').click(function() {
 				   $('button#delete-${cms.element.id}').attr("disabled");
 				   $('button#delete-${cms.element.id}').html("deleting ...");
@@ -50,6 +53,7 @@
 					   $('div#result-${cms.element.id}').prepend("<br /><strong>Result:</strong> ");
 				   });
 				});
+				</c:if>
 			</script>
 		</c:when>
 		<c:otherwise>
