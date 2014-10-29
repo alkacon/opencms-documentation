@@ -24,7 +24,7 @@ function errorHandler(errorType, message, additionalData) {
 function onNewSession(s) {
   session = s; // store the returned session as scope variable
   content = session.getValues(); // get the content values
-  // … e.g., fill the your form, show a picture from the content, …
+  // … e.g., fill your form, show a picture from the content, …
 }]]></Code>
   </DocumentationCodeBlock>
 </DocumentationCodeBlocks>

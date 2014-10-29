@@ -4,8 +4,8 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>Nested in the node <code>xsd:schema/xsd:annotation/xsd:appinfo/visibilities</code> we provide a node <code>&lt;visibility element="NotForEveryOne" params="Administrators|Projectmanagers"&gt;</code>. It says that the element named <code>NotForEveryOne</code> is only visible for members of one of the groups provided in the attribute <code>params</code>.</p>
-<p>The attribute <code>params</code> configures the visibility handler. The default handler takes a pipe (<code>|</code>)-separated list of group names. For users that are member of at least one of the listed groups, the content element is displayed in the editor. For all other users it is hidden. Consequently, if you leave the list empty, the element is never displayed.</p>
+      <content><![CDATA[<p>Nested in the node <code>xsd:schema/xsd:annotation/xsd:appinfo/visibilities</code> we provide a node <code>&lt;visibility element="NotForEveryOne" params="Administrators|Projectmanagers|ROLE.GALLERY_EDITOR"&gt;</code>. It says that the element named <code>NotForEveryOne</code> is only visible for members of one of the groups provided in the attribute <code>params</code>, and for users that have at least one of the listed roles.</p>
+<p>The attribute <code>params</code> configures the visibility handler. The default handler takes a pipe (<code>|</code>)-separated list of group names and role identifiers. For users that are member of at least one of the listed groups (or that have at least on of the listed roles), the content element is displayed in the editor. For all other users it is hidden. Consequently, if you leave the list empty, the element is never displayed.</p>
 <p>The <code>&lt;visibility&gt;</code> node takes a third, optional, argument class. If you want to replace the default visibility handler, provide the qualified class name of handler you want to use. Note that a non-default handler will usually accept different <code>params</code> values than the default handler.</p>]]></content>
     </Html>
   </DocumentationHtml>
