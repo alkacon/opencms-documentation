@@ -66,7 +66,7 @@ public class PageFinderBean extends CmsJspBean {
             }
             return getDisplayedOnLinksInternal();
         } catch (Exception e) {
-            LOG.error(e.getStackTrace());
+            LOG.error("Problem to get links: ", e);
             return null;
         }
     }
@@ -114,7 +114,7 @@ public class PageFinderBean extends CmsJspBean {
             }
             return result;
         } catch (Exception e) {
-            LOG.error(e.getStackTrace());
+            LOG.error("Problem to get links:", e);
             return result;
         }
     }

@@ -2,6 +2,7 @@
 package com.alkacon.opencms.documentation.navigation;
 
 import com.alkacon.opencms.documentation.sectionindexer.SectionIndexer;
+import com.alkacon.opencms.documentation.topics.TopicGrabber;
 
 import org.opencms.file.CmsObject;
 import org.opencms.file.CmsResource;
@@ -11,6 +12,7 @@ import org.opencms.jsp.util.CmsJspStandardContextBean;
 import org.opencms.loader.CmsLoaderException;
 import org.opencms.loader.CmsResourceManager;
 import org.opencms.main.CmsException;
+import org.opencms.main.CmsLog;
 import org.opencms.main.OpenCms;
 import org.opencms.xml.containerpage.CmsContainerBean;
 import org.opencms.xml.containerpage.CmsContainerElementBean;
@@ -18,6 +20,8 @@ import org.opencms.xml.containerpage.CmsContainerPageBean;
 
 import java.util.LinkedList;
 import java.util.List;
+
+import org.apache.commons.logging.Log;
 
 /*
  * This library is part of OpenCms -
@@ -50,6 +54,9 @@ import java.util.List;
  * Builds up a list of navigation elements similar to the OpenCms navigation mechanism.
  */
 public class PageNavBuilder {
+
+    /** Logger for the class */
+    protected static final Log LOG = CmsLog.getLog(TopicGrabber.class);
 
     /** Type name of the sections that should appear in the navigation. */
     private static String SECTION_TYPE_NAME = "documentation-section";
@@ -105,7 +112,7 @@ public class PageNavBuilder {
         try {
             collectNavElementsInternal();
         } catch (Exception e) {
-            System.err.println(e.getStackTrace());
+            LOG.error("Problem collecting NavElements: ", e);
         }
     }
 

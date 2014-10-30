@@ -71,7 +71,7 @@ public class PageFinder {
                 }
             }
         } catch (Exception e) {
-            LOG.error(e.getStackTrace());
+            LOG.error("Problem getting container pages:", e);
             return (new LinkedList<CmsResource>());
         }
         return pages;

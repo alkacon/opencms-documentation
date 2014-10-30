@@ -89,7 +89,7 @@ public class TodoCollector extends CmsJspBean {
         try {
             collectTodos();
         } catch (CmsSearchException e) {
-            LOG.error("CollectionError:\n" + CmsException.getStackTraceAsString(e));
+            LOG.error("CollectionError:", e);
         }
     }
 
@@ -157,7 +157,7 @@ public class TodoCollector extends CmsJspBean {
                 try {
                     m_todos.put(page.getStructureId(), new PageTodos(page, this.getCmsObject()));
                 } catch (CmsException e) {
-                    LOG.error("Could not create PageTodos." + CmsException.getStackTraceAsString(e));
+                    LOG.error("Could not create PageTodos.", e);
                 }
             }
             PageTodos pageTodos = m_todos.get(page.getStructureId());
@@ -196,7 +196,7 @@ public class TodoCollector extends CmsJspBean {
                 try {
                     m_todos.put(page.getStructureId(), new PageTodos(page, this.getCmsObject()));
                 } catch (CmsException e) {
-                    LOG.error("Could not create PageTodos." + CmsException.getStackTraceAsString(e));
+                    LOG.error("Could not create PageTodos.", e);
                 }
             }
             PageTodos pageTodos = m_todos.get(page.getStructureId());
