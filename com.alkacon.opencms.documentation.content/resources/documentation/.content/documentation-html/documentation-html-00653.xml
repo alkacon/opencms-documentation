@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/documentation/creating-a-website/ade-configuration/resource-type-configuration/configuration-of-element-views/]]></target>
+          <uuid>944a9ef8-4871-11e4-8008-336f7b60f7b1</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>The demo defines two new element views, they are located under <code>/system/modules/com.alkacon.bootstrap.schemas/elementviews/</code>. Since they are of type <code>elementview</code>, they are automatically considered as element view by the system, i.e., they appear in all dialogs where element views can be chosen. The name used for the view is set by editing the view content. See <a href="%(link0)">here</a> for details.</p>
+<p>The interesting part are the permissions: Element views are only visible to users that have view and read permissions on the view content. In the demo, the "Template" element view is only visible for template developers. This is achieved by setting the permissions at the view's content accordingly:</p>
+<ul>
+<li>Overwrite inherited permissions</li>
+<li>Add only view and read permissions for the role template developer</li>
+</ul>
+<p>The following figure shows the permissions for the view</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

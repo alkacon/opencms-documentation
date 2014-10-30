@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Heading><![CDATA[The demo modules]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[com.alkacon.bootstrap.basics]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Contains resources of used frameworks/libraries</p>
+<ul>
+<li>Bootstrap</li>
+<li>Boostrap paginator plugin</li>
+<li>JQuery</li>
+<li>JQuery-UI</li>
+<li>Unify Bootstrap theme</li>
+</ul>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[com.alkacon.bootstrap.formatters]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Contains all</p>
+<ul>
+<li>Formatters (for all contents of the module <code>com.alkacon.bootstrap.schemas</code>)</li>
+<li>Templates</li>
+<li>Template resources</li>
+<li>Dynamic functions</li>
+<li>Localization for formatters</li>
+</ul>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[com.alkacon.bootstrap.schemas]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Contains all</p>
+<ul>
+<li>Resource type definitions</li>
+<li>Schema files</li>
+<li>Localization files for schemas</li>
+<li>Element views</li>
+</ul>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[com.alkacon.bootrap.search]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Contains the GWT generated resources for the integrated search.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[com.alkacon.boostrap.contents]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The content of the demo website. This module has no module folder - it only contains the contents under <code>/sites/default/</code> (except the <code>documentation/</code> subfolder). The content module also adds some users that have the new roles added in OpenCms 9.5.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

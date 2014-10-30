@@ -4,7 +4,7 @@
 	<info>
 		<creator>daniel</creator>
 		<opencms_version>9.4.9</opencms_version>
-		<createdate>Wed, 29 Oct 2014 11:54:07 GMT</createdate>
+		<createdate>Thu, 30 Oct 2014 11:26:26 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -156,10 +156,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>d856e87b-5ea0-11e4-ae8f-005056b61161</uuidstructure>
-			<datelastmodified>Tue, 28 Oct 2014 12:49:24 GMT</datelastmodified>
+			<uuidstructure>d7941b4d-5f69-11e4-82c0-005056b61161</uuidstructure>
+			<datelastmodified>Wed, 29 Oct 2014 12:48:12 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 28 Oct 2014 12:49:24 GMT</datecreated>
+			<datecreated>Wed, 29 Oct 2014 12:48:12 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -178,10 +178,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>da39d987-5ea0-11e4-ae8f-005056b61161</uuidstructure>
-			<datelastmodified>Tue, 28 Oct 2014 12:49:27 GMT</datelastmodified>
+			<uuidstructure>d958fd09-5f69-11e4-82c0-005056b61161</uuidstructure>
+			<datelastmodified>Wed, 29 Oct 2014 12:48:15 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 28 Oct 2014 12:49:27 GMT</datecreated>
+			<datecreated>Wed, 29 Oct 2014 12:48:15 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -520,7 +520,7 @@
 			<uuidstructure>4af2879d-47d2-11e4-9d1c-336f7b60f7b1</uuidstructure>
 			<uuidresource>4af2879e-47d2-11e4-9d1c-336f7b60f7b1</uuidresource>
 			<datelastmodified>Tue, 30 Sep 2014 10:02:28 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Mon, 29 Sep 2014 12:15:25 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -543,16 +543,7 @@
 				</property>
 			</properties>
 			<relations/>
-			<accesscontrol>
-				<accessentry>
-					<uuidprincipal>ROLE.WORKPLACE_USER</uuidprincipal>
-					<flags>516</flags>
-					<permissionset>
-						<allowed>0</allowed>
-						<denied>4</denied>
-					</permissionset>
-				</accessentry>
-			</accesscontrol>
+			<accesscontrol/>
 		</file>
 		<file>
 			<destination>system/modules/com.alkacon.opencms.documentation/formatters</destination>
@@ -1463,8 +1454,8 @@
 			<type>formatter_config</type>
 			<uuidstructure>45a57fec-592a-11e4-9013-005056b61161</uuidstructure>
 			<uuidresource>45a57fed-592a-11e4-9013-005056b61161</uuidresource>
-			<datelastmodified>Tue, 21 Oct 2014 14:01:56 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Wed, 29 Oct 2014 14:44:04 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Tue, 21 Oct 2014 13:58:01 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -1484,6 +1475,30 @@
 				<property>
 					<name>search.exclude</name>
 					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-nested-container-formatter.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-nested-container-formatter.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>a8be859b-5f78-11e4-b7a7-005056b61161</uuidstructure>
+			<uuidresource>a8be859c-5f78-11e4-b7a7-005056b61161</uuidresource>
+			<datelastmodified>Wed, 29 Oct 2014 14:49:55 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
+			<datecreated>Wed, 29 Oct 2014 14:34:15 GMT</datecreated>
+			<usercreated>daniel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo article formatter: Advanced container features demo]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -1639,8 +1654,8 @@
 			<type>jsp</type>
 			<uuidstructure>f25c6cf4-591b-11e4-9013-005056b61161</uuidstructure>
 			<uuidresource>f25c6cf5-591b-11e4-9013-005056b61161</uuidresource>
-			<datelastmodified>Tue, 21 Oct 2014 14:13:09 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Wed, 29 Oct 2014 14:40:05 GMT</datelastmodified>
+			<userlastmodified>daniel</userlastmodified>
 			<datecreated>Tue, 21 Oct 2014 12:15:29 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>

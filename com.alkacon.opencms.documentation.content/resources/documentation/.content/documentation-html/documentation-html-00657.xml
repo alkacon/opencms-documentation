@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/documentation/administration/module-management/]]></target>
+          <uuid>7387573f-0b56-11e4-8c80-b7bfd6088c56</uuid>
+          <anchor><![CDATA[cloning_a_module]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>The demo modules provide a good starting point for your own website. At least if you want to use the bootstrap framework. Especially interesting is</p>
+<ul>
+<li>reusing the content types that wrap the bootstrap layout</li>
+<li>reusing and adjusting the content types that really contain content (e.g., blog entries)</li>
+<li>reusing and adjusting the formatters</li>
+</ul>
+<p>Information on cloning a module are found <a href="%(link0)">here</a>. To ease cloning, all content types have "bs-" prefix. When you clone a module it is generally adviced to delete the original module afterwards.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>
