@@ -67,11 +67,11 @@ public class TopicGrabber extends CmsJspBean {
 
         try {
             if (isNotInitialized()) {
-                throw (new Exception("Object of type TopicExplorer is not initialized. Pleas call init(...)"));
+                throw (new Exception("Object of type TopicGrabber is not initialized. Pleas call init(...)"));
             }
             return getTopicContentInternal();
         } catch (Exception e) {
-            LOG.error(e.getStackTrace());
+            LOG.error("TopicGrabber not initialized: ", e);
             return null;
         }
     }
@@ -125,7 +125,7 @@ public class TopicGrabber extends CmsJspBean {
             CmsResource topicResource = topicElement.getResource();
             return new CmsJspContentAccessBean(getCmsObject(), topicResource);
         } catch (Exception e) {
-            LOG.error(e.getStackTrace());
+            LOG.error("Problem getting the topic content: ", e);
             return null;
         }
     }
