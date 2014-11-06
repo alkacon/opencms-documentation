@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationViewSwitchers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-view-switcher.xsd">
+  <DocumentationViewSwitcher language="en">
+    <Title><![CDATA[My view switcher]]></Title>
+    <DocumentationFolder>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/documentation/]]></target>
+        <uuid>7afb3d20-02bc-11e4-8167-1305b26fecac</uuid>
+      </link>
+    </DocumentationFolder>
+    <EditorToolsFolder><![CDATA[/documentation-editor-tools/]]></EditorToolsFolder>
+  </DocumentationViewSwitcher>
+</DocumentationViewSwitchers>

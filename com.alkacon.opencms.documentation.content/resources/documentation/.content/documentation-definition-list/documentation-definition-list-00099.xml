@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Attributes of the tag <cms:pdf>]]></Title>
+    <Heading><![CDATA[Attributes of the tag <code>&lt;cms:pdf&gt;</code>]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[format]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>VFS URI of the JSP that renders the XHTML that is translated to PDF. (See the next subsection)</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[content]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>VFS URI of the XML content that should be rendered. Typically this will be the URI of the content that is currently rendered, i.e., you can use <code>${content.filename}</code> to specify the URI.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[locale (optional)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The locale in which the content should be accessed. If not given, the locale from the request context is used.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

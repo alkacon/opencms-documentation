@@ -3,7 +3,7 @@
 <c:set var="editorViewLink">%(link.strong:/system/modules/com.alkacon.opencms.documentation/elementviews/editor-view.xml:4af2879d-47d2-11e4-9d1c-336f7b60f7b1)</c:set>
 <%  CmsObject cmsObject = (CmsObject) pageContext.getAttribute("cmsObject");
 	CmsProperty editorProperty = null;
-	String resource = "/documentation/";
+	String resource = request.getParameter("resource");
 	String editorPropertyName = "opencms.documentation.editor";
 
 	CmsADESessionCache sessionCache = CmsADESessionCache.getCache(request, cmsObject);

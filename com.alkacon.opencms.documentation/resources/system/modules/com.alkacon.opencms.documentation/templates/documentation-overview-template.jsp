@@ -66,7 +66,9 @@
 
 					<%-- Menu for view switching (editor vs. user) --%>
 					<c:if test="${!cms.isOnlineProject}">
-						<cms:include file="%(link.strong:/system/modules/com.alkacon.opencms.documentation/elements/viewSwitcher.jsp:c673fbf4-38ea-11e4-9c91-578a14069906)" />
+					<cms:container name="documentation-view-switcher-container" type="documentation-view-switcher" maxElements="1">
+						<div class="jumbotron">Place the view switcher here.</div>
+					</cms:container>
 					</c:if>
 
 					<!-- BEGIN: Site Navigation -->

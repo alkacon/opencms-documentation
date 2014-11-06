@@ -6,11 +6,7 @@
 
     <div class="container-fluid container-main">
         <ul class="loginbar pull-right">
-            <li><a href="<cms:link>/</cms:link>">Welcome</a></li>
-            <li class="topbar-devider"></li>
-            <li><a href="<cms:link>/tutorial/</cms:link>">Tutorial</a></li>
-            <li class="topbar-devider"></li>
-            <li><a href="<cms:link>/release/</cms:link>">Release notes</a></li>
+            <li><a href="<cms:link>/</cms:link>">Overview</a></li>
             <li class="topbar-devider"></li>
             <li><a href="<cms:link>/grid-demo/search-demo/</cms:link>">Search</a></li>
             <li class="topbar-devider"></li>

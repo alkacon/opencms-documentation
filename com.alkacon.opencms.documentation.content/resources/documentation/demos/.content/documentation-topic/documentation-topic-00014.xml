@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>OpenCms supports automated PDF generation. It's mainly intended to render your content in a PDF file. Here, we show you how to render a demo article as PDF.</p>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>Get your content as PDF - see how it  works for a demo article.</p>]]></content>
+    </Teaser>
+    <RelatedLinks>
+      <LinkList>
+        <Title><![CDATA[Technology used for PDF generation]]></Title>
+        <Link>
+          <URI><![CDATA[https://code.google.com/p/flying-saucer/]]></URI>
+          <LinkText><![CDATA[Flying Saucer - the library we use for rendering PDFs]]></LinkText>
+          <LinkDescription name="LinkDescription0">
+            <links/>
+            <content><![CDATA[<p>Flying Saucer is a freely available Java library for generating PDF output from XML documents. In particular it allows XHTML with CSS 2.1 styles (plus some extensions) as input. And that's what we feed it with.</p>]]></content>
+          </LinkDescription>
+        </Link>
+        <Link>
+          <URI><![CDATA[http://www.w3.org/TR/CSS21/]]></URI>
+          <LinkText><![CDATA[The CSS 2.1 specification: CSS as flying saucer can handle it]]></LinkText>
+        </Link>
+        <Link>
+          <URI><![CDATA[http://www.w3.org/TR/xhtml1/]]></URI>
+          <LinkText><![CDATA[XHTML 1.0 (strict) specification: The HTML that flying saucer can handle]]></LinkText>
+        </Link>
+      </LinkList>
+      <LinkList>
+        <Title><![CDATA[More information on PDF generation in OpenCms]]></Title>
+        <Link>
+          <URI><![CDATA[http://files.opencms.org/javadoc/tld/cms/pdf.html]]></URI>
+          <LinkText><![CDATA[TLDdoc for the <code>&lt;cms:pdf&gt;</code> tag]]></LinkText>
+        </Link>
+        <Link>
+          <URI><![CDATA[/documentation/pdf-support/generating-pdf-output/]]></URI>
+          <LinkText><![CDATA[More information on PDF generation in OpenCms]]></LinkText>
+        </Link>
+      </LinkList>
+    </RelatedLinks>
+    <NewInVersion><![CDATA[9.5]]></NewInVersion>
+    <NewInDocuVersion><![CDATA[9.5]]></NewInDocuVersion>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>
