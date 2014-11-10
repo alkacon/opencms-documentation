@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/documentation/solr-search-integration/]]></target>
+          <uuid>2377f7cb-0c27-11e4-8bcb-b7bfd6088c56</uuid>
+          <anchor><![CDATA[default_index_fields]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>By default, OpenCms creates for each resouce the same index fields. These are of course not specific to the content's structure. You can look up these fields <a href="%(link0)">here</a>. But, if you want to allow a sophisticated search queries for a specific content type, more index fields are needed. For each content element, you can specify the fields to create via a <code>&lt;searchsetting&gt;</code> node. Here is a very simple example:</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The default OpenCms installation includes a Solr server that is reached under the SolrSelect request handler <code>http://{hostname}/{webapp name}/handleSolrSelect</code>. You can also use, <strong>also if we do not recommend it unless you have serious issues with the integrated server</strong>, a different server for the search using the attribute <code>serverUrl</code> at the <code>&lt;solr&gt;</code> node:</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>
