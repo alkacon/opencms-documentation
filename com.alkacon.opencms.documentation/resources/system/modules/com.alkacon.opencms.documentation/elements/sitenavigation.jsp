@@ -8,9 +8,9 @@ int toInt(String val, int default_val) {
 	}
 }
 %>
-<c:set var="navStartLevel" value='<%= toInt(request.getParameter("navStartLevel"), 1)%>' />
+<c:set var="navStartLevel" value='<%= toInt(request.getParameter("navStartLevel"), 0)%>' />
 <c:set var="maxNavLevels" value='<%= toInt(request.getParameter("maxNavLevels"), 5)%>' />
-<c:set var="resource" value='${param.resource != null?param.resource:"/documentation/"}' />
+<c:set var="resource" value='${param.resource != null?param.resource:"/"}' />
 <cms:navigation type="forSite" endLevel="${navStartLevel+maxNavLevels-1}" resource="${resource}" var="nav"/>
 <c:set var="enterSubLevel" value="${false}" />
 <c:set var="exitSubLevel" value="${false}" />
