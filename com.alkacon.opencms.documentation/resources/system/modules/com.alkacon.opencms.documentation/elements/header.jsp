@@ -1,17 +1,12 @@
 <%@page buffer="none" session="false" trimDirectiveWhitespaces="true" taglibs="cms" %>
+<%@page import="org.opencms.main.OpenCms" %>
 <!--=== Header ===-->
 
 <!--=== Top ===-->
 <div class="topbar">
 
     <div class="container-fluid container-main">
-        <ul class="loginbar pull-right">
-            <li><a href="<cms:link>/</cms:link>">Overview</a></li>
-            <li class="topbar-devider"></li>
-            <li><a href="<cms:link>/grid-demo/search-demo/</cms:link>">Search</a></li>
-            <li class="topbar-devider"></li>
-            <li><a href="<cms:link>/login/</cms:link>">Login</a></li>
-		</ul>
+        
     </div> 
 
 </div><!--/top-->
@@ -20,22 +15,12 @@
 <div class="header">
 	<div class="navbar navbar-default" role="navigation">
         <div class="container-fluid container-main">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="<cms:link>http://www.opencms.org</cms:link>">
+        	<div class="headline">
+                <a href="<cms:link>http://www.opencms.org</cms:link>">
                     <cms:img scaleType="2" scaleColor="transparent" height="40" id="logo-header" src="%(link.weak:/system/modules/com.alkacon.opencms.documentation/images/OpenCms_Logo_800_transparent_24bit.png:f43050fa-17c9-11e4-a3fa-b7bfd6088c56)" alt="OpenCms Logo"/>
                 </a>
-            </div>
-			<!-- Menu -->       
-			<cms:include file="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/elements/nav-main.jsp:f6dcd82c-1a24-11e3-9358-000c29f9a2ec)">
-				<cms:param name="startlevel">0</cms:param>
-			</cms:include>
+				<h1 class="pull-right">OpenCms Documentation</h1>
+			</div>       
 		</div><!-- /container -->
 	</div><!-- /navbar -->
 </div><!--/header -->
@@ -45,7 +30,7 @@
 <div class="breadcrumbs margin-bottom-30">
 	<div class="container-fluid container-main">
         <h1 class="pull-left"><cms:info property="opencms.title" /></h1>
-        <cms:include file="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/elements/nav-breadcrumb.jsp:6f6f2ea3-1bb3-11e3-a120-000c29f9a2ec)">
+        <cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/nav-breadcrumb.jsp:90ca36ae-68b8-11e4-9296-005056b61161)">
 			<cms:param name="startlevel">0</cms:param>
 		</cms:include>
     </div><!--/container-->

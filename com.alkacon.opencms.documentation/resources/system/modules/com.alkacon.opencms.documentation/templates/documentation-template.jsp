@@ -44,7 +44,6 @@
 	<!--[if lt IE 9]>
     	<script src="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/respond.js:192037c7-3a3b-11e3-a584-000c2943a707)</cms:link>"></script>
 	<![endif]-->
-	<cms:include file="%(link.weak:/system/modules/com.alkacon.bootstrap.formatters/search/config.jsp:b4a9ffc9-416c-11e3-81ba-000c297c001d)" />	
 </head>
 
 <c:set var="isEditor">
@@ -67,6 +66,7 @@
 			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 		
 				<%-- Menu for view switching (editor vs. user) --%>
+				<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/search-google.jsp:407a975a-68b6-11e4-9296-005056b61161)" />
 				<c:if test="${!cms.isOnlineProject}">
 					<cms:container name="documentation-view-switcher-container" type="documentation-view-switcher" maxElements="1">
 						<div class="jumbotron">Place the view switcher here.</div>
