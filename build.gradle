@@ -9,6 +9,11 @@ if (!project.hasProperty('max_heap_size')){
     project.ext.max_heap_size='1024m'
 }
 
+if (!project.hasProperty('languageLevel')){
+    println "Setting Language version to 1.6"
+	project.ext.languageLevel='1.6'
+}
+
 repositories {
     mavenLocal()
     if (project.hasProperty('additional_repositories')){
