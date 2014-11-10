@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/creating-a-website/creating-a-template-jsp/]]></target>
+          <uuid>a2914c1c-1be1-11e4-bfa5-b7bfd6088c56</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>Containers are holes in a template where content can be dropped. When writing a template JSP in OpenCms, you use the <code>&lt;cms:container&gt;</code> tag to add such holes. See <a href="%(link0)">here</a> to find out how to write a template JSP. Nested containers are also such holes where content can be dropped. But they are not defined in the template JSP. They are defined in a content's formatter. If you add a content rendered by such a formatter to your page, it will make up a new container inside of the container where you place the content. Hence, a nested container. To distinguish nested containers from the containers defined in a template, we call the later ones <em>top-level containers</em>.</p>
+<p><em>Nested containers are not part of the content itself.</em> If you place the content that renders the nested container a second time on your page, or on a different page, the elements in the nested container will not be inserted. For each element-instance of the content that renders the nested container, the container is completely independent.</p>
+<p><em>Nested containers are tight to a container page element.</em> If you move a content that renders a nested container on a page (and the formatter does not change), the element in the nested container will move with it. If you remove the content, or change its formatter, the nested container will vanish and its elements are not visible anymore.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

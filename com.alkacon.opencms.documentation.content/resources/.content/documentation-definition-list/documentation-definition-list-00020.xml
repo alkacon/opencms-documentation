@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Add resource type dialog fields]]></Title>
+    <Heading><![CDATA[Fields of the "Add resource type" dialog]]></Heading>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[Name]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The unique name of the resource type. The resource type is made available in OpenCms under that name. If a resource type with the given name already exists in the OpenCms installation, you get an error message and are asked to change the name.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Type id]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>A natural number that is used as unique id of the resource type. If a resource with the same id already exists in the OpenCms installation, you get an error message and are asked to change the id.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Label]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/views-in-opencms/the-ade-views/the-page-editor/]]></target>
+            <uuid>772a450b-02c1-11e4-8167-1305b26fecac</uuid>
+            <anchor><![CDATA[sec_creating_new_content]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>The localized resource type label that is used for example in the “Add content”-dialog in the page editor (see <a href="%(link0)">here</a>). The given label is set as value for the language specified by your current workplace locale at key <code>fileicon.&lt;name&gt;</code> in the module’s <code>.properties</code> file.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[New dialog title]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The localized resource type title used within the new resource dialog. It is set as value for the language specified by your current workplace locale at key <code>title.&lt;name&gt;</code> in the module’s <code>.properties</code> file.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Description]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/views-in-opencms/the-ade-views/the-page-editor/]]></target>
+            <uuid>772a450b-02c1-11e4-8167-1305b26fecac</uuid>
+            <anchor><![CDATA[sec_creating_new_content]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>The localized resource type description that is used for example in the “Add content”-dialog in the page editor (see <a href="%(link0)">here</a>). It is set as value for the language specified by your current workplace locale at the key <code>desc.&lt;name&gt;</code> in the module’s <code>.properties</code> file.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Schema type name]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The name of the content type used in the XML Schema defintion. The type name must be unique in your OpenCms installation.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

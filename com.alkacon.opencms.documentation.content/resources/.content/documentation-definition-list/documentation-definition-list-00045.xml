@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Parameters supported by CmsCmisRepository]]></Title>
+    <Heading><![CDATA[Parameters supported by <code>CmsCmisRepository</code>]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[project (required)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The "working project" for the CMIS repository. If this is the Online project, the repository will only provide read access to the Online project of the VFS. For any other project, the CMIS repository will access the Offline state of the VFS, and any changes are performed inside the configured project. Note that, from the point of view of the CMIS standard, different repositories are independent objects. This means that if you are writing a client application that needs to access both offline and online contents from OpenCms through CMIS, you will need to connect to both: an Offline and an Online repository.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[description]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>A description text that may be displayed by CMIS clients for the repository.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[index (optional)]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/solr-search-integration/]]></target>
+            <uuid>2377f7cb-0c27-11e4-8bcb-b7bfd6088c56</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The name of the OpenCms Solr index used for querying the repository. OpenCms' standard Solr search facilities are used (see <a href="%(link0)">here</a>). If this parameter is omitted, the CMIS implementation will report the repository as "not queryable". Note that Lucene indexes will <strong>not</strong> work here.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[rendition]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The class name of a "rendition provider class". CMIS has the concept of 'renditions', which are alternative views of the the same content, e.g., thumbnails of images. The class configured here can provide such renditions. The class needs to implement the interface <code>org.opencms.cmis.I_CmsCmisRenditionProvider</code>. Note that the standard OpenCms distribution does not included an implementation for this interface.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[property]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The class name of a "property provider" class. With this parameter, it is possible to add special properties to the CMIS view of the OpenCms VFS which do not directly correspond to any resource properties or attributes, but are instead read or written by calling methods on an instance of the provided class. You can use this to make custom code in OpenCms available through CMIS calls. The configured class needs to implement the interface <code>org.opencms.cmis.I_CmsPropertyProvider</code>. No classes implementing this interface are included in the standard OpenCms distribution.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

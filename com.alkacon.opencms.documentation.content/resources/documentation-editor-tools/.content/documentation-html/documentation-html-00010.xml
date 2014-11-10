@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Demos are topics that explain a feature at an example. The demo may be explorably in full depth only in the offline project. When you write a demo:</p>
+<ul>
+<li>Place the demo topic in the <code>/demos/</code> subfolder of the documentation.</li>
+<li>Use the special model page for demos and keep the already given structure as far as possible.</li>
+<li>Use the special Demo Source content to provide sources in suitable format online and offline.</li>
+<li>If you use your own content types for the demo, add them under <code>/schemas/demo/</code> in the documetation module and do not forget to alter the site-map configuration for the <code>/demos/</code> subsite (or make your demo page an own subsite).</li>
+</ul>
+<div class="alert alert-info">Check out the style of existing demos before you write your first demo!</div>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

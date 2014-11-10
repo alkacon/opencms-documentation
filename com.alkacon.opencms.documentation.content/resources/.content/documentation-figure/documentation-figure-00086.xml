@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationFigures xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-figure.xsd">
+  <DocumentationFigure language="en">
+    <Identifier><![CDATA[device_preview]]></Identifier>
+    <Title><![CDATA[Device preview for iPhone 5 landscape mode]]></Title>
+    <Description name="Description0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[fig_device_settings]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[The device preview shows the current page as it appears in the chosen device in an overlay. In the background you see the original view on the desktop.<br />Note that the slider is missing in the preview - that's done by an element setting on the slider element, as shown in Figure <a href="%(link0)">[device_settings]</a>.<br />]]></content>
+    </Description>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/.galleries/pictures/DevicePreview.png]]></target>
+        <uuid>70e97ec4-3ec4-11e4-a200-578a14069906</uuid>
+      </link>
+    </Image>
+    <OpenCmsVersion><![CDATA[9.5]]></OpenCmsVersion>
+  </DocumentationFigure>
+</DocumentationFigures>

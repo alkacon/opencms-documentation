@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="IMG">
+          <target><![CDATA[/sites/default/.galleries/icons_normalsize/removeIconActive.png]]></target>
+          <uuid>7b593b5d-02bc-11e4-8167-1305b26fecac</uuid>
+          <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+        </link>
+      </links>
+      <content><![CDATA[<p>Clicking on the remove symbol <img style="width: 14px;" title="removeIconActive" src="%(link0)" alt="" /> in the inheritance group editor will perform one of two actions, depending on where the content element was added to the Inheritance group:</p>
+<ul>
+<li>If the content element was added to the inheritance group of the currently edited page or a page in the current folder, the element will just be removed from the inheritance group, and will not appear in the inheritance group on any descendant pages.</li>
+<li>If the content element was added to the inheritance group in an ancestor folder, the element will be hidden, and will also be hidden in the inheritance group on descendant pages. The difference to normal deletion is that a hidden element can be set to "visible" again in a descendant page and is still present on anchestor pages.</li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

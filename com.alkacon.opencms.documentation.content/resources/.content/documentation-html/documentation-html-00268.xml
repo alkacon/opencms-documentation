@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/content-in-opencms/special-predefined-content-types/inheritance-group/]]></target>
+          <uuid>7b70e1e2-18b5-11e4-8e8b-b7bfd6088c56</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>An element group is a content element similar to an <a href="%(link0)">inheritance group</a>, which allows the user to drop other elements in it. The user can edit, delete or replace the elements inside the group as well as he can change their order. <em>All changes on the element group affect all container pages to which the element group is dropped.</em> So the element group allows maintaining the referenced elements in one place, but effecting their appearance on many pages.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

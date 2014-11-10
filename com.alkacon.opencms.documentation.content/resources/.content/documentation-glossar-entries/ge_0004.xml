@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationGlossarEntrys xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-glossar-entry.xsd">
+  <AlkaconDocumentationGlossarEntry language="en">
+    <Term><![CDATA[workplace (traditional workplace)]]></Term>
+    <RefId><![CDATA[workplace]]></RefId>
+    <Match>
+      <MatchString><![CDATA[workplace]]></MatchString>
+    </Match>
+    <Match>
+      <MatchString><![CDATA[traditional workplace]]></MatchString>
+    </Match>
+    <Description name="Description0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/views-in-opencms/the-traditional-workplace/]]></target>
+          <uuid>035988f0-31ad-11e4-8511-d144f6bb3566</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>The (traditional) workplace is somehow the back-office of OpenCms. Here you can access VFS-resources via an explorer view and get access to administrative tools. Not all users in OpenCms can see the workplace. They must have the role "worplace user". Learn more about the traditional workplace <a href="%(link0)">here</a>.</p>]]></content>
+    </Description>
+  </AlkaconDocumentationGlossarEntry>
+</AlkaconDocumentationGlossarEntrys>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/background/the-virtual-file-system/]]></target>
+          <uuid>a39f771c-2793-11e4-b2bf-49dbf0abad32</uuid>
+          <anchor><![CDATA[individual_vs_shared_properties]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>Permissions are handled as ACLs (Access Control Lists) in OpenCms. This allows for fine-grained access control. For each resource rights can be set for single users, for groups and for "others" that are not listed as user or belong to one of the listed groups.</p>
+<p>The ACLs are attached to the resource part of an VFS resource. Thus, for siblings there is just one permission set that can be set <em>explicitely</em>. Nevertheless, siblings can have different <em>inherited</em> permissions. See <a href="%(link0)">here</a> for the general resource concept in OpenCms.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

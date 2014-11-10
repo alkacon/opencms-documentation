@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://everypageispageone.com]]></target>
+        </link>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://xmlpress.net/publications/eppo/]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>When you extend the documentation, write new topics, each a new page, or extend existing topics (pages) with new sections, or improve existing ones. But<strong> when you add or alter content, you should know the basics of what a topic is.</strong></p>
+<p><strong>A topic</strong>:</p>
+<ul>
+<li>is <strong>self-contained</strong> (does not have a prior or next topic - but can refer to topics that describe related things, or the same thing at another level)</li>
+<li>is <strong>specific and of limited purpose</strong></li>
+<li><strong>establishes context</strong> (use the topic content's overview for establishing context)</li>
+<li><strong>assumes the reader as qualified</strong> (write topics for users with a special role)</li>
+<li><strong>stays on one level of detail</strong></li>
+<li><strong>links richly</strong> (inside the topic's content and also via the related links of the topic content).</li>
+</ul>
+<p>So what is the <strong>advantage of such topic-based writing</strong>. If you write good topics, the reader:</p>
+<ul>
+<li>can start with each page of the documentation (self-contained)</li>
+<li>finds answers to concrete questions easily, since each topic is specific and of limited purpose</li>
+<li>can decide for himself when he needs more information (assume the reader as qualified) or when he wants to switch the level of detail (sty on one level of detail), i.e., if the reader of a topic is not as qualified as assumed, he can use links (links richly), to get more background information, or jump to a "bigger" picture when is "overqualified" for the topic he currently reads.</li>
+</ul>
+<p>In particular, when searching for answers in the internet, it is important that for your specific question, <strong>every page of the documentation can be the perfect page one</strong> for a reader with the specific question. More information on topic-based writing you can find in the book <a href="%(link0)">"Every Page is Page One" from Mark Baker</a> and on the webpage <a href="%(link1)">http://everypageispageone.com</a>.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

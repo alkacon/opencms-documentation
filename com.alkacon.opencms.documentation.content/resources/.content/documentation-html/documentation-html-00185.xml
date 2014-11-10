@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://wiki.apache.org/solr/HighlightingParameters]]></target>
+        </link>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://wiki.apache.org/solr/SimpleFacetParameters]]></target>
+        </link>
+        <link name="link5" internal="false" type="A">
+          <target><![CDATA[http://wiki.apache.org/solr/Suggester]]></target>
+        </link>
+        <link name="link4" internal="false" type="A">
+          <target><![CDATA[http://wiki.apache.org/solr/SpellCheckComponent]]></target>
+        </link>
+        <link name="link3" internal="false" type="A">
+          <target><![CDATA[http://wiki.apache.org/solr/CommonQueryParameters]]></target>
+        </link>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[http://wiki.apache.org/solr/SolrQuerySyntax]]></target>
+        </link>
+        <link name="link6" internal="false" type="A">
+          <target><![CDATA[http://wiki.apache.org/solr/AnalyzersTokenizersTokenFilters]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>Solr comes with a whole bunch of features for which documentation is found in the solr wiki:</p>
+<ul>
+<li><strong><a href="%(link0)">Faceted search</a></strong></li>
+<li><strong><a href="%(link1)">Highlighting</a></strong></li>
+<li><strong><a href="%(link2)">Range queries</a></strong></li>
+<li><strong><a href="%(link3)">Sorting</a></strong></li>
+<li><strong><a href="%(link4)">Spellchecking</a></strong></li>
+<li><strong><a href="%(link5)">Auto suggestion/completion/correction</a></strong></li>
+<li><strong><a href="%(link6)">Thesaurus/Synonyms</a></strong><br /><br /></li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

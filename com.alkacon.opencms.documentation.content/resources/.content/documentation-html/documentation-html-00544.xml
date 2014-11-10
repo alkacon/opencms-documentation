@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/views-in-opencms/]]></target>
+          <uuid>11e7df15-276b-11e4-b2bf-49dbf0abad32</uuid>
+        </link>
+        <link name="link0" internal="true" type="IMG">
+          <target><![CDATA[/sites/default/.galleries/icons_big/publishBigIconActive.png]]></target>
+          <uuid>7bb2098c-02bc-11e4-8167-1305b26fecac</uuid>
+          <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+        </link>
+        <link name="link3" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[scheduled_publishing]]></anchor>
+        </link>
+        <link name="link2" internal="true" type="A">
+          <target><![CDATA[/sites/default/views-in-opencms/the-traditional-workplace/]]></target>
+          <uuid>035988f0-31ad-11e4-8511-d144f6bb3566</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>The ADE toolbar provides the <img style="width: 14px;" title="publishBigIconActive" src="%(link0)" alt="" /> symbol in all the <a href="%(link1)">ADE views</a>. When you click the icon, the publish dialog appears. Here you can choose which resources you want to publish. In the <a href="%(link2)">traditional workplace</a>, the menu bar also provides a publish option and in the context menu of resources in the explorer view, a direct publish options is available as well.</p>
+<div class="alert alert-info">What you should note is, that pressing the publish icon when editing content (via inline or form-based editor) will automatically result in storing the content - no matter if you cancel publishing or not.</div>
+<p>Besides the options to publish directly, <a href="%(link3)">scheduled publishing</a> is also available.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

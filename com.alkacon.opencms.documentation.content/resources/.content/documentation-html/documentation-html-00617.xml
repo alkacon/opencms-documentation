@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/views-in-opencms/the-traditional-workplace/the-explorer-view/]]></target>
+          <uuid>64f5eee2-375e-11e4-9771-d144f6bb3566</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>To create a new element view:</p>
+<ul>
+<li>Open the <a href="%(link0)">explorer view</a> of the traditional workplace.</li>
+<li>Choose in which module the element view should be defined and (create and) move to the subfolder <code>elementviews/</code> of this module.</li>
+<li>Choose the "New wizard" and select "Other options" -&gt; "Element view".</li>
+<li>Choose a filename (typically with suffix <code>.xml</code>) and edit the metadata.</li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>
