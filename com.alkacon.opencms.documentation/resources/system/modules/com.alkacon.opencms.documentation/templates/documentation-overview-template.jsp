@@ -64,10 +64,11 @@
 				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 
 					<%-- Menu for view switching (editor vs. user) --%>
+					<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/search-google.jsp:407a975a-68b6-11e4-9296-005056b61161)" />
 					<c:if test="${!cms.isOnlineProject}">
-					<cms:container name="documentation-view-switcher-container" type="documentation-view-switcher" maxElements="1">
-						<div class="jumbotron">Place the view switcher here.</div>
-					</cms:container>
+						<cms:container name="documentation-view-switcher-container" type="documentation-view-switcher" maxElements="1">
+							<div class="jumbotron">Place the view switcher here.</div>
+						</cms:container>
 					</c:if>
 
 					<!-- BEGIN: Site Navigation -->
