@@ -3,11 +3,7 @@
 <AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
   <AlkaconDocumentationTopicFrame language="en">
     <Overview name="Overview0">
-      <links>
-        <link name="link0" internal="true" type="A">
-          <target><![CDATA[/sites/default/grid-demo/]]></target>
-        </link>
-      </links>
+      <links/>
       <content><![CDATA[<p>With OpenCms version 9.5 containers have become much more flexible than before. In particular three features have been added:</p>
 <ul>
 <li>containers can be nested</li>
@@ -16,7 +12,7 @@
 <li>containers can display a default text if they are empty</li>
 </ul>
 <p>In this demo we explore all of these features. We define a layout content that exposes one, two or three nested containers. Via the layout content, you can also set which users can add or remove contents in the exposed containers.</p>
-<p>The example is simple, but somehow artificial. A real use-case where all the new features play together is <a href="%(link0)">the grid demo shipped with OpenCms 9.5</a>. In this demo the template is designed as in a modular construction system:</p>
+<p>The example is simple, but somehow artificial. A real use-case where all the new features play together is the grid demo shipped with OpenCms 9.5. In this demo the template is designed as in a modular construction system:</p>
 <ul>
 <li>A template jsp exposes just one container where only template developers can add contents.</li>
 <li>In the template's container, template developers can place template rows that expose new containers (where the template developer can decide who can add contents)</li>

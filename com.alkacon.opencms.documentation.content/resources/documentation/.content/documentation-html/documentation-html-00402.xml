@@ -4,9 +4,6 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link2" internal="true" type="A">
-          <target><![CDATA[/sites/default/grid-demo/blog/blog-entries/]]></target>
-        </link>
         <link name="link0" internal="true" type="A">
           <target><![CDATA[]]></target>
           <anchor><![CDATA[native_api]]></anchor>
@@ -25,7 +22,7 @@
 </ul>
 <p>To use the wrapper, include it the respective JavaScript into your formatter as headinclude (see <a href="%(link1)">here</a>). Then instantiate your own UGC object and use the object for all UGC specific actions. We recommend to make up a new namespace for your UGC code by wrapping it with <code>$(function() { /* ... */ });</code>.</p>
 <p>In the following, we explain how to work with the UGC object. Note that we use the function names from the initialization section to refer to the respective callback or event handlers later on.</p>
-<div class="alert alert-info">A <a href="%(link2)">complete example</a> on how to use the object is shipped with the demo, where UGC is used to allow posting blog entries.</div>]]></content>
+<div class="alert alert-info">A complete example on how to use the object is shipped with the demo, where UGC is used to allow posting blog entries.</div>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>
