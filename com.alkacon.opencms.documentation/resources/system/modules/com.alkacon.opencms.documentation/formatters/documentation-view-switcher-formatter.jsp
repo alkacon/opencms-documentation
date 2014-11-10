@@ -12,7 +12,7 @@
 		</c:when>
 		<c:otherwise>
 			<c:choose>
-				<c:when test="${cms.vfs.property['/documentation/']['opencms.documentation.editor'] eq 'true'}">
+				<c:when test="${cms.vfs.property[content.value.DocumentationFolder]['opencms.documentation.editor'] eq 'true'}">
 					<c:set var="editorViewLink">%(link.strong:/system/modules/com.alkacon.opencms.documentation/elementviews/editor-view.xml:4af2879d-47d2-11e4-9d1c-336f7b60f7b1)</c:set>
 					<%  CmsObject cmsObject = (CmsObject) pageContext.getAttribute("cmsObject");
 						CmsADESessionCache sessionCache = CmsADESessionCache.getCache(request, cmsObject);
@@ -39,7 +39,7 @@
 	</div>
 </c:when>
 <c:otherwise>
-	<div></div>
+	<div style="display:none;"></div>
 </c:otherwise>
 </c:choose>
 </cms:formatter>
