@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>9.5.0</opencms_version>
-		<createdate>Mon, 10 Nov 2014 12:51:10 GMT</createdate>
+		<createdate>Wed, 12 Nov 2014 09:01:39 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -166,10 +166,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>2219b9a3-68c3-11e4-88f6-55474d3cfa2e</uuidstructure>
-			<datelastmodified>Mon, 10 Nov 2014 10:20:02 GMT</datelastmodified>
+			<uuidstructure>744e057b-69b3-11e4-87a7-259ec8a334d7</uuidstructure>
+			<datelastmodified>Tue, 11 Nov 2014 15:00:20 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 10 Nov 2014 10:20:02 GMT</datecreated>
+			<datecreated>Tue, 11 Nov 2014 15:00:20 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -188,10 +188,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>23aa44ef-68c3-11e4-88f6-55474d3cfa2e</uuidstructure>
-			<datelastmodified>Mon, 10 Nov 2014 10:20:05 GMT</datelastmodified>
+			<uuidstructure>75c98127-69b3-11e4-87a7-259ec8a334d7</uuidstructure>
+			<datelastmodified>Tue, 11 Nov 2014 15:00:22 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 10 Nov 2014 10:20:05 GMT</datecreated>
+			<datecreated>Tue, 11 Nov 2014 15:00:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -267,7 +267,7 @@
 			<type>jsp</type>
 			<uuidstructure>a6fdeaa0-38d7-11e4-9c91-578a14069906</uuidstructure>
 			<uuidresource>a6fdeaa1-38d7-11e4-9c91-578a14069906</uuidresource>
-			<datelastmodified>Thu, 06 Nov 2014 09:11:09 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:30:17 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 10 Sep 2014 10:45:59 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -276,6 +276,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Toggles the property opencms.documentation.editor between true and false]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[never]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -291,7 +295,7 @@
 			<type>jsp</type>
 			<uuidstructure>f6cfa205-23b6-11e4-a9de-49dbf0abad32</uuidstructure>
 			<uuidresource>f6cfa206-23b6-11e4-a9de-49dbf0abad32</uuidresource>
-			<datelastmodified>Mon, 10 Nov 2014 08:06:17 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:30:27 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 14 Aug 2014 13:29:05 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -300,6 +304,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[CSS includes for jQuery, bootstrap, unify and specials for all documentation templates]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[always]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -315,7 +323,7 @@
 			<type>jsp</type>
 			<uuidstructure>0c0f8b39-23b7-11e4-a9de-49dbf0abad32</uuidstructure>
 			<uuidresource>0c0f8b3a-23b7-11e4-a9de-49dbf0abad32</uuidresource>
-			<datelastmodified>Mon, 10 Nov 2014 08:04:07 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:30:37 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 14 Aug 2014 13:29:41 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -324,6 +332,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[CSS includes for jQuery, bootstrap, unify and specials for all documentation templates]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[always]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -339,7 +351,7 @@
 			<type>jsp</type>
 			<uuidstructure>b2e612dd-23b6-11e4-a9de-49dbf0abad32</uuidstructure>
 			<uuidresource>b2e612de-23b6-11e4-a9de-49dbf0abad32</uuidresource>
-			<datelastmodified>Mon, 20 Oct 2014 10:24:30 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:30:47 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 14 Aug 2014 13:27:12 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -348,6 +360,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Javascript includes for jQuery, bootstrap, unify and specials for all documentation templates]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[always]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -363,7 +379,7 @@
 			<type>jsp</type>
 			<uuidstructure>e905aa21-23b6-11e4-a9de-49dbf0abad32</uuidstructure>
 			<uuidresource>e905aa22-23b6-11e4-a9de-49dbf0abad32</uuidresource>
-			<datelastmodified>Mon, 20 Oct 2014 13:35:21 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:30:57 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 14 Aug 2014 13:28:42 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -372,6 +388,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Javascript includes for jQuery, bootstrap, unify and specials for all documentation templates]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[always]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -387,7 +407,7 @@
 			<type>jsp</type>
 			<uuidstructure>fdb085dd-17d3-11e4-a3fa-b7bfd6088c56</uuidstructure>
 			<uuidresource>fdb085de-17d3-11e4-a3fa-b7bfd6088c56</uuidresource>
-			<datelastmodified>Tue, 09 Sep 2014 13:03:46 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:21:07 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 30 Jul 2014 10:26:38 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -396,6 +416,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Footer of a documenation page]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[true]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -411,7 +435,7 @@
 			<type>jsp</type>
 			<uuidstructure>54d313a9-17c6-11e4-a3fa-b7bfd6088c56</uuidstructure>
 			<uuidresource>54d313aa-17c6-11e4-a3fa-b7bfd6088c56</uuidresource>
-			<datelastmodified>Mon, 10 Nov 2014 09:05:07 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:22:26 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 30 Jul 2014 08:48:52 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -420,6 +444,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Page header for documentation pages]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[always]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -435,7 +463,7 @@
 			<type>jsp</type>
 			<uuidstructure>90ca36ae-68b8-11e4-9296-005056b61161</uuidstructure>
 			<uuidresource>90ca36af-68b8-11e4-9296-005056b61161</uuidresource>
-			<datelastmodified>Thu, 30 Oct 2014 11:31:14 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:22:57 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 10 Nov 2014 09:04:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -447,7 +475,7 @@
 				</property>
 				<property>
 					<name>cache</name>
-					<value><![CDATA[uri;user;params=(startlevel)]]></value>
+					<value><![CDATA[uri;params=(startlevel)]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -491,7 +519,7 @@
 			<type>jsp</type>
 			<uuidstructure>407a975a-68b6-11e4-9296-005056b61161</uuidstructure>
 			<uuidresource>407a975b-68b6-11e4-9296-005056b61161</uuidresource>
-			<datelastmodified>Mon, 10 Nov 2014 09:01:45 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:23:35 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 10 Nov 2014 08:47:50 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -500,6 +528,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Searching the documentation via Google]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[always]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -515,7 +547,7 @@
 			<type>jsp</type>
 			<uuidstructure>8d667ace-2930-11e4-b03d-d144f6bb3566</uuidstructure>
 			<uuidresource>8d667acf-2930-11e4-b03d-d144f6bb3566</uuidresource>
-			<datelastmodified>Mon, 10 Nov 2014 11:40:42 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:23:49 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 21 Aug 2014 12:42:03 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -524,6 +556,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[site navigation]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[uri]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -634,7 +670,7 @@
 			<type>jsp</type>
 			<uuidstructure>f29b9a7b-fd33-11e3-8938-fb93821e3720</uuidstructure>
 			<uuidresource>f29b9a7c-fd33-11e3-8938-fb93821e3720</uuidresource>
-			<datelastmodified>Tue, 23 Sep 2014 11:43:54 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:26:37 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 26 Jun 2014 13:15:30 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -642,7 +678,7 @@
 			<properties>
 				<property>
 					<name>cache</name>
-					<value><![CDATA[never]]></value>
+					<value><![CDATA[container-element]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -690,7 +726,7 @@
 			<type>jsp</type>
 			<uuidstructure>bc1ddec8-005d-11e4-8f23-1305b26fecac</uuidstructure>
 			<uuidresource>bc1ddec9-005d-11e4-8f23-1305b26fecac</uuidresource>
-			<datelastmodified>Mon, 18 Aug 2014 10:37:03 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:26:52 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 30 Jun 2014 13:52:11 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -698,7 +734,7 @@
 			<properties>
 				<property>
 					<name>cache</name>
-					<value><![CDATA[never]]></value>
+					<value><![CDATA[container-element]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -746,12 +782,16 @@
 			<type>jsp</type>
 			<uuidstructure>f02be9bc-26c5-11e4-be78-49dbf0abad32</uuidstructure>
 			<uuidresource>f02be9bd-26c5-11e4-be78-49dbf0abad32</uuidresource>
-			<datelastmodified>Mon, 18 Aug 2014 11:11:14 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:27:00 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 18 Aug 2014 10:53:50 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element]]></value>
+				</property>
 				<property type="shared">
 					<name>export</name>
 					<value><![CDATA[false]]></value>
@@ -798,12 +838,16 @@
 			<type>jsp</type>
 			<uuidstructure>574f96dd-1e2e-11e4-8373-d9f74955ba1b</uuidstructure>
 			<uuidresource>574f96de-1e2e-11e4-8373-d9f74955ba1b</uuidresource>
-			<datelastmodified>Wed, 13 Aug 2014 12:59:45 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:27:10 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Aug 2014 12:28:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element]]></value>
+				</property>
 				<property type="shared">
 					<name>export</name>
 					<value><![CDATA[false]]></value>
@@ -850,12 +894,16 @@
 			<type>jsp</type>
 			<uuidstructure>35257aca-1e16-11e4-8373-d9f74955ba1b</uuidstructure>
 			<uuidresource>35257acb-1e16-11e4-8373-d9f74955ba1b</uuidresource>
-			<datelastmodified>Mon, 20 Oct 2014 13:32:40 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:27:18 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Aug 2014 09:35:45 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element]]></value>
+				</property>
 				<property type="shared">
 					<name>export</name>
 					<value><![CDATA[false]]></value>
@@ -902,7 +950,7 @@
 			<type>jsp</type>
 			<uuidstructure>406f1e9b-0038-11e4-83a1-fb93821e3720</uuidstructure>
 			<uuidresource>406f1e9c-0038-11e4-83a1-fb93821e3720</uuidresource>
-			<datelastmodified>Wed, 30 Jul 2014 09:27:26 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:27:28 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 30 Jun 2014 09:23:52 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -910,7 +958,7 @@
 			<properties>
 				<property>
 					<name>cache</name>
-					<value><![CDATA[never]]></value>
+					<value><![CDATA[container-element]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -958,12 +1006,16 @@
 			<type>jsp</type>
 			<uuidstructure>034aef43-1d4c-11e4-9d87-d9f74955ba1b</uuidstructure>
 			<uuidresource>034aef44-1d4c-11e4-9d87-d9f74955ba1b</uuidresource>
-			<datelastmodified>Mon, 29 Sep 2014 10:21:43 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:27:41 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Aug 2014 09:28:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element]]></value>
+				</property>
 				<property type="shared">
 					<name>export</name>
 					<value><![CDATA[false]]></value>
@@ -1010,7 +1062,7 @@
 			<type>jsp</type>
 			<uuidstructure>cce13f45-fd33-11e3-8938-fb93821e3720</uuidstructure>
 			<uuidresource>cce13f46-fd33-11e3-8938-fb93821e3720</uuidresource>
-			<datelastmodified>Mon, 07 Jul 2014 15:23:31 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:27:52 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 26 Jun 2014 13:14:27 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1018,7 +1070,7 @@
 			<properties>
 				<property>
 					<name>cache</name>
-					<value><![CDATA[never]]></value>
+					<value><![CDATA[container-element]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -1066,12 +1118,16 @@
 			<type>jsp</type>
 			<uuidstructure>0d7a130f-0038-11e4-83a1-fb93821e3720</uuidstructure>
 			<uuidresource>0d7a1310-0038-11e4-83a1-fb93821e3720</uuidresource>
-			<datelastmodified>Tue, 28 Oct 2014 08:27:40 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:28:14 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 30 Jun 2014 09:22:27 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element]]></value>
+				</property>
 				<property type="shared">
 					<name>export</name>
 					<value><![CDATA[false]]></value>
@@ -1118,7 +1174,7 @@
 			<type>jsp</type>
 			<uuidstructure>8fa6329f-fd33-11e3-8938-fb93821e3720</uuidstructure>
 			<uuidresource>8fa632a0-fd33-11e3-8938-fb93821e3720</uuidresource>
-			<datelastmodified>Mon, 27 Oct 2014 08:09:04 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:28:35 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 26 Jun 2014 13:12:44 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1126,7 +1182,7 @@
 			<properties>
 				<property>
 					<name>cache</name>
-					<value><![CDATA[never]]></value>
+					<value><![CDATA[container-element]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -1174,12 +1230,16 @@
 			<type>jsp</type>
 			<uuidstructure>ff092c72-17b8-11e4-a3fa-b7bfd6088c56</uuidstructure>
 			<uuidresource>ff092c73-17b8-11e4-a3fa-b7bfd6088c56</uuidresource>
-			<datelastmodified>Mon, 27 Oct 2014 14:59:34 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:28:52 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 30 Jul 2014 07:13:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element]]></value>
+				</property>
 				<property type="shared">
 					<name>export</name>
 					<value><![CDATA[false]]></value>
@@ -1226,12 +1286,16 @@
 			<type>jsp</type>
 			<uuidstructure>a67566e9-6592-11e4-9296-005056b61161</uuidstructure>
 			<uuidresource>a67566ea-6592-11e4-9296-005056b61161</uuidresource>
-			<datelastmodified>Mon, 10 Nov 2014 12:17:46 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:29:00 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 06 Nov 2014 08:55:26 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element]]></value>
+				</property>
 				<property type="shared">
 					<name>export</name>
 					<value><![CDATA[false]]></value>
@@ -1842,7 +1906,7 @@
 			<type>jsp</type>
 			<uuidstructure>652697a0-1e12-11e4-a270-d9f74955ba1b</uuidstructure>
 			<uuidresource>652697a1-1e12-11e4-a270-d9f74955ba1b</uuidresource>
-			<datelastmodified>Thu, 07 Aug 2014 09:24:27 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:26:04 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Aug 2014 09:08:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1851,6 +1915,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[demo-wrapper function provider]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[always]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -3653,7 +3721,7 @@
 			<type>containerpage_template</type>
 			<uuidstructure>a1437bce-1d79-11e4-9d87-d9f74955ba1b</uuidstructure>
 			<uuidresource>a1437bcf-1d79-11e4-9d87-d9f74955ba1b</uuidresource>
-			<datelastmodified>Mon, 10 Nov 2014 11:44:12 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:25:16 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Aug 2014 14:54:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3662,6 +3730,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Template for Overviews]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[uri;locale]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -3685,7 +3757,7 @@
 			<type>containerpage_template</type>
 			<uuidstructure>52e80f8b-0295-11e4-8167-1305b26fecac</uuidstructure>
 			<uuidresource>52e8369c-0295-11e4-8167-1305b26fecac</uuidresource>
-			<datelastmodified>Mon, 10 Nov 2014 08:56:19 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:25:01 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 03 Jul 2014 09:35:09 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3698,6 +3770,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Documentation template]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[uri;locale]]></value>
 				</property>
 				<property>
 					<name>container.info</name>

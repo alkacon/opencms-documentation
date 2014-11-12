@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>9.5.0</opencms_version>
-		<createdate>Mon, 10 Nov 2014 12:51:56 GMT</createdate>
+		<createdate>Wed, 12 Nov 2014 09:01:47 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -47,10 +47,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>2219b9a3-68c3-11e4-88f6-55474d3cfa2e</uuidstructure>
-			<datelastmodified>Mon, 10 Nov 2014 10:20:02 GMT</datelastmodified>
+			<uuidstructure>744e057b-69b3-11e4-87a7-259ec8a334d7</uuidstructure>
+			<datelastmodified>Tue, 11 Nov 2014 15:00:20 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 10 Nov 2014 10:20:02 GMT</datecreated>
+			<datecreated>Tue, 11 Nov 2014 15:00:20 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -69,10 +69,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>23aa44ef-68c3-11e4-88f6-55474d3cfa2e</uuidstructure>
-			<datelastmodified>Mon, 10 Nov 2014 10:20:05 GMT</datelastmodified>
+			<uuidstructure>75c98127-69b3-11e4-87a7-259ec8a334d7</uuidstructure>
+			<datelastmodified>Tue, 11 Nov 2014 15:00:22 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 10 Nov 2014 10:20:05 GMT</datecreated>
+			<datecreated>Tue, 11 Nov 2014 15:00:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -261,12 +261,16 @@
 			<type>jsp</type>
 			<uuidstructure>734982f3-0746-11e4-9ef6-1305b26fecac</uuidstructure>
 			<uuidresource>734982f4-0746-11e4-9ef6-1305b26fecac</uuidresource>
-			<datelastmodified>Tue, 28 Oct 2014 11:38:49 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:32:12 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 09 Jul 2014 08:53:09 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element]]></value>
+				</property>
 				<property type="shared">
 					<name>export</name>
 					<value><![CDATA[false]]></value>
@@ -299,7 +303,7 @@
 			<type>jsp</type>
 			<uuidstructure>af826878-38b6-11e4-9abe-d144f6bb3566</uuidstructure>
 			<uuidresource>af826879-38b6-11e4-9abe-d144f6bb3566</uuidresource>
-			<datelastmodified>Wed, 24 Sep 2014 07:20:18 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:32:41 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 10 Sep 2014 06:50:00 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -308,6 +312,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Execute auto correction]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[never]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -323,7 +331,7 @@
 			<type>jsp</type>
 			<uuidstructure>57b48ac6-4328-11e4-a380-6725b2578a6f</uuidstructure>
 			<uuidresource>57b48ac7-4328-11e4-a380-6725b2578a6f</uuidresource>
-			<datelastmodified>Wed, 24 Sep 2014 07:19:52 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:32:25 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Sep 2014 13:48:47 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -332,6 +340,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Execute delete content]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[never]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -360,7 +372,7 @@
 			<type>jsp</type>
 			<uuidstructure>b99e4e87-31c7-11e4-8511-d144f6bb3566</uuidstructure>
 			<uuidresource>b99e4e88-31c7-11e4-8511-d144f6bb3566</uuidresource>
-			<datelastmodified>Mon, 10 Nov 2014 12:47:02 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:32:59 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 01 Sep 2014 11:04:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -369,6 +381,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Function provider for checking if images are correct for the current OpenCms version.]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[never]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -408,7 +424,7 @@
 			<type>jsp</type>
 			<uuidstructure>ea1f8f1e-2db3-11e4-a7dc-d144f6bb3566</uuidstructure>
 			<uuidresource>ea1f8f1f-2db3-11e4-a7dc-d144f6bb3566</uuidresource>
-			<datelastmodified>Wed, 27 Aug 2014 14:04:37 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:33:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 27 Aug 2014 06:32:27 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -417,6 +433,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Grab Todos of Topics and Sections]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[never]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -610,7 +630,7 @@
 			<type>containerpage_template</type>
 			<uuidstructure>0956e25f-2d2b-11e4-93f4-d144f6bb3566</uuidstructure>
 			<uuidresource>0956e260-2d2b-11e4-93f4-d144f6bb3566</uuidresource>
-			<datelastmodified>Mon, 10 Nov 2014 07:55:57 GMT</datelastmodified>
+			<datelastmodified>Tue, 11 Nov 2014 15:31:38 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 26 Aug 2014 14:12:39 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -623,6 +643,10 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Editortools template]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[uri;locale]]></value>
 				</property>
 				<property>
 					<name>container.info</name>
