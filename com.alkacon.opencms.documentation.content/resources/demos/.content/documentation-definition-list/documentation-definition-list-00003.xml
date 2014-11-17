@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Attributes of <pdf:thumbnail>]]></Title>
+    <Heading><![CDATA[Attributes of <code>&lt;pdf:thumbnail&gt;</code>]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[file]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>VFS URI of the PDF for which the thumbnail should be created.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[height (optional)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Height of the generated thumbnail. Given as integer value, specifying the number of pixels. By default the height is set to -1, which means that it is chosen automatically dependent on the PDF.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[width (optional)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Width of the generated thumbnail. Given as integer value, specifying the number of pixels. By default the width is set to -1, which means that it is chosen automatically dependent on the PDF.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[format (optional)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Format of the generated thumbnail. Either <code>jpg</code> or <code>png</code>. Default:  <code>png</code>.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

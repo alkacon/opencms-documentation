@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The interesting part happens in the <code>&lt;img&gt;</code> tag: Here the <code>&lt;cms:pdfthumbnail&gt;</code> tag is used for the attribute <code>src</code>. The tag expands to a special link. When the link is requested for the first time, the thumbnail is generated and made available under that link. If the link is requested again, the cached thumbnail is returned.</p>
+<p>The PDF used to generate the thumbnail and some attributes of the generated thumbnail are specified via the attributes of <code>&lt;cms:pdfthumbnail&gt;</code>.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

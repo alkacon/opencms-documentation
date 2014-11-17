@@ -2,11 +2,30 @@
 
 <DocumentationTopicrows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic-row.xsd">
   <DocumentationTopicrow language="en">
-    <Title><![CDATA[Model page: Topic Overview]]></Title>
+    <Title><![CDATA[PDF generation]]></Title>
+    <Description name="Description0">
+      <links/>
+      <content><![CDATA[<p>OpenCms allows to render contents into PDF files on demand. Read about this feature in the following topics.</p>]]></content>
+    </Description>
     <Item>
-      <Headline><![CDATA[Model page: Topic Overview]]></Headline>
+      <Headline/>
       <Topic>
-        <PageLink/>
+        <PageLink>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/pdf-support/generating-pdf-output/]]></target>
+            <uuid>8c0d2d93-64cb-11e4-9296-005056b61161</uuid>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[Detailed explanation of the PDF generation]]></AltHeading>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/demos/pdf-generation/]]></target>
+            <uuid>0379ec80-64ce-11e4-9296-005056b61161</uuid>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[PDF generation demo]]></AltHeading>
       </Topic>
     </Item>
   </DocumentationTopicrow>

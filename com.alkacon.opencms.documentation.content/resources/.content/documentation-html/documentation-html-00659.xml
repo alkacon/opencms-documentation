@@ -3,7 +3,13 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/pdf-support/generating-pdf-output/]]></target>
+          <uuid>8c0d2d93-64cb-11e4-9296-005056b61161</uuid>
+          <anchor><![CDATA[technical_details]]></anchor>
+        </link>
+      </links>
       <content><![CDATA[<p>The main intention on PDF generation support is to allow rendering XML contents into PDF files. Hence use cases are:</p>
 <ul>
 <li>Newsletters in PDF format</li>
@@ -12,7 +18,7 @@
 <li>Product information</li>
 <li>...</li>
 </ul>
-<p>For very native output support, it is assumed that the information you want to render in a PDF file is stored in a single XML content. But, you are not limited to that scenario. You may also grep information from various contents and, for example, make lists of content also available in PDF format (e.g., latest news). The options of placing context information, headers, footers and page numbers are also provided via CSS's page media support.</p>
+<p>For very native output support, it is assumed that the information you want to render in a PDF file is stored in a single XML content. But, you are not limited to that scenario. You may also grep information from various contents and, for example, make lists of content also available in PDF format (e.g., latest news). But be aware of the caching behavior as described <a href="%(link0)">below</a>. The options of placing context information, headers, footers and page numbers are also provided via CSS's page media support.</p>
 <p>In the end, you may not have to maintain information for your website and your PDF newsletters or maybe also small booklets twice. Just generate HTML and PDF from the same XML contents.</p>]]></content>
     </Html>
   </DocumentationHtml>
