@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>9.5.0</opencms_version>
-		<createdate>Wed, 12 Nov 2014 09:01:39 GMT</createdate>
+		<createdate>Mon, 17 Nov 2014 09:43:38 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -1771,6 +1771,62 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-pdf-thumbnail.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-pdf-thumbnail.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>4e37fa50-6a8a-11e4-9cbe-259ec8a334d7</uuidstructure>
+			<uuidresource>4e37fa51-6a8a-11e4-9cbe-259ec8a334d7</uuidresource>
+			<datelastmodified>Wed, 12 Nov 2014 17:00:34 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 12 Nov 2014 16:38:17 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo article formatter for demonstrating pdf generation]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-pdf-thumbnail.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-pdf-thumbnail.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>54ebfb34-6a8a-11e4-9cbe-259ec8a334d7</uuidstructure>
+			<uuidresource>54ebfb35-6a8a-11e4-9cbe-259ec8a334d7</uuidresource>
+			<datelastmodified>Wed, 12 Nov 2014 16:38:46 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 12 Nov 2014 16:38:29 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo article formatter: PDF generation demo]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.opencms.documentation/formatters/demo/documentation-demo-dependent-fields.jsp</source>
 			<destination>system/modules/com.alkacon.opencms.documentation/formatters/demo/documentation-demo-dependent-fields.jsp</destination>
 			<type>jsp</type>
@@ -3377,7 +3433,7 @@
 			<type>plain</type>
 			<uuidstructure>6cc519a6-1e0a-11e4-a270-d9f74955ba1b</uuidstructure>
 			<uuidresource>6cc519a7-1e0a-11e4-a270-d9f74955ba1b</uuidresource>
-			<datelastmodified>Mon, 20 Oct 2014 13:08:59 GMT</datelastmodified>
+			<datelastmodified>Wed, 12 Nov 2014 16:46:08 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 07 Aug 2014 08:11:25 GMT</datecreated>
 			<usercreated>Admin</usercreated>
