@@ -18,6 +18,7 @@
 			<xsd:element name="Text" type="OpenCmsHtml" />
 			<xsd:element name="Image" type="OpenCmsVfsImage" minOccurs="0" />
 			<xsd:element name="Script" type="OpenCmsString" minOccurs="0" />
+			<xsd:element name="PDF" type="OpenCmsVfsFile" minOccurs="0" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="optional" />
 	</xsd:complexType>
