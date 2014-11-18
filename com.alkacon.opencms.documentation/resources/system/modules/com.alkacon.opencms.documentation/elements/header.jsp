@@ -29,7 +29,12 @@
 <!--=== Breadcrumbs ===-->
 <div class="breadcrumbs margin-bottom-30">
 	<div class="container-fluid container-main">
-        <h1 class="pull-left"><cms:info property="opencms.title" /></h1>
+        <h1 class="pull-left">
+        	${cms.title}
+        	<c:if test="${cms.isEditMode}">
+            	<span class="badge superscript">${cms.requestContext.currentUser.name}</span>
+            </c:if>
+        </h1>
         <cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/nav-breadcrumb.jsp:90ca36ae-68b8-11e4-9296-005056b61161)">
 			<cms:param name="startlevel">0</cms:param>
 		</cms:include>

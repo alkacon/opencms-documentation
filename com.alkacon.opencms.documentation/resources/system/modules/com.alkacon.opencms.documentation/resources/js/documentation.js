@@ -14,8 +14,8 @@ function replaceFootnotes() {
 }
 
 function expand(e) {
-    $(this).removeClass('fa-toggle-right');
-    $(this).addClass('fa-toggle-down');
+    $(this).removeClass('glyphicon-expand');
+    $(this).addClass('glyphicon-collapse-down');
     $(this).parent().parent().next().show();
     $(this).unbind("click",expand);
     $(this).bind("click",collapse);    
@@ -23,15 +23,32 @@ function expand(e) {
 }
 
 function collapse(e) {
-    $(this).removeClass('fa-toggle-down');
-    $(this).addClass('fa-toggle-right');
+    $(this).removeClass('glyphicon-collapse-down');
+    $(this).addClass('glyphicon-expand');
     $(this).parent().parent().next().hide();
     $(this).unbind("click",collapse);
     $(this).bind("click",expand);
     e.preventDefault();
 }
 
+function addPageNavHandler() {
+    $('.page-nav').click(function (e) {
+        e.stopPropagation(); 
+     });
+	$('.page-nav-btn').click(function(e) {
+		$('.page-nav').show();
+		e.stopPropagation();
+		$('body').one('click', function() {
+		    $('.page-nav').hide();
+		});
+	});
+	$('.page-nav .close').click(function() {
+		$('.page-nav').hide();
+	})
+}
+
 $('document').ready(function() {
+	addPageNavHandler();
     replaceFootnotes();
     $("span.nav-side-toggle-sublevel.data-nav-collapse").bind("click",collapse);
     $("span.nav-side-toggle-sublevel.data-nav-expand").bind("click",expand);

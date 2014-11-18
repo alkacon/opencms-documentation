@@ -8,7 +8,7 @@
 	<div class="tag-box tag-box-v4">
 	<c:choose>
 		<c:when test="${fn:startsWith(cms.requestContext.uri,editorToolsLink)}">
-			<a class="btn-u btn-u-default btn-block" style="text-align:center;" href="<cms:link>${content.value.DocumentationFolder}</cms:link>">Back to the documentation</a>
+			<a class="btn btn-info btn-block" style="text-align:center;" href="<cms:link>${content.value.DocumentationFolder}</cms:link>">Back to the documentation</a>
 		</c:when>
 		<c:otherwise>
 			<c:choose>
@@ -27,7 +27,7 @@
 					<%	}
 					%>
 					<c:set var="alternativeView">user view</c:set>
-					<a class="btn-u btn-u-default btn-block" style="text-align:center;" href="<cms:link>${editorToolsLink}</cms:link>">Editor Tools</a>
+					<a class="btn btn-default btn-block" style="text-align:center;" href="<cms:link>${editorToolsLink}</cms:link>">Editor Tools</a>
 				</c:when>
 				<c:otherwise>
 					<c:set var="alternativeView">editor view</c:set>

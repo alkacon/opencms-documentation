@@ -42,7 +42,7 @@
 		</c:if>
 	</c:if>
 	<cms:container type="documentation-section" name="documentation-section-container">
-		<div class="tag-box tag-box-v6"><h2>Please add content to this section.</h2></div>
+		<div class="jumbotron"><h2>Please add content to this section.</h2></div>
 	</cms:container>
 	
 </div>

@@ -24,7 +24,7 @@
 	<div class="tag-box tag-box-v3" ${content.rdfa.Overview}>${content.value.Overview}</div>
 	<c:set var="relatedLinks" value="${content.subValueList.RelatedLinks}" />
 	<c:if test="${cms:getListSize(relatedLinks) > 0}">
-		<div class="funny-boxes funny-boxes-colored funny-boxes-grey">
+		<div class="related-links">
 			<h5>Related links</h5>
 			<ul>
 				<c:forEach var="linkItem" items="${relatedLinks}">
@@ -35,17 +35,17 @@
 							<li>
 								<a href="${uri}">${link.value.LinkText.exists?link.value.LinkText:uri}</a>
 								<c:if test="${link.value.LinkDescription.exists}">
-									<blockquote>${link.value.LinkDescription}</blockquote>
+									<div class="link-description">${link.value.LinkDescription}</div>
 								</c:if>
 							</li>
 						</c:when>
 						<c:otherwise>
 						<li style="list-style-type:none;">
 							<c:if test="${linkItem.value.Title.exists}">
-								<strong>${linkItem.value.Title}</strong>
+								<h6>${linkItem.value.Title}</h6>
 							</c:if>
 							<c:if test="${linkItem.value.Description.exists}">
-								<blockquote>${linkItem.value.Description}</blockquote>
+								<div class="link-description">${linkItem.value.Description}</div>
 							</c:if>
 								<ul>
 									<c:forEach var="link" items="${linkItem.valueList.Link}">
@@ -53,13 +53,13 @@
 								<li>
 									<a href="${uri}">${link.value.LinkText.exists?link.value.LinkText:uri}</a>
 									<c:if test="${link.value.LinkDescription.exists}">
-										<blockquote>${link.value.LinkDescription}</blockquote>
+										<div class="link-description">${link.value.LinkDescription}</div>
 									</c:if>
 								</li>
 									</c:forEach>
 								</ul>
 							<c:if test="${linkItem.value.ListInfo.exists}">
-								<blockquote>${linkItem.value.ListInfo}</blockquote>
+								<div class="link-description">${linkItem.value.ListInfo}</div>
 							</c:if>
 						</li>
 						</c:otherwise>

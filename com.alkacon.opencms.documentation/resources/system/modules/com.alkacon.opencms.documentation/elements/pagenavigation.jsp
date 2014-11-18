@@ -9,7 +9,7 @@
 %>
 
 <c:if test="${cms:getListSize(pageNav.navElements) > 0}">
-	<i class="page-nav-btn fa fa-reorder hidden-xs"></i>
+	<i class="page-nav-btn glyphicon glyphicon-align-justify hidden-xs"></i>
 	<div class="page-nav hidden-xs">
 		<h4 class="heading">
 			Page Navigation

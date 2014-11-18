@@ -34,8 +34,8 @@ int toInt(String val, int default_val) {
 			
 			<li class="list-group-item nav-side-level-${lastItem.navTreeLevel - navStartLevel}<c:if test="${!lastItem.navigationLevel && nav.isActive[lastItem.resourceName]}"> active</c:if>">
 				<a href="<cms:link>${lastItem.resourceName}</cms:link>">
-					<span class='nav-side-toggle-sublevel fa
-					             ${elem.navTreeLevel > lastItem.navTreeLevel?(fn:startsWith(cms.requestContext.uri,lastItem.resourceName)?"fa-toggle-down data-nav-collapse":"fa-toggle-right data-nav-expand"):""}'>&nbsp;</span>${lastItem.navText}</a>
+					<span class='nav-side-toggle-sublevel glyphicon
+					             ${elem.navTreeLevel > lastItem.navTreeLevel?(fn:startsWith(cms.requestContext.uri,lastItem.resourceName)?"glyphicon-collapse-down data-nav-collapse":"glyphicon-expand data-nav-expand"):""}'>&nbsp;</span>${lastItem.navText}</a>
 			</li>			
 			
 			<c:set var="enterSubLevel" value="${elem.navTreeLevel > lastItem.navTreeLevel?true:false}" />

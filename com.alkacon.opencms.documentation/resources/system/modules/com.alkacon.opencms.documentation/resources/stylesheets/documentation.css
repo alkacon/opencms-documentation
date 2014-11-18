@@ -1,11 +1,11 @@
-body {
-	font-size: 14px;
+/* Styles for documentation-specific classes */
 
-}
-
+/* Sections */
 div.documentation-section {
 	padding-bottom: 20px;
 }
+
+/* Footnotes */
 span.footnote {
 	font-size: small;
 	font-family: monospace;
@@ -17,6 +17,7 @@ span.footnote-hover:hover {
 	cursor: help;
 }
 
+/* Special for demos */
 .xscroll {
 	overflow-x:auto;
 }
@@ -43,10 +44,7 @@ div.documentation-demo-source {
 	margin-bottom: 15px;
 }
 
-div.container-fluid.container-main {
-	max-width: 1350px;
-}
-
+/* For the topic-row formatter */
 div.panel-body-documentation > a {
 	text-decoration:none;
 }
@@ -54,6 +52,29 @@ h4.panel-title-documentation > a:active {
 	color:inherit;
 
 	}
-div.tooltip-inner {
-	max-width: 250px;
+
+/* Box for related links */
+
+.related-links {
+	background-color: #ccc;
+	padding: 20px;
 }
+
+.related-links a {
+	color: #333;
+}
+
+.related-links code {
+	background-color: #ccc;
+	color: #333;
+}
+
+.related-links:last-child {
+	padding-bottom: 10px;
+}
+
+div.link-description {
+	font-style: italic;
+	margin: 5px;
+}
+

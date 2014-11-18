@@ -70,7 +70,7 @@
 				<%-- Back to the documentation --%>
 				<c:if test="${!cms.isOnlineProject}">
 					<cms:container name="documentation-view-switcher-container" type="documentation-view-switcher" maxElements="1">
-						<div class="jumbotron">Place the view switcher here.</div>
+						<div class="jumbotron"><h2>Place the view switcher here.</h2></div>
 					</cms:container>
 				</c:if>
 				
@@ -86,7 +86,9 @@
 			<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
 			
 				<!-- Here goes all the content -->
-				<cms:container name="documentation-content-container" type="documentation-content" width="1350" detailview="true" />
+				<cms:container name="documentation-content-container" type="documentation-content" width="1350" detailview="true">
+					<div class="jumbotron"><h2>Please add sections here.</h2></div>
+				</cms:container>
 			</div>
 		</div>
 	</div><!--/container-->		

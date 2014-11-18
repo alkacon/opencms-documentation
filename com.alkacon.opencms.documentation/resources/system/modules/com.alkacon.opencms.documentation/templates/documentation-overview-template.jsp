@@ -80,17 +80,13 @@
 
 					<!-- BEGIN: Topic Container -->
 		   		<cms:container name="documentation-topic-container" type="documentation-topic" width="1350" maxElements="1">
-					<c:if test="${not cms.isOnlineProject}">
-						<div class="tag-box tag-box-v6"><h2>Add a topic here!</h2></div>
-			    	</c:if>
+						<div class="jumbotron"><h2>Add a topic here!</h2></div>
 		   		</cms:container>
 			    <!-- END: Topic Container -->
 
 				<!-- Here goes all the documentation topic's content -->
 				<cms:container name="documentation-overview-container" type="documentation-overview" width="1350" detailview="true">
-					<c:if test="${not cms.isOnlineProject}">
-						<div class="tag-box tag-box-v6"><h2>Put section contents here.</h2></div>
-					</c:if>
+						<div class="jumbotron"><h2>Put section contents here.</h2></div>
 				</cms:container>
 				</div>
 			</div>
