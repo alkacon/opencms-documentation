@@ -2,16 +2,13 @@ apply plugin: 'java'
 apply plugin: 'maven'
 
 buildDir = build_directory
+sourceCompatibility = java_target_version
+targetCompatibility = java_target_version
 project.ext.currentDate=new Date().format('dd.MM.yy')
 project.ext.modulesDistsDir = file("${project.buildDir}/modulesZip")
 
 if (!project.hasProperty('max_heap_size')){
     project.ext.max_heap_size='1024m'
-}
-
-if (!project.hasProperty('languageLevel')){
-    println "Setting Language version to 1.6"
-	project.ext.languageLevel='1.6'
 }
 
 repositories {
@@ -103,7 +100,11 @@ modules_documentation_all.split(',').each{ moduleName ->
         ext.dependencies = moduleDependencies
         ext.gwtSourceSetName = gwtSourceSetName
         ext.gwtRenameTo = gwtRename
-        version moduleVersion
+        if (project.hasProperty('noVersion')) {
+        	version 
+        } else {
+         	version moduleVersion
+        }
         destinationDir modulesDistsDir
         // include the jar file
         if (file("${project.buildDir}/libs/${moduleName}.jar").exists()) {
