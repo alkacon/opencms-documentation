@@ -7,6 +7,6 @@
       <input type="text" class="form-control" id="q" name="q" placeholder="Enter query">
     </div>
     <input type="hidden" name="sitesearch" value='<%= OpenCms.getModuleManager().getModule("com.alkacon.opencms.documentation").getParameter("sitesearch","") %>'>
-    <button type="submit" class="btn btn-block btn-primary">Search via Google</button>
+    <button type="submit" class="btn btn-block btn-primary">Search</button>
   </form>
 </div>
