@@ -24,7 +24,7 @@
 	<div class="tag-box tag-box-v3" ${content.rdfa.Overview}>${content.value.Overview}</div>
 	<c:set var="relatedLinks" value="${content.subValueList.RelatedLinks}" />
 	<c:if test="${cms:getListSize(relatedLinks) > 0}">
-		<div class="related-links">
+		<div class="related-links margin-bottom-30">
 			<h5>Related links</h5>
 			<ul>
 				<c:forEach var="linkItem" items="${relatedLinks}">
