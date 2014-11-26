@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>9.5.0</opencms_version>
-		<createdate>Tue, 25 Nov 2014 09:38:58 GMT</createdate>
+		<createdate>Wed, 26 Nov 2014 09:01:55 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -405,7 +405,7 @@
 			<type>jsp</type>
 			<uuidstructure>fdb085dd-17d3-11e4-a3fa-b7bfd6088c56</uuidstructure>
 			<uuidresource>fdb085de-17d3-11e4-a3fa-b7bfd6088c56</uuidresource>
-			<datelastmodified>Tue, 11 Nov 2014 15:21:07 GMT</datelastmodified>
+			<datelastmodified>Tue, 25 Nov 2014 14:44:35 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 30 Jul 2014 10:26:38 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1172,7 +1172,7 @@
 			<type>jsp</type>
 			<uuidstructure>8fa6329f-fd33-11e3-8938-fb93821e3720</uuidstructure>
 			<uuidresource>8fa632a0-fd33-11e3-8938-fb93821e3720</uuidresource>
-			<datelastmodified>Mon, 17 Nov 2014 14:57:20 GMT</datelastmodified>
+			<datelastmodified>Tue, 25 Nov 2014 15:39:22 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 26 Jun 2014 13:12:44 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1191,20 +1191,20 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-topic-row-formatter-config.xml</source>
-			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-topic-row-formatter-config.xml</destination>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-topic-row-formatter-complex-config.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-topic-row-formatter-complex-config.xml</destination>
 			<type>formatter_config</type>
-			<uuidstructure>ff0bc485-17b8-11e4-a3fa-b7bfd6088c56</uuidstructure>
-			<uuidresource>ff0bc486-17b8-11e4-a3fa-b7bfd6088c56</uuidresource>
-			<datelastmodified>Mon, 27 Oct 2014 15:25:23 GMT</datelastmodified>
+			<uuidstructure>f95ad3b8-74b1-11e4-82bd-259ec8a334d7</uuidstructure>
+			<uuidresource>f95ad3b9-74b1-11e4-82bd-259ec8a334d7</uuidresource>
+			<datelastmodified>Wed, 26 Nov 2014 08:48:50 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 30 Jul 2014 07:13:24 GMT</datecreated>
-			<usercreated>Admin</usercreated>
+			<datecreated>Tue, 25 Nov 2014 14:47:26 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Topic Row Formatter]]></value>
+					<value><![CDATA[Complex Topic Row Formatter]]></value>
 				</property>
 				<property>
 					<name>locale</name>
@@ -1223,15 +1223,71 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-topic-row-formatter.jsp</source>
-			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-topic-row-formatter.jsp</destination>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-topic-row-formatter-complex.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-topic-row-formatter-complex.jsp</destination>
 			<type>jsp</type>
 			<uuidstructure>ff092c72-17b8-11e4-a3fa-b7bfd6088c56</uuidstructure>
 			<uuidresource>ff092c73-17b8-11e4-a3fa-b7bfd6088c56</uuidresource>
-			<datelastmodified>Tue, 11 Nov 2014 15:28:52 GMT</datelastmodified>
+			<datelastmodified>Wed, 26 Nov 2014 08:52:37 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 30 Jul 2014 07:13:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-topic-row-formatter-default-config.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-topic-row-formatter-default-config.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>ff0bc485-17b8-11e4-a3fa-b7bfd6088c56</uuidstructure>
+			<uuidresource>ff0bc486-17b8-11e4-a3fa-b7bfd6088c56</uuidresource>
+			<datelastmodified>Wed, 26 Nov 2014 08:48:35 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 30 Jul 2014 07:13:24 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Default Topic Row Formatter]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-topic-row-formatter-default.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-topic-row-formatter-default.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>eec308f4-74b1-11e4-82bd-259ec8a334d7</uuidstructure>
+			<uuidresource>eec308f5-74b1-11e4-82bd-259ec8a334d7</uuidresource>
+			<datelastmodified>Wed, 26 Nov 2014 08:54:14 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 25 Nov 2014 14:47:09 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -2508,7 +2564,7 @@
 			<type>xmlvfsbundle</type>
 			<uuidstructure>d997293e-fc67-11e3-8410-fb93821e3720</uuidstructure>
 			<uuidresource>d997293f-fc67-11e3-8410-fb93821e3720</uuidresource>
-			<datelastmodified>Thu, 06 Nov 2014 08:55:26 GMT</datelastmodified>
+			<datelastmodified>Wed, 26 Nov 2014 09:00:03 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 25 Jun 2014 12:54:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3053,7 +3109,7 @@
 			<type>plain</type>
 			<uuidstructure>9a48a74e-010e-11e4-aa3f-1305b26fecac</uuidstructure>
 			<uuidresource>9a48a74f-010e-11e4-aa3f-1305b26fecac</uuidresource>
-			<datelastmodified>Tue, 18 Nov 2014 07:58:38 GMT</datelastmodified>
+			<datelastmodified>Tue, 25 Nov 2014 15:41:43 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 01 Jul 2014 10:58:15 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3093,7 +3149,7 @@
 			<type>plain</type>
 			<uuidstructure>e6ce1af6-68af-11e4-9296-005056b61161</uuidstructure>
 			<uuidresource>e6ce1af7-68af-11e4-9296-005056b61161</uuidresource>
-			<datelastmodified>Tue, 18 Nov 2014 07:57:31 GMT</datelastmodified>
+			<datelastmodified>Wed, 26 Nov 2014 07:13:44 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 10 Nov 2014 08:02:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3597,7 +3653,7 @@
 			<type>plain</type>
 			<uuidstructure>b0a3df06-17bb-11e4-a3fa-b7bfd6088c56</uuidstructure>
 			<uuidresource>b0a3df07-17bb-11e4-a3fa-b7bfd6088c56</uuidresource>
-			<datelastmodified>Wed, 30 Jul 2014 08:08:01 GMT</datelastmodified>
+			<datelastmodified>Wed, 26 Nov 2014 08:58:29 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 30 Jul 2014 07:32:41 GMT</datecreated>
 			<usercreated>Admin</usercreated>
