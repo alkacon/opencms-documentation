@@ -13,7 +13,7 @@
 
 	<xsd:complexType name="OpenCmsDocumentationTopicrowItem">
 		<xsd:sequence>
-			<xsd:element name="Headline" type="OpenCmsString" />
+			<xsd:element name="Headline" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="Topic" type="OpenCmsDocumentationTopicrowItemEntry" maxOccurs="10" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
