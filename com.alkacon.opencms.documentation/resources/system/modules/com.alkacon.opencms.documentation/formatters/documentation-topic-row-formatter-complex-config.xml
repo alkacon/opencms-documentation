@@ -2,7 +2,7 @@
 
 <NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
   <NewFormatter language="en">
-    <NiceName><![CDATA[Topic Row Formatter]]></NiceName>
+    <NiceName><![CDATA[Complex Topic Row Formatter]]></NiceName>
     <Type><![CDATA[documentation-topic-row]]></Type>
     <Jsp>
       <link type="WEAK">
@@ -19,7 +19,7 @@
     <Preview>false</Preview>
     <SearchContent>true</SearchContent>
     <AutoEnabled>true</AutoEnabled>
-    <Detail>true</Detail>
+    <Detail>false</Detail>
     <NestedContainers>false</NestedContainers>
     <Setting>
       <PropertyName><![CDATA[showteaser]]></PropertyName>

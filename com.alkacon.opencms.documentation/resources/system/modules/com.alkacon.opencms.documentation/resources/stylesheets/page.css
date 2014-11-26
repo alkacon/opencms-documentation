@@ -118,6 +118,11 @@ h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
 	background: #fff;
 }
 
+.panel code {
+	color: #555;
+	background: #fff;
+}
+
 h1 {
 	font-size: 28px;
 	line-height: 35px;
@@ -128,7 +133,23 @@ h2 {
 	line-height: 33px;
 }
 
+h3 {
+	font-size: 22px;
+	line-height: 31px;
+}
+
 h4 {
+	font-size: 20px;
+	line-height: 29px;
+}
+
+h5 {
+	font-size: 18px;
+	line-height: 27px;
+}
+
+h6 {
+	font-size: 16px;
 	line-height: 25px;
 }
 
