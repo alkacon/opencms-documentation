@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapNavigations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/navigation.xsd">
+  <BootstrapNavigation language="en">
+    <Title><![CDATA[Welcome main navigation]]></Title>
+    <NavStartLevel><![CDATA[1]]></NavStartLevel>
+    <LogoLink>
+      <link internal="true" type="WEAK">
+        <target><![CDATA[/sites/default/]]></target>
+        <uuid>92a44cd3-7572-11e4-958f-0242ac11002b</uuid>
+      </link>
+    </LogoLink>
+    <Header name="Header0">
+      <links>
+        <link name="link2" internal="true" type="A">
+          <target><![CDATA[/sites/default/central/impressum/]]></target>
+          <uuid>72b5728d-762c-11e4-a586-0242ac11002b</uuid>
+        </link>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://www.opencms.org]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://www.alkacon.com]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<ul class="loginbar pull-right">
+  <li><a href="%(link0)">opencms.org</a></li>
+  <li class="topbar-devider"></li>
+  <li><a href="%(link1)">alkacon.com</a></li>
+  <li class="topbar-devider"></li>
+  <li><a href="%(link2)">Impressum</a></li>
+</ul>]]></content>
+    </Header>
+  </BootstrapNavigation>
+</BootstrapNavigations>

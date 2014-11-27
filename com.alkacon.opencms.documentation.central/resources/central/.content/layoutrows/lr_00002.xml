@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapLayoutRows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/layoutrow.xsd">
+  <BootstrapLayoutRow language="en">
+    <Title><![CDATA[4 columns]]></Title>
+    <Column>
+      <Name><![CDATA[col-1]]></Name>
+      <Type><![CDATA[onequarter]]></Type>
+      <Count><![CDATA[50]]></Count>
+      <Editors><![CDATA[ROLE.ELEMENT_AUTHOR]]></Editors>
+      <EmptyText><![CDATA[1st column - drop content here.]]></EmptyText>
+      <XS><![CDATA[col-xs-12]]></XS>
+      <SM><![CDATA[col-sm-6]]></SM>
+      <MD><![CDATA[col-md-3]]></MD>
+      <LG><![CDATA[-]]></LG>
+      <Modifier><![CDATA[col-xs-6 col-md-3]]></Modifier>
+    </Column>
+    <Column>
+      <Name><![CDATA[col-2]]></Name>
+      <Type><![CDATA[onequarter]]></Type>
+      <Count><![CDATA[50]]></Count>
+      <Editors><![CDATA[ROLE.ELEMENT_AUTHOR]]></Editors>
+      <EmptyText><![CDATA[2nd column - drop content here.]]></EmptyText>
+      <XS><![CDATA[col-xs-12]]></XS>
+      <SM><![CDATA[col-sm-6]]></SM>
+      <MD><![CDATA[col-md-3]]></MD>
+      <LG><![CDATA[-]]></LG>
+      <Modifier><![CDATA[col-xs-6 col-md-3]]></Modifier>
+    </Column>
+    <Column>
+      <Name><![CDATA[col-3]]></Name>
+      <Type><![CDATA[onequarter]]></Type>
+      <Count><![CDATA[50]]></Count>
+      <Editors><![CDATA[ROLE.ELEMENT_AUTHOR]]></Editors>
+      <EmptyText><![CDATA[3rd column - drop content here.]]></EmptyText>
+      <XS><![CDATA[col-xs-12]]></XS>
+      <SM><![CDATA[col-sm-6]]></SM>
+      <MD><![CDATA[col-md-3]]></MD>
+      <LG><![CDATA[-]]></LG>
+      <Modifier><![CDATA[col-xs-6 col-md-3]]></Modifier>
+    </Column>
+    <Column>
+      <Name><![CDATA[col-4]]></Name>
+      <Type><![CDATA[onequarter]]></Type>
+      <Count><![CDATA[50]]></Count>
+      <Editors><![CDATA[ROLE.ELEMENT_AUTHOR]]></Editors>
+      <EmptyText><![CDATA[4th column - drop content here.]]></EmptyText>
+      <XS><![CDATA[col-xs-12]]></XS>
+      <SM><![CDATA[col-sm-6]]></SM>
+      <MD><![CDATA[col-md-3]]></MD>
+      <LG><![CDATA[-]]></LG>
+      <Modifier><![CDATA[col-xs-6 col-md-3]]></Modifier>
+    </Column>
+  </BootstrapLayoutRow>
+</BootstrapLayoutRows>

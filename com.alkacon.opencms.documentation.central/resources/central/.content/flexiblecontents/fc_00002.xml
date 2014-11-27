@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BootstrapFlexibleElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/flexible.xsd">
+  <BootstrapFlexibleElement language="en">
+    <Title><![CDATA[CSS Style Adaptor]]></Title>
+    <Choice>
+      <Code name="Code0">
+        <links/>
+        <content><![CDATA[<style type="text/css">
+
+/* CSS Adjustments */
+
+.white-center  {
+  text-align: center;
+  color: #fff;
+}
+
+.white-center a {
+  color: #fff;
+}
+
+.white-center a:hover {
+  text-decoration: none;
+}
+
+.ensure-height {
+  color: #fff;
+  height: 3em;
+}
+
+</style>]]></content>
+      </Code>
+    </Choice>
+  </BootstrapFlexibleElement>
+</BootstrapFlexibleElements>
