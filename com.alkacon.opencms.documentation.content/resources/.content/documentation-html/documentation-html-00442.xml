@@ -4,11 +4,11 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link1" internal="false" type="A">
-          <target><![CDATA[http://httpd.apache.org]]></target>
-        </link>
         <link name="link0" internal="false" type="A">
           <target><![CDATA[http://tomcat.apache.org]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://httpd.apache.org]]></target>
         </link>
       </links>
       <content><![CDATA[<p>OpenCms requires a Servlet 2.4 / JSP 2.0 standards compliant container. This release was tested with Tomcat 6.0.x. and Tomcat 7.0.x.</p>

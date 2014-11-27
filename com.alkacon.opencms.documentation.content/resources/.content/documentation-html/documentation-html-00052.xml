@@ -4,17 +4,17 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link1" internal="true" type="A">
-          <target><![CDATA[/sites/default/demos/lists-and-detail-pages/]]></target>
-          <uuid>017a27d0-22c2-11e4-8f7a-d9f74955ba1b</uuid>
+        <link name="link2" internal="true" type="A">
+          <target><![CDATA[/sites/default/creating-a-website/ade-configuration/]]></target>
+          <uuid>40522cc2-18b2-11e4-8e8b-b7bfd6088c56</uuid>
         </link>
         <link name="link0" internal="true" type="A">
           <target><![CDATA[/sites/default/content-in-opencms/lists-of-resources-and-detail-pages/]]></target>
           <uuid>fefc9768-1bb3-11e4-bfa5-b7bfd6088c56</uuid>
         </link>
-        <link name="link2" internal="true" type="A">
-          <target><![CDATA[/sites/default/creating-a-website/ade-configuration/]]></target>
-          <uuid>40522cc2-18b2-11e4-8e8b-b7bfd6088c56</uuid>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/demos/lists-and-detail-pages/]]></target>
+          <uuid>017a27d0-22c2-11e4-8f7a-d9f74955ba1b</uuid>
         </link>
       </links>
       <content><![CDATA[<p>Via the tab <strong>Detail pages</strong> from the create page dialog allows to create a new sitemap entry that is used as detail page for a certain content type or function, e.g., for news articles. Detail pages are used to link from lists of contents to detailed views on these entries or to e.g., search results. The content gets displayed in a detail view enabled container that is marked as thus in the template JSP. A single news article can be accessed by an automatically generated URI, for example this URI can be built from the news <code>Title</code> property. Read more about the detail pages here:</p>
