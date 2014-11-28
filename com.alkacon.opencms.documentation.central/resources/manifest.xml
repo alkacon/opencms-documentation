@@ -4,7 +4,7 @@
 	<info>
 		<creator>aKandzior</creator>
 		<opencms_version>9.5.0</opencms_version>
-		<createdate>Thu, 27 Nov 2014 12:27:03 GMT</createdate>
+		<createdate>Fri, 28 Nov 2014 10:21:22 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -38,9 +38,9 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<type>subsitemap</type>
 			<uuidstructure>6ba3599a-7578-11e4-a586-0242ac11002b</uuidstructure>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:00 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 14:27:59 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -64,24 +64,144 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>central/documentation</source>
+			<destination>central/documentation</destination>
+			<type>htmlredirect</type>
+			<uuidstructure>e785a5cd-76d3-11e4-b3fd-0242ac11002b</uuidstructure>
+			<uuidresource>e785a5ce-76d3-11e4-b3fd-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 28 Nov 2014 07:55:43 GMT</datelastmodified>
+			<userlastmodified>aKandzior</userlastmodified>
+			<datecreated>Fri, 28 Nov 2014 07:55:22 GMT</datecreated>
+			<usercreated>aKandzior</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.75]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Documentation]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Documentation]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+				<property type="shared">
+					<name>template-elements</name>
+					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>central/index.html</source>
 			<destination>central/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>14f6e727-757b-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>14f6e728-757b-11e4-a586-0242ac11002b</uuidresource>
-			<datelastmodified>Thu, 27 Nov 2014 12:26:34 GMT</datelastmodified>
+			<datelastmodified>Fri, 28 Nov 2014 08:33:25 GMT</datelastmodified>
 			<userlastmodified>aKandzior</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 14:47:02 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Description</name>
-					<value><![CDATA[The official source for OpenCms end user and developer reference, description and documentation.]]></value>
+					<value><![CDATA[The official reference source for OpenCms end user and developer documentation.]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Welcome to the OpenCms documentation central]]></value>
+					<value><![CDATA[Documentation Central]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>central/videos</source>
+			<destination>central/videos</destination>
+			<type>htmlredirect</type>
+			<uuidstructure>d803ad18-76e7-11e4-b3fd-0242ac11002b</uuidstructure>
+			<uuidresource>d803ad19-76e7-11e4-b3fd-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 28 Nov 2014 10:19:09 GMT</datelastmodified>
+			<userlastmodified>aKandzior</userlastmodified>
+			<datecreated>Fri, 28 Nov 2014 10:18:06 GMT</datecreated>
+			<usercreated>aKandzior</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.75]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Videos]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Videos]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+				<property type="shared">
+					<name>template-elements</name>
+					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>central/wiki</source>
+			<destination>central/wiki</destination>
+			<type>htmlredirect</type>
+			<uuidstructure>91ce0b10-76e7-11e4-b3fd-0242ac11002b</uuidstructure>
+			<uuidresource>91ce0b11-76e7-11e4-b3fd-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 28 Nov 2014 10:16:39 GMT</datelastmodified>
+			<userlastmodified>aKandzior</userlastmodified>
+			<datecreated>Fri, 28 Nov 2014 10:16:08 GMT</datecreated>
+			<usercreated>aKandzior</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.5]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Wiki]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Wiki]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+				<property type="shared">
+					<name>template-elements</name>
+					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -92,9 +212,9 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<type>content_folder</type>
 			<uuidstructure>7472e787-7578-11e4-a586-0242ac11002b</uuidstructure>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:00 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 14:28:13 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -107,9 +227,9 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<uuidstructure>74749539-7578-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>7474953a-7578-11e4-a586-0242ac11002b</uuidresource>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:33 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 14:28:13 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>512</flags>
 			<properties>
 				<property>
@@ -137,9 +257,9 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<type>folder</type>
 			<uuidstructure>c9ca222f-7578-11e4-a586-0242ac11002b</uuidstructure>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:00 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 14:30:36 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -157,9 +277,9 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<uuidstructure>c9cd0762-7578-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>c9cd0763-7578-11e4-a586-0242ac11002b</uuidresource>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:33 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 14:30:37 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -179,7 +299,7 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<type>folder</type>
 			<uuidstructure>2f025059-757d-11e4-a586-0242ac11002b</uuidstructure>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:00 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 15:02:04 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -193,10 +313,10 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<type>bs-flexible</type>
 			<uuidstructure>2f04733b-757d-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>2f04733c-757d-11e4-a586-0242ac11002b</uuidresource>
-			<datelastmodified>Thu, 27 Nov 2014 12:26:33 GMT</datelastmodified>
+			<datelastmodified>Fri, 28 Nov 2014 08:06:46 GMT</datelastmodified>
 			<userlastmodified>aKandzior</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 15:02:04 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -213,10 +333,10 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<type>bs-flexible</type>
 			<uuidstructure>649aae97-761f-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>649aae98-761f-11e4-a586-0242ac11002b</uuidresource>
-			<datelastmodified>Thu, 27 Nov 2014 12:26:33 GMT</datelastmodified>
+			<datelastmodified>Fri, 28 Nov 2014 08:22:46 GMT</datelastmodified>
 			<userlastmodified>aKandzior</userlastmodified>
 			<datecreated>Thu, 27 Nov 2014 10:23:13 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -232,7 +352,7 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<type>folder</type>
 			<uuidstructure>4870366a-757e-11e4-a586-0242ac11002b</uuidstructure>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:00 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 15:09:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -246,15 +366,15 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<type>bs-iconbox</type>
 			<uuidstructure>48720b2c-757e-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>48720b2d-757e-11e4-a586-0242ac11002b</uuidresource>
-			<datelastmodified>Thu, 27 Nov 2014 12:26:33 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<datelastmodified>Fri, 28 Nov 2014 09:46:41 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 15:09:56 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Welcome to the OpenCms documentation central: Documentation]]></value>
+					<value><![CDATA[Documentation Central: Documentation]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -266,15 +386,15 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<type>bs-iconbox</type>
 			<uuidstructure>66207683-757e-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>66207684-757e-11e4-a586-0242ac11002b</uuidresource>
-			<datelastmodified>Thu, 27 Nov 2014 12:26:33 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<datelastmodified>Fri, 28 Nov 2014 09:47:58 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 15:10:46 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Welcome to the OpenCms documentation central: Javadocs]]></value>
+					<value><![CDATA[Documentation Central: Javadocs]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -287,9 +407,9 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<uuidstructure>e990a11e-7584-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>e990a11f-7584-11e4-a586-0242ac11002b</uuidresource>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:33 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 15:57:24 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -306,15 +426,15 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<type>bs-iconbox</type>
 			<uuidstructure>2f0e3dc8-7585-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>2f0e3dc9-7585-11e4-a586-0242ac11002b</uuidresource>
-			<datelastmodified>Thu, 27 Nov 2014 12:26:33 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<datelastmodified>Fri, 28 Nov 2014 09:45:01 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 15:59:20 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Welcome to the OpenCms documentation central: Video Tutorials]]></value>
+					<value><![CDATA[Documentation Central: Video Tutorials]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -325,7 +445,7 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<type>folder</type>
 			<uuidstructure>678cd3af-7585-11e4-a586-0242ac11002b</uuidstructure>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:00 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 16:00:55 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -340,9 +460,9 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<uuidstructure>678ea871-7585-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>678ea872-7585-11e4-a586-0242ac11002b</uuidresource>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:33 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 16:00:55 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -358,7 +478,7 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<type>folder</type>
 			<uuidstructure>4e035a7d-757a-11e4-a586-0242ac11002b</uuidstructure>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:00 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 14:41:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -373,9 +493,9 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<uuidstructure>4e05f28f-757a-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>4e05f290-757a-11e4-a586-0242ac11002b</uuidresource>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:33 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 14:41:28 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -393,9 +513,9 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<uuidstructure>2460101b-757b-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>2460101c-757b-11e4-a586-0242ac11002b</uuidresource>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:33 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 14:47:27 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -411,7 +531,7 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<type>folder</type>
 			<uuidstructure>6ad66f3b-757c-11e4-a586-0242ac11002b</uuidstructure>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:00 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 14:56:35 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -426,9 +546,9 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<uuidstructure>6adb784d-757c-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>6adb784e-757c-11e4-a586-0242ac11002b</uuidresource>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:34 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 14:56:35 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -444,7 +564,7 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<type>folder</type>
 			<uuidstructure>b9e8506c-7579-11e4-a586-0242ac11002b</uuidstructure>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:00 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 14:37:19 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -459,9 +579,9 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<uuidstructure>b9ea734e-7579-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>b9ea734f-7579-11e4-a586-0242ac11002b</uuidresource>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:34 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 14:37:19 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -479,9 +599,9 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<uuidstructure>f526a294-7579-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>f526a295-7579-11e4-a586-0242ac11002b</uuidresource>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:34 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 14:38:59 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -497,7 +617,7 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<type>folder</type>
 			<uuidstructure>9abe6721-7609-11e4-a586-0242ac11002b</uuidstructure>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:00 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 27 Nov 2014 07:47:15 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -512,9 +632,9 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<uuidstructure>9ac03be3-7609-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>9ac03be4-7609-11e4-a586-0242ac11002b</uuidresource>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:34 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 27 Nov 2014 07:47:15 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -531,15 +651,15 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<type>bs-text</type>
 			<uuidstructure>df0865cb-7609-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>df088cdc-7609-11e4-a586-0242ac11002b</uuidresource>
-			<datelastmodified>Thu, 27 Nov 2014 12:26:34 GMT</datelastmodified>
+			<datelastmodified>Fri, 28 Nov 2014 08:04:54 GMT</datelastmodified>
 			<userlastmodified>aKandzior</userlastmodified>
 			<datecreated>Thu, 27 Nov 2014 07:49:09 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Welcome to the OpenCms documentation central: TLD Docs]]></value>
+					<value><![CDATA[Documentation Central: Taglib Docs]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -552,9 +672,9 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<uuidstructure>2720827a-760a-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>2720827b-760a-11e4-a586-0242ac11002b</uuidresource>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:34 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 27 Nov 2014 07:51:10 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -572,9 +692,9 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<uuidstructure>59f2ea92-760a-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>59f2ea93-760a-11e4-a586-0242ac11002b</uuidresource>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:34 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 27 Nov 2014 07:52:35 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -591,15 +711,15 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<type>bs-text</type>
 			<uuidstructure>2a4afed5-761b-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>2a4afed6-761b-11e4-a586-0242ac11002b</uuidresource>
-			<datelastmodified>Thu, 27 Nov 2014 12:26:34 GMT</datelastmodified>
+			<datelastmodified>Fri, 28 Nov 2014 08:41:41 GMT</datelastmodified>
 			<userlastmodified>aKandzior</userlastmodified>
 			<datecreated>Thu, 27 Nov 2014 09:52:57 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Welcome to the OpenCms documentation central: Welcome to the OpenCms Documentation Central]]></value>
+					<value><![CDATA[Documentation Central: OpenCms Documentation Central]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -611,15 +731,15 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<type>bs-text</type>
 			<uuidstructure>839a50d0-762a-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>839a50d1-762a-11e4-a586-0242ac11002b</uuidresource>
-			<datelastmodified>Thu, 27 Nov 2014 12:26:34 GMT</datelastmodified>
+			<datelastmodified>Fri, 28 Nov 2014 08:03:16 GMT</datelastmodified>
 			<userlastmodified>aKandzior</userlastmodified>
 			<datecreated>Thu, 27 Nov 2014 11:42:49 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[OpenCms online Javadoc listing: What OpenCms JavaDocs are you looking for?]]></value>
+					<value><![CDATA[Javadoc overview: What OpenCms JavaDocs are you looking for?]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -632,9 +752,9 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<uuidstructure>35547217-762d-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>35547218-762d-11e4-a586-0242ac11002b</uuidresource>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:34 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 27 Nov 2014 12:02:06 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -650,9 +770,9 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<type>folder</type>
 			<uuidstructure>8c87fd75-7585-11e4-a586-0242ac11002b</uuidstructure>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:00 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 16:01:57 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -663,9 +783,9 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<type>imagegallery</type>
 			<uuidstructure>8c89f947-7585-11e4-a586-0242ac11002b</uuidstructure>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:00 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 16:01:57 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -683,9 +803,9 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<uuidstructure>d7847663-7585-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>d7847664-7585-11e4-a586-0242ac11002b</uuidresource>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:34 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 16:04:03 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property type="shared">
@@ -703,9 +823,9 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<uuidstructure>d77904af-7585-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>d77904b0-7585-11e4-a586-0242ac11002b</uuidresource>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:34 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 16:04:03 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property type="shared">
@@ -723,9 +843,9 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<uuidstructure>d76d92fb-7585-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>d76d92fc-7585-11e4-a586-0242ac11002b</uuidresource>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:34 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 16:04:03 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -747,9 +867,9 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<uuidstructure>d78a1bb7-7585-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>d78a1bb8-7585-11e4-a586-0242ac11002b</uuidresource>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:34 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 26 Nov 2014 16:04:03 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -768,10 +888,10 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<destination>central/impressum</destination>
 			<type>folder</type>
 			<uuidstructure>72b5728d-762c-11e4-a586-0242ac11002b</uuidstructure>
-			<datelastmodified>Thu, 27 Nov 2014 12:26:00 GMT</datelastmodified>
+			<datelastmodified>Fri, 28 Nov 2014 07:56:12 GMT</datelastmodified>
 			<userlastmodified>aKandzior</userlastmodified>
 			<datecreated>Thu, 27 Nov 2014 11:56:40 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -801,9 +921,9 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<uuidstructure>72b91c12-762c-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>72b91c13-762c-11e4-a586-0242ac11002b</uuidresource>
 			<datelastmodified>Thu, 27 Nov 2014 12:26:34 GMT</datelastmodified>
-			<userlastmodified>aKandzior</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 27 Nov 2014 11:56:40 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -818,16 +938,12 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<destination>central/javadocs</destination>
 			<type>folder</type>
 			<uuidstructure>1f821413-762a-11e4-a586-0242ac11002b</uuidstructure>
-			<datelastmodified>Thu, 27 Nov 2014 12:26:00 GMT</datelastmodified>
+			<datelastmodified>Fri, 28 Nov 2014 07:48:58 GMT</datelastmodified>
 			<userlastmodified>aKandzior</userlastmodified>
 			<datecreated>Thu, 27 Nov 2014 11:40:01 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
-				<property>
-					<name>NavInfo</name>
-					<value><![CDATA[ignoreInDefaultNav]]></value>
-				</property>
 				<property>
 					<name>NavPos</name>
 					<value><![CDATA[1.0]]></value>
@@ -850,19 +966,19 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>1f8ac6a8-762a-11e4-a586-0242ac11002b</uuidstructure>
 			<uuidresource>1f8ac6a9-762a-11e4-a586-0242ac11002b</uuidresource>
-			<datelastmodified>Thu, 27 Nov 2014 12:26:34 GMT</datelastmodified>
+			<datelastmodified>Fri, 28 Nov 2014 08:00:02 GMT</datelastmodified>
 			<userlastmodified>aKandzior</userlastmodified>
 			<datecreated>Thu, 27 Nov 2014 11:40:01 GMT</datecreated>
-			<usercreated>aKandzior</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Description</name>
-					<value><![CDATA[Alkacon provides several Javadoc API listings created from different OpenCms packages. Select which OpenCms Javadoc you need here.]]></value>
+					<value><![CDATA[Javadoc reference listings for all relevant OpenCms packages.]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[OpenCms online Javadoc listing]]></value>
+					<value><![CDATA[Javadoc overview]]></value>
 				</property>
 			</properties>
 			<relations/>
