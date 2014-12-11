@@ -18,6 +18,8 @@
 			<xsd:element name="Title" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="Overview" type="OpenCmsHtml" />
 			<xsd:element name="Teaser" type="OpenCmsHtml" minOccurs="0" />
+			<xsd:element name="Keywords" type="OpenCmsString" />
+			<xsd:element name="InterestingFor" type="OpenCmsString" />
 			<xsd:element name="RelatedLinks" type="OpenCmsDocumentationLinkOrList" minOccurs="0" />
 			<xsd:element name="NewInVersion" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="NewInDocuVersion" type="OpenCmsString" minOccurs="0" />
@@ -30,6 +32,7 @@
 		<xsd:appinfo>
 			<mappings>
 				<mapping element="Title" mapto="property:Title" useDefault="true" />
+				<mapping element="Keywords" mapto="property:Keywords" />
 			</mappings>
 			<defaults>
 				<default element="Overview" value="Add topic overview here" />
@@ -44,6 +47,7 @@
 			<layouts>
 				<layout element="Overview" widget="HtmlWidget" configuration="height:300px,link,image,table,source,hidebuttons:underline;strikethrough;alignleft;alignright;aligncenter;justify;indent;outdend;blockquote;hr;print,stylesformat:/system/modules/com.alkacon.opencms.documentation/resources/tinymce/styles.xml,imagegallery{useformat:true,formatnames: 'inline:Inline', formatvalues: ['14x?']}" />
 				<layout element="Teaser" widget="HtmlWidget" configuration="height:150px,link,image,table,source,hidebuttons:underline;strikethrough;alignleft;alignright;aligncenter;justify;indent;outdend;blockquote;hr;print,stylesformat:/system/modules/com.alkacon.opencms.documentation/resources/tinymce/styles.xml,imagegallery{useformat:true,formatnames: 'inline:Inline', formatvalues: ['14x?']}" />
+				<layout element="InterestingFor" widget="MultiSelectWidget" configuration="editor:Content Editor|developer:Template Developer|serverAdmin:Server Administrator|accountManager:Account Manager" />
 			</layouts>
 			<validationrules>
 				<rule element="NewInVersion" regex="\d{1,3}(.\d{1,3}){0,2}" type="warning" message="The value seems not to be an OpenCms version number." /> 
@@ -57,8 +61,20 @@
 				<tab element="StatusMetaData" collapse="true" name="Status" />
 			</tabs>
 			<searchsettings>
-				<searchsetting element="StatusMetaData/Todos/Todo" searchcontent="true">
+				<searchsetting element="StatusMetaData/Todos/Todo" searchcontent="false">
 					<solrfield targetfield="todos" />
+				</searchsetting>
+				<searchsetting element="NewInVersion" searchcontent="false">
+					<solrfield targetfield="newInVersion" addto="page,element" default="unknown" />
+				</searchsetting>
+				<searchsetting element="NewInDocuVersion" searchcontent="false">
+					<solrfield targetfield="newInDocuVersion" addto="page,element" default="unknown" />
+				</searchsetting>
+				<searchsetting element="Keywords" searchcontent="false">
+					<solrfield targetfield="keywords" addto="page,element" />
+				</searchsetting>
+				<searchsetting element="InterestingFor" searchcontent="false">
+					<solrfield targetfield="interestingFor" addto="page,element" />
 				</searchsetting>
 			</searchsettings>
 		</xsd:appinfo>
