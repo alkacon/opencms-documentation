@@ -2,6 +2,11 @@
 
 <fmt:setLocale value="${cms.locale}" />
 
+<jsp:useBean id="topicGrabber" class="com.alkacon.opencms.documentation.topics.TopicGrabber">
+ <% topicGrabber.init(pageContext, request, response); %>
+ </jsp:useBean>
+ <c:set var="topic" value="${topicGrabber.topicContent[cms.requestContext.uri]}" />
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,13 +16,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<meta name="description" content="<cms:property name="Description" file="search" default="" />">
-	<meta name="keywords" content="<cms:property name="Keywords" file="search" default="" />">
+	<meta name="description" content="${fn:replace(cms:stripHtml(topic.value.Teaser),'\"','')}">
+	<meta name="keywords" content="${topic.value.Keywords}">
 	<meta name="robots" content="index, follow">
 	<meta name="revisit-after" content="7 days">
 
-	<link rel="apple-touch-icon" sizes="120x120" href="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/img/favicon_120.png:fb0905ef-4ae7-11e3-bd62-000c29d28104)</cms:link>"/>
-	<link rel="shortcut icon" href="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/img/favicon_16.png:4b48e349-4ae9-11e3-bd62-000c29d28104)</cms:link>" type="image/png"/>
+	<link rel="apple-touch-icon" sizes="120x120" href="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/img/favicon_120.png)</cms:link>"/>
+	<link rel="shortcut icon" href="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/img/favicon_16.png)</cms:link>" type="image/png"/>
 
 	<cms:enable-ade/>
 	
@@ -40,7 +45,7 @@
 		});
 	</script>
 	<!--[if lt IE 9]>
-    	<script src="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/respond.js:192037c7-3a3b-11e3-a584-000c2943a707)</cms:link>"></script>
+    	<script src="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/respond.js)</cms:link>"></script>
 	<![endif]-->
 </head>
 
@@ -64,7 +69,7 @@
 				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 
 					<%-- Menu for view switching (editor vs. user) --%>
-					<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/search-google.jsp:407a975a-68b6-11e4-9296-005056b61161)" />
+					<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/search.jsp:913527e3-811a-11e4-8c93-bfc0090a1084)" />
 					<c:if test="${!cms.isOnlineProject}">
 						<cms:container name="documentation-view-switcher-container" type="documentation-view-switcher" maxElements="1">
 							<div class="jumbotron">Place the view switcher here.</div>
