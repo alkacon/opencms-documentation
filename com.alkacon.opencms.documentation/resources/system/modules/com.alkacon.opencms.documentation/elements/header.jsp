@@ -1,5 +1,4 @@
 <%@page buffer="none" session="false" trimDirectiveWhitespaces="true" taglibs="cms" %>
-<%@page import="org.opencms.main.OpenCms" %>
 <!--=== Header ===-->
 
 <!--=== Top ===-->
