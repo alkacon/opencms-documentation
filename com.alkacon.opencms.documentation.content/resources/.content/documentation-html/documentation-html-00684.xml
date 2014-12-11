@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>In the example, the element Title will be indexed as field of type <code>text_{locale}</code> and as field of type string. The value is copied <em>before</em> processing involved in the index procedure takes place. Thus, in the example, the result are, for the english locale</p>
+<ul>
+<li>the field <code>atitle_en</code>, that contains the content of the element <code>Title</code> processed as text according to the english locale</li>
+<li>the field <code>atitle_en_s</code>, that contains a one-to-one copy of the value of the <code>Title</code> element.</li>
+</ul>
+<p>In the attribute <code>copyfields</code> you can provide more than one field by separating the respective fields by comma.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

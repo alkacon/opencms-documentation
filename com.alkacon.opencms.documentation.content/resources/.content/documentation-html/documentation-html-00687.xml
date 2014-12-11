@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>OpenCms allows you to map more than single schema elements to a search field. The node <code>&lt;solrfield&gt;</code> takes a series of <code>&lt;mapping&gt;</code> subnodes. In each such subnode, you can specify which value should be mapped to the Solr targetfield. Values can be the whole content or schema elements, properties and attributes. Moreover, you can specify your own mappings. All values (of all <code>&lt;mapping&gt;</code> nodes) are stored one after another in the (multi-valued) Solr target field.</p>
+<p>Here is an example of such a mapping definition:</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

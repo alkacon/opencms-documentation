@@ -4,7 +4,7 @@
 	<info>
 		<creator>dSeidel</creator>
 		<opencms_version>9.5.0</opencms_version>
-		<createdate>Thu, 27 Nov 2014 16:02:14 GMT</createdate>
+		<createdate>Thu, 11 Dec 2014 15:31:36 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -35,6 +35,38 @@ writeProperty '/' 'opencms.documentation.editor' 'false'</import-script>
 		<parameters/>
 	</module>
 	<files>
+		<file>
+			<source>index.html</source>
+			<destination>index.html</destination>
+			<type>htmlredirect</type>
+			<uuidstructure>d3291571-5dbb-11e4-8211-005056b61161</uuidstructure>
+			<uuidresource>d3291572-5dbb-11e4-8211-005056b61161</uuidresource>
+			<datelastmodified>Mon, 27 Oct 2014 09:32:54 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 27 Oct 2014 09:30:01 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Documentation]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+				<property type="shared">
+					<name>template-elements</name>
+					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
 		<file>
 			<destination>.content</destination>
 			<type>content_folder</type>
@@ -2916,6 +2948,51 @@ writeProperty '/' 'opencms.documentation.editor' 'false'</import-script>
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>.content/documentation-codeblock/documentation-codeblock-00185.xml</source>
+			<destination>.content/documentation-codeblock/documentation-codeblock-00185.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>db4b0fac-7eb4-11e4-9ca2-0242ac11002b</uuidstructure>
+			<uuidresource>db4b0fad-7eb4-11e4-9ca2-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 08 Dec 2014 08:34:12 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 08 Dec 2014 08:33:16 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/documentation-codeblock/documentation-codeblock-00186.xml</source>
+			<destination>.content/documentation-codeblock/documentation-codeblock-00186.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>4b6bc8b6-7eb6-11e4-9ca2-0242ac11002b</uuidstructure>
+			<uuidresource>4b6bc8b7-7eb6-11e4-9ca2-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 08 Dec 2014 08:47:53 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 08 Dec 2014 08:43:34 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/documentation-codeblock/documentation-codeblock-00187.xml</source>
+			<destination>.content/documentation-codeblock/documentation-codeblock-00187.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>c272327d-7ebd-11e4-9ca2-0242ac11002b</uuidstructure>
+			<uuidresource>c272327e-7ebd-11e4-9ca2-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 08 Dec 2014 09:37:00 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 08 Dec 2014 09:37:00 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>.content/documentation-definition-list</destination>
 			<type>folder</type>
 			<uuidstructure>4a7120eb-05a8-11e4-a26d-1305b26fecac</uuidstructure>
@@ -4915,6 +4992,46 @@ writeProperty '/' 'opencms.documentation.editor' 'false'</import-script>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/documentation-definition-list/documentation-definition-list-00102.xml</source>
+			<destination>.content/documentation-definition-list/documentation-definition-list-00102.xml</destination>
+			<type>documentation-definition-list</type>
+			<uuidstructure>a69e459a-7eb8-11e4-9ca2-0242ac11002b</uuidstructure>
+			<uuidresource>a69e459b-7eb8-11e4-9ca2-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 08 Dec 2014 09:19:35 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 08 Dec 2014 09:00:26 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Solr: Attributes of the solrfield element]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/documentation-definition-list/documentation-definition-list-00103.xml</source>
+			<destination>.content/documentation-definition-list/documentation-definition-list-00103.xml</destination>
+			<type>documentation-definition-list</type>
+			<uuidstructure>944fe4f7-7ebd-11e4-9ca2-0242ac11002b</uuidstructure>
+			<uuidresource>944fe4f8-7ebd-11e4-9ca2-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 08 Dec 2014 09:35:43 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 08 Dec 2014 09:35:43 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Solr: Values for the type-attribute of <mapping>-element]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -17667,8 +17784,8 @@ writeProperty '/' 'opencms.documentation.editor' 'false'</import-script>
 			<type>documentation-html</type>
 			<uuidstructure>d2c3f251-65aa-11e4-9296-005056b61161</uuidstructure>
 			<uuidresource>d2c3f252-65aa-11e4-9296-005056b61161</uuidresource>
-			<datelastmodified>Tue, 25 Nov 2014 09:31:45 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Mon, 08 Dec 2014 09:13:51 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Thu, 06 Nov 2014 11:48:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -17851,6 +17968,111 @@ writeProperty '/' 'opencms.documentation.editor' 'false'</import-script>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Nov 2014 22:35:14 GMT</datecreated>
 			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/documentation-html/documentation-html-00681.xml</source>
+			<destination>.content/documentation-html/documentation-html-00681.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>aa1a948b-7eb0-11e4-9ca2-0242ac11002b</uuidstructure>
+			<uuidresource>aa1a948c-7eb0-11e4-9ca2-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 08 Dec 2014 08:21:56 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 08 Dec 2014 08:03:16 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/documentation-html/documentation-html-00682.xml</source>
+			<destination>.content/documentation-html/documentation-html-00682.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>aa635608-7eb3-11e4-9ca2-0242ac11002b</uuidstructure>
+			<uuidresource>aa635609-7eb3-11e4-9ca2-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 08 Dec 2014 08:26:44 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 08 Dec 2014 08:24:45 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/documentation-html/documentation-html-00683.xml</source>
+			<destination>.content/documentation-html/documentation-html-00683.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>026018c1-7eb5-11e4-9ca2-0242ac11002b</uuidstructure>
+			<uuidresource>026018c2-7eb5-11e4-9ca2-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 08 Dec 2014 08:43:19 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 08 Dec 2014 08:34:22 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/documentation-html/documentation-html-00684.xml</source>
+			<destination>.content/documentation-html/documentation-html-00684.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>edbd962a-7eb6-11e4-9ca2-0242ac11002b</uuidstructure>
+			<uuidresource>edbd962b-7eb6-11e4-9ca2-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 08 Dec 2014 08:53:17 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 08 Dec 2014 08:48:06 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/documentation-html/documentation-html-00685.xml</source>
+			<destination>.content/documentation-html/documentation-html-00685.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>df779b15-7eb7-11e4-9ca2-0242ac11002b</uuidstructure>
+			<uuidresource>df779b16-7eb7-11e4-9ca2-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 08 Dec 2014 08:59:30 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 08 Dec 2014 08:54:52 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/documentation-html/documentation-html-00686.xml</source>
+			<destination>.content/documentation-html/documentation-html-00686.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>8774e83c-7eba-11e4-9ca2-0242ac11002b</uuidstructure>
+			<uuidresource>8774e83d-7eba-11e4-9ca2-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 08 Dec 2014 09:15:27 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 08 Dec 2014 09:13:52 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/documentation-html/documentation-html-00687.xml</source>
+			<destination>.content/documentation-html/documentation-html-00687.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>f9b09210-7ebb-11e4-9ca2-0242ac11002b</uuidstructure>
+			<uuidresource>f9b09211-7ebb-11e4-9ca2-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 08 Dec 2014 09:36:49 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 08 Dec 2014 09:24:14 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -27955,8 +28177,8 @@ writeProperty '/' 'opencms.documentation.editor' 'false'</import-script>
 			<type>documentation-section</type>
 			<uuidstructure>bb94fc67-65a5-11e4-9296-005056b61161</uuidstructure>
 			<uuidresource>bb94fc68-65a5-11e4-9296-005056b61161</uuidresource>
-			<datelastmodified>Tue, 25 Nov 2014 09:31:01 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Mon, 08 Dec 2014 08:22:24 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Thu, 06 Nov 2014 11:12:01 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -28035,15 +28257,15 @@ writeProperty '/' 'opencms.documentation.editor' 'false'</import-script>
 			<type>documentation-section</type>
 			<uuidstructure>aa89a31c-65aa-11e4-9296-005056b61161</uuidstructure>
 			<uuidresource>aa89a31d-65aa-11e4-9296-005056b61161</uuidresource>
-			<datelastmodified>Tue, 25 Nov 2014 09:31:01 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Mon, 08 Dec 2014 09:22:51 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Thu, 06 Nov 2014 11:47:20 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Search settings - Configure the content's search fields that are indexed]]></value>
+					<value><![CDATA[Search settings - Configure how schema elements are indexed]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -28164,6 +28386,86 @@ writeProperty '/' 'opencms.documentation.editor' 'false'</import-script>
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Creating thumbnails for PDFs - Technical details]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/documentation-section/documentation-section-00516.xml</source>
+			<destination>.content/documentation-section/documentation-section-00516.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>8fd08292-7eb3-11e4-9ca2-0242ac11002b</uuidstructure>
+			<uuidresource>8fd08293-7eb3-11e4-9ca2-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 08 Dec 2014 09:11:48 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 08 Dec 2014 08:24:00 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Search settings - Specifying the search fields type]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/documentation-section/documentation-section-00517.xml</source>
+			<destination>.content/documentation-section/documentation-section-00517.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>b3b50f80-7eb7-11e4-9ca2-0242ac11002b</uuidstructure>
+			<uuidresource>b3b50f81-7eb7-11e4-9ca2-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 08 Dec 2014 08:54:39 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 08 Dec 2014 08:53:38 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Search settings - Additional attributes of <code>&lt;solrfield&gt;</code> and attribute overview]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/documentation-section/documentation-section-00518.xml</source>
+			<destination>.content/documentation-section/documentation-section-00518.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>616ede24-7eba-11e4-9ca2-0242ac11002b</uuidstructure>
+			<uuidresource>616ede25-7eba-11e4-9ca2-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 08 Dec 2014 09:19:55 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 08 Dec 2014 09:12:49 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Search settings - Simplest way to map a schema element to a search field]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>.content/documentation-section/documentation-section-00519.xml</source>
+			<destination>.content/documentation-section/documentation-section-00519.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>cf2219ab-7ebb-11e4-9ca2-0242ac11002b</uuidstructure>
+			<uuidresource>cf2219ac-7ebb-11e4-9ca2-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 08 Dec 2014 09:24:03 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 08 Dec 2014 09:23:02 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Search settings - Advanced search field mappings: Indexing more than schema elements]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -38224,8 +38526,8 @@ writeProperty '/' 'opencms.documentation.editor' 'false'</import-script>
 			<type>containerpage</type>
 			<uuidstructure>bb99de6a-65a5-11e4-9296-005056b61161</uuidstructure>
 			<uuidresource>bb99de6b-65a5-11e4-9296-005056b61161</uuidresource>
-			<datelastmodified>Thu, 06 Nov 2014 13:00:04 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Mon, 08 Dec 2014 09:37:00 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Thu, 06 Nov 2014 11:12:01 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
