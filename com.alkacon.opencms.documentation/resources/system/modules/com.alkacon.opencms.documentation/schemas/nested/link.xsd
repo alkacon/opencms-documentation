@@ -12,7 +12,7 @@
 
 	<xsd:complexType name="OpenCmsDocumentationLink">
 		<xsd:sequence>
-			<xsd:element name="URI" type="OpenCmsString"/>
+			<xsd:element name="URI" type="OpenCmsVarLink"/>
 			<xsd:element name="LinkText" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="LinkDescription" type="OpenCmsHtml" minOccurs="0" />
 		</xsd:sequence>
@@ -23,7 +23,6 @@
 		<xsd:appinfo>
 			<defaults/>
 			<layouts>
-				<layout element="URI" widget="VfsFileWidget" />
 				<layout element="LinkDescription" widget="HtmlWidget" />
 			</layouts>
 			<validationrules/>
