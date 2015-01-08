@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>Sometimes, it is useful, to</p>
+<ul>
+<li>set the default value of a content element similar to another element or</li>
+<li>use information from the page where the content is placed to set the default.</li>
+</ul>
+<p>A particular use case is an element that is mapped to the title property or the gallery name of a content. Usually, it suffices to choose the headline of a "text" content, or some information about the page where the content is placed. But sometimes the title property should be set manually.</p>
+<p>We explain which macros are available to set default values in an XSD and state a use case, mapping the default values to the title property and the gallery name of a content.</p>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>Default values can be set via macros and even for optional elements, the default values can be used for mappings. Read the details here.</p>]]></content>
+    </Teaser>
+    <Keywords/>
+    <InterestingFor/>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

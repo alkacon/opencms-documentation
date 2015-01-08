@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link1" internal="true" type="IMG">
+          <target><![CDATA[/sites/default/.galleries/icons_big/menuBigIconDeactivated.png]]></target>
+          <uuid>7ba956e8-02bc-11e4-8167-1305b26fecac</uuid>
+          <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+        </link>
+        <link name="link0" internal="true" type="IMG">
+          <target><![CDATA[/sites/default/.galleries/icons_big/addBigIconDeactivated.png]]></target>
+          <uuid>7b7e27d4-02bc-11e4-8167-1305b26fecac</uuid>
+          <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+        </link>
+        <link name="link2" internal="true" type="IMG">
+          <target><![CDATA[/sites/default/.galleries/icons_big/propertyBigIconDeactivated.png]]></target>
+          <uuid>7bb05bd8-02bc-11e4-8167-1305b26fecac</uuid>
+          <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+        </link>
+      </links>
+      <content><![CDATA[<p>To create a new template model you can click on the <img style="width: 14px;" title="addBigIconDeactivated" src="%(link0)" alt="" /> sign on "Template models" or open the context menu <img style="width: 14px;" title="menuBigIconDeactivated" src="%(link1)" alt="" /> of an existing template model to copy it. Once the template model is created, click it's icon to edit it. You get a confirmation dialog before you can edit the page. It should guarantee you are aware of the implications of editing a model.</p>
+<p>Editing a model is nearly exactly as editing any other container page. The only difference is a <strong>special element setting</strong> available for all elements on the page<span class="footnote">Except for element and inheritance groups.</span>. If editing a template model, for each element you can decide if the element should be copied or reused if a page is created using the model. Therefor, click the gear wheel <img style="width: 14px;" title="propertyBigIconDeactivated" src="%(link2)" alt="" /> at the element to open the element settings. In the group "Template model options" the option <strong>"Copy this element"</strong> can be checked if the element should be copied. If the option is unchecked, the element will be reused.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

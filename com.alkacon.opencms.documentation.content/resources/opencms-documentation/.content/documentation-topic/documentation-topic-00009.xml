@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>The form-based content editor is completely written in HTML 5 for ease-of-use and speed. The editor is automatically generated based on XML schemas describing the structure of content types. It provides a rich user interface for the content managers. All fields of an XML content can be edited via intuitive widgets.</p>
+<p><strong>Main features of the content editor are:</strong></p>
+<ul>
+<li>Runs on the client side and provides a highly responsive user experience.</li>
+<li>Automatically generated from an XML schema, no programming required.</li>
+<li>Provides a large selection of rich user interface widgets.</li>
+<li>Can be extended with custom user interface widgets for special use cases.</li>
+<li>Generates XML files that are validated against the XML schema and stored in the database.</li>
+</ul>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>The content editor is a widget-based editor for editing multilingual (XML) content. Learn how to use the editor.</p>]]></content>
+    </Teaser>
+    <Keywords/>
+    <InterestingFor/>
+    <RelatedLinks>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/]]></target>
+            <uuid>7a8f936d-2e92-11e4-8af3-d144f6bb3566</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Learn how to configure the editor for your content types.]]></LinkText>
+      </Link>
+    </RelatedLinks>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

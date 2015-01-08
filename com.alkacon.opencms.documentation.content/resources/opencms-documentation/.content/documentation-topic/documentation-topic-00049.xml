@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>How a content of a type behaves is highly configurable with respect to various facets. In the content type definition (the XSD) you can configure</p>
+<ul>
+<li>default values of elements,</li>
+<li>mappings from elements to properties or attributes,</li>
+<li>the layout of the content editor for an element,</li>
+<li>the allowed values for an element,</li>
+<li>relations between elements on deletion,</li>
+<li>the visibility of elements in the content editor,</li>
+<li>how contents are treated by the search engine</li>
+<li>localized element names and default values,</li>
+<li>dependencies between values of different elements,</li>
+<li>...</li>
+</ul>
+<p>We survey the various configuration options that are handled in depth in separate topics.</p>
+<div class="alert-info alert">Many of the configurations are only available in the schema for the root content, but not in schemas defining nested contents.</div>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>In the content type definition (the XSD) you can configure content's behavior with respect to various facets, e.g., search, appearance, defaults, .... We survey the configuration options and point to topics exploring the various options in depth.</p>]]></content>
+    </Teaser>
+    <Keywords/>
+    <InterestingFor/>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

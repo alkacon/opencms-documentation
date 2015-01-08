@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>In OpenCms content and layout are strictly separated. To render content of a special content type, several formatters can be provided. Each formatter can be configured to be used according to the container where the content is placed.</p>
+<p>We explore the basic structure of a formatter and shown in detail how to configure it.</p>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>Find out how to render content with formatters and how to configure various formatters for content of the same type.</p>]]></content>
+    </Teaser>
+    <Keywords/>
+    <InterestingFor/>
+    <RelatedLinks>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/background/the-concept-of-content/]]></target>
+            <uuid>a16c7f09-2770-11e4-b2bf-49dbf0abad32</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Get general information on how content is handled in OpenCms]]></LinkText>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/demos/]]></target>
+            <uuid>f680ee6e-1e02-11e4-a270-d9f74955ba1b</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Demos for different features available in formatters]]></LinkText>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/typical-tasks/writing-jsps/]]></target>
+            <uuid>62f3bf30-0bf2-11e4-a03c-b7bfd6088c56</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[General information on using the OpenCms API in JSPs]]></LinkText>
+      </Link>
+    </RelatedLinks>
+    <NewInDocuVersion><![CDATA[9.5]]></NewInDocuVersion>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

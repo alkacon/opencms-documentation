@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link1" internal="true" type="IMG">
+          <target><![CDATA[/sites/default/.galleries/icons_normalsize/popupIconActive.png]]></target>
+          <uuid>7b4da281-02bc-11e4-8167-1305b26fecac</uuid>
+          <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+        </link>
+        <link name="link0" internal="true" type="IMG">
+          <target><![CDATA[/sites/default/.galleries/icons_normalsize/uploadSmallIconActive.png]]></target>
+          <uuid>7b759d41-02bc-11e4-8167-1305b26fecac</uuid>
+          <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+        </link>
+        <link name="link4" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[fig_select_an_image_gallery]]></anchor>
+        </link>
+        <link name="link3" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[fig_browse_an_image_gallery]]></anchor>
+        </link>
+        <link name="link2" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[fig_adjusting_a_selected_image]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>Via the icon <img style="width: 14px;" title="uploadSmallIconActive (Locked by (Admin))" src="%(link0)" alt="" /> you can upload a new image. The picture is added to either</p>
+<ul>
+<li>the gallery, the replaced image belongs to, or, if no picture is already present,</li>
+<li>the gallery (folder) chosen via the property <code>repositoryfolder_imagegallery</code>. This property is read from the currently edited resource. It can be inherited and thus it is preferable to set it on a folder.</li>
+</ul>
+<p>If neither <code>repositoryfolder_imagegallery</code> is set, nor an image gets replaced, the upload button is deactivated.</p>
+<p>Via the icon <img style="width: 14px;" title="popupIconActive (Locked by (Admin))" src="%(link1)" alt="" />, different functions can be accessed:</p>
+<ul>
+<li>Adjust how the selected picture is shown (see Figure <a href="%(link2)">[Adjusting a selected image]</a>). This is the default if an image was selected before.</li>
+<li>Browse an image gallery (see Figure <a href="%(link3)">[Browse an image gallery]</a>). This is the default if a default gallery is configured in the widget’s configuration and no image is already selected.</li>
+<li>Select which image gallery to use (see Figure <a href="%(link4)">[Select an image gallery]</a>). This is the default if no image is already selected and no default gallery is configured in the widget’s configuration.</li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

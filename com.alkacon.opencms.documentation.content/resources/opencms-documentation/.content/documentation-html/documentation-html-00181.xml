@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://lucidworks.lucidimagination.com/display/solr/Searching]]></target>
+        </link>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://wiki.apache.org/solr/SolrQuerySyntax]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>If you want to get familiar with the Solr query syntax you will get a general overview at <a href="%(link0)">Solr query syntax</a>. For advanced features <a href="%(link1)">Searching - Solr Reference Guide - Lucid Imagination</a> will lend a hand.</p>
+<p>Please note that many characters in the Solr Query Syntax (most notable the plus sign: "+") are special characters in URLs, so when constructing request URLs manually, you must properly URL-Encode these characters.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

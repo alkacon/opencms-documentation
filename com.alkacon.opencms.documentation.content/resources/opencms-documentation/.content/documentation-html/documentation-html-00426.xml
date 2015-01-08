@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/main/CmsShellCommands.html]]></target>
+        </link>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://files.opencms.org/javadoc/core/src-html/org/opencms/util/CmsDataTypeUtil.html]]></target>
+          <anchor><![CDATA[line.300]]></anchor>
+        </link>
+        <link name="link4" internal="false" type="A">
+          <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/main/I_CmsShellCommands.html]]></target>
+        </link>
+        <link name="link3" internal="false" type="A">
+          <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/file/CmsObject.html]]></target>
+        </link>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/file/CmsRequestContext.html]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>The available commands are public methods from various classes. But not all public methods make up a command. The methods must have sufficiently simple arguments. That means, all arguments must have a "simple" type.</p>
+<p>The types that are supported for command arguments are the arguments parsable via <code><a href="%(link0)">org.opencms.util.CmsDataTypeUtil.isParseable</a></code>.</p>
+<p>By default commands are exposed for methods of the following classes:</p>
+<ul>
+<li><code><a href="%(link1)">org.opencms.main.CmsShellCommands</a></code></li>
+<li><code><a href="%(link2)">org.opencms.file.CmsRequestContext</a></code></li>
+<li><code><a href="%(link3)">org.opencms.file.CmsObject</a></code></li>
+</ul>
+<p>You can lookup descriptions of the methods available as commands in the JavaDoc.</p>
+<p>Using the argument <code>-additional</code> when calling the OpenCms shell, you can add an extra class for exposing methods. The class must implement <code><a href="%(link4)">I_CmsShellCommands</a></code>.</p>
+<p>Typing <code>help *</code> in the shell, you can always get an overview on the available commands.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>OpenCms provides a special tag for PDF thumbnail generation: You just provide the PDF, the thumbnail should be generated for, the size and the format (png or jpg) of the resulting thumbnail and the thumbnail will be generated if requested, and reachable via the URL rendered by special tag.</p>
+<p>Here we provide detailed information on how to use the tag and point to some technical details.</p>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>Find out how thumbnail generation is handled in OpenCms</p>]]></content>
+    </Teaser>
+    <Keywords/>
+    <InterestingFor/>
+    <RelatedLinks>
+      <Link>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[http://sourceforge.net/projects/jpedal/]]></target>
+          </link>
+        </URI>
+        <LinkText><![CDATA[JPedal: The library used for thumbnail generation]]></LinkText>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/demos/pdf-thumbnail-generation/]]></target>
+            <uuid>94bde749-6a62-11e4-9cbe-259ec8a334d7</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[A demo for thumbnail generation]]></LinkText>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[http://files.opencms.org/javadoc/tld/cms/pdfthumbnail.html]]></target>
+          </link>
+        </URI>
+        <LinkText><![CDATA[TLDDoc for the tag <code>&lt;cms:pdfthumbnail&gt;</code>]]></LinkText>
+      </Link>
+    </RelatedLinks>
+    <NewInVersion><![CDATA[9.5]]></NewInVersion>
+    <NewInDocuVersion><![CDATA[9.5]]></NewInDocuVersion>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/background/permissions-in-opencms/permissions-on-resource-and-explorer-types/]]></target>
+          <uuid>53a32c5a-3e3c-11e4-8375-578a14069906</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>OpenCms allows to set permissions for users or groups at each resource in the VFS. Five different permissions are distinguished. Permissions can be inherited or overwritten. We provide you with an overview on the permission system in OpenCms. You should know the system's pecularities before assigning permissions.</p>
+<div class="alert alert-info">Note: We speak about permissions directly attached to VFS resources here. For permissions on resource and explorer types, see <a href="%(link0)">here</a>.</div>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>OpenCms distinguishes five permissions. Each assignable to users or groups for every single resource. Learn how the permission system works.</p>]]></content>
+    </Teaser>
+    <Keywords/>
+    <InterestingFor/>
+    <RelatedLinks>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/background/permissions-in-opencms/users-groups-roles-and-ous/]]></target>
+            <uuid>3728d42c-3e3c-11e4-8375-578a14069906</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Learn more about users, groups, roles and OUs.]]></LinkText>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/background/permissions-in-opencms/permissions-on-resource-and-explorer-types/]]></target>
+            <uuid>53a32c5a-3e3c-11e4-8375-578a14069906</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[See how you can set permissions on resource types.]]></LinkText>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/administration/setting-permissions/]]></target>
+            <uuid>6f678bd9-423e-11e4-b94d-6725b2578a6f</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Learn how to set permissions]]></LinkText>
+      </Link>
+    </RelatedLinks>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

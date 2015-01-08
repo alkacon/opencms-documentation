@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[hidden_entries]]></anchor>
+        </link>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[navigation_level]]></anchor>
+        </link>
+        <link name="link2" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[ignored_pages]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>The internal structure of your site should not always be identical to the navigational structure. Here we describe features of OpenCms that allow to differenciate the navigational structure from the internal folder structure.</p>
+<p>These features are:</p>
+<ul>
+<li><a href="%(link0)">Navigation levels</a></li>
+<li><a href="%(link1)">Hidden entries</a></li>
+<li><a href="%(link2)">Pages ignored by the navigation</a>.</li>
+</ul>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>Hide pages in the navigation or redirect to subpages - here you learn it.</p>]]></content>
+    </Teaser>
+    <Keywords/>
+    <InterestingFor/>
+    <RelatedLinks>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/building-a-page-navigation/]]></target>
+            <uuid>bb7cd4b2-1bdd-11e4-bfa5-b7bfd6088c56</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[How to build a navigation in general]]></LinkText>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/demos/navigation-level/]]></target>
+            <uuid>c1a5bcca-2206-11e4-9aa0-d9f74955ba1b</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[A navigation level demo]]></LinkText>
+      </Link>
+    </RelatedLinks>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

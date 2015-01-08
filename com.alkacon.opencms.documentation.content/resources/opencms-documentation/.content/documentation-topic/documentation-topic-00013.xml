@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>With OpenCms 9, it is possible to provide access to the virtual file system of OpenCms via the SMB / CIFS protocol, which is used natively by Microsoft Windows for accessing and providing so-called “network shares”. It is possible to mount such network shares so that they appear as a normal file system on the client machine, both under Windows and Linux. OpenCms 9 uses the JLAN library for this functionality.</p>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>Expose the VFS as SMB / CIFS network share and mount it to your file system on Windows, Mac or Linux.</p>]]></content>
+    </Teaser>
+    <Keywords/>
+    <InterestingFor/>
+    <StatusMetaData>
+      <Todos>
+        <Todo><![CDATA[Add infos on how to make the share work on Windows, Linux, Mac]]></Todo>
+      </Todos>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

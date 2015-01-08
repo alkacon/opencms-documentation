@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>Building lists of content items that are linked with its detail views is a common task when creating a website. For example, a typical list of news displays the title, the teaser and maybe the creation date or information about the author per entry/news. Moreover, a list might offer pagination or simple filter options to the website’s visitors. Those lists are realized by “Collectors” in OpenCms, whereby “Detail pages” are used to show the complete details of a news article, an event, a product or any other type of resource/content. This chapter introduces how to implement such lists using collectors and how to link from list entries to their detail pages.</p>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>Building lists of content items that are linked with its detail views is a common task when creating a website. OpenCms helps you to solve this task easily.</p>]]></content>
+    </Teaser>
+    <Keywords/>
+    <InterestingFor/>
+    <RelatedLinks>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/demos/lists-and-detail-pages/]]></target>
+            <uuid>017a27d0-22c2-11e4-8f7a-d9f74955ba1b</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Demo on lists and detail pages]]></LinkText>
+      </Link>
+    </RelatedLinks>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>
