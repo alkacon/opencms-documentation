@@ -13,11 +13,6 @@
 		<nicename><![CDATA[OpenCms documentation content]]></nicename>
 		<group>OpenCms Documentation</group>
 		<class/>
-		<import-script>writeProperty '/' 'Title' 'OpenCms documentation'
-writeProperty '/' 'Description' 'The OpenCms documentation, brought to you by Alkacon Software.'
-writeProperty '/' 'NavText' 'Documentation'
-writeProperty '/' 'template' 'provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.opencms.documentation/templates/documentation-template.jsp'
-writeProperty '/' 'opencms.documentation.editor' 'false'</import-script>
 		<description><![CDATA[All the content of the OpenCms documentation. Place it in the site where the content should be available, usually /sites/default/]]></description>
 		<version>9.5.3</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
