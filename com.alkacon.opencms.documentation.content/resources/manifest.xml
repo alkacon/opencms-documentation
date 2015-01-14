@@ -52,6 +52,10 @@
 					<name>opencms.documentation.editor</name>
 					<value><![CDATA[false]]></value>
 				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.opencms.documentation/templates/documentation-template.jsp]]></value>
+				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
