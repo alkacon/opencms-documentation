@@ -71,25 +71,25 @@ modules_documentation_all.split(',').each{ moduleName ->
         moduleVersion = parsedManifest.module[0].version[0].text()
     }
     task "jar_$moduleName" (type: Jar) {
-        ext.moduleName = moduleName
-        ext.moduleVersion= moduleVersion
-        manifest {
-            attributes 'Implementation-Title': 'Alkacon OpenCms Documentation', 'Implementation-Version': moduleVersion
-        }
-        from sourceSets[moduleName].output
-        archiveName moduleName+'.jar'
-        baseName moduleName
-        exclude '**/.gitignore'
-        exclude '**/test/**'
-        doFirst {
-        	if (!file("${projectDir}/${moduleName}/src").exists()){
-        		println "======================================================"
-        		println "No JAR required for $moduleName version $moduleVersion"
-        		println "======================================================" 
-        		throw new StopExecutionException()
-        	}
+        if (file("${projectDir}/${moduleName}/src").exists()){
+            ext.moduleName = moduleName
+            ext.moduleVersion= moduleVersion
+            manifest {
+                attributes 'Implementation-Title': 'Alkacon OpenCms Documentation', 'Implementation-Version': moduleVersion
+            }
+            from sourceSets[moduleName].output
+            archiveName moduleName+'.jar'
+            baseName moduleName
+            exclude '**/.gitignore'
+            exclude '**/test/**'
+            doFirst {
+                println '======================================================'
+                println "Building JAR for $moduleName version $moduleVersion"
+                println '======================================================'
+            }
+        } else {
             println '======================================================'
-            println "Building JAR for $moduleName version $moduleVersion"
+            println "No JAR required for $moduleName version $moduleVersion"
             println '======================================================'
         }
     }
