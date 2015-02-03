@@ -56,7 +56,7 @@ public class CmsVersionNumberConverter {
 		String number = "";
 		int part = MAX_PARTS - 1;
 		long remainder = versionNumber;
-		while (remainder > 0) {
+		while ((remainder > 0) || (part > 0)) {
 			long currentOffset = shift(part);
 			long current = remainder / currentOffset;
 			number += number.isEmpty() ? Long.toString(current) : "."
