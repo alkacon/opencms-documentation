@@ -2,9 +2,9 @@
 
 <export>
 	<info>
-		<creator>Admin</creator>
-		<opencms_version>9.5.x</opencms_version>
-		<createdate>Mon, 12 Jan 2015 10:25:45 GMT</createdate>
+		<creator>dSeidel</creator>
+		<opencms_version>9.5.0</opencms_version>
+		<createdate>Wed, 04 Feb 2015 08:42:33 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,7 +14,7 @@
 		<group>OpenCms Documentation</group>
 		<class/>
 		<description><![CDATA[All the content of the OpenCms documentation. Place it in the site where the content should be available, usually /sites/default/]]></description>
-		<version>9.5.3</version>
+		<version>9.5.3.1</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated/>
@@ -34,8 +34,8 @@
 			<destination>opencms-documentation</destination>
 			<type>subsitemap</type>
 			<uuidstructure>f002c53d-973d-11e4-8878-b7eb8d90e9b7</uuidstructure>
-			<datelastmodified>Mon, 12 Jan 2015 10:20:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Mon, 02 Feb 2015 15:01:55 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
 			<datecreated>Thu, 08 Jan 2015 13:55:00 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -50,7 +50,7 @@
 				</property>
 				<property>
 					<name>opencms.documentation.editor</name>
-					<value><![CDATA[false]]></value>
+					<value><![CDATA[true]]></value>
 				</property>
 				<property>
 					<name>template</name>
@@ -2318,8 +2318,8 @@
 			<type>documentation-codeblock</type>
 			<uuidstructure>d9b7c5e8-65ab-11e4-9296-005056b61161</uuidstructure>
 			<uuidresource>d9b7c5e9-65ab-11e4-9296-005056b61161</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:20:44 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Mon, 26 Jan 2015 07:48:33 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Thu, 06 Nov 2014 11:55:49 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -3012,6 +3012,306 @@
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 08 Dec 2014 09:37:00 GMT</datecreated>
 			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00188.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00188.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>2736f890-a52e-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>2736f891-a52e-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 26 Jan 2015 07:39:01 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 07:37:17 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00189.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00189.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>27c33d9c-a52f-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>27c33d9d-a52f-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 26 Jan 2015 07:45:11 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 07:44:27 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00190.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00190.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>aa1cca42-a569-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>aa1cca43-a569-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 26 Jan 2015 14:50:19 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 14:43:17 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00191.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00191.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>e8d8a680-a604-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>e8d8cd91-a604-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 09:29:24 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 09:14:34 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00192.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00192.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>11167c32-a62e-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>11167c33-a62e-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 14:24:55 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 14:09:11 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00193.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00193.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>9a9f641a-a632-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>9a9f641b-a632-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 14:41:55 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 14:41:40 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00194.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00194.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>90559cd0-a78b-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>90559cd1-a78b-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 08:18:59 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 07:50:59 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00195.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00195.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>fb46b59c-a78d-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>fb46b59d-a78d-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 10:39:45 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 08:08:17 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00196.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00196.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>d6f2f94e-a799-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>d6f2f94f-a799-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 09:33:55 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 09:33:10 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00197.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00197.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>fc84ef6f-a79a-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>fc84ef70-a79a-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 09:41:32 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 09:41:23 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00198.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00198.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>41ab927b-a79b-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>41ab927c-a79b-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 09:43:27 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 09:43:19 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00199.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00199.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>7cc4a964-a79b-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>7cc4a965-a79b-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 09:45:03 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 09:44:58 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00200.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00200.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>0c860433-a7a1-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>0c860434-a7a1-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 10:25:23 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 10:24:46 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00201.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00201.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>49603197-a7a9-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>49603198-a7a9-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 11:23:52 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 11:23:45 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00202.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00202.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>52db41ba-a7a9-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>52db41bb-a7a9-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 11:24:08 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 11:24:00 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00203.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00203.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>601afafd-a7a9-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>601afafe-a7a9-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 11:24:31 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 11:24:23 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00204.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00204.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>2356ec10-a7ac-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>2356ec11-a7ac-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 11:44:44 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 11:44:09 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00205.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00205.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>c85f751f-a7ac-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>c85f7520-a7ac-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 11:49:09 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 11:48:46 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00206.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00206.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>272948b2-a7ba-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>272948b3-a7ba-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 13:24:41 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 13:24:29 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00207.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/documentation-codeblock-00207.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>8e4564b8-a7bc-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>8e4564b9-a7bc-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 13:42:00 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 13:41:41 GMT</datecreated>
+			<usercreated>dRival</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -5057,6 +5357,126 @@
 					<value><![CDATA[Solr: Values for the type-attribute of <mapping>-element]]></value>
 				</property>
 			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-definition-list/documentation-definition-list-00104.xml</source>
+			<destination>opencms-documentation/.content/documentation-definition-list/documentation-definition-list-00104.xml</destination>
+			<type>documentation-definition-list</type>
+			<uuidstructure>b56c516b-a61b-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>b56c516c-a61b-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 13:32:21 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 11:57:46 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-definition-list/documentation-definition-list-00105.xml</source>
+			<destination>opencms-documentation/.content/documentation-definition-list/documentation-definition-list-00105.xml</destination>
+			<type>documentation-definition-list</type>
+			<uuidstructure>ccc7c7a0-a61b-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>ccc7c7a1-a61b-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 13:32:25 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 11:58:25 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-definition-list/documentation-definition-list-00106.xml</source>
+			<destination>opencms-documentation/.content/documentation-definition-list/documentation-definition-list-00106.xml</destination>
+			<type>documentation-definition-list</type>
+			<uuidstructure>dbb223a4-a61b-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>dbb223a5-a61b-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 13:32:29 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 11:58:50 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-definition-list/documentation-definition-list-00107.xml</source>
+			<destination>opencms-documentation/.content/documentation-definition-list/documentation-definition-list-00107.xml</destination>
+			<type>documentation-definition-list</type>
+			<uuidstructure>8059e169-a79f-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>8059e16a-a79f-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 10:14:05 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 10:13:42 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-definition-list/documentation-definition-list-00108.xml</source>
+			<destination>opencms-documentation/.content/documentation-definition-list/documentation-definition-list-00108.xml</destination>
+			<type>documentation-definition-list</type>
+			<uuidstructure>d47fc802-a79f-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>d47fc803-a79f-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 10:16:18 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 10:16:03 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-definition-list/documentation-definition-list-00109.xml</source>
+			<destination>opencms-documentation/.content/documentation-definition-list/documentation-definition-list-00109.xml</destination>
+			<type>documentation-definition-list</type>
+			<uuidstructure>fa211cd6-a79f-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>fa211cd7-a79f-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 10:17:27 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 10:17:06 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-definition-list/documentation-definition-list-00110.xml</source>
+			<destination>opencms-documentation/.content/documentation-definition-list/documentation-definition-list-00110.xml</destination>
+			<type>documentation-definition-list</type>
+			<uuidstructure>3933f69a-a7a0-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>3933f69b-a7a0-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 10:19:13 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 10:18:52 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-definition-list/documentation-definition-list-00111.xml</source>
+			<destination>opencms-documentation/.content/documentation-definition-list/documentation-definition-list-00111.xml</destination>
+			<type>documentation-definition-list</type>
+			<uuidstructure>b14851de-a7a0-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>b14851df-a7a0-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 10:41:04 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 10:22:13 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -7221,6 +7641,126 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[templateelementview_permissions]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/documentation-figure-00108.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/documentation-figure-00108.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>e381cc7c-a562-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>e381cc7d-a562-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 08:54:48 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 13:54:47 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[top_level_folders_per_locale]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/documentation-figure-00109.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/documentation-figure-00109.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>bc771ba9-a570-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>bc771baa-a570-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 08:34:17 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 15:33:54 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[create_siblings_1]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/documentation-figure-00110.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/documentation-figure-00110.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>91949a7c-a571-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>91949a7d-a571-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 09:44:09 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 15:39:52 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[create_siblings_2]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/documentation-figure-00111.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/documentation-figure-00111.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>db8eba76-a578-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>db8eba77-a578-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 10:08:14 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 16:32:02 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[content_editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/documentation-figure-00112.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/documentation-figure-00112.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>87a0a58c-a60f-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>87a0a58d-a60f-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 10:33:10 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 10:30:35 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Add identifier]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/documentation-figure-00113.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/documentation-figure-00113.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>7dc7fd88-a615-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>7dc7fd89-a615-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 11:14:20 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 11:13:16 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Add identifier]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -18004,8 +18544,8 @@
 			<type>documentation-html</type>
 			<uuidstructure>aa1a948b-7eb0-11e4-9ca2-0242ac11002b</uuidstructure>
 			<uuidresource>aa1a948c-7eb0-11e4-9ca2-0242ac11002b</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:21:09 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Mon, 26 Jan 2015 13:29:54 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Mon, 08 Dec 2014 08:03:16 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -18098,6 +18638,696 @@
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 08 Dec 2014 09:24:14 GMT</datecreated>
 			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00688.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00688.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>f646f6f8-a52b-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>f646f6f9-a52b-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 26 Jan 2015 13:09:02 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 07:21:36 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00689.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00689.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>8130ae9c-a52d-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>8130ae9d-a52d-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 26 Jan 2015 13:11:27 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 07:32:38 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00690.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00690.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>496f8a81-a52f-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>496f8a82-a52f-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 26 Jan 2015 13:11:54 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 07:45:24 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00691.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00691.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>f4efdaac-a54a-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>f4efdaad-a54a-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 08:26:53 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 11:03:28 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00692.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00692.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>6a4b788c-a55d-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>6a4b788d-a55d-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 26 Jan 2015 16:14:04 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 13:15:36 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00693.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00693.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>855fb100-a55d-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>855fb101-a55d-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 08:35:37 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 13:16:21 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00694.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00694.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>93e932f3-a55e-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>93e932f4-a55e-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 09:55:31 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 13:23:55 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00695.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00695.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>775c392c-a565-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>775c392d-a565-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 26 Jan 2015 14:35:28 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 14:13:14 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00696.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00696.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>21c587db-a569-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>21c587dc-a569-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 26 Jan 2015 14:59:49 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 14:39:28 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00698.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00698.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>b5e6cd4b-a600-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>b5e6cd4c-a600-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 08:50:15 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 08:44:30 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00699.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00699.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>542b8b16-a603-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>542b8b17-a603-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 09:34:33 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 09:03:15 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00700.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00700.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>d8c0d814-a60d-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>d8c0d815-a60d-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 10:30:23 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 10:18:32 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00701.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00701.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>b3de263d-a612-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>b3de263e-a612-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 13:18:58 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 10:53:18 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00702.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00702.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>ba32e182-a618-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>ba32e183-a618-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 12:02:34 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 11:36:26 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00703.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00703.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>c407a55e-a62a-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>c407a55f-a62a-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 14:28:43 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 13:45:33 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00704.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00704.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>1b7ea0dc-a62d-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>1b7ea0dd-a62d-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 14:26:49 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 14:02:19 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00705.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00705.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>a4ffe79f-a631-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>a4ffe7a0-a631-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 14:41:24 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 14:34:47 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00706.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00706.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>cb453aeb-a77d-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>cb453aec-a77d-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 11:31:04 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 06:12:25 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00707.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00707.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>61533739-a785-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>6153373a-a785-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 08:03:54 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 07:06:43 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00708.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00708.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>82129278-a78d-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>82129279-a78d-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 08:19:41 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 08:04:54 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00709.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00709.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>2b4bac44-a796-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>2b4bac45-a796-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 09:12:11 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 09:06:54 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00710.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00710.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>1c325ba6-a797-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>1c325ba7-a797-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 09:22:48 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 09:13:38 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00711.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00711.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>72c666ad-a798-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>72c666ae-a798-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 09:24:58 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 09:23:13 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00712.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00712.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>92c471e9-a799-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>92c471ea-a799-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 09:32:22 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 09:31:16 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00713.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00713.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>e536718c-a79a-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>e536718d-a79a-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 09:42:11 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 09:40:44 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00714.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00714.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>0c74d492-a79b-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>0c74d493-a79b-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 09:41:54 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 09:41:49 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00715.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00715.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>3909a448-a79b-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>3909a449-a79b-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 09:43:57 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 09:43:04 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00716.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00716.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>70e89ed1-a79b-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>70e89ed2-a79b-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 09:44:55 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 09:44:38 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00717.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00717.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>6ed9787e-a79c-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>6ed9787f-a79c-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 09:55:06 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 09:51:44 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00718.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00718.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>f8cf28a5-a79c-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>f8cf28a6-a79c-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 09:56:30 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 09:55:35 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00719.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00719.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>b03db50e-a79f-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>b03db50f-a79f-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 10:15:31 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 10:15:02 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00720.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00720.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>2abd2787-a7a1-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>2abd2788-a7a1-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 10:40:47 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 10:25:37 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00721.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00721.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>89e48776-a7a7-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>89e48777-a7a7-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 11:15:21 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 11:11:14 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00722.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00722.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>2ee727ad-a7a9-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>2ee727ae-a7a9-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 11:23:04 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 11:23:00 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00723.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00723.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>359c6110-a7a9-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>359c6111-a7a9-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 11:23:22 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 11:23:11 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00724.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00724.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>3cbae393-a7a9-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>3cbae394-a7a9-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 11:23:32 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 11:23:23 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00725.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00725.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>b803dd07-a7a9-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>b803dd08-a7a9-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 11:32:01 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 11:26:50 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00726.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00726.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>aa9221e1-a7aa-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>aa9221e2-a7aa-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 11:39:16 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 11:33:37 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00727.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00727.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>00f99eaa-a7ac-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>00f99eab-a7ac-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 11:43:59 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 11:43:12 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00728.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00728.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>91925fca-a7ac-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>91925fcb-a7ac-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 11:48:32 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 11:47:14 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00729.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00729.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>e97b1ac3-a7ac-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>e97b1ac4-a7ac-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 11:50:31 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 11:49:42 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00730.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00730.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>82dd764d-a7ad-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>82dd764e-a7ad-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 11:56:42 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 11:53:59 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00731.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00731.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>4a240f7d-a7af-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>4a240f7e-a7af-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 13:18:38 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 12:06:43 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00732.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00732.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>f7fe16ab-a7b9-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>f7fe16ac-a7b9-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 13:28:33 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 13:23:09 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00733.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00733.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>451d6f96-a7ba-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>451d6f97-a7ba-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 13:27:09 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 13:25:19 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00734.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00734.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>5a7e1554-a7bc-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>5a7e1555-a7bc-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 13:41:37 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 13:40:14 GMT</datecreated>
+			<usercreated>dRival</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -28517,6 +29747,666 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00521.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00521.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>de5cae43-a52b-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>de5cae44-a52b-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 26 Jan 2015 13:30:09 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 07:20:56 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Search settings - The <code>content_{locale}</code> index fields]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00522.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00522.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>2121a3ad-a540-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>2121a3ae-a540-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 26 Jan 2015 11:11:05 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 09:45:58 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization - Mere translation or dynamic structure?]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00523.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00523.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>aad1ac8a-a54d-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>aad1ac8b-a54d-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 09:51:36 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 11:22:52 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization - Mere translation based on one common structure<br />]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00524.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00524.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>fbba1c9c-a55c-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>fbba1c9d-a55c-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 09:40:43 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 13:12:30 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization - Dynamic structure<br />]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00525.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00525.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>4cee9336-a55e-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>4cee9337-a55e-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 26 Jan 2015 15:01:09 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 13:21:56 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization - Folder structure<br />]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00526.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00526.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>edfd2706-a568-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>edfd2707-a568-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 26 Jan 2015 14:38:46 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 14:38:01 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization - Adding supported locales]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00527.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00527.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>d3a8e5be-a577-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>d3a8e5bf-a577-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 26 Jan 2015 16:25:47 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 16:24:39 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization - Editing multi language content]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00528.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00528.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>d86973cb-a57a-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>d86973cc-a57a-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 09:03:01 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 16:46:16 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization - Rendering localized contents]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00529.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00529.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>c3911b7f-a60d-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>c3911b80-a60d-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 10:18:22 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 10:17:57 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization - Adding content via drag &amp; drop<br />]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00530.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00530.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>d9c3c1e1-a610-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>d9c3c1e2-a610-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 10:52:58 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 10:40:03 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Resource Bundles - About resource bundles]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00531.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00531.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>5a59d51d-a618-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>5a59d51e-a618-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 11:34:38 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 11:33:45 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Resource Bundles - Localizing system dialogs<br />]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00532.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00532.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>7f306329-a61c-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>7f30632a-a61c-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 12:03:37 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 12:03:25 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Resource Bundles - Localizing the content (editor)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00533.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00533.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>b9152597-a62c-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>b9152598-a62c-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 14:00:05 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 13:59:34 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Resource Bundles - Using bundles in JSPs]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00534.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00534.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>a5476d50-a630-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>a5476d51-a630-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 14:36:32 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 14:27:38 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Resource Bundles - The “__locale” request parameter]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00535.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00535.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>7b961f1e-a777-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>7b961f1f-a777-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 06:10:20 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 05:27:14 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Advanced OpenCms API - Classes for JSP programming]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00536.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00536.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>35476da2-a785-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>35476da3-a785-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 07:05:51 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 07:05:29 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Advanced OpenCms API - Subclassing CmsJspBean]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00537.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00537.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>411442db-a795-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>411442dc-a795-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 09:06:29 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 09:00:21 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content subscription engine  - Basic concepts<br />]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00538.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00538.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>fce66cec-a796-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>fce66ced-a796-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 09:12:56 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 09:12:45 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content subscription engine  - Subscriptions<br />]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00539.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00539.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>15905c22-a797-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>15905c23-a797-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 09:14:07 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 09:13:27 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content subscription engine  - Visit tracking]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00540.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00540.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>55315a51-a799-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>55315a52-a799-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 09:30:26 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 09:29:32 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content subscription engine  - The usertracking-tag]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00541.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00541.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>9ee059e8-a79b-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>9ee059e9-a79b-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 09:46:13 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 09:45:55 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content subscription engine  - Collectors for Subscriptions]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00542.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00542.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>53d64fc3-a79f-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>53d64fc4-a79f-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 10:12:33 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 10:12:27 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content subscription engine  - Configuration parameters<br /><br />]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00543.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00543.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>7b768761-a7a7-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>7b768762-a7a7-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 11:10:53 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 11:10:50 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content subscription engine  - Tracking user visits]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00544.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00544.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>de5d7a9f-a7a8-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>de5d7aa0-a7a8-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 11:21:11 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 11:20:45 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content subscription engine  - examples<br />]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00545.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00545.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>899962f2-a7a9-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>899962f3-a7a9-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 11:26:38 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 11:25:32 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content subscription engine  - Collecting all visited resources]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00546.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00546.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>c0702a74-a7ab-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>c0702a75-a7ab-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 11:42:55 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 11:41:23 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content subscription engine  - examples]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00547.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00547.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>51502dc5-a7ac-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>51502dc6-a7ac-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 11:45:29 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 11:45:26 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content subscription engine  - Handling binary files]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00548.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00548.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>6a1d18e8-a7ad-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>6a1d18e9-a7ad-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 11:53:36 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 11:53:17 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content subscription engine  - Controlling when a visit is tracked]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00549.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00549.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>fd5bb035-a7ae-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>fd5bb036-a7ae-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 12:05:14 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 12:04:34 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content subscription engine  - &lt;cms:usertracking&gt; tag vs. the resource init handler]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00550.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00550.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>d97502c5-a7b9-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>d97502c6-a7b9-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 13:22:24 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 13:22:18 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content subscription engine  - Configuration of the engine]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00551.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00551.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>116768de-a7bb-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>116768df-a7bb-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 13:31:22 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 13:31:02 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content subscription engine  - Preventing browser caching]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00552.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00552.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>3218fee8-aaec-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>3218fee9-aaec-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 02 Feb 2015 15:20:30 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 02 Feb 2015 15:00:15 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Static export - Performance Improvement]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00553.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00553.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>20614ac6-aaef-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>20614ac7-aaef-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 02 Feb 2015 15:21:55 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 02 Feb 2015 15:21:14 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Static export - Static site copy]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/.content/documentation-topic-row</destination>
 			<type>folder</type>
 			<uuidstructure>20d5b252-17c1-11e4-a3fa-b7bfd6088c56</uuidstructure>
@@ -30903,8 +32793,8 @@
 			<type>documentation-topic</type>
 			<uuidstructure>bb893c95-65a5-11e4-9296-005056b61161</uuidstructure>
 			<uuidresource>bb893c96-65a5-11e4-9296-005056b61161</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:21:45 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Mon, 26 Jan 2015 13:23:52 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Thu, 06 Nov 2014 11:12:01 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -31089,6 +32979,105 @@
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-topic/documentation-topic-00097.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic/documentation-topic-00097.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>2110b3bb-a540-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>2110b3bc-a540-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 26 Jan 2015 13:29:03 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 09:45:57 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Keywords</name>
+					<value><![CDATA[localization internationalization]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-topic/documentation-topic-00098.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic/documentation-topic-00098.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>d9b5df2f-a610-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>d9b5df30-a610-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 15:12:13 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 10:40:03 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Resource Bundles]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-topic/documentation-topic-00099.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic/documentation-topic-00099.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>7b85cb6c-a777-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>7b85cb6d-a777-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 05:57:52 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 05:27:14 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Advanced OpenCms API]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-topic/documentation-topic-00100.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic/documentation-topic-00100.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>4105c3e9-a795-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>4105c3ea-a795-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 09:00:21 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 09:00:21 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-topic/documentation-topic-00101.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic/documentation-topic-00101.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>32099596-aaec-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>32099597-aaec-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 02 Feb 2015 15:08:08 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 02 Feb 2015 15:00:15 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Static export]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -35441,6 +37430,34 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.galleries/pictures/contentsEditor.png</source>
+			<destination>opencms-documentation/.galleries/pictures/contentsEditor.png</destination>
+			<type>image</type>
+			<uuidstructure>f64f0689-a578-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>f64f068a-a578-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 26 Jan 2015 16:35:39 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 16:32:47 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[form based editor with drop down selection of locale]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[localized_content_editor]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:588,h:386]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>opencms-documentation/.galleries/pictures/default.png</source>
 			<destination>opencms-documentation/.galleries/pictures/default.png</destination>
 			<type>image</type>
@@ -35873,6 +37890,34 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.galleries/pictures/explorerviewTopLevelFolder_cutPlain.png</source>
+			<destination>opencms-documentation/.galleries/pictures/explorerviewTopLevelFolder_cutPlain.png</destination>
+			<type>image</type>
+			<uuidstructure>11a005e0-a564-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>11a005e1-a564-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 26 Jan 2015 14:04:16 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 14:03:13 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[screenshot of explorerview with locale specific top level folders]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[localization_top_level_folders]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:735,h:361]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>opencms-documentation/.galleries/pictures/FormatterConfiguration.png</source>
 			<destination>opencms-documentation/.galleries/pictures/FormatterConfiguration.png</destination>
 			<type>image</type>
@@ -36227,6 +38272,86 @@
 				<property type="shared">
 					<name>image.size</name>
 					<value><![CDATA[w:941,h:935]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/local_copyAsSibling_1Cut.png</source>
+			<destination>opencms-documentation/.galleries/pictures/local_copyAsSibling_1Cut.png</destination>
+			<type>image</type>
+			<uuidstructure>e90cd5be-a570-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>e90cd5bf-a570-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 26 Jan 2015 15:36:04 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 15:35:09 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[sep 1 in creating a sibling in the explorer view]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[copy_resource_as_sibling_1]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:373,h:276]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/local_copyAsSibling_2Cut.png</source>
+			<destination>opencms-documentation/.galleries/pictures/local_copyAsSibling_2Cut.png</destination>
+			<type>image</type>
+			<uuidstructure>e91190b2-a570-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>e91190b3-a570-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 26 Jan 2015 15:43:56 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 15:35:09 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[step 2 in creating a resource as sibling]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[copy_resource_as_sibling_2]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1108,h:336]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/locla_advancedtab_contentSel.png</source>
+			<destination>opencms-documentation/.galleries/pictures/locla_advancedtab_contentSel.png</destination>
+			<type>image</type>
+			<uuidstructure>99ed8d7f-a60f-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>99ed8d80-a60f-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 10:31:50 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 10:31:06 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[contend_selection_of_other_language_with:advanced_tab]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:410,h:209]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -36635,6 +38760,30 @@
 				<property type="shared">
 					<name>image.size</name>
 					<value><![CDATA[w:1159,h:754]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/resBundle_editor.png</source>
+			<destination>opencms-documentation/.galleries/pictures/resBundle_editor.png</destination>
+			<type>image</type>
+			<uuidstructure>8ec5821b-a615-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>8ec5821c-a615-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 11:13:44 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 11:13:44 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[resBundle_editor]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:611,h:191]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -37519,6 +39668,52 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>opencms-documentation/administration/static-export</destination>
+			<type>folder</type>
+			<uuidstructure>31fee731-aaec-11e4-a41b-0242ac11002b</uuidstructure>
+			<datelastmodified>Mon, 02 Feb 2015 15:00:41 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 02 Feb 2015 15:00:15 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.25]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Static export]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Static export]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/administration/static-export/index.html</source>
+			<destination>opencms-documentation/administration/static-export/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>321e2f0b-aaec-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>321e2f0c-aaec-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 02 Feb 2015 15:21:44 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 02 Feb 2015 15:00:15 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Static export]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/administration/user-management</destination>
 			<type>folder</type>
 			<uuidstructure>7e23e5a4-269d-11e4-8e1b-49dbf0abad32</uuidstructure>
@@ -38133,6 +40328,52 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>opencms-documentation/content-in-opencms/content-subscription-</destination>
+			<type>folder</type>
+			<uuidstructure>40fb1584-a795-11e4-a41b-0242ac11002b</uuidstructure>
+			<datelastmodified>Thu, 29 Jan 2015 09:03:28 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 09:00:21 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[7.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Content subscription engine ]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content subscription engine ]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/content-in-opencms/content-subscription-/index.html</source>
+			<destination>opencms-documentation/content-in-opencms/content-subscription-/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>411972fe-a795-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>411972ff-a795-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 13:41:41 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 09:00:21 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content subscription engine ]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/content-in-opencms/defining-a-content-type</destination>
 			<type>folder</type>
 			<uuidstructure>ce157352-1bcf-11e4-bfa5-b7bfd6088c56</uuidstructure>
@@ -38586,8 +40827,8 @@
 			<type>containerpage</type>
 			<uuidstructure>bb99de6a-65a5-11e4-9296-005056b61161</uuidstructure>
 			<uuidresource>bb99de6b-65a5-11e4-9296-005056b61161</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:21:55 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Mon, 26 Jan 2015 08:17:35 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Thu, 06 Nov 2014 11:12:01 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -38871,6 +41112,106 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Lists of resources and detail pages]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/content-in-opencms/localization</destination>
+			<type>folder</type>
+			<uuidstructure>2107da15-a540-11e4-a41b-0242ac11002b</uuidstructure>
+			<datelastmodified>Mon, 26 Jan 2015 09:46:47 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 09:45:57 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[4.5]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Localization]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization]]></value>
+				</property>
+				<property type="shared">
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/content-in-opencms/localization/index.html</source>
+			<destination>opencms-documentation/content-in-opencms/localization/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>21296be0-a540-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>21296be1-a540-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 14:32:20 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Mon, 26 Jan 2015 09:45:58 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Keywords</name>
+					<value><![CDATA[localization internationalization]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Localization]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/content-in-opencms/resource-bundles</destination>
+			<type>folder</type>
+			<uuidstructure>d9a9d13a-a610-11e4-a41b-0242ac11002b</uuidstructure>
+			<datelastmodified>Tue, 27 Jan 2015 15:13:20 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 10:40:02 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[6.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Resource bundles]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Resource bundles]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/content-in-opencms/resource-bundles/index.html</source>
+			<destination>opencms-documentation/content-in-opencms/resource-bundles/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>d9c91914-a610-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>d9c91915-a610-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 27 Jan 2015 15:13:20 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Tue, 27 Jan 2015 10:40:03 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Resource bundles]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -45141,6 +47482,52 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Network share access]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/page</destination>
+			<type>folder</type>
+			<uuidstructure>7b78ac07-a777-11e4-a41b-0242ac11002b</uuidstructure>
+			<datelastmodified>Thu, 29 Jan 2015 05:27:54 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 05:27:14 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[2.96875]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Advanced OpenCms API]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Advanced OpenCms API]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/page/index.html</source>
+			<destination>opencms-documentation/page/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>7b9c86c1-a777-11e4-a41b-0242ac11002b</uuidstructure>
+			<uuidresource>7b9c86c2-a777-11e4-a41b-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Jan 2015 08:08:17 GMT</datelastmodified>
+			<userlastmodified>dRival</userlastmodified>
+			<datecreated>Thu, 29 Jan 2015 05:27:14 GMT</datecreated>
+			<usercreated>dRival</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Advanced OpenCms API]]></value>
 				</property>
 			</properties>
 			<relations/>

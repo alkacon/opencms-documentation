@@ -3,21 +3,28 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>OpenCms ships with a default configuration for indexed fields that is optimized w.r.t. the structure of OpenCms resources. So, for example, properties are already indexed. What is impossible to capture by a default configuration are the following decisions:</p>
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/search-settings/]]></target>
+          <anchor><![CDATA[content_field]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>OpenCms ships with a default configuration for the indexiation of resources. The configuration is optimized w.r.t. the structure of OpenCms resources. So, for example, properties are indexed by default. But, the some choices do not have an over-all good default. In particular concerning XML contents, the answers to the following questions are specific to the actual use case:</p>
 <ul>
+<li>Which schema elements of a structured content should not be indexed at all?</li>
 <li>Which schema elements of a structured content should be mapped to special index fields (of special type)?</li>
 <li>Should an XML content be findable as the content itself, or only the container-page the content is located on?</li>
 </ul>
-<p>The answer to both questions is mainly specific to your use-case. Thus you have to choose the settings by yourself. As use cases you may regard:</p>
+<p>The answers to these questions are mainly specific to your use-case. Thus you have to choose the settings by yourself. As guidelines you may regard:</p>
 <ul>
+<li>If you have a Boolean value or a date stored in your content, then you may not want to index them - at least not in the <a href="%(link0)">general content field</a>.</li>
 <li>If you have detail pages for contents, it is usually intended to find the content as its own. Otherwise this may be not the case.</li>
 <li>If you want to have facets, you may map schema elements to special fields that you use for faceting.</li>
 </ul>
 <p>By default</p>
 <ul>
-<li>The content of all schema elements of one language version will be stored in one language-specific text field called <code>content_{locale}</code>, e.g., <code>content_en</code>.</li>
-<li>The content is index such, that it can be found stand-alone.</li>
+<li>The content of all schema elements of one language version will be stored in one language-specific text field called <code>content_{locale}</code>, e.g., <code>content_en</code>. (Here the dates or Boolean values should usually be omited - learn later how)</li>
+<li>The content is indexed such, that it can be found stand-alone (and also the container-page it is located on is findable).</li>
 </ul>
 <p> </p>]]></content>
     </Html>

@@ -4,13 +4,9 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link1" internal="true" type="A">
-          <target><![CDATA[]]></target>
-          <anchor><![CDATA[fig_content_editor_example]]></anchor>
-        </link>
-        <link name="link0" internal="true" type="IMG">
-          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_normalsize/editIconActive.png]]></target>
-          <uuid>7b2384e5-02bc-11e4-8167-1305b26fecac</uuid>
+        <link name="link2" internal="true" type="IMG">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_normalsize/addIconActive.png]]></target>
+          <uuid>7b074b1d-02bc-11e4-8167-1305b26fecac</uuid>
           <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
         </link>
         <link name="link3" internal="true" type="IMG">
@@ -18,10 +14,14 @@
           <uuid>7b593b5d-02bc-11e4-8167-1305b26fecac</uuid>
           <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
         </link>
-        <link name="link2" internal="true" type="IMG">
-          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_normalsize/addIconActive.png]]></target>
-          <uuid>7b074b1d-02bc-11e4-8167-1305b26fecac</uuid>
+        <link name="link0" internal="true" type="IMG">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_normalsize/editIconActive.png]]></target>
+          <uuid>7b2384e5-02bc-11e4-8167-1305b26fecac</uuid>
           <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+        </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[fig_content_editor_example]]></anchor>
         </link>
       </links>
       <content><![CDATA[<p>The form-based editor is the standard editor for XML contents. It opens when you click the pencil <img style="width: 14px;" title="editIconActive" src="%(link0)" alt="" /> at a content element in the page editor, or when you edit an XML content from the workplace. The editor shows all content fields in an intuitivly editable way. Dependent on the type of the content field, special editor widgets are used.</p>
