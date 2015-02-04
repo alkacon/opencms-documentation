@@ -7,7 +7,11 @@
 <%@ page import="org.opencms.util.CmsHtmlConverter"%>
 <c:choose>
 <c:when test="${cms.element.inMemoryOnly}">
-	The content is not yet persisted. Please edit it.
+	<div>	
+		<h2>
+			The content is not yet persisted. Please edit it.
+		</h2>
+	</div>
 </c:when>
 <c:when test="${cms.edited}">
 	<div>
