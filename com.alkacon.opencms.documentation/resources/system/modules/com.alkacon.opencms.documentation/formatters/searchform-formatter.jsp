@@ -67,32 +67,35 @@
 						value="${controllers.fieldFacets.fieldFacetControllers}" />
 					<c:forEach var="controller" items="${fieldFacetControllers}">
 						<c:set var="facet" value="${searchform.fieldFacet[controller.config.name]}"/>
-						<c:if test="${cms:getListSize(facet.values) > 0}">
+						<c:set var="valueCount" value="${cms:getListSize(facet.values)}"/>
+						<c:if test='${valueCount > 1 || facet.name != "removedInVersion_en_l" && valueCount > 0}'>
 							<div class="panel panel-default">
 								<div class="panel-heading">${controller.config.label}</div>
 								<div class="panel-body">
 								<c:choose>
 								<c:when test='${facet.name eq "newInVersion_en_l"}'>
-									<c:set var="count" value="${facet.values[cms:getListSize(facet.values)-1].count}" />
-									<c:set var="end" value="${cms:getListSize(facet.values) - 2}" />									
-									<c:forEach var="i" begin="0" end="${end}" step="1" >
-										<c:set var="facetItem" value="${facet.values[end-i]}"/>
-										<c:if test='${facetItem.name != "0" }'>
-											<div class="checkbox">
-												<label> <input type="checkbox"
-													name="${controller.config.paramKey}"
-													value="${facetItem.name}"
-													${controller.state.isChecked[facetItem.name]?"checked":""} />
-													${versionConverter.decode[facetItem.name]} (${count})
-												</label>
-											</div>
-											<c:set var="count" value="${count + facetItem.count}" />
-										</c:if>
-									</c:forEach>
+									<c:set var="count" value="${facet.values[valueCount-1].count}" />
+									<c:set var="end" value="${valueCount - 2}" />								
+									<c:if test="${end >= 0}">
+										<c:forEach var="i" begin="0" end="${end}" step="1" >
+											<c:set var="facetItem" value="${facet.values[end-i]}"/>
+											<c:if test='${facetItem.name != "0" }'>
+												<div class="checkbox">
+													<label> <input type="checkbox"
+														name="${controller.config.paramKey}"
+														value="${facetItem.name}"
+														${controller.state.isChecked[facetItem.name]?"checked":""} />
+														${versionConverter.decode[facetItem.name]} (${count})
+													</label>
+												</div>
+												<c:set var="count" value="${count + facetItem.count}" />
+											</c:if>
+										</c:forEach>
+									</c:if>
 								</c:when>
 								<c:when test='${facet.name eq "removedInVersion_en_l"}'>
 									<c:set var="count" value="0" />
-									<c:set var="end" value="${cms:getListSize(facet.values) - 1}" />
+									<c:set var="end" value="${valueCount-1}" />
 									<c:forEach var="i" begin="0" end="${end}" step="1" >
 										<c:set var="facetItem" value="${facet.values[end-i]}"/>
 										<c:if test='${facetItem.name != "0" }'>
