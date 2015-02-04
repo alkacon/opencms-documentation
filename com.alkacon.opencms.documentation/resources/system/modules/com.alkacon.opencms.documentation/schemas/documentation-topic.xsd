@@ -22,6 +22,7 @@
 			<xsd:element name="InterestingFor" type="OpenCmsString" />
 			<xsd:element name="RelatedLinks" type="OpenCmsDocumentationLinkOrList" minOccurs="0" />
 			<xsd:element name="NewInVersion" type="OpenCmsString" minOccurs="0" />
+			<xsd:element name="RemovedInVersion" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="NewInDocuVersion" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="StatusMetaData" type="OpenCmsDocumentationStatusMetadata" />
 		</xsd:sequence>
@@ -50,8 +51,9 @@
 				<layout element="InterestingFor" widget="MultiSelectWidget" configuration="editor:Content Editor|developer:Template Developer|serverAdmin:Server Administrator|accountManager:Account Manager" />
 			</layouts>
 			<validationrules>
-				<rule element="NewInVersion" regex="\d{1,3}(.\d{1,3}){0,2}" type="warning" message="The value seems not to be an OpenCms version number." /> 
-				<rule element="NewInDocuVersion" regex="\d{1,3}(.\d{1,3}){0,2}" type="warning" message="The value seems not to be an OpenCms version number." />
+				<rule element="NewInVersion" regex="\d{1,3}(.\d{1,3}){0,3}" type="error" message="The value seems not to be an OpenCms version number." />
+				<rule element="RemovedInVersion" regex="\d{1,3}(.\d{1,3}){0,3}" type="error" message="The value seems not to be an OpenCms version number." /> 
+				<rule element="NewInDocuVersion" regex="\d{1,3}(.\d{1,3}){0,3}" type="error" message="The value seems not to be an OpenCms version number." />
 			</validationrules>
 			<relations/>
 			<tabs>
@@ -66,12 +68,21 @@
 				</searchsetting>
 				<searchsetting element="NewInVersion" searchcontent="false">
 					<solrfield targetfield="newInVersion" addto="page,element" default="unknown" />
+					<solrfield targetfield="newInVersion" sourcefield="_l" addto="page,element">
+						<mapping type="dynamic" class="com.alkacon.opencms.documentation.search.CmsVersionNumberSearchFieldMapping">NewInVersion</mapping>
+					</solrfield>
+				</searchsetting>
+				<searchsetting element="RemovedInVersion" searchcontent="false">
+					<solrfield targetfield="removedInVersion" addto="page,element" default="unknown" />
+					<solrfield targetfield="removedInVersion" sourcefield="_l" addto="page,element">
+						<mapping type="dynamic" class="com.alkacon.opencms.documentation.search.CmsVersionNumberSearchFieldMapping">RemovedInVersion</mapping>
+					</solrfield>
 				</searchsetting>
 				<searchsetting element="NewInDocuVersion" searchcontent="false">
 					<solrfield targetfield="newInDocuVersion" addto="page,element" default="unknown" />
 				</searchsetting>
 				<searchsetting element="Keywords" searchcontent="false">
-					<solrfield targetfield="keywords" addto="page,element" />
+					<solrfield targetfield="keywords" addto="page,element" sourcefield="_cs" />
 				</searchsetting>
 				<searchsetting element="InterestingFor" searchcontent="false">
 					<solrfield targetfield="interestingFor" addto="page,element" />

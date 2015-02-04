@@ -17,8 +17,8 @@
 	<meta name="robots" content="index, follow">
 	<meta name="revisit-after" content="7 days">
 
-	<link rel="apple-touch-icon" sizes="120x120" href="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/img/favicon_120.png)</cms:link>"/>
-	<link rel="shortcut icon" href="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/img/favicon_16.png)</cms:link>" type="image/png"/>
+	<link rel="apple-touch-icon" sizes="120x120" href="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.documentation/images/favicon_120.png:b278b977-ac43-11e4-b80e-f9d322068617)</cms:link>"/>
+	<link rel="shortcut icon" href="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.documentation/images/favicon_16.png:b27cb11a-ac43-11e4-b80e-f9d322068617)</cms:link>" type="image/png"/>
 
 	<cms:enable-ade/>
 
@@ -41,7 +41,7 @@
 		});
 	</script>
 	<!--[if lt IE 9]>
-    	<script src="<cms:link>%(link.weak:/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/plugins/respond.js)</cms:link>"></script>
+    	<script src="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.documentation/resources/js/respond.js:b9e9ac60-ac44-11e4-b80e-f9d322068617)</cms:link>"></script>
 	<![endif]-->
 </head>
 
