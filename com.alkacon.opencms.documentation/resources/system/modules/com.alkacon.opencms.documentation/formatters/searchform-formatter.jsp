@@ -68,7 +68,11 @@
 					<c:forEach var="controller" items="${fieldFacetControllers}">
 						<c:set var="facet" value="${searchform.fieldFacet[controller.config.name]}"/>
 						<c:set var="valueCount" value="${cms:getListSize(facet.values)}"/>
-						<c:if test='${valueCount > 1 || facet.name != "removedInVersion_en_l" && valueCount > 0}'>
+						<c:if test=
+							'${valueCount > 2 
+							|| (facet.name != "newInVersion_en_l" || valueCount > 1 && facet.values[0].name != "0")
+								&& (valueCount > 1 || (facet.name != "removedInVersion_en_l" || valueCount > 0 && facet.values[0].name != "0"))
+								&& valueCount > 0}' >
 							<div class="panel panel-default">
 								<div class="panel-heading">${controller.config.label}</div>
 								<div class="panel-body">
@@ -105,7 +109,7 @@
 													name="${controller.config.paramKey}"
 													value="${facetItem.name}"
 													${controller.state.isChecked[facetItem.name]?"checked":""} />
-													${versionDecoder.decode[facetItem.name]} (${count})
+													${versionConverter.decode[facetItem.name]} (${count})
 												</label>
 											</div>
 										</c:if>
