@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>Per default there are just the locales <em>en</em> and <em>de</em> set up. This impacts f.i. the options available in the language drop-down menu of the form-based conent editor. To support more languages one has to add the respective entries to the openCms configuration file based on the two-letter lowercase code as identified by the <a href="%(link0)">ISO 639-1 list. </a>The configuration file is located in the web application folder, usually at: <em>opencms/WEB-INF/config/opencms-system.xml</em> . For instance, if spanish language support should be available the following lines have to be added:</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

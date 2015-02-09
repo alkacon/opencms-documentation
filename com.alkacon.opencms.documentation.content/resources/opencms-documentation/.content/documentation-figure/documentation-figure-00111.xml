@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationFigures xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-figure.xsd">
+  <DocumentationFigure language="en">
+    <Identifier><![CDATA[content_editor]]></Identifier>
+    <Title><![CDATA[locale_selelction_content_editor]]></Title>
+    <Description name="Description0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/content-in-opencms/localization/]]></target>
+          <anchor><![CDATA[2]]></anchor>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://documentation.opencms.org/content-in-opencms/defining-a-content-type/]]></target>
+        </link>
+      </links>
+      <content><![CDATA[In respect of the configured supported locales as defined in the <a href="%(link0)">opencms-system.xml</a> one can choose the current language to edit in the drop-down menu <em>Language</em> . The resulting actual XML content for all languages is saved in a single file. This is mandatory for all content schemes and is based on the <em>multilanguage wrapper</em> as described in <a href="%(link1)"><em>Defining the schema of a content type</em></a>.]]></content>
+    </Description>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/opencms-documentation/.galleries/pictures/contentsEditor.png]]></target>
+        <uuid>f64f0689-a578-11e4-a41b-0242ac11002b</uuid>
+      </link>
+    </Image>
+    <OpenCmsVersion><![CDATA[9.5.0]]></OpenCmsVersion>
+  </DocumentationFigure>
+</DocumentationFigures>

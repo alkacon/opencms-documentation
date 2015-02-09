@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
+  <DocumentationCodeBlock language="en">
+    <ProgrammingLanguage><![CDATA[jsp]]></ProgrammingLanguage>
+    <Code><![CDATA[<cms:resourceload collector="allSubscribed"
+    param="resource=/|currentuser=true |includesubfolders=true|mode=all">
+    <cms:resourceaccess var="item" />
+    <div>${item.filename}</div>
+</cms:resourceload>]]></Code>
+  </DocumentationCodeBlock>
+</DocumentationCodeBlocks>

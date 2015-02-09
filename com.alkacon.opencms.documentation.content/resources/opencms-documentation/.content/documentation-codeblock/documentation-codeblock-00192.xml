@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
+  <DocumentationCodeBlock language="en">
+    <ProgrammingLanguage><![CDATA[jsp]]></ProgrammingLanguage>
+    <Code><![CDATA[<cms:bundle basename="com.alkacon.....mybundle">
+    <!-- Below sets the locale to load the bundle -->
+    <fmt:setLocale value="de" />
+    <!-- Get the value associated with the key: an_example_key  -->
+    <fmt:message key="an_example_key" />
+</cms:bundle>]]></Code>
+  </DocumentationCodeBlock>
+</DocumentationCodeBlocks>

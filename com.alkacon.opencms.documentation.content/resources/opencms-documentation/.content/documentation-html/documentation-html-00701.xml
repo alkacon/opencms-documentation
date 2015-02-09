@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The resource bundles can be used to set language specific labels and descriptions in (content specific) system dialogs. They can provide language specific labels or default values for contents in the XML content editor. The Bundles are usually stored in the <code>i18n/</code> sub-folder of a module’s main folder . The names of the bundles should be unique thus it's recommended to adopt a naming scheme e.g., to localize content types: <code>{module name}.{content type name}</code></p>
+<p>Resource bundles which are used to localize the workspace must follow the name scheme:<code>{module name}.workplace</code></p>
+<p><strong>Only such bundles are used for workplace localization</strong></p>
+<p>The resource type <em>XML resource bundle</em> is provided by OpenCms for message bundles. The bundles are stored in XML-Files and have a dedicated editor for setting the messages. The messages edited in the GUI are stored related to a chosen locale. In the figure below the messages are edited for the locale <em>en</em>.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

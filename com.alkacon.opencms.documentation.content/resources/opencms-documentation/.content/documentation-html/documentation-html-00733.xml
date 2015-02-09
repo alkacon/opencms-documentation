@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The attributes are:</p>
+<p><code>enabled</code> : enables or disables the subscription engine</p>
+<p><code>maxvisited</code> : the maximum number of visited resources stored for a given resource</p>
+<p><code>poolname</code> : the database pool used to access the subscription information (<em>important when using a cluster, because data should be stored in a central location)</em></p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

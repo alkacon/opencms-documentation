@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>These collectors are configurable using various parameters, e.g.:</p>
+<p><code>currentuser</code> :  set to true to collect for the current user<br /><code>user</code> :  set to a username to collect for this user<br /><code>daysfrom, daysto</code> :  specify the range when the collected resources must be visited (given as “days back from the current time”)</p>
+<p><code>resource</code>: specifies the folder where to collect<br /><code>includesubfolders</code>:  set to true if subfolders should be  included</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

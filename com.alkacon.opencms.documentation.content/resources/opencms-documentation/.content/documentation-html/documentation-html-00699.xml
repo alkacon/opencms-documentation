@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspContentAccessBean.html]]></target>
+        </link>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://documentation.opencms.org/javadoc/tld/cms/formatter.html]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://documentation.opencms.org/javadoc/tld/cms/contentload.html]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>When rendering contents using <a href="%(link0)">&lt;cms:formatter&gt;</a> or <a href="%(link1)">&lt;cms:contentload&gt;</a>, the correct language is automatically selected based on the locale property.</p>
+<p>Additionally, the EL allows access to specific locale values as depicted in the JSP snippet below. Responsible for retrieving the content by locale is the <a href="%(link2)">CmsJspContentAccessBean</a> .</p>
+<p> </p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

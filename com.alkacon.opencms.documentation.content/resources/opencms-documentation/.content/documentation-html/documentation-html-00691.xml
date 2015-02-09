@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://documentation.opencms.org/background/the-virtual-file-system/]]></target>
+          <anchor><![CDATA[6]]></anchor>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://documentation.opencms.org/background/the-virtual-file-system/]]></target>
+          <anchor><![CDATA[5]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>OpenCms supports different approaches in order to realize (a) mere translation of the textual content or (b) delivering translated content along dynamic website structure based on the locale. If option (a) suffices OpenCMS allows easy maintenance of the respective <em>container pages</em> with the usage of special <em>resource</em> types called <a title="siblings" href="%(link0)"><em>siblings</em></a>. This allows to mirror changes on one <em>container page</em> to its siblings on the virtual file system thus controlling the structure for all locales with just one container page. Individual differences between representations can be addressed with the usage of <a title="properties" href="%(link1)">individual properties</a>. In case of option (b) each locale gets a dedicated<em> container page</em> which can prescribe a particular formating and structure.</p>
+<p>In the following both approaches will be introduced. It starts with an overview of the common configurations.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

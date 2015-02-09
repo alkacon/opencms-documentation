@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>In order to maintain just one <em>container page</em> which will be used for all language specific sub sites one can create a <em>container page</em> in just one of the folders for the locales, e.g. in the folder <em>de</em> and create as many <em>siblings</em> out of the <em>container page</em> resource as locales are supported. All these <em>siblings</em> of the source container page will reflect the changes of the source page and can be moved to the respective locale folder. It follows a quick description how to create siblings of resources in the VFS. In the following the container page for the <em>de</em> locale is used as source for the sibling in the <em>es</em> folder.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

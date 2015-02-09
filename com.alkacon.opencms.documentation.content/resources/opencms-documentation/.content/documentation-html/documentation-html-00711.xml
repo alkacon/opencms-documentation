@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Can be configured for individual VFS resources and users/groups.  For each resource, only the last visit of a user ism tracked. Data can be accessed via JSP tag and collectors.</p>
+<p><strong>Visit tracking use cases are</strong></p>
+<ul>
+<li>Displaying a list of resources which have changed since the last visit</li>
+<li>Displaying different information depending on whether the user is visiting the page for the first  time or not</li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

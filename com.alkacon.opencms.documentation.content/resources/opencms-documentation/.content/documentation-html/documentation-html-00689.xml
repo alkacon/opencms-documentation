@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>If you have an English and a German version of your content, the fields <code>content_en</code> and <code>content_de</code> will exist for the index document that is generated for the content and the fields will contain all the language specific values. For the example the fields will look like <code>{language specific text} {int value for the date}{true or false, dependent on the content}</code>, or, more specific, the English version may be <code>my text 1234567890 false</code>. Moreover, the content of the fields will be indexed for each container-page the content is placed on.</p>
+<p>In some cases, as probably also the one sketched above, it is better to have some schema elements <em>not</em> added to the <code>content_{locale}</code> index fields. That is reached by specifying a search setting for that schema element. For example, the configuration</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

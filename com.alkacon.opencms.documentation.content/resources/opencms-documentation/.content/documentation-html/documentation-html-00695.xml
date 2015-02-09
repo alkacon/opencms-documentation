@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Below is a figure of folders in the <em>VFS</em> which each embody the top level of a language specific sub-site. On the other hand these folders belong to the sub-site called <em>site</em> and are to deliver content in three different languages. On each of these folders the <em>locale</em> property should be set so that all child folders, pages and resources inherit the locale of the parent folder unless they define them individually. The <em>locale</em> property will be used by OpenCms to assign specific XML-Contents and can be accessed in a JSP among other.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

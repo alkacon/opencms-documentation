@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://documentation.opencms.org/javadoc/tld/cms/bundle.html]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>With the usage of the <a href="%(link0)">&lt;cms:bundle&gt;</a>-tag resource bundles get loaded and accessible in a JSP.  Below is a snippet of a JSP which shows the usage of the bundle-tag with an exemplary query of an value. For all action besides loading the actual content the JSTL standard &lt;fmt&gt;-TagLib is used.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>
