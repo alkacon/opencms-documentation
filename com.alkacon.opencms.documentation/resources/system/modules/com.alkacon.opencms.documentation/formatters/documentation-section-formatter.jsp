@@ -22,7 +22,7 @@
 	</c:if>
 	<a name="${sectionIndex}"></a>
 	<${headingTag} class="headline">
-		${sectionIndex}&nbsp;<span ${content.rdfa.Headline}>${content.value.Headline}</span>
+		<span ${content.rdfa.Headline}>${content.value.Headline}</span>
 	</${headingTag}>
 
 	<c:set var="isEditor">
