@@ -21,6 +21,21 @@
 			</div>
 		</c:if>
 	</c:if>
+	<c:if test="${content.value.NewInVersion.exists || content.value.NewInDocuVersion.exists || content.value.RevisedForVersion.exists}">
+		<div class="topic-status-tags">
+			<div class="topic-status-tags-inner">
+				<c:if test="${content.value.NewInVersion.exists}">
+					<span class="label label-info">New in OpenCms: ${content.value.NewInVersion}</span>
+				</c:if>
+				<c:if test="${content.value.NewInDocuVersion.exists}">
+					<span class="label label-default">New in OpenCms: ${content.value.NewInDocuVersion}</span>
+				</c:if>
+				<c:if test="${content.value.RevisedForVersion.exists || content.value.NewInDocuVersion.exists}">
+					<span class="label label-success">Lastest revision: ${content.value.RevisedForVersion.exists ? content.value.RevisedForVersion : content.value.NewInDocuVersion}</span>
+				</c:if>
+			</div>
+		</div>
+	</c:if>
 	<div class="tag-box tag-box-v3" ${content.rdfa.Overview}>${content.value.Overview}</div>
 	<c:set var="relatedLinks" value="${content.subValueList.RelatedLinks}" />
 	<c:if test="${cms:getListSize(relatedLinks) > 0}">
