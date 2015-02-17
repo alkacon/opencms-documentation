@@ -27,13 +27,15 @@
 <c:otherwise>
 <jsp:useBean id="versionConverter" class="com.alkacon.opencms.documentation.search.CmsVersionNumberConverterBean" />
 <cms:formatter var="content">
+<fmt:setLocale value="${cms.locale}" />
+<cms:bundle basename="com.alkacon.opencms.documentation.topic">
 <cms:searchform var="searchform"
 	configFile="${content.filename}">
 	<c:set var="controllers" value="${searchform.controller}" />
 	<c:set var="common" value="${controllers.common}" />
 	<div>
 		<!-- Search slot and facets -->
-		<form role="form" class="form-horizontal"
+		<form id="documentation-search-form" role="form" class="form-horizontal"
 			action="<cms:link>${cms.requestContext.uri}</cms:link>">
 			<input type="hidden" name="${common.config.lastQueryParam}" value="${common.state.query}" />
 			<div class="row">
@@ -88,6 +90,7 @@
 													<label> <input type="checkbox"
 														name="${controller.config.paramKey}"
 														value="${facetItem.name}"
+														onclick="submitDocumentationForm()"
 														${controller.state.isChecked[facetItem.name]?"checked":""} />
 														${versionConverter.decode[facetItem.name]} (${count})
 													</label>
@@ -108,11 +111,25 @@
 												<label> <input type="checkbox"
 													name="${controller.config.paramKey}"
 													value="${facetItem.name}"
+													onclick="submitDocumentationForm()"
 													${controller.state.isChecked[facetItem.name]?"checked":""} />
 													${versionConverter.decode[facetItem.name]} (${count})
 												</label>
 											</div>
 										</c:if>
+									</c:forEach>
+								</c:when>
+								<c:when test='${facet.name eq "interestingFor_en_cs"}'>
+									<c:forEach var="facetItem" items="${facet.values}">
+										<div class="checkbox">
+											<label> <input type="checkbox"
+												name="${controller.config.paramKey}"
+												value="${facetItem.name}"
+												onclick="submitDocumentationForm()"
+												${controller.state.isChecked[facetItem.name]?"checked":""} />
+												<fmt:message key="select.role.${facetItem.name}" /> (${facetItem.count})
+											</label>
+										</div>
 									</c:forEach>
 								</c:when>
 								<c:otherwise>
@@ -121,6 +138,7 @@
 											<label> <input type="checkbox"
 												name="${controller.config.paramKey}"
 												value="${facetItem.name}"
+												onclick="submitDocumentationForm()"
 												${controller.state.isChecked[facetItem.name]?"checked":""} />
 												${facetItem.name} (${facetItem.count})
 											</label>
@@ -191,8 +209,15 @@
 				</div>
 			</div>
 		</form>
+		<script type="text/javascript">
+			documentationSearchForm = document.forms["documentation-search-form"];
+			function submitDocumentationForm() {
+				documentationSearchForm.submit();
+			}
+		</script>
 	</div>
 </cms:searchform>
+</cms:bundle>
 </cms:formatter>
 </c:otherwise>
 </c:choose>
