@@ -4,7 +4,15 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>In order to maintain just one <em>container page</em> which will be used for all language specific sub sites one can create a <em>container page</em> in just one of the folders for the locales, e.g. in the folder <em>de</em> and create as many <em>siblings</em> out of the <em>container page</em> resource as locales are supported. All these <em>siblings</em> of the source container page will reflect the changes of the source page and can be moved to the respective locale folder. It follows a quick description how to create siblings of resources in the VFS. In the following the container page for the <em>de</em> locale is used as source for the sibling in the <em>es</em> folder.</p>]]></content>
+      <content><![CDATA[<p>Modules can be structured very fine-grained or very coarse. The structure of choice depends on your use case and personal preferences. So, it's only possible to provide guidelines on how to structure modules and on what to encapsulate in separate modules. Regarding the guidelines, there's not much difference from good code design. Some rules of thumb are:</p>
+<ul>
+<li>Capture things you want to reuse as separate modules.</li>
+<li>Encapsulate functionality, such that each module has strong dependencies in internally, but few (clear defined) dependencies to other modules.</li>
+<li>Let your module add real functionality to your system. So let it contain all it needs to add this functionality.</li>
+<li>Factor out common functionality used by several other modules.</li>
+<li>Never mix website content into a module containing resources to build up the website (such es templates, content type definitions, ...). You may have modules for a website's content - but separated from the modules exposing template JSPs, content types, scripts etc.</li>
+</ul>
+<p>When you encapsulate resources used to build up your website, there are mainly three different approaches, all with pros and cons.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

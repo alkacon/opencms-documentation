@@ -3,8 +3,13 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>Via the content editor, different language versions of the same content can be edited. The figure below displays the <em>content editor</em> for the locale <em>de</em>. Languages which don't correspond to the current locales are marked with a minus in square brackets.</p>]]></content>
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/administration/module-management/]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>A module consists basically of resources in the VFS plus some configuration. Modules are managed via the <a href="%(link0)">module management</a> in the administration view and there you can, besides other options, import, export or delete a module. So what happens if you choose one of those options?</p>
+<p>The configuration of an installed module is stored in the file <code>opencms-modules.xml</code> in the folder <code>{webapp home}/WEB-INF/config/</code>. For each of the installed modules, the file has a node <code>&lt;module&gt;</code> with subnodes containing all the configuration for the module. Here's an example (you do not need to get the details):</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

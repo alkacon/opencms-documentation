@@ -5,16 +5,21 @@
     <Html name="Html0">
       <links>
         <link name="link0" internal="false" type="A">
-          <target><![CDATA[http://documentation.opencms.org/background/the-virtual-file-system/]]></target>
-          <anchor><![CDATA[6]]></anchor>
-        </link>
-        <link name="link1" internal="false" type="A">
-          <target><![CDATA[http://documentation.opencms.org/background/the-virtual-file-system/]]></target>
-          <anchor><![CDATA[5]]></anchor>
+          <target><![CDATA[http://pub-docu/opencms-documentation/background/the-module-system/]]></target>
+          <anchor><![CDATA[sec_what_to_package]]></anchor>
         </link>
       </links>
-      <content><![CDATA[<p>OpenCms supports different approaches in order to realize (a) mere translation of the textual content or (b) delivering translated content along dynamic website structure based on the locale. If option (a) suffices OpenCMS allows easy maintenance of the respective <em>container pages</em> with the usage of special <em>resource</em> types called <a title="siblings" href="%(link0)"><em>siblings</em></a>. This allows to mirror changes on one <em>container page</em> to its siblings on the virtual file system thus controlling the structure for all locales with just one container page. Individual differences between representations can be addressed with the usage of <a title="properties" href="%(link1)">individual properties</a>. In case of option (b) each locale gets a dedicated<em> container page</em> which can prescribe a particular formating and structure.</p>
-<p>In the following both approaches will be introduced. It starts with an overview of the common configurations.</p>]]></content>
+      <content><![CDATA[<p>A module is basically the collection of resources from the VFS attached with some configuration. Typically, resources that are required to make up some functionality are grouped as a module. The group can either be very fine-granular, e.g., contain only a new resource type and provide schema, formatter, maybe some Java library and configuration of it, or, it can be very coarse, containing all the resources you need to build up a website, i.e., template JSP, resource types (with schemas and formatters), images, JavaScript, CSS, jars, classes, .... What's the correct choice for you depends on your use case and is <a href="%(link0)">discussed later on</a>.</p>
+<p>Grouping resources into modules has several advantages, because the modules are more than the simple collections of resources. You can:</p>
+<ul>
+<li>import and export modules</li>
+<li>define dependencies between modules</li>
+<li>use version numbers</li>
+<li>add module parameters to adjust a module's behavior for varying systems, e.g., configure data-base connections</li>
+<li>group related modules</li>
+<li>configure actions triggered when a module is imported, updated or removed.</li>
+</ul>
+<p>To avoid naming conflicts, modules are named like Java packages, e.g., <code>com.mydomain.mymodule</code>. This name is also called the module's package name.<span class="footnote">Your module may additionally also have a more human readable name, as well as a description etc.</span></p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

@@ -2,18 +2,18 @@
 
 <DocumentationFigures xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-figure.xsd">
   <DocumentationFigure language="en">
-    <Identifier><![CDATA[create_siblings_2]]></Identifier>
-    <Title><![CDATA[Creating a resource as sibling 2 / 2]]></Title>
+    <Identifier><![CDATA[two_languages_content_editor]]></Identifier>
+    <Title><![CDATA[The different localizations: GUI and content language]]></Title>
     <Description name="Description0">
       <links/>
-      <content><![CDATA[In the following dialog the destination for the <em>sibling</em> has to be chosen. In this example the destination is the the place of the container page of the Spanish sub-site (the folder with the locale property <em>es</em>).]]></content>
+      <content><![CDATA[The editor dialogs are all shown localized in English, which is set as user preference and called <em>workplace locale</em>. The language of the content, or more specific the language version that is edited, is German, as you see in the "Language" switcher at the top of the editor. The locale of the content, we usually refer to as <em>locale</em>.]]></content>
     </Description>
     <Image>
       <link type="WEAK">
-        <target><![CDATA[/sites/default/opencms-documentation/.galleries/pictures/local_copyAsSibling_2Cut.png]]></target>
-        <uuid>e91190b2-a570-11e4-a41b-0242ac11002b</uuid>
+        <target><![CDATA[/sites/default/opencms-documentation/.galleries/pictures/multilingual_content_editor.png]]></target>
+        <uuid>ee9df3a3-b2ae-11e4-b42e-0242ac11002b</uuid>
       </link>
     </Image>
-    <OpenCmsVersion><![CDATA[9.5.0]]></OpenCmsVersion>
+    <OpenCmsVersion><![CDATA[9.5]]></OpenCmsVersion>
   </DocumentationFigure>
 </DocumentationFigures>

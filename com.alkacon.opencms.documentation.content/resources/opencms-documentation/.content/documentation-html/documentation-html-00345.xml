@@ -4,12 +4,14 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link0" internal="true" type="A">
-          <target><![CDATA[/sites/default/opencms-documentation/views-in-opencms/the-ade-views/the-sitemap-editor/]]></target>
-          <uuid>270e7393-06a0-11e4-909a-1305b26fecac</uuid>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/creating-a-website/creating-template-models/]]></target>
         </link>
       </links>
-      <content><![CDATA[<p>In order to validate that everything works fine so far, click on the index.html. The template should come up and you should be able to activate the toolbar by clicking on the “bull’s eye” on the top right of the page. If the model page has been configured correctly, open the sitemap and start creating a navigation structure. For more information about using the sitemap, please read about the <a href="%(link0)">sitemap editor</a>.</p>]]></content>
+      <content><![CDATA[<p>Go to the sitemap editor in the (sub-)site using your template. Choose the view "Templates" and adjust either the already existing template model(s) or add new owns. Template models are the master copy used when creating new pages via the sitemap editor. The models can already have set specific properties and contain content that should be placed on all pages created by the model.</p>
+<ul>
+<li><a href="%(link0)">Learn how to create and use template models.</a></li>
+</ul>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

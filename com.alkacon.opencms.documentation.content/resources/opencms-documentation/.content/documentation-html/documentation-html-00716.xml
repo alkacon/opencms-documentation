@@ -3,8 +3,38 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>Checking a subscription of a specific user. The tag will be evaluated to true or false.</p>]]></content>
+      <links>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/background/localization/]]></target>
+          <anchor><![CDATA[sec_independent_subsites]]></anchor>
+        </link>
+        <link name="link3" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/background/localization/]]></target>
+          <anchor><![CDATA[sec_independent_subsites]]></anchor>
+        </link>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/background/localization/]]></target>
+          <anchor><![CDATA[sec_independent_subsites]]></anchor>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/background/localization/]]></target>
+          <anchor><![CDATA[fig_top_level_locale_folders]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>The approach is similar to the one from Section <a href="%(link0)">[independent_subsites]</a> concerning the folder structure, but you necessarily share content, i.e., put it under the root folder. For a bilingual site with German and English, the root folder will look exactly as shown in Figure <a href="%(link1)">[top_level_locale_folders]</a>.<span class="footnote">Except, that you may use normal folders instead of sub-sitemaps.</span> The folder <code>en</code> will have set the locale property to <code>en</code> and the folder <code>de</code> will have set the locale property to <code>de</code>.</p>
+<p>The main difference to the approach from Section <a href="%(link2)">[independent_subsites]</a> is that you do not add extra container pages as <code>index.html</code> files in each language specific subsite. You create one language version and for the other languages you add siblings of the "master"-version's <code>index.html</code> files. For example, if you have a container page <code>/en/about-us/index.html</code> and you want to have the same page in the German subsite, you create<code> /en/ueber-uns/index.html</code> as a sibling of the file <code>/en/about-us/index.html</code>. The consequence is that all content in one language version is also directly available at all other language versions. If you remove a content, it's removed in all language versions.<span class="footnote"><br /></span></p>
+<p>Advantages:</p>
+<ul>
+<li>Freedom to define different page structures for each locale</li>
+<li>Language-specific URLs are possible</li>
+<li>Slightly better maintainability than the approach from Section <a href="%(link3)">[independent_subsites]</a>.</li>
+</ul>
+<p>Drawbacks:</p>
+<ul>
+<li>Siblings must be created manually for each locale version</li>
+<li>Contents can only be published for all languages at once</li>
+<li>Each page's language specific versions automatically have the same contents on it</li>
+</ul>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

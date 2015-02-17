@@ -8,22 +8,14 @@
       <Topic>
         <PageLink>
           <link type="WEAK">
-            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/mappings-and-defaults-with-macros/]]></target>
-            <uuid>9c7ffd7e-290b-11e4-86cf-f33727103161</uuid>
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/nested-containers/]]></target>
+            <uuid>3e5f51a4-334d-11e4-ae50-d144f6bb3566</uuid>
           </link>
         </PageLink>
-      </Topic>
-      <Topic>
-        <PageLink>
-          <link type="WEAK">
-            <target><![CDATA[/sites/default/opencms-documentation/administration/user-management/user-preferences/]]></target>
-            <uuid>9142eaae-269d-11e4-8e1b-49dbf0abad32</uuid>
-          </link>
-        </PageLink>
-        <AltHeading><![CDATA[Extendable user preferences]]></AltHeading>
+        <AltHeading><![CDATA[Nested containers]]></AltHeading>
         <AltTeaser name="AltTeaser0">
           <links/>
-          <content><![CDATA[<p>User preferences are now extendable and can be changed via a new dialog that is accessible from the page editor. Read more on this in the topic on user preferences.</p>]]></content>
+          <content><![CDATA[<p>Since OpenCms 9.5 formatters can make up new containers. This you can nest contents. Nested containers add enormous flexibilty in building templates and designing contents. You can build just simple tab elements with arbitrary content per tab, or you can pour your whole page layout in "layout"-contents exposing nested containers.</p>]]></content>
         </AltTeaser>
       </Topic>
       <Topic>
@@ -51,14 +43,14 @@
       <Topic>
         <PageLink>
           <link type="WEAK">
-            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/nested-containers/]]></target>
-            <uuid>3e5f51a4-334d-11e4-ae50-d144f6bb3566</uuid>
+            <target><![CDATA[/sites/default/opencms-documentation/administration/user-management/user-preferences/]]></target>
+            <uuid>9142eaae-269d-11e4-8e1b-49dbf0abad32</uuid>
           </link>
         </PageLink>
-        <AltHeading><![CDATA[Nested containers]]></AltHeading>
+        <AltHeading><![CDATA[Extendable user preferences]]></AltHeading>
         <AltTeaser name="AltTeaser0">
           <links/>
-          <content><![CDATA[<p>Since OpenCms 9.5 formatters can make up new containers. This you can nest contents. Nested containers add enormous flexibilty in building templates and designing contents. You can build just simple tab elements with arbitrary content per tab, or you can pour your whole page layout in "layout"-contents exposing nested containers.</p>]]></content>
+          <content><![CDATA[<p>User preferences are now extendable and can be changed via a new dialog that is accessible from the page editor. Read more on this in the topic on user preferences.</p>]]></content>
         </AltTeaser>
       </Topic>
       <Topic>
@@ -82,6 +74,14 @@
           <link type="WEAK">
             <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/dependent-editor-fields/]]></target>
             <uuid>39f970e1-494f-11e4-bf16-336f7b60f7b1</uuid>
+          </link>
+        </PageLink>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/mappings-and-defaults-with-macros/]]></target>
+            <uuid>9c7ffd7e-290b-11e4-86cf-f33727103161</uuid>
           </link>
         </PageLink>
       </Topic>

@@ -21,19 +21,6 @@
       <Topic>
         <PageLink>
           <link type="WEAK">
-            <target><![CDATA[/sites/default/opencms-documentation/demos/advanced-container-usage/]]></target>
-            <uuid>9c886d4d-5911-11e4-a97a-005056b61161</uuid>
-          </link>
-        </PageLink>
-        <AltHeading><![CDATA[Containers: Attach permissions and placeholders for empty containers.]]></AltHeading>
-        <AltTeaser name="AltTeaser0">
-          <links/>
-          <content><![CDATA[<p>OpenCms 9.5 adds the attribute <code>editableby</code> to the <code>&lt;cms:container&gt;</code> tag. Using it, you can specify which users are able to add or remove elements in a container. Moreover the <code>&lt;cms:container&gt;</code> tag can have a body. The body's HTML is shown in the container whenever it is empty.</p>]]></content>
-        </AltTeaser>
-      </Topic>
-      <Topic>
-        <PageLink>
-          <link type="WEAK">
             <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/creating-template-models/]]></target>
             <uuid>7119307d-59bb-11e4-9326-005056b61161</uuid>
           </link>
@@ -42,6 +29,19 @@
         <AltTeaser name="AltTeaser0">
           <links/>
           <content><![CDATA[<p>Template models, formerly model pages, can now be added and edited via a special view in the sitemap editor. Moreover, for each content on a template model you can choose if it should be copied or reused on pages generated from the model.</p>]]></content>
+        </AltTeaser>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/views-in-opencms/the-ade-views/the-sitemap-editor/]]></target>
+            <uuid>270e7393-06a0-11e4-909a-1305b26fecac</uuid>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[Galleries: Simplified creation and alteration]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>Galleries can now be edited via a special view in the sitemap editor.</p>]]></content>
         </AltTeaser>
       </Topic>
       <Topic>
@@ -60,14 +60,14 @@
       <Topic>
         <PageLink>
           <link type="WEAK">
-            <target><![CDATA[/sites/default/opencms-documentation/views-in-opencms/the-ade-views/the-sitemap-editor/]]></target>
-            <uuid>270e7393-06a0-11e4-909a-1305b26fecac</uuid>
+            <target><![CDATA[/sites/default/opencms-documentation/demos/advanced-container-usage/]]></target>
+            <uuid>9c886d4d-5911-11e4-a97a-005056b61161</uuid>
           </link>
         </PageLink>
-        <AltHeading><![CDATA[Galleries: Simplified creation and alteration]]></AltHeading>
+        <AltHeading><![CDATA[Containers: Attach permissions and placeholders for empty containers.]]></AltHeading>
         <AltTeaser name="AltTeaser0">
           <links/>
-          <content><![CDATA[<p>Galleries can now be edited via a special view in the sitemap editor.</p>]]></content>
+          <content><![CDATA[<p>OpenCms 9.5 adds the attribute <code>editableby</code> to the <code>&lt;cms:container&gt;</code> tag. Using it, you can specify which users are able to add or remove elements in a container. Moreover the <code>&lt;cms:container&gt;</code> tag can have a body. The body's HTML is shown in the container whenever it is empty.</p>]]></content>
         </AltTeaser>
       </Topic>
     </Item>

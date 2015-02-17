@@ -3,12 +3,12 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links>
-        <link name="link0" internal="false" type="A">
-          <target><![CDATA[http://documentation.opencms.org/javadoc/tld/cms/bundle.html]]></target>
-        </link>
-      </links>
-      <content><![CDATA[<p>With the usage of the <a href="%(link0)">&lt;cms:bundle&gt;</a>-tag resource bundles get loaded and accessible in a JSP.  Below is a snippet of a JSP which shows the usage of the bundle-tag with an exemplary query of an value. For all action besides loading the actual content the JSTL standard &lt;fmt&gt;-TagLib is used.</p>]]></content>
+      <links/>
+      <content><![CDATA[<p>When you install OpenCms locally and you want to access it (in the default JLan configuration) via <code>\\localhost\OPENCMS</code> (Windows) or <code>smb://localhost/OPENCMS</code> (Linux, MacOS), you typically only have to rename the config file<code> jLanConfig.xml.windows</code> or <code>jLanConfig.xml.linux</code> to <code>jLanConfig.xml</code>. But you typically will encounter some additional problems.</p>
+<ul>
+<li><em>On Windows 7</em>: The port 445 used to provide the share is already blocked by a service named "server". Go to "Control Panel" -&gt; "Administrative Tools" -&gt; "Services". Stop the service "server" and change (therefore right-click the service and choose "Properties" from the context menu) the "Starttype" to "disabled". Then restart Windows. Afterwards you should be able to connect to <code>\\localhost\OPENCMS</code> (using a valid OpenCms account, e.g., the user "Admin" with password "admin" in a default installation.</li>
+<li><em>On Linux</em>: You may need to map the port 1445, at which the share is exposed back to port 445. You may use a tool like "socat" for that task and mount the VFS similar as done in the script below (that should be run as root)</li>
+</ul>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

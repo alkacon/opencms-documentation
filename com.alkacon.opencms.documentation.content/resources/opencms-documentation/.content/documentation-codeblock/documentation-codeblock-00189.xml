@@ -2,10 +2,46 @@
 
 <DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
   <DocumentationCodeBlock language="en">
-    <Code><![CDATA[<searchsettings>
-   <searchsetting element="Text" searchcontent="true" />
-   <searchsetting element="Date" searchcontent="false" />
-   <searchsetting element="Flag" searchcontent="false" />
-</searchsettings>]]></Code>
+    <Code><![CDATA[<module>
+    <name>com.alkacon.opencms.documentation.editortools</name>
+    <nicename>OpenCms Documenation Administration</nicename>
+    <group>OpenCms Documentation</group>
+    <class/>
+    <description>Provides tools and extra contents to be used by editors</description>
+    <version>9.5.3</version>
+    <authorname>Alkacon Software GmbH</authorname>
+    <authoremail>sales@alkacon.com</authoremail>
+    <datecreated/>
+    <userinstalled/>
+    <dateinstalled/>
+    <dependencies>
+        <dependency name="com.alkacon.opencms.documentation" version="9.5.3"/>
+        <dependency name="org.opencms.jsp.search" version="0"/>
+    </dependencies>
+    <exportpoints>
+        <exportpoint uri="/system/modules/com.alkacon.opencms.documentation.editortools/lib/" destination="WEB-INF/lib/"/>
+    </exportpoints>
+    <resources>
+        <resource uri="/system/modules/com.alkacon.opencms.documentation.editortools/"/>
+        <resource uri="/system/workplace/resources/filetypes/auto-correct-xml.png"/>
+        <resource uri="/system/workplace/resources/filetypes/auto-correct-xml_big.png"/>
+    </resources>
+    <parameters/>
+    <resourcetypes>
+         <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="auto-correct-xml" id="20297">
+             <param name="schema">
+                 /system/modules/com.alkacon.opencms.documentation.editortools/schemas/auto-correct-xml.xsd
+             </param>
+         </type>
+     </resourcetypes>
+     <explorertypes>
+         <explorertype name="auto-correct-xml" key="fileicon.auto-correct-xml" 
+                       icon="auto-correct-xml.png" bigicon="auto-correct-xml_big.png" reference="xmlcontent">
+             <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=auto-correct-xml"
+                          order="10" autosetnavigation="false" autosettitle="false" info="desc.auto-correct-xml"
+                          key="title.auto-correct-xml"/>
+         </explorertype>
+     </explorertypes>
+</module>]]></Code>
   </DocumentationCodeBlock>
 </DocumentationCodeBlocks>

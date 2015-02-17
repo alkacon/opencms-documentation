@@ -3,13 +3,15 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p style="margin-bottom: 0in; line-height: 100%;">Adding subscription features to a site is made available by the content subscription engine. It distinguishes two main features, that can be used independently of each other:</p>
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/content-in-opencms/defining-a-content-type/]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>XML contents are by default multi-lingual. Each XML file consists of a series of language specific copies of the content. These can be zero to unbounded versions. In short: As much languages as you need.</p>
 <ul>
-<li style="margin-bottom: 0in; line-height: 100%;">Subscription</li>
-<li style="margin-bottom: 0in; line-height: 100%;">Visit tracking</li>
-</ul>
-<p>Subscription and visit data is stored in database tables created only for this purpose. Subscription facilities need to be configured in template and formatter JSPs. Subscriptions and visits work on the level of resources, not pages or URLs. </p>]]></content>
+<li><a href="%(link0)">See here for details about the multi-lingual structure of XML contents.</a></li>
+</ul>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

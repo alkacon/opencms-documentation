@@ -10,8 +10,8 @@
       </links>
       <content><![CDATA[<p>After searching with Apache's Lucene for years, Apache Solr has grown and grown and can now be called an enterprise search platform that is based on Lucene. It’s a standalone enterprise search server with a REST-like API. You put documents in it (called "indexing") via XML, JSON or binary over HTTP. You query it via HTTP GET and receive XML, JSON, or binary results. To get a more detailed knowledge what Solr exactly is and how it works, please visit the <a href="%(link0)">Apache Solr</a> project website. Searching with the powerful and flexible Apache Solr's REST-like interface will drill down the development complexity. Moreover you can rely on existing graphical interfaces that provide comfortable AJAX based search functionality to the end user of your internet/intranet application.</p>]]></content>
     </Overview>
-    <Keywords/>
-    <InterestingFor/>
+    <Keywords><![CDATA[search, Solr, configuration, settings, index, core]]></Keywords>
+    <InterestingFor><![CDATA[a_serverOperator,c_developer]]></InterestingFor>
     <RelatedLinks>
       <Link>
         <URI>
@@ -30,11 +30,22 @@
         </URI>
         <LinkText><![CDATA[General information on Solr]]></LinkText>
       </Link>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/search-settings/index.html]]></target>
+            <uuid>bb99de6a-65a5-11e4-9296-005056b61161</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Search settings for XML contents]]></LinkText>
+      </Link>
     </RelatedLinks>
     <NewInVersion><![CDATA[8.5]]></NewInVersion>
     <NewInDocuVersion><![CDATA[8.5]]></NewInDocuVersion>
     <StatusMetaData>
-      <Todos/>
+      <Todos>
+        <Todo><![CDATA[Split into various topics]]></Todo>
+      </Todos>
     </StatusMetaData>
   </AlkaconDocumentationTopicFrame>
 </AlkaconDocumentationTopicFrames>

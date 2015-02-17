@@ -3,10 +3,14 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>These collectors are configurable using various parameters, e.g.:</p>
-<p><code>currentuser</code> :  set to true to collect for the current user<br /><code>user</code> :  set to a username to collect for this user<br /><code>daysfrom, daysto</code> :  specify the range when the collected resources must be visited (given as “days back from the current time”)</p>
-<p><code>resource</code>: specifies the folder where to collect<br /><code>includesubfolders</code>:  set to true if subfolders should be  included</p>]]></content>
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/administration/module-management/]]></target>
+          <anchor><![CDATA[add_resource_type]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>If you add a new resource type to OpenCms, using the <a href="%(link0)">"Add resource type" wizard in the "Module Management"</a> in the administration view, the wizard does already all the configuration for the type in the <code>opencms-modules.xml</code> and adds the message keys just discussed to a suitable message bundle. This bundle is located under the <code>i18n/</code> subfolder of the module folder and named <code>{module name}.workplace</code>. The keys are entered for the current workplace locale. So you just need to add keys for the other locales.<span class="footnote">Note that via the content editor you can only edit the locales configure (for website contents) which are not necessarily identical to the workplace locales.</span> Localization as done by the wizard is the preferred way for localizing resource types.</p>
+<div class="alert alert-info">Note that, to make the keys work, their use must be configured correctly in the <code>opencms-modules.xml</code>. This is automatically done by the wizard as long as you do not leave the dialog fields empty where title etc. must be added.</div>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

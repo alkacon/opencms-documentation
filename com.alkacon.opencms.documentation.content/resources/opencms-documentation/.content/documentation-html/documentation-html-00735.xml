@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/localization/message-bundles/]]></target>
+          <anchor><![CDATA[what_are_resource_bundles]]></anchor>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/localization/message-bundles/]]></target>
+          <anchor><![CDATA[what_are_resource_bundles]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>You can use properties files to back up resource bundles as explained in Section <a href="%(link0)">[what_are_resource_bundles]</a>. If doing so, you typically place the properties files of the bundles in the <code>classes/</code> subfolder of your module's main folder and set an export point from that folder to <code>{webapp home}/WEB-INF/classes/</code>. As folder structure for the bundles, you typically use the module name, i.e., <code>/my/demo/bundles/</code> for the module <code>my.demo.bundles</code>. The properties files have just type "Text file" (plain) and the bundle name is build from the folder and file names as described in Section <a href="%(link1)">[what_are_resource_bundles]</a>.</p>
+<div class="alert alert-info">The big <strong>drawback</strong> of using the default mechanism is that you always have to restart your servlet container until changes in the properties files are recognized.</div>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

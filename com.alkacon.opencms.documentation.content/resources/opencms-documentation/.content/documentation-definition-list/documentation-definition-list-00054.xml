@@ -8,42 +8,49 @@
       <Term><![CDATA[templates/]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Should contain the main template JSP(s), usually a single file <code>main.jsp</code>.</p>]]></content>
+        <content><![CDATA[<p>Contains the containerpage template JSP(s), usually a single file <code>main.jsp</code>.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
       <Term><![CDATA[elements/]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Should contain elements (JSPs) included by the template (<code>main.jsp</code>), for example a file <code>navigation.jsp</code>.</p>]]></content>
+        <content><![CDATA[<p>Contains elements (JSPs) included by the template (<code>main.jsp</code>), for example a file <code>navigation.jsp</code>.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
       <Term><![CDATA[formatters/]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Should contain formatters (JSPs) for content and their configuration files, e.g., an <code>article-formatter.jsp</code> and an <code>article-formatter-configuration.xml</code></p>]]></content>
+        <content><![CDATA[<p>Contains formatters (JSPs) for content and the formatter configuration files, e.g., an <code>article-formatter.jsp</code> and an <code>article-formatter-configuration.xml</code></p>]]></content>
       </Description>
     </Entry>
     <Entry>
       <Term><![CDATA[resources/]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Should contain static resources referenced by the template, e.g. CSS-files, JavaScript-files, images, etc.).</p>]]></content>
+        <content><![CDATA[<p>Contains static resources referenced by the template or by formatters, e.g. CSS-files, JavaScript-files, images, etc. Typically the different kinds of resources are placed in several different subfolders, e.g., <code>styles/</code>, <code>scripts/</code>, <code>images/</code>, ....</p>]]></content>
       </Description>
     </Entry>
     <Entry>
       <Term><![CDATA[schemas/]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Should contain content type definitions (XSDs), that describe the structure of content types, e.g., an <code>article.xsd</code> that describes the structure of an article.</p>]]></content>
+        <content><![CDATA[<p>Contains content type definitions (XSDs) that describe the structure of content types, e.g., an <code>article.xsd</code> that describes the structure of an article.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[lib/]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Contains Java libraries (jar files) that are contained in the module. The folder must be exported to <code>WEB-INF/lib/</code> folder of the RFS. The lib's package name is typically chosen identically to the module's package name.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
       <Term><![CDATA[classes/]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Should contain resources that must be exported to the <code>WEB-INF/classes/</code> folder of the RFS, e.g., Java classes or Java property files.</p>]]></content>
+        <content><![CDATA[<p>Contains resources that must be exported to the <code>WEB-INF/classes/</code> folder of the RFS, e.g., Java classes or Java property files.</p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>

@@ -3,8 +3,19 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>Below is the instantiation and usage of the bean in a JSP</p>]]></content>
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/background/the-module-system/]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>Of course, this tutorial can not capture all aspects of creating a website. For example, we have not discussed directly:</p>
+<ul>
+<li><a href="%(link0)">What's a good module structure for your website's resources?</a></li>
+<li>What's the best design for your template? (includes vs. contents)</li>
+<li>How to generate multi-lingual websites?</li>
+<li>...</li>
+</ul>
+<p>Check out the documentation for answers to these and other questions. We try to add information with every update - and will also try to link to it.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

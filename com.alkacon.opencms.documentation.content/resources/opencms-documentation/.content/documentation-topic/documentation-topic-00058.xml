@@ -5,14 +5,16 @@
     <Overview name="Overview0">
       <links/>
       <content><![CDATA[<p>OpenCms stores for each schema element a language specific value. By default, each of the language specific values can differ from the others.</p>
-<p>Using the <code>&lt;synchronization&gt;</code> node in the XSD, it can be enforced that the value of a schema element is the same for each language - it is language independent. If a value is altered in <em>one</em> language, the altered value is stored for <em>all</em> languages<span class="footnote">at least if you use a content editor and do not edit the source directly</span>. </p>]]></content>
+<p>Using the <code>&lt;synchronization&gt;</code> node in the XSD, it can be enforced that the value of a schema element is the same for each language - it is language independent. If a value is altered in <em>one</em> language, the altered value is stored for <em>all</em> languages <span class="footnote">at least if you use a content editor and do not edit the source directly</span>.</p>]]></content>
     </Overview>
     <Teaser name="Teaser0">
       <links/>
       <content><![CDATA[<p>The values of content elements can differ for different languages by default. But you can force the same value for each language. Here you learn how.</p>]]></content>
     </Teaser>
-    <Keywords/>
-    <InterestingFor/>
+    <Keywords><![CDATA[content, XML, XSD, schema, behavior, editor, configuration, language independent values, synchronization]]></Keywords>
+    <InterestingFor><![CDATA[b_opencmsAdmin,c_developer,d_workplaceUser,e_editor]]></InterestingFor>
+    <NewInVersion><![CDATA[9.5]]></NewInVersion>
+    <NewInDocuVersion><![CDATA[9.5]]></NewInDocuVersion>
     <StatusMetaData>
       <Todos/>
     </StatusMetaData>

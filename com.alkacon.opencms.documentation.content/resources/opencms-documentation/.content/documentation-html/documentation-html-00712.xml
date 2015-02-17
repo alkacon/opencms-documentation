@@ -3,13 +3,13 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>Multi-function tag, used for the following actions:</p>
-<ul>
-<li>Subscribe user to resource</li>
-<li>Unsubscribe user from resource</li>
-<li>Check if a resource is subscribed to a user</li>
-</ul>]]></content>
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/background/localization/]]></target>
+          <anchor><![CDATA[sec_supported_locales]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>Additionally to the system wide configuration of the available locales as described in Section <a href="%(link0)">[supported_locales]</a>, one can restrict the number of locales that are available for a specific content (type). If at the XML file containing the content, or one of the parent folders of that file, the property <code>locale-available</code> is set, than only the locales given there are selectable in the content editor. E.g., if you set <code>locale-available</code> to <code>en,es</code>, only English and Spanish will be available. But not German, even if configured. This is in particular helpful, if you have contents used for configuration. They usually need only one language version. Thus, you set <code>locale-available</code> to that one language at the content's XML files. This is done best by configuring default properties for newly generated contents.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

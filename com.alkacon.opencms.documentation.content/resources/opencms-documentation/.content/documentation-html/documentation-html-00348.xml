@@ -3,8 +3,13 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>Save and close the <code>main.jsp</code> and create a new JSP file at: <code>/system/modules/my.template/elements/main-nav.jsp</code>. Paste the content cut before into the newly created JSP. Afterwards repeat these steps for all dynamic parts of the <code>main.jsp</code>, except the main textual content. When you have finished the work, you should be able to click on the <code>main.jsp</code> within the explorer view and the template prototype should be displayed properly.</p>]]></content>
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/content-in-opencms/formatters-and-their-configuration/nested-containers/]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>Save and close the <code>main.jsp</code> and create a new JSP file at: <code>/system/modules/my.template/elements/main-nav.jsp</code>. Paste the content cut before into the newly created JSP. Afterwards repeat these steps for all dynamic parts of the <code>main.jsp</code>, except the main textual content. When you have finished the work, you should be able to click on the <code>index.html</code> that uses your template within the explorer view and the template prototype should still be displayed properly.</p>
+<div class="alert alert-info">Note that, alternatively to using includes, you could make everything, for example also navigation elements, a content. This may allow you a more flexible design, in particular with <a href="%(link0)">nested containers</a>. But, it's typically also more work. For the tutorial, we stick to the traditional approach of using includes.</div>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

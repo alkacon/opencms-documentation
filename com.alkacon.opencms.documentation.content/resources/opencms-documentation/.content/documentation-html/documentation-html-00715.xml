@@ -4,7 +4,18 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>Checking a subscription for the current user. The tag will be evaluated to true or false.</p>]]></content>
+      <content><![CDATA[<p>The <code>index.html</code> in the root folder is typically a JSP that redirects you to one of the language specific versions according to some user information (e.g., the browser locale). Now in each of the sub-sites you build a separate, language specific version of your website. You can either completely separate the two sites by using sub-sitemaps as "language-folders" and have content only locally in each of the language specific sub-sites, or you can share content between the two sub-sites by storing it in the <code>.content/</code> folder directly below the root folder of the complete site.</p>
+<p>Advantages:</p>
+<ul>
+<li>Complete freedom to adjust each language version independently of the other versions</li>
+<li>Content can be published for single languages without effecting other languages (if content is not shared between the language-specific sites)</li>
+<li>Language-specific URLs are possible</li>
+</ul>
+<p>Drawbacks:</p>
+<ul>
+<li>Each site must be maintained separately</li>
+<li>Sites can easily be out of sync</li>
+</ul>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

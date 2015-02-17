@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>Localization and internationalization is an important topic when maintaining multilingual websites. OpenCms has a variety of mechanisms to support multilingual websites, as well as the localization of the OpenCms grapical user interface. A central part of these mechanisms are so called message or resource bundles. They are the default Java mechanism for the internationalization. In the raw version of those bundles, one provides for each language a so called property file, containing key-value pairs with message identifiers as keys and localized messages as values. OpenCms supports the raw Java bundles, but also provides two slightly refined versions of that mechanism to ease the handling.</p>
+<p>In this topic we discuss for what purposes message bundles are used in OpenCms. Furthermore, we provide an overview on the three alternative ways of defining message bundles and discuss the special behavior of so called "workplace" bundles.</p>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>Message bundles are used to localize any kind of text snippets, labels, etc. They are the default localization mechanism for Java. Learn about how to use them in OpenCms - read this topic, even if you know the bundles in general.</p>]]></content>
+    </Teaser>
+    <Keywords><![CDATA[localization, internationalization, message bundle, resource bundle, workplace bundle]]></Keywords>
+    <InterestingFor><![CDATA[b_opencmsAdmin,c_developer]]></InterestingFor>
+    <RelatedLinks>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/localization/]]></target>
+            <uuid>29980280-b12d-11e4-b42e-0242ac11002b</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Overview on localization topics]]></LinkText>
+        <LinkDescription name="LinkDescription0">
+          <links/>
+          <content><![CDATA[<p>Get an overview on the localization of websites and also see how to localize the user interface of OpenCms.</p>]]></content>
+        </LinkDescription>
+      </Link>
+    </RelatedLinks>
+    <NewInDocuVersion><![CDATA[9.5]]></NewInDocuVersion>
+    <RevisedForVersion><![CDATA[9.5]]></RevisedForVersion>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

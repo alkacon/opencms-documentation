@@ -2,12 +2,6 @@
 
 <DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
   <DocumentationCodeBlock language="en">
-    <ProgrammingLanguage><![CDATA[jsp]]></ProgrammingLanguage>
-    <Code><![CDATA[<%-- Instatiate the bean --%>
-<jsp:useBean id="myCmsBean" class="MyCmsBean"/>
-<%-- Call the init method in order to pass the necessary params  --%>
-<% myCmsBean.init(pageContext,request, response); %>
-<p>The current request URI is:  ${myBean.getUri()} </p>
-]]></Code>
+    <Code><![CDATA[hello.world = Hello world!]]></Code>
   </DocumentationCodeBlock>
 </DocumentationCodeBlocks>

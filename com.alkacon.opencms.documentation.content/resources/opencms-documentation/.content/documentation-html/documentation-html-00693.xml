@@ -4,7 +4,12 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>In case that more than just the translation of the textual content it part of the localization each of the folder per locale can contain a dedicated container page. These container pages are usual pages which can be created by adding a page to the site-map. They can be modified independently - as with all container pages - without affecting the structure of the other locale's pages.</p>]]></content>
+      <content><![CDATA[<p>A very common approach is to package each functionality in a separate module. That means:</p>
+<ul>
+<li>One module containing the template JSP, and resources common for all pages (like some images and JavaScripts, maybe also some Java library). The module does typically not expose content types.</li>
+<li>One module for each content type (or dynamic function). Each such module contains the schema, the formatters and the formatter configurations as well as resources such as Java libraries, CSS, JavaScripts and message bundles, specific for the content type.</li>
+</ul>
+<p>The big advantage of this approach is that you can exchange (in particular update) and reuse each of the small modules independently. You can also easily add new functionality or remove existing functionality by adding or removing modules (given that all dependencies are still fulfilled).</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

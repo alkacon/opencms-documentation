@@ -3,8 +3,13 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>Mark a resource as visited by a specific user</p>]]></content>
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/localization/multilingual-menus/]]></target>
+          <anchor><![CDATA[fig_available_workplace_locales]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>The workplace locale is set per user and can be chosen via his preferences, either via the traditional workplace's "Preferences" option, or the "Preferences" option in context menu of the ADE toolbar in the page or sitemap editor. The locales you can choose are determined by the presence of special folders: If a folder <code>/system/workplace/locales/{locale}</code> exists, the according language can be chosen. Thus, to add a new locale, or to delete a locale it suffices to just add or remove such a folder. In a default installation, the folders shown in Figure <a href="%(link0)">[available_workplace_locales]</a> are present.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

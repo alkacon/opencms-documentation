@@ -5,15 +5,16 @@
     <Html name="Html0">
       <links>
         <link name="link0" internal="false" type="A">
-          <target><![CDATA[http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes]]></target>
-        </link>
-        <link name="link1" internal="false" type="A">
-          <target><![CDATA[http://documentation.opencms.org/background/the-virtual-file-system/]]></target>
-          <anchor><![CDATA[5]]></anchor>
+          <target><![CDATA[http://pub-docu/opencms-documentation/background/the-module-system/index.html]]></target>
+          <anchor><![CDATA[sec_one_module_one_functionality]]></anchor>
         </link>
       </links>
-      <content><![CDATA[<p>It is recommended to set up the top folder structure of the respective site according to the languages. Its good practice that the upper most folders of the site are named after their two-letter lowercase code as identified by the <a href="%(link0)">ISO 639-1 list</a>. This is not mandatory but it helps to distinguish the language specific branches of the sitemap and should correspond to the configured locale <a href="%(link1)">property </a>of each folder. The locale property is part of the predifined OpemCms-Properites which is used to distribute language specific content und can be inherited by resources which are part of this sub tree.</p>
-<p> </p>]]></content>
+      <content><![CDATA[<p>The main idea of the approach is to separate structure and layout. Basically, for a website, you build:</p>
+<ul>
+<li>One module containing the content type definitions, in particular providing all schemas and resource/explorer type configuration.</li>
+<li>One module providing formatters and formatter configurations, as well as the template JSP and all the things concerned with layout.</li>
+</ul>
+<p>Taking this approach, you can reuse the schema module and just exchange the layouts to build up new websites. This may also nicely interplay with module cloning and is for example the way the modules of the demo websites of OpenCms 9.0 and 9.5 are structured. But the approach is (not yet) as wide spread as the <a href="%(link0)">"one-module-one-functionality" approach</a>.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

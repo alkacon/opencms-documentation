@@ -4,7 +4,7 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>Somewhere in the prototype there might be a section for the main content. Remove the HTML and place the following <code>&lt;cms:container&gt;</code>-tag instead. This will enable the content manager to place elements easily via “drag &amp; drop”.</p>]]></content>
+      <content><![CDATA[<p>Somewhere in the prototype there might be a sections with content that should be addable via drag&amp;drop. Remove the HTML of these sections and place <code>&lt;cms:container&gt;</code>-tags instead. This will enable the content manager to place elements easily via “drag &amp; drop”. For the main content part you could choose the tag like</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

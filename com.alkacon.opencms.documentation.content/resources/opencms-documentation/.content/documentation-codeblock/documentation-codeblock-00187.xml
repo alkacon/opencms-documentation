@@ -2,6 +2,11 @@
 
 <DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
   <DocumentationCodeBlock language="en">
-    <Code/>
+    <Code><![CDATA[<searchsetting element="NewInVersion" searchcontent="false">
+	<solrfield targetfield="newInVersion" sourcefield="_l" addto="page,element">
+		<mapping type="dynamic" class="com.alkacon.opencms.documentation.search.CmsVersionNumberSearchFieldMapping">NewInVersion</mapping>
+	</solrfield>
+</searchsetting>
+]]></Code>
   </DocumentationCodeBlock>
 </DocumentationCodeBlocks>

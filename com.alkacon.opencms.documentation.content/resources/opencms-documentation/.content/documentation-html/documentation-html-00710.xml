@@ -4,16 +4,7 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>Are association between an individual VFS resource and OpenCms users or groups. Can be read or written using JSP tags and content collectors. </p>
-<p><strong>Subscriptions use cases are</strong></p>
-<ul>
-<li>Website personalization</li>
-</ul>
-<p>Users can subscribe to their favorite contents. The user’s subscribed contents are displayed in a side bar.</p>
-<ul>
-<li>Notifications</li>
-</ul>
-<p>Administrators subscribe users to content which they should read.</p>]]></content>
+      <content><![CDATA[<p>The most interesting line is adding the locale under <code>&lt;localesconfigured&gt;</code>. That makes the locale available. Adding it under <code>&lt;localesdefault&gt;</code> adds it as a fallback, if the content is not available in the requested locale.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

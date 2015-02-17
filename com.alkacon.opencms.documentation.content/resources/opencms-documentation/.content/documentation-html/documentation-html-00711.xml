@@ -3,13 +3,12 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>Can be configured for individual VFS resources and users/groups.  For each resource, only the last visit of a user ism tracked. Data can be accessed via JSP tag and collectors.</p>
-<p><strong>Visit tracking use cases are</strong></p>
-<ul>
-<li>Displaying a list of resources which have changed since the last visit</li>
-<li>Displaying different information depending on whether the user is visiting the page for the first  time or not</li>
-</ul>]]></content>
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>To adjust the system-wide available languages, or more precisely locales, you have to change the system configuration. To support a locale, you have to add respective entries in the <code>opencms-system.xml</code>, found at <code>{webapp home}/WEB-INF/config/</code> in the RFS. Locales are specified based on the two-letter lowercase code as standardized by <a href="%(link0)">ISO 639-1</a>. For instance, if Spanish should be available as content language, add the lines as marked below:</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

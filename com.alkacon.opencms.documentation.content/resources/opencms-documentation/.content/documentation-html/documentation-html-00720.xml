@@ -3,8 +3,12 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>The JSP-snippet below shows the collector in action:  all resources in all folders subscribed by the current user are collected.</p>]]></content>
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspContentAccessBean.html]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>When rendering content using <code>&lt;cms:formatter&gt;</code> or <code>&lt;cms:contentload&gt;</code>, you typically use the properties <code>value</code>, <code>valueList</code>, etc. to access a content's values. When doing so, the content's values are automatically accessed in the language of the current request context, i.e., the language of the requested page, or, if this language does not exist, by the configured default(s). This is typically the intended behavior. But the <code><a href="%(link0)">CmsJspContentAccessBean</a></code> (the type of the variable <code>&lt;cms:formatter&gt;</code> and <code>&lt;cms:contentload&gt;</code> expose) used to access the content also allows access to the values in a specific locale when using different properties. This is depicted in the JSP snippet below.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

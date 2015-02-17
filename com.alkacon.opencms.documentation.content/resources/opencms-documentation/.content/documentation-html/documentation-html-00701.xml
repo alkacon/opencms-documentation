@@ -3,11 +3,33 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>The resource bundles can be used to set language specific labels and descriptions in (content specific) system dialogs. They can provide language specific labels or default values for contents in the XML content editor. The Bundles are usually stored in the <code>i18n/</code> sub-folder of a module’s main folder . The names of the bundles should be unique thus it's recommended to adopt a naming scheme e.g., to localize content types: <code>{module name}.{content type name}</code></p>
-<p>Resource bundles which are used to localize the workspace must follow the name scheme:<code>{module name}.workplace</code></p>
-<p><strong>Only such bundles are used for workplace localization</strong></p>
-<p>The resource type <em>XML resource bundle</em> is provided by OpenCms for message bundles. The bundles are stored in XML-Files and have a dedicated editor for setting the messages. The messages edited in the GUI are stored related to a chosen locale. In the figure below the messages are edited for the locale <em>en</em>.</p>]]></content>
+      <links>
+        <link name="link4" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/localization/message-bundles/]]></target>
+        </link>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/localization/multilingual-websites/]]></target>
+        </link>
+        <link name="link3" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/localization/multilingual-menus/]]></target>
+        </link>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/background/the-module-system/]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/localization/]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<ul>
+<li><a href="%(link0)">Background on the module system</a></li>
+<li><a href="%(link1)">A whole bunch of topics on localization</a>
+<ul>
+<li><a href="%(link2)">Design of multilingual websites</a></li>
+<li><a href="%(link3)">Localization of OpenCms user interfaces</a></li>
+<li><a href="%(link4)">Usage of resource/message bundles</a></li>
+</ul>
+</li>
+</ul>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

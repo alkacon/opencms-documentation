@@ -8,12 +8,16 @@
           <target><![CDATA[http://pub-docu/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/search-settings/]]></target>
           <anchor><![CDATA[content_field]]></anchor>
         </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/search-settings/index.html]]></target>
+          <anchor><![CDATA[sec_content_field]]></anchor>
+        </link>
       </links>
-      <content><![CDATA[<p>OpenCms ships with a default configuration for the indexiation of resources. The configuration is optimized w.r.t. the structure of OpenCms resources. So, for example, properties are indexed by default. But, the some choices do not have an over-all good default. In particular concerning XML contents, the answers to the following questions are specific to the actual use case:</p>
+      <content><![CDATA[<p>OpenCms ships with a default configuration for the indexation of resources. The configuration is optimized w.r.t. the structure of OpenCms resources. So, for example, properties are indexed by default. But, some choices do not have an over-all good default. In particular concerning XML contents, the answers to the following questions are specific to the actual use case:</p>
 <ul>
 <li>Which schema elements of a structured content should not be indexed at all?</li>
 <li>Which schema elements of a structured content should be mapped to special index fields (of special type)?</li>
-<li>Should an XML content be findable as the content itself, or only the container-page the content is located on?</li>
+<li>Should an XML content be findable as the content itself, or only the container-page the content is located on (or both not<span class="footnote">If you do not want to find your content via the container page, there is a setting available in the formatter configuration.</span>)?</li>
 </ul>
 <p>The answers to these questions are mainly specific to your use-case. Thus you have to choose the settings by yourself. As guidelines you may regard:</p>
 <ul>
@@ -23,7 +27,7 @@
 </ul>
 <p>By default</p>
 <ul>
-<li>The content of all schema elements of one language version will be stored in one language-specific text field called <code>content_{locale}</code>, e.g., <code>content_en</code>. (Here the dates or Boolean values should usually be omited - learn later how)</li>
+<li>The content of all schema elements of one language version will be stored in one language-specific text field called <code>content_{locale}</code>, e.g., <code>content_en</code>. (Here the dates or Boolean values should usually be omitted - learn later <a href="%(link1)">how</a>)</li>
 <li>The content is indexed such, that it can be found stand-alone (and also the container-page it is located on is findable).</li>
 </ul>
 <p> </p>]]></content>

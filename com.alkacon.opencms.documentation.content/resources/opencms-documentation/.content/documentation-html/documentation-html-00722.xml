@@ -3,8 +3,13 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>Mark a resource as visited by the current user</p>]]></content>
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/localization/multilingual-menus/]]></target>
+          <anchor><![CDATA[fig_two_languages_content_editor]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>Localization has two facets: Multilingual websites and multilingual user interfaces. If, for example, you have a content editor that is natively English and thus prefers the English language. He may want to have all menus, infos, and so on, coming from OpenCms in English. However, if he edits a German website, the content he sees and modifies has to be German. The difference is noticed best by Figure <a href="%(link0)">[two_languages_content_editor]</a>.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

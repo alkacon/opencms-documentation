@@ -3,8 +3,16 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>In this section an example of writing a bean which subclasses the CmsJspBean will be presented. It will be used in the context of JSP programming. Below is a class which uses properties of the superclass and will be called inside a JSP.</p>]]></content>
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/views-in-opencms/the-ade-views/the-sitemap-editor/]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/views-in-opencms/the-ade-views/the-page-editor/]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>Once you have your template models, use the <a href="%(link0)">sitemap editor</a> to add new pages to your website. Edit the pages via the <a href="%(link1)">page editor</a>. Drag&amp;drop content to them and edit this content. And that's it.</p>
+<div class="alert alert-info">Congratulations to your new website!</div>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

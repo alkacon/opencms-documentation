@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/localization/message-bundles/]]></target>
+          <anchor><![CDATA[what_are_resource_bundles]]></anchor>
+        </link>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/views-in-opencms/the-ade-views/content-editors/the-form-based-content-editor/]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/localization/message-bundles/]]></target>
+          <anchor><![CDATA[what_are_resource_bundles]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>The ways to state key-value pairs so far are both based on maintaining language specific text files with a key-value pair at each line. OpenCms additionally offers an option to store the key-value pairs for all languages in a single file that is editabe via the <a href="%(link0)">form-based content editor</a>. Such files are called XML resource bundles (<code>xmlvfsbundle</code>). They are typically added in the <code>i18n/</code> folder of the module they are shipped with and named <code>{module name}.{bundle specific name}</code>.</p>
+<p>As example, consider that we want an equivalent to the properties files described in Section <a href="%(link1)">[what_are_resource_bundles]</a>. Therefor, we place the XML resource bundle in the module <code>my.demo.bundle</code> and thus in the VFS folder <code>/system/modules/my.demo.bundle/i18n/</code>. The bundle is added via the workplace ("New" -&gt; "Other options" -&gt; "XML resource bundle") and named</p>
+<ul>
+<li><code>my.demo.bundle.test</code></li>
+</ul>
+<p>The bundle can be used in a JSP as described in Section <a href="%(link2)">[what_are_resource_bundles]</a>, except that the tag <strong><code>&lt;fmt:bundle&gt;</code> has to be replaced with <code>&lt;cms:bundle&gt;</code></strong>.</p>
+<div class="alert alert-info">The <strong>advantage</strong> of using XML resource bundles is, that it suffices to <em>publish</em> the bundles files to make changes available. Restarting the servlet container is <em>not</em> required.</div>
+<p>In contrast to property resource bundles, the XML resource bundles allow to edit the key-value pairs via the content editor and they also allow to keep all localizations in one file. If this is an advantage or not depends on your usecase.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

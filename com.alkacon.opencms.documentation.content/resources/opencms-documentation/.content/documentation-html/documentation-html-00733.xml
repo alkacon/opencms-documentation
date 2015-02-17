@@ -3,11 +3,39 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>The attributes are:</p>
-<p><code>enabled</code> : enables or disables the subscription engine</p>
-<p><code>maxvisited</code> : the maximum number of visited resources stored for a given resource</p>
-<p><code>poolname</code> : the database pool used to access the subscription information (<em>important when using a cluster, because data should be stored in a central location)</em></p>]]></content>
+      <links>
+        <link name="link4" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/localization/multilingual-menus/]]></target>
+        </link>
+        <link name="link5" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/localization/message-bundles/]]></target>
+          <anchor><![CDATA[how_to_provide_resource_bundles]]></anchor>
+        </link>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/localization/multilingual-menus/]]></target>
+          <anchor><![CDATA[localization_for_resource_types]]></anchor>
+        </link>
+        <link name="link3" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/localization/multilingual-menus/]]></target>
+          <anchor><![CDATA[content_specific_editor_localization]]></anchor>
+        </link>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/localization/multilingual-menus/]]></target>
+          <anchor><![CDATA[workplace_locales]]></anchor>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/localization/message-bundles/]]></target>
+          <anchor><![CDATA[workplace_bundles]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>Resource bundles are used for all localized messages in OpenCms. In particular, one can distinguish four different main applications:</p>
+<ol>
+<li>Localization of the workplace and system dialogs (read about this <a href="%(link0)">here</a>)</li>
+<li>Localization of the content specific parts of dialogs (read about the special <a href="%(link1)">workplace bundles</a> and see how localization works <a href="%(link2)">here</a>)</li>
+<li>Localization of the content editor for a specific resource type (display names and descriptions for resource types, etc. - see how it works <a href="%(link3)">here</a>)</li>
+<li>Localization in JSPs (e.g., of the output of formatters, template or dynamic functions)</li>
+</ol>
+<p>How to precisely perform the localization cases 1. to 3. is described in the topic about the localization of menus, see <a href="%(link4)">here</a>. To understand the descriptions you need some background on message bundles as discussed below. For case 4, you just need the example above and additionally you should read about the tag <code>&lt;cms:bundle&gt;</code> when you use the OpenCms specific <a href="%(link5)"> options for providing resource bundles</a>.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

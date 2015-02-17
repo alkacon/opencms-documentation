@@ -3,8 +3,16 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>Making a subscription for another user:</p>]]></content>
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/background/localization/]]></target>
+          <anchor><![CDATA[fig_top_level_locale_folders]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>In this approach you add language-specific sub-sites or sub-folders right below the root folder of your site. It's good practice to name these folders after the <a href="%(link0)">ISO 639-1</a> language codes, e.g. <code>en</code> or <code>de</code>. For each of these "lanuage-folders" you set the property <code>locale</code> to the locale of the sub site they contain. So, typically to the name of the folder, e.g., for the folder <code>en</code> you set the property <code>locale</code> to <code>en</code>. For example, if you want an English and a German version of your website, the main folder structure would look as shown in Figure <a href="%(link1)">[top_level_locale_folders]</a>.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

@@ -3,9 +3,18 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>Subscriptions/visits will not work correctly if the user’s browser caches pages on which the <code>&lt;cms:usertracking&gt;</code> tag or collectors are used.</p>
-<p>The following snippet will force the browser not to cache pages:</p>]]></content>
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/administration/module-management/]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/localization/multilingual-menus/]]></target>
+          <anchor><![CDATA[workplace_locales]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>In OpenCms resource bundles are typically added via <a href="%(link0)">modules</a>. Where to place the bundles inside the modules depends on which technique for bundles you use.</p>
+<div class="alert alert-danger">We encourage you to use one of the two OpenCms specific ways to work with resource bundles.</div>
+<div class="alert alert-info">We are not talking about the bundles for workplace and (resource type independent) system dialog localization here. See <a href="%(link1)">here</a> for some description about such bundles. In this section we are concerned about the bundles for content specific localization of editors and website localization.</div>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

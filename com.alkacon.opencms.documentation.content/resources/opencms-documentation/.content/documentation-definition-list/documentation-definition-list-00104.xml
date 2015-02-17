@@ -2,12 +2,27 @@
 
 <DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
   <DocumentationDefinitionList language="en">
-    <PropertyDef>false</PropertyDef>
+    <Heading><![CDATA[Resource type specific message keys]]></Heading>
+    <PropertyDef>true</PropertyDef>
     <Entry>
       <Term><![CDATA[fileicon.{resource type name}]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>@Todo Add a description !!!!!!!!!!!!!!!!!!!!!!!!</p>]]></content>
+        <content><![CDATA[<p>The key is used as title of the resource type in the ADE "Add wizard" of the page editor and the "New" wizard from the workplace.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[title.new{resource type name}]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The key is used as title of the dialog that appears when creating a new resource of the type via the "New" wizard from the workplace.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[desc.{resource type name}]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The key is used as description of the resource type in the ADE "Add wizard" of the page editor and the "New" wizard from the workplace.</p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>

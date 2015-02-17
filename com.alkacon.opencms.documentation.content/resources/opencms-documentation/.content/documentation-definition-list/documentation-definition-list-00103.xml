@@ -9,7 +9,7 @@
       <Term><![CDATA[item]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Map a structured content item to a Solrfield.</p>]]></content>
+        <content><![CDATA[<p>Map a structured content item to a Solr field.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -43,8 +43,12 @@
     <Entry>
       <Term><![CDATA[dynamic]]></Term>
       <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Use an instance of the interface <code>I_CmsSearchFieldMapping</code> to map content if the requirements for the field mapping are more "dynamic" than just: <em>static piece of content -&gt; specified field defined in the Solr schema</em>.</p>]]></content>
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/search/fields/I_CmsSearchFieldMapping.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>Use an instance of the interface <code><a href="%(link0)" target="_blank">I_CmsSearchFieldMapping</a></code> to map content if the requirements for the field mapping are more "dynamic" than just: <em>static piece of content -&gt; specified field defined in the Solr schema</em>.</p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>

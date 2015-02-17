@@ -5,15 +5,17 @@
     <Overview name="Overview0">
       <links/>
       <content><![CDATA[<p>OpenCms allows you to configure how your content is indexed by the integrated Solr search engine. In particular, you can add information about indexing in the content's schema definition and thereby, on the one hand, define if the content should only be found via the containerpage it resides on or also as content itself, and, on the other hand, you can tell which content elements are mapped to which index fields.</p>
-<p>Adjusting the search settings such that they fit to your needs requires some background on the Solr search engine.</p>]]></content>
+<p>Adjusting the search settings such that they fit to your needs requires some background on the Solr search engine. Whenever you implement your own search functionality it is an important task to adjust the search settings otherwise you will almost definitely get unintended search results.</p>]]></content>
     </Overview>
     <Teaser name="Teaser0">
       <links/>
       <content><![CDATA[<p>Configure how your content is indexed and how you can find it.</p>]]></content>
     </Teaser>
-    <Keywords/>
-    <InterestingFor/>
+    <Keywords><![CDATA[content, XML, XSD, schema, behavior, configuration, search settings, search]]></Keywords>
+    <InterestingFor><![CDATA[c_developer]]></InterestingFor>
+    <NewInVersion><![CDATA[7.5]]></NewInVersion>
     <NewInDocuVersion><![CDATA[9.5]]></NewInDocuVersion>
+    <RevisedForVersion><![CDATA[9.5]]></RevisedForVersion>
     <StatusMetaData>
       <Todos>
         <Todo><![CDATA[Add content]]></Todo>

@@ -3,15 +3,14 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>Via &lt;cms:usertracking&gt; tag and content collectors can user visits easily be tracked.</p>
-<p>User tracking functionality encompasses:</p>
-<ul>
-<li>Marking a page as visited by a given user</li>
-<li>Checking whether a user has visited a page</li>
-<li>Finding visited resources</li>
-</ul>
-<p>Special handling for binary files is needed.</p>]]></content>
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/typical-tasks/writing-jsps/]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<ul>
+<li><a href="%(link0)">Read more about JSPs and rendering content, e.g., learn how to get the current request's language.</a></li>
+</ul>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

@@ -3,8 +3,16 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>@Todo Add a description !!!!!!!!!!!!!!!!!!!!!!!!</p>]]></content>
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/search/]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<ul>
+<li><a href="%(link0)">Integrated, faceted search function</a></li>
+<li>Version information is displayed at topics</li>
+<li>Link highlighting now via underline (before links in text invisible)</li>
+</ul>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

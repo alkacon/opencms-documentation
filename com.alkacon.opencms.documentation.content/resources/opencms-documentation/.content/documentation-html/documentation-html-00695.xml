@@ -4,7 +4,7 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>Below is a figure of folders in the <em>VFS</em> which each embody the top level of a language specific sub-site. On the other hand these folders belong to the sub-site called <em>site</em> and are to deliver content in three different languages. On each of these folders the <em>locale</em> property should be set so that all child folders, pages and resources inherit the locale of the parent folder unless they define them individually. The <em>locale</em> property will be used by OpenCms to assign specific XML-Contents and can be accessed in a JSP among other.</p>]]></content>
+      <content><![CDATA[<p>An, at the first glance, very simple approach is to place all the resources that are needed to build up your website in one single module. This is sufficient as long as you do not want to reuse parts of your resources and you can assure that things will not change frequently. Typically, at least for bigger projects, it's not the best choice. Why? In software developement the only constant is change.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

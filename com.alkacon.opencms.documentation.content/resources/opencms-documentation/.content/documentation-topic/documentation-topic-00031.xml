@@ -7,8 +7,10 @@
       <content><![CDATA[<p>The flex cache is used to improve performance of your website. In OpenCms pages are typically build on-the-fly when requested. This involves many costly steps, e.g., database queries. To obtain a performant web site, caching is essential.</p>
 <p>Not each resource's output HTML should be cached the same way. E.g., a navigation content's HTML output used on many pages should be rendered and cached for each page separately, a function that outputs date and time should be rendered on every reqiest, a completely static content should be rendered only once, equally at which page it is used, etc. The flex cache is the tool to configure caching in a resource specific way.</p>]]></content>
     </Overview>
-    <Keywords/>
-    <InterestingFor/>
+    <Keywords><![CDATA[caching, flex cache, configuration]]></Keywords>
+    <InterestingFor><![CDATA[b_opencmsAdmin,c_developer]]></InterestingFor>
+    <NewInVersion><![CDATA[6.0]]></NewInVersion>
+    <NewInDocuVersion><![CDATA[9.0]]></NewInDocuVersion>
     <StatusMetaData>
       <Todos/>
     </StatusMetaData>

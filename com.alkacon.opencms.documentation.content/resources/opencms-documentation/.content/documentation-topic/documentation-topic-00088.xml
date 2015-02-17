@@ -12,8 +12,8 @@
       <links/>
       <content><![CDATA[<p>Each value has a comfortable way to specify it. Say "true" by clicking a checkbox, refer to an image by chosing it from a gallery and so on. Widgets provide various ways to enter a value. Check out which widgets are available, how to configure them for your content type and how to write your own widgets.</p>]]></content>
     </Teaser>
-    <Keywords/>
-    <InterestingFor/>
+    <Keywords><![CDATA[content, XML, XSD, schema, behavior, editor, widgets, configuration]]></Keywords>
+    <InterestingFor><![CDATA[b_opencmsAdmin,c_developer,d_workplaceUser,e_editor]]></InterestingFor>
     <RelatedLinks>
       <Link>
         <URI>
@@ -43,6 +43,8 @@
         <LinkText><![CDATA[Learn about other configuration options for the content editors.]]></LinkText>
       </Link>
     </RelatedLinks>
+    <NewInDocuVersion><![CDATA[9.0]]></NewInDocuVersion>
+    <RevisedForVersion><![CDATA[9.5]]></RevisedForVersion>
     <StatusMetaData>
       <Todos>
         <Todo><![CDATA[Include reworked demo from org.opencms.dev.demo.customwidget module to demonstrate how to write own widgets?]]></Todo>

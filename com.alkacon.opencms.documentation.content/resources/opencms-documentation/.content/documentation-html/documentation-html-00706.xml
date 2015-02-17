@@ -4,61 +4,19 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link8" internal="false" type="A">
-          <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/jsp/CmsJspBean.html]]></target>
-        </link>
-        <link name="link6" internal="false" type="A">
-          <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/file/CmsRequestContext.html]]></target>
-        </link>
-        <link name="link7" internal="false" type="A">
-          <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspVfsAccessBean.html]]></target>
-        </link>
-        <link name="link4" internal="false" type="A">
-          <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/file/CmsRequestContext.html]]></target>
-        </link>
-        <link name="link5" internal="false" type="A">
-          <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/file/CmsObject.html]]></target>
-        </link>
-        <link name="link2" internal="false" type="A">
-          <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/file/CmsRequestContext.html]]></target>
-        </link>
-        <link name="link3" internal="false" type="A">
-          <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/jsp/CmsJspActionElement.html]]></target>
-        </link>
         <link name="link0" internal="false" type="A">
-          <target><![CDATA[http://files.opencms.org/javadoc/core/index.html]]></target>
+          <target><![CDATA[http://pub-docu/opencms-documentation/demos/advanced-container-usage/]]></target>
         </link>
         <link name="link1" internal="false" type="A">
-          <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspStandardContextBean.html]]></target>
+          <target><![CDATA[http://documentation.opencms.org/javadoc/tld/cms/container.html]]></target>
         </link>
       </links>
-      <content><![CDATA[<p>It follows an overview of importent classes exposed by the API. To get more detailed information, use the <a href="%(link0)">JavaDoc</a> for the classes.</p>
+      <content><![CDATA[<p>For all other containers do <em>not</em> set <code>detailview</code> to <code>true</code>.</p>
 <ul>
-<li><a href="%(link1)">org.opencms.jsp.util.CmsJspStandardContextBean </a></li>
+<li><a href="%(link0)" target="_blank">Detour to some advanced usage of the <code>&lt;cms:container&gt;</code>-tag.</a></li>
+<li><a href="%(link1)" target="_blank">Checkout the TLD-doc of the <code>&lt;cms:container&gt;</code>-tag.</a></li>
 </ul>
-<p>An instance of this bean is present in each OpenCms managed JSP as EL variable <em>cms</em> and is indented to be used from a JSP with the JSTL or EL<em>.</em> It provides access to several other beans like for instance the <a href="%(link2)">org.opencms.file.CmsRequestContext</a> by calling<em> cms.requestContext.<br /></em></p>
-<ul>
-<li><a href="%(link3)">org.opencms.jsp.CmsJspActionElement</a></li>
-</ul>
-<p>This bean is useful if scriptlet code is required. It provides direct access to the functionality offered by the OpenCms taglib.</p>
-<ul>
-<li><a href="%(link4)">org.opencms.file.CmsRequestContext</a></li>
-</ul>
-<p>It stores the information about the current users OpenCms context, for example the requested URI, the current project, the selected site and more. It provides environment information for handling the current request</p>
-<ul>
-<li><a href="%(link5)">org.opencms.file.CmsObject</a></li>
-</ul>
-<p>This bean acts as facade to provide all externally available functions of OpenCms. It encapsulates user identification and permissions. It could beThought of as an initialized <em>shell</em> to access the OpenCms VFS. Every call to a method here will be checked for user permissions according to the <code><a title="class in org.opencms.file" href="%(link6)"><code>CmsRequestContext</code></a></code> this CmsObject instance was created with.</p>
-<ul>
-<li><a href="%(link7)">org.opencms.jsp.util.CmsJspVfsAccessBean</a></li>
-</ul>
-<p>It provides utility methods that allow convenient access to the OpenCms VFS, indented to be used from a JSP with the JSTL or EL.</p>
-<ul>
-<li><a href="%(link8)">org.opencms.jsp.CmsJspBean</a></li>
-</ul>
-<p>this class is the superclass for OpenCms JSP beans that provides convient access to OpenCms core and VFS functionality. If large chunks of code need to be available in a JSP it is suggested to move it to a class file which is a subclass of this bean. In order to work properly each instasnce must be initialized with the current page context, request and response object.</p>
-<p> </p>
-<p> </p>]]></content>
+<div class="alert alert-info">When your JSP contains a <code>&lt;cms:container&gt;</code>-tag you cannot preview the JSP directly anymore. You must use a container page using the template to see a preview. (See the next step on how to create one.)</div>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

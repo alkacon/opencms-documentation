@@ -2,20 +2,7 @@
 
 <DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
   <DocumentationCodeBlock language="en">
-    <ProgrammingLanguage><![CDATA[jsp]]></ProgrammingLanguage>
-    <Code><![CDATA[<cms:formatter var="content">
-    <!-- Get the current locale -->
-    ${cms.locale}
-
-    <!-- Get values from the XML content in the selected locale   -->
-    ${content.localeValue['de']['Title']}
-
-    <!--  Get Lists of values from the XML content in the selected locale -->
-    ${content.localeValueList['de']['Teaser']}
-
-    <!--  Get Booleans that indicate if a specified-->
-    <!--  Locale is available in the XML content. -->
-    ${content.hasLocaleValue['de']['Title']}
-</cms:formatter>]]></Code>
+    <Code><![CDATA[mkdir /Volumes/opencms
+mount_smbfs -d 777 //Admin@localhost:1445/OPENCMS /Volumes/opencms]]></Code>
   </DocumentationCodeBlock>
 </DocumentationCodeBlocks>

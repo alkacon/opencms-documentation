@@ -2,32 +2,8 @@
 
 <DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
   <DocumentationCodeBlock language="en">
-    <ProgrammingLanguage><![CDATA[plain]]></ProgrammingLanguage>
-    <Code><![CDATA[<opencms>
-  <system>
-    <internationalization>
-      <localehandler class="org.opencms.i18n.CmsDefaultLocaleHandler"/>
-      <localesconfigured>
-        <locale>en</locale>
-        <locale>de</locale>
-
-        <!-- The line below has to be added.. -->
-        <locale>es</locale>
-
-      </localesconfigured>
-      <localesdefault>
-        <locale>en</locale>
-        <locale>de</locale>
-
-        <!-- ..and here as well -->
-        <locale>es</locale>
-
-      </localesdefault>
-      <timezone>GMT+01:00</timezone>
-    </internationalization>
-    ...
-  </system>
-</opencms>
-]]></Code>
+    <Code><![CDATA[#!/bin/bash
+socat TCP-LISTEN:445,fork TCP:localhost:1445 &
+mount -t cifs //localhost/OPENCMS ~/opencms/vfs -o credentials=~/.credentials/occredentials,rw,uid=1000,gid=1000]]></Code>
   </DocumentationCodeBlock>
 </DocumentationCodeBlocks>

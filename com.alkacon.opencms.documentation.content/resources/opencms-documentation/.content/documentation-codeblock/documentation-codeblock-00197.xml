@@ -2,8 +2,11 @@
 
 <DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
   <DocumentationCodeBlock language="en">
-    <ProgrammingLanguage><![CDATA[jsp]]></ProgrammingLanguage>
-    <Code><![CDATA[<cms:usertracking file="..."
-action="subscribe" user="${username}" />]]></Code>
+    <Code><![CDATA[<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+
+<fmt:setLocale value="en" /> <%-- replace "en" with "de" for the German version --%>
+<fmt:bundle basename="my.demo.bundle.hello">
+  <fmt:message key="hello.world" />
+</fmt:bundle>]]></Code>
   </DocumentationCodeBlock>
 </DocumentationCodeBlocks>

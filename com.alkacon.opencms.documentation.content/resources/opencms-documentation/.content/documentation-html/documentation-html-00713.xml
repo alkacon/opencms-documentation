@@ -4,10 +4,8 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>Possible use case</p>
-<ul>
-<li>Admin wants a specific user to see a certain content in his subscriptions</li>
-</ul>]]></content>
+      <content><![CDATA[<p>There are different ways to build a multilingual website. All have their pros and cons and in the end your use-case will tell the best solution. The next subsections provide an overview on possible solutions.</p>
+<p>To understand the different approaches you have to understand how OpenCms chooses the locale used to render a page (i.e., the locale for choosing the content's language and typically also to read message bundles). The locale is determined by the <code>locale</code> property. If you request a page and the property is set at it, or at a parent folder, this locale is chosen for rendering. Thus, if the locale property is set to <code>de</code>, the page is rendered in German. Is it set to <code>en</code>, the page is rendered in English. This mechanism can be overwritten by the request parameter <code>__locale</code>. If you provide that parameter and hand over a configured locale as value, e.g., <code>__locale=en</code>, then this locale will be used.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

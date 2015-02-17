@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/views-in-opencms/the-ade-views/the-page-editor/]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/localization/multilingual-menus/localization_for_resource_types]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>At some places where localization takes place, you cannot explicitely state which resource bundle you use. This is in particular the case, when the available content types and their descriptions are listed in the "Add wizard" of the <a href="%(link0)">page editor</a>. The keys used for localization here have to follow a specific name scheme (see <a href="%(link1)">here</a> for details) and also reside in so called <em>workplace bundles</em>.</p>
+<p>A workplace bundle follows the one of the name schemes</p>
+<ul>
+<li><code>{module name}.workplace</code></li>
+<li><code>{module name}.messages</code></li>
+</ul>
+<p>When the workplace is build, all bundles following that name scheme are collected and merged into a single bundle that is present globally without opening it explicitely. Hence, what you should be aware of:</p>
+<ul>
+<li>workplace bundles should have very unique keys</li>
+<li>workplace bundles typically contain only the keys that are used where you can not explicitely access another bundle.</li>
+</ul>
+<p>Which of the techniques for writing properties files you use for workplace bundles is your choice. The only thing you should know additionally:</p>
+<div class="alert alert-info">To make changes in workplace bundles visible, the workplace has to be rebuild. ("Administration View" -&gt; "Workplace Tools" -&gt; "Re-Initialize the Workplace").</div>
+<div class="alert alert-danger">Be aware of the special role and naming scheme for workplace bundles to not accidentically make your "normal" bundle a workplace bundle.</div>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

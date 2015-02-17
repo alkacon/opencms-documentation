@@ -3,8 +3,20 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>These collectors are configurable using various parameters, e.g.:</p>]]></content>
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/views-in-opencms/the-ade-views/the-page-editor/]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/views-in-opencms/the-ade-views/content-editors/the-form-based-content-editor/]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>Whenever you open an XML content in the content editor, you can select the language version, you want to edit. By default, only the languages "German" and "English" can be chosen. The version which gets displayed first depends on the language of the page you are editing at. <span class="footnote">The language of the request context is chosen - or a default, if this language is not available for the content.</span></p>
+<ul>
+<li><a href="%(link0)">See here for more information on the page editor.</a></li>
+<li><a href="%(link1)">See here for details about editing content with the form-based content editor.</a></li>
+</ul>
+<p>A special hint is maybe necessary for the situation, you want to add a content to an, e.g., English page that exists, for example, only in German. Then you will not find the content unless you change the language for which you search content to German. This can be done as shown in the following screenshot form the page editor's "Add wizard".</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

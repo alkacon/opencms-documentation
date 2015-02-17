@@ -4,19 +4,14 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link2" internal="true" type="A">
-          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/lists-of-resources-and-detail-pages/]]></target>
-          <uuid>fefc9768-1bb3-11e4-bfa5-b7bfd6088c56</uuid>
-        </link>
         <link name="link0" internal="false" type="A">
           <target><![CDATA[https://github.com/alkacon/modules-v8/blob/branch_8_5_x/modules/com.alkacon.opencms.v8.template3/resources/system/modules/com.alkacon.opencms.v8.template3/elements/menu/nav_main.jsp]]></target>
         </link>
-        <link name="link1" internal="true" type="A">
-          <target><![CDATA[/sites/default/opencms-documentation/typical-tasks/writing-jsps/]]></target>
-          <uuid>62f3bf30-0bf2-11e4-a03c-b7bfd6088c56</uuid>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/typical-tasks/writing-jsps/]]></target>
         </link>
       </links>
-      <content><![CDATA[<p>This part can also only be described in an abstract point of view because these steps are depending on the specific project requirements. Anyway, the following description should be enough to get a picture of how the work can look like. Let’s make the above shown main navigation dynamic by copy and paste the content of the file <code><a href="%(link0)">nav_main.jsp</a></code> from the modules-v8 into the <code>main-nav.jsp</code> created one step before. Have a look at the section about the <a href="%(link1)">OpenCms JSP API</a> of this documentation in order to get an impression about how to use the OpenCms specific tag library. Or learn how to create lists of resources and detail pages by reading the section about <a href="%(link2)">lists of resources and detail pages</a>. And again the modules-v8 is a good starting point to learn more about writing JSPs or to “copy and paste” code that can be adjusted according to your needs.</p>]]></content>
+      <content><![CDATA[<p>This part can also only be described in an abstract point of view because these steps are depending on the specific project requirements. Anyway, the following description should be enough to get a picture of how the work can look like. Let’s make the above shown main navigation dynamic by copy and paste the content of the file <code><a href="%(link0)" target="_blank">nav_main.jsp</a></code> from the modules-v8 into the <code>main-nav.jsp</code> created one step before. Have a look at the section about the <a href="%(link1)">OpenCms JSP API</a> of this documentation in order to get an impression about how to use the OpenCms specific tag library. A good starting point may also to "copy" from the current demo template shipped with OpenCms.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

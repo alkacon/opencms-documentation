@@ -3,9 +3,22 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>In each module's subfolder<code>i18n/</code> reside the system dialog's specific resource bundle <em>{module name}.workplace</em> for available resources. For each new resource in a module this bundle gets updated. The messages are added in the language where the resource was created in, more language specific versions can be added.</p>
-<p>The following keys are added:</p>]]></content>
+      <links>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/mounting-the-vfs/network-share-access/]]></target>
+        </link>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/creating-a-website/creating-a-template-jsp/]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/search-settings/]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<ul>
+<li><a href="%(link0)">Revised the tutorial for template JSP creation to fit for OpenCms 9.5.</a></li>
+<li><a href="%(link1)">Search settings: Specifying search settings in XSDs has been extended.</a></li>
+<li><a href="%(link2)">Mounting the VFS via a network share: Added hints on how to mount the VFS of your local OpenCms installation on various operating systems.</a></li>
+</ul>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

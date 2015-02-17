@@ -3,16 +3,20 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<ol>
-<li>Create a sitemap folder using the explorer new wizard (“New” -&gt; “Extended folder” -&gt; “Subsitemap folder” -&gt; “Continue” -&gt; enter a name e.g. “en” -&gt; let the checkbox “Edit properties of the new file” checked -&gt; “Continue” -&gt; “Advanced” -&gt; enter into the "template"-property: <code>/system/modules/my.template/templates/main.jsp</code> -&gt; “Finish”)</li>
-<li>Create container page <code>/en/index.html</code> (Click on the folder “<code>en</code>” -&gt; “New” -&gt; “Container page” -&gt; “Continue” -&gt; enter “<code>index.html</code>” -&gt; uncheck both checkboxes -&gt; “Finish”)</li>
-<li>Create a “<code>/en/.content/</code>”-folder (“New” -&gt; “Extended folder” -&gt; “Sitemap content folder” -&gt; “Continue” -&gt; “.content” -&gt; uncheck checkbox -&gt; “Finish”)</li>
-<li>A sitemap configuration e.g. “<code>/en/.content/.config</code>” is being created automatically</li>
-<li>Create a folder “<code>/en/.content/.new/</code>” (Left click on the folder “<code>.content</code>” -&gt; “New” -&gt; “Folder” -&gt; “Continue” -&gt; enter “<code>.new</code>“ -&gt; uncheck checkbox -&gt; “Finish”)</li>
-<li>Create an empty page model “<code>/en/.content/.new/default.html</code>” (see step 2)</li>
-<li>Configure a previously created page model for the sitemap (Right click on ”<code>/en/.content/.config</code>” -&gt; “Edit” -&gt; Open the “Model pages”-tab -&gt; Add a “Model”-node by clicking the plus and enter “<code>/en/.content/.new/default.html</code>” -&gt; “Save and close”</li>
-</ol>]]></content>
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/views-in-opencms/the-ade-views/the-sitemap-editor/]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/views-in-opencms/the-ade-views/the-page-editor/]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>If you want to set your template for a<em>n existing site or subsite</em><span class="footnote">Of course, you can also create the subsite first using the sitemap editor.</span>, go to the sitemap editor, choose the "Resources" view and select "Properties" from the main folder of the (sub-)site. Then, in the tab "Complete Properties", set the property template to your <code>template</code> by choosing it (via its name "My Template") from the drop-down list.</p>
+<ul>
+<li><a href="%(link0)">Get more information on the sitemap editor.</a></li>
+</ul>
+<p>If you want to <em>create a new site</em> that uses your template, use the "Site Management" in the administration view. Choose "New site" and fill out the form, in particular "Title", "Folder name", "Server URL" and "Template". The remaining things can be empty. For "Template" enter <code>provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/my.template/templates/main.jsp</code>. For "Server URL" you may choose "http://localhost:8081". If you created the site, go to the explorer view and switch to the newly created site. In this site's root folder add an index.html by choosing "New" (see the upper left corner of the explorer view) and selecting "Container page" in the appearing dialog. Click "Continue" and set the file name, thus that is "index.html" in the end.</p>
+<p>In order to check, if everything works fine, go to the <code>index.html</code> directly in the main folder of your site or subsite. You should see your template JSP coming up and an edit point in the upper right corner. If you click it, the menu of the <a href="%(link1)">page editor</a> should appear.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>
