@@ -24,6 +24,7 @@
 			<xsd:element name="NewInVersion" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="RemovedInVersion" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="NewInDocuVersion" type="OpenCmsString" minOccurs="0" />
+			<xsd:element name="RevisedForVersion" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="StatusMetaData" type="OpenCmsDocumentationStatusMetadata" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
@@ -31,6 +32,7 @@
 
 	<xsd:annotation>
 		<xsd:appinfo>
+			<resourcebundle name="com.alkacon.opencms.documentation.topic" />
 			<mappings>
 				<mapping element="Title" mapto="property:Title" useDefault="true" />
 				<mapping element="Keywords" mapto="property:Keywords" />
@@ -40,6 +42,7 @@
 				<default element="Title" value="%(page_title)" resolveMacros="false" />
 				<default element="NewInVersion" value="%(property.opencms.documentation.version)" />
 				<default element="NewInDocuVersion" value="%(property.opencms.documentation.version)" />
+				<default element="RevisedForVersion" value="%(property.opencms.documentation.version)" />
 				<default element="StatusMetaData/Todos/Todo[1]" value="Add content" />
 			</defaults>
 			<visibilities>
@@ -48,7 +51,7 @@
 			<layouts>
 				<layout element="Overview" widget="HtmlWidget" configuration="height:300px,link,image,table,source,hidebuttons:underline;strikethrough;alignleft;alignright;aligncenter;justify;indent;outdend;blockquote;hr;print,stylesformat:/system/modules/com.alkacon.opencms.documentation/resources/tinymce/styles.xml,imagegallery{useformat:true,formatnames: 'inline:Inline', formatvalues: ['14x?']}" />
 				<layout element="Teaser" widget="HtmlWidget" configuration="height:150px,link,image,table,source,hidebuttons:underline;strikethrough;alignleft;alignright;aligncenter;justify;indent;outdend;blockquote;hr;print,stylesformat:/system/modules/com.alkacon.opencms.documentation/resources/tinymce/styles.xml,imagegallery{useformat:true,formatnames: 'inline:Inline', formatvalues: ['14x?']}" />
-				<layout element="InterestingFor" widget="MultiSelectWidget" configuration="editor:Content Editor|developer:Template Developer|serverAdmin:Server Administrator|accountManager:Account Manager" />
+				<layout element="InterestingFor" widget="MultiSelectWidget" configuration="a_serverOperator:%(key.select.role.a_serverOperator)|b_opencmsAdmin:%(key.select.role.b_opencmsAdmin)|c_developer:%(key.select.role.c_developer)|d_workplaceUser:%(key.select.role.d_workplaceUser)|e_editor:%(key.select.role.e_editor)" />
 			</layouts>
 			<validationrules>
 				<rule element="NewInVersion" regex="\d{1,3}(.\d{1,3}){0,3}" type="error" message="The value seems not to be an OpenCms version number." />
@@ -85,7 +88,7 @@
 					<solrfield targetfield="keywords" addto="page,element" sourcefield="_cs" />
 				</searchsetting>
 				<searchsetting element="InterestingFor" searchcontent="false">
-					<solrfield targetfield="interestingFor" addto="page,element" />
+					<solrfield targetfield="interestingFor" sourcefield="*_cs" addto="page,element" />
 				</searchsetting>
 			</searchsettings>
 		</xsd:appinfo>

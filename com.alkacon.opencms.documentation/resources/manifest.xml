@@ -2,9 +2,9 @@
 
 <export>
 	<info>
-		<creator>Admin</creator>
-		<opencms_version>9.7.x</opencms_version>
-		<createdate>Wed, 04 Feb 2015 08:14:27 GMT</createdate>
+		<creator>dSeidel</creator>
+		<opencms_version>10.0</opencms_version>
+		<createdate>Tue, 17 Feb 2015 15:50:57 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,7 +14,7 @@
 		<group>OpenCms Documentation</group>
 		<class/>
 		<description><![CDATA[Provides all the content types with formatters and templates to set up a topic-based documentation. Used for the OpenCms documentation.]]></description>
-		<version>9.5.4</version>
+		<version>9.5.4.1</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated/>
@@ -164,10 +164,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>2f3bb290-ab12-11e4-ad5f-f9d322068617</uuidstructure>
-			<datelastmodified>Mon, 02 Feb 2015 19:32:11 GMT</datelastmodified>
+			<uuidstructure>0108f382-ac5c-11e4-aaac-0242ac11002b</uuidstructure>
+			<datelastmodified>Mon, 27 Jun 2005 08:00:00 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 02 Feb 2015 19:32:11 GMT</datecreated>
+			<datecreated>Wed, 04 Feb 2015 10:53:08 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -186,10 +186,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>30c5d53c-ab12-11e4-ad5f-f9d322068617</uuidstructure>
-			<datelastmodified>Mon, 02 Feb 2015 19:32:14 GMT</datelastmodified>
+			<uuidstructure>035b211e-ac5c-11e4-aaac-0242ac11002b</uuidstructure>
+			<datelastmodified>Wed, 04 Feb 2015 10:53:12 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 02 Feb 2015 19:32:14 GMT</datecreated>
+			<datecreated>Wed, 04 Feb 2015 10:53:12 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -1144,8 +1144,8 @@
 			<type>jsp</type>
 			<uuidstructure>0d7a130f-0038-11e4-83a1-fb93821e3720</uuidstructure>
 			<uuidresource>0d7a1310-0038-11e4-83a1-fb93821e3720</uuidresource>
-			<datelastmodified>Thu, 27 Nov 2014 15:34:22 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Tue, 10 Feb 2015 11:23:17 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Mon, 30 Jun 2014 09:22:27 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -1200,8 +1200,8 @@
 			<type>jsp</type>
 			<uuidstructure>8fa6329f-fd33-11e3-8938-fb93821e3720</uuidstructure>
 			<uuidresource>8fa632a0-fd33-11e3-8938-fb93821e3720</uuidresource>
-			<datelastmodified>Thu, 27 Nov 2014 15:42:30 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Tue, 17 Feb 2015 11:20:05 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Thu, 26 Jun 2014 13:12:44 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -1392,8 +1392,8 @@
 			<type>jsp</type>
 			<uuidstructure>3a760d7c-ab17-11e4-86dc-f9d322068617</uuidstructure>
 			<uuidresource>3a760d7d-ab17-11e4-86dc-f9d322068617</uuidresource>
-			<datelastmodified>Tue, 03 Feb 2015 04:29:22 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Tue, 17 Feb 2015 12:10:51 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Mon, 02 Feb 2015 20:08:18 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -2711,6 +2711,26 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/i18n/com.alkacon.opencms.documentation.topic</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/i18n/com.alkacon.opencms.documentation.topic</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>38dc20b5-b695-11e4-b42e-0242ac11002b</uuidstructure>
+			<uuidresource>38dc20b6-b695-11e4-b42e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 17 Feb 2015 15:27:38 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 17 Feb 2015 11:07:54 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.opencms.documentation/i18n/com.alkacon.opencms.documentation.workplace</source>
 			<destination>system/modules/com.alkacon.opencms.documentation/i18n/com.alkacon.opencms.documentation.workplace</destination>
 			<type>xmlvfsbundle</type>
@@ -3316,8 +3336,8 @@
 			<type>plain</type>
 			<uuidstructure>9a48a74e-010e-11e4-aa3f-1305b26fecac</uuidstructure>
 			<uuidresource>9a48a74f-010e-11e4-aa3f-1305b26fecac</uuidresource>
-			<datelastmodified>Tue, 25 Nov 2014 15:41:43 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Tue, 10 Feb 2015 13:48:56 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Tue, 01 Jul 2014 10:58:15 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -3356,8 +3376,8 @@
 			<type>plain</type>
 			<uuidstructure>e6ce1af6-68af-11e4-9296-005056b61161</uuidstructure>
 			<uuidresource>e6ce1af7-68af-11e4-9296-005056b61161</uuidresource>
-			<datelastmodified>Wed, 26 Nov 2014 07:13:44 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Tue, 17 Feb 2015 14:53:55 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Mon, 10 Nov 2014 08:02:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -3501,8 +3521,8 @@
 			<type>plain</type>
 			<uuidstructure>404f6190-0038-11e4-83a1-fb93821e3720</uuidstructure>
 			<uuidresource>404f6191-0038-11e4-83a1-fb93821e3720</uuidresource>
-			<datelastmodified>Tue, 25 Nov 2014 09:05:30 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Tue, 10 Feb 2015 15:26:59 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Mon, 30 Jun 2014 09:23:52 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -3621,8 +3641,8 @@
 			<type>plain</type>
 			<uuidstructure>8f858b34-fd33-11e3-8938-fb93821e3720</uuidstructure>
 			<uuidresource>8f858b35-fd33-11e3-8938-fb93821e3720</uuidresource>
-			<datelastmodified>Tue, 03 Feb 2015 01:03:04 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Tue, 17 Feb 2015 15:27:10 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Thu, 26 Jun 2014 13:12:44 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
