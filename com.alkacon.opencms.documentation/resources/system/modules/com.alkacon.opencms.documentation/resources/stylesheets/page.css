@@ -20,13 +20,21 @@ body {
 	font-size: 14px;
 }
 
-p, li, li a {
+p, li {
 	color: #555;
 }
 
-a, a:active {
-	color: #b31b34;
+a {
+	color: inherit;
+	text-decoration: underline;
+}
+
+a.btn {
 	text-decoration: none;
+}
+
+a:active {
+	color: #b31b34;
 }
 
 a:hover {
@@ -46,6 +54,7 @@ a, a:focus, a:hover, a:active {
 .sidebar-nav-v1 li a {
 	display: block;
 	padding: 8px 30px 8px 10px;
+	text-decoration: none;
 }
 
 .sidebar-nav-v1 > li.active, .sidebar-nav-v1 > li.active:hover {
@@ -88,6 +97,7 @@ margin-top: 8px;
 
 .breadcrumbs a {
 	color: #777;
+	text-decoration: none;
 }
 
 .breadcrumb {
