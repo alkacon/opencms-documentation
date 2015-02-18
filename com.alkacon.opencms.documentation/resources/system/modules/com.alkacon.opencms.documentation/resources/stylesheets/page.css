@@ -1,5 +1,28 @@
 /* CSS Adjustments for Bootstrap defaults */
 
+/*
+blue-dark:		#0d2c56;
+blue:			#144382;
+blue-light:		#2197db;
+blue-lighter:	#d9edf9;
+red:			#b31b34;
+red-light:		#ff264a;
+red-dark:		#8b1528;
+cyan:			#1bb39a;
+*/
+
+.label-success {
+	background-color: #b31b34;
+}
+
+.label-info {
+	background-color: #1bb39a;
+}
+
+.label-default {
+	background-color: #2197db;
+}
+
 /* Adjust maximal width of content */
 div.container-fluid.container-main {
 	max-width: 1350px;
@@ -25,25 +48,160 @@ p, li {
 }
 
 a {
-	color: inherit;
-	text-decoration: underline;
-}
-
-a.btn {
-	text-decoration: none;
-}
-
-a:active {
 	color: #b31b34;
 }
 
+a:focus, 
+a:active,
 a:hover {
-	color: #b31b34;
+	color: #ff264a;
 }
 
-a, a:focus, a:hover, a:active {
+a, 
+a:focus, 
+a:hover, 
+a:active {
+	text-decoration: none;
 	outline: 0 !important;
 }
+
+.btn-info {
+	background-color: #2197db;
+	border-color: #144382;	
+}
+.btn-info:hover,
+.btn-info:focus,
+.btn-info.focus,
+.btn-info:active,
+.btn-info.active,
+.open > .dropdown-toggle.btn-info {
+	background-color: #144382;
+}
+
+.btn-primary {
+	background-color: #144382;
+	border-color: #0d2c56;		
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+	background-color: #0d2c56;
+}
+
+pre,
+.alert {
+  border: none; 
+}
+  
+.alert-success {
+  color: #0e5a4e;
+  background-color: #a8f2e6; 
+}
+
+.alert-info {
+  color: #144382;
+  background-color: #d9edf9; 
+}
+
+.alert-warning {
+  color: #bf7200;
+  background-color: #ffe5bf; 
+}
+
+.alert-danger {
+  color: #b31b34;
+  background-color: #ffe3e7; 
+}
+
+.alert-danger a {
+	color: #555;
+}
+
+.alert-danger a:focus, 
+.alert-danger a:active,
+.alert-danger a:hover {
+	color: #ff264a;
+}
+
+
+code {
+	color: #144382;
+	background-color: #f5f5f5;
+}
+
+.alert code {
+  	background-color: rgba(245, 245, 245, 0.4);
+}
+
+dt code {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding: 0;
+	font-size: 14px;
+	color: #2197db;
+	background-color: transparent;	
+}
+
+dt {
+	color: #2197db;
+}
+
+
+dt a {
+	color: #2197db;
+}
+
+dt a code:focus, 
+dt a code:active,
+dt a code:hover,
+dt a:focus, 
+dt a:active,
+dt a:hover {
+	color: #ff264a;
+}
+
+dt a::after {
+	padding-left: 5px;
+	padding-right: 5px;
+	content: "\e144";
+	color: #b31b34;
+	font-size: 12px;
+	font-family: "Glyphicons Halflings";
+}
+
+dt a:focus::after, 
+dt a:active::after,
+dt a:hover::after {
+	color: #ff264a;
+}
+
+
+dd p {
+	margin: 0;
+}
+
+dd {
+	padding-left: 20px;
+	margin-bottom: 15px;
+}
+
+dl.documentation-dl-compact dt {
+	display: inline-block;
+	padding-right: 5px;
+	float:left;
+}
+
+dl.documentation-dl-compact dd {
+	display: block;
+	padding-left: 200px;
+}
+
+ul {
+	padding-left: 20px;
+}
+
 
 /* Side navigation */
 
@@ -52,6 +210,7 @@ a, a:focus, a:hover, a:active {
 }
 
 .sidebar-nav-v1 li a {
+	color: #555;
 	display: block;
 	padding: 8px 30px 8px 10px;
 	text-decoration: none;
@@ -96,9 +255,16 @@ margin-top: 8px;
 }
 
 .breadcrumbs a {
-	color: #777;
+	color: #555;
 	text-decoration: none;
 }
+
+.breadcrumbs a:focus, 
+.breadcrumbs a:active,
+.breadcrumbs a:hover {
+	color: #ff264a;
+}
+
 
 .breadcrumb {
 top: 10px;
@@ -234,7 +400,7 @@ ul.nav-side a:focus {
 	text-decoration: none;
 }
 ul.nav-side a:hover {
-	color: #b31b34;
+	color: #ff264a;
 }
 
 
@@ -362,4 +528,107 @@ div.tooltip-inner {
     top: -9px; 
     left: 4px; 
     position: relative
+}
+
+
+/* Styles for documentation-specific classes */
+
+/* Sections */
+div.documentation-section {
+	padding-bottom: 20px;
+}
+
+/* Footnotes */
+span.footnote {
+	font-size: small;
+	font-family: monospace;
+	background-color: gray;
+}
+
+span.footnote-hover:hover {
+	color: #e74c3c;
+	cursor: help;
+}
+
+/* Special for demos */
+.xscroll {
+	overflow-x:auto;
+}
+
+iframe.opencms-documentation-source {
+	border: none;
+	display: none;
+	width: 100%;
+}
+
+iframe.opencms-documentation-source.contenteditor {
+	min-width:950px;
+}
+
+.documentation-source-link {
+	font-style: monospace;
+	background-color: lightgray;
+	border: 1px solid darkgray;
+	padding: 5px 10px;
+	margin: 10px 0px;
+}
+
+div.documentation-demo-source {
+	margin-bottom: 15px;
+}
+
+/* For the topic-row formatter */
+div.panel-body-documentation > a {
+	text-decoration:none;
+}
+h4.panel-title-documentation > a:active {
+	color:inherit;
+
+	}
+
+/* Box for related links */
+
+.related-links {
+	background-color: #f5f5f5;
+	padding: 20px;
+}
+
+/*
+.related-links a {
+	color: #333;
+}
+*/
+
+.related-links code {
+	background-color: #f5f5f5;
+	color: #333;
+}
+
+.related-links:last-child {
+	padding-bottom: 10px;
+}
+
+div.link-description {
+	font-style: italic;
+	margin: 5px;
+}
+
+/* Special styles for topic rows */
+div.topic-row-teaser {
+	padding: 0px;
+	font-style: italic;
+}
+
+div.topic-status-tags {
+	text-align:right;
+	border-color: #eee;
+	border-style: solid;
+	border-width: 2px;
+	margin-bottom: 8px;
+}
+
+div.topic-status-tags-inner {
+	display: inline-block;
+	padding: 6px;
+	padding-top: 4px;
 }
