@@ -28,7 +28,7 @@
 					<span class="label label-info">New in OpenCms: ${content.value.NewInVersion}</span>
 				</c:if>
 				<c:if test="${content.value.NewInDocuVersion.exists}">
-					<span class="label label-default">New in OpenCms: ${content.value.NewInDocuVersion}</span>
+					<span class="label label-default">New in Documentation: ${content.value.NewInDocuVersion}</span>
 				</c:if>
 				<c:if test="${content.value.RevisedForVersion.exists || content.value.NewInDocuVersion.exists}">
 					<span class="label label-success">Lastest revision: ${content.value.RevisedForVersion.exists ? content.value.RevisedForVersion : content.value.NewInDocuVersion}</span>
