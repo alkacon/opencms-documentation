@@ -5,10 +5,10 @@
     <Html name="Html0">
       <links/>
       <content><![CDATA[<ol>
-<li>Create a sitemap folder using the explorer new wizard (“New” -&gt; “Extended folder” -&gt; “Subsitemap folder” -&gt; “Continue” -&gt; enter a name e.g. “en” -&gt; let the checkbox “Edit properties of the new file” checked -&gt; “Continue” -&gt; “Advanced” -&gt; enter into the "template"-property: <code>/system/modules/my.template/templates/main.jsp</code> -&gt; “Finish”)</li>
-<li>Create container page <code>/en/index.html</code> (Click on the folder “<code>en</code>” -&gt; “New” -&gt; “Container page” -&gt; “Continue” -&gt; enter “<code>index.html</code>” -&gt; uncheck both checkboxes -&gt; “Finish”)</li>
+<li>Create a sitemap folder using the explorer new wizard (“New” -&gt; “Extended folder” -&gt; “Subsitemap folder” -&gt; “Continue” -&gt; enter a name e.g. “en” -&gt; leave the checkbox “Edit properties of the new file” checked -&gt; “Continue” -&gt; “Advanced” -&gt; enter into the "template"-property: <code>/system/modules/my.template/templates/main.jsp</code> -&gt; “Finish”)</li>
+<li>Create a container page <code>/en/index.html</code> (Click on the folder “<code>en</code>” -&gt; “New” -&gt; “Container page” -&gt; “Continue” -&gt; enter “<code>index.html</code>” -&gt; uncheck both checkboxes -&gt; “Finish”)</li>
 <li>Create a “<code>/en/.content/</code>”-folder (“New” -&gt; “Extended folder” -&gt; “Sitemap content folder” -&gt; “Continue” -&gt; “.content” -&gt; uncheck checkbox -&gt; “Finish”)</li>
-<li>A sitemap configuration e.g. “<code>/en/.content/.config</code>” is being created automatically</li>
+<li>A sitemap configuration e.g. “<code>/en/.content/.config</code>” will be created automatically</li>
 <li>Create a folder “<code>/en/.content/.new/</code>” (Left click on the folder “<code>.content</code>” -&gt; “New” -&gt; “Folder” -&gt; “Continue” -&gt; enter “<code>.new</code>“ -&gt; uncheck checkbox -&gt; “Finish”)</li>
 <li>Create an empty page model “<code>/en/.content/.new/default.html</code>” (see step 2)</li>
 <li>Configure a previously created page model for the sitemap (Right click on ”<code>/en/.content/.config</code>” -&gt; “Edit” -&gt; Open the “Model pages”-tab -&gt; Add a “Model”-node by clicking the plus and enter “<code>/en/.content/.new/default.html</code>” -&gt; “Save and close”</li>

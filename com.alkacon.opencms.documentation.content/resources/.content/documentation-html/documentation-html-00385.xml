@@ -14,10 +14,10 @@
 <p>To set default values for the <code>Title</code> element that fit for the actual content, special macros are used:</p>
 <ul>
 <li>The <code>%(page_title)</code> macro inserts the title of the page where the content is placed.</li>
-<li>The <code>%(no_prefix:)</code> macro places it's body value, "<code>: </code>" in the example, only if there exists a prefix, i.e., if the <code>%(page_title)</code> macro expands to a non-empty string in the example.</li>
+<li>The <code>%(no_prefix:)</code> macro places its body value, "<code>: </code>" in the example, only if a prefix exists, i.e., if the <code>%(page_title)</code> macro expands to a non-empty string in the example.</li>
 <li>The <code>%(value:)</code> macro takes an XPath to an element of the content and expands to the value of this content.</li>
 </ul>
-<p>The use of <code>resolveMacros="false"</code> in the <code>&lt;default&gt;</code> node is necessary to get the whole mapping working. If not set, the marcos are resolved to early and will all expand to the empty string.</p>
+<p>The use of <code>resolveMacros="false"</code> in the <code>&lt;default&gt;</code> node is necessary to get the whole mapping working. If not set, the macros are resolved too early and will all expand to the empty string.</p>
 <p>In case the optional <code>Title</code> element is added to the content via the content editor, the default value with unresolved macros is displayed and can be adjusted. The content editor can also use the macros when editing the value.</p>]]></content>
     </Html>
   </DocumentationHtml>

@@ -4,12 +4,12 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>We advise to use the Apache 2.4 as web server for the OpenCms installation. A Tomcat servlet container can be put behind an Apache web server using the AJP protocol, which carries all request information from Apache to Tomcat. There are two implementations of AJP module:</p>
+      <content><![CDATA[<p>We advise the use of Apache 2.4 as the web server for the OpenCms installation. A Tomcat servlet container can be put behind an Apache web server using the AJP protocol, which carries all request information from Apache to Tomcat. There are two implementations of AJP module:</p>
 <ul>
 <li>mod_jk which must be installed separately</li>
 <li>mod_proxy_ajp which is a standard module since Apache 2.2</li>
 </ul>
-<p>They both use protocol AJP, so they both provide the same functionality.</p>]]></content>
+<p>They both use the AJP protocol, so they both provide the same functionality.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

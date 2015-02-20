@@ -9,7 +9,7 @@
       <Term><![CDATA[Display name]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>When you select the formatter for a content, or you add/remove formatters in the sitemap configuration, this name is presented in the select box to identify the formatter.</p>]]></content>
+        <content><![CDATA[<p>When you select the formatter for a content item, or you add/remove formatters in the sitemap configuration, this name is presented in the select box to identify the formatter.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -30,28 +30,28 @@
       <Term><![CDATA[Rank]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Formatters for resources of the same type are ordered by rank. If more than one formatter is available when you place a resource at a page, the formatter with the highest rank is chosen by default. (The choice can be altered manually via a setting that is automatically available for elements that can be formatted with different formatters.)</p>]]></content>
+        <content><![CDATA[<p>Formatters for resources of the same type are ordered by rank. If more than one formatter is available when you place a resource in a page, the formatter with the highest rank is chosen by default. (The choice can be altered manually via a setting that is automatically available for elements that can be formatted with different formatters.)</p>]]></content>
       </Description>
     </Entry>
     <Entry>
       <Term><![CDATA[Match]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Match defines in which containers a formatter can be applied. You can either specify containers via their <code>width</code> attribute or via there <code>type</code> attribute. If you choose width, the value specified as "Width" in the formatter configuration corresponds to the minimal width a container must have (set as "width" attribute), and the optional "Maximum width" specifies the maximal value of the width attribute that is allowed in case the formatter should be appliable.</p>]]></content>
+        <content><![CDATA[<p>Match defines in which containers a formatter can be applied. You can either specify containers via their <code>width</code> attribute or via their <code>type</code> attribute. If you choose width, the value specified as "Width" in the formatter configuration corresponds to the minimum width a container must have (set as "width" attribute), and the optional "Maximum width" specifies the maximum value of the width attribute that is allowed where the formatter is applicable.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
       <Term><![CDATA[Use for preview]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Resources can be previewed in the "Add wizard" or in the workplace's explorer. Check this option, if the formatter should be used for such previews.</p>]]></content>
+        <content><![CDATA[<p>Resources can be previewed in the "Add wizard" or in the workplace's explorer. Check this option if the formatter should be used for such previews.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
       <Term><![CDATA[Search content]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>If a resource is added to a page, it's content may or may not be indexed for the page. If this option is checked and the resource is searchable at all, the page where it is placed will be found, when you search for content of the resource. </p>]]></content>
+        <content><![CDATA[<p>If a resource is added to a page, its content may or may not be indexed for the page. If this option is checked and the resource is searchable at all, the page where it is placed will be found when you search for content of that type. </p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -72,7 +72,7 @@
       <Term><![CDATA[Nested containers]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Check this option, if the formatter introduces a nested container.</p>]]></content>
+        <content><![CDATA[<p>Check this option if the formatter introduces a nested container.</p>]]></content>
       </Description>
     </Entry>
     <Entry>

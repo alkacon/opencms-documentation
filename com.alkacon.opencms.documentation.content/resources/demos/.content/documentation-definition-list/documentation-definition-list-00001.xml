@@ -17,14 +17,14 @@
             <anchor><![CDATA[writing_own_handlers]]></anchor>
           </link>
         </links>
-        <content><![CDATA[<p>The class that handles the dependency. By default, OpenCms provides <code><a href="%(link0)">CmsEditorChangeHandlerProperty</a></code> as concrete handler implementation, but you can <a href="%(link1)">write own handlers</a>.</p>]]></content>
+        <content><![CDATA[<p>The class that handles the dependency. By default, OpenCms provides <code><a href="%(link0)">CmsEditorChangeHandlerProperty</a></code> as a concrete handler implementation, but you can <a href="%(link1)">write your own handlers</a>.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
       <Term><![CDATA[scope]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Define the editor fields that should be observed for changes. The fields have to be specified by an XPath, e.g., <code>"Paragraphs*/Headline"</code>. The path can contain <code>*</code> as wildcard to observe all elements in a sequence. Moreover, the path can also explictely addess one element in a series and all fields of a subcontent. For example, <code>"Paragraphs[2]"</code> would cause observation for all fields in the second paragraph.</p>]]></content>
+        <content><![CDATA[<p>Define the editor fields that should be observed for changes. The fields have to be specified by an XPath, e.g., <code>"Paragraphs*/Headline"</code>. The path can contain <code>*</code> as wildcard to observe all elements in a sequence. Moreover, the path can also explicitly addess one element in a series and all fields of subcontent. For example, <code>"Paragraphs[2]"</code> would cause observation for all fields in the second paragraph.</p>]]></content>
       </Description>
     </Entry>
     <Entry>

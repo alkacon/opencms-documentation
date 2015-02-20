@@ -5,7 +5,7 @@
     <Html name="Html0">
       <links/>
       <content><![CDATA[<p>OpenCms only uses prepared statements when accessing the database through JDBC, so it is not possible to pass database queries directly through OpenCms.</p>
-<p>So far there are no known leaks in OpenCms enabling SQL-Injection.</p>
+<p>So far there are no known leaks in OpenCms enabling SQL injection.</p>
 <p>Customized website applications should use the OpenCms API and prepared statements to access the database for security reasons.</p>]]></content>
     </Html>
   </DocumentationHtml>

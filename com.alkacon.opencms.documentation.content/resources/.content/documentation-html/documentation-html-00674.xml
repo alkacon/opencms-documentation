@@ -10,8 +10,8 @@
       </links>
       <content><![CDATA[<p>If you use an external Solr server, be aware that:</p>
 <div class="alert alert-info">The OpenCms SolrSelect request handler does not support the external HTTP Solr Server.</div>
-<p>And if your Solr Server is directly reachable by <code>http://&lt;your_server&gt;</code> there will no permission check performed and indexed data that is secret will be accessible.</p>
-<div class="alert alert-danger">What means that you are <strong>self-responsible</strong> for resources that have permission restrictions set on the VFS of OpenCms.</div>
+<p>And if your Solr Server is directly reachable by <code>http://&lt;your_server&gt;</code> there will be no permission check performed and indexed data that is secret will be accessible.</p>
+<div class="alert alert-danger">That means that <strong>you are responsible</strong> for resources that have permission restrictions set on the VFS of OpenCms.</div>
 <p>To use the permission checking you could allow to access your server only via the Java API and use the search methods of <code><a href="%(link0)">org.opencms.search.solr.CmsSolrIndex</a></code>.</p>]]></content>
     </Html>
   </DocumentationHtml>

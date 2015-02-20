@@ -8,7 +8,7 @@
 <p>Enter the user name and password of the OpenCms user as which you want to log in (all operations performed via CMIS are executed in the context of an OpenCms user). Then click on the "Load repositories" button.</p>
 <p>Two repositories will be displayed: cmis-online, with which you can access contents from OpenCms' Online project, but not make any modifications, and cmis-offline, which allows you to access and make changes to the offline contents. Select "cmis-offline" and click the Login button.</p>
 <p>The GUI will now display the resources from the root folder of the VFS. You can navigate to other folders by double clicking on them. Double clicking on other resources will load the resources from the VFS and display them. Please note that CMIS only allows you to access the raw content of the resources. More specifically, you cannot get the rendered output of XML content via CMIS, only its source code.</p>
-<p>On the workbench's right side, you can select different tabs for access various information about or perform actions on the currently selected resource on the left. For example, the "Actions" tab allows you to perform actions like deleting the current resource, while in the "Properties" tab, you can view or modify the properties for the currently selected resource.<br /><br /></p>]]></content>
+<p>On the workbench's right side, you can select different tabs for accessing various information about currently selected resources or perform actions on them. For example, the "Actions" tab allows you to perform actions like deleting the current resource, while in the "Properties" tab, you can view or modify the properties for the currently selected resource.<br /><br /></p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

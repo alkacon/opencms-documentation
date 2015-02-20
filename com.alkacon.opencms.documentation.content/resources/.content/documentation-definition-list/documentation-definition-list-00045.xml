@@ -16,7 +16,7 @@
       <Term><![CDATA[description]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>A description text that may be displayed by CMIS clients for the repository.</p>]]></content>
+        <content><![CDATA[<p>Description text that may be displayed by CMIS clients for the repository.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -35,7 +35,7 @@
       <Term><![CDATA[rendition]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>The class name of a "rendition provider class". CMIS has the concept of 'renditions', which are alternative views of the the same content, e.g., thumbnails of images. The class configured here can provide such renditions. The class needs to implement the interface <code>org.opencms.cmis.I_CmsCmisRenditionProvider</code>. Note that the standard OpenCms distribution does not included an implementation for this interface.</p>]]></content>
+        <content><![CDATA[<p>The class name of a "rendition provider class". CMIS has the concept of 'renditions', which are alternative views of the same content, e.g., thumbnails of images. The class configured here can provide such renditions. The class needs to implement the interface <code>org.opencms.cmis.I_CmsCmisRenditionProvider</code>. Note that the standard OpenCms distribution does not include an implementation for this interface.</p>]]></content>
       </Description>
     </Entry>
     <Entry>

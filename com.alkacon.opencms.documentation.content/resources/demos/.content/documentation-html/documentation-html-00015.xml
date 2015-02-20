@@ -4,7 +4,7 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>To add the script to your page, a special formatter for the demo article is provided. It checks, if the script is present and if the content was moved to another container or edited (via <code>${cms.edited}</code>). If a script is present and the content was not edited or moved, it inserts the script. Otherwise it prints a hint to insert a script or reload the page. This hint is for example shown if the content is previewed in various containers while moving it. When the content is dropped <code>${cms.enableReload}</code> enforces an automatical reload of the page - and the script is shown. The same happens when the content is edited.</p>]]></content>
+      <content><![CDATA[<p>To add the script to your page, a special formatter for the demo article is provided. It checks if the script is present and if the content was moved to another container or edited (via <code>${cms.edited}</code>). If a script is present and the content was not edited or moved, it inserts the script. Otherwise it prints a hint to insert a script or reload the page. This hint is for example shown if the content is previewed in various containers while moving it. When the content is dropped <code>${cms.enableReload}</code> enforces an automatic reload of the page - and the script is shown. The same happens when the content is edited.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>
