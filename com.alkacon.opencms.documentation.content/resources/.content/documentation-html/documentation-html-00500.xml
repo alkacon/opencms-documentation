@@ -4,7 +4,7 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>You do not need to define a new virtual host or an new AJP-connector in Tomcat for each of your sites. Only add the server name through which the site should be reached to your existing virtual hosts (for secure/unsecure connections) as server alias. Which site is served for which server name is configured in OpenCms.</p>
+      <content><![CDATA[<p>You do not need to define a new virtual host or an new AJP-connector in Tomcat for each of your sites. Only add the server name through which the site should be reached to your existing virtual hosts (for secure/unsecure connections) as the server alias. Which site is served for which server name is configured in OpenCms.</p>
 <p>Here's how to add a server alias to a virtual host:</p>]]></content>
     </Html>
   </DocumentationHtml>

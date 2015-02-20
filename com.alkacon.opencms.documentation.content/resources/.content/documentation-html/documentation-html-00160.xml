@@ -4,7 +4,7 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>If you click “Ok” a content type is created and configured as resource type. In particular, the following actions are performed, where <code>&lt;name&gt;</code> is a placeholder for the resource type’s name and <code>&lt;module name&gt;</code> for the module that contains the resource type:</p>
+      <content><![CDATA[<p>If you click “Ok” a content type is created and configured as a resource type. In particular, the following actions are performed, where <code>&lt;name&gt;</code> is a placeholder for the resource type’s name and <code>&lt;module name&gt;</code> for the module that contains the resource type:</p>
 <ul>
 <li>In the subfolder <code>schemas/</code> of the current module, the file <code>&lt;name&gt;.xsd</code> is created. The file defines a sample content type.</li>
 <li>In the subfolder <code>formatters/</code> of the current module, the file <code>&lt;name&gt;-formatter.jsp</code> is created. The file defines a sample formatter for the content type.<br />Furthermore, a file <code>&lt;name&gt;-formatter-config.xml</code> is created. It configures the created formatter JSP to be used for the created content type in any container.</li>

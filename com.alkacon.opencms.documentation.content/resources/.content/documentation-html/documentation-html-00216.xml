@@ -9,7 +9,7 @@
         </link>
       </links>
       <content><![CDATA[<p>There is a default strategy implemented for the multi-language support within OpenCms Solr search index. For binary documents the language is determined automatically based on the extracted text. The default mechanism is implemented with: <a href="%(link0)">http://code.google.com/p/language-detection/</a>.</p>
-<p>For XML contents we have the concrete language/locale information and the localized fields are ending with underscore followed by the locale. E.g.: <code>content_en</code>, <code>content_de</code> or <code>text_en</code>, <code>text_de</code>. By default all the field mappings definied within the XSD of a resource type are extended by the <code>_&lt;locale&gt;</code>.</p>]]></content>
+<p>For XML contents we have the concrete language/locale information and the localized fields end with an underscore followed by the locale. E.g.: <code>content_en</code>, <code>content_de</code> or <code>text_en</code>, <code>text_de</code>. By default all the field mappings defined within the XSD of a resource type are extended by the <code>_&lt;locale&gt;</code>.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

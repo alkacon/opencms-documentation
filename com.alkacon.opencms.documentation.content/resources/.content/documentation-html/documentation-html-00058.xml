@@ -4,10 +4,10 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>In the VFS each resource can have properties attached. Properties are simple key-value pairs. For each resource a map with those key-value pairs is stored. The map contains only properties where values are set for.</p>
+      <content><![CDATA[<p>In the VFS each resource can have properties attached. Properties are simple key-value pairs. For each resource a map with those key-value pairs is stored. The map contains only properties where values are set.</p>
 <p>Properties of resources can be read either such that only values directly set at the resource are read, or also values set at some parent folder (inherited value). Whenever a property is read you can decide if inherited values should be taken into account or not. So inherited or not is <em>not</em> specific for a property, but for a use case.</p>
 <p>OpenCms already uses a lot of properties internally. For example. <code>Title</code> and <code>NavPos</code> properties are used very prominently to show information on a resource. But also the <code>template</code> property is used: It determines which template JSP is used by a container page.</p>
-<p>You can use properties for whatever you like. Just read them in a JSP or a Java class and act according to your needs. Properties are simply their. When they are not set somewhere, they will simply not be found. If a property is shown in the "Edit properties" dialog, for example, does not depend on some JSP or Java class trying to access the property, or a special "property registration". It simply depends on the fact that the property is set at some VFS resource.</p>]]></content>
+<p>You can use properties for whatever you like. Just read them in a JSP or a Java class and act according to your needs. Properties are simply there. When they are not set somewhere, they will simply not be found. Whether a property is shown in the "Edit properties" dialog, for example, does not depend on some JSP or Java class trying to access the property, or a special "property registration". It simply depends on the fact that the property is set on some VFS resource.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

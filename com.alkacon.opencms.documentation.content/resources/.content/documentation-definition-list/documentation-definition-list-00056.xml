@@ -51,7 +51,7 @@
       <Term><![CDATA[timeout={integer}]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>This directive sets a timeout at which a cached resource will be invalidated. The given integer represents a <em>minute - interval</em> which starts at 0.00h of the day the cache key gets calculated. A value of 60 would indicate that this entry will reach it's timeout at the beginning of every full hour, a timeout of 20 indicates that the entry is invalidated at x.00, x.20 and x.40 of every hour etc. A "timed out" resource will stay in the cache but will be re-calculated the next time it gets requested.</p>]]></content>
+        <content><![CDATA[<p>This directive sets a timeout at which a cached resource will be invalidated. The given integer represents a <em>minute - interval</em> which starts at 0.00h of the day the cache key gets calculated. A value of 60 would indicate that this entry will reach its timeout at the beginning of every full hour. A timeout of 20 indicates that the entry is invalidated at x.00, x.20 and x.40 of every hour etc. A "timed out" resource will stay in the cache but will be re-calculated the next time it gets requested.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -65,7 +65,7 @@
       <Term><![CDATA[no-params or no-params=(no-param1, no-param2)]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>This directive <em>prevents</em> the caching of a resource. If you use <code>no-params</code> the occurance of any parameter in the request will prevent caching of the resource. If you use <code>no-params=(no-param1, no-param2,...)</code>, the occurance of any of the listed parameters will prevent caching of the resource. This directive is useful on simple forms. Usually (esp. using JSPs) you will have only one URI for all requests to the form, i.e., the form is posted to its own URL and the JSP behind it handles the form validation. With the <code>no-params</code> directive you can cache the "first", empty view of the form, while any requests with data in the form will cause the page to be generated dynamically. Note that these "blocking" directives always overrule all other directives.</p>]]></content>
+        <content><![CDATA[<p>This directive <em>prevents</em> the caching of a resource. If you use <code>no-params</code> the occurrence of any parameter in the request will prevent caching of the resource. If you use <code>no-params=(no-param1, no-param2,...)</code>, the occurrence of any of the listed parameters will prevent caching of the resource. This directive is useful on simple forms. Usually (esp. using JSPs) you will have only one URI for all requests to the form, i.e., the form is posted to its own URL and the JSP behind it handles the form validation. With the <code>no-params</code> directive you can cache the "first", empty view of the form, while any requests with data in the form will cause the page to be generated dynamically. Note that these "blocking" directives always overrule all other directives.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -129,14 +129,14 @@
       <Term><![CDATA[container-element]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>To be used together with formatter JSPs. Use this directive to ensure, that an element is rendered correctly inside a container, if it occurs several times on a single page inside different containers.</p>]]></content>
+        <content><![CDATA[<p>To be used together with formatter JSPs. Use this directive to ensure that an element is rendered correctly inside a container, if it occurs several times on a single page inside different containers.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
       <Term><![CDATA[device]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>To be used when JSPs render device specific, either by evaluating the template context via the provider or the &lt;cms:device&gt; tag. The directive causes the flex cache to cache different versions of HTML output for different contexts.</p>]]></content>
+        <content><![CDATA[<p>To be used when JSPs render device specifically, either by evaluating the template context via the provider or the &lt;cms:device&gt; tag. The directive causes the flex cache to cache different versions of HTML output for different contexts.</p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>

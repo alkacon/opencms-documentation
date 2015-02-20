@@ -5,7 +5,7 @@
     <Html name="Html0">
       <links/>
       <content><![CDATA[<p>To validate your values against conditions defined in the XSD of the edited content’s type, call <code>session.validate(values, replyHandler)</code>. After validation, the reply-handler is called and fed with a map containing the errors that occurred during the validation.</p>
-<p>Saving content is very easy when no file upload is included, then just call <code>session.saveContent(values, successHandler, errorHandler)</code>. If files need to be loaded up, then first call <code>session.uploadFiles(filefieldlist, successHandler, errorHandler)</code> and update the content only on success. How to use this function should be clear from the above example.</p>]]></content>
+<p>Saving content is very easy when no file upload is included: just call <code>session.saveContent(values, successHandler, errorHandler)</code>. If files need to be uploaded, then first call <code>session.uploadFiles(filefieldlist, successHandler, errorHandler)</code> and update the content only on success. How to use this function should be clear from the above example.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

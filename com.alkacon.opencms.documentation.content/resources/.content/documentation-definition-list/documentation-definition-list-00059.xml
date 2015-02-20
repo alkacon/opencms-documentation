@@ -9,7 +9,7 @@
       <Term><![CDATA[name (required)]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Name of the preference. The name is used interally as identifier for the preference.</p>]]></content>
+        <content><![CDATA[<p>Name of the preference. The name is used internally as an identifier for the preference.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -37,7 +37,7 @@
       <Term><![CDATA[widget (optional)]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>The widget used for the preference in the preference dialog. If not configured, the String widget is used. (<em>There are some settings where special widgets are used, e.g., language, project, site and folder selection. These widgets are chosen dependent on the preference <code>name</code>.</em>)</p>]]></content>
+        <content><![CDATA[<p>The widget used for the preference in the preference dialog. If not configured, the String widget is used. (<em>There are some settings where special widgets are used, e.g. language, project, site and folder selection. These widgets are chosen dependent on the preference <code>name</code>.</em>)</p>]]></content>
       </Description>
     </Entry>
     <Entry>

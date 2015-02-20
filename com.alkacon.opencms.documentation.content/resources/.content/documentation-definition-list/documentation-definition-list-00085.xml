@@ -15,11 +15,11 @@
       </Icon>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>An administrator has all rights inside the OU. Consequently, he also has all other OU-specific roles. In particular, permissions on VFS resources are ignored for administrators, as they are VFS resource managers.</p>]]></content>
+        <content><![CDATA[<p>An administrator has all rights inside the OU and consequently, has all other OU-specific roles. In particular, permissions on VFS resources are ignored for administrators, as they are VFS resource managers.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Account manager]]></Term>
+      <Term><![CDATA[Account Manager]]></Term>
       <Icon>
         <link type="WEAK">
           <target><![CDATA[/sites/default/.galleries/icons_normalsize/changedIcon.png]]></target>
@@ -32,14 +32,14 @@
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Project manager]]></Term>
+      <Term><![CDATA[Project Manager]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>The Project manager can manage projects. This role was important in older OpenCms versions, but in current versions, there usually is no need to manually add, delete or manage projects. The role implies being a workplace user, and thus also the roles implied by workplace user.</p>]]></content>
+        <content><![CDATA[<p>The Project Manager can manage projects. This role was important in older OpenCms versions, but in current versions there usually is no need to manually add, delete or manage projects. The role implies being a workplace user, and thus also the roles implied by workplace user.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[VFS resource manager]]></Term>
+      <Term><![CDATA[VFS Resource Manager]]></Term>
       <Icon>
         <link type="WEAK">
           <target><![CDATA[/sites/default/.galleries/icons_normalsize/changedIcon.png]]></target>
@@ -48,11 +48,11 @@
       </Icon>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>The VFS resource manager can manage all resources in the OU. Hence, he can add, delete and alter all resources. Permission checks are ignored. For example, a resource manager may add and edit JSPs. Being a VFS resource manager involves having all the roles listed below.</p>]]></content>
+        <content><![CDATA[<p>The VFS resource manager can manage all resources in the OU, and hence can add, delete and alter all resources. Permission checks are ignored. For example, a resource manager may add and edit JSPs. Being a VFS resource manager involves having all the roles listed below.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Template developer]]></Term>
+      <Term><![CDATA[Template Developer]]></Term>
       <Icon>
         <link type="WEAK">
           <target><![CDATA[/sites/default/.galleries/icons_normalsize/changedIcon.png]]></target>
@@ -65,7 +65,7 @@
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Workplace user]]></Term>
+      <Term><![CDATA[Workplace User]]></Term>
       <Icon>
         <link type="WEAK">
           <target><![CDATA[/sites/default/.galleries/icons_normalsize/changedIcon.png]]></target>
@@ -74,18 +74,18 @@
       </Icon>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>A workplace user can access the traditional workplace and thus browse the VFS via the explorer. He cannot access the root site and has only very limited access to administrative tools. Workplace users automatically have all the roles listed below.</p>]]></content>
+        <content><![CDATA[<p>A workplace user can access the traditional workplace and thus browse the VFS via the explorer. This role cannot access the root site and has only very limited access to administrative tools. Workplace users automatically have all the roles listed below.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Category editor]]></Term>
+      <Term><![CDATA[Category Editor]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>The category editor has access only to ADE views. He can create, edit and delete categories via the sitemap editor. He automatically has all the roles listed below, except being a gallery editor.</p>]]></content>
+        <content><![CDATA[<p>The category editor has access only to ADE views. This role can create, edit and delete categories via the sitemap editor and automatically has all the roles listed below, except that of Gallery Editor.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Gallery editor]]></Term>
+      <Term><![CDATA[Gallery Editor]]></Term>
       <Icon>
         <link type="WEAK">
           <target><![CDATA[/sites/default/.galleries/icons_normalsize/changedIcon.png]]></target>
@@ -94,7 +94,7 @@
       </Icon>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Gallery editors have only access to ADE views. They can create or delete (image, download, ...) galleries via the sitemap editor. They have also all of the roles listed below.</p>]]></content>
+        <content><![CDATA[<p>Gallery editors have only access to ADE views. They can create or delete (image, download, ...) galleries via the sitemap editor. They also have all the roles listed below.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -111,7 +111,7 @@
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Element author]]></Term>
+      <Term><![CDATA[Element Author]]></Term>
       <Icon>
         <link type="WEAK">
           <target><![CDATA[/sites/default/.galleries/icons_normalsize/changedIcon.png]]></target>
@@ -120,7 +120,7 @@
       </Icon>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>An element author can only access the page editor (and content editors). He can create, add and edit content elements.</p>]]></content>
+        <content><![CDATA[<p>An element author can only access the page editor (and content editors). This role can create, add and edit content elements.</p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>

@@ -30,21 +30,21 @@
       <Term><![CDATA[deleteParentContent(name)]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Delete the parent content element of the element with the given <code>name</code> (the field name used for setting up the mapping). This can be useful, if a whole optional nested content should be removed if (some of) it's values are not set.</p>]]></content>
+        <content><![CDATA[<p>Delete the parent content element of the element with the given <code>name</code> (the field name used for setting up the mapping). This can be useful if a whole optional nested content should be removed if (some of) its values are not set.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
       <Term><![CDATA[contentHas(fieldname1,fieldname2,...)]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Checks, if all content elements assigned to the form fields listed as arguments have a non-empty value.</p>]]></content>
+        <content><![CDATA[<p>Checks if all content elements assigned to the form fields listed as arguments have a non-empty value.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
       <Term><![CDATA[contentHasNot(fieldname1,fieldname2,...)]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Checks, if all content elements assigned to the listed form fields are empty.</p>]]></content>
+        <content><![CDATA[<p>Checks if all content elements assigned to the listed form fields are empty.</p>]]></content>
       </Description>
     </Entry>
     <Entry>

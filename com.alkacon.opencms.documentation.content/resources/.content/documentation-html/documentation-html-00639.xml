@@ -4,7 +4,7 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>To configure dependent fields, you need to register an editor change handler to a schema element in the schema definition of a content type. Handlers are added under <code>xsd:annotation/xsd:appinfo</code> in a subnote <code>&lt;editorchangehandlers&gt;</code>. Here's an example:</p>]]></content>
+      <content><![CDATA[<p>To configure dependent fields, you need to register an editor change handler to a schema element in the schema definition of a content type. Handlers are added under <code>xsd:annotation/xsd:appinfo</code> in a subnode <code>&lt;editorchangehandlers&gt;</code>. Here's an example:</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>
