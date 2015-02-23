@@ -24,7 +24,7 @@
 <p>In order to keep your JSPs simple and maintainable, it is good style to avoid scriptlet code and use tags and the EL. For more details about JSPs in general, in particular the JSTL (the standard tag libraries) and the EL, please consult the very good books or tutorials around.</p>
 <p>When writing JSPs in OpenCms, you should be aware of the following:</p>
 <ul>
-<li>JSP are managed / added via the OpenCms workplace and have the resource type “jsp”</li>
+<li>JSPs are managed/added via the OpenCms workplace and have the resource type “jsp”</li>
 <li>Each JSP exists in an “offline” and an “online” version</li>
 <li>JSPs can be exported statically</li>
 <li>To increase performance you might have to alter FlexCache settings</li>
@@ -35,7 +35,7 @@
 <li>Formatters for XML contents</li>
 <li>Pages with special functionality, e.g. login forms, search result pages, etc.</li>
 </ul>
-<p>To easily create JSPs for the just described purposes, OpenCms comes with a special API for JSPs that consists mainly of two parts:</p>
+<p>To easily create JSPs for the purposes just described, OpenCms comes with a special API for JSPs that consists mainly of two parts:</p>
 <ul>
 <li><a href="%(link0)">The OpenCms taglib</a></li>
 <li><a href="%(link1)">A set of Java beans to make OpenCms functionality accessible via the EL</a><br /><br /></li>
