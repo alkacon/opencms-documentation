@@ -203,7 +203,16 @@
 						</c:if>
 					</c:when>
 					<c:otherwise>
-						<h2>No results found.</h2>
+						<h2>
+							<c:choose>
+							<c:when test="${controllers.didYouMean.config.isEnabled && not empty searchform.didYouMean}" >
+								Did you mean <a href='<cms:link>${cms.requestContext.uri}?${searchform.didYouMeanLinkParameters}</cms:link>'>${searchform.didYouMean}</a>?
+							</c:when>
+							<c:otherwise>
+								No results found.
+							</c:otherwise>
+							</c:choose>
+						</h2>
 					</c:otherwise>
 					</c:choose>
 				</div>
