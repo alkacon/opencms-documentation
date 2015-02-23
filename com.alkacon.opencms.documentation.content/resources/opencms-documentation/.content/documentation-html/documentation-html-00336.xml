@@ -4,11 +4,11 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link0" internal="false" type="A">
-          <target><![CDATA[http://pub-docu/opencms-documentation/background/the-module-system/]]></target>
-        </link>
         <link name="link1" internal="false" type="A">
           <target><![CDATA[http://pub-docu/opencms-documentation/administration/module-management/creating-a-new-module/]]></target>
+        </link>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/background/the-module-system/]]></target>
         </link>
       </links>
       <content><![CDATA[<p>Functionality in OpenCms (except the core functionality) is packaged in modules. All the resources needed to build your website will as well reside in one or more modules. In particular the template JSP and all the related resources are packaged in a module. So let's create one.</p>

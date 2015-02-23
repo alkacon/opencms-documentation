@@ -4,11 +4,11 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link0" internal="false" type="A">
-          <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/workplace/CmsWorkplace.html]]></target>
-        </link>
         <link name="link1" internal="false" type="A">
           <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/db/CmsUserSettings.html]]></target>
+        </link>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/workplace/CmsWorkplace.html]]></target>
         </link>
       </links>
       <content><![CDATA[<p>The default user preferences are used by OpenCms to configure its behaviour according to the user's choices. At least when you add your own preference, you may want access to trigger some user specific customization. But you can also use the default preferences and change things depending on their values.</p>

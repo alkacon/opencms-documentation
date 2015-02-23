@@ -4,11 +4,11 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link0" internal="false" type="A">
-          <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/pdfutils/package-frame.html]]></target>
-        </link>
         <link name="link1" internal="false" type="A">
           <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/jsp/CmsJspTagPdf.html]]></target>
+        </link>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/pdfutils/package-frame.html]]></target>
         </link>
       </links>
       <content><![CDATA[<p>PDF thumbnails are not stored in the VFS. When a <code>&lt;cms:pdfthumbnail&gt;</code> tag is rendered, a special link to the, not yet present, thumbnail is generated. If the link is requested the first time, the thumbnail is generated. If it is requested again, a cached version of the thumbnail is served. The cached versions are stored on the server's RFS in the folder <code>{webapp home}/WEB-INF/pdfcache</code>. The cache is cleared, if the PDF document used for the thumbnail is altered.</p>

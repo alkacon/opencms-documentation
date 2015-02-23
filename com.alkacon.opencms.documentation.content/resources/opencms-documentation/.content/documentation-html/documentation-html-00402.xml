@@ -4,13 +4,13 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link0" internal="true" type="A">
-          <target><![CDATA[]]></target>
-          <anchor><![CDATA[native_api]]></anchor>
-        </link>
         <link name="link1" internal="true" type="A">
           <target><![CDATA[]]></target>
           <anchor><![CDATA[server_side_preparation]]></anchor>
+        </link>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[native_api]]></anchor>
         </link>
       </links>
       <content><![CDATA[<p>For connecting a web form and XML content via UGC you can either <a href="%(link0)">use the native JavaScript API</a>, or the object-oriented, jQuery-based wrapper for this API. The wrapper provides a more abstract view of the connection between form and content. Thus, it probably helps to implement your own UGC connection more easily than with the native API.</p>

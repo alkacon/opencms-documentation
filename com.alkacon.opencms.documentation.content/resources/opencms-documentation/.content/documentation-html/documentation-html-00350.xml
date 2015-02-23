@@ -4,18 +4,18 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link2" internal="false" type="A">
-          <target><![CDATA[http://pub-docu/opencms-documentation/views-in-opencms/the-ade-views/the-page-editor/]]></target>
-        </link>
-        <link name="link3" internal="false" type="A">
-          <target><![CDATA[http://pub-docu/opencms-documentation/demos/lists-and-detail-pages/]]></target>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/content-in-opencms/]]></target>
         </link>
         <link name="link0" internal="false" type="A">
           <target><![CDATA[http://pub-docu/opencms-documentation/administration/module-management/]]></target>
           <anchor><![CDATA[add_resource_type]]></anchor>
         </link>
-        <link name="link1" internal="false" type="A">
-          <target><![CDATA[http://pub-docu/opencms-documentation/content-in-opencms/]]></target>
+        <link name="link3" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/demos/lists-and-detail-pages/]]></target>
+        </link>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/views-in-opencms/the-ade-views/the-page-editor/]]></target>
         </link>
       </links>
       <content><![CDATA[<p>We have to fill the containers of the template with content. Therefore, we need content that fits into the containers. Use the HTML prototype's dummy-contents to extract which content types you need. Find out if you will need some lists or detail pages. Either create new modules for the content types or add them in your module <code>my.template</code>. Use the <a href="%(link0)">"Add resource type" tool from the module administration</a> to add new content types.</p>

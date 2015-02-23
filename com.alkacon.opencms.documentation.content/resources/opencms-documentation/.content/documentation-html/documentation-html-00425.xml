@@ -4,18 +4,18 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link2" internal="true" type="A">
-          <target><![CDATA[]]></target>
-          <anchor><![CDATA[type_naming_scheme]]></anchor>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/views-in-opencms/the-traditional-workplace/the-explorer-view/]]></target>
+          <uuid>64f5eee2-375e-11e4-9771-d144f6bb3566</uuid>
         </link>
         <link name="link0" internal="true" type="A">
           <target><![CDATA[/sites/default/opencms-documentation/administration/module-management/]]></target>
           <uuid>7387573f-0b56-11e4-8c80-b7bfd6088c56</uuid>
           <anchor><![CDATA[add_resource_type]]></anchor>
         </link>
-        <link name="link1" internal="true" type="A">
-          <target><![CDATA[/sites/default/opencms-documentation/views-in-opencms/the-traditional-workplace/the-explorer-view/]]></target>
-          <uuid>64f5eee2-375e-11e4-9771-d144f6bb3566</uuid>
+        <link name="link2" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[type_naming_scheme]]></anchor>
         </link>
       </links>
       <content><![CDATA[<p>Schema definitions for content types are usually shipped with modules and placed in the module's subfolder named <code>schemas/</code>. If you want to define a content type that should be exposed by a module, i.e., if you want to create content of that type via the "Add wizard" of the page editor, than it is the easiest way to use the <a href="%(link0)">"Add resource type"</a> function from the administration's "Module management". This will create a schema definition in the respective folder of your module (and does a lot more). To get the content type you want, just adjust the created example XSD.</p>

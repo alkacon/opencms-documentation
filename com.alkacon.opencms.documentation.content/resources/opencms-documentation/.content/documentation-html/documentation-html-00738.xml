@@ -4,11 +4,11 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link0" internal="false" type="A">
-          <target><![CDATA[http://pub-docu/opencms-documentation/views-in-opencms/the-ade-views/the-page-editor/]]></target>
-        </link>
         <link name="link1" internal="false" type="A">
           <target><![CDATA[http://pub-docu/opencms-documentation/localization/multilingual-menus/localization_for_resource_types]]></target>
+        </link>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/views-in-opencms/the-ade-views/the-page-editor/]]></target>
         </link>
       </links>
       <content><![CDATA[<p>At some places where localization takes place, you cannot explicitely state which resource bundle you use. This is in particular the case, when the available content types and their descriptions are listed in the "Add wizard" of the <a href="%(link0)">page editor</a>. The keys used for localization here have to follow a specific name scheme (see <a href="%(link1)">here</a> for details) and also reside in so called <em>workplace bundles</em>.</p>

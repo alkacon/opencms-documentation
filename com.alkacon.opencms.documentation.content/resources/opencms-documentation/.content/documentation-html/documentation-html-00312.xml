@@ -4,14 +4,14 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link2" internal="false" type="A">
-          <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/file/collectors/A_CmsResourceCollector.html]]></target>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/file/collectors/package-frame.html]]></target>
         </link>
         <link name="link0" internal="false" type="A">
           <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/file/collectors/I_CmsResourceCollector.html]]></target>
         </link>
-        <link name="link1" internal="false" type="A">
-          <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/file/collectors/package-frame.html]]></target>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/file/collectors/A_CmsResourceCollector.html]]></target>
         </link>
       </links>
       <content><![CDATA[<p>In order to develop a collector, which can be used with the <code>&lt;cms:collector&gt;</code>-tag, the collector must implement the interface <code><a href="%(link0)">I_CmsResourceCollector</a></code>. The package <code><a href="%(link1)">org.opencms.file.collectors</a></code> already provides a standard implementation for this interface with<code> <a href="%(link2)">A_CmsResourceCollector</a></code>. Extend this class, if you develop your own collector. Following methods have to be implemented:</p>

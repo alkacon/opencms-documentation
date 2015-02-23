@@ -4,7 +4,11 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link2" internal="false" type="A">
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/background/localization/]]></target>
+          <anchor><![CDATA[fig_top_level_locale_folders]]></anchor>
+        </link>
+        <link name="link0" internal="false" type="A">
           <target><![CDATA[http://pub-docu/opencms-documentation/background/localization/]]></target>
           <anchor><![CDATA[sec_independent_subsites]]></anchor>
         </link>
@@ -12,13 +16,9 @@
           <target><![CDATA[http://pub-docu/opencms-documentation/background/localization/]]></target>
           <anchor><![CDATA[sec_independent_subsites]]></anchor>
         </link>
-        <link name="link0" internal="false" type="A">
+        <link name="link2" internal="false" type="A">
           <target><![CDATA[http://pub-docu/opencms-documentation/background/localization/]]></target>
           <anchor><![CDATA[sec_independent_subsites]]></anchor>
-        </link>
-        <link name="link1" internal="false" type="A">
-          <target><![CDATA[http://pub-docu/opencms-documentation/background/localization/]]></target>
-          <anchor><![CDATA[fig_top_level_locale_folders]]></anchor>
         </link>
       </links>
       <content><![CDATA[<p>The approach is similar to the one from Section <a href="%(link0)">[independent_subsites]</a> concerning the folder structure, but you necessarily share content, i.e., put it under the root folder. For a bilingual site with German and English, the root folder will look exactly as shown in Figure <a href="%(link1)">[top_level_locale_folders]</a>.<span class="footnote">Except, that you may use normal folders instead of sub-sitemaps.</span> The folder <code>en</code> will have set the locale property to <code>en</code> and the folder <code>de</code> will have set the locale property to <code>de</code>.</p>

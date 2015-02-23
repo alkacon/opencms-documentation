@@ -4,13 +4,13 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link0" internal="false" type="A">
-          <target><![CDATA[http://pub-docu/opencms-documentation/background/localization/]]></target>
-          <anchor><![CDATA[sec_independent_subsites]]></anchor>
-        </link>
         <link name="link1" internal="false" type="A">
           <target><![CDATA[http://pub-docu/opencms-documentation/background/localization/]]></target>
           <anchor><![CDATA[sec_sibling_subsites]]></anchor>
+        </link>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/background/localization/]]></target>
+          <anchor><![CDATA[sec_independent_subsites]]></anchor>
         </link>
       </links>
       <content><![CDATA[<p>It's also possible to have different sites for each language. To share content between sites, it must be placed in the <code>/shared/</code> folder under the root site. With this option, it's possible to have similar approaches than described in Sections <a href="%(link0)">[independent_subsites]</a> and <a href="%(link1)">[sibling_subsites]</a>. Just set the <code>locale</code> property accordingly at the site's root folder.</p>]]></content>

@@ -4,11 +4,11 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link0" internal="false" type="A">
-          <target><![CDATA[https://github.com/alkacon/modules-v8/blob/branch_8_5_x/modules/com.alkacon.opencms.v8.template3/resources/system/modules/com.alkacon.opencms.v8.template3/elements/menu/nav_main.jsp]]></target>
-        </link>
         <link name="link1" internal="false" type="A">
           <target><![CDATA[http://pub-docu/opencms-documentation/typical-tasks/writing-jsps/]]></target>
+        </link>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[https://github.com/alkacon/modules-v8/blob/branch_8_5_x/modules/com.alkacon.opencms.v8.template3/resources/system/modules/com.alkacon.opencms.v8.template3/elements/menu/nav_main.jsp]]></target>
         </link>
       </links>
       <content><![CDATA[<p>This part can also only be described in an abstract way because these steps depend on the specific project requirements. Anyway, the following description should be enough to get a picture of what needs to be done. Let’s make the main navigation shown above dynamic by copying and pasting the content of the file <code><a href="%(link0)" target="_blank">nav_main.jsp</a></code> from the modules-v8 into the <code>main-nav.jsp</code> created one step before. Have a look at the section about the <a href="%(link1)">OpenCms JSP API</a> of this documentation in order to get an impression about how to use the OpenCms specific tag library. A good starting point is also to "copy" from the current demo template shipped with OpenCms.</p>]]></content>
