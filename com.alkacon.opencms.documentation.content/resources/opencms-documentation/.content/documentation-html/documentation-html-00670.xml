@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/search/solr/CmsSolrIndex.html]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>If you use an external Solr server, be aware that:</p>
+<div class="alert alert-info">The OpenCms SolrSelect request handler does not support the external HTTP Solr Server.</div>
+<p>And if your Solr Server is directly reachable by <code>http://&lt;your_server&gt;</code> there will be no permission check performed and indexed data that is secret will be accessible.</p>
+<div class="alert alert-danger">That means that <strong>you are responsible</strong> for resources that have permission restrictions set on the VFS of OpenCms.</div>
+<p>To use the permission checking you could allow to access your server only via the Java API and use the search methods of <a href="%(link0)"><code>org.opencms.search.solr.CmsSolrIndex</code></a>.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>
