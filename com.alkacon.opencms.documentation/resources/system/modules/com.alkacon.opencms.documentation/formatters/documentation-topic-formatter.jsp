@@ -7,7 +7,7 @@
 	</c:set>
 	<c:if test="${not cms.isOnlineProject and isEditor and cms.vfs.exists['/documentation-editor-tools/']}">
 		<div class="alert alert-info">
-			Edit me to change the topics meta-data.
+			Edit me to change the topic's metadata.
 		</div>
 		<c:set var="todoList" value="${content.value.StatusMetaData.value.Todos.valueList.Todo}" />
 		<c:if test="${not empty todoList}">
