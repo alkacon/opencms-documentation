@@ -9,9 +9,9 @@
           <anchor><![CDATA[server_side_preparation]]></anchor>
         </link>
       </links>
-      <content><![CDATA[<p>We recommend rendering input forms used for UGC via formatters for UGC configuration content type (type <code>ugc_config</code>). The advantage is, that the configuration used to initialize the session is directly provided by the rendered content. Furthermore, you do not need to create a new content type just to render a form.<span class="footnote">A dynamic function is not very suitable because of the missing facility for head-includes.</span></p>
+      <content><![CDATA[<p>We recommend rendering input forms used for UGC via formatters for the UGC configuration content type (type <code>ugc_config</code>). The advantage is that the configuration used to initialize the session is directly provided by the rendered content. Furthermore, you do not need to create a new content type just to render a form.<span class="footnote">A dynamic function is not very suitable because of the missing facility for head-includes.</span></p>
 <p>Of course, depending on the content type for which content should be added or manipulated via UGC, the formatter must be very different. You can write many formatters and, depending on the content type for which content is accessed, choose the correct formatter via an element setting.</p>
-<p>To add an input form for UGC to your page, you just add a content of type <code>ugc_config</code> (named "Form configuration for user-generated content"), edit it to configure UGC and choose the according formatter via an element setting. The formatter should manage the the <a href="%(link0)">server-side preparation for a UGC</a> and render the input form.</p>]]></content>
+<p>To add an input form for UGC to your page, you just add content of type <code>ugc_config</code> (named "Form configuration for user-generated content"), edit it to configure UGC and choose the according formatter via an element setting. The formatter should manage the the <a href="%(link0)">server-side preparation for UGC</a> and render the input form.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

@@ -16,12 +16,12 @@
       </links>
       <content><![CDATA[<p>The edit properties dialog (see Figure <a href="%(link0)">[properties_dialog]</a>) shows the values of properties</p>
 <ul>
-<li>in black if they are set directly at the resource for which the properties are shown in the dialog</li>
+<li>in black if they are set directly on the resource for which the properties are shown in the dialog</li>
 <li>in italics and gray if the value is inherited.</li>
 </ul>
 <p>For inherited values of properties you get information on where these values are set by hovering over the little "info"-icons.</p>
-<p>Except for the "Basic Properties" tab, all shown properties are grouped in "Used Properties" and "Unused Properties". Open the "Unused Properties" group to set the value of a property that has no directly set nor inherited value yet.</p>
-<p>The dialog also allows to add new properties<span class="footnote">That means, properties that are not set on any other resource in the VFS</span>. Therefor, click the gear wheel <img style="width: 14px;" title="invPropertyBigIconDeactivated" src="%(link1)" alt="" /> in the lower left corner of the dialog.</p>]]></content>
+<p>Except for the "Basic Properties" tab, all properties shown are grouped into "Used Properties" and "Unused Properties". Open the "Unused Properties" group to set the value of a property that has not yet any directly set nor inherited value.</p>
+<p>The dialog also allows you to add new properties<span class="footnote">That means, properties that are not set on any other resource in the VFS</span>. To do this, click the gear wheel <img style="width: 14px;" title="invPropertyBigIconDeactivated" src="%(link1)" alt="" /> in the lower left corner of the dialog.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

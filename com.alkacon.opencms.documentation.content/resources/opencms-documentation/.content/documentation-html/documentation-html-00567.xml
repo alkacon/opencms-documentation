@@ -4,10 +4,10 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>Permissions on explorer types interact different than permissions on VFS resources. In particular:</p>
+      <content><![CDATA[<p>Permissions on explorer types interact differently than permissions on VFS resources. In particular:</p>
 <ul>
-<li>Permissions can only set or not set - i.e., their are just two states.</li>
-<li>If a permission is not explictely set for an explorertype, a default setting is used, specified in the <code>opencms-workplace.xml</code> in the node <code>&lt;defaultaccesscontrol&gt;</code>.</li>
+<li>Permissions can only be set or not set - i.e., there are just two states.</li>
+<li>If a permission is not explicitly set for an explorer type, a default setting is used, specified in the <code>opencms-workplace.xml</code> in the node <code>&lt;defaultaccesscontrol&gt;</code>.</li>
 <li>If for one user different permissions are set, allowed wins over denied.</li>
 <li>You can set default permissions for explorer types. They overwrite the system defaults, but will be overwritten by permissions set for groups, roles or users.</li>
 </ul>]]></content>

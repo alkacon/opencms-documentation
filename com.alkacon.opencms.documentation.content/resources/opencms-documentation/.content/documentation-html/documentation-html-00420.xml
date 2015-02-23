@@ -4,11 +4,11 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>When you add a new template model, the container page is created (in the current sitemap's subfolder <code>.content/.templates/</code>) and configured as model in the sitemap configuration. In this configuration file (<code>.content/.config</code> under the sitemap's main folder) you have further configuration options, found under the tab "Model pages". You can:</p>
+      <content><![CDATA[<p>When you add a new template model, the container page is created (in the current sitemap's subfolder <code>.content/.templates/</code>) and configured as a model in the sitemap configuration. In this configuration file (<code>.content/.config</code> under the sitemap's main folder) you have further configuration options, found under the tab "Model pages". You can:</p>
 <ul>
 <li>disable all template models configured in parent sitemaps.</li>
-<li>set a model that is used as default if a page is created without explicitely choosing a model</li>
-<li>select a single template model as disabled (which makes in particular sense if the model is enabled in a parent sitemap)</li>
+<li>set a model that is used as the default if a page is created without explicitly choosing a model</li>
+<li>select a single template model as disabled (which makes sense in particular if the model is enabled in a parent sitemap)</li>
 </ul>]]></content>
     </Html>
   </DocumentationHtml>

@@ -4,9 +4,9 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>All HTML rendered in OpenCms is rendered via JSPs. Thus, also the HTML that displays content is rendered via JSPs. A JSP that renders content is called <em>formatter</em>. A formatter is configured via a <em>formatter configuration</em>. The configuration specifies content of which type is rendered with which formatter in which situations.</p>
-<div class="alert alert-danger">Contents that should be rendered via formatters must be configured as resource types.</div>
-<p>Additionally to information about where to use a formatter, the configuration can contain information about special settings available for the formatter. These are called element settings.</p>]]></content>
+      <content><![CDATA[<p>All HTML rendered in OpenCms is rendered via JSPs. Thus, also the HTML that displays content is rendered via JSPs. A JSP that renders content is called a <em>formatter</em>. A formatter is configured via a <em>formatter configuration</em>. The configuration specifies which content of which type is rendered with which formatter in which situations.</p>
+<div class="alert alert-danger">Content items that should be rendered via formatters must be configured as resource types.</div>
+<p>In addition to information about where to use a formatter, the configuration can contain information about special settings available for the formatter. These are called 'element settings'.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

@@ -11,7 +11,7 @@
       <content><![CDATA[<p>You should not miss two important details:</p>
 <ul>
 <li>To keep the name attribute of the tab containers unique inside of the formatter, the <code>${status.count}</code> property is used inside the second <code>&lt;c:forEach&gt;</code> loop.</li>
-<li>The id attribute of the HTML element rendered for the container tag is <code>{element id}-{name attribute}</code>, as seen from the first <code>&lt;c:forEach&gt;</code> loop where the id is needed to implement tab switching. The id is also the container's name you can retrieve for example by using <code>${cms.container.name}</code> inside of the container.</li>
+<li>The id attribute of the HTML element rendered for the container tag is <code>{element id}-{name attribute}</code>, as seen from the first <code>&lt;c:forEach&gt;</code> loop where the id is needed to implement tab switching. The id is also the container's name you can retrieve for example by using <code>${cms.container.name}</code> inside the container.</li>
 </ul>
 <p>A tab element using nested containers is found in the OpenCms demo website <a href="%(link0)">here</a>.</p>]]></content>
     </Html>

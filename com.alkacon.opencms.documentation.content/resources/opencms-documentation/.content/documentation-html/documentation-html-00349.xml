@@ -11,7 +11,7 @@
           <target><![CDATA[http://pub-docu/opencms-documentation/typical-tasks/writing-jsps/]]></target>
         </link>
       </links>
-      <content><![CDATA[<p>This part can also only be described in an abstract point of view because these steps are depending on the specific project requirements. Anyway, the following description should be enough to get a picture of how the work can look like. Let’s make the above shown main navigation dynamic by copy and paste the content of the file <code><a href="%(link0)" target="_blank">nav_main.jsp</a></code> from the modules-v8 into the <code>main-nav.jsp</code> created one step before. Have a look at the section about the <a href="%(link1)">OpenCms JSP API</a> of this documentation in order to get an impression about how to use the OpenCms specific tag library. A good starting point may also to "copy" from the current demo template shipped with OpenCms.</p>]]></content>
+      <content><![CDATA[<p>This part can also only be described in an abstract way because these steps depend on the specific project requirements. Anyway, the following description should be enough to get a picture of what needs to be done. Let’s make the main navigation shown above dynamic by copying and pasting the content of the file <code><a href="%(link0)" target="_blank">nav_main.jsp</a></code> from the modules-v8 into the <code>main-nav.jsp</code> created one step before. Have a look at the section about the <a href="%(link1)">OpenCms JSP API</a> of this documentation in order to get an impression about how to use the OpenCms specific tag library. A good starting point is also to "copy" from the current demo template shipped with OpenCms.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

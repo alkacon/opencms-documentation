@@ -11,8 +11,8 @@
         </link>
       </links>
       <content><![CDATA[<div class="alert alert-info">If you entered the correct settings using the auto-setup, no adjustment will be necessary (as long as you stay with the one default site).</div>
-<p>For each configured sites <a href="%(link0)">virtual hosts have to be configured in the Apache web server</a>. Note that you need to configure only one virtual host for secure, and one for unsecure sites. All sites can be added as aliases to that virtual hosts.</p>
-<div class="alert alert-danger">The OpenCms workplace should be accessed using a specific URL for the workplace. It is recommended to secure the OpenCms workplace using SSL.</div>]]></content>
+<p>For each configured site <a href="%(link0)">virtual hosts have to be configured in the Apache web server</a>. Note that you need to configure only one virtual host for secure, and one for unsecure sites. All sites can be added as aliases to that virtual host.</p>
+<div class="alert alert-danger">The OpenCms workplace should be accessed using a specific URL for the workplace. We recommend securing the OpenCms workplace using SSL.</div>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

@@ -8,9 +8,9 @@
           <target><![CDATA[http://www.alkacon.com/en/products/ocee/cluster_package/cluster_manager.html]]></target>
         </link>
       </links>
-      <content><![CDATA[<p><em>Do not use a shared server.</em> OpenCms is Java-based and you need to run a JVM on the server. Furthermore, OpenCms will keep a lot of information in the memory of the server, if you want to run a well performing website. Therefor, we do not recommend using a shared server - OpenCms will constantly allocate system resources.</p>
+      <content><![CDATA[<p><em>Do not use a shared server.</em> OpenCms is Java-based and you need to run a JVM on the server. Furthermore, OpenCms will keep a lot of information in the memory of the server, if you want to run a well performing website. Therefore, we do not recommend using a shared server - OpenCms will constantly allocate system resources.</p>
 <p><em>Memory is the most important performance factor.</em> Memory is much more influential than CPU speed. It is recommended to have at least 512MB of memory available.</p>
-<p>While in most common scenarios all elements of an OpenCms installation (OpenCms itself, the DBMS, web server and servlet container) will reside on one computer. <em>Sites expecting heavy traffic will probably need a clustered configuration where the load is distributed across more than one computer.</em> For a clustered installation use the <a href="%(link0)">Alkacon OCEE Cluster Manager</a>.</p>]]></content>
+<p>While in most common scenarios all elements of an OpenCms installation (OpenCms itself, the DBMS, web server and servlet container) will reside on one computer, <em>sites expecting heavy traffic will probably need a clustered configuration where the load is distributed across more than one computer.</em> For a clustered installation use the <a href="%(link0)">Alkacon OCEE Cluster Manager</a>.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

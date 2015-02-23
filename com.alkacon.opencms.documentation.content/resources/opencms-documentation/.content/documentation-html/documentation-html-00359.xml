@@ -4,16 +4,16 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>In OpenCms provides user information and settings at two different places. One place are the user preferences as described above. The other place is the user object with information like name, address, etc., and arbitrary additional information.</p>
+      <content><![CDATA[<p>OpenCms provides user information and settings at two different places. One place is the user preferences as described above. The other place is the user object with information like name, address, etc., and arbitrary additional information.</p>
 <p>While the user object holds the information specific to the user - and usually independent from OpenCms, the preferences hold information about how OpenCms should be configured for the user.</p>
-<p>For some cases, it might not be clear where to store user specific information. In particular, the "Additional information"  that can be attached to a user and the user defined preferences seem to be equally suitable for some tasks. To help you making the appropriate decision, here are some differences between the two ways of storing user information:</p>
+<p>In some cases, it might not be clear where to store user specific information. In particular, the "Additional information"  that can be attached to a user and the user defined preferences seem to be equally suitable for some tasks. To help you making the appropriate decision, here are some differences between the two ways of storing user information:</p>
 <p>When storing settings in the "Additional information" field of the user object:</p>
 <ul>
 <li>The setting can be edited via the administration view of the workplace</li>
-<li>The user itself typically can neither see, nor change the setting (as long as you don't build your own interface to expose it)</li>
+<li>The user typically can neither see, nor change the setting (as long as you don't build your own interface to expose it)</li>
 <li>By default, there are no explicit defaults that can be configured system wide.</li>
 </ul>
-<p>Storing information as user preference</p>
+<p>Storing information as a user preference</p>
 <ul>
 <li>If wanted, the setting is directly integrated in the preferences dialog and the user can change it</li>
 <li>A system-wide default value can be configured easily</li>

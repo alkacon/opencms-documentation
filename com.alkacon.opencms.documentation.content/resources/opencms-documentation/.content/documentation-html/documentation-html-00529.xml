@@ -12,11 +12,11 @@
 <ul>
 <li><a href="%(link0)">https://github.com/alkacon/opencms-core/releases</a></li>
 </ul>
-<p> and choose the release, you want to manipulate. Then:</p>
+<p> and choose the release you want to manipulate. Then:</p>
 <ul>
 <li>Download the source code</li>
 <li>Extract the source code archive to the Eclipse workspace</li>
-<li>Open Eclipse and add a new Java project where you use the name of the downloaded release as project name</li>
+<li>Open Eclipse and add a new Java project where you use the name of the downloaded release as the project name</li>
 <li>Right-click on the project and select "Configure" -&gt; "Convert to Gradle"</li>
 <li>Refresh Gradle dependencies (dependency errors may remain, but are unproblematic)</li>
 </ul>]]></content>

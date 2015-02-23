@@ -8,7 +8,7 @@
           <target><![CDATA[http://wiki.apache.org/solr/CoreAdmin]]></target>
         </link>
       </links>
-      <content><![CDATA[<p><em>Core</em> is the wording in the Solr world for thinking of several indexes. Preferring the correct speech, let's say core instead index. Multiple cores should only be required if you have completely different applications but want a single Solr Server that manages all the data. See <a href="%(link0)">Solr Core Administration</a> for detailed information. So assuming you have configured multiple Solr cores and you would like to query a specific one you have to tell Solr/OpenCms which core/index you want to search on. This is done by a special parameter:</p>]]></content>
+      <content><![CDATA[<p><em>Core</em> is the wording in the Solr world for thinking of several indexes. Preferring the correct term, let's say core instead of index. Multiple cores should only be required if you have completely different applications but want a single Solr Server that manages all the data. See <a href="%(link0)">Solr Core Administration</a> for detailed information. So assuming you have configured multiple Solr cores and you would like to query a specific one you have to tell Solr/OpenCms which core/index you want to search on. This is done by a special parameter:</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

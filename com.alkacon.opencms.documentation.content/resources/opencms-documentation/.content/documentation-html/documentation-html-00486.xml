@@ -6,10 +6,10 @@
       <links/>
       <content><![CDATA[<p>In the command we use the variables</p>
 <ul>
-<li><code>$OPENCMS</code> for the path to OpenCms' web-app root folder. For example, on an Ubuntu Server (14.04) where Tomcat is installed via the repository and OpenCms is deployed as ROOT app, the path would be <code>/var/libs/tomcat7/webapps/ROOT/</code>.</li>
+<li><code>$OPENCMS</code> for the path to OpenCms' web-app root folder. For example, on an Ubuntu Server (14.04) where Tomcat is installed via the repository and OpenCms is deployed as the ROOT app, the path would be <code>/var/libs/tomcat7/webapps/ROOT/</code>.</li>
 <li><code>$CONFIG_FILE</code> for the path to the configuration file used by the auto-setup.</li>
 </ul>
-<div class="alert alert-info">Executing the auto-setup may take some time. At least when it comes to the modules import it will take some time until you get a status update from the setup programm. Just wait.</div>]]></content>
+<div class="alert alert-info">Executing the auto-setup may take some time. At least when it comes to the modules import it will take some time until you get a status update from the setup program. Just wait.</div>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

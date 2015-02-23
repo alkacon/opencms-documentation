@@ -11,9 +11,9 @@
           <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/db/CmsUserSettings.html]]></target>
         </link>
       </links>
-      <content><![CDATA[<p>The default user preferences are used by OpenCms to configure its behaviour according to the users choices. At least when you add your own preference, you may want to access to trigger some user specific customization. But you can also use the default preferences and change things depending on their values.</p>
-<p>Access to user preferences is gained via an object of type <a href="%(link0)"><code>org.opencms.workplace.CmsWorkplace</code></a>. Call the method getSettings() and the getUserSettings to obtain an object of type <a href="%(link1)"><code>org.opencms.db.CmsUserSettings</code></a>. The object provides getters for all the default user preferences and via <code>getAdditionalPreference(String name, boolean useDefault)</code>, additional preferences can be read.</p>
-<p>At the moment, scriptlet code is necessary to access user preferences in a JSP. <code>CmsWorkplace</code> is a subclass of the <code>CmsJspActionElement</code> and can be initialized as the same way, i.e., via the constructor <code>CmsWorkplace(PageContext context, HttpServletRequest req, HttpServletResponse res)</code>.</p>]]></content>
+      <content><![CDATA[<p>The default user preferences are used by OpenCms to configure its behaviour according to the user's choices. At least when you add your own preference, you may want access to trigger some user specific customization. But you can also use the default preferences and change things depending on their values.</p>
+<p>Access to user preferences is gained via an object of type <a href="%(link0)"><code>org.opencms.workplace.CmsWorkplace</code></a>. Call the method getSettings() and getUserSettings to obtain an object of type <a href="%(link1)"><code>org.opencms.db.CmsUserSettings</code></a>. The object provides getters for all the default user preferences and via <code>getAdditionalPreference(String name, boolean useDefault)</code>, additional preferences can be read.</p>
+<p>At the moment, scriptlet code is necessary to access user preferences in a JSP. <code>CmsWorkplace</code> is a subclass of the <code>CmsJspActionElement</code> and can be initialized in the same way, i.e., via the constructor <code>CmsWorkplace(PageContext context, HttpServletRequest req, HttpServletResponse res)</code>.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

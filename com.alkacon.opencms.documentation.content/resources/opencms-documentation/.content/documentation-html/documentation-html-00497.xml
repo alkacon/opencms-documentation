@@ -6,7 +6,7 @@
       <links/>
       <content><![CDATA[<p>Place your certificates and keys in a folder of your choice, typically in Apache's <code>conf/</code> folder, or in a sub-folder of <code>/etc/ssl/</code>, e.g., the folder <code>/etc/ssl/localcerts/apache/</code>. If configuring such a folder, make sure to set the permissions on the folder/certificate-files accordingly.</p>
 <p>For more information on SSL key generation and Apache configuration, please consult some of the various good tutorials and descriptions available online.</p>
-<p>If not already done, Apache must also be configured to listen at the SSL-port 443. Therefore, add the line</p>]]></content>
+<p>If not already done, Apache must also be configured to listen on the SSL-port 443. Therefore, add the line</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>
