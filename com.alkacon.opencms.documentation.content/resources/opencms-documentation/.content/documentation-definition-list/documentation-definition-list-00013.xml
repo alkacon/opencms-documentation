@@ -9,14 +9,14 @@
       <Term><![CDATA[-base]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Set the absolute path to the OpenCms installations base directory, i.e., <code>{absolute path to the webapp home}/WEB-INF</code>. If not provided, the path is read from the system property <code>user.dir</code>. The start scripts set this argument automatically.</p>]]></content>
+        <content><![CDATA[<p>Set the absolute path to the OpenCms installation's base directory, i.e., <code>{absolute path to the webapp home}/WEB-INF</code>. If not provided, the path is read from the system property <code>user.dir</code>. The start scripts set this argument automatically.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
       <Term><![CDATA[-script]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Provide the path to a OpenCms shell script file. Such a file lists a series of OpenCms shell commands. The commands are all executed when handing the script to shell on startup.</p>
+        <content><![CDATA[<p>Provide the path to a OpenCms shell script file. Such a file lists a series of OpenCms shell commands. The commands are all executed when handing the script to the shell on startup.</p>
 <div class="alert alert-danger">The last command in your OpenCms shell script should be <code>quit</code> or <code>exit</code>, because mixing batch mode and interactive mode is not supported.</div>]]></content>
       </Description>
     </Entry>
@@ -24,7 +24,7 @@
       <Term><![CDATA[-servletMapping]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>The servlet mapping defined in the <code>web.xml</code> of the OpenCms installation. If not given <code>/opencms/*</code> is used as default.</p>]]></content>
+        <content><![CDATA[<p>The servlet mapping defined in the <code>web.xml</code> of the OpenCms installation. If not given <code>/opencms/*</code> is used as the default.</p>]]></content>
       </Description>
     </Entry>
     <Entry>

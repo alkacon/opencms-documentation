@@ -29,14 +29,14 @@
             <anchor><![CDATA[sec_creating_new_content]]></anchor>
           </link>
         </links>
-        <content><![CDATA[<p>The localized resource type label that is used for example in the “Add content”-dialog in the page editor (see <a href="%(link0)">here</a>). The given label is set as value for the language specified by your current workplace locale at key <code>fileicon.&lt;name&gt;</code> in the module’s <code>.properties</code> file.</p>]]></content>
+        <content><![CDATA[<p>The localized resource type label that is used for example in the “Add content”-dialog in the page editor (see <a href="%(link0)">here</a>). The given label is set as the value for the language specified by your current workplace locale at key <code>fileicon.&lt;name&gt;</code> in the module’s <code>.properties</code> file.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
       <Term><![CDATA[New dialog title]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>The localized resource type title used within the new resource dialog. It is set as value for the language specified by your current workplace locale at key <code>title.&lt;name&gt;</code> in the module’s <code>.properties</code> file.</p>]]></content>
+        <content><![CDATA[<p>The localized resource type title used within the new resource dialog. It is set as the value for the language specified by your current workplace locale at key <code>title.&lt;name&gt;</code> in the module’s <code>.properties</code> file.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -49,14 +49,14 @@
             <anchor><![CDATA[sec_creating_new_content]]></anchor>
           </link>
         </links>
-        <content><![CDATA[<p>The localized resource type description that is used for example in the “Add content”-dialog in the page editor (see <a href="%(link0)">here</a>). It is set as value for the language specified by your current workplace locale at the key <code>desc.&lt;name&gt;</code> in the module’s <code>.properties</code> file.</p>]]></content>
+        <content><![CDATA[<p>The localized resource type description that is used for example in the “Add content”-dialog in the page editor (see <a href="%(link0)">here</a>). It is set as the value for the language specified by your current workplace locale at the key <code>desc.&lt;name&gt;</code> in the module’s <code>.properties</code> file.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
       <Term><![CDATA[Schema type name]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>The name of the content type used in the XML Schema defintion. The type name must be unique in your OpenCms installation.</p>]]></content>
+        <content><![CDATA[<p>The name of the content type used in the XML Schema definition. The type name must be unique in your OpenCms installation.</p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>

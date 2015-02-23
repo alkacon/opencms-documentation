@@ -16,14 +16,14 @@
       <Term><![CDATA[collapse]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>If only one element (typically a nested content with sub-elements) should appear in one tab, the element's name can be hidden. Therefor, set <code>collapse="true"</code>. Otherwise, omit it, or set it to <code>false</code>.</p>]]></content>
+        <content><![CDATA[<p>If only one element (typically a nested content with sub-elements) should appear in one tab, the element's name can be hidden. Therefore, set <code>collapse="true"</code>. Otherwise, omit it, or set it to <code>false</code>.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
       <Term><![CDATA[name]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Define the name shown in the tab. This attribute supports <code>%(key.)</code> macro to insert localized messages. If the attribute is not given, the element's name is used as tab name.</p>]]></content>
+        <content><![CDATA[<p>Define the name shown in the tab. This attribute supports <code>%(key.)</code> macro to insert localized messages. If the attribute is not given, the element's name is used as the tab name.</p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>

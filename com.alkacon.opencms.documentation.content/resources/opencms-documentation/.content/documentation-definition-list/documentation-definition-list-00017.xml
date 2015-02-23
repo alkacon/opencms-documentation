@@ -23,7 +23,7 @@
       <Term><![CDATA[useformat]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>If set to <code>true</code>, content managers are allowed to scale and crop the chosen image for the presentation in their content. In how far images can be scaled is configured via the parameters <code>formatnames</code> and <code>formatvalues</code>.</p>
+        <content><![CDATA[<p>If set to <code>true</code>, content managers are allowed to scale and crop the chosen image for presentation in their content. How far images can be scaled is configured via the parameters <code>formatnames</code> and <code>formatvalues</code>.</p>
 <p>Default: <code>false</code>.<br /><br /></p>]]></content>
       </Description>
     </Entry>
@@ -47,7 +47,7 @@
       <Term><![CDATA[formatvalues]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>A list of “width x height”-values, e.g. <code>['200x?', '800x600']</code>, where <code>?</code> is used for a dynamic size. The format values correnspond to the format names given via the parameter <code>formatnames</code>. Thus, the list length should match the length of the sequence given to <code>formatnames</code>.<br />Instead of giving the format values explicitely, they can be created dynamically by the class given via parameter <code>class</code>.<br /><br /></p>]]></content>
+        <content><![CDATA[<p>A list of “width x height”-values, e.g. <code>['200x?', '800x600']</code>, where <code>?</code> is used for a dynamic size. The format values correspond to the format names given via the parameter <code>formatnames</code>. Thus, the list length should match the length of the sequence given to <code>formatnames</code>.<br />Instead of giving the format values explicitely, they can be created dynamically by the class given via parameter <code>class</code>.<br /><br /></p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>

@@ -8,7 +8,7 @@
       <Term><![CDATA[Max. number of contents]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Specifies the maximal number of contents allowed in the configured “Content folder”. If not set, the number is not limited.</p>]]></content>
+        <content><![CDATA[<p>Specifies the maximum number of content items allowed in the configured “Content folder”. If not set, the number is not limited.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -22,7 +22,7 @@
       <Term><![CDATA[Queue maximum length]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>The maximal number of session that wait for creation. If more session requests are present at the same time, they are ignored.</p>]]></content>
+        <content><![CDATA[<p>The maximum number of sessions that wait for creation. If more session requests are present at the same time, they are ignored.</p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>

@@ -15,7 +15,7 @@
       <Term><![CDATA[Content folder]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>The folder, where content is loaded from, created in and stored to. For security reasons all operations on content are limited this single folder.</p>]]></content>
+        <content><![CDATA[<p>The folder where content is loaded from, created in and stored to. For security reasons all operations on content are limited to this single folder.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -29,21 +29,21 @@
       <Term><![CDATA[Locale]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>The locale in which the content is read/wrote.</p>]]></content>
+        <content><![CDATA[<p>The locale in which the content is read/written.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
       <Term><![CDATA[Guest user substitute]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>The name of the user that performs the content access when a guest user uses UGC. Users that are not logged in, i.e., guest users, have no permissions to access/edit/add content in OpenCms. Thus, to allow guests to use UGC, the access to the content must be performed by another user with the according permissions. If you do not set a user here, guest simply cannot perform UGC actions.</p>]]></content>
+        <content><![CDATA[<p>The name of the user that performs the content access when a guest user uses UGC. Users that are not logged in, i.e., guest users, have no permissions to access/edit/add content in OpenCms. Thus, to allow guests to use UGC, the access to the content must be performed by another user with the according permissions. If you do not set a user here, guests simply cannot perform UGC actions.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
       <Term><![CDATA[Automatic publishing]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>If checked, new contents and alterations to existing contents via UGC are published directly. Otherwise, the changes remain unpublished till a user from the configured “Project group” publishes the changes.</p>]]></content>
+        <content><![CDATA[<p>If checked, new contents and alterations to existing contents via UGC are published directly. Otherwise, the changes remain unpublished until a user from the configured “Project group” publishes the changes.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
