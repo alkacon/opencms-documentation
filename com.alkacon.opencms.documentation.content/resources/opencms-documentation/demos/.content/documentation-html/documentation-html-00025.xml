@@ -4,9 +4,9 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>The example uses rdfa-annotations for three content elements: Title, Text and Image. For elements of type OpenCmsString, as Title and Text it is necessary that the annotations are placed directly at the tags surrounding the unmanipulated values read from the content.</p>
-<p>For the image, the rdfa-annotation results in an edit point at the right-hand side of the inline editor. Hovering over such an edit point, the annotated block element is highlighted. Here, the annotations have just to be placed at some (block) element. This holds for all elements that are not of type OpenCmsString.</p>
-<p>Note that, if no picture is present, the rdfa-annotation is placed differently. If no picture exists, a plus symbol is shown instead of an edit point.</p>]]></content>
+      <content><![CDATA[<p>The example uses rdfa-annotations for three content elements: Title, Text and Image. For elements of type OpenCmsString, as Title and Text it is necessary that the annotations are placed directly on the tags surrounding the unmanipulated values read from the content.</p>
+<p>For the image, the rdfa-annotation results in an edit point at the right-hand side of the inline editor. Hovering over such an edit point, the annotated block element is highlighted. Here, the annotations just have to be placed on some (block) element. This holds for all elements that are not of type OpenCmsString.</p>
+<p>Note that if no picture is present, the rdfa-annotation is placed differently. If no picture exists, a plus symbol is shown instead of an edit point.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>
