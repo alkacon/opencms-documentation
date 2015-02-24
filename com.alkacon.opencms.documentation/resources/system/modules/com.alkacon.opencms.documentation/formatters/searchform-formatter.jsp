@@ -43,7 +43,7 @@
 					<div class="input-group">
 						<input name="${common.config.queryParam}" class="form-control"
 							type="text" autocomplete="off" placeholder="Enter query"
-							value="${common.state.query}" /> <span class="input-group-btn">
+							value="${fn:replace(common.state.query,'"','&quot;')}" /> <span class="input-group-btn">
 							<button class="btn btn-primary" type="submit">Go</button>
 						</span>
 					</div>
