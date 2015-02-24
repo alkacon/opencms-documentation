@@ -4,13 +4,13 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link1" internal="true" type="A">
-          <target><![CDATA[]]></target>
-          <anchor><![CDATA[sec_share_configuration]]></anchor>
-        </link>
         <link name="link0" internal="true" type="A">
           <target><![CDATA[]]></target>
           <anchor><![CDATA[setup]]></anchor>
+        </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[sec_share_configuration]]></anchor>
         </link>
       </links>
       <content><![CDATA[<p>Once the network share access has been <a href="%(link0)">set up</a>, network shares can be accessed via the path syntax <code>\\HOSTNAME\SHARENAME</code> (standard Windows syntax) or <code>smb://HOSTNAME/SHARENAME</code> (most other clients).</p>

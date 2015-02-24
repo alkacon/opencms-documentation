@@ -4,18 +4,18 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link1" internal="false" type="A">
-          <target><![CDATA[http://www.eclipse.org]]></target>
-        </link>
-        <link name="link0" internal="false" type="A">
-          <target><![CDATA[http://www.opencms.org/en/development/documentation.html]]></target>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[http://www.gradle.org]]></target>
         </link>
         <link name="link3" internal="true" type="A">
           <target><![CDATA[/sites/default/opencms-documentation/development-setups/installing-eclipse-and-gradle/]]></target>
           <uuid>58ccb21a-3989-11e4-81c6-578a14069906</uuid>
         </link>
-        <link name="link2" internal="false" type="A">
-          <target><![CDATA[http://www.gradle.org]]></target>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://www.opencms.org/en/development/documentation.html]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://www.eclipse.org]]></target>
         </link>
       </links>
       <content><![CDATA[<p>Your Java code will typically use the <a href="%(link0)">OpenCms Java API</a>. For development, we recommend the <a href="%(link1)">Eclipse IDE</a> with <a href="%(link2)">Gradle</a> for build automation. If configured correctly, gradle will automatically handle all dependencies of your code to the OpenCms core.</p>

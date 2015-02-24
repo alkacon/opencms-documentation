@@ -4,12 +4,12 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link1" internal="false" type="A">
-          <target><![CDATA[http://svn.alfresco.com/repos/alfresco-open-mirror/alfresco/HEAD/root/projects/alfresco-jlan/guides/JLAN_Server_Installation_Guide.pdf]]></target>
-        </link>
         <link name="link0" internal="true" type="A">
           <target><![CDATA[]]></target>
           <anchor><![CDATA[sec_share_configuration]]></anchor>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://svn.alfresco.com/repos/alfresco-open-mirror/alfresco/HEAD/root/projects/alfresco-jlan/guides/JLAN_Server_Installation_Guide.pdf]]></target>
         </link>
       </links>
       <content><![CDATA[<p>If no port is given, the standard SMB port (445) will be used. The reason to a port other than 445 is that in some operating systems, e.g., Linux, programs not running under the “root” user do not have the required permissions to listen on port numbers &lt; 1025 by default. This is why the port is set to 1445 in the example configuration <code>jlanConfig.xml.linux</code>.</p>

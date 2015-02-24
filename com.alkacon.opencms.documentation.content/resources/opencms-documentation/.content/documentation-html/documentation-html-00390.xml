@@ -4,19 +4,19 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link1" internal="false" type="A">
+        <link name="link2" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/building-a-page-navigation/changing-the-navigational-behavior-of-pages/]]></target>
+          <uuid>b37f0b50-1bac-11e4-bfa5-b7bfd6088c56</uuid>
+          <anchor><![CDATA[navigation_level]]></anchor>
+        </link>
+        <link name="link3" internal="false" type="A">
           <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/jsp/CmsJspNavElement.html]]></target>
         </link>
         <link name="link0" internal="false" type="A">
           <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspNavigationBean.html]]></target>
         </link>
-        <link name="link3" internal="false" type="A">
+        <link name="link1" internal="false" type="A">
           <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/jsp/CmsJspNavElement.html]]></target>
-        </link>
-        <link name="link2" internal="true" type="A">
-          <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/building-a-page-navigation/changing-the-navigational-behavior-of-pages/]]></target>
-          <uuid>b37f0b50-1bac-11e4-bfa5-b7bfd6088c56</uuid>
-          <anchor><![CDATA[navigation_level]]></anchor>
         </link>
       </links>
       <content><![CDATA[<p>The interesting spots of this JSP are the use of the <code>&lt;cms:navigation&gt;</code> tag and the iteration through the <code>&lt;c:forEach&gt;</code> loop. The <code>&lt;cms:navigation&gt;</code> tag exposes the attribute <code>nav</code> to the page scope. It is of type <code><a href="%(link0)">org.opencms.jsp.util.CmsJspNavigationBean</a></code>. Its main property is items, that returns a list of <code><a href="%(link1)">org.opencms.jsp.CmsJspNavElement</a></code>s, but it also has some other properties, e.g., <code>isActive</code> as used also in the example. The list depends on the other attributes specified in the <code>&lt;cms:navigation&gt;</code> tag. In our example, we specify that:</p>

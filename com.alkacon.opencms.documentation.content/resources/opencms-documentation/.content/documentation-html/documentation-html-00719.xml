@@ -4,11 +4,11 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link1" internal="false" type="A">
-          <target><![CDATA[http://pub-docu/opencms-documentation/views-in-opencms/the-ade-views/content-editors/the-form-based-content-editor/]]></target>
-        </link>
         <link name="link0" internal="false" type="A">
           <target><![CDATA[http://pub-docu/opencms-documentation/views-in-opencms/the-ade-views/the-page-editor/]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/views-in-opencms/the-ade-views/content-editors/the-form-based-content-editor/]]></target>
         </link>
       </links>
       <content><![CDATA[<p>Whenever you open an XML content in the content editor, you can select the language version, you want to edit. By default, only the languages "German" and "English" can be chosen. The version which gets displayed first depends on the language of the page you are editing at. <span class="footnote">The language of the request context is chosen - or a default, if this language is not available for the content.</span></p>

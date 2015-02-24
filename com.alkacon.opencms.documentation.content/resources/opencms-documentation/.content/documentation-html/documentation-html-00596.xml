@@ -4,11 +4,11 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link1" internal="false" type="A">
-          <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/scheduler/CmsScheduledJobInfo.html]]></target>
-        </link>
         <link name="link0" internal="false" type="A">
           <target><![CDATA[http://en.wikipedia.org/wiki/Cron]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/scheduler/CmsScheduledJobInfo.html]]></target>
         </link>
       </links>
       <content><![CDATA[<p>Cron expressions specify when a job should be executed. The syntax for specifying the dates is inspired by the <a href="%(link0)">cron</a> job scheduler. An overview on how to write cron expressions and a lot of example expressions are given in the JavaDoc of the class <a href="%(link1)"><code>org.opencms.scheduler.CmsScheduledJobInfo</code></a>.</p>]]></content>

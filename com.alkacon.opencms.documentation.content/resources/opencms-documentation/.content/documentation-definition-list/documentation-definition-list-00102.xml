@@ -40,13 +40,13 @@
       <Term><![CDATA[copyfields (optional)]]></Term>
       <Description name="Description0">
         <links>
-          <link name="link1" internal="false" type="A">
-            <target><![CDATA[http://wiki.apache.org/solr/SchemaXml]]></target>
-            <anchor><![CDATA[Copy_Fields]]></anchor>
-          </link>
           <link name="link0" internal="false" type="A">
             <target><![CDATA[http://pub-docu/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/search-settings/]]></target>
             <anchor><![CDATA[specifying_searchfield_types]]></anchor>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[http://wiki.apache.org/solr/SchemaXml]]></target>
+            <anchor><![CDATA[Copy_Fields]]></anchor>
           </link>
         </links>
         <content><![CDATA[<p>The attribute <code>copyfields</code> is used to duplicate the result of the mapping to other Solr fields. See <a href="%(link0)">[specifying_searchfield_types]</a> for an example and also in <a href="%(link1)">the Solr wiki</a>.</p>]]></content>

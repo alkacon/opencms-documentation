@@ -4,19 +4,19 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link1" internal="true" type="IMG">
-          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_normalsize/popupIconActive.png]]></target>
-          <uuid>7b4da281-02bc-11e4-8167-1305b26fecac</uuid>
-          <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+        <link name="link2" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[sec_image_gallery_widget]]></anchor>
         </link>
         <link name="link0" internal="true" type="IMG">
           <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_normalsize/uploadSmallIconActive.png]]></target>
           <uuid>7b759d41-02bc-11e4-8167-1305b26fecac</uuid>
           <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
         </link>
-        <link name="link2" internal="true" type="A">
-          <target><![CDATA[]]></target>
-          <anchor><![CDATA[sec_image_gallery_widget]]></anchor>
+        <link name="link1" internal="true" type="IMG">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_normalsize/popupIconActive.png]]></target>
+          <uuid>7b4da281-02bc-11e4-8167-1305b26fecac</uuid>
+          <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
         </link>
       </links>
       <content><![CDATA[<p>The icons <img style="width: 14px;" title="uploadSmallIconActive (Locked by (Admin))" src="%(link0)" alt="" /> and <img style="width: 14px;" title="popupIconActive (Locked by (Admin))" src="%(link1)" alt="" /> provide similar functionality as in the image gallery widget, but in addition to image galleries, download galleries can also be browsed. To configure to which gallery files are uploaded, set the property <code>repositoryfolder_downloadgallery</code>. For more detailed information, see the <a href="%(link2)">description of the image gallery widget</a>.</p>]]></content>

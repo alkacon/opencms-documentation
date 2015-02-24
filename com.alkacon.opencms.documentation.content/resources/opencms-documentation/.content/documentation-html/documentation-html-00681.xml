@@ -4,13 +4,13 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link1" internal="false" type="A">
-          <target><![CDATA[http://pub-docu/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/search-settings/index.html]]></target>
-          <anchor><![CDATA[sec_content_field]]></anchor>
-        </link>
         <link name="link0" internal="false" type="A">
           <target><![CDATA[http://pub-docu/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/search-settings/]]></target>
           <anchor><![CDATA[content_field]]></anchor>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/search-settings/index.html]]></target>
+          <anchor><![CDATA[sec_content_field]]></anchor>
         </link>
       </links>
       <content><![CDATA[<p>OpenCms ships with a default configuration for the indexation of resources. The configuration is optimized w.r.t. the structure of OpenCms resources. So, for example, properties are indexed by default. But, some choices do not have an over-all good default. In particular concerning XML contents, the answers to the following questions are specific to the actual use case:</p>
