@@ -2,9 +2,9 @@
 
 <export>
 	<info>
-		<creator>dSeidel</creator>
-		<opencms_version>10.0</opencms_version>
-		<createdate>Tue, 24 Feb 2015 08:07:39 GMT</createdate>
+		<creator>Admin</creator>
+		<opencms_version>9.5.x</opencms_version>
+		<createdate>Tue, 24 Feb 2015 11:23:11 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,14 +14,14 @@
 		<group>OpenCms Documentation</group>
 		<class/>
 		<description><![CDATA[All the content of the OpenCms documentation. Place it in the site where the content should be available, usually /sites/default/]]></description>
-		<version>10.0.0</version>
+		<version>9.5.5</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated/>
 		<userinstalled/>
 		<dateinstalled/>
 		<dependencies>
-			<dependency name="com.alkacon.opencms.documentation" version="9.5.0"/>
+			<dependency name="com.alkacon.opencms.documentation" version="9.5.5"/>
 		</dependencies>
 		<exportpoints/>
 		<resources>
@@ -34,7 +34,7 @@
 			<destination>opencms-documentation</destination>
 			<type>subsitemap</type>
 			<uuidstructure>f002c53d-973d-11e4-8878-b7eb8d90e9b7</uuidstructure>
-			<datelastmodified>Wed, 18 Feb 2015 11:41:45 GMT</datelastmodified>
+			<datelastmodified>Tue, 24 Feb 2015 11:21:03 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 08 Jan 2015 13:55:00 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -58,7 +58,7 @@
 				</property>
 				<property>
 					<name>opencms.documentation.editor</name>
-					<value><![CDATA[false]]></value>
+					<value><![CDATA[true]]></value>
 				</property>
 				<property>
 					<name>template</name>
@@ -120,7 +120,7 @@
 			<uuidstructure>7c155ee8-02bc-11e4-8167-1305b26fecac</uuidstructure>
 			<uuidresource>7c155ee9-02bc-11e4-8167-1305b26fecac</uuidresource>
 			<datelastmodified>Tue, 24 Feb 2015 08:02:04 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 03 Jul 2014 14:15:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>512</flags>
@@ -18444,7 +18444,7 @@
 			<type>documentation-html</type>
 			<uuidstructure>52eec238-b101-11e4-b42e-0242ac11002b</uuidstructure>
 			<uuidresource>52eec239-b101-11e4-b42e-0242ac11002b</uuidresource>
-			<datelastmodified>Wed, 18 Feb 2015 13:41:44 GMT</datelastmodified>
+			<datelastmodified>Tue, 24 Feb 2015 11:22:08 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 10 Feb 2015 08:46:37 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -29365,7 +29365,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Search - Change my headline]]></value>
+					<value><![CDATA[Change my headline]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -33083,12 +33083,7 @@
 			<datecreated>Wed, 04 Feb 2015 11:06:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Search]]></value>
-				</property>
-			</properties>
+			<properties/>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -33260,39 +33255,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[My view switcher]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>opencms-documentation/.content/jsp-search-form</destination>
-			<type>folder</type>
-			<uuidstructure>76aa4b81-ac5f-11e4-b42e-0242ac11002b</uuidstructure>
-			<datelastmodified>Wed, 04 Feb 2015 11:17:54 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 04 Feb 2015 11:17:54 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>opencms-documentation/.content/jsp-search-form/jsp-search-form-00001.xml</source>
-			<destination>opencms-documentation/.content/jsp-search-form/jsp-search-form-00001.xml</destination>
-			<type>jsp-search-form</type>
-			<uuidstructure>d5f17835-ac5f-11e4-b42e-0242ac11002b</uuidstructure>
-			<uuidresource>d5f17836-ac5f-11e4-b42e-0242ac11002b</uuidresource>
-			<datelastmodified>Mon, 23 Feb 2015 13:32:46 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 04 Feb 2015 11:20:33 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Documentation Search Results]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -47958,56 +47920,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Generating PDF output]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>opencms-documentation/search</destination>
-			<type>folder</type>
-			<uuidstructure>ee7e543b-ac5d-11e4-b42e-0242ac11002b</uuidstructure>
-			<datelastmodified>Wed, 04 Feb 2015 11:07:05 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 04 Feb 2015 11:06:56 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[2.984375]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[Search]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Search]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>opencms-documentation/search/index.html</source>
-			<destination>opencms-documentation/search/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>eee04a65-ac5d-11e4-b42e-0242ac11002b</uuidstructure>
-			<uuidresource>eee04a66-ac5d-11e4-b42e-0242ac11002b</uuidresource>
-			<datelastmodified>Wed, 04 Feb 2015 11:20:34 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 04 Feb 2015 11:06:56 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Search]]></value>
-				</property>
-				<property>
-					<name>template</name>
-					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.opencms.documentation/templates/documentation-search.jsp]]></value>
 				</property>
 			</properties>
 			<relations/>

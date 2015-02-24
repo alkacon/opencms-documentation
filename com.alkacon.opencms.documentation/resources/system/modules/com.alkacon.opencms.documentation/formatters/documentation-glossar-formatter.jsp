@@ -17,7 +17,7 @@
 		<c:otherwise>
 			<c:set var="absolutePath" value="${cms.vfs.resource[content.value.EntryFolder].rootPath}" />
 			<cms:contentload collector="byContext" 
-			                 param='fq=parent-folders:"${absolutePath}"&fq=type:documentation-glossar-entry&sort=term_en_sort asc&rows=10000000|createPath=${content.value.EntryFolder}ge_%(number).xml'
+			                 param='fq=parent-folders:"${absolutePath}"&fq=type:documentation-glossar-entry&sort=Title_exact asc&rows=10000000|createPath=${content.value.EntryFolder}ge_%(number).xml'
 			                 preload="true" 
 			                 editEmpty="true"			                 
 			>

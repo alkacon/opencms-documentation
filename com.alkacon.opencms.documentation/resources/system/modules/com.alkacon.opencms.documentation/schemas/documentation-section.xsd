@@ -51,18 +51,6 @@
 				<searchsetting element="StatusMetaData/Todos/Todo" searchcontent="false">
 					<solrfield targetfield="todos" />
 				</searchsetting>
-				<searchsetting element="VersionInfo/NewIn/Version" searchcontent="false">
-					<solrfield targetfield="newInVersion" addto="page,element" />
-				</searchsetting>
-				<searchsetting element="VersionInfo/ImprovedIn/Version" searchcontent="false">
-					<solrfield targetfield="improvedInVersion" addto="page,element" />
-				</searchsetting>
-				<searchsetting element="DocuVersionInfo/NewIn/Version" searchcontent="false">
-					<solrfield targetfield="newInDocuVersion" addto="page,element" />
-				</searchsetting>
-				<searchsetting element="DocuVersionInfo/ImprovedIn/Version" searchcontent="false">
-					<solrfield targetfield="improvedInDocuVersion" addto="page,element" />
-				</searchsetting>
 			</searchsettings>
 		</xsd:appinfo>
 	</xsd:annotation>
