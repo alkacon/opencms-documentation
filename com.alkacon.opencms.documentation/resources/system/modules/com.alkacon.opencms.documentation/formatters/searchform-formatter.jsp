@@ -37,13 +37,14 @@
 		<!-- Search slot and facets -->
 		<form id="documentation-search-form" role="form" class="form-horizontal"
 			action="<cms:link>${cms.requestContext.uri}</cms:link>">
-			<input type="hidden" name="${common.config.lastQueryParam}" value="${common.state.query}" />
+			<c:set var="escapedQuery">${fn:replace(common.state.query,'"','&quot;')}</c:set>			
+			<input type="hidden" name="${common.config.lastQueryParam}" value="${escapedQuery}" />
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 					<div class="input-group">
 						<input name="${common.config.queryParam}" class="form-control"
 							type="text" autocomplete="off" placeholder="Enter query"
-							value="${fn:replace(common.state.query,'"','&quot;')}" /> <span class="input-group-btn">
+							value="${escapedQuery}" /> <span class="input-group-btn">
 							<button class="btn btn-primary" type="submit">Go</button>
 						</span>
 					</div>
