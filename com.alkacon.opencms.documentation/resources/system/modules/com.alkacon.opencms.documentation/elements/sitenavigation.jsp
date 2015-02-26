@@ -68,9 +68,14 @@ int toInt(String val, int default_val) {
 		<li class="list-group-item nav-side-level-${lastItem.navTreeLevel - navStartLevel}<c:if test="${!lastItem.navigationLevel && nav.isActive[lastItem.resourceName]}"> active</c:if>">
 			<a href="<cms:link>${lastItem.resourceName}</cms:link>">
 				<span class='nav-side-toggle-sublevel'>&nbsp;</span>${lastItem.navText}</a>
-		</li>			
-		<c:forEach begin="${navStartLevel}" end="${lastItem.navTreeLevel}" >
-			</ul>
-		</c:forEach>
+		</li>
+		<c:if test="${navStartLevel < lastItem.navTreeLevel}">
+			<c:forEach begin="${navStartLevel}" end="${lastItem.navTreeLevel-1}" >
+				</ul>
+			</c:forEach>
+		</c:if>
 	</c:if>
+	<li class="list-group-item nav-side-level-0">
+		<a href="http://documentation.opencms.org/central/impressum/"><span class='nav-side-toggle-sublevel'>&nbsp;</span>Impressum</a>
+	</li>
 </ul>
