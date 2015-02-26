@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Heading><![CDATA[Configuration options of the dependent select widget]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[{observed node sequence}]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The Argument is the XPath to the sequence of content elements that should be observed to generate the options. The values of these elements are selectable via the widget. The values are used for the shown option and the stored value. This configuration should be used if the observed elements have <em>no</em> nested structure.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[{observed node sequence}|{choosable elements}]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The first argument is the XPath to the sequence of content elements that should be observed to generate the options. The second argument is the XPath from the observed element sequence to a subelement that should be used as value to store and option to display when the observed element is chosen. This configuration is useful if the observed elements have a nested structure.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[{observed node sequence}|{choosable element's values}|{choosable element's displayed option}]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The first argument is the XPath to the sequence of content elements that should be observed to generate the options. The second argument is the XPath<em> from the observed element sequence to a subelement</em> that should be used as value to store when the observed element is chosen. The third value is an XPath <em>from the observed element sequence to a subelement</em> that should be used as display option when the observed element is chosen. This configuration is useful if the observed elements have a nested structure and the stored value should differ from the displayed option.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>
