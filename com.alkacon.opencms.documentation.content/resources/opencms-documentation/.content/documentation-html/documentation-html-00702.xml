@@ -4,8 +4,16 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
+        <link name="link4" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/widget-configuration/]]></target>
+          <anchor><![CDATA[dependent_select_widget]]></anchor>
+        </link>
         <link name="link2" internal="false" type="A">
           <target><![CDATA[http://pub-docu/opencms-documentation/mounting-the-vfs/network-share-access/]]></target>
+        </link>
+        <link name="link3" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/widget-configuration/]]></target>
+          <anchor><![CDATA[vfs_file_widget]]></anchor>
         </link>
         <link name="link0" internal="false" type="A">
           <target><![CDATA[http://pub-docu/opencms-documentation/creating-a-website/creating-a-template-jsp/]]></target>
@@ -18,6 +26,8 @@
 <li><a href="%(link0)">Revised the tutorial for template JSP creation to fit for OpenCms 9.5.</a></li>
 <li><a href="%(link1)">Search settings: Specifying search settings in XSDs has been extended.</a></li>
 <li><a href="%(link2)">Mounting the VFS via a network share: Added hints on how to mount the VFS of your local OpenCms installation on various operating systems.</a></li>
+<li><a href="%(link3)">Documented "galleryselect" option for the VfsFileWidget (new in OpenCms 9.5.1).</a></li>
+<li><a href="%(link4)">Documented dependent select widget (new in OpenCms 9.5.1).</a></li>
 </ul>]]></content>
     </Html>
   </DocumentationHtml>

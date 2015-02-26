@@ -54,5 +54,17 @@
         <content><![CDATA[<p>The site or folder the popup tree is opened with.</p>]]></content>
       </Description>
     </Entry>
+    <Entry>
+      <Term><![CDATA[galleryselect]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://pub-docu/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/widget-configuration/]]></target>
+            <anchor><![CDATA[fig_vfsfile_galleryselect_dialog]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>The option is new in OpenCms 9.5.1. Use it for links to whole galleries, e.g., for a slide show. When the option is given, the file selector dialog opens in the galleries tab (see Figure <a href="%(link0)">[vfsfile_galleryselect_dialog]</a>). Additionally it only shows the folder tab. The user can only select whole galleries or folders. It is not possible to select single files (or images).</p>]]></content>
+      </Description>
+    </Entry>
   </DocumentationDefinitionList>
 </DocumentationDefinitionLists>
