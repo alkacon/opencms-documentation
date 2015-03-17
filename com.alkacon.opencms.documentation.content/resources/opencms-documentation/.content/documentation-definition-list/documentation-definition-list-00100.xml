@@ -9,8 +9,9 @@
       <Term><![CDATA[containerPageOnly (optional)]]></Term>
       <Description name="Description0">
         <links>
-          <link name="link0" internal="false" type="A">
-            <target><![CDATA[http://pub-docu/opencms-documentation/content-in-opencms/formatters-and-their-configuration/index.html]]></target>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/index.html]]></target>
+            <uuid>c06768dd-1bcf-11e4-bfa5-b7bfd6088c56</uuid>
           </link>
         </links>
         <content><![CDATA[<p>If set to <code>true</code>, the content of the schema's type are not findable themselves. But if you search for the content's text (or other values), you'll still find the container pages where the content is placed - unless the used <a href="%(link0)">formatter is configured to not index the content</a>. If the attribute is set to <code>false</code>, the contents can also be found as the contents themselves.<br />Default: <code>false</code></p>]]></content>
