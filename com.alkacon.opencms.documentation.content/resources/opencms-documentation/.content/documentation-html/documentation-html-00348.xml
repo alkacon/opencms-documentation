@@ -4,9 +4,8 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link0" internal="true" type="A">
-          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/nested-containers/]]></target>
-          <uuid>3e5f51a4-334d-11e4-ae50-d144f6bb3566</uuid>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://pub-docu/opencms-documentation/content-in-opencms/formatters-and-their-configuration/nested-containers/]]></target>
         </link>
       </links>
       <content><![CDATA[<p>Save and close the <code>main.jsp</code> and create a new JSP file at: <code>/system/modules/my.template/elements/main-nav.jsp</code>. Paste the content cut before into the newly created JSP. Afterwards repeat these steps for all dynamic parts of the <code>main.jsp</code>, except the main textual content. When you have finished, you should be able to click on the <code>index.html</code> that uses your template within the explorer view and the template prototype should still be displayed properly.</p>

@@ -2,12 +2,8 @@
 
 <fmt:setLocale value="${cms.locale}" />
 
-<jsp:useBean id="topicGrabber" class="com.alkacon.opencms.documentation.topics.TopicGrabber">
- <% topicGrabber.init(pageContext, request, response); %>
- </jsp:useBean>
- <c:set var="topic" value="${topicGrabber.topicContent[cms.requestContext.uri]}" />
- 
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 	<title>OpenCms Documentation | ${cms.title}</title>
@@ -16,8 +12,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<meta name="description" content="${fn:replace(cms:stripHtml(topic.value.Teaser),'\"','')}">
-	<meta name="keywords" content="${topic.value.Keywords}">
+	<meta name="description" content="<cms:property name="Description" file="search" default="" />">
+	<meta name="keywords" content="<cms:property name="Keywords" file="search" default="" />">
 	<meta name="robots" content="index, follow">
 	<meta name="revisit-after" content="7 days">
 
@@ -25,7 +21,7 @@
 	<link rel="shortcut icon" href="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.documentation/images/favicon_16.png:b27cb11a-ac43-11e4-b80e-f9d322068617)</cms:link>" type="image/png"/>
 
 	<cms:enable-ade/>
-	
+
 	<c:set var="colortheme"><cms:property name="bs.page.color" file="search" default="red" /></c:set>
 	<c:set var="pagelayout"><cms:property name="bs.page.layout" file="search" default="9" /></c:set>
 
@@ -60,47 +56,22 @@
 			<div style="background: lightgray; height: 35px">&nbsp;</div>
 		</c:if>
 
-		<!--=== Header ===-->
-		<cms:include file="%(link.strong:/system/modules/com.alkacon.opencms.documentation/elements/header.jsp:54d313a9-17c6-11e4-a3fa-b7bfd6088c56)" />
+	<!--=== Header ===-->
+	<cms:include file="%(link.strong:/system/modules/com.alkacon.opencms.documentation/elements/header.jsp:54d313a9-17c6-11e4-a3fa-b7bfd6088c56)" />
 
-		<!--=== Content Part ===-->
-		<div class="container-fluid container-main">
-			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-
-					<%-- Menu for view switching (editor vs. user) --%>
-					<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/search.jsp:913527e3-811a-11e4-8c93-bfc0090a1084)" />
-					<c:if test="${!cms.isOnlineProject}">
-						<cms:container name="documentation-view-switcher-container" type="documentation-view-switcher" maxElements="1">
-							<div class="jumbotron">Place the view switcher here.</div>
-						</cms:container>
-					</c:if>
-
-					<!-- BEGIN: Site Navigation -->
-					<cms:include file="%(link.strong:/system/modules/com.alkacon.opencms.documentation/elements/sitenavigation.jsp:8d667ace-2930-11e4-b03d-d144f6bb3566)" />
-					<!-- END: Site Navigation -->
-
-				</div>
-				<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-
-					<!-- BEGIN: Topic Container -->
-		   		<cms:container name="documentation-topic-container" type="documentation-topic" width="1350" maxElements="1">
-						<div class="jumbotron"><h2>Add a topic here!</h2></div>
-		   		</cms:container>
-			    <!-- END: Topic Container -->
-
+	<!--=== Content Part ===-->
+	<div class="container-fluid container-main">
+		
 				<!-- Here goes all the documentation topic's content -->
-				<cms:container name="documentation-overview-container" type="documentation-overview" width="1350" detailview="true">
-						<div class="jumbotron"><h2>Put section contents here.</h2></div>
+				<cms:container name="documentation-search-container" type="documentation-search" width="1350">
+						<div class="jumbotron"><h2>Put search results function here.</h2></div>
 				</cms:container>
-				</div>
-			</div>
-		</div><!--/container-->		
-		<!--=== End Content Part ===-->
+	</div><!--/container-->		
+	<!--=== End Content Part ===-->
 
-		<!--=== Foot ===-->
-		<cms:include file="%(link.strong:/system/modules/com.alkacon.opencms.documentation/elements/footer.jsp:fdb085dd-17d3-11e4-a3fa-b7bfd6088c56)" />
-		<!--=== End Foot ===-->
+	<!--=== Foot ===-->
+	<cms:include file="%(link.strong:/system/modules/com.alkacon.opencms.documentation/elements/footer.jsp:fdb085dd-17d3-11e4-a3fa-b7bfd6088c56)" />
+	<!--=== End Foot ===-->
 
 	</div><!--/page-wrap-->
 </body>

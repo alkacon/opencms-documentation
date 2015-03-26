@@ -69,6 +69,27 @@
 				<searchsetting element="StatusMetaData/Todos/Todo" searchcontent="false">
 					<solrfield targetfield="todos" />
 				</searchsetting>
+				<searchsetting element="NewInVersion" searchcontent="false">
+					<solrfield targetfield="newInVersion" addto="page,element" default="unknown" />
+					<solrfield targetfield="newInVersion" sourcefield="_l" addto="page,element">
+						<mapping type="dynamic" class="com.alkacon.opencms.documentation.search.CmsVersionNumberSearchFieldMapping">NewInVersion</mapping>
+					</solrfield>
+				</searchsetting>
+				<searchsetting element="RemovedInVersion" searchcontent="false">
+					<solrfield targetfield="removedInVersion" addto="page,element" default="unknown" />
+					<solrfield targetfield="removedInVersion" sourcefield="_l" addto="page,element">
+						<mapping type="dynamic" class="com.alkacon.opencms.documentation.search.CmsVersionNumberSearchFieldMapping">RemovedInVersion</mapping>
+					</solrfield>
+				</searchsetting>
+				<searchsetting element="NewInDocuVersion" searchcontent="false">
+					<solrfield targetfield="newInDocuVersion" addto="page,element" default="unknown" />
+				</searchsetting>
+				<searchsetting element="Keywords" searchcontent="false">
+					<solrfield targetfield="keywords" addto="page,element" sourcefield="_cs" />
+				</searchsetting>
+				<searchsetting element="InterestingFor" searchcontent="false">
+					<solrfield targetfield="interestingFor" sourcefield="*_cs" addto="page,element" />
+				</searchsetting>
 			</searchsettings>
 		</xsd:appinfo>
 	</xsd:annotation>

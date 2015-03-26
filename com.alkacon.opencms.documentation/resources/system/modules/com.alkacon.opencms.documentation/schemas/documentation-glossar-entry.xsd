@@ -39,6 +39,11 @@
 				<rule element="RefId" regex=".*" type="error" message="Please provide a reference id." />
 			</validationrules>
 			<relations/>
+			<searchsettings>
+				<searchsetting element="Term">
+					<solrfield targetfield="term" sourcefield="*_sort" />
+				</searchsetting>
+			</searchsettings>
 		</xsd:appinfo>
 	</xsd:annotation>
 
