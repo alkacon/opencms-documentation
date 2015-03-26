@@ -2,9 +2,9 @@
 
 <export>
 	<info>
-		<creator>dSeidel</creator>
-		<opencms_version>10.0</opencms_version>
-		<createdate>Tue, 24 Feb 2015 10:44:39 GMT</createdate>
+		<creator>Admin</creator>
+		<opencms_version>9.7.x</opencms_version>
+		<createdate>Thu, 26 Mar 2015 10:40:01 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,7 +14,7 @@
 		<group>OpenCms Documentation</group>
 		<class/>
 		<description><![CDATA[Provides all the content types with formatters and templates to set up a topic-based documentation. Used for the OpenCms documentation.]]></description>
-		<version>10.0.0.1</version>
+		<version>9.5.5</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated/>
@@ -163,10 +163,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>5914d1d3-bb72-11e4-a5c0-0242ac11002b</uuidstructure>
-			<datelastmodified>Mon, 27 Jun 2005 08:00:00 GMT</datelastmodified>
+			<uuidstructure>2f3bb290-ab12-11e4-ad5f-f9d322068617</uuidstructure>
+			<datelastmodified>Mon, 02 Feb 2015 19:32:11 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 23 Feb 2015 15:40:52 GMT</datecreated>
+			<datecreated>Mon, 02 Feb 2015 19:32:11 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -185,10 +185,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>5b7c0e0f-bb72-11e4-a5c0-0242ac11002b</uuidstructure>
-			<datelastmodified>Mon, 23 Feb 2015 15:40:56 GMT</datelastmodified>
+			<uuidstructure>30c5d53c-ab12-11e4-ad5f-f9d322068617</uuidstructure>
+			<datelastmodified>Mon, 02 Feb 2015 19:32:14 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 23 Feb 2015 15:40:56 GMT</datecreated>
+			<datecreated>Mon, 02 Feb 2015 19:32:14 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -224,7 +224,7 @@
 			<uuidstructure>d9a929aa-fc67-11e3-8410-fb93821e3720</uuidstructure>
 			<uuidresource>d9a929ab-fc67-11e3-8410-fb93821e3720</uuidresource>
 			<datelastmodified>Tue, 24 Feb 2015 08:02:55 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 25 Jun 2014 12:54:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -525,34 +525,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Searching the documentation via Google]]></value>
-				</property>
-				<property>
-					<name>cache</name>
-					<value><![CDATA[always]]></value>
-				</property>
-				<property type="shared">
-					<name>export</name>
-					<value><![CDATA[false]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.opencms.documentation/elements/search.jsp</source>
-			<destination>system/modules/com.alkacon.opencms.documentation/elements/search.jsp</destination>
-			<type>jsp</type>
-			<uuidstructure>913527e3-811a-11e4-8c93-bfc0090a1084</uuidstructure>
-			<uuidresource>913527e4-811a-11e4-8c93-bfc0090a1084</uuidresource>
-			<datelastmodified>Mon, 02 Feb 2015 22:19:09 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 11 Dec 2014 09:46:23 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Searching the documentation]]></value>
 				</property>
 				<property>
 					<name>cache</name>
@@ -1380,58 +1352,6 @@
 				<property type="shared">
 					<name>export</name>
 					<value><![CDATA[false]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.opencms.documentation/formatters/searchform-formatter.jsp</source>
-			<destination>system/modules/com.alkacon.opencms.documentation/formatters/searchform-formatter.jsp</destination>
-			<type>jsp</type>
-			<uuidstructure>3a760d7c-ab17-11e4-86dc-f9d322068617</uuidstructure>
-			<uuidresource>3a760d7d-ab17-11e4-86dc-f9d322068617</uuidresource>
-			<datelastmodified>Tue, 17 Feb 2015 12:10:51 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 02 Feb 2015 20:08:18 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property type="shared">
-					<name>export</name>
-					<value><![CDATA[false]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.opencms.documentation/formatters/searchform-formatter.xml</source>
-			<destination>system/modules/com.alkacon.opencms.documentation/formatters/searchform-formatter.xml</destination>
-			<type>formatter_config</type>
-			<uuidstructure>406bc76f-ab17-11e4-86dc-f9d322068617</uuidstructure>
-			<uuidresource>406bc770-ab17-11e4-86dc-f9d322068617</uuidresource>
-			<datelastmodified>Mon, 02 Feb 2015 21:26:25 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 02 Feb 2015 20:08:28 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Documentation Search Form Formatter]]></value>
-				</property>
-				<property>
-					<name>locale</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>locale-available</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>search.exclude</name>
-					<value><![CDATA[all]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -3930,7 +3850,7 @@
 			<type>containerpage_template</type>
 			<uuidstructure>a1437bce-1d79-11e4-9d87-d9f74955ba1b</uuidstructure>
 			<uuidresource>a1437bcf-1d79-11e4-9d87-d9f74955ba1b</uuidresource>
-			<datelastmodified>Wed, 04 Feb 2015 08:11:36 GMT</datelastmodified>
+			<datelastmodified>Thu, 26 Mar 2015 10:35:14 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 06 Aug 2014 14:54:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3961,56 +3881,12 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.opencms.documentation/templates/documentation-search.jsp</source>
-			<destination>system/modules/com.alkacon.opencms.documentation/templates/documentation-search.jsp</destination>
-			<type>containerpage_template</type>
-			<uuidstructure>8114dd6d-8112-11e4-975e-bfc0090a1084</uuidstructure>
-			<uuidresource>8114dd6e-8112-11e4-975e-bfc0090a1084</uuidresource>
-			<datelastmodified>Wed, 04 Feb 2015 08:10:26 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 11 Dec 2014 08:48:40 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Description</name>
-					<value><![CDATA[Template to display search results]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Template for search results]]></value>
-				</property>
-				<property>
-					<name>cache</name>
-					<value><![CDATA[uri;locale]]></value>
-				</property>
-				<property>
-					<name>container.info</name>
-					<value><![CDATA[functionDetail=documentation-content-container]]></value>
-				</property>
-				<property type="shared">
-					<name>export</name>
-					<value><![CDATA[false]]></value>
-				</property>
-				<property>
-					<name>template</name>
-					<value><![CDATA[/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/css/style-editor.css]]></value>
-				</property>
-				<property>
-					<name>template.provider</name>
-					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=%(templatepath)]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>system/modules/com.alkacon.opencms.documentation/templates/documentation-template.jsp</source>
 			<destination>system/modules/com.alkacon.opencms.documentation/templates/documentation-template.jsp</destination>
 			<type>containerpage_template</type>
 			<uuidstructure>52e80f8b-0295-11e4-8167-1305b26fecac</uuidstructure>
 			<uuidresource>52e8369c-0295-11e4-8167-1305b26fecac</uuidresource>
-			<datelastmodified>Wed, 04 Feb 2015 08:07:11 GMT</datelastmodified>
+			<datelastmodified>Thu, 26 Mar 2015 10:35:36 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 03 Jul 2014 09:35:09 GMT</datecreated>
 			<usercreated>Admin</usercreated>
