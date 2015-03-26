@@ -37,13 +37,14 @@
 		<!-- Search slot and facets -->
 		<form id="documentation-search-form" role="form" class="form-horizontal"
 			action="<cms:link>${cms.requestContext.uri}</cms:link>">
-			<input type="hidden" name="${common.config.lastQueryParam}" value="${common.state.query}" />
+			<c:set var="escapedQuery">${fn:replace(common.state.query,'"','&quot;')}</c:set>			
+			<input type="hidden" name="${common.config.lastQueryParam}" value="${escapedQuery}" />
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 					<div class="input-group">
 						<input name="${common.config.queryParam}" class="form-control"
 							type="text" autocomplete="off" placeholder="Enter query"
-							value="${common.state.query}" /> <span class="input-group-btn">
+							value="${escapedQuery}" /> <span class="input-group-btn">
 							<button class="btn btn-primary" type="submit">Go</button>
 						</span>
 					</div>
@@ -175,29 +176,29 @@
 							<c:set var="pagination" value="${controllers.pagination}" />	
 							<ul class="pagination">
 								<li ${pagination.state.currentPage > 1 ? "" : "class='disabled'"}><a
-									href="<cms:link>${cms.requestContext.uri}?${searchform.paginationLinkParameters['1']}</cms:link>"
+									href="<cms:link>${cms.requestContext.uri}?${searchform.stateParameters.setPage['1']}</cms:link>"
 									aria-label="First"><span aria-hidden="true">First</span></a></li>
 								<c:set var="previousPage">${pagination.state.currentPage > 1 ? pagination.state.currentPage - 1 : 1}</c:set>
 								<li ${pagination.state.currentPage > 1 ? "" : "class='disabled'"}><a
-									href="<cms:link>${cms.requestContext.uri}?${searchform.paginationLinkParameters[previousPage]}</cms:link>"
+									href="<cms:link>${cms.requestContext.uri}?${searchform.stateParameters.setPage[previousPage]}</cms:link>"
 									aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
 								<c:forEach var="i" begin="${searchform.pageNavFirst}"
 									end="${searchform.pageNavLast}">
 									<c:set var="is">${i}</c:set>
 									<li ${pagination.state.currentPage eq i ? "class='active'" : ""}><a
-										href="<cms:link>${cms.requestContext.uri}?${searchform.paginationLinkParameters[is]}</cms:link>">${is}</a></li>
+										href="<cms:link>${cms.requestContext.uri}?${searchform.stateParameters.setPage[is]}</cms:link>">${is}</a></li>
 								</c:forEach>
 								<c:set var="pages">${searchform.numPages}</c:set>
 								<c:set var="next">${pagination.state.currentPage < searchform.numPages ? pagination.state.currentPage + 1 : pagination.state.currentPage}</c:set>
 								<li
 									${pagination.state.currentPage >= searchform.numPages ? "class='disabled'" : ""}><a
 									aria-label="Next"
-									href="<cms:link>${cms.requestContext.uri}?${searchform.paginationLinkParameters[next]}</cms:link>"><span
+									href="<cms:link>${cms.requestContext.uri}?${searchform.stateParameters.setPage[next]}</cms:link>"><span
 										aria-hidden="true">&raquo;</span></a>
 								<li
 									${pagination.state.currentPage >= searchform.numPages ? "class='disabled'" : ""}><a
 									aria-label="Last"
-									href="<cms:link>${cms.requestContext.uri}?${searchform.paginationLinkParameters[pages]}</cms:link>"><span
+									href="<cms:link>${cms.requestContext.uri}?${searchform.stateParameters.setPage[pages]}</cms:link>"><span
 										aria-hidden="true">Last</span></a>
 							</ul>
 						</c:if>
@@ -206,7 +207,7 @@
 						<h2>
 							<c:choose>
 							<c:when test="${controllers.didYouMean.config.isEnabled && not empty searchform.didYouMean}" >
-								Did you mean <a href='<cms:link>${cms.requestContext.uri}?${searchform.didYouMeanLinkParameters}</cms:link>'>${searchform.didYouMean}</a>?
+								Did you mean <a href='<cms:link>${cms.requestContext.uri}?${searchform.stateParameters.queryDidYouMean}</cms:link>'>${searchform.didYouMean}</a>?
 							</c:when>
 							<c:otherwise>
 								No results found.

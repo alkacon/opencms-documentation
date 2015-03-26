@@ -13,14 +13,14 @@
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[height (optional)]]></Term>
+      <Term><![CDATA[height (optional, if width is given)]]></Term>
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>Height of the generated thumbnail. Given as integer value, specifying the number of pixels. By default the height is set to -1, which means that it is chosen automatically dependent on the PDF.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[width (optional)]]></Term>
+      <Term><![CDATA[width (optional, if height is given)]]></Term>
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>Width of the generated thumbnail. Given as integer value, specifying the number of pixels. By default the width is set to -1, which means that it is chosen automatically dependent on the PDF.</p>]]></content>

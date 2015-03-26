@@ -1,5 +1,5 @@
 <%@page buffer="none" session="false" trimDirectiveWhitespaces="true" taglibs="cms,c,fmt,fn" %>
-
+<%@page import="org.opencms.main.OpenCms" %>
 <fmt:setLocale value="${cms.locale}" />
 
 <jsp:useBean id="topicGrabber" class="com.alkacon.opencms.documentation.topics.TopicGrabber">
@@ -68,8 +68,15 @@
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 
+					<c:choose>
+					<c:when test='<%=OpenCms.getModuleManager().getModule("com.alkacon.opencms.documentation.searchform") != null %>'>
+						<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation.searchform/elements/search.jsp)" />
+					</c:when>
+					<c:otherwise>
+						<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/search-google.jsp:407a975a-68b6-11e4-9296-005056b61161)" />
+					</c:otherwise>
+					</c:choose>
 					<%-- Menu for view switching (editor vs. user) --%>
-					<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/search.jsp:913527e3-811a-11e4-8c93-bfc0090a1084)" />
 					<c:if test="${!cms.isOnlineProject}">
 						<cms:container name="documentation-view-switcher-container" type="documentation-view-switcher" maxElements="1">
 							<div class="jumbotron">Place the view switcher here.</div>
