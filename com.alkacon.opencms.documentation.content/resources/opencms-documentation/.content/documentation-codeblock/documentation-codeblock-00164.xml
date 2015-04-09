@@ -45,7 +45,7 @@
   RewriteRule !^/opencms/(.*)$ /opencms%{REQUEST_URI} [PT]
 
   # 8. Rewrite rule to make OpenCms' static export working
-  RewriteCond %{REQUEST_URI} !^/export/.*$
+  RewriteCond %{REQUEST_URI} ^/export/.*$
   RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_FILENAME}" !-f
   RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_FILENAME}/index_export.html" !-f
   RewriteRule .* /opencms/handle404?exporturi=%{REQUEST_URI}&%{QUERY_STRING} [PT]
