@@ -34,10 +34,10 @@
 					<span class="label label-default">Documented since: ${content.value.NewInDocuVersion}</span>
 				</c:if>
 				<c:if test="${isEditor && (content.value.RevisedForVersion.exists || content.value.NewInDocuVersion.exists)}">
-					<span class="label label-orange">Lastest revision for: ${content.value.RevisedForVersion.exists ? content.value.RevisedForVersion : content.value.NewInDocuVersion}</span>
+					<span class="label label-orange">Latest revision for: ${content.value.RevisedForVersion.exists ? content.value.RevisedForVersion : content.value.NewInDocuVersion}</span>
 				</c:if>
 				<c:if test="${not empty openCmsVersion}">
-					<span class="label label-success">Valid for version: ${openCmsVersion}</span>
+					<span class="label label-success">Valid for OpenCms: ${openCmsVersion}</span>
 				</c:if>
 			</div>
 		</div>
