@@ -5,6 +5,9 @@
 	<c:set var="isEditor">
 		<cms:property name="opencms.documentation.editor" file="search" default="false" />
 	</c:set>
+	<c:set var="openCmsVersion">
+		<cms:property name="opencms.documentation.version" file="search" />
+	</c:set>
 	<c:if test="${not cms.isOnlineProject and isEditor and cms.vfs.exists['/documentation-editor-tools/']}">
 		<div class="alert alert-info">
 			Edit me to change the topic's metadata.
@@ -25,13 +28,16 @@
 		<div class="topic-status-tags">
 			<div class="topic-status-tags-inner">
 				<c:if test="${content.value.NewInVersion.exists}">
-					<span class="label label-info">New in OpenCms: ${content.value.NewInVersion}</span>
+					<span class="label label-info">In OpenCms since: ${content.value.NewInVersion}</span>
 				</c:if>
-				<c:if test="${content.value.NewInDocuVersion.exists}">
-					<span class="label label-default">New in Documentation: ${content.value.NewInDocuVersion}</span>
+				<c:if test="${isEditor && content.value.NewInDocuVersion.exists}">
+					<span class="label label-default">Documented since: ${content.value.NewInDocuVersion}</span>
 				</c:if>
-				<c:if test="${content.value.RevisedForVersion.exists || content.value.NewInDocuVersion.exists}">
-					<span class="label label-success">Lastest revision: ${content.value.RevisedForVersion.exists ? content.value.RevisedForVersion : content.value.NewInDocuVersion}</span>
+				<c:if test="${isEditor && (content.value.RevisedForVersion.exists || content.value.NewInDocuVersion.exists)}">
+					<span class="label label-orange">Lastest revision for: ${content.value.RevisedForVersion.exists ? content.value.RevisedForVersion : content.value.NewInDocuVersion}</span>
+				</c:if>
+				<c:if test="${not empty openCmsVersion}">
+					<span class="label label-success">Valid for version: ${openCmsVersion}</span>
 				</c:if>
 			</div>
 		</div>
