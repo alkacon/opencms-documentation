@@ -42,13 +42,6 @@
       <Order><![CDATA[index]]></Order>
     </FieldFacet>
     <FieldFacet>
-      <Field><![CDATA[newInVersion_en_l]]></Field>
-      <Label><![CDATA[Exclude new after]]></Label>
-      <MinCount><![CDATA[1]]></MinCount>
-      <Order><![CDATA[index]]></Order>
-      <FilterQueryModifier><![CDATA[[* TO %(value)]]]></FilterQueryModifier>
-    </FieldFacet>
-    <FieldFacet>
       <Field><![CDATA[improvedInVersion_en]]></Field>
       <Label><![CDATA[Improved in Version]]></Label>
       <MinCount><![CDATA[1]]></MinCount>
