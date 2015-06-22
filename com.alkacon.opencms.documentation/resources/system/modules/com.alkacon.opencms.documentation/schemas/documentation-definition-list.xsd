@@ -15,6 +15,7 @@
 		<xsd:sequence>
 			<xsd:element name="Title" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="Heading" type="OpenCmsString" minOccurs="0" />
+			<xsd:element name="Anchor" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="PropertyDef" type="OpenCmsBoolean" />
 			<xsd:element name="Entry" type="OpenCmsDocumentationDefinitionListEntry" maxOccurs="unbounded" />
 		</xsd:sequence>
