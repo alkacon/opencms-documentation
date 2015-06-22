@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/Documentation-Documents-for-download/opencms-importexport.dtd]]></target>
+          <uuid>72359be1-159e-11e5-a7cb-0242ac11002b</uuid>
+        </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/Documentation-Documents-for-download/opencms-importexport.xml]]></target>
+          <uuid>9a55be30-159c-11e5-a7cb-0242ac11002b</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>The static export is configured in <code>${WEBAPP_HOME}/WEB-INF/config/opencms-importexport.xml</code>. It is the configuration file for all import/export related features. For more information on its structure, see a <a href="%(link0)" target="_blank">full specification of this configuration file</a>, or a <a href="%(link1)" target="_blank">default configuration file</a>.</p>
+<p>The static export feature is configured in the <code>&lt;staticexport&gt;</code> node in <code>opencms-importexport.xml</code>. Ensure that the attribute <code>enabled</code> of this node is set to <code>true</code>, if you want to use static export. </p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

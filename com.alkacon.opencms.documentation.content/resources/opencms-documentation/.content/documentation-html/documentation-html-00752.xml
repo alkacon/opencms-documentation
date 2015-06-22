@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Export rules are an instrument to reduce the number of resources that are re-exported by an export after publish. Using static export after publish, OpenCms has to determine the resources that have to be re-exported from the list of published resources. Since dependencies can be very involved, it is in most cases impossible to determine what the re-export candidates are. Thus, OpenCms uses exports more resources than necessary. Typically all dynamic resources are be re-rendered and exported when only a single dynamic resource is published.</p>
+<p>Export rules specify dependencies between resources. Thus, they tell OpenCms&nbsp;explicitly which resources have to be re-exported after a special resource is published. Thus, good export rules can reduce publish time substantially.</p>
+<p>The export rules, as also all the other configuration settings for the static export, are configured in <code><span style="font-family: courier new,courier,monospace;">${WEBAPP_HOME}/WEB-INF/config/opencms-importexport.xml</span></code>.</p>
+<p>An export rule needs following data.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

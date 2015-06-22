@@ -18,6 +18,7 @@
 <li>image cache</li>
 <li>core cache</li>
 <li>JSP repository</li>
+<li>Static export</li>
 </ul>
 <p>There follows a brief overview all of these caches. Besides the flex cache, all of them work automatically and you may just have to clear them in some situations. In contrast, the flex cache is highly configurable and its configuration has a massive influence on the performance of your web site. You need to configure this cache for a performant website that also minimizes the workload of your server, but wrong configuration may yield unwanted results and even break functionality of your website. Because the flex cache is so important, we devtore a <a href="%(link0)">whole topic</a> to it.</p>
 <p>If all the caching mechanisms provided by the OpenCms core are not sufficient, you can purchase the non-free <a href="%(link1)">OCEE Accelerator</a>.</p>]]></content>
@@ -40,6 +41,15 @@
       </Link>
       <Link>
         <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/caching-in-opencms/static-export/]]></target>
+            <uuid>c899687d-1597-11e5-a7cb-0242ac11002b</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Read more about static export]]></LinkText>
+      </Link>
+      <Link>
+        <URI>
           <link internal="false" type="WEAK">
             <target><![CDATA[http://www.alkacon.com/en/products/ocee/cluster_package/accelerator.html]]></target>
           </link>
@@ -57,6 +67,7 @@
       </Link>
     </RelatedLinks>
     <NewInDocuVersion><![CDATA[9.5]]></NewInDocuVersion>
+    <RevisedForVersion><![CDATA[9.5.2]]></RevisedForVersion>
     <StatusMetaData>
       <Todos/>
     </StatusMetaData>

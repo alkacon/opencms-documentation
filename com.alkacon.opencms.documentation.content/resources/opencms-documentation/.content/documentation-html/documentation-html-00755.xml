@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[overview_options_rendersettings]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>If a published resource does not match any rule, still all VFS resources that match the <code>&lt;resourcetorender&gt;</code> node's regular expressions from the <a href="%(link0)">global render settings</a> will be exported.</p>
+<p>Keep also in mind that if you specify an <code>&lt;export-resources&gt;</code> URI that does not match the <code>&lt;resourcetorender&gt;</code> node's regular expressions, it will not be exported. So keep your <code><span style="font-family: Courier New;">&lt;resourcetorender&gt;</span></code> node's regular expressions synchronized with your&nbsp; <code><span style="font-family: monospace;">&lt;export-resources&gt;</span></code> URIs.</p>
+<p>Please note also, that if a&nbsp;resource is exported having a link to another resource, the last one will only be exported if it is part of the<code>&lt;export-resources&gt;</code> set.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

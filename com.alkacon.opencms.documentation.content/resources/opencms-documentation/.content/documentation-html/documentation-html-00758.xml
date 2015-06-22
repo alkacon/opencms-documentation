@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://documentation.opencms.org/javadoc/tld/cms/link.html]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>Some general issues you have to be aware of when using static export are:</p>
+<ul>
+<li>No page with dynamic interaction, like with forms or search functions should be exported statically.</li>
+<li>For links to VFS resources (at least the ones that are exported), always using the&nbsp;<a href="%(link0)" target="_blank">&lt;cms:link&gt;</a> tag. Provide all parameters that are given to the resource via the link <em>inside</em> the tag.</li>
+<li>Be sure the Export user has permission to read the resources to export - because every export is performed by this user.</li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>
