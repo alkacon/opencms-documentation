@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Heading><![CDATA[Subnodes of <code>&lt;staticexport&gt;</code> (Static export configuration options)]]></Heading>
+    <Anchor><![CDATA[overview_static_export_options]]></Anchor>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[staticexporthandler]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/staticexport/CmsOnDemandStaticExportHandler.html]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/staticexport/I_CmsStaticExportHandler.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>The static export handler to use. OpenCms ships with four different export handlers. For most scenarios we recommend the&nbsp;<a href="%(link0)">CmsOnDemandStaticExportHandler</a> that is already configured in the default OpenCms configuration. Moreover, you can provide your own static export handler. It has to implement the interface <a href="%(link1)">I_CmsStaticExportHandler</a>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[linksubstitutionhandler (optional)]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/staticexport/CmsDefaultLinkSubstitutionHandler.html]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/staticexport/I_CmsLinkSubstitutionHandler.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>The link substitution handler takes care of adjusting links. By default the&nbsp;<a href="%(link0)">CmsDefaultLinkSubstitutionHandler</a> is used. Typically the handler is sufficient. But you can also provide your own handler. It must implement <a href="%(link1)">I_CmsLinkSubstitutionHandler</a>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[exportpath]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The RFS path where exported files are stored. It can be given relatively to <code>${WEBAPP_HOME}</code> or as absolute path. The folder structure below the configured path mirrors (if not explicitely specified differently) the folder structure of the VFS.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[exportworkpath (optional)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The option has <em>only influence for a full static export</em>. If specified<span class="footnote">and there are not several identical export path specified in export rules</span>, the files are first exported to the work path and moved to the export path in the end. The default export work path is <code>${WEBAPP_HOME}/WEB-INF/temp</code>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[exportbackups (optional)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The option has<em> only influence for export after publish</em>. It specifies the number of backups (backup folders) in the RFS. Default is <code>0</code>. If set to a positive integer <code>n</code>, the last <code>n</code> backups are stored under <code>${EXPORT_PATH}/backup${i}</code>., where i is between <code>1</code> (latest backup) and <code>n</code> (oldest backup). If export rules are defined, folders for each rule are written, where these are named <code>backup${export rule name}${i}</code>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[defaultpropertyvalue]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If a resource should be exported can be specified via the property <code>export</code>. If set to <code>true</code> (at the resource or a parent folder), the resource is exported. If set to <code>false</code>, it isn't. If the export property is not specified at all, the export property's default value, as configured here, is chosen. In the default configuration the value is <code>false</code>.<span class="footnote">Note that files with specified default suffixes are always exported - independently of the <code>export</code> property.</span></p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[defaultsuffixes (optional)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Files that have one of the suffixes listed here are always exported to the RFS. In the default configuration these are files with suffix <code>.jpg</code>, <code>.png</code>, <code>.zip</code> etc.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[exportheaders (optional)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>A list of HTTP headers which can be used when exporting plain resources (e.g. binary files like pdf).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[requestheaders (optional)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>A list of HTTP headers are used while sending the internal requests during the static export. If none of those headers are defined, the default settings (language and encoding) of OpenCms are used.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[rendersettings]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[overview_options_rendersettings]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>The render settings control how template based resources are written to (i.e. "rendered") the "real" FS. For example, you can specify how links are adjusted. Here's the <a href="%(link0)">overview on these settings</a>.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

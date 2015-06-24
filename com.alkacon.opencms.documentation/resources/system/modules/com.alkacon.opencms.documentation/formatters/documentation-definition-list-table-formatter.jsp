@@ -5,6 +5,10 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <cms:formatter var="content">
 	<div>
+		<c:if test="${not content.value.Anchor.isEmptyOrWhitespaceOnly}">
+			<c:set var="anchor">${content.value.Anchor}</c:set>
+			<a name="${anchor}"></a>
+		</c:if>
 		<c:if test="${content.value.Heading.exists}">
 			<h5 class="heading" ${content.rdfa.Heading}>${content.value.Heading}</h5>
 		</c:if>

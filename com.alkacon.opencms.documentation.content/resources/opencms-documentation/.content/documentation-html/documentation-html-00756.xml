@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>A basic setting for the static export feature is the folder, where RFS copies of files should be stored. In the default configuration, they are written to <code>${WEBAPP_HOME}/WEB-INF/export</code>.This can be configured modifying the <code>&lt;exportpath&gt;</code> node, which should contain an absolute path or a path relative to <code>${WEBAPP_HOME}</code>.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

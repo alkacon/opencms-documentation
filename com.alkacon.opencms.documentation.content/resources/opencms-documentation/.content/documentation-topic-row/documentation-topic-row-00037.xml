@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationTopicrows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic-row.xsd">
+  <DocumentationTopicrow language="en">
+    <Title><![CDATA[Improved in OpenCms 9.5.2]]></Title>
+    <Item>
+      <Topic>
+        <PageLink>
+          <link type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/search-settings/]]></target>
+            <uuid>bb7a2160-65a5-11e4-9296-005056b61161</uuid>
+            <anchor><![CDATA[sec_attributes_of_solrfield]]></anchor>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[Search settings: Let XML contents attach Solr fields to container pages.]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>In the search settings in the XSD defining a content type, it is possible to define mappings to Solr fields. Now, you can attach these fields not only to the document of the XML content, but also to the documents of the containerpages where the content is placed on. Use the <code>addto</code> attribute of the <code>&lt;solrfield&gt;</code> node.</p>]]></content>
+        </AltTeaser>
+      </Topic>
+    </Item>
+  </DocumentationTopicrow>
+</DocumentationTopicrows>

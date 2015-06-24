@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Real file system rules (RFS rules) allow to specify export settings that apply only to parts of the VFS resources. Thus you can overwrite the global settings for a part of the resources. This may in particular be necessary if you serve more than one website from one OpenCms installation.</p>
+<p>RFS rules are defined in <code>opencms-importexport.xml</code> in the optional subnode <code>opencms/importexport/staticexport/rendersettings/rfs-rules</code>. Each rule is defined in a subnode <code>&lt;rfs-rule&gt;</code>. Here's the structure of such a rule:</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

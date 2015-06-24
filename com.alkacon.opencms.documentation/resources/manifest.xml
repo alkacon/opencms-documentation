@@ -2,9 +2,9 @@
 
 <export>
 	<info>
-		<creator>Admin</creator>
+		<creator>dSeidel</creator>
 		<opencms_version>9.7.x</opencms_version>
-		<createdate>Thu, 26 Mar 2015 10:40:01 GMT</createdate>
+		<createdate>Mon, 22 Jun 2015 13:21:23 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -14,7 +14,7 @@
 		<group>OpenCms Documentation</group>
 		<class/>
 		<description><![CDATA[Provides all the content types with formatters and templates to set up a topic-based documentation. Used for the OpenCms documentation.]]></description>
-		<version>10.0.0</version>
+		<version>10.0.1</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated/>
@@ -163,10 +163,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>2f3bb290-ab12-11e4-ad5f-f9d322068617</uuidstructure>
-			<datelastmodified>Mon, 02 Feb 2015 19:32:11 GMT</datelastmodified>
+			<uuidstructure>0d574dcd-158f-11e5-afa5-0242ac11002b</uuidstructure>
+			<datelastmodified>Mon, 27 Jun 2005 08:00:00 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 02 Feb 2015 19:32:11 GMT</datecreated>
+			<datecreated>Thu, 18 Jun 2015 07:53:05 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -185,10 +185,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>30c5d53c-ab12-11e4-ad5f-f9d322068617</uuidstructure>
-			<datelastmodified>Mon, 02 Feb 2015 19:32:14 GMT</datelastmodified>
+			<uuidstructure>0fa2ebb9-158f-11e5-afa5-0242ac11002b</uuidstructure>
+			<datelastmodified>Thu, 18 Jun 2015 07:53:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 02 Feb 2015 19:32:14 GMT</datecreated>
+			<datecreated>Thu, 18 Jun 2015 07:53:09 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -723,8 +723,8 @@
 			<type>jsp</type>
 			<uuidstructure>bc1ddec8-005d-11e4-8f23-1305b26fecac</uuidstructure>
 			<uuidresource>bc1ddec9-005d-11e4-8f23-1305b26fecac</uuidresource>
-			<datelastmodified>Thu, 27 Nov 2014 15:41:30 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Mon, 22 Jun 2015 09:27:47 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Mon, 30 Jun 2014 13:52:11 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -779,8 +779,8 @@
 			<type>jsp</type>
 			<uuidstructure>f02be9bc-26c5-11e4-be78-49dbf0abad32</uuidstructure>
 			<uuidresource>f02be9bd-26c5-11e4-be78-49dbf0abad32</uuidresource>
-			<datelastmodified>Thu, 27 Nov 2014 15:41:39 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Mon, 22 Jun 2015 09:28:00 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Mon, 18 Aug 2014 10:53:50 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -2732,26 +2732,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.opencms.documentation/lib/com.alkacon.opencms.documentation.jar</source>
-			<destination>system/modules/com.alkacon.opencms.documentation/lib/com.alkacon.opencms.documentation.jar</destination>
-			<type>binary</type>
-			<uuidstructure>16dbea37-ac5b-11e4-9571-f9d322068617</uuidstructure>
-			<uuidresource>16dbea38-ac5b-11e4-9571-f9d322068617</uuidresource>
-			<datelastmodified>Wed, 04 Feb 2015 10:47:09 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Wed, 04 Feb 2015 10:46:35 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[com.alkacon.opencms.documentation]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<destination>system/modules/com.alkacon.opencms.documentation/pages</destination>
 			<type>folder</type>
 			<uuidstructure>a8415137-64d2-11e4-9296-005056b61161</uuidstructure>
@@ -3268,8 +3248,8 @@
 			<type>plain</type>
 			<uuidstructure>bc1700f5-005d-11e4-8f23-1305b26fecac</uuidstructure>
 			<uuidresource>bc1700f6-005d-11e4-8f23-1305b26fecac</uuidresource>
-			<datelastmodified>Tue, 15 Jul 2014 08:15:37 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Mon, 22 Jun 2015 09:21:51 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Mon, 30 Jun 2014 13:52:11 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>

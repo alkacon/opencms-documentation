@@ -71,5 +71,15 @@
         <content><![CDATA[<p>Sets a boost to the resulting Solr field. See also in <a href="%(link0)">the Solr wiki</a>.</p>]]></content>
       </Description>
     </Entry>
+    <Entry>
+      <Term><![CDATA[addto (optional)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>This attribute specifies to which documents (search index entries) the field should be added. By default, it is added to the document of the XML content. But you can also add it to all containerpages the content is placed on. Set <code>addto="page,element"</code> to add the field to the documents of containerpages and XML content. Choose <code>addto="page"</code> to add it only to containerpages.</p>
+<p>&nbsp;</p>
+<p>Adding search fields to containerpages is in particular useful, if you have a facetted search over containerpages. You can build facets over fields that are filled from XML contents - as, for example done for this documentation.</p>
+<div class="alert alert-info">If you add a search field to containerpages, ensure to use a multivalued field. Think about two contents on a page mapping to the same field of the containerpage's document.</div>]]></content>
+      </Description>
+    </Entry>
   </DocumentationDefinitionList>
 </DocumentationDefinitionLists>

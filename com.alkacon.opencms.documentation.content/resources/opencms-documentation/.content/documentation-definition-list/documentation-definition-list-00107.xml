@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Heading><![CDATA[The render settings for static export dynamically generated resources]]></Heading>
+    <Anchor><![CDATA[overview_options_rendersettings]]></Anchor>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[rfs-prefix]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The prefix used for links to exported resources. In the default configuration <code>${CONTEXT_NAME}/export</code> is used.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[vfs-prefix]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The prefix used for links to resources that are not exported. In the default configuration <code>${CONTEXT_NAME}${SERVLET_NAME}</code> is used. If you install OpenCms as ROOT app, use <code>${CONTEXT_NAME}</code> instead.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[userelativelinks]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If set to <code>true</code>, relative links are produced. Otherwise absolute links are generated. Typically <code>false</code> is the correct setting. Only, if you want to export your whole website and put the static files on a CD or USB-Stick, you should use relative links.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[exporturl]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The URL given here is internally called to export template resources, i.e., a HTTP request to this machine is done to generate them. Usually this should be a request to the server itself, i.e., <code>localhost</code>. Typically, the default configuration <code>http://127.0.0.1:8080${CONTEXT_NAME}/handle404</code> is sufficient.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[plainoptimization]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The option <em>only influences after-publish static export</em>. It speeds up this static export, if files that are not rendered (e.g., images, plain text files, ...) are published. If set to <code>true</code>, publishing those files will only cause their re-export, but avoid re-exporting rendered resources. You may need to turn of the plain optimization if rendered resources depend on those files, e.g., your navigation has entries for those files.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[testresource]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p><em>(no description)</em></p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[resourcestorender]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/.galleries/Documentation-Documents-for-download/opencms-importexport.xml]]></target>
+            <uuid>9a55be30-159c-11e5-a7cb-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Here you can specify the resources to render <em>for a full static export or in after-publish mode</em>. The intention is to speed up the export process by excluding folders like <code>/system</code>. Provide them in <code>&lt;regex&gt;</code>-subnodes. See the&nbsp;<a href="%(link0)">default configuration</a> for an example.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[rfs-rules (optional)]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[sec_rfs_rules]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>With RFS-rules you can overwrite the global render settings for source sets specified in the rule. Read more about them <a href="%(link0)">below</a>.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>
