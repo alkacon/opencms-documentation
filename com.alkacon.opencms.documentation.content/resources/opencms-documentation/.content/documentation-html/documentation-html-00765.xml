@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>To add a new language, say Czech (locale <code>cs</code>), to the spellchecker, you have to add a new field definition to the <code>schema.xml</code> of the spellchecker's Solr core. The <code>schema.xml</code> is found under <code>${WEBAPP_HOME}/WEB-INF/spellcheck/conf/</code>. Just add the new field with the same attributes as the already existing fields, as done in line 22 in the <code>schema.xml</code> shown below.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

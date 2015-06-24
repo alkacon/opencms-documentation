@@ -8,9 +8,14 @@
           <target><![CDATA[/sites/default/opencms-documentation/caching-in-opencms/static-export/]]></target>
           <uuid>c899687d-1597-11e5-a7cb-0242ac11002b</uuid>
         </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/solr-search-integration/spellchecking-for-the-tinymce/]]></target>
+          <uuid>483dc436-197a-11e5-9ac7-0242ac11002b</uuid>
+        </link>
       </links>
       <content><![CDATA[<ul>
 <li><a href="%(link0)">Description of the static export and its configuration.</a></li>
+<li><a href="%(link1)">Configuration of the spellchecker for the tinyMCE (Editor used in the HTML widget).</a></li>
 </ul>]]></content>
     </Html>
   </DocumentationHtml>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Heading><![CDATA[Naming scheme for dictionary files]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[dict_{locale}.{txt|zip}]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Dictionaries with this name scheme are meant to be default dictionaries for a language. They can either be given as raw text files with one word per line. In this case, use the suffix <code>.txt</code>. Or, they can be given as zipped version of the text file. In this case, use the suffix <code>.zip</code>. The locale should be given as two letter string.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[custom_dict_{locale}.{txt|zip}]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Dictionaries with this name scheme are meant to be custom dictionaries for a language. They typically provide specific extensions to the default dictionaries. Here you may specify words like <em>OpenCms</em>, that are not a default English word - but still spelled correctly. The custom dictionaries can either be given as raw text files with one word per line. In this case, use the suffix <code>.txt</code>. Or, they can be given as zipped version of such a text file. In this case, use the suffix <code>.zip</code>. The locale should be given as two letter string.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>
