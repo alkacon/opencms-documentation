@@ -10,11 +10,12 @@
       <Description name="Description0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/default/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/search-settings/]]></target>
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/search-settings/]]></target>
+            <uuid>bb7a2160-65a5-11e4-9296-005056b61161</uuid>
             <anchor><![CDATA[simple_example]]></anchor>
           </link>
         </links>
-        <content><![CDATA[<p>The attribute <code>targetfield</code> defines the name of the Solr field where the mapped content is written to. The actual resulting Solr field name consists of <code>{targetfield}_{locale}</code>. The content is written into a locale-specific text field for each locale the document is defined in. E.g.: If the content is available in the locales English (<code>en</code>) and German (<code>de</code>), the values will be mapped to the field <code>{targetfield}_en</code> and <code>{targetfield}_de</code>. See Section <a href="%(link0)">[simple_example]</a> for an example.</p>]]></content>
+        <content><![CDATA[<p>The attribute <code>targetfield</code> defines the name of the Solr field where the mapped content is written to. The actual resulting Solr field name consists of <code>{targetfield}_{locale}</code>. The content is written into a locale-specific text field for each locale the document is defined in. E.g.: If the content is available in the locales English (<code>en</code>) and German (<code>de</code>), the values will be mapped to the field <code>{targetfield}_en</code> and <code>{targetfield}_de</code>. See Section&nbsp;<a href="%(link0)">[simple_example]</a> for an example.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -29,7 +30,8 @@
       <Description name="Description0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/default/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/search-settings/]]></target>
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/search-settings/]]></target>
+            <uuid>bb7a2160-65a5-11e4-9296-005056b61161</uuid>
             <anchor><![CDATA[specifying_searchfield_types]]></anchor>
           </link>
         </links>
@@ -41,7 +43,8 @@
       <Description name="Description0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/default/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/search-settings/]]></target>
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/search-settings/]]></target>
+            <uuid>bb7a2160-65a5-11e4-9296-005056b61161</uuid>
             <anchor><![CDATA[specifying_searchfield_types]]></anchor>
           </link>
           <link name="link1" internal="false" type="A">
@@ -49,7 +52,7 @@
             <anchor><![CDATA[Copy_Fields]]></anchor>
           </link>
         </links>
-        <content><![CDATA[<p>The attribute <code>copyfields</code> is used to duplicate the result of the mapping to other Solr fields. See <a href="%(link0)">[specifying_searchfield_types]</a> for an example and also in <a href="%(link1)">the Solr wiki</a>.</p>]]></content>
+        <content><![CDATA[<p>The attribute <code>copyfields</code> is used to duplicate the result of the mapping to other Solr fields. See&nbsp;<a href="%(link0)">[specifying_searchfield_types]</a> for an example and also in <a href="%(link1)">the Solr wiki</a>.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
