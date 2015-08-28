@@ -4,12 +4,8 @@
   <AlkaconDocumentationGlossarEntry language="en">
     <Term><![CDATA[index field]]></Term>
     <RefId><![CDATA[index_field]]></RefId>
-    <Match>
-      <MatchString><![CDATA[index field]]></MatchString>
-    </Match>
-    <Match>
-      <MatchString><![CDATA[index fields]]></MatchString>
-    </Match>
+    <Match><![CDATA[index field]]></Match>
+    <Match><![CDATA[index fields]]></Match>
     <Description name="Description0">
       <links/>
       <content><![CDATA[<p>'Index field' describes a field of a search index. Depending on the search engine used, it refers to a Solr field or a Lucene field.</p>]]></content>

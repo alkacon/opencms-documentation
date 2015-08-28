@@ -6,13 +6,8 @@
     <RefId><![CDATA[ade]]></RefId>
     <Synonym><![CDATA[advanced direct edit]]></Synonym>
     <Synonym><![CDATA[direct edit]]></Synonym>
-    <Match>
-      <MatchString><![CDATA[ADE]]></MatchString>
-      <CaseSensitive>true</CaseSensitive>
-    </Match>
-    <Match>
-      <MatchString><![CDATA[advanced direct edit]]></MatchString>
-    </Match>
+    <Match><![CDATA[advanced direct edit]]></Match>
+    <MatchCaseSensitive><![CDATA[ADE]]></MatchCaseSensitive>
     <Description name="Description0">
       <links>
         <link name="link0" internal="true" type="A">
