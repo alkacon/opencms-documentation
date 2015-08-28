@@ -9,7 +9,7 @@
  </jsp:useBean>
 
 <cms:formatter var="content" val="value" rdfa="rdfa">
-
+<cms:decorate file="/system/modules/com.alkacon.opencms.documentation/decoration/configuration.xml">
 <div class="margin-bottom-30">
 
 	<c:if test="${not cms.element.settings.hidetitle}">
@@ -45,5 +45,6 @@
 	</div>
 
 </div>
+</cms:decorate>
 
 </cms:formatter>

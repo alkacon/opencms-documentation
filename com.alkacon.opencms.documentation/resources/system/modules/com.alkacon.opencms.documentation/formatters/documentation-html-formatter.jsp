@@ -5,6 +5,8 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <cms:formatter var="content">
 <div>
+	<cms:decorate file="/system/modules/com.alkacon.opencms.documentation/decoration/configuration.xml">
 	<div ${content.rdfa.Html}>${content.value.Html}</div>
+	</cms:decorate>
 </div>
 </cms:formatter>
