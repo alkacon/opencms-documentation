@@ -16,7 +16,8 @@
 			<xsd:element name="Term" type="OpenCmsString" />
 			<xsd:element name="RefId" type="OpenCmsString" />
 			<xsd:element name="Synonym" type="OpenCmsString" minOccurs="0" maxOccurs="unbounded"/>
-			<xsd:element name="Match" type="OpenCmsDocumentationGlossarMatch" minOccurs="0" maxOccurs="unbounded" />
+			<xsd:element name="Match" type="OpenCmsString" minOccurs="0" maxOccurs="unbounded" />
+			<xsd:element name="MatchCaseSensitive" type="OpenCmsString" minOccurs="0" maxOccurs="unbounded" />
 			<xsd:element name="Description" type="OpenCmsHtml" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
@@ -42,6 +43,15 @@
 			<searchsettings>
 				<searchsetting element="Term">
 					<solrfield targetfield="term" sourcefield="*_sort" />
+				</searchsetting>
+				<searchsetting element="Match">
+					<solrfield targetfield="match" sourcefield="*_s" />				
+				</searchsetting>
+				<searchsetting element="MatchCaseSensitive">
+					<solrfield targetfield="match_case" sourcefield="*_s" />				
+				</searchsetting>
+				<searchsetting element="Description">
+					<solrfield targetfield="description" />				
 				</searchsetting>
 			</searchsettings>
 		</xsd:appinfo>

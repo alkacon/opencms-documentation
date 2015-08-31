@@ -97,7 +97,7 @@ public class CmsSolrBasedDecorationDefinition extends CmsDecorationDefintion {
             String content = getResourceContent(cms, res);
 
             // First for the case insensitive matches
-            List<String> matches = res.getMultivaluedField("match_en_s");
+            List<String> matches = res.getMultivaluedField("match_en");
             if (matches != null) {
                 for (String match : matches) {
                     CmsCaseSensDecorationObject decObject = new CmsCaseSensDecorationObject(
@@ -112,7 +112,7 @@ public class CmsSolrBasedDecorationDefinition extends CmsDecorationDefintion {
             }
 
             // Now for the case sensitive matches
-            List<String> matchesCaseSensitive = res.getMultivaluedField("match_case_en_s");
+            List<String> matchesCaseSensitive = res.getMultivaluedField("match_case_en");
             if (matchesCaseSensitive != null) {
                 for (String match : matchesCaseSensitive) {
                     CmsCaseSensDecorationObject decObject = new CmsCaseSensDecorationObject(

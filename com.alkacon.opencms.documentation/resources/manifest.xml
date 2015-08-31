@@ -2,9 +2,9 @@
 
 <export>
 	<info>
-		<creator>bFeldberg</creator>
+		<creator>Admin</creator>
 		<opencms_version>9.7.x</opencms_version>
-		<createdate>Fri, 28 Aug 2015 08:28:15 GMT</createdate>
+		<createdate>Mon, 31 Aug 2015 14:45:56 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>7</export_version>
 	</info>
@@ -54,6 +54,9 @@
 			<resource uri="/system/workplace/resources/filetypes/documentation-dummy-content_big.png"/>
 			<resource uri="/system/workplace/resources/filetypes/documentation-view-switcher.png"/>
 			<resource uri="/system/workplace/resources/filetypes/documentation-view-switcher_big.png"/>
+			<resource uri="/system/workplace/resources/filetypes/documentation-video.png"/>
+			<resource uri="/system/workplace/resources/filetypes/documentation-video_big.png"/>
+			<resource uri="/system/modules/com.alkacon.opencms.documentation/decoration/"/>
 		</resources>
 		<excluderesources/>
 		<parameters>
@@ -108,6 +111,9 @@
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="documentation-view-switcher" id="363">
 				<param name="schema">/system/modules/com.alkacon.opencms.documentation/schemas/documentation-view-switcher.xsd</param>
 			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="documentation-video" id="20527">
+				<param name="schema">/system/modules/com.alkacon.opencms.documentation/schemas/documentation-video.xsd</param>
+			</type>
 		</resourcetypes>
 		<explorertypes>
 			<explorertype name="documentation-topic" key="fileicon.documentation-topic" icon="documentation-topic.png" bigicon="documentation-topic_big.png" reference="xmlcontent">
@@ -157,6 +163,9 @@
 			</explorertype>
 			<explorertype name="documentation-view-switcher" key="fileicon.documentation-view-switcher" icon="documentation-view-switcher.png" bigicon="documentation-view-switcher_big.png" reference="xmlcontent">
 				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=documentation-view-switcher" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-view-switcher" key="title.documentation-view-switcher"/>
+			</explorertype>
+			<explorertype name="documentation-video" key="fileicon.documentation-video" icon="documentation-video.png" bigicon="documentation-video_big.png" reference="xmlcontent">
+				<newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=documentation-video" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-video" key="title.documentation-video"/>
 			</explorertype>
 		</explorertypes>
 	</module>
@@ -224,7 +233,7 @@
 			<type>module_config</type>
 			<uuidstructure>d9a929aa-fc67-11e3-8410-fb93821e3720</uuidstructure>
 			<uuidresource>d9a929ab-fc67-11e3-8410-fb93821e3720</uuidresource>
-			<datelastmodified>Tue, 24 Feb 2015 08:02:55 GMT</datelastmodified>
+			<datelastmodified>Mon, 31 Aug 2015 07:57:20 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 25 Jun 2014 12:54:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -243,6 +252,115 @@
 					<value><![CDATA[all]]></value>
 				</property>
 			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation/decoration</destination>
+			<type>folder</type>
+			<uuidstructure>a5e3bafc-4d6c-11e5-8a41-0050563e5972</uuidstructure>
+			<datelastmodified>Fri, 28 Aug 2015 10:07:53 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 28 Aug 2015 10:07:53 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[HTML Decoration]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/decoration/configuration.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/decoration/configuration.xml</destination>
+			<type>xmlcontent</type>
+			<uuidstructure>a5ece2c1-4d6c-11e5-8a41-0050563e5972</uuidstructure>
+			<uuidresource>a5ece2c2-4d6c-11e5-8a41-0050563e5972</uuidresource>
+			<datelastmodified>Thu, 27 Aug 2015 13:29:05 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 28 Aug 2015 10:07:54 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms Decoration]]></value>
+				</property>
+				<property>
+					<name>category</name>
+					<value><![CDATA[com.alkacon.opencms.documentation.decorator.CmsSolrBasedDecoratorConfiguration]]></value>
+				</property>
+				<property>
+					<name>content-encoding</name>
+					<value><![CDATA[ISO-8859-1]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/decoration/decoration.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/decoration/decoration.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>a5f98cf6-4d6c-11e5-8a41-0050563e5972</uuidstructure>
+			<uuidresource>a5f98cf7-4d6c-11e5-8a41-0050563e5972</uuidresource>
+			<datelastmodified>Wed, 26 Aug 2015 07:22:16 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 28 Aug 2015 10:07:54 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested XSD for decoration]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/decoration/decorationconfiguration.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/decoration/decorationconfiguration.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>a5fe47e9-4d6c-11e5-8a41-0050563e5972</uuidstructure>
+			<uuidresource>a5fe47ea-4d6c-11e5-8a41-0050563e5972</uuidresource>
+			<datelastmodified>Mon, 27 Mar 2006 12:00:00 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 28 Aug 2015 10:07:54 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[XSD for decoration]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/decoration/decorations.csv</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/decoration/decorations.csv</destination>
+			<type>plain</type>
+			<uuidstructure>a6039f1c-4d6c-11e5-8a41-0050563e5972</uuidstructure>
+			<uuidresource>a6039f1d-4d6c-11e5-8a41-0050563e5972</uuidresource>
+			<datelastmodified>Thu, 20 Aug 2015 08:18:23 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Fri, 28 Aug 2015 10:07:54 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -1060,7 +1178,7 @@
 			<type>jsp</type>
 			<uuidstructure>cce13f45-fd33-11e3-8938-fb93821e3720</uuidstructure>
 			<uuidresource>cce13f46-fd33-11e3-8938-fb93821e3720</uuidresource>
-			<datelastmodified>Wed, 26 Aug 2015 13:44:52 GMT</datelastmodified>
+			<datelastmodified>Fri, 28 Aug 2015 10:56:55 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 26 Jun 2014 13:14:27 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1284,7 +1402,7 @@
 			<type>jsp</type>
 			<uuidstructure>eec308f4-74b1-11e4-82bd-259ec8a334d7</uuidstructure>
 			<uuidresource>eec308f5-74b1-11e4-82bd-259ec8a334d7</uuidresource>
-			<datelastmodified>Thu, 20 Aug 2015 08:21:06 GMT</datelastmodified>
+			<datelastmodified>Fri, 28 Aug 2015 10:57:16 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 25 Nov 2014 14:47:09 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1294,6 +1412,58 @@
 					<name>cache</name>
 					<value><![CDATA[container-element;uri]]></value>
 				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-video-formatter-config.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-video-formatter-config.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>e7a6a0e0-4fb5-11e5-8a41-0050563e5972</uuidstructure>
+			<uuidresource>e7a6a0e1-4fb5-11e5-8a41-0050563e5972</uuidresource>
+			<datelastmodified>Mon, 31 Aug 2015 10:04:52 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 31 Aug 2015 07:57:19 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Documentation Video Formatter]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-video-formatter.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-video-formatter.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>e79fc30d-4fb5-11e5-8a41-0050563e5972</uuidstructure>
+			<uuidresource>e79fc30e-4fb5-11e5-8a41-0050563e5972</uuidresource>
+			<datelastmodified>Mon, 31 Aug 2015 10:03:15 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 31 Aug 2015 07:57:19 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
 				<property type="shared">
 					<name>export</name>
 					<value><![CDATA[false]]></value>
@@ -2584,7 +2754,7 @@
 			<type>xmlvfsbundle</type>
 			<uuidstructure>d997293e-fc67-11e3-8410-fb93821e3720</uuidstructure>
 			<uuidresource>d997293f-fc67-11e3-8410-fb93821e3720</uuidresource>
-			<datelastmodified>Wed, 26 Nov 2014 09:00:03 GMT</datelastmodified>
+			<datelastmodified>Mon, 31 Aug 2015 07:57:19 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 25 Jun 2014 12:54:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -3438,6 +3608,26 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Schema for documentation topic]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/schemas/documentation-video.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/documentation-video.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>e776b732-4fb5-11e5-8a41-0050563e5972</uuidstructure>
+			<uuidresource>e776b733-4fb5-11e5-8a41-0050563e5972</uuidresource>
+			<datelastmodified>Mon, 31 Aug 2015 08:50:02 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 31 Aug 2015 07:57:19 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Sample resource type schema]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -4568,6 +4758,54 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[documentation-topic-icon_big]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/documentation-video.png</source>
+			<destination>system/workplace/resources/filetypes/documentation-video.png</destination>
+			<type>image</type>
+			<uuidstructure>e784c0f5-4fb5-11e5-8a41-0050563e5972</uuidstructure>
+			<uuidresource>e784c0f6-4fb5-11e5-8a41-0050563e5972</uuidresource>
+			<datelastmodified>Mon, 31 Aug 2015 10:56:08 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 31 Aug 2015 07:57:19 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[sample-icon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/documentation-video_big.png</source>
+			<destination>system/workplace/resources/filetypes/documentation-video_big.png</destination>
+			<type>image</type>
+			<uuidstructure>e789a2f9-4fb5-11e5-8a41-0050563e5972</uuidstructure>
+			<uuidresource>e789a2fa-4fb5-11e5-8a41-0050563e5972</uuidresource>
+			<datelastmodified>Mon, 31 Aug 2015 10:56:08 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 31 Aug 2015 07:57:19 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[sample-icon_big]]></value>
 				</property>
 				<property type="shared">
 					<name>image.size</name>

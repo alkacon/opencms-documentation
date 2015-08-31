@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[Documentation Video Formatter]]></NiceName>
+    <Type><![CDATA[documentation-video]]></Type>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.opencms.documentation/formatters/documentation-video-formatter.jsp]]></target>
+        <uuid>e79fc30d-4fb5-11e5-8a41-0050563e5972</uuid>
+      </link>
+    </Jsp>
+    <Rank><![CDATA[1000]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[documentation-section]]></ContainerType>
+      </Types>
+    </Match>
+    <Preview>false</Preview>
+    <SearchContent>true</SearchContent>
+    <AutoEnabled>true</AutoEnabled>
+    <Detail>true</Detail>
+    <NestedContainers>false</NestedContainers>
+    <Setting>
+      <PropertyName><![CDATA[width]]></PropertyName>
+      <DisplayName><![CDATA[Width]]></DisplayName>
+      <Description><![CDATA[The width of the embedded player.]]></Description>
+      <Widget><![CDATA[string]]></Widget>
+      <Default><![CDATA[800]]></Default>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[height]]></PropertyName>
+      <DisplayName><![CDATA[Height]]></DisplayName>
+      <Description><![CDATA[The height of the embedded player.]]></Description>
+      <Widget><![CDATA[string]]></Widget>
+      <Default><![CDATA[450]]></Default>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[autoplay]]></PropertyName>
+      <DisplayName><![CDATA[Autoplay]]></DisplayName>
+      <Description><![CDATA[If enabled, the player starts playing the video when it is loaded.]]></Description>
+      <Widget><![CDATA[checkbox]]></Widget>
+      <Default><![CDATA[false]]></Default>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[fs]]></PropertyName>
+      <DisplayName><![CDATA[Fullscreen allowed]]></DisplayName>
+      <Description><![CDATA[If enabled, the button to switch to fullscreen mode will be displayed.]]></Description>
+      <Widget><![CDATA[checkbox]]></Widget>
+      <Default><![CDATA[true]]></Default>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[loop]]></PropertyName>
+      <DisplayName><![CDATA[Loop]]></DisplayName>
+      <Description><![CDATA[If enabled, the video will start from beginning if it ends.]]></Description>
+      <Widget><![CDATA[checkbox]]></Widget>
+      <Default><![CDATA[false]]></Default>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[showinfo]]></PropertyName>
+      <DisplayName><![CDATA[Show Info]]></DisplayName>
+      <Description><![CDATA[If enabled, the player will display video title and author before the video is started.]]></Description>
+      <Widget><![CDATA[checkbox]]></Widget>
+      <Default><![CDATA[true]]></Default>
+    </Setting>
+  </NewFormatter>
+</NewFormatters>
