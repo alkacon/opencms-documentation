@@ -45,10 +45,10 @@
 					<solrfield targetfield="term" sourcefield="*_sort" />
 				</searchsetting>
 				<searchsetting element="Match">
-					<solrfield targetfield="match" sourcefield="*_s" />				
+					<solrfield targetfield="match" />				
 				</searchsetting>
 				<searchsetting element="MatchCaseSensitive">
-					<solrfield targetfield="match_case" sourcefield="*_s" />				
+					<solrfield targetfield="match_case" />				
 				</searchsetting>
 				<searchsetting element="Description">
 					<solrfield targetfield="description" />				
