@@ -13,21 +13,32 @@
 <c:set var="centered">${cms.element.settings.centered ? 'style="text-align:center;"' : ''}</c:set>
 
 <cms:formatter var="content">
-	<div ${centered}>
-	${cms.enableReload}
-		<c:choose>
-			<c:when test="${content.value.VideoID.isSet}">
-				<iframe id="${content.value.Identifier}" type="text/html" width="${width}" height="${height}" 
-					src="http://www.youtube.com/embed/${content.value.VideoID}?autoplay=${autoplay}&loop=${loop}&fs=${fs}&showinfo=${showinfo}&rel=0&modestbranding=1" frameborder="0" ></iframe>
-			</c:when>
+<div ${centered}>
+${cms.enableReload}
+	<div>
+		<div class="tag-box tag-box-v4">
 			
-			<c:otherwise>
-				<div class="alert alert-danger" style="width: ${width}px; height: ${height}px;">
-					<h2>
-						Please enter the VideoID for the video you want to show here.
-					</h2>
-				</div>
-			</c:otherwise>
-		</c:choose>
+			<a name="vid_${fn:replace(fn:toLowerCase(content.value.Identifier)," ","_")}"></a>
+		
+			<c:choose>
+				<c:when test="${content.value.VideoID.isSet}">
+					<iframe type="text/html" width="${width}" height="${height}" 
+						src="http://www.youtube.com/embed/${content.value.VideoID}?autoplay=${autoplay}&loop=${loop}&fs=${fs}&showinfo=${showinfo}&rel=0&modestbranding=1" frameborder="0" ></iframe>
+				</c:when>
+				
+				<c:otherwise>
+					<div class="alert alert-danger" style="width: ${width}px; height: ${height}px;">
+						<h2>
+							Please enter the VideoID for the video you want to show here.
+						</h2>
+					</div>
+				</c:otherwise>
+			</c:choose>
+		
+			<div>
+				<b>Fig. [<span ${content.rdfa.Identifier}>${content.value.Identifier}</span>]:</b> <span ${content.rdfa.Title}>${content.value.Title}</span>
+			</div>
+		</div>
 	</div>
+</div>
 </cms:formatter>
