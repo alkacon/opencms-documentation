@@ -3,16 +3,17 @@
 <export>
 	<info>
 		<creator>Admin</creator>
-		<opencms_version>9.7.x</opencms_version>
-		<createdate>Thu, 26 Mar 2015 10:38:55 GMT</createdate>
+		<opencms_version>9.9.x</opencms_version>
+		<createdate>Tue, 08 Sep 2015 07:46:56 GMT</createdate>
 		<infoproject>Offline</infoproject>
-		<export_version>7</export_version>
+		<export_version>10</export_version>
 	</info>
 	<module>
 		<name>com.alkacon.opencms.documentation.searchform</name>
 		<nicename><![CDATA[OpenCms Documentation Search-Form]]></nicename>
 		<group>OpenCms Documentation</group>
 		<class/>
+		<export-mode name="default"/>
 		<description><![CDATA[Contains the search functionality of the OpenCms documentation. Requires OpenCms 10.0]]></description>
 		<version>9.5.6</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
@@ -30,6 +31,7 @@
 			<resource uri="/opencms-documentation/.content/jsp-search-form/"/>
 			<resource uri="/opencms-documentation/search/"/>
 		</resources>
+		<excluderesources/>
 		<parameters/>
 	</module>
 	<files>
@@ -42,7 +44,36 @@
 			<datecreated>Thu, 08 Jan 2015 13:55:00 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[The OpenCms documentation, brought to you by Alkacon Software.]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[OpenCms Documentation]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms Documentation]]></value>
+				</property>
+				<property>
+					<name>default-file</name>
+					<value><![CDATA[##navigation_level_folder##]]></value>
+				</property>
+				<property>
+					<name>opencms.documentation.editor</name>
+					<value><![CDATA[false]]></value>
+				</property>
+				<property>
+					<name>opencms.documentation.version</name>
+					<value><![CDATA[9.5.2]]></value>
+				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.opencms.documentation/templates/documentation-template.jsp]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -75,10 +106,10 @@
 		<file>
 			<source>opencms-documentation/.content/jsp-search-form/jsp-search-form-00001.xml</source>
 			<destination>opencms-documentation/.content/jsp-search-form/jsp-search-form-00001.xml</destination>
-			<type>jsp-search-form</type>
+			<type>jsp-search</type>
 			<uuidstructure>d5f17835-ac5f-11e4-b42e-0242ac11002b</uuidstructure>
 			<uuidresource>d5f17836-ac5f-11e4-b42e-0242ac11002b</uuidresource>
-			<datelastmodified>Mon, 23 Feb 2015 13:32:46 GMT</datelastmodified>
+			<datelastmodified>Tue, 08 Sep 2015 07:35:14 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 04 Feb 2015 11:20:33 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -145,10 +176,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>2f3bb290-ab12-11e4-ad5f-f9d322068617</uuidstructure>
-			<datelastmodified>Mon, 02 Feb 2015 19:32:11 GMT</datelastmodified>
+			<uuidstructure>fa56a932-55f5-11e5-963a-0242ac11002b</uuidstructure>
+			<datelastmodified>Mon, 27 Jun 2005 08:00:00 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 02 Feb 2015 19:32:11 GMT</datecreated>
+			<datecreated>Tue, 08 Sep 2015 06:51:06 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -167,10 +198,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>30c5d53c-ab12-11e4-ad5f-f9d322068617</uuidstructure>
-			<datelastmodified>Mon, 02 Feb 2015 19:32:14 GMT</datelastmodified>
+			<uuidstructure>fc80b55e-55f5-11e5-963a-0242ac11002b</uuidstructure>
+			<datelastmodified>Tue, 08 Sep 2015 06:51:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 02 Feb 2015 19:32:14 GMT</datecreated>
+			<datecreated>Tue, 08 Sep 2015 06:51:09 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -259,7 +290,7 @@
 			<type>jsp</type>
 			<uuidstructure>3a760d7c-ab17-11e4-86dc-f9d322068617</uuidstructure>
 			<uuidresource>3a760d7d-ab17-11e4-86dc-f9d322068617</uuidresource>
-			<datelastmodified>Tue, 17 Feb 2015 12:10:51 GMT</datelastmodified>
+			<datelastmodified>Tue, 08 Sep 2015 07:33:28 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 02 Feb 2015 20:08:18 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -279,7 +310,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>406bc76f-ab17-11e4-86dc-f9d322068617</uuidstructure>
 			<uuidresource>406bc770-ab17-11e4-86dc-f9d322068617</uuidresource>
-			<datelastmodified>Mon, 02 Feb 2015 21:26:25 GMT</datelastmodified>
+			<datelastmodified>Tue, 08 Sep 2015 07:33:45 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 02 Feb 2015 20:08:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>

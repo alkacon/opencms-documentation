@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JspSearchFormConfigs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.jsp.search/schemas/jsp-search-form.xsd">
-  <JspSearchFormConfig language="en">
+<JspSearchConfigs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.jsp.search/schemas/jsp-search.xsd">
+  <JspSearchConfig language="en">
     <Title><![CDATA[Documentation Search Results]]></Title>
     <ExtraSolrParams><![CDATA[fq=type:containerpage&fq=parent-folders:"/sites/default/opencms-documentation/"]]></ExtraSolrParams>
     <PageSize><![CDATA[8]]></PageSize>
@@ -36,7 +36,6 @@
     </FieldFacet>
     <FieldFacet>
       <Field><![CDATA[newInVersion_en]]></Field>
-      <Name><![CDATA[newinversion]]></Name>
       <Label><![CDATA[New in Version]]></Label>
       <MinCount><![CDATA[1]]></MinCount>
       <Order><![CDATA[index]]></Order>
@@ -54,6 +53,6 @@
       <SimplePost><![CDATA[@-@]]></SimplePost>
       <UseFastVectorHighlighting>true</UseFastVectorHighlighting>
     </Highlighting>
-    <DidYouMeanEnabled>true</DidYouMeanEnabled>
-  </JspSearchFormConfig>
-</JspSearchFormConfigs>
+    <DidYouMean/>
+  </JspSearchConfig>
+</JspSearchConfigs>

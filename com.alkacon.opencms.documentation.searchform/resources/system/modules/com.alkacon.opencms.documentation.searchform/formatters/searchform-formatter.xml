@@ -3,7 +3,7 @@
 <NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
   <NewFormatter language="en">
     <NiceName><![CDATA[Documentation Search Form Formatter]]></NiceName>
-    <Type><![CDATA[jsp-search-form]]></Type>
+    <Type><![CDATA[jsp-search]]></Type>
     <Jsp>
       <link type="WEAK">
         <target><![CDATA[/system/modules/com.alkacon.opencms.documentation.searchform/formatters/searchform-formatter.jsp]]></target>

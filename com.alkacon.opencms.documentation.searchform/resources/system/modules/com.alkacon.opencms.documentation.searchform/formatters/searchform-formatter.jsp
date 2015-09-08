@@ -29,7 +29,7 @@
 <cms:formatter var="content">
 <fmt:setLocale value="${cms.locale}" />
 <cms:bundle basename="com.alkacon.opencms.documentation.topic">
-<cms:searchform var="searchform"
+<cms:search var="searchform"
 	configFile="${content.filename}">
 	<c:set var="controllers" value="${searchform.controller}" />
 	<c:set var="common" value="${controllers.common}" />
@@ -226,7 +226,7 @@
 			}
 		</script>
 	</div>
-</cms:searchform>
+</cms:search>
 </cms:bundle>
 </cms:formatter>
 </c:otherwise>
