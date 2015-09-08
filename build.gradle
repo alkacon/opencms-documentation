@@ -70,8 +70,31 @@ modules_documentation_all.split(',').each{ moduleName ->
         }
         moduleVersion = parsedManifest.module[0].version[0].text()
     }
-    
-    task "dist_$moduleName" (type: Zip){
+    task "jar_$moduleName" (type: Jar) {
+        if (file("${projectDir}/${moduleName}/src").exists()){
+            ext.moduleName = moduleName
+            ext.moduleVersion= moduleVersion
+            manifest {
+                attributes 'Implementation-Title': 'Alkacon OpenCms Documentation', 'Implementation-Version': moduleVersion
+            }
+            from sourceSets[moduleName].output
+            archiveName moduleName+'.jar'
+            baseName moduleName
+            exclude '**/.gitignore'
+            exclude '**/test/**'
+            doFirst {
+                println '======================================================'
+                println "Building JAR for $moduleName version $moduleVersion"
+                println '======================================================'
+            }
+        } else {
+            println '======================================================'
+            println "No JAR required for $moduleName version $moduleVersion"
+            println '======================================================'
+        }
+    }
+
+    task "dist_$moduleName" (dependsOn: "jar_$moduleName", type: Zip){
         ext.moduleName = moduleName
         ext.moduleFolder = moduleFolder
         ext.dependencies = moduleDependencies
@@ -123,29 +146,7 @@ modules_documentation_all.split(',').each{ moduleName ->
                         )
             }
         }
-    }    
-    
-    if (file("${projectDir}/${moduleName}/src").exists()){
-	    task "jar_$moduleName" (type: Jar) {
-	        
-	            ext.moduleName = moduleName
-	            ext.moduleVersion= moduleVersion
-	            manifest {
-	                attributes 'Implementation-Title': 'Alkacon OpenCms Documentation', 'Implementation-Version': moduleVersion
-	            }
-	            from sourceSets[moduleName].output
-	            archiveName moduleName+'.jar'
-	            baseName moduleName
-	            exclude '**/.gitignore'
-	            exclude '**/test/**'
-	            doFirst {
-	                println '======================================================'
-	                println "Building JAR for $moduleName version $moduleVersion"
-	                println '======================================================'
-	            }
-	    }
-	    tasks["dist_$moduleName"].dependsOn tasks["jar_$moduleName"]
-    } 
+    }
     
     if (gwtModule != null){
         println "creating sourceset for $gwtModule"
@@ -237,12 +238,9 @@ tasks.findAll{ task -> task.name.startsWith('dist_')}.each{ dist_task ->
             }
         }
     }
-    if(tasks.findByPath('jar_'+dist_task.moduleName) != null) {
-    	tasks['jar_'+dist_task.moduleName].dependsOn{
-        	tasks.findAll{ comp_task -> comp_task.name.toLowerCase().equals('compile'+dist_task.moduleName.replaceAll('\\.','')+'java')}
-    	}
+    tasks['jar_'+dist_task.moduleName].dependsOn{
+        tasks.findAll{ comp_task -> comp_task.name.toLowerCase().equals('compile'+dist_task.moduleName.replaceAll('\\.','')+'java')}
     }
-    
     bindist.dependsOn dist_task
 }
 
