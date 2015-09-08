@@ -2,17 +2,19 @@
 
 <export>
 	<info>
-		<creator>dSeidel</creator>
-		<opencms_version>9.7.x</opencms_version>
-		<createdate>Fri, 28 Aug 2015 08:28:15 GMT</createdate>
+		<creator>Admin</creator>
+		<opencms_version>9.9.x</opencms_version>
+		<createdate>Tue, 08 Sep 2015 08:22:41 GMT</createdate>
 		<infoproject>Offline</infoproject>
-		<export_version>7</export_version>
+		<export_version>10</export_version>
 	</info>
 	<module>
 		<name>com.alkacon.opencms.documentation.content</name>
 		<nicename><![CDATA[OpenCms documentation content]]></nicename>
 		<group>OpenCms Documentation</group>
 		<class/>
+		<import-site>/sites/default</import-site>
+		<export-mode name="default"/>
 		<description><![CDATA[All the content of the OpenCms documentation. Place it in the site where the content should be available, usually /sites/default/]]></description>
 		<version>9.5.7</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
@@ -27,6 +29,10 @@
 		<resources>
 			<resource uri="/opencms-documentation/"/>
 		</resources>
+		<excluderesources>
+			<resource uri="/opencms-documentation/search/"/>
+			<resource uri="/opencms-documentation/.content/jsp-search-form/"/>
+		</excluderesources>
 		<parameters/>
 	</module>
 	<files>
@@ -34,8 +40,8 @@
 			<destination>opencms-documentation</destination>
 			<type>subsitemap</type>
 			<uuidstructure>f002c53d-973d-11e4-8878-b7eb8d90e9b7</uuidstructure>
-			<datelastmodified>Wed, 24 Jun 2015 06:55:43 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<datelastmodified>Wed, 18 Mar 2015 14:08:13 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 08 Jan 2015 13:55:00 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -73,38 +79,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>opencms-documentation/index.html</source>
-			<destination>opencms-documentation/index.html</destination>
-			<type>htmlredirect</type>
-			<uuidstructure>5572c9c0-973e-11e4-8878-b7eb8d90e9b7</uuidstructure>
-			<uuidresource>5572c9c1-973e-11e4-8878-b7eb8d90e9b7</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:22:09 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 08 Jan 2015 13:57:50 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Documentation]]></value>
-				</property>
-				<property>
-					<name>locale-available</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>search.exclude</name>
-					<value><![CDATA[all]]></value>
-				</property>
-				<property type="shared">
-					<name>template-elements</name>
-					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<destination>opencms-documentation/.content</destination>
 			<type>content_folder</type>
 			<uuidstructure>7b01ccd6-02bc-11e4-8167-1305b26fecac</uuidstructure>
@@ -114,38 +88,6 @@
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>opencms-documentation/.content/.config</source>
-			<destination>opencms-documentation/.content/.config</destination>
-			<type>sitemap_config</type>
-			<uuidstructure>7c155ee8-02bc-11e4-8167-1305b26fecac</uuidstructure>
-			<uuidresource>7c155ee9-02bc-11e4-8167-1305b26fecac</uuidresource>
-			<datelastmodified>Tue, 24 Feb 2015 08:02:04 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 03 Jul 2014 14:15:28 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>512</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Sitemap configuration file]]></value>
-				</property>
-				<property>
-					<name>locale</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>locale-available</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>search.exclude</name>
-					<value><![CDATA[all]]></value>
-				</property>
-			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -3276,9 +3218,9 @@
 			<uuidstructure>e6b4df2c-1996-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>e6b4df2d-1996-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 23 Jun 2015 11:00:13 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 10:59:21 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -3291,9 +3233,9 @@
 			<uuidstructure>76f43f47-1998-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>76f43f48-1998-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 23 Jun 2015 11:13:01 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 11:10:32 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -3306,9 +3248,9 @@
 			<uuidstructure>775ad3e7-1999-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>775ad3e8-1999-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 23 Jun 2015 11:17:46 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 11:17:42 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -3321,9 +3263,9 @@
 			<uuidstructure>12c61edc-199a-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>12c61edd-199a-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 23 Jun 2015 11:22:27 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 11:22:03 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -5479,9 +5421,9 @@
 			<uuidstructure>ca39994f-1992-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>ca399950-1992-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 24 Jun 2015 06:42:57 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 10:29:55 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -9629,7 +9571,7 @@
 			<uuidstructure>7ef3241b-0835-11e4-a403-b7bfd6088c56</uuidstructure>
 			<uuidresource>7ef3241c-0835-11e4-a403-b7bfd6088c56</uuidresource>
 			<datelastmodified>Wed, 24 Jun 2015 06:54:44 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 10 Jul 2014 13:24:18 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -19469,9 +19411,9 @@
 			<uuidstructure>bee038b4-197d-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>bee038b5-197d-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 24 Jun 2015 06:41:17 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 07:59:16 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -19514,7 +19456,7 @@
 			<uuidstructure>fa76b54d-18bc-11e5-a7cb-0242ac11002b</uuidstructure>
 			<uuidresource>fa76b54e-18bc-11e5-a7cb-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 24 Jun 2015 06:50:52 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 22 Jun 2015 08:59:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -19754,9 +19696,9 @@
 			<uuidstructure>75b338a5-1991-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>75b338a6-1991-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 23 Jun 2015 10:37:23 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 10:20:24 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -19769,9 +19711,9 @@
 			<uuidstructure>da3066d5-1993-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>da3066d6-1993-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 23 Jun 2015 11:18:13 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 10:37:31 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -19784,9 +19726,9 @@
 			<uuidstructure>9af44854-1995-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>9af44855-1995-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 23 Jun 2015 10:54:51 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 10:50:04 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -19799,9 +19741,9 @@
 			<uuidstructure>4c854898-1996-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>4c854899-1996-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 24 Jun 2015 06:44:50 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 10:55:02 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -19814,9 +19756,9 @@
 			<uuidstructure>1715f823-1997-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>1715f824-1997-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 23 Jun 2015 11:02:02 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 11:00:42 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -19829,9 +19771,9 @@
 			<uuidstructure>91d6fce3-1997-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>91d6fce4-1997-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 24 Jun 2015 06:46:09 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 11:04:08 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -19844,9 +19786,9 @@
 			<uuidstructure>f37829ad-1998-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>f37829ae-1998-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 23 Jun 2015 11:15:32 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 11:14:01 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -19859,9 +19801,9 @@
 			<uuidstructure>8a3c33ac-1999-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>8a3c33ad-1999-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 24 Jun 2015 06:43:35 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 11:18:14 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -19874,9 +19816,9 @@
 			<uuidstructure>daeaf4e6-1999-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>daeaf4e7-1999-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 23 Jun 2015 11:25:11 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 11:20:29 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -19889,9 +19831,9 @@
 			<uuidstructure>899b4368-199a-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>899b4369-199a-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 24 Jun 2015 06:47:39 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 11:25:22 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -21137,7 +21079,7 @@
 			<uuidstructure>fe3296cf-0833-11e4-a403-b7bfd6088c56</uuidstructure>
 			<uuidresource>fe3296d0-0833-11e4-a403-b7bfd6088c56</uuidresource>
 			<datelastmodified>Wed, 24 Jun 2015 06:30:50 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 10 Jul 2014 13:13:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -31417,9 +31359,9 @@
 			<uuidstructure>4a35c3ad-197a-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>4a35c3ae-197a-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 23 Jun 2015 09:22:29 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 07:34:32 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -31437,9 +31379,9 @@
 			<uuidstructure>81b0324c-1989-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>81b0324d-1989-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 23 Jun 2015 11:16:33 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 09:23:28 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -31457,9 +31399,9 @@
 			<uuidstructure>61c0933c-1995-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>61c0933d-1995-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 23 Jun 2015 10:49:45 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 10:48:28 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -31477,9 +31419,9 @@
 			<uuidstructure>0523347e-1996-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>0523347f-1996-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 24 Jun 2015 06:45:36 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 10:53:02 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -31497,9 +31439,9 @@
 			<uuidstructure>50730728-1997-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>50730729-1997-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 24 Jun 2015 06:45:25 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 11:02:18 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -31517,9 +31459,9 @@
 			<uuidstructure>a684cd71-1999-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>a684cd72-1999-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 23 Jun 2015 11:19:09 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 11:19:01 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -34789,9 +34731,9 @@
 			<uuidstructure>48e6122b-197a-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>48e6122c-197a-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 24 Jun 2015 06:31:46 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 07:34:30 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -50366,9 +50308,9 @@
 			<type>folder</type>
 			<uuidstructure>483dc436-197a-11e5-9ac7-0242ac11002b</uuidstructure>
 			<datelastmodified>Tue, 23 Jun 2015 07:34:57 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 07:34:29 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -50394,9 +50336,9 @@
 			<uuidstructure>4a483a40-197a-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>4a483a41-197a-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 23 Jun 2015 11:25:23 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 07:34:32 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -51062,6 +51004,70 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[The explorer view]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/.config</source>
+			<destination>opencms-documentation/.content/.config</destination>
+			<type>sitemap_config</type>
+			<uuidstructure>7c155ee8-02bc-11e4-8167-1305b26fecac</uuidstructure>
+			<uuidresource>7c155ee9-02bc-11e4-8167-1305b26fecac</uuidresource>
+			<datelastmodified>Tue, 24 Feb 2015 08:02:04 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 03 Jul 2014 14:15:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>512</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Sitemap configuration file]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/index.html</source>
+			<destination>opencms-documentation/index.html</destination>
+			<type>htmlredirect</type>
+			<uuidstructure>5572c9c0-973e-11e4-8878-b7eb8d90e9b7</uuidstructure>
+			<uuidresource>5572c9c1-973e-11e4-8878-b7eb8d90e9b7</uuidresource>
+			<datelastmodified>Mon, 12 Jan 2015 10:22:09 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 08 Jan 2015 13:57:50 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Documentation]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+				<property type="shared">
+					<name>template-elements</name>
+					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
 				</property>
 			</properties>
 			<relations/>
