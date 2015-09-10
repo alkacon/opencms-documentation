@@ -2,17 +2,18 @@
 
 <export>
 	<info>
-		<creator>Admin</creator>
-		<opencms_version>9.5.0</opencms_version>
-		<createdate>Tue, 18 Nov 2014 08:10:43 GMT</createdate>
+		<creator>dSeidel</creator>
+		<opencms_version>9.9.x</opencms_version>
+		<createdate>Thu, 10 Sep 2015 10:23:58 GMT</createdate>
 		<infoproject>Offline</infoproject>
-		<export_version>7</export_version>
+		<export_version>10</export_version>
 	</info>
 	<module>
 		<name>com.alkacon.opencms.documentation.editortools</name>
 		<nicename><![CDATA[OpenCms Documenation Administration]]></nicename>
 		<group>OpenCms Documentation</group>
 		<class/>
+		<export-mode name="default"/>
 		<description><![CDATA[Provides tools and extra contents to be used by editors]]></description>
 		<version>9.5.3</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
@@ -31,6 +32,7 @@
 			<resource uri="/system/workplace/resources/filetypes/auto-correct-xml.png"/>
 			<resource uri="/system/workplace/resources/filetypes/auto-correct-xml_big.png"/>
 		</resources>
+		<excluderesources/>
 		<parameters/>
 		<resourcetypes>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="auto-correct-xml" id="20297">
@@ -47,10 +49,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>744e057b-69b3-11e4-87a7-259ec8a334d7</uuidstructure>
-			<datelastmodified>Tue, 11 Nov 2014 15:00:20 GMT</datelastmodified>
+			<uuidstructure>a49c980c-5789-11e5-8584-0242ac11002b</uuidstructure>
+			<datelastmodified>Mon, 27 Jun 2005 08:00:00 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 11 Nov 2014 15:00:20 GMT</datecreated>
+			<datecreated>Thu, 10 Sep 2015 07:00:38 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -69,10 +71,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>75c98127-69b3-11e4-87a7-259ec8a334d7</uuidstructure>
-			<datelastmodified>Tue, 11 Nov 2014 15:00:22 GMT</datelastmodified>
+			<uuidstructure>a70581f8-5789-11e5-8584-0242ac11002b</uuidstructure>
+			<datelastmodified>Thu, 10 Sep 2015 07:00:42 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 11 Nov 2014 15:00:22 GMT</datecreated>
+			<datecreated>Thu, 10 Sep 2015 07:00:42 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -630,8 +632,8 @@
 			<type>containerpage_template</type>
 			<uuidstructure>0956e25f-2d2b-11e4-93f4-d144f6bb3566</uuidstructure>
 			<uuidresource>0956e260-2d2b-11e4-93f4-d144f6bb3566</uuidresource>
-			<datelastmodified>Tue, 18 Nov 2014 07:42:59 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 10 Sep 2015 10:21:16 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Tue, 26 Aug 2014 14:12:39 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -715,19 +717,6 @@
 			<destination>system/workplace/resources</destination>
 			<type>folder</type>
 			<uuidstructure>82c16052-11b7-11db-91cd-fdbae480bac9</uuidstructure>
-			<datelastmodified>Mon, 27 Mar 2006 12:00:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 27 Jun 2005 08:00:00 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>system/workplace/resources/filetypes</destination>
-			<type>folder</type>
-			<uuidstructure>83ca1dcc-11b7-11db-91cd-fdbae480bac9</uuidstructure>
 			<datelastmodified>Mon, 27 Mar 2006 12:00:00 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 27 Jun 2005 08:00:00 GMT</datecreated>

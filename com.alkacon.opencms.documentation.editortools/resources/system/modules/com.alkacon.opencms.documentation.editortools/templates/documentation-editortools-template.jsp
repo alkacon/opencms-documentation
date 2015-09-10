@@ -8,7 +8,7 @@
 
 <html lang="en">
 <head>
-	<title>OpenCms Documentation Administration | ${cms.title}</title>
+	<title>OpenCms Documentation Administration | <c:out value="${cms.title}"/></title>
 	
 	<meta charset="${cms.requestContext.encoding}">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">

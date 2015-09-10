@@ -1,4 +1,4 @@
-<%@page buffer="none" session="false" trimDirectiveWhitespaces="true" taglibs="cms" %>
+<%@page buffer="none" session="false" trimDirectiveWhitespaces="true" taglibs="cms,c" %>
 <!--=== Header ===-->
 
 <!--=== Top ===-->
@@ -29,7 +29,7 @@
 <div class="breadcrumbs margin-bottom-30">
 	<div class="container-fluid container-main">
         <h1 class="pull-left">
-        	${cms.title}
+        	<c:out value="${cms.title}" />
         	<c:if test="${cms.isEditMode}">
             	<span class="badge superscript">${cms.requestContext.currentUser.name}</span>
             </c:if>

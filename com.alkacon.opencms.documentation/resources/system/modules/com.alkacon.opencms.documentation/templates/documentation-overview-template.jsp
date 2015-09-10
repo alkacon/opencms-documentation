@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>OpenCms Documentation | ${cms.title}</title>
+	<title>OpenCms Documentation | <c:out value="${cms.title}"/></title>
 	
 	<meta charset="${cms.requestContext.encoding}">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -70,7 +70,7 @@
 
 					<c:choose>
 					<c:when test='<%=OpenCms.getModuleManager().getModule("com.alkacon.opencms.documentation.searchform") != null %>'>
-						<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation.searchform/elements/search.jsp)" />
+						<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation.searchform/elements/search.jsp:913527e3-811a-11e4-8c93-bfc0090a1084)" />
 					</c:when>
 					<c:otherwise>
 						<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/search-google.jsp:407a975a-68b6-11e4-9296-005056b61161)" />
