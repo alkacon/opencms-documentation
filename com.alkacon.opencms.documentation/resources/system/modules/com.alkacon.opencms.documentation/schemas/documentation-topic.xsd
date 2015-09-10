@@ -49,8 +49,8 @@
 				<visibility element="Title" params="" />
 			</visibilities>
 			<layouts>
-				<layout element="Overview" widget="HtmlWidget" configuration="height:300px,link,image,table,source,hidebuttons:underline;strikethrough;alignleft;alignright;aligncenter;justify;indent;outdend;blockquote;hr;print,stylesformat:/system/modules/com.alkacon.opencms.documentation/resources/tinymce/styles.xml,imagegallery{useformat:true,formatnames: 'inline:Inline', formatvalues: ['14x?']}" />
-				<layout element="Teaser" widget="HtmlWidget" configuration="height:150px,link,image,table,source,hidebuttons:underline;strikethrough;alignleft;alignright;aligncenter;justify;indent;outdend;blockquote;hr;print,stylesformat:/system/modules/com.alkacon.opencms.documentation/resources/tinymce/styles.xml,imagegallery{useformat:true,formatnames: 'inline:Inline', formatvalues: ['14x?']}" />
+				<layout element="Overview" widget="HtmlWidget" configuration="height:300px,link,image,table,source,hidebuttons:underline;strikethrough;alignleft;alignright;aligncenter;justify;indent;outdend;blockquote;hr;print,style,stylesformat:/system/modules/com.alkacon.opencms.documentation/resources/tinymce/styles.xml,imagegallery{useformat:true,formatnames: 'inline:Inline', formatvalues: ['14x?']}" />
+				<layout element="Teaser" widget="HtmlWidget" configuration="height:150px,link,image,table,source,hidebuttons:underline;strikethrough;alignleft;alignright;aligncenter;justify;indent;outdend;blockquote;hr;print,style,stylesformat:/system/modules/com.alkacon.opencms.documentation/resources/tinymce/styles.xml,imagegallery{useformat:true,formatnames: 'inline:Inline', formatvalues: ['14x?']}" />
 				<layout element="InterestingFor" widget="MultiSelectWidget" configuration="a_serverOperator:%(key.select.role.a_serverOperator)|b_opencmsAdmin:%(key.select.role.b_opencmsAdmin)|c_developer:%(key.select.role.c_developer)|d_workplaceUser:%(key.select.role.d_workplaceUser)|e_editor:%(key.select.role.e_editor)" />
 			</layouts>
 			<validationrules>

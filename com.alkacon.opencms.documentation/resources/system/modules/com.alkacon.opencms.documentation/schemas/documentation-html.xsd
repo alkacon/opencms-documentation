@@ -24,7 +24,7 @@
 				<default element="Html" value="Add Html content here" />
 			</defaults>
 			<layouts>
-				<layout element="Html" widget="HtmlWidget" configuration="height:800px,link,image,table,source,hidebuttons:underline;strikethrough;alignleft;alignright;aligncenter;justify;indent;outdend;blockquote;hr;print,stylesformat:/system/modules/com.alkacon.opencms.documentation/resources/tinymce/styles.xml,imagegallery{useformat:true,formatnames: 'inline:Inline', formatvalues: ['14x?']}" />
+				<layout element="Html" widget="HtmlWidget" configuration="height:800px,link,image,table,source,hidebuttons:underline;strikethrough;alignleft;alignright;aligncenter;justify;indent;outdend;blockquote;hr;print,style,stylesformat:/system/modules/com.alkacon.opencms.documentation/resources/tinymce/styles.xml,imagegallery{useformat:true,formatnames: 'inline:Inline', formatvalues: ['14x?']}" />
 			</layouts>
 			<validationrules/>
 			<relations/>
