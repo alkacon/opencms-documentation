@@ -3,18 +3,7 @@
 <AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
   <AlkaconDocumentationTopicFrame language="en">
     <Overview name="Overview0">
-      <links>
-        <link name="link0" internal="true" type="A">
-          <target><![CDATA[/sites/default/opencms-documentation/typical-tasks/writing-jsps/]]></target>
-          <uuid>62f3bf30-0bf2-11e4-a03c-b7bfd6088c56</uuid>
-          <anchor><![CDATA[sec_opencms_taglib]]></anchor>
-        </link>
-        <link name="link1" internal="true" type="A">
-          <target><![CDATA[/sites/default/opencms-documentation/typical-tasks/writing-jsps/]]></target>
-          <uuid>62f3bf30-0bf2-11e4-a03c-b7bfd6088c56</uuid>
-          <anchor><![CDATA[sec_opencms_el_functionality]]></anchor>
-        </link>
-      </links>
+      <links/>
       <content><![CDATA[<p>JSPs (Java Server Pages) provide a powerful way to build web pages dynamically. They are <em>the</em> way, web pages are generated in OpenCms. In essence a JSP is a Java program that looks like HTML code and, if executed, creates a HTML page. The particular advantage of a JSP is that arbitrary Java code can be executed to produce HTML output. There are three ways to accomplish dynamic HTML creation by executing Java code:</p>
 <ul>
 <li>Special tags provided via taglibs</li>
@@ -26,7 +15,7 @@
 <ul>
 <li>JSPs are managed/added via the OpenCms workplace and have the resource type “jsp”</li>
 <li>Each JSP exists in an “offline” and an “online” version</li>
-<li>JSPs can be exported statically</li>
+<li>JSPs can't be exported statically, but there rendered output can be cached</li>
 <li>To increase performance you might have to alter FlexCache settings</li>
 </ul>
 <p>In OpenCms JSPs are used for several purposes:</p>
@@ -37,9 +26,10 @@
 </ul>
 <p>To easily create JSPs for the purposes just described, OpenCms comes with a special API for JSPs that consists mainly of two parts:</p>
 <ul>
-<li><a href="%(link0)">The OpenCms taglib</a></li>
-<li><a href="%(link1)">A set of Java beans to make OpenCms functionality accessible via the EL</a><br /><br /></li>
-</ul>]]></content>
+<li>The OpenCms taglib</li>
+<li>A set of Java beans to make OpenCms functionality accessible via the EL</li>
+</ul>
+<p>This page forwards you to the relevant topics on writing JSPs in OpenCms.</p>]]></content>
     </Overview>
     <Teaser name="Teaser0">
       <links/>
@@ -47,17 +37,8 @@
     </Teaser>
     <Keywords><![CDATA[typical tasks, jsp, writing jsps, taglib]]></Keywords>
     <InterestingFor><![CDATA[c_developer]]></InterestingFor>
-    <RelatedLinks>
-      <Link>
-        <URI>
-          <link internal="false" type="WEAK">
-            <target><![CDATA[http://files.opencms.org/javadoc/tld/]]></target>
-          </link>
-        </URI>
-        <LinkText><![CDATA[Documentation of the OpenCms taglib]]></LinkText>
-      </Link>
-    </RelatedLinks>
     <NewInDocuVersion><![CDATA[9.0]]></NewInDocuVersion>
+    <RevisedForVersion><![CDATA[9.5.2]]></RevisedForVersion>
     <StatusMetaData>
       <Todos/>
     </StatusMetaData>

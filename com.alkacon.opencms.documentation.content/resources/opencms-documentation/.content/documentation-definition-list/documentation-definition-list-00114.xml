@@ -2,27 +2,33 @@
 
 <DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
   <DocumentationDefinitionList language="en">
-    <Title><![CDATA[ResourceBean: Provider and availability]]></Title>
     <PropertyDef>false</PropertyDef>
     <Entry>
-      <Term><![CDATA[Provider class]]></Term>
+      <Term><![CDATA[Purpose]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p><code>org.opencms.file.CmsResource</code></p>]]></content>
+        <content><![CDATA[Add a description]]></content>
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Access via]]></Term>
+      <Term><![CDATA[EL expression]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p><code>cms.vfs.resource[&lt;URI&gt;]</code></p>]]></content>
+        <content><![CDATA[Add a description]]></content>
       </Description>
     </Entry>
     <Entry>
       <Term><![CDATA[Availability]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Whenever the requested URI exists and the current user has the necessary permissions.</p>]]></content>
+        <content><![CDATA[Add a description]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[JavaDoc]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[Add a description]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>
