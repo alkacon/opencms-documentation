@@ -57,8 +57,12 @@
 <body data-documentation-editor="${isEditor}">
 	<div class="page-wrap">
 		<c:if test="${cms.isEditMode}">
+			<c:set var="height" value="35px" />
+			<c:if test='${not fn:startsWith(cms.systemInfo.versionNumber, "9.")}'>
+				<c:set var="height" value="51px" />
+			</c:if>
 			<!--=== Placeholder for OpenCms toolbar in edit mode ===-->
-			<div style="background: lightgray; height: 35px">&nbsp;</div>
+			<div style="background: lightgray; height: ${height}">&nbsp;</div>
 		</c:if>
 
 	<!--=== Header ===-->

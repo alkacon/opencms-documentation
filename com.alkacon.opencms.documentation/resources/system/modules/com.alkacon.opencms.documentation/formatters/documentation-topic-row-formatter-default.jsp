@@ -13,7 +13,7 @@
 <div class="margin-bottom-30">
 
 	<c:if test="${not cms.element.settings.hidetitle}">
-		<div><h5 ${rdfa.Title}>${value.Title}</h5></div>
+		<div><h5 ${rdfa.Title}>${fn:escapeXml(value.Title)}</h5></div>
 	</c:if>
 	
 	<div class="row">
@@ -24,11 +24,15 @@
 					<ul class="topic-row-item">
 						<c:forEach var="topicItem" items="${item.valueList.Topic}">
 							<c:set var="pageLink" value="${topicItem.value.PageLink}" />
-							<c:set var="topic" value="${topicGrabber.topicContent[pageLink]}" />
-							<c:set var="hasTeaser" value="${(cms.element.settings['showteaser'] eq 'true') and ((not topicLink.value.AltTeaser.isEmptyOrWhitespaceOnly) or ((not empty topic) && topic.value.Teaser.isSet))}" />							<li>
+							<c:set var="internal" value="${not empty pageLink.xmlText['link/uuid']}" /> <%-- HACK: Determine internal by present uuid. --%>
+							<c:if test="${internal}">
+								<c:set var="topic" value="${topicGrabber.topicContent[pageLink]}" />
+							</c:if>
+							<c:set var="hasTeaser" value="${(cms.element.settings['showteaser']) and ((not topicItem.value.AltTeaser.isEmptyOrWhitespaceOnly) or (internal and (not empty topic) and topic.value.Teaser.isSet))}" />
+							<li>
 								<div>
 									<h6 class="topic-row-item-header">
-										<a href="<cms:link>${pageLink}</cms:link>">${topicItem.value.AltHeading.isEmptyOrWhitespaceOnly ? cms.vfs.property[pageLink]["Title"] : topicItem.value.AltHeading}</a>
+										<a href="<cms:link>${pageLink}</cms:link>">${topicItem.value.AltHeading.isEmptyOrWhitespaceOnly ? (internal ? fn:escapeXml(cms.vfs.property[pageLink]["Title"]) : pageLink) : fn:escapeXml(topicItem.value.AltHeading)}</a>
 									</h6>
 								</div>
 								<c:if test="${hasTeaser}">

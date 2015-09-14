@@ -12,7 +12,7 @@
 
 	<xsd:complexType name="OpenCmsDocumentationTopicrowItemEntry">
 		<xsd:sequence>
-			<xsd:element name="PageLink" type="OpenCmsVfsFile" />
+			<xsd:element name="PageLink" type="OpenCmsVarLink" />
 			<xsd:element name="AltHeading" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="AltTeaser" type="OpenCmsHtml"  minOccurs="0" />
 		</xsd:sequence>
