@@ -15,7 +15,9 @@
 	<c:if test="${not cms.element.settings.hidetitle}">
 		<div><h5 ${rdfa.Title}>${fn:escapeXml(value.Title)}</h5></div>
 	</c:if>
-	
+	<c:if test="${not value.Description.isEmptyOrWhitespaceOnly}">
+		<div class="topic-row-teaser">${value.Description}</div>
+	</c:if>
 	<div class="row">
 		<c:forEach var="item" items="${content.valueList.Item}">
 			<div class="${cms:lookup(fn:length(content.valueList.Item), '1:col-xs-12|2:col-sm-6|3:col-md-4')}">				

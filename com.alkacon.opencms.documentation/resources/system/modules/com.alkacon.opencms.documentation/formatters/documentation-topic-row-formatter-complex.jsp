@@ -15,7 +15,9 @@
 	<c:if test="${not cms.element.settings.hidetitle}">
 		<div class="headline"><h3 ${rdfa.Title}>${fn:escapeXml(value.Title)}</h3></div>
 	</c:if>
-	
+	<c:if test="${not value.Description.isEmptyOrWhitespaceOnly}">
+		<div class="topic-row-teaser">${value.Description}</div>
+	</c:if>	
 	<div class="row servive-block servive-block-documentation">
 		<c:forEach var="item" items="${content.valueList.Item}" varStatus="itemStatus">
 			<c:set var="accId" value="acc-${cms.element.id}-${itemStatus.index}" />
