@@ -39,6 +39,7 @@
 			action="<cms:link>${cms.requestContext.uri}</cms:link>">
 			<c:set var="escapedQuery">${fn:replace(common.state.query,'"','&quot;')}</c:set>			
 			<input type="hidden" name="${common.config.lastQueryParam}" value="${escapedQuery}" />
+			<input type="hidden" name="${common.config.reloadedParam}" />
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 					<div class="input-group">
@@ -52,7 +53,7 @@
 				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 					<div class="input-group">
 						<c:set var="sort" value="${controllers.sorting}" />
-						<select name="${sort.config.sortParam}" class="form-control">
+						<select name="${sort.config.sortParam}" class="form-control" onchange="submitDocumentationForm()">
 							<c:forEach var="option" items="${sort.config.sortOptions}">
 								<option value="${option.paramValue}"
 									${sort.state.checkSelected[option]?"selected":""}>${option.label}</option>
@@ -155,6 +156,13 @@
 				<!-- Search results -->
 				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 					<c:choose>
+					<c:when test="${not empty searchform.exception}">
+						<h3>The search failed</h3>
+						<p>Your query <em>${common.state.query}</em> was modified to the final query <em>${searchform.finalQuery.query}</em> which is invalid.</p>
+						<p>Maybe you unintentionally used one of the following Solr control characters without escaping it (prepending it with <code>\</code>):<p>
+						<p><code>\</code>, <code>+</code>, <code>-</code>, <code>!</code>, <code>(</code>, <code>)</code>, <code>:</code>, <code>^</code>, <code>[</code>, <code>]</code>, <code>"</code>, <code>{</code>, <code>}</code>, <code>~</code>, <code>*</code>, <code>?</code>, <code>|</code>, <code>&</code>, <code>;</code>, <code>/</code></p>
+						<p>If so, just escape it and try your query again.</p>
+					</c:when>
 					<c:when test="${cms:getListSize(searchform.searchResults) > 0}">
 						<h2>
 							Search results <small>Results ${searchform.start} to
@@ -206,8 +214,21 @@
 					<c:otherwise>
 						<h2>
 							<c:choose>
-							<c:when test="${controllers.didYouMean.config.isEnabled && not empty searchform.didYouMean}" >
-								Did you mean <a href='<cms:link>${cms.requestContext.uri}?${searchform.stateParameters.queryDidYouMean}</cms:link>'>${searchform.didYouMean}</a>?
+							<c:when test="${not empty controllers.didYouMean}" >
+								<c:choose>
+								<c:when test="${not empty searchform.didYouMeanCollated}">
+									Did you mean <a href='<cms:link>${cms.requestContext.uri}?${searchform.stateParameters.newQuery[searchform.didYouMeanCollated]}</cms:link>'>${searchform.didYouMeanCollated}</a>?
+								</c:when>
+								<c:when test="${not empty searchform.didYouMeanSuggestion && cms:getListSize(searchform.didYouMeanSuggestion.alternatives) > 0}">
+									Did you mean?
+									<ul>
+										<c:forEach var="alternative" items="${searchform.didYouMeanSuggestion.alternatives}">
+											<li><a href='<cms:link>${cms.requestContext.uri}?${searchform.stateParameters.newQuery[alternative]}</cms:link>'>${alternative}</a></li>
+										</c:forEach>
+									</ul>
+								</c:when>
+								</c:choose>
+								
 							</c:when>
 							<c:otherwise>
 								No results found.

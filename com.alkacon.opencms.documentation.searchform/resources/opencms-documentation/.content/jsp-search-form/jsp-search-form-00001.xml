@@ -3,6 +3,9 @@
 <JspSearchConfigs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.jsp.search/schemas/jsp-search.xsd">
   <JspSearchConfig language="en">
     <Title><![CDATA[Documentation Search Results]]></Title>
+    <SearchForEmptyQuery>true</SearchForEmptyQuery>
+    <QueryModifier><![CDATA[content_en:%(query)]]></QueryModifier>
+    <EscapeQueryCharacters>false</EscapeQueryCharacters>
     <ExtraSolrParams><![CDATA[fq=type:containerpage&fq=parent-folders:"/sites/default/opencms-documentation/"]]></ExtraSolrParams>
     <PageSize><![CDATA[8]]></PageSize>
     <SortOption>
@@ -25,7 +28,6 @@
       <Label><![CDATA[Keywords]]></Label>
       <MinCount><![CDATA[1]]></MinCount>
       <Limit><![CDATA[5]]></Limit>
-      <FilterQueryModifier><![CDATA["%(value)"]]></FilterQueryModifier>
       <IsAndFacet>true</IsAndFacet>
     </FieldFacet>
     <FieldFacet>
