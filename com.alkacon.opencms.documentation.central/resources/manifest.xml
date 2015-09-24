@@ -6,7 +6,7 @@
 		<opencms_version>9.9.x</opencms_version>
 		<createdate>Thu, 24 Sep 2015 11:02:54 GMT</createdate>
 		<infoproject>Offline</infoproject>
-		<export_version>10</export_version>
+		<export_version>7</export_version>
 	</info>
 	<module>
 		<name>com.alkacon.opencms.documentation.central</name>
@@ -17,7 +17,6 @@
 writeProperty '/' 'Description' 'The OpenCms documentation, brought to you by Alkacon Software.'
 writeProperty '/' 'NavText' 'Documentation'
 writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
-		<export-mode name="default"/>
 		<description><![CDATA[The marketing related pages for the Alkacon documentation.]]></description>
 		<version>9.5.2</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
@@ -31,7 +30,6 @@ writeProperty '/' 'default-file' '##navigation_level_folder##'</import-script>
 			<resource uri="/central/"/>
 			<resource uri="/index.html"/>
 		</resources>
-		<excluderesources/>
 		<parameters/>
 	</module>
 	<files>

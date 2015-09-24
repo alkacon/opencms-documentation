@@ -6,7 +6,7 @@
 		<opencms_version>9.9.x</opencms_version>
 		<createdate>Thu, 24 Sep 2015 10:59:46 GMT</createdate>
 		<infoproject>Offline</infoproject>
-		<export_version>10</export_version>
+		<export_version>7</export_version>
 	</info>
 	<module>
 		<name>com.alkacon.opencms.documentation.content</name>
@@ -14,7 +14,6 @@
 		<group>OpenCms Documentation</group>
 		<class/>
 		<import-site>/sites/default</import-site>
-		<export-mode name="default"/>
 		<description><![CDATA[All the content of the OpenCms documentation. Place it in the site where the content should be available, usually /sites/default/]]></description>
 		<version>9.5.7</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
@@ -29,10 +28,6 @@
 		<resources>
 			<resource uri="/opencms-documentation/"/>
 		</resources>
-		<excluderesources>
-			<resource uri="/opencms-documentation/search/"/>
-			<resource uri="/opencms-documentation/.content/jsp-search-form/"/>
-		</excluderesources>
 		<parameters/>
 	</module>
 	<files>

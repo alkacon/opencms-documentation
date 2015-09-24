@@ -6,14 +6,13 @@
 		<opencms_version>9.9.x</opencms_version>
 		<createdate>Thu, 17 Sep 2015 18:32:54 GMT</createdate>
 		<infoproject>Offline</infoproject>
-		<export_version>10</export_version>
+		<export_version>7</export_version>
 	</info>
 	<module>
 		<name>com.alkacon.opencms.documentation.searchform</name>
 		<nicename><![CDATA[OpenCms Documentation Search-Form]]></nicename>
 		<group>OpenCms Documentation</group>
 		<class/>
-		<export-mode name="default"/>
 		<description><![CDATA[Contains the search functionality of the OpenCms documentation. Requires OpenCms 10.0]]></description>
 		<version>9.5.6</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
@@ -31,7 +30,6 @@
 			<resource uri="/opencms-documentation/.content/jsp-search-form/"/>
 			<resource uri="/opencms-documentation/search/"/>
 		</resources>
-		<excluderesources/>
 		<parameters/>
 	</module>
 	<files>

@@ -6,14 +6,13 @@
 		<opencms_version>9.9.x</opencms_version>
 		<createdate>Mon, 14 Sep 2015 14:07:42 GMT</createdate>
 		<infoproject>Offline</infoproject>
-		<export_version>10</export_version>
+		<export_version>7</export_version>
 	</info>
 	<module>
 		<name>com.alkacon.opencms.documentation.editortools</name>
 		<nicename><![CDATA[OpenCms Documenation Administration]]></nicename>
 		<group>OpenCms Documentation</group>
 		<class/>
-		<export-mode name="default"/>
 		<description><![CDATA[Provides tools and extra contents to be used by editors]]></description>
 		<version>9.5.3</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
@@ -32,7 +31,6 @@
 			<resource uri="/system/workplace/resources/filetypes/auto-correct-xml.png"/>
 			<resource uri="/system/workplace/resources/filetypes/auto-correct-xml_big.png"/>
 		</resources>
-		<excluderesources/>
 		<parameters/>
 		<resourcetypes>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="auto-correct-xml" id="20297">

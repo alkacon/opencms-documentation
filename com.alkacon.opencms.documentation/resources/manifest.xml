@@ -6,14 +6,13 @@
 		<opencms_version>9.9.x</opencms_version>
 		<createdate>Tue, 15 Sep 2015 07:39:15 GMT</createdate>
 		<infoproject>Offline</infoproject>
-		<export_version>10</export_version>
+		<export_version>7</export_version>
 	</info>
 	<module>
 		<name>com.alkacon.opencms.documentation</name>
 		<nicename><![CDATA[OpenCms Documentation]]></nicename>
 		<group>OpenCms Documentation</group>
 		<class/>
-		<export-mode name="default"/>
 		<description><![CDATA[Provides all the content types with formatters and templates to set up a topic-based documentation. Used for the OpenCms documentation.]]></description>
 		<version>9.5.7</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
@@ -59,7 +58,6 @@
 			<resource uri="/system/workplace/resources/filetypes/documentation-video_big.png"/>
 			<resource uri="/system/modules/com.alkacon.opencms.documentation/decoration/"/>
 		</resources>
-		<excluderesources/>
 		<parameters>
 			<param name="sitesearch">documentation.opencms.org</param>
 		</parameters>
