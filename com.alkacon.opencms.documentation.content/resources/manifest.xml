@@ -4,7 +4,7 @@
 	<info>
 		<creator>dSeidel</creator>
 		<opencms_version>9.9.x</opencms_version>
-		<createdate>Tue, 15 Sep 2015 07:55:56 GMT</createdate>
+		<createdate>Thu, 24 Sep 2015 10:59:46 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>10</export_version>
 	</info>
@@ -40,8 +40,8 @@
 			<destination>opencms-documentation</destination>
 			<type>subsitemap</type>
 			<uuidstructure>f002c53d-973d-11e4-8878-b7eb8d90e9b7</uuidstructure>
-			<datelastmodified>Tue, 15 Sep 2015 07:38:26 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<datelastmodified>Wed, 18 Mar 2015 14:08:13 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 08 Jan 2015 13:55:00 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -11005,6 +11005,21 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00166.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00166.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>f11ca6d8-62a9-11e5-81f9-0242ac11002b</uuidstructure>
+			<uuidresource>f11ca6d9-62a9-11e5-81f9-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 24 Sep 2015 10:52:25 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 24 Sep 2015 10:49:33 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>opencms-documentation/.content/documentation-html/documentation-html-00167.xml</source>
 			<destination>opencms-documentation/.content/documentation-html/documentation-html-00167.xml</destination>
 			<type>documentation-html</type>
@@ -20125,6 +20140,36 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00775.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00775.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>6802943f-62aa-11e5-81f9-0242ac11002b</uuidstructure>
+			<uuidresource>68029440-62aa-11e5-81f9-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 24 Sep 2015 10:53:38 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 24 Sep 2015 10:52:53 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/documentation-html-00776.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/documentation-html-00776.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>92a3f866-62aa-11e5-81f9-0242ac11002b</uuidstructure>
+			<uuidresource>92a3f867-62aa-11e5-81f9-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 24 Sep 2015 10:56:07 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 24 Sep 2015 10:54:04 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/.content/documentation-section</destination>
 			<type>folder</type>
 			<uuidstructure>fec89b5c-05a5-11e4-a26d-1305b26fecac</uuidstructure>
@@ -21838,6 +21883,26 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00086.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00086.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>b446779f-62a9-11e5-81f9-0242ac11002b</uuidstructure>
+			<uuidresource>b44677a0-62a9-11e5-81f9-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 24 Sep 2015 10:49:20 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 24 Sep 2015 10:47:51 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[September 2015 - New topics]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>opencms-documentation/.content/documentation-section/documentation-section-00087.xml</source>
 			<destination>opencms-documentation/.content/documentation-section/documentation-section-00087.xml</destination>
 			<type>documentation-section</type>
@@ -21892,6 +21957,26 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[The OpenCms taglib (<cms:>) - EL functions exposed by the OpenCms taglib]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00090.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00090.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>5e8f735b-62aa-11e5-81f9-0242ac11002b</uuidstructure>
+			<uuidresource>5e8f735c-62aa-11e5-81f9-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 24 Sep 2015 10:52:45 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 24 Sep 2015 10:52:37 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[September 2015 - Improved topics]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -32118,6 +32203,26 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.content/documentation-section/documentation-section-00602.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/documentation-section-00602.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>892c91c2-62aa-11e5-81f9-0242ac11002b</uuidstructure>
+			<uuidresource>892c91c3-62aa-11e5-81f9-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 24 Sep 2015 10:53:55 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 24 Sep 2015 10:53:49 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[September 2015 - New features]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/.content/documentation-topic-row</destination>
 			<type>folder</type>
 			<uuidstructure>20d5b252-17c1-11e4-a3fa-b7bfd6088c56</uuidstructure>
@@ -32912,9 +33017,9 @@
 			<uuidstructure>b93e5b5f-5b79-11e5-96c2-0242ac11002b</uuidstructure>
 			<uuidresource>b93e5b60-5b79-11e5-96c2-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 15 Sep 2015 07:33:26 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 15 Sep 2015 07:16:46 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -35456,7 +35561,7 @@
 			<uuidstructure>e1b01f0d-1fdc-11e5-921f-0242ac11002b</uuidstructure>
 			<uuidresource>e1b01f0e-1fdc-11e5-921f-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 15 Sep 2015 07:37:08 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 01 Jul 2015 10:35:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -35551,6 +35656,26 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Interesting EL expressions]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-topic/documentation-topic-00113.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic/documentation-topic-00113.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>b430f3cd-62a9-11e5-81f9-0242ac11002b</uuidstructure>
+			<uuidresource>b430f3ce-62a9-11e5-81f9-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 24 Sep 2015 10:56:36 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 24 Sep 2015 10:47:51 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[September 2015]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -42540,7 +42665,7 @@
 			<uuidstructure>e1d61da2-1fdc-11e5-921f-0242ac11002b</uuidstructure>
 			<uuidresource>e1d61da3-1fdc-11e5-921f-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 15 Sep 2015 07:36:15 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 01 Jul 2015 10:35:24 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -50050,6 +50175,52 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>opencms-documentation/introduction/latest-updates/september-2015</destination>
+			<type>folder</type>
+			<uuidstructure>b420c728-62a9-11e5-81f9-0242ac11002b</uuidstructure>
+			<datelastmodified>Thu, 24 Sep 2015 10:48:02 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 24 Sep 2015 10:47:51 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.25]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[September 2015]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[September 2015]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/introduction/latest-updates/september-2015/index.html</source>
+			<destination>opencms-documentation/introduction/latest-updates/september-2015/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>b44e8cf2-62a9-11e5-81f9-0242ac11002b</uuidstructure>
+			<uuidresource>b44e8cf3-62a9-11e5-81f9-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 24 Sep 2015 10:54:04 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 24 Sep 2015 10:47:51 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[September 2015]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/introduction/new-in-opencms</destination>
 			<type>folder</type>
 			<uuidstructure>bdec16d8-31c2-11e4-8511-d144f6bb3566</uuidstructure>
@@ -52144,7 +52315,7 @@
 			<uuidstructure>7c155ee8-02bc-11e4-8167-1305b26fecac</uuidstructure>
 			<uuidresource>7c155ee9-02bc-11e4-8167-1305b26fecac</uuidresource>
 			<datelastmodified>Tue, 15 Sep 2015 07:46:01 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 03 Jul 2014 14:15:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>512</flags>
