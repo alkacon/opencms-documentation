@@ -44,7 +44,13 @@ function addPageNavHandler() {
 	});
 	$('.page-nav .close').click(function() {
 		$('.page-nav').hide();
-	})
+	});
+	$("#documentation-github-links-hide").toggle();
+	$('.github-links-switcher').click(function(e) {
+		$(".github-link").toggle();
+		$(".github-links-switcher").toggle();
+		e.stopPropagation();
+	});
 }
 
 $('document').ready(function() {
@@ -61,4 +67,5 @@ $('document').ready(function() {
                 $(this).parent().mouseenter();
     });
 	$(".documentation-source-link").prepend("Source-URL: ");
+	$(".github-link").hide();
 });

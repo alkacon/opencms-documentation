@@ -1,6 +1,7 @@
 <%@page buffer="none" session="false" trimDirectiveWhitespaces="true" taglibs="cms,c,fmt,fn" %>
 <cms:formatter var="content">
 <div>
+	<c:set var="docuBranch"><cms:property name="opencms.documentation.branch" file="search"/></c:set>
 	${cms.enableReload}
 	<c:set var="isEditor">
 		<cms:property name="opencms.documentation.editor" file="search" default="false" />
@@ -26,6 +27,10 @@
 	</c:if>
 	<c:if test="${content.value.NewInVersion.exists || content.value.NewInDocuVersion.exists || content.value.RevisedForVersion.exists}">
 		<div class="topic-status-tags">
+			<c:if test="${not empty docuBranch}">
+				<a id="documentation-github-links-show" class="pull-left github-links-switcher glyphicon glyphicon-edit" title="Show links for editing contents on GitHub."></a>
+				<a id="documentation-github-links-hide" class="pull-left github-links-switcher glyphicon glyphicon-edit active" title="Hide links for editing contents on GitHub."></a>
+			</c:if>
 			<div class="topic-status-tags-inner">
 				<c:if test="${content.value.NewInVersion.exists}">
 					<span class="label label-info">In OpenCms since: ${content.value.NewInVersion}</span>
@@ -42,6 +47,11 @@
 			</div>
 		</div>
 	</c:if>
+	
+	<c:if test="${not empty docuBranch}">
+		<a href="https://github.com/alkacon/opencms-documentation/blob/${docuBranch}/com.alkacon.opencms.documentation.content/resources/${content.filename}" target="_blank" title="Edit topic content on GitHub" class="glyphicon glyphicon-edit pull-right github-link"></a>
+	</c:if>
+	
 	<div class="tag-box tag-box-v3" ${content.rdfa.Overview}>${content.value.Overview}</div>
 	<c:set var="relatedLinks" value="${content.subValueList.RelatedLinks}" />
 	<c:if test="${cms:getListSize(relatedLinks) > 0}">

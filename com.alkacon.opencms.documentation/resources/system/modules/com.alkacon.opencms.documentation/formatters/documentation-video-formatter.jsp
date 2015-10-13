@@ -34,6 +34,11 @@ ${cms.enableReload}
 					</div>
 				</c:otherwise>
 			</c:choose>
+
+			<c:set var="docuBranch"><cms:property name="opencms.documentation.branch" file="search"/></c:set>
+			<c:if test="${not empty docuBranch}">
+				<a href="https://github.com/alkacon/opencms-documentation/blob/${docuBranch}/com.alkacon.opencms.documentation.content/resources/${content.filename}" target="_blank" title="Edit video content on GitHub" class="glyphicon glyphicon-edit pull-right github-link"></a>
+			</c:if>
 		
 			<div>
 				<b>Fig. [<span ${content.rdfa.Identifier}>${content.value.Identifier}</span>]:</b> <span ${content.rdfa.Title}>${content.value.Title}</span>

@@ -7,6 +7,11 @@
 <div>
 	<div class="tag-box tag-box-v4">
 		
+		<c:set var="docuBranch"><cms:property name="opencms.documentation.branch" file="search"/></c:set>
+		<c:if test="${not empty docuBranch}">
+			<a href="https://github.com/alkacon/opencms-documentation/blob/${docuBranch}/com.alkacon.opencms.documentation.content/resources/${content.filename}" target="_blank" title="Edit figure content on GitHub" class="glyphicon glyphicon-edit pull-right github-link"></a>
+		</c:if>
+		
 		<a name="fig_${fn:replace(fn:toLowerCase(content.value.Identifier)," ","_")}"></a>
 	
 		<div ${content.rdfa.Image}>

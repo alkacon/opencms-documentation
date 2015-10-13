@@ -637,3 +637,18 @@ div.topic-status-tags-inner {
 	padding: 6px;
 	padding-top: 4px;
 }
+
+/** GitHub edit options */
+a.github-links-switcher {
+	display: inline-block;
+	padding: 8px;
+	cursor: pointer;
+	color: #777;
+}
+a.github-links-switcher.active {
+	color: #ff264a;
+}
+
+a.github-link {
+	padding: 8px;
+}
