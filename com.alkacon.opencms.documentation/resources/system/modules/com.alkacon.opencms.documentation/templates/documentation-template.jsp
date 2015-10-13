@@ -37,17 +37,6 @@
 		<cms:param name="colortheme" value="red" />
 	</cms:include>
 
-	<%-- JavaScript includes --%>
-	<cms:include file="/system/modules/com.alkacon.opencms.documentation/elements/default-headincludes-javascript-${project}.jsp" />
-
-	<script type="text/javascript">
-		jQuery(document).ready(function() {
-			App.init();
-		});
-	</script>
-	<!--[if lt IE 9]>
-    	<script src="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.documentation/resources/js/respond.js:b9e9ac60-ac44-11e4-b80e-f9d322068617)</cms:link>"></script>
-	<![endif]-->
 </head>
 
 <c:set var="isEditor">
@@ -119,5 +108,16 @@
 	<!--=== End Foot ===-->
 
 	</div><!--/page-wrap-->
+		<%-- JavaScript includes --%>
+	<cms:include file="/system/modules/com.alkacon.opencms.documentation/elements/default-headincludes-javascript-${project}.jsp" />
+
+	<script type="text/javascript">
+		jQuery(document).ready(function() {
+			App.init();
+		});
+	</script>
+	<!--[if lt IE 9]>
+    	<script src="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.documentation/resources/js/respond.js:b9e9ac60-ac44-11e4-b80e-f9d322068617)</cms:link>"></script>
+	<![endif]-->
 </body>
 </html>
