@@ -19,6 +19,12 @@ repositories {
         }
     }
     mavenCentral()
+    maven { 
+    	url "http://maven.vaadin.com/vaadin-addons"
+    }
+    maven {
+    	url 'http://maven.restlet.org'
+    }    
 }
 
 configurations { compile { description = 'used to compile the modules jars'
