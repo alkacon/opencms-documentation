@@ -62,20 +62,23 @@
 		<div class="row">
 			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 		
-					<c:choose>
-					<c:when test='<%=OpenCms.getModuleManager().getModule("com.alkacon.opencms.documentation.searchform") != null %>'>
-						<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation.searchform/elements/search.jsp)" />
-					</c:when>
-					<c:otherwise>
-						<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/search-google.jsp:407a975a-68b6-11e4-9296-005056b61161)" />
-					</c:otherwise>
-					</c:choose>
-					<%-- Menu for view switching (editor vs. user) --%>
+				<c:choose>
+				<c:when test='<%=OpenCms.getModuleManager().getModule("com.alkacon.opencms.documentation.searchform") != null %>'>
+					<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation.searchform/elements/search.jsp:913527e3-811a-11e4-8c93-bfc0090a1084)" />
+				</c:when>
+				<c:otherwise>
+					<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/search-google.jsp:407a975a-68b6-11e4-9296-005056b61161)" />
+				</c:otherwise>
+				</c:choose>
+				<%-- Menu for view switching (editor vs. user) --%>
 				<c:if test="${!cms.isOnlineProject}">
 					<cms:container name="documentation-view-switcher-container" type="documentation-view-switcher" maxElements="1">
 						<div class="jumbotron">Place the view switcher here.</div>
 					</cms:container>
 				</c:if>
+
+				<%-- Link to wiki discussion page button --%>
+				<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/wiki-link.jsp:74887459-814e-11e5-93bb-0242ac11002b)" />
 				
 				<!-- BEGIN: Site Navigation -->
 				<cms:include file="%(link.strong:/system/modules/com.alkacon.opencms.documentation/elements/sitenavigation.jsp:8d667ace-2930-11e4-b03d-d144f6bb3566)" />
