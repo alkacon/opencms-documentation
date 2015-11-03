@@ -64,7 +64,7 @@
 		
 				<c:choose>
 				<c:when test='<%=OpenCms.getModuleManager().getModule("com.alkacon.opencms.documentation.searchform") != null %>'>
-					<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation.searchform/elements/search.jsp:913527e3-811a-11e4-8c93-bfc0090a1084)" />
+					<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation.searchform/elements/search.jsp)" />
 				</c:when>
 				<c:otherwise>
 					<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/search-google.jsp:407a975a-68b6-11e4-9296-005056b61161)" />
@@ -77,9 +77,6 @@
 					</cms:container>
 				</c:if>
 
-				<%-- Link to wiki discussion page button --%>
-				<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/wiki-link.jsp:74887459-814e-11e5-93bb-0242ac11002b)" />
-				
 				<!-- BEGIN: Site Navigation -->
 				<cms:include file="%(link.strong:/system/modules/com.alkacon.opencms.documentation/elements/sitenavigation.jsp:8d667ace-2930-11e4-b03d-d144f6bb3566)" />
 				<!-- END: Site Navigation -->
@@ -101,6 +98,10 @@
 				<cms:container name="documentation-content-container" type="documentation-content" width="1350" detailview="true">
 						<div class="jumbotron"><h2>Put section contents here.</h2></div>
 				</cms:container>
+				
+				<!-- Link to wiki for comments and suggestions plus hint to mailing list -->
+				<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/wiki-link.jsp:74887459-814e-11e5-93bb-0242ac11002b)" />
+				
 			</div>
 		</div>
 	</div><!--/container-->		

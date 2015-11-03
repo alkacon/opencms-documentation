@@ -28,8 +28,8 @@
 	<c:if test="${content.value.NewInVersion.exists || content.value.NewInDocuVersion.exists || content.value.RevisedForVersion.exists}">
 		<div class="topic-status-tags">
 			<c:if test="${not empty docuBranch}">
-				<a id="documentation-github-links-show" class="pull-left github-links-switcher glyphicon glyphicon-edit" title="Show links for editing contents on GitHub."></a>
-				<a id="documentation-github-links-hide" class="pull-left github-links-switcher glyphicon glyphicon-edit active" title="Hide links for editing contents on GitHub."></a>
+				<a id="documentation-github-links-show" class="pull-left github-links-switcher" title="Show links for editing contents on GitHub."><span class="glyphicon glyphicon-edit"></span>&nbsp;Show GitHub edit links</a>
+				<a id="documentation-github-links-hide" class="pull-left github-links-switcher active" title="Hide links for editing contents on GitHub."><span class="glyphicon glyphicon-edit"></span>&nbsp;Hide GitHub edit links</a>
 			</c:if>
 			<div class="topic-status-tags-inner">
 				<c:if test="${content.value.NewInVersion.exists}">
