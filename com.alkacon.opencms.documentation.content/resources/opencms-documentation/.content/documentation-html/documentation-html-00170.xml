@@ -4,7 +4,7 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>The VFS access bean provides access to all resources in the OpenCms virtual file system. The bean is used to check if files exist, to read and set properties and permissions, to read XML documents, etc. In principal, you can access every resource in the VFS, read its metadata or access content. To enable such functionality, most properties of the bean return a lazy map that requires the URI of a resource as key to extract a value. If the current user has no access to the resource, or the resource does not exist, the return value will be empty.</p>
+      <content><![CDATA[<p>The VFS access bean provides access to all resources in the OpenCms virtual file system. The bean is used to check if files exist, to read and set properties and permissions, to read XML documents, etc. In summary, you can access every resource in the VFS, read its metadata or access content. To enable such functionality, most properties of the bean return a lazy map that requires the URI of a resource as key to extract a value. If the current user has no access to the resource, or the resource does not exist, the return value will be empty.</p>
 <p>When <code>object.property</code> returns a map, use <code>object.property[key]</code> to ask for the value of key <code>key</code>.</p>]]></content>
     </Html>
   </DocumentationHtml>
