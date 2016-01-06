@@ -5,15 +5,17 @@
     <Html name="Html0">
       <links>
         <link name="link0" internal="true" type="A">
-          <target><![CDATA[/sites/default/opencms-documentation/background/localization/]]></target>
+          <target><![CDATA[/sites/default/opencms-documentation/localization/multilingual-websites/]]></target>
+          <uuid>b278890c-b2a1-11e4-b42e-0242ac11002b</uuid>
           <anchor><![CDATA[sec_independent_subsites]]></anchor>
         </link>
         <link name="link1" internal="true" type="A">
-          <target><![CDATA[/sites/default/opencms-documentation/background/localization/]]></target>
+          <target><![CDATA[/sites/default/opencms-documentation/localization/multilingual-websites/]]></target>
+          <uuid>b278890c-b2a1-11e4-b42e-0242ac11002b</uuid>
           <anchor><![CDATA[sec_sibling_subsites]]></anchor>
         </link>
       </links>
-      <content><![CDATA[<p>It's also possible to have different sites for each language. To share content between sites, it must be placed in the <code>/shared/</code> folder under the root site. With this option, it's possible to have similar approaches than described in Sections <a href="%(link0)">[independent_subsites]</a> and <a href="%(link1)">[sibling_subsites]</a>. Just set the <code>locale</code> property accordingly at the site's root folder.</p>]]></content>
+      <content><![CDATA[<p>It's also possible to have different sites for each language. To share content between sites, it must be placed in the <code>/shared/</code> folder under the root site. With this option, it's possible to have similar approaches than described in Sections&nbsp;<a href="%(link0)">[independent_subsites]</a> and&nbsp;<a href="%(link1)">[sibling_subsites]</a>. Just set the <code>locale</code> property accordingly at the site's root folder.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>
