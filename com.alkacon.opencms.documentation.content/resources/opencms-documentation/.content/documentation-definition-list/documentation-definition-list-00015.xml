@@ -6,52 +6,10 @@
     <Heading><![CDATA[Available configuration options]]></Heading>
     <PropertyDef>true</PropertyDef>
     <Entry>
-      <Term><![CDATA[hidesiteselector]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>The site selector is hidden (default).</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
-      <Term><![CDATA[showsiteselector]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>The site selector is shown.</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
       <Term><![CDATA[excludefiles]]></Term>
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>Files are hidden in the popup tree.</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
-      <Term><![CDATA[includefiles]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Files are shown in the popup tree (default).</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
-      <Term><![CDATA[projectaware]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Show only resources of the current project.</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
-      <Term><![CDATA[notprojectaware]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Do not filter resources by project (default).</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
-      <Term><![CDATA[startsite]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>The site or folder the popup tree is opened with.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -65,6 +23,69 @@
           </link>
         </links>
         <content><![CDATA[<p>The option is new in OpenCms 9.5.1. Use it for links to whole galleries, e.g., for a slide show. When the option is given, the file selector dialog opens in the galleries tab (see Figure <a href="%(link0)">[vfsfile_galleryselect_dialog]</a>). Additionally it only shows the folder tab. The user can only select whole galleries or folders. It is not possible to select single files (or images).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[hidesiteselector]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The site selector is hidden (default).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[includefiles]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Files are shown in the popup tree (default).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[notprojectaware]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Do not filter resources by project (default).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[projectaware]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Show only resources of the current project.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[searchtypes]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Comma-separated list of resource types that are shown in the "Types" tab, i.e., you can add a search filter for. Types are specified by the type names, e.g., <code>bs-blog,bs-text</code>. It is still possible to find resources of other types, if you do not impose a type restriction at all. To restrict the selectable types, use the option <code>selectabletypes</code>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[selectabletypes]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Comma-separated list of resource types you can select resources of, e.g., <code>bs-blog, bs-text</code>. If you specify this list, it is not possible to find and select content of other types.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[showsiteselector]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The site selector is shown.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[startfolder]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The folder the popup tree is opened with.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[startsite]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The site the popup tree is opened with.</p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>

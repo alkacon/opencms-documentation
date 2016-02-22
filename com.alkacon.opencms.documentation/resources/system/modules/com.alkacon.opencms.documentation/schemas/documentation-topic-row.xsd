@@ -15,7 +15,7 @@
 		<xsd:sequence>
 			<xsd:element name="Title" type="OpenCmsString" />
 			<xsd:element name="Description" type="OpenCmsHtml" minOccurs="0" />
-			<xsd:element name="Item" type="OpenCmsDocumentationTopicrowItem" minOccurs="1" maxOccurs="3" />
+			<xsd:element name="Item" type="OpenCmsDocumentationTopicrowItem" minOccurs="0" maxOccurs="3" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
 	</xsd:complexType>
@@ -26,9 +26,11 @@
 				<mapping element="Title" mapto="property:Title" />
 				<mapping element="Title" mapto="urlName" />
 			</mappings>
-			<defaults />
+			<defaults>
+				<default element="Title" value="Edit the topic row." />
+			</defaults>
 			<layouts>
-				<layout element="Description" widget="HtmlWidget" configuration="height:800px,link,image,table,source,hidebuttons:underline;strikethrough;alignleft;alignright;aligncenter;justify;indent;outdend;blockquote;hr;print,stylesformat:/system/modules/com.alkacon.opencms.documentation/resources/tinymce/styles.xml,imagegallery{useformat:true,formatnames: 'inline:Inline', formatvalues: ['14x?']}" />
+				<layout element="Description" widget="HtmlWidget" configuration="height:800px,link,image,table,source,hidebuttons:underline;strikethrough;alignleft;alignright;aligncenter;justify;indent;outdend;blockquote;hr;print,style,stylesformat:/system/modules/com.alkacon.opencms.documentation/resources/tinymce/styles.xml,imagegallery{useformat:true,formatnames: 'inline:Inline', formatvalues: ['14x?']}" />
 			</layouts>
 			<validationrules/>
 			<relations/>

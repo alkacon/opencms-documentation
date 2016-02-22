@@ -9,13 +9,20 @@
  </jsp:useBean>
 
 <cms:formatter var="content" val="value" rdfa="rdfa">
-
+<cms:decorate file="/system/modules/com.alkacon.opencms.documentation/decoration/configuration.xml">
 <div class="margin-bottom-30">
 
-	<c:if test="${not cms.element.settings.hidetitle}">
-		<div><h5 ${rdfa.Title}>${value.Title}</h5></div>
+	<c:set var="docuBranch"><cms:property name="opencms.documentation.branch" file="search"/></c:set>
+	<c:if test="${not empty docuBranch}">
+		<a href="https://github.com/alkacon/opencms-documentation/blob/${docuBranch}/com.alkacon.opencms.documentation.content/resources/${content.filename}" target="_blank" title="Edit topic row content on GitHub" class="glyphicon glyphicon-edit pull-right github-link"></a>
 	</c:if>
-	
+
+	<c:if test="${not cms.element.settings.hidetitle}">
+		<div><h5 ${rdfa.Title}>${fn:escapeXml(value.Title)}</h5></div>
+	</c:if>
+	<c:if test="${not value.Description.isEmptyOrWhitespaceOnly}">
+		<div class="topic-row-teaser">${value.Description}</div>
+	</c:if>
 	<div class="row">
 		<c:forEach var="item" items="${content.valueList.Item}">
 			<div class="${cms:lookup(fn:length(content.valueList.Item), '1:col-xs-12|2:col-sm-6|3:col-md-4')}">				
@@ -24,11 +31,15 @@
 					<ul class="topic-row-item">
 						<c:forEach var="topicItem" items="${item.valueList.Topic}">
 							<c:set var="pageLink" value="${topicItem.value.PageLink}" />
-							<c:set var="topic" value="${topicGrabber.topicContent[pageLink]}" />
-							<c:set var="hasTeaser" value="${(cms.element.settings['showteaser'] eq 'true') and ((not topicLink.value.AltTeaser.isEmptyOrWhitespaceOnly) or ((not empty topic) && topic.value.Teaser.isSet))}" />							<li>
+							<c:set var="internal" value="${not empty pageLink.xmlText['link/uuid']}" /> <%-- HACK: Determine internal by present uuid. --%>
+							<c:if test="${internal}">
+								<c:set var="topic" value="${topicGrabber.topicContent[pageLink]}" />
+							</c:if>
+							<c:set var="hasTeaser" value="${(cms.element.settings['showteaser']) and ((not topicItem.value.AltTeaser.isEmptyOrWhitespaceOnly) or (internal and (not empty topic) and topic.value.Teaser.isSet))}" />
+							<li>
 								<div>
 									<h6 class="topic-row-item-header">
-										<a href="<cms:link>${pageLink}</cms:link>">${topicItem.value.AltHeading.isEmptyOrWhitespaceOnly ? cms.vfs.property[pageLink]["Title"] : topicItem.value.AltHeading}</a>
+										<a href="<cms:link>${pageLink}</cms:link>">${topicItem.value.AltHeading.isEmptyOrWhitespaceOnly ? (internal ? fn:escapeXml(cms.vfs.property[pageLink]["Title"]) : pageLink) : fn:escapeXml(topicItem.value.AltHeading)}</a>
 									</h6>
 								</div>
 								<c:if test="${hasTeaser}">
@@ -45,5 +56,6 @@
 	</div>
 
 </div>
+</cms:decorate>
 
 </cms:formatter>

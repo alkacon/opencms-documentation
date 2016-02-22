@@ -4,14 +4,14 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link2" internal="false" type="A">
-          <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/search/solr/spellchecking/CmsSolrSpellchecker.html]]></target>
-        </link>
         <link name="link0" internal="false" type="A">
           <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/search/solr/spellchecking/CmsSolrSpellchecker.html]]></target>
         </link>
         <link name="link1" internal="false" type="A">
           <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/main/OpenCmsSpellcheckHandler.html]]></target>
+        </link>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/search/solr/spellchecking/CmsSolrSpellchecker.html]]></target>
         </link>
       </links>
       <content><![CDATA[<p>TinyMCE provides a spellcheck plugin. The plugin makes RPC-calls to a specific URL, sending the text from the editor field and it's language, and waits for callbacks with spelling information (misspelled words and suggestions for replacements). Hence, it sends it's information to a server-side spellchecker and waits for the spellchecking results.</p>

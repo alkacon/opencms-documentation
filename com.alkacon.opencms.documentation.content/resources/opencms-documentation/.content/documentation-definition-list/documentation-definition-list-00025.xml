@@ -6,7 +6,7 @@
     <Heading><![CDATA[List of properties useful in a template]]></Heading>
     <PropertyDef>true</PropertyDef>
     <Entry>
-      <Term><![CDATA[Title]]></Term>
+      <Term><![CDATA[title]]></Term>
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>Get the title property of the currently requested page. Note, that the property has a special behavior for detail pages: Instead of using the title property of the displayed page, the title property of the resource providing the detail content is chosen.</p>]]></content>

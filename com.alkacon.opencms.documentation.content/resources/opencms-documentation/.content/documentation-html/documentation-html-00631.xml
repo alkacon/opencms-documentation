@@ -4,10 +4,6 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link2" internal="true" type="A">
-          <target><![CDATA[/sites/default/opencms-documentation/background/localization/]]></target>
-          <anchor><![CDATA[sec_content_localization]]></anchor>
-        </link>
         <link name="link0" internal="true" type="IMG">
           <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_big/copyLocaleBigIconActive.png]]></target>
           <uuid>7b88d64c-02bc-11e4-8167-1305b26fecac</uuid>
@@ -17,6 +13,10 @@
           <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_big/deleteLocaleBigIconActive.png]]></target>
           <uuid>7b8f660c-02bc-11e4-8167-1305b26fecac</uuid>
           <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+        </link>
+        <link name="link2" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/background/localization/]]></target>
+          <anchor><![CDATA[sec_content_localization]]></anchor>
         </link>
       </links>
       <content><![CDATA[<p>When you edit a content, you can potentially always edit it in multiple languages. But, when you create a new content, it is created only in one language. This language depends on the locale of the page where you add the content. E.g., if you add a content on an english page, it will be available in English.</p>

@@ -6,6 +6,12 @@
 
 <cms:formatter var="content">
 <div class="documentation-section">
+
+	<c:set var="docuBranch"><cms:property name="opencms.documentation.branch" file="search"/></c:set>
+	<c:if test="${not empty docuBranch}">
+		<a href="https://github.com/alkacon/opencms-documentation/blob/${docuBranch}/com.alkacon.opencms.documentation.content/resources/${content.filename}" target="_blank" title="Edit section content on GitHub" class="glyphicon glyphicon-edit pull-right github-link"></a>
+	</c:if>
+
 	<c:set var="level" value="${cms.element.settings['level']}" />
 	<c:set var="headingLevel">${level + 1}</c:set>
 	<c:set var="headingTag">h${headingLevel}</c:set>

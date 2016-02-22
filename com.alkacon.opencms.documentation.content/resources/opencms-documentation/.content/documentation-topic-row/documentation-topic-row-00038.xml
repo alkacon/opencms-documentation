@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationTopicrows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic-row.xsd">
+  <DocumentationTopicrow language="en">
+    <Title><![CDATA[Using the EL]]></Title>
+    <Description name="Description0">
+      <links/>
+      <content><![CDATA[<p>The expression language (EL) provides easy access to special Java objects, so called beans. OpenCms makes using the EL easy by providing a rich set of beans to access OpenCms functionality in JSPs.</p>]]></content>
+    </Description>
+    <Item>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/typical-tasks/writing-jsps/overview-java-beans-for-el/]]></target>
+            <uuid>b4420486-57c4-11e5-ac6d-0242ac11002b</uuid>
+          </link>
+        </PageLink>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/typical-tasks/writing-jsps/interesting-el-expressions/]]></target>
+            <uuid>e781d475-57c4-11e5-ac6d-0242ac11002b</uuid>
+          </link>
+        </PageLink>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/demos/]]></target>
+            <uuid>f680ee6e-1e02-11e4-a270-d9f74955ba1b</uuid>
+          </link>
+        </PageLink>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>Have a look at the demos where formatters or function providers are included. You will find a lot of examples on using the EL.</p>]]></content>
+        </AltTeaser>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspStandardContextBean.html]]></target>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[JavaDoc for the CmsJspStandardContextBean]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>An object of the CmsJspStandardContextBean is available in each JSP via the variable cms. In most cases (except access to contents, where special beans are exposed via tags) it is the starting point to access OpenCms functionality in a JSP.</p>]]></content>
+        </AltTeaser>
+      </Topic>
+    </Item>
+  </DocumentationTopicrow>
+</DocumentationTopicrows>

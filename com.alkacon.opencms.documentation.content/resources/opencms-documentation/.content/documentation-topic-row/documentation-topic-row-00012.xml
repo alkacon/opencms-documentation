@@ -7,7 +7,7 @@
       <Headline/>
       <Topic>
         <PageLink>
-          <link type="WEAK">
+          <link internal="true" type="WEAK">
             <target><![CDATA[/sites/default/opencms-documentation/introduction/about-this-documentation/]]></target>
             <uuid>b861ee17-28fd-11e4-86cf-f33727103161</uuid>
           </link>
@@ -15,7 +15,7 @@
       </Topic>
       <Topic>
         <PageLink>
-          <link type="WEAK">
+          <link internal="true" type="WEAK">
             <target><![CDATA[/sites/default/opencms-documentation/additional-documentation/]]></target>
             <uuid>94bec874-5b5b-11e4-955d-005056b61161</uuid>
           </link>
@@ -24,6 +24,22 @@
         <AltTeaser name="AltTeaser0">
           <links/>
           <content><![CDATA[<p>This documentation is not the only source of information on OpenCms. Find a list of other documentation sources.</p>]]></content>
+        </AltTeaser>
+      </Topic>
+    </Item>
+    <Item>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/introduction/about-this-documentation/]]></target>
+            <uuid>b861ee17-28fd-11e4-86cf-f33727103161</uuid>
+            <anchor><![CDATA[contribute]]></anchor>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[Contribute to the documentation]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>Correct mistakes or tell us your suggestions.</p>]]></content>
         </AltTeaser>
       </Topic>
     </Item>

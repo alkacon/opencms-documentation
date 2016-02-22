@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JspSearchFormConfigs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.jsp.search/schemas/jsp-search-form.xsd">
-  <JspSearchFormConfig language="en">
+<JspSearchConfigs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.jsp.search/schemas/jsp-search.xsd">
+  <JspSearchConfig language="en">
     <Title><![CDATA[Documentation Search Results]]></Title>
+    <SearchForEmptyQuery>true</SearchForEmptyQuery>
+    <QueryModifier><![CDATA[content_en:%(query)]]></QueryModifier>
+    <EscapeQueryCharacters>false</EscapeQueryCharacters>
     <ExtraSolrParams><![CDATA[fq=type:containerpage&fq=parent-folders:"/sites/default/opencms-documentation/"]]></ExtraSolrParams>
     <PageSize><![CDATA[8]]></PageSize>
     <SortOption>
@@ -25,7 +28,6 @@
       <Label><![CDATA[Keywords]]></Label>
       <MinCount><![CDATA[1]]></MinCount>
       <Limit><![CDATA[5]]></Limit>
-      <FilterQueryModifier><![CDATA["%(value)"]]></FilterQueryModifier>
       <IsAndFacet>true</IsAndFacet>
     </FieldFacet>
     <FieldFacet>
@@ -36,7 +38,6 @@
     </FieldFacet>
     <FieldFacet>
       <Field><![CDATA[newInVersion_en]]></Field>
-      <Name><![CDATA[newinversion]]></Name>
       <Label><![CDATA[New in Version]]></Label>
       <MinCount><![CDATA[1]]></MinCount>
       <Order><![CDATA[index]]></Order>
@@ -50,10 +51,12 @@
     <Highlighting>
       <Field><![CDATA[content_en]]></Field>
       <FragSize><![CDATA[250]]></FragSize>
+      <AlternateField><![CDATA[content_en]]></AlternateField>
+      <MaxAlternateFieldLength><![CDATA[250]]></MaxAlternateFieldLength>
       <SimplePre><![CDATA[@+@]]></SimplePre>
       <SimplePost><![CDATA[@-@]]></SimplePost>
       <UseFastVectorHighlighting>true</UseFastVectorHighlighting>
     </Highlighting>
-    <DidYouMeanEnabled>true</DidYouMeanEnabled>
-  </JspSearchFormConfig>
-</JspSearchFormConfigs>
+    <DidYouMean/>
+  </JspSearchConfig>
+</JspSearchConfigs>

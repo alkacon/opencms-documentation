@@ -8,7 +8,7 @@
 
 <html lang="en">
 <head>
-	<title>OpenCms Documentation Administration | ${cms.title}</title>
+	<title>OpenCms Documentation Administration | <c:out value="${cms.title}"/></title>
 	
 	<meta charset="${cms.requestContext.encoding}">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -50,8 +50,12 @@
 <body>
 	<div class="page-wrap">
 		<c:if test="${cms.isEditMode}">
+			<c:set var="height" value="35px" />
+			<c:if test='${not fn:startsWith(cms.systemInfo.versionNumber, "9.")}'>
+				<c:set var="height" value="51px" />
+			</c:if>
 			<!--=== Placeholder for OpenCms toolbar in edit mode ===-->
-			<div style="background: lightgray; height: 35px">&nbsp;</div>
+			<div style="background: lightgray; height: ${height}">&nbsp;</div>
 		</c:if>
 
 	<!--=== Header ===-->

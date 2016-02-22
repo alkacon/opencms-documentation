@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>OpenCms Documentation | ${cms.title}</title>
+	<title>OpenCms Documentation | <c:out value="${cms.title}"/></title>
 	
 	<meta charset="${cms.requestContext.encoding}">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,8 +56,12 @@
 <body data-documentation-editor="${isEditor}">
 	<div class="page-wrap">
 		<c:if test="${cms.isEditMode}">
+			<c:set var="height" value="35px" />
+			<c:if test='${not fn:startsWith(cms.systemInfo.versionNumber, "9.")}'>
+				<c:set var="height" value="51px" />
+			</c:if>
 			<!--=== Placeholder for OpenCms toolbar in edit mode ===-->
-			<div style="background: lightgray; height: 35px">&nbsp;</div>
+			<div style="background: lightgray; height: ${height}">&nbsp;</div>
 		</c:if>
 
 		<!--=== Header ===-->
@@ -100,6 +104,10 @@
 				<cms:container name="documentation-overview-container" type="documentation-overview" width="1350" detailview="true">
 						<div class="jumbotron"><h2>Put section contents here.</h2></div>
 				</cms:container>
+				
+				<!-- Link to wiki for comments and suggestions plus hint to mailing list -->
+				<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/wiki-link.jsp:74887459-814e-11e5-93bb-0242ac11002b)" />
+				
 				</div>
 			</div>
 		</div><!--/container-->		

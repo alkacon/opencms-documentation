@@ -10,8 +10,16 @@
   # 1. Use the webapp's home as document root
   DocumentRoot "/var/lib/tomcat7/webapps/ROOT"
 
-  # 2. Allow Apache to access the document root directory
-  <Directory "/var/lib/tomcat7/webapps/ROOT/">
+  # 2. Allow Apache to access the export and resources folders directly
+  <Directory "/var/lib/tomcat7/webapps/ROOT/export">
+    Options FollowSymlinks
+    AllowOverride All
+    Order allow,deny
+    Allow from all
+    Require all granted
+  </Directory>
+
+  <Directory "/var/lib/tomcat7/webapps/ROOT/resources">
     Options FollowSymlinks
     AllowOverride All
     Order allow,deny

@@ -11,7 +11,7 @@
 
 <html lang="en">
 <head>
-	<title>OpenCms Documentation | ${cms.title}</title>
+	<title>OpenCms Documentation | <c:out value="${cms.title}"/></title>
 	
 	<meta charset="${cms.requestContext.encoding}">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -57,8 +57,12 @@
 <body data-documentation-editor="${isEditor}">
 	<div class="page-wrap">
 		<c:if test="${cms.isEditMode}">
+			<c:set var="height" value="35px" />
+			<c:if test='${not fn:startsWith(cms.systemInfo.versionNumber, "9.")}'>
+				<c:set var="height" value="51px" />
+			</c:if>
 			<!--=== Placeholder for OpenCms toolbar in edit mode ===-->
-			<div style="background: lightgray; height: 35px">&nbsp;</div>
+			<div style="background: lightgray; height: ${height}">&nbsp;</div>
 		</c:if>
 
 	<!--=== Header ===-->
@@ -69,21 +73,21 @@
 		<div class="row">
 			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 		
-					<c:choose>
-					<c:when test='<%=OpenCms.getModuleManager().getModule("com.alkacon.opencms.documentation.searchform") != null %>'>
-						<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation.searchform/elements/search.jsp)" />
-					</c:when>
-					<c:otherwise>
-						<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/search-google.jsp:407a975a-68b6-11e4-9296-005056b61161)" />
-					</c:otherwise>
-					</c:choose>
-					<%-- Menu for view switching (editor vs. user) --%>
+				<c:choose>
+				<c:when test='<%=OpenCms.getModuleManager().getModule("com.alkacon.opencms.documentation.searchform") != null %>'>
+					<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation.searchform/elements/search.jsp)" />
+				</c:when>
+				<c:otherwise>
+					<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/search-google.jsp:407a975a-68b6-11e4-9296-005056b61161)" />
+				</c:otherwise>
+				</c:choose>
+				<%-- Menu for view switching (editor vs. user) --%>
 				<c:if test="${!cms.isOnlineProject}">
 					<cms:container name="documentation-view-switcher-container" type="documentation-view-switcher" maxElements="1">
 						<div class="jumbotron">Place the view switcher here.</div>
 					</cms:container>
 				</c:if>
-				
+
 				<!-- BEGIN: Site Navigation -->
 				<cms:include file="%(link.strong:/system/modules/com.alkacon.opencms.documentation/elements/sitenavigation.jsp:8d667ace-2930-11e4-b03d-d144f6bb3566)" />
 				<!-- END: Site Navigation -->
@@ -105,6 +109,10 @@
 				<cms:container name="documentation-content-container" type="documentation-content" width="1350" detailview="true">
 						<div class="jumbotron"><h2>Put section contents here.</h2></div>
 				</cms:container>
+				
+				<!-- Link to wiki for comments and suggestions plus hint to mailing list -->
+				<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/wiki-link.jsp:74887459-814e-11e5-93bb-0242ac11002b)" />
+				
 			</div>
 		</div>
 	</div><!--/container-->		

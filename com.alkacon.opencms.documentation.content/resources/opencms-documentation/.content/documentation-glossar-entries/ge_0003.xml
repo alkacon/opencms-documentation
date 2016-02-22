@@ -6,20 +6,10 @@
     <RefId/>
     <Synonym><![CDATA[virtual file system]]></Synonym>
     <Synonym><![CDATA[file system, virtual]]></Synonym>
-    <Match>
-      <MatchString><![CDATA[VFS]]></MatchString>
-      <CaseSensitive>true</CaseSensitive>
-    </Match>
-    <Match>
-      <MatchString><![CDATA[VFSs]]></MatchString>
-      <CaseSensitive>true</CaseSensitive>
-    </Match>
-    <Match>
-      <MatchString><![CDATA[virtual file system]]></MatchString>
-    </Match>
-    <Match>
-      <MatchString><![CDATA[virtual file systems]]></MatchString>
-    </Match>
+    <Match><![CDATA[virtual file system]]></Match>
+    <Match><![CDATA[virtual file systems]]></Match>
+    <MatchCaseSensitive><![CDATA[VFS]]></MatchCaseSensitive>
+    <MatchCaseSensitive><![CDATA[VFSs]]></MatchCaseSensitive>
     <Description name="Description0">
       <links>
         <link name="link0" internal="true" type="A">

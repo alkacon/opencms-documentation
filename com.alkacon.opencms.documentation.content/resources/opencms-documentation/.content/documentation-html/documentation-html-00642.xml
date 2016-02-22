@@ -4,17 +4,17 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link2" internal="false" type="A">
-          <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/ade/contenteditor/A_CmsXmlContentEditorChangeHandler.html]]></target>
-        </link>
-        <link name="link3" internal="false" type="A">
-          <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/ade/contenteditor/package-frame.html]]></target>
-        </link>
         <link name="link0" internal="false" type="A">
           <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/xml/content/I_CmsXmlContentEditorChangeHandler.html]]></target>
         </link>
         <link name="link1" internal="false" type="A">
           <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/xml/content/package-frame.html]]></target>
+        </link>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/ade/contenteditor/A_CmsXmlContentEditorChangeHandler.html]]></target>
+        </link>
+        <link name="link3" internal="false" type="A">
+          <target><![CDATA[http://files.opencms.org/javadoc/core/org/opencms/ade/contenteditor/package-frame.html]]></target>
         </link>
       </links>
       <content><![CDATA[<p>You are allowed to write your own editor change handlers. They have to implement the interface <code><a href="%(link0)">I_CmsXmlContentEditorChangeHandler</a></code> located in the package <code><a href="%(link1)">org.opencms.xml.content</a></code>. To simplify implementing new such handlers, the class <code><a href="%(link2)">A_CmsXmlContentEditorChangeHandler</a></code> from the package <code><a href="%(link3)">org.opencms.ade.contenteditor</a></code> can be used as base class.</p>]]></content>

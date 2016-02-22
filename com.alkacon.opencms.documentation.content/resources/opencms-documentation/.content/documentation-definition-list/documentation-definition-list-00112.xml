@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[cms]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspStandardContextBean.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>The variable is always present and is the entry point for all information. It exposes an object of type&nbsp; <a href="%(link0)"><code>org.opencms.jsp.util.CmsJspStandardContextBean</code></a>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[cms.title]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Return the title of the current page. Works also for detail pages.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[cms.isOnlineProject]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns <code>true</code> in the online project, <code>false</code> otherwise.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[cms.isEditMode]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/device-dependent-design/]]></target>
+            <uuid>18555cad-3ea9-11e4-a200-578a14069906</uuid>
+            <anchor><![CDATA[fig_device_preview]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Returns <code>true</code> iff the edit mode is enabled. Note that edit mode can also be disabled offline, e.g., <a href="%(link0)">when previewing pages</a>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[cms.locale]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns the current locale as <code>java.util.Locale</code>. Short for <code>cms.requestContext.locale</code>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[cms.workplaceLocale]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns the current user's configured workplace locale.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[cms.edited]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns <code>true</code>, iff a container page element is re-rendered with out a page reload (happens when moving or editing elements). Without a page reload, JavaScript may be corrupted - so you may need to react.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[cms.enableReload]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Produces a specific HTML comment, that will cause a page reload when the formatted content is re-rendered.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[cms.element.settings["name"]]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspStandardContextBean.CmsContainerElementWrapper.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>Returns the value of the element setting "name". You can also write <code>cms.element.settings.name</code>. See <a href="%(link0)"><code>CmsJspStandardContextBean.CmsContainerElementWrapper</code></a> to check for more information available via <code>cms.element</code>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[cms.container.type]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/xml/containerpage/CmsContainerBean.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>Returns the type of currently rendered container, e.g., to influence the formatter's behavior according to the type.</p>
+<p>&nbsp;See <a href="%(link0)"><code>CmsContainerBean</code></a> to check for other information available via <code>cms.container</code>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[cms.detailContent]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/file/CmsResource.html]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspStandardContextBean.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>Returns the current detail content as <a href="%(link0)"><code>CmsResource</code></a>, or <code>null</code> if no detail content is requested. You can get more information on detail contents via cms. Look up the methods of the <a href="%(link1)"><code>CmsJspStandardContextBean</code></a>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[cms.detailRequest]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns <code>true</code>, iff a detail page is requested.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[cms.detailPageAvailable]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns <code>true</code>, iff a detail page is configured for the currently rendered container page element.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[cms.requestContext.encoding]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns the content encoding to be used in HTTP response.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[cms.requestContext.uri]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns the site-relative OpenCms VFS URI of the requested resource.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

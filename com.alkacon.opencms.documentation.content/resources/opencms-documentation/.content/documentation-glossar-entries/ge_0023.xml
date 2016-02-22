@@ -6,12 +6,8 @@
     <RefId><![CDATA[solr_field]]></RefId>
     <Synonym><![CDATA[Solr index field]]></Synonym>
     <Synonym><![CDATA[index field, Solr]]></Synonym>
-    <Match>
-      <MatchString><![CDATA[Solr field]]></MatchString>
-    </Match>
-    <Match>
-      <MatchString><![CDATA[Solr index field]]></MatchString>
-    </Match>
+    <Match><![CDATA[Solr field]]></Match>
+    <Match><![CDATA[Solr index field]]></Match>
     <Description name="Description0">
       <links/>
       <content><![CDATA[<p>A Solr (index) field describes a field in the Solr search index.</p>]]></content>
