@@ -24,14 +24,14 @@
       <Label><![CDATA[Sort by: Title descending]]></Label>
     </SortOption>
     <FieldFacet>
-      <Field><![CDATA[keywords_en_cs]]></Field>
+      <Field><![CDATA[keywords_en_comma]]></Field>
       <Label><![CDATA[Keywords]]></Label>
       <MinCount><![CDATA[1]]></MinCount>
       <Limit><![CDATA[5]]></Limit>
       <IsAndFacet>true</IsAndFacet>
     </FieldFacet>
     <FieldFacet>
-      <Field><![CDATA[interestingFor_en_cs]]></Field>
+      <Field><![CDATA[interestingFor_en_comma]]></Field>
       <Label><![CDATA[Interesting for]]></Label>
       <MinCount><![CDATA[1]]></MinCount>
       <Order><![CDATA[index]]></Order>
