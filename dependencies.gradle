@@ -2,14 +2,4 @@ dependencies {
     compile group: 'javax.servlet', name: 'jsp-api', version: '2.0'
     compile group: 'javax.servlet', name: 'servlet-api', version: '2.4'
     compile group: 'org.opencms', name: 'opencms-core', version: opencms_version
-    compile group: 'org.opencms', name: 'opencms-setup', version: opencms_version
-    compile group: 'org.opencms', name: 'opencms-gwt', version: opencms_version
-    compile group: 'org.opencms', name: 'opencms-components', version: opencms_version
-    compile group: 'org.opencms', name: 'org.opencms.workplace.administration', version: opencms_version
-    compile group: 'org.opencms', name: 'org.opencms.workplace.tools.accounts', version: opencms_version
-    compile group: 'org.opencms', name: 'org.opencms.workplace.tools.cache', version: opencms_version
-    compile group: 'org.opencms', name: 'org.opencms.workplace.tools.scheduler', version: opencms_version
-    compile group: 'org.opencms', name: 'org.opencms.workplace.tools.searchindex', version: opencms_version
-    compile group: 'org.opencms', name: 'org.opencms.workplace.tools.modules', version: opencms_version
-    compile group: 'org.opencms', name: 'org.opencms.workplace.tools.sites', version: opencms_version
 }
