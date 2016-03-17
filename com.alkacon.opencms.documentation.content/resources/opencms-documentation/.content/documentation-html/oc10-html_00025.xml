@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://documentation.opencms.org/javadoc/tld/]]></target>
+        </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/]]></target>
+          <uuid>c0625fc8-1bcf-11e4-bfa5-b7bfd6088c56</uuid>
+          <anchor><![CDATA[formatter_configuration]]></anchor>
+        </link>
+        <link name="link2" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/widget-configuration/]]></target>
+          <uuid>a8badf1f-489a-11e4-8008-336f7b60f7b1</uuid>
+          <anchor><![CDATA[sec_display_type_select]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<ul>
+<li><a href="%(link0)">Taglib documentation</a> (extended with new tags <code>&lt;cms:search&gt;</code>, <code>&lt;cms:display&gt;</code>, <code>&lt;cms:displayFormatter&gt;</code>, <code>&lt;cms:edit&gt;</code>)</li>
+<li><a href="%(link1)">Formatters and their configuration</a> (added description of new formatter configuration options)</li>
+<li><a href="%(link2)">Widget configuration</a> (added <code>DisplayTypeSelectWidget</code>)</li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

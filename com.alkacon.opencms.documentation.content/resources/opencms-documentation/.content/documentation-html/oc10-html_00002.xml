@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/development-setups/developer-tools/]]></target>
+          <uuid>e2c77a75-ea82-11e5-8cf4-0242ac11002b</uuid>
+          <anchor><![CDATA[fig_reduced_export_format]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>Since OpenCms 10 two export formats for modules are present: a reduced and a verbose one. The difference is the data that is stored in the <code>manifest.xml</code> in the exported module zip file. <em>We recommend using the reduced export format</em> as long as you do not have a serious reason for exporting more information. The reduced format is in particular recommended if you track your changes in a version control system. The format omits lots of meta information. This information, e.g., who has when created or edited a resource, is typically unnecessary since your version control system will take record of these information anyway. Moreover, keeping the extra information also in the manifest file likely causes merge conflicts.</p>
+<p>To set the export format, go to the module management, select your module and edit it. As shown in Fig. <a href="%(link0)">[reduced_export_format]</a>, you have to check the setting "Use reduced export format".</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

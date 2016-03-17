@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>With OpenCms 10 several features are introduced that ease OpenCms development. We take a look at these features and explain how to use them efficiently.</p>
+<p>In particular, we</p>
+<ul>
+<li>Explain the Module Import/Export via the SMB share</li>
+<li>Look at the advantages of the reduced export format for modules</li>
+<li>Explore the OpenCms Git integration</li>
+</ul>]]></content>
+    </Overview>
+    <Keywords><![CDATA[development, tools, configuration]]></Keywords>
+    <InterestingFor><![CDATA[a_serverOperator,b_opencmsAdmin,c_developer]]></InterestingFor>
+    <RelatedLinks>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/mounting-the-vfs/network-share-access/]]></target>
+            <uuid>f537a403-0cd1-11e4-a7cb-b7bfd6088c56</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Working with the network share]]></LinkText>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/administration/module-management/]]></target>
+            <uuid>7387573f-0b56-11e4-8c80-b7bfd6088c56</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Module management in general]]></LinkText>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[https://git-scm.com/]]></target>
+          </link>
+        </URI>
+        <LinkText><![CDATA[The Git version control system]]></LinkText>
+      </Link>
+    </RelatedLinks>
+    <NewInVersion><![CDATA[10.0]]></NewInVersion>
+    <NewInDocuVersion><![CDATA[10.0]]></NewInDocuVersion>
+    <RevisedForVersion><![CDATA[10.0]]></RevisedForVersion>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

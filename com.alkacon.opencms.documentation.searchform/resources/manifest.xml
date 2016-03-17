@@ -3,16 +3,18 @@
 <export>
 	<info>
 		<creator>dSeidel</creator>
-		<opencms_version>9.9.x</opencms_version>
-		<createdate>Thu, 17 Sep 2015 18:32:54 GMT</createdate>
+		<opencms_version>10.0.x</opencms_version>
+		<createdate>Thu, 17 Mar 2016 13:17:04 GMT</createdate>
 		<infoproject>Offline</infoproject>
-		<export_version>7</export_version>
+		<export_version>10</export_version>
 	</info>
 	<module>
 		<name>com.alkacon.opencms.documentation.searchform</name>
 		<nicename><![CDATA[OpenCms Documentation Search-Form]]></nicename>
 		<group>OpenCms Documentation</group>
 		<class/>
+		<import-site>/sites/default</import-site>
+		<export-mode name="default"/>
 		<description><![CDATA[Contains the search functionality of the OpenCms documentation. Requires OpenCms 10.0]]></description>
 		<version>10.0.0</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
@@ -30,6 +32,7 @@
 			<resource uri="/opencms-documentation/.content/jsp-search-form/"/>
 			<resource uri="/opencms-documentation/search/"/>
 		</resources>
+		<excluderesources/>
 		<parameters/>
 	</module>
 	<files>
@@ -58,6 +61,10 @@
 				<property>
 					<name>default-file</name>
 					<value><![CDATA[##navigation_level_folder##]]></value>
+				</property>
+				<property>
+					<name>opencms.documentation.branch</name>
+					<value><![CDATA[branch_10_0_x]]></value>
 				</property>
 				<property>
 					<name>opencms.documentation.editor</name>
@@ -108,7 +115,7 @@
 			<uuidstructure>d5f17835-ac5f-11e4-b42e-0242ac11002b</uuidstructure>
 			<uuidresource>d5f17836-ac5f-11e4-b42e-0242ac11002b</uuidresource>
 			<datelastmodified>Thu, 17 Sep 2015 18:31:08 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 04 Feb 2015 11:20:33 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -154,7 +161,7 @@
 			<uuidstructure>eee04a65-ac5d-11e4-b42e-0242ac11002b</uuidstructure>
 			<uuidresource>eee04a66-ac5d-11e4-b42e-0242ac11002b</uuidresource>
 			<datelastmodified>Thu, 17 Sep 2015 17:50:41 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 04 Feb 2015 11:06:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -174,10 +181,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>8e1fba25-5d57-11e5-9dc4-0242ac11002b</uuidstructure>
-			<datelastmodified>Mon, 27 Jun 2005 08:00:00 GMT</datelastmodified>
+			<uuidstructure>38d18f2b-ea7c-11e5-8037-0242ac11002b</uuidstructure>
+			<datelastmodified>Tue, 15 Mar 2016 07:04:55 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 17 Sep 2015 16:17:13 GMT</datecreated>
+			<datecreated>Tue, 15 Mar 2016 07:04:55 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -196,10 +203,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>90acf4f1-5d57-11e5-9dc4-0242ac11002b</uuidstructure>
-			<datelastmodified>Thu, 17 Sep 2015 16:17:17 GMT</datelastmodified>
+			<uuidstructure>3a6ceee7-ea7c-11e5-8037-0242ac11002b</uuidstructure>
+			<datelastmodified>Tue, 15 Mar 2016 07:04:58 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 17 Sep 2015 16:17:17 GMT</datecreated>
+			<datecreated>Tue, 15 Mar 2016 07:04:58 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>

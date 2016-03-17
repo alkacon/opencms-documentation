@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Technically, model groups are a new content type <em>modelgroup</em>. The type is similar to a container page. It has always a <code>base_container</code> with only the group's root element inside. This element has special settings attached, e.g., a setting that identifies if the group is a reuse or a copy group. If not configured differently model groups are stored the same way as any other XML content, which means for model groups: they are stored under <code>.content/modelgroup</code>.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

@@ -3,8 +3,14 @@
 <AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
   <AlkaconDocumentationTopicFrame language="en">
     <Overview name="Overview0">
-      <links/>
-      <content><![CDATA[<p>Building lists of content items that are linked with its detail views is a common task when creating a website. For example, a typical list of news displays the title, the teaser and maybe the creation date or information about the author per entry/news. Moreover, a list might offer pagination or simple filter options to the website’s visitors. Those lists are realized by “Collectors” in OpenCms, whereby “Detail pages” are used to show the complete details of a news article, an event, a product or any other type of resource/content. This chapter introduces how to implement such lists using collectors and how to link from list entries to their detail pages.</p>]]></content>
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/demos/lists-and-detail-pages-ii/]]></target>
+          <uuid>9e541dcf-eb4d-11e5-b021-0242ac11002b</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>Building lists of content items that are linked with its detail views is a common task when creating a website. For example, a typical list of news displays the title, the teaser and maybe the creation date or information about the author per entry/news. Moreover, a list might offer pagination or simple filter options to the website’s visitors. Those lists are realized by “Collectors” in OpenCms, whereby “Detail pages” are used to show the complete details of a news article, an event, a product or any other type of resource/content. This chapter introduces how to implement such lists using collectors and how to link from list entries to their detail pages.</p>
+<div class="alert alert-info">OpenCms 10 provides an <a href="%(link0)">alternative way to build lists</a>. We recommend the alterative way. The detail page mechanism remains the same.</div>]]></content>
     </Overview>
     <Teaser name="Teaser0">
       <links/>
@@ -20,7 +26,16 @@
             <uuid>017a27d0-22c2-11e4-8f7a-d9f74955ba1b</uuid>
           </link>
         </URI>
-        <LinkText><![CDATA[Demo on lists and detail pages]]></LinkText>
+        <LinkText><![CDATA[Demo on lists and detail pages (traditional way)]]></LinkText>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/demos/lists-and-detail-pages-ii/]]></target>
+            <uuid>9e541dcf-eb4d-11e5-b021-0242ac11002b</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Demo on lists and detail pages (since OpenCms 10.0)]]></LinkText>
       </Link>
     </RelatedLinks>
     <NewInVersion><![CDATA[6.0]]></NewInVersion>

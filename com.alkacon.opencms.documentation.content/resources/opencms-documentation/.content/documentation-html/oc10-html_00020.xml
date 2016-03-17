@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/jsp/search/result/I_CmsSearchResultWrapper.html]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://de.slideshare.net/AlkaconOpenCms/opencms-days-2015-advanced-solr-searching-54157910]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>The simplest way to implement a full text search is to write a formatter for the <code>jsp-search</code> content, shipped with the OpenCms core in the module <code>org.opencms.jsp.search</code>. The module provides a default formatter, located under <code>/system/modules/org.opencms.jsp.search/formatters/jsp-search-formatter.jsp</code>. Copy the formatter and adjust it to your needs. The default formatter includes a lot of comments that will help understanding it. Your copy can be much simpler if you do not need to support all options of <code>&lt;cms:search&gt;</code>.</p>
+<p>The formatter basically:</p>
+<ul>
+<li>hands over the <code>jsp-search</code> content to the <code>&lt;cms:search&gt;</code> tag as configuration content.</li>
+<li>explores the result object exposed by <code>&lt;cms:search&gt;</code> to build up the search form and render the search results.</li>
+</ul>
+<p>The result exposed by <code>&lt;cms:search&gt;</code> is of type <code><a href="%(link0)">org.opencms.jsp.search.result.I_CmsSearchResultWrapper</a></code>. A good explanation of its structure is given in the <a href="%(link1)">presentation of the tag on the OpenCms Days 2015</a>. Moreover, you can explore the formatters for the full text search of</p>
+<ul>
+<li>the Apollo demo template shipped with OpenCms 10.0<span class="footnote">The formatter is located under /system/modules/org.opencms.apollo.template.formatters/formatters/jsp-search-formatter.jsp</span></li>
+<li>the search included in this documentation<span class="footnote">The formatter is located under /system/modules/com.alkacon.opencms.documentation.searchform/formatters/searchform-formatter.jsp</span></li>
+</ul>
+<p>as examples for using it.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

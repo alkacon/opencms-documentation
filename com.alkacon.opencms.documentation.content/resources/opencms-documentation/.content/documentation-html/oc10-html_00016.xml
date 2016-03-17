@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/demos/lists-and-detail-pages-ii/]]></target>
+          <uuid>9e541dcf-eb4d-11e5-b021-0242ac11002b</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>Since version 10.0 OpenCms features a display type select widget (DisplayTypeSelectWidget). It renders like a normal select widget, but the entries are automatically generated from all the formatters available in the current subsite and with "Use as display formatter" enabled.</p>
+<p>The widget can be used for the configuration of generic list contents. With the widget, the formatters that should be used for a special resource type can be selected. See the <a href="%(link0)">demo of list creation</a> for an example.</p>
+<p>The widget is automatically configured for schema elements with type <code>OpenCmsDisplayFormatter</code>. An extra <code>&lt;layout&gt;</code> node is not necessary since the widget has no configuration options.</p>
+<p>Here's the configuration of the widget for the element <code>TypesToCollect</code>:</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

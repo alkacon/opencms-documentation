@@ -3,10 +3,10 @@
 <export>
 	<info>
 		<creator>dSeidel</creator>
-		<opencms_version>9.9.x</opencms_version>
-		<createdate>Mon, 11 Jan 2016 07:52:38 GMT</createdate>
+		<opencms_version>10.0.x</opencms_version>
+		<createdate>Thu, 17 Mar 2016 13:17:04 GMT</createdate>
 		<infoproject>Offline</infoproject>
-		<export_version>7</export_version>
+		<export_version>10</export_version>
 	</info>
 	<module>
 		<name>com.alkacon.opencms.documentation.content</name>
@@ -14,6 +14,7 @@
 		<group>OpenCms Documentation</group>
 		<class/>
 		<import-site>/sites/default</import-site>
+		<export-mode name="default"/>
 		<description><![CDATA[All the content of the OpenCms documentation. Place it in the site where the content should be available, usually /sites/default/]]></description>
 		<version>10.0.3</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
@@ -28,6 +29,9 @@
 		<resources>
 			<resource uri="/opencms-documentation/"/>
 		</resources>
+		<excluderesources>
+			<resource uri="/opencms-documentation/search/"/>
+		</excluderesources>
 		<parameters/>
 	</module>
 	<files>
@@ -35,7 +39,7 @@
 			<destination>opencms-documentation</destination>
 			<type>subsitemap</type>
 			<uuidstructure>f002c53d-973d-11e4-8878-b7eb8d90e9b7</uuidstructure>
-			<datelastmodified>Mon, 11 Jan 2016 07:28:19 GMT</datelastmodified>
+			<datelastmodified>Wed, 18 Mar 2015 14:08:13 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 08 Jan 2015 13:55:00 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -72,38 +76,6 @@
 				<property>
 					<name>template</name>
 					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.opencms.documentation/templates/documentation-template.jsp]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>opencms-documentation/index.html</source>
-			<destination>opencms-documentation/index.html</destination>
-			<type>htmlredirect</type>
-			<uuidstructure>5572c9c0-973e-11e4-8878-b7eb8d90e9b7</uuidstructure>
-			<uuidresource>5572c9c1-973e-11e4-8878-b7eb8d90e9b7</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:22:09 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 08 Jan 2015 13:57:50 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Documentation]]></value>
-				</property>
-				<property>
-					<name>locale-available</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>search.exclude</name>
-					<value><![CDATA[all]]></value>
-				</property>
-				<property type="shared">
-					<name>template-elements</name>
-					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -1735,8 +1707,8 @@
 			<type>documentation-codeblock</type>
 			<uuidstructure>dc1b3cda-0cd4-11e4-a7cb-b7bfd6088c56</uuidstructure>
 			<uuidresource>dc1b3cdb-0cd4-11e4-a7cb-b7bfd6088c56</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:20:43 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Tue, 15 Mar 2016 11:49:17 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Wed, 16 Jul 2014 10:35:09 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -3335,6 +3307,21 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/oc10-codeblock_00001.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/oc10-codeblock_00001.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>1e15ec21-eb8c-11e5-bc3d-0242ac11002b</uuidstructure>
+			<uuidresource>1e15ec22-eb8c-11e5-bc3d-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 15:39:07 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 15:31:13 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/.content/documentation-definition-list</destination>
 			<type>folder</type>
 			<uuidstructure>4a7120eb-05a8-11e4-a26d-1305b26fecac</uuidstructure>
@@ -4263,8 +4250,8 @@
 			<type>documentation-definition-list</type>
 			<uuidstructure>30f0eb73-0cd5-11e4-a7cb-b7bfd6088c56</uuidstructure>
 			<uuidresource>30f0eb74-0cd5-11e4-a7cb-b7bfd6088c56</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:20:47 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Tue, 15 Mar 2016 11:54:34 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Wed, 16 Jul 2014 10:37:31 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -4603,8 +4590,8 @@
 			<type>documentation-definition-list</type>
 			<uuidstructure>abfaec50-31b4-11e4-8511-d144f6bb3566</uuidstructure>
 			<uuidresource>abfaec51-31b4-11e4-8511-d144f6bb3566</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:20:48 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 17 Mar 2016 06:28:06 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Mon, 01 Sep 2014 08:47:57 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -5746,7 +5733,22 @@
 			<properties/>
 			<relations/>
 			<accesscontrol/>
-		</file>		
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-definition-list/oc10-definition-list_00001.xml</source>
+			<destination>opencms-documentation/.content/documentation-definition-list/oc10-definition-list_00001.xml</destination>
+			<type>documentation-definition-list</type>
+			<uuidstructure>433304aa-ea9d-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>433304ab-ea9d-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 11:46:57 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 11:01:26 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
 		<file>
 			<destination>opencms-documentation/.content/documentation-dummy-content</destination>
 			<type>folder</type>
@@ -7199,8 +7201,8 @@
 			<type>documentation-figure</type>
 			<uuidstructure>01e7a590-31b4-11e4-8511-d144f6bb3566</uuidstructure>
 			<uuidresource>01e7a591-31b4-11e4-8511-d144f6bb3566</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:20:53 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 17 Mar 2016 06:26:19 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Mon, 01 Sep 2014 08:43:12 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -8040,9 +8042,9 @@
 			<uuidstructure>26778dc3-8203-11e5-b63c-0242ac11002b</uuidstructure>
 			<uuidresource>26778dc4-8203-11e5-b63c-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 03 Nov 2015 08:21:44 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 03 Nov 2015 08:16:14 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8060,14 +8062,194 @@
 			<uuidstructure>c5efb8f0-8204-11e5-b63c-0242ac11002b</uuidstructure>
 			<uuidresource>c5efb8f1-8204-11e5-b63c-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 03 Nov 2015 08:29:06 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 03 Nov 2015 08:27:51 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
 					<value><![CDATA[wiki_links]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-figure_00001.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-figure_00001.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>a22e9c60-ea8d-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>a22e9c61-ea8d-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 09:14:15 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 09:09:33 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[reduced_export_format]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-figure_00002.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-figure_00002.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>15267f61-ea91-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>15267f62-ea91-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 11:32:25 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 09:34:15 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[git_integration_app]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-figure_00003.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-figure_00003.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>ae0e7e22-eaba-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>ae0e7e23-eaba-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 14:33:39 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 14:32:00 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[system_elements]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-figure_00004.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-figure_00004.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>f051140b-eaba-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>f051140c-eaba-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 14:35:15 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 14:33:52 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[add_existing_model_group]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-figure_00005.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-figure_00005.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>e538653e-eb44-11e5-b021-0242ac11002b</uuidstructure>
+			<uuidresource>e538653f-eb44-11e5-b021-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 07:02:33 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 07:01:24 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[sitemap_editor_template_view]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-figure_00006.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-figure_00006.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>39e0293a-eb49-11e5-b021-0242ac11002b</uuidstructure>
+			<uuidresource>39e0293b-eb49-11e5-b021-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 07:33:30 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 07:32:24 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[settings_at_model_group_pages]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-figure_00007.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-figure_00007.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>979ce54e-eb49-11e5-b021-0242ac11002b</uuidstructure>
+			<uuidresource>979ce54f-eb49-11e5-b021-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 07:36:22 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 07:35:01 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[model_group_example]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-figure_00008.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-figure_00008.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>6826b00a-eb8d-11e5-bc3d-0242ac11002b</uuidstructure>
+			<uuidresource>6826b00b-eb8d-11e5-bc3d-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 15:45:32 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 15:40:27 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[display_type_select_widget]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-figure_00009.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-figure_00009.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>b81bce7f-ec10-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>b81bce80-ec10-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 07:22:24 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 07:20:25 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[jsp_search_content]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -8668,8 +8850,8 @@
 			<type>documentation-html</type>
 			<uuidstructure>95fa107c-05aa-11e4-a26d-1305b26fecac</uuidstructure>
 			<uuidresource>95fa107d-05aa-11e4-a26d-1305b26fecac</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:20:56 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 17 Mar 2016 11:38:13 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Mon, 07 Jul 2014 07:44:54 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -20279,9 +20461,9 @@
 			<uuidstructure>a9ec1ec0-8201-11e5-b63c-0242ac11002b</uuidstructure>
 			<uuidresource>a9ec1ec1-8201-11e5-b63c-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 03 Nov 2015 08:16:01 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 03 Nov 2015 08:05:36 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -20294,9 +20476,9 @@
 			<uuidstructure>079edddc-8204-11e5-b63c-0242ac11002b</uuidstructure>
 			<uuidresource>079edddd-8204-11e5-b63c-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 03 Nov 2015 08:26:03 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 03 Nov 2015 08:22:32 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -20309,9 +20491,9 @@
 			<uuidstructure>fd7d5f29-8204-11e5-b63c-0242ac11002b</uuidstructure>
 			<uuidresource>fd7d5f2a-8204-11e5-b63c-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 03 Nov 2015 08:31:03 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 03 Nov 2015 08:29:24 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -20324,9 +20506,9 @@
 			<uuidstructure>47f1471c-8205-11e5-b63c-0242ac11002b</uuidstructure>
 			<uuidresource>47f1471d-8205-11e5-b63c-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 03 Nov 2015 08:33:20 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 03 Nov 2015 08:31:29 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -20342,6 +20524,381 @@
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 11 Jan 2016 07:20:34 GMT</datecreated>
 			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00001.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00001.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>0d018a3f-ea86-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>0d018a40-ea86-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 11:20:59 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 08:15:16 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00002.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00002.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>a2feec07-ea8a-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>a2feec08-ea8a-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 11:22:56 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 08:48:06 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00003.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00003.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>e7598fb8-ea8e-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>e7598fb9-ea8e-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 11:32:53 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 09:18:39 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00004.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00004.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>2fc539b5-ea91-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>2fc539b6-ea91-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 11:33:26 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 09:34:59 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00005.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00005.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>02c4c510-ea93-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>02c4c511-ea93-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 11:34:10 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 09:48:03 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00006.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00006.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>67afdac7-ea96-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>67afdac8-ea96-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 11:37:44 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 10:12:21 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00007.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00007.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>2cf832ee-ea98-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>2cf832ef-ea98-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 11:42:26 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 10:25:01 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00008.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00008.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>45c48c56-ea9a-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>45c48c57-ea9a-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 11:56:49 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 10:40:02 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00009.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00009.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>6876e05e-eaa6-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>6876e05f-eaa6-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 12:09:30 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 12:06:54 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00010.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00010.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>d3cb31c1-eab4-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>d3cb31c2-eab4-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 14:03:02 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 13:50:07 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00011.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00011.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>0f4dffab-eab8-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>0f4dffac-eab8-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 14:31:40 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 14:13:15 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00012.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00012.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>a6a13f5f-eaba-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>a6a13f60-eaba-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 14:35:32 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 14:31:48 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00013.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00013.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>80b54e35-eb43-11e5-b021-0242ac11002b</uuidstructure>
+			<uuidresource>80b54e36-eb43-11e5-b021-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 07:00:19 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 06:51:25 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00014.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00014.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>1a3accb2-eb45-11e5-b021-0242ac11002b</uuidstructure>
+			<uuidresource>1a3accb3-eb45-11e5-b021-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 07:40:24 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 07:02:53 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00015.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00015.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>80f49d1c-eb4a-11e5-b021-0242ac11002b</uuidstructure>
+			<uuidresource>80f49d1d-eb4a-11e5-b021-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 07:48:52 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 07:41:32 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00016.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00016.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>2b03b4d4-eb8c-11e5-bc3d-0242ac11002b</uuidstructure>
+			<uuidresource>2b03b4d5-eb8c-11e5-bc3d-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 15:38:27 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 15:31:35 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00017.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00017.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>4231e407-eb8d-11e5-bc3d-0242ac11002b</uuidstructure>
+			<uuidresource>4231e408-eb8d-11e5-bc3d-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 15:40:07 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 15:39:23 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00018.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00018.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>8da9fb4c-ec0f-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>8da9fb4d-ec0f-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 07:20:14 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 07:12:05 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00019.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00019.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>0b363888-ec11-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>0b363889-ec11-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 08:44:04 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 07:22:45 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00020.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00020.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>6464f61f-ec13-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>6464f620-ec13-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 08:20:18 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 07:39:33 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00021.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00021.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>418d60f8-ec19-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>418d60f9-ec19-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 08:40:49 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 08:21:32 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00022.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00022.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>97bf8aeb-ec1c-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>97bf8aec-ec1c-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 08:51:21 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 08:45:25 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00023.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00023.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>5a1fb743-ec1e-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>5a1fb744-ec1e-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 09:14:16 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 08:58:00 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00024.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00024.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>fd0614f2-ec24-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>fd0614f3-ec24-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 10:01:56 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 09:45:31 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-html_00025.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-html_00025.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>054e2de5-ec26-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>054e2de6-ec26-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 09:59:06 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 09:52:54 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -20366,15 +20923,15 @@
 			<type>documentation-section</type>
 			<uuidstructure>fecfc74e-05a5-11e4-a26d-1305b26fecac</uuidstructure>
 			<uuidresource>fecfc74f-05a5-11e4-a26d-1305b26fecac</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:21:10 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 17 Mar 2016 11:39:07 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Mon, 07 Jul 2014 07:12:03 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[The page editor - The Editor's Toolbar]]></value>
+					<value><![CDATA[The page editor - The editor's toolbar options]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -32407,9 +32964,9 @@
 			<uuidstructure>72ada1aa-8170-11e5-b63c-0242ac11002b</uuidstructure>
 			<uuidresource>72adc8bb-8170-11e5-b63c-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 03 Nov 2015 08:04:23 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 02 Nov 2015 14:46:06 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -32427,9 +32984,9 @@
 			<uuidstructure>888202ae-8170-11e5-b63c-0242ac11002b</uuidstructure>
 			<uuidresource>888202af-8170-11e5-b63c-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 03 Nov 2015 08:04:49 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 02 Nov 2015 14:46:43 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -32447,9 +33004,9 @@
 			<uuidstructure>a5f73592-8170-11e5-b63c-0242ac11002b</uuidstructure>
 			<uuidresource>a5f73593-8170-11e5-b63c-0242ac11002b</uuidresource>
 			<datelastmodified>Mon, 11 Jan 2016 07:24:59 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 02 Nov 2015 14:47:32 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -32475,6 +33032,446 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[January 2016 - New features]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-section_00001.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-section_00001.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>e321f68c-ea82-11e5-8cf4-0242ac11002b</uuidstructure>
+			<uuidresource>e321f68d-ea82-11e5-8cf4-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 08:47:00 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 07:52:38 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Developer Tools - The typical OpenCms development cycle]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-section_00002.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-section_00002.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>949531b3-ea8a-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>949531b4-ea8a-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 11:20:16 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 08:47:42 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Developer Tools - Reduced Import/Export format]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-section_00003.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-section_00003.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>c43ebeb4-ea8e-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>c43ebeb5-ea8e-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 11:21:10 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 09:17:40 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Developer Tools - Git integration]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-section_00004.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-section_00004.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>dd940c58-ea92-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>dd940c59-ea92-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 09:47:09 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 09:47:00 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Developer Tools - Module check-in]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-section_00005.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-section_00005.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>f12d717c-ea92-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>f12d717d-ea92-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 11:31:39 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 09:47:33 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Developer Tools - Module import from the git repository]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-section_00006.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-section_00006.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>576d8fe3-ea96-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>576d8fe4-ea96-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 11:29:50 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 10:11:53 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Developer Tools - Git configuration]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-section_00007.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-section_00007.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>1a3816ca-ea98-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>1a3816cb-ea98-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 10:24:47 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 10:24:30 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Developer Tools - Using the Git integration via the command line]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-section_00008.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-section_00008.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>3309a051-ea9a-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>3309a052-ea9a-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 11:21:58 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 10:39:30 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Developer Tools - Module import and export via the network share]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-section_00009.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-section_00009.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>a78f10b7-eab1-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>a78f10b8-eab1-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 13:28:58 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 13:27:24 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Groups of content - Why grouping content?]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-section_00010.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-section_00010.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>7a32920c-eab6-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>7a32920d-eab6-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 14:01:56 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 14:01:55 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Change my headline]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-section_00011.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-section_00011.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>e8e04f93-eab6-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>e8e04f94-eab6-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 06:52:27 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 14:05:01 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Groups of content - Creating and editing model groups]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-section_00012.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-section_00012.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>050582d7-eab7-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>050582d8-eab7-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 14:27:08 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 14:05:48 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Groups of content - Using model groups]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-section_00013.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-section_00013.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>758b9fa8-eb4a-11e5-b021-0242ac11002b</uuidstructure>
+			<uuidresource>758b9fa9-eb4a-11e5-b021-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 07:46:33 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 07:41:13 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Groups of content - Technical background]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-section_00014.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-section_00014.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>7edcf769-eb8b-11e5-bc3d-0242ac11002b</uuidstructure>
+			<uuidresource>7edcf76a-eb8b-11e5-bc3d-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 15:27:51 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 15:26:46 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Widget configuration - Display Type Select Widget]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-section_00015.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-section_00015.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>590bed23-ec0a-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>590bed24-ec0a-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 06:34:49 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 06:34:49 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Change my headline]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-section_00016.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-section_00016.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>e2b2ba03-ec0a-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>e2b2ba04-ec0a-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 07:11:45 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 06:38:40 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Full text search with Solr - Adding a full text search to your webpage]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-section_00017.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-section_00017.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>4994083b-ec13-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>4994083c-ec13-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 08:09:52 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 07:38:48 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Full text search with Solr - Writing your own formatter for the full text search]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-section_00018.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-section_00018.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>2625ff74-ec19-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>2625ff75-ec19-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 08:21:02 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 08:20:46 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Full text search with Solr - Other ways to work with &lt;cms:search&gt;]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-section_00019.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-section_00019.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>34def8fe-ec1e-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>34def8ff-ec1e-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 08:57:48 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 08:56:58 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Full text search with Solr - Preparing your content for the search]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-section_00020.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-section_00020.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>3fca5354-ec24-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>3fca5355-ec24-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 09:43:57 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 09:40:13 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[March 2016 - New topics]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-section_00021.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-section_00021.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>c9fac28d-ec24-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>c9fac28e-ec24-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 09:44:14 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 09:44:05 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[March 2016 - Improved topics]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-section_00022.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-section_00022.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>2d088157-ec32-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>2d088158-ec32-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 11:19:55 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 11:19:55 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Change my headline]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -32720,7 +33717,7 @@
 			<uuidstructure>604b3ea8-31ab-11e4-8511-d144f6bb3566</uuidstructure>
 			<uuidresource>604b3ea9-31ab-11e4-8511-d144f6bb3566</uuidresource>
 			<datelastmodified>Tue, 03 Nov 2015 08:04:03 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 01 Sep 2014 07:41:25 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -32739,15 +33736,15 @@
 			<type>documentation-topic-row</type>
 			<uuidstructure>dee29fc3-31ab-11e4-8511-d144f6bb3566</uuidstructure>
 			<uuidresource>dee29fc4-31ab-11e4-8511-d144f6bb3566</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:21:38 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 17 Mar 2016 11:30:15 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Mon, 01 Sep 2014 07:44:57 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Page &amp; sitemap editing]]></value>
+					<value><![CDATA[Page and sitemap editing]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -32759,15 +33756,15 @@
 			<type>documentation-topic-row</type>
 			<uuidstructure>a147f1a9-31ac-11e4-8511-d144f6bb3566</uuidstructure>
 			<uuidresource>a147f1aa-31ac-11e4-8511-d144f6bb3566</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:21:38 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 17 Mar 2016 11:24:07 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Mon, 01 Sep 2014 07:50:23 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[The traditional workplace views]]></value>
+					<value><![CDATA[Launchpad and other apps]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -33289,6 +34286,26 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.content/documentation-topic-row/oc10-topic-row_00001.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic-row/oc10-topic-row_00001.xml</destination>
+			<type>documentation-topic-row</type>
+			<uuidstructure>36269603-eaa5-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>36269604-eaa5-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 09:37:22 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 11:58:20 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[New features in OpenCms 10.0]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/.content/documentation-topic</destination>
 			<type>folder</type>
 			<uuidstructure>7c099f0c-02bc-11e4-8167-1305b26fecac</uuidstructure>
@@ -33379,15 +34396,15 @@
 			<type>documentation-topic</type>
 			<uuidstructure>3b83b9cc-06a0-11e4-909a-1305b26fecac</uuidstructure>
 			<uuidresource>3b83b9cd-06a0-11e4-909a-1305b26fecac</uuidresource>
-			<datelastmodified>Tue, 17 Feb 2015 15:25:45 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 17 Mar 2016 11:11:06 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Tue, 08 Jul 2014 13:03:19 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Keywords</name>
-					<value><![CDATA[views, ADE, editor, sitemap editor]]></value>
+					<value><![CDATA[views, app, editor, sitemap editor]]></value>
 				</property>
 				<property>
 					<name>Title</name>
@@ -33403,15 +34420,15 @@
 			<type>documentation-topic</type>
 			<uuidstructure>8cb7811a-0811-11e4-8e56-b7bfd6088c56</uuidstructure>
 			<uuidresource>8cb7811b-0811-11e4-8e56-b7bfd6088c56</uuidresource>
-			<datelastmodified>Tue, 17 Feb 2015 15:25:45 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 17 Mar 2016 11:35:34 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Thu, 10 Jul 2014 09:06:59 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Keywords</name>
-					<value><![CDATA[views, ADE, editor, page editor]]></value>
+					<value><![CDATA[editor, app, editor, page editor]]></value>
 				</property>
 				<property>
 					<name>Title</name>
@@ -33519,8 +34536,8 @@
 			<type>documentation-topic</type>
 			<uuidstructure>49b0aaa4-0c27-11e4-8bcb-b7bfd6088c56</uuidstructure>
 			<uuidresource>49b0aaa5-0c27-11e4-8bcb-b7bfd6088c56</uuidresource>
-			<datelastmodified>Tue, 17 Feb 2015 15:24:06 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 17 Mar 2016 09:12:00 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Tue, 15 Jul 2014 13:52:40 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -33591,8 +34608,8 @@
 			<type>documentation-topic</type>
 			<uuidstructure>14360efc-0cd2-11e4-a7cb-b7bfd6088c56</uuidstructure>
 			<uuidresource>14360efd-0cd2-11e4-a7cb-b7bfd6088c56</uuidresource>
-			<datelastmodified>Tue, 17 Feb 2015 15:24:06 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Tue, 15 Mar 2016 11:48:00 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Wed, 16 Jul 2014 10:15:14 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -33659,8 +34676,8 @@
 			<type>documentation-topic</type>
 			<uuidstructure>aec5996f-18b5-11e4-8e8b-b7bfd6088c56</uuidstructure>
 			<uuidresource>aec59970-18b5-11e4-8e8b-b7bfd6088c56</uuidresource>
-			<datelastmodified>Tue, 17 Feb 2015 15:25:45 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Wed, 16 Mar 2016 07:54:43 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Thu, 31 Jul 2014 13:22:12 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -33799,8 +34816,8 @@
 			<type>documentation-topic</type>
 			<uuidstructure>60737551-1bb4-11e4-bfa5-b7bfd6088c56</uuidstructure>
 			<uuidresource>60737552-1bb4-11e4-bfa5-b7bfd6088c56</uuidresource>
-			<datelastmodified>Tue, 17 Feb 2015 15:20:06 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 17 Mar 2016 06:33:15 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Mon, 04 Aug 2014 08:50:25 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -34059,19 +35076,19 @@
 			<type>documentation-topic</type>
 			<uuidstructure>22385acf-276b-11e4-b2bf-49dbf0abad32</uuidstructure>
 			<uuidresource>22385ad0-276b-11e4-b2bf-49dbf0abad32</uuidresource>
-			<datelastmodified>Tue, 17 Feb 2015 15:25:46 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 17 Mar 2016 11:05:39 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Tue, 19 Aug 2014 06:36:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Keywords</name>
-					<value><![CDATA[overview, views, ADE, workplace]]></value>
+					<value><![CDATA[overview, views, workplace]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Views in OpenCms]]></value>
+					<value><![CDATA[The OpenCms workplace]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -34563,8 +35580,8 @@
 			<type>documentation-topic</type>
 			<uuidstructure>cce94440-31ad-11e4-8511-d144f6bb3566</uuidstructure>
 			<uuidresource>cce94441-31ad-11e4-8511-d144f6bb3566</uuidresource>
-			<datelastmodified>Tue, 17 Feb 2015 15:20:07 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 17 Mar 2016 06:28:32 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Mon, 01 Sep 2014 07:58:46 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -34943,19 +35960,19 @@
 			<type>documentation-topic</type>
 			<uuidstructure>f770a2e9-37e5-11e4-8113-d144f6bb3566</uuidstructure>
 			<uuidresource>f770a2ea-37e5-11e4-8113-d144f6bb3566</uuidresource>
-			<datelastmodified>Tue, 17 Feb 2015 15:25:46 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 17 Mar 2016 11:29:03 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Tue, 09 Sep 2014 05:55:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Keywords</name>
-					<value><![CDATA[overview, views, ADE]]></value>
+					<value><![CDATA[overview, app, editor]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[The ADE views]]></value>
+					<value><![CDATA[Editors]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -35375,8 +36392,8 @@
 			<type>documentation-topic</type>
 			<uuidstructure>e7e3dfd3-48a2-11e4-9176-336f7b60f7b1</uuidstructure>
 			<uuidresource>e7e3dfd4-48a2-11e4-9176-336f7b60f7b1</uuidresource>
-			<datelastmodified>Wed, 25 Feb 2015 14:19:01 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Wed, 16 Mar 2016 15:46:03 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Tue, 30 Sep 2014 13:08:44 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -35992,6 +37009,167 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.content/documentation-topic/oc10-topic_00001.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic/oc10-topic_00001.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>e2e9816a-ea82-11e5-8cf4-0242ac11002b</uuidstructure>
+			<uuidresource>e2e9816b-ea82-11e5-8cf4-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 11:09:44 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 07:52:37 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Keywords</name>
+					<value><![CDATA[development, tools, configuration]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Developer Tools]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-topic/oc10-topic_00002.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic/oc10-topic_00002.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>36200651-eaa5-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>36200652-eaa5-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 12:01:52 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 11:58:20 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Keywords</name>
+					<value><![CDATA[overview, new in Opencms]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[New in OpenCms 10.0]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-topic/oc10-topic_00003.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic/oc10-topic_00003.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>a77d5d75-eab1-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>a77d5d76-eab1-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 07:39:19 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 13:27:24 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Keywords</name>
+					<value><![CDATA[website creation, reuse group, copy group, templating, sitemap editor, page creation]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Groups of content]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-topic/oc10-topic_00004.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic/oc10-topic_00004.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>7a1e1faa-eab6-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>7a1e1fab-eab6-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 14:01:55 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 14:01:55 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-topic/oc10-topic_00005.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic/oc10-topic_00005.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>58fa60f1-ec0a-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>58fa60f2-ec0a-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 06:34:49 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 06:34:49 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-topic/oc10-topic_00006.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic/oc10-topic_00006.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>e29e6eb1-ec0a-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>e29e6eb2-ec0a-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 09:15:52 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 06:38:40 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Keywords</name>
+					<value><![CDATA[Solr, search, <cms:search>]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Full text search with Solr]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-topic/oc10-topic_00007.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic/oc10-topic_00007.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>3fb43342-ec24-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>3fb43343-ec24-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 10:00:02 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 09:40:13 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[March 2016]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-topic/oc10-topic_00008.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic/oc10-topic_00008.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>2cf6ce15-ec32-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>2cf6ce16-ec32-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 11:19:55 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 11:19:55 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/.content/documentation-view-switcher</destination>
 			<type>folder</type>
 			<uuidstructure>c620e563-6593-11e4-9296-005056b61161</uuidstructure>
@@ -36019,6 +37197,39 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[My view switcher]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/.content/jsp-search-form</destination>
+			<type>folder</type>
+			<uuidstructure>76aa4b81-ac5f-11e4-b42e-0242ac11002b</uuidstructure>
+			<datelastmodified>Wed, 04 Feb 2015 11:17:54 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 04 Feb 2015 11:17:54 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/jsp-search-form/jsp-search-form-00001.xml</source>
+			<destination>opencms-documentation/.content/jsp-search-form/jsp-search-form-00001.xml</destination>
+			<type>jsp-search</type>
+			<uuidstructure>d5f17835-ac5f-11e4-b42e-0242ac11002b</uuidstructure>
+			<uuidresource>d5f17836-ac5f-11e4-b42e-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Sep 2015 18:31:08 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 04 Feb 2015 11:20:33 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Documentation Search Results]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -40839,6 +42050,54 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.galleries/pictures/DisplaySelectWidget.png</source>
+			<destination>opencms-documentation/.galleries/pictures/DisplaySelectWidget.png</destination>
+			<type>image</type>
+			<uuidstructure>9f7a8eb5-eb6d-11e5-ad35-0242ac11002b</uuidstructure>
+			<uuidresource>9f7a8eb6-eb6d-11e5-ad35-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 11:52:56 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 11:52:56 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[DisplaySelectWidget]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1067,h:391]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/DisplaySelectWidget1.png</source>
+			<destination>opencms-documentation/.galleries/pictures/DisplaySelectWidget1.png</destination>
+			<type>image</type>
+			<uuidstructure>15433f1e-eb8e-11e5-bc3d-0242ac11002b</uuidstructure>
+			<uuidresource>15433f1f-eb8e-11e5-bc3d-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 15:45:17 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 15:45:17 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[DisplaySelectWidget1]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:899,h:148]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>opencms-documentation/.galleries/pictures/DroppingContent.png</source>
 			<destination>opencms-documentation/.galleries/pictures/DroppingContent.png</destination>
 			<type>image</type>
@@ -41084,8 +42343,8 @@
 			<type>image</type>
 			<uuidstructure>25c8acc3-31b4-11e4-8511-d144f6bb3566</uuidstructure>
 			<uuidresource>25c8acc4-31b4-11e4-8511-d144f6bb3566</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:21:49 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Wed, 16 Mar 2016 16:11:45 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Mon, 01 Sep 2014 08:44:12 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -41096,7 +42355,7 @@
 				</property>
 				<property type="shared">
 					<name>image.size</name>
-					<value><![CDATA[w:938,h:601]]></value>
+					<value><![CDATA[w:948,h:1057]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -41181,9 +42440,9 @@
 			<uuidstructure>e5dbad97-8203-11e5-b63c-0242ac11002b</uuidstructure>
 			<uuidresource>e5dbad98-8203-11e5-b63c-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 03 Nov 2015 08:21:35 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 03 Nov 2015 08:21:35 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -41193,6 +42452,30 @@
 				<property type="shared">
 					<name>image.size</name>
 					<value><![CDATA[w:1137,h:386]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/GitIntegrationDialog.png</source>
+			<destination>opencms-documentation/.galleries/pictures/GitIntegrationDialog.png</destination>
+			<type>image</type>
+			<uuidstructure>09e2e43d-ea91-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>09e2e43e-ea91-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 09:33:56 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 09:33:56 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[GitIntegrationDialog]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:837,h:918]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -41439,6 +42722,30 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.galleries/pictures/jspsearch_content.png</source>
+			<destination>opencms-documentation/.galleries/pictures/jspsearch_content.png</destination>
+			<type>image</type>
+			<uuidstructure>f6e9fe23-ec10-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>f6e9fe24-ec10-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 07:22:11 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 07:22:11 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[jspsearch_content]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:948,h:422]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>opencms-documentation/.galleries/pictures/language-folders.png</source>
 			<destination>opencms-documentation/.galleries/pictures/language-folders.png</destination>
 			<type>image</type>
@@ -41481,6 +42788,54 @@
 				<property type="shared">
 					<name>image.size</name>
 					<value><![CDATA[w:941,h:935]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/ModelGroupExample.png</source>
+			<destination>opencms-documentation/.galleries/pictures/ModelGroupExample.png</destination>
+			<type>image</type>
+			<uuidstructure>bf904072-eb49-11e5-b021-0242ac11002b</uuidstructure>
+			<uuidresource>bf904073-eb49-11e5-b021-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 07:36:08 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 07:36:08 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[ModelGroupExample]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1080,h:180]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/ModelGroupOptions.png</source>
+			<destination>opencms-documentation/.galleries/pictures/ModelGroupOptions.png</destination>
+			<type>image</type>
+			<uuidstructure>3142cee6-eb49-11e5-b021-0242ac11002b</uuidstructure>
+			<uuidresource>3142cee7-eb49-11e5-b021-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 07:32:09 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 07:32:09 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[ModelGroupOptions]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:711,h:410]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -41577,6 +42932,30 @@
 				<property type="shared">
 					<name>image.size</name>
 					<value><![CDATA[w:1009,h:440]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/ModuleManagementReducedExportFormat.png</source>
+			<destination>opencms-documentation/.galleries/pictures/ModuleManagementReducedExportFormat.png</destination>
+			<type>image</type>
+			<uuidstructure>96f895cc-ea8d-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>96f895cd-ea8d-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 09:09:14 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 09:09:14 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[ModuleManagementReducedExportFormat]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:745,h:679]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -41991,6 +43370,54 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.galleries/pictures/Selecting_ModelGroup1.png</source>
+			<destination>opencms-documentation/.galleries/pictures/Selecting_ModelGroup1.png</destination>
+			<type>image</type>
+			<uuidstructure>df551616-eaba-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>df551617-eaba-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 14:33:23 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 14:33:23 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Selecting_ModelGroup1]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:823,h:410]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/Selecting_ModelGroup2.png</source>
+			<destination>opencms-documentation/.galleries/pictures/Selecting_ModelGroup2.png</destination>
+			<type>image</type>
+			<uuidstructure>18e40a8f-eabb-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>18e40a90-eabb-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 14:35:00 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 14:35:00 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Selecting_ModelGroup2]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:815,h:533]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>opencms-documentation/.galleries/pictures/SEO_OptionsDialog.png</source>
 			<destination>opencms-documentation/.galleries/pictures/SEO_OptionsDialog.png</destination>
 			<type>image</type>
@@ -42255,6 +43682,30 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.galleries/pictures/TemplateView_ModelGroupPages.png</source>
+			<destination>opencms-documentation/.galleries/pictures/TemplateView_ModelGroupPages.png</destination>
+			<type>image</type>
+			<uuidstructure>dc69e8ca-eb44-11e5-b021-0242ac11002b</uuidstructure>
+			<uuidresource>dc69e8cb-eb44-11e5-b021-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 07:01:09 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 07:01:09 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[TemplateView_ModelGroupPages]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1053,h:419]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>opencms-documentation/.galleries/pictures/ToolbarPageEditor_HighlightEditPointToggle.png</source>
 			<destination>opencms-documentation/.galleries/pictures/ToolbarPageEditor_HighlightEditPointToggle.png</destination>
 			<type>image</type>
@@ -42284,8 +43735,8 @@
 			<type>image</type>
 			<uuidstructure>7c011383-02bc-11e4-8167-1305b26fecac</uuidstructure>
 			<uuidresource>7c011384-02bc-11e4-8167-1305b26fecac</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:21:50 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 17 Mar 2016 11:46:51 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Thu, 03 Jul 2014 14:15:28 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -42296,7 +43747,7 @@
 				</property>
 				<property type="shared">
 					<name>image.size</name>
-					<value><![CDATA[w:678,h:35]]></value>
+					<value><![CDATA[w:1051,h:49]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -42405,9 +43856,9 @@
 			<uuidstructure>ccdb92b3-8204-11e5-b63c-0242ac11002b</uuidstructure>
 			<uuidresource>ccdb92b4-8204-11e5-b63c-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 03 Nov 2015 08:28:03 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 03 Nov 2015 08:28:03 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -43962,8 +45413,8 @@
 			<type>containerpage</type>
 			<uuidstructure>5fcadeea-48a2-11e4-9176-336f7b60f7b1</uuidstructure>
 			<uuidresource>5fcadeeb-48a2-11e4-9176-336f7b60f7b1</uuidresource>
-			<datelastmodified>Thu, 26 Feb 2015 08:15:54 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Wed, 16 Mar 2016 15:42:57 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Tue, 30 Sep 2014 13:04:55 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -44247,6 +45698,52 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Configuring inline editing]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/content-in-opencms/formatters-and-their-configuration/macro-formatters</destination>
+			<type>folder</type>
+			<uuidstructure>7a160955-eab6-11e5-8020-0242ac11002b</uuidstructure>
+			<datelastmodified>Tue, 15 Mar 2016 14:02:03 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 14:01:55 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.25]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Macro formatters]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Macro formatters]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/content-in-opencms/formatters-and-their-configuration/macro-formatters/index.html</source>
+			<destination>opencms-documentation/content-in-opencms/formatters-and-their-configuration/macro-formatters/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>7a37e93f-eab6-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>7a37e940-eab6-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 14:02:03 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 14:01:56 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Macro formatters]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -45138,6 +46635,52 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>opencms-documentation/creating-a-website/groups-of-content</destination>
+			<type>folder</type>
+			<uuidstructure>a7760a70-eab1-11e5-8020-0242ac11002b</uuidstructure>
+			<datelastmodified>Tue, 15 Mar 2016 13:28:27 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 13:27:24 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[2.75]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Groups of content]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Groups of content]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/creating-a-website/groups-of-content/index.html</source>
+			<destination>opencms-documentation/creating-a-website/groups-of-content/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>a79419ca-eab1-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>a79419cb-eab1-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 07:41:32 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 13:27:24 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Groups of content]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/creating-a-website/seo</destination>
 			<type>folder</type>
 			<uuidstructure>516ba0f0-0cd6-11e4-a7cb-b7bfd6088c56</uuidstructure>
@@ -45525,6 +47068,21 @@
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Nov 2014 16:46:35 GMT</datecreated>
 			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-demo-article/oc10-demo-article_00001.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-demo-article/oc10-demo-article_00001.xml</destination>
+			<type>documentation-demo-article</type>
+			<uuidstructure>4106ad3f-eaa8-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>4106ad40-eaa8-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 12:22:49 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 12:20:07 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -46078,6 +47636,26 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Add a new title here]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-demo-source/oc10-demo-source_00001.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-demo-source/oc10-demo-source_00001.xml</destination>
+			<type>documentation-demo-source</type>
+			<uuidstructure>2240c205-eaa9-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>2240c206-eaa9-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 12:27:39 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 12:26:24 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo article Image drag'n'drop formatter]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -47018,6 +48596,66 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/demos/.content/documentation-html/oc10-html_00001.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-html/oc10-html_00001.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>cf9b8802-eaa8-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>cf9b8803-eaa8-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 12:26:15 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 12:24:06 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-html/oc10-html_00002.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-html/oc10-html_00002.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>88050109-eaa9-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>8805010a-eaa9-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 12:48:20 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 12:29:15 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-html/oc10-html_00003.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-html/oc10-html_00003.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>2532955c-eaaa-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>2532955d-eaaa-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 12:47:12 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 12:33:39 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-html/oc10-html_00004.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-html/oc10-html_00004.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>185c0bdf-eb4e-11e5-b021-0242ac11002b</uuidstructure>
+			<uuidresource>185c0be0-eb4e-11e5-b021-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 13:49:30 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 08:07:15 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/demos/.content/documentation-section</destination>
 			<type>folder</type>
 			<uuidstructure>edf184c8-1e07-11e4-a270-d9f74955ba1b</uuidstructure>
@@ -47811,6 +49449,126 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/demos/.content/documentation-section/oc10-section_00001.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-section/oc10-section_00001.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>036be9e8-eaa7-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>036be9e9-eaa7-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 12:11:14 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 12:11:14 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demos - Result section]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-section/oc10-section_00002.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-section/oc10-section_00002.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>03718f3b-eaa7-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>03718f3c-eaa7-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 12:11:14 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 12:11:14 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demos: Example resources and the interesting spots]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-section/oc10-section_00003.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-section/oc10-section_00003.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>9e650dc6-eb4d-11e5-b021-0242ac11002b</uuidstructure>
+			<uuidresource>9e650dc7-eb4d-11e5-b021-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 08:03:50 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 08:03:50 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demos - Result section]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-section/oc10-section_00004.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-section/oc10-section_00004.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>9e6ab319-eb4d-11e5-b021-0242ac11002b</uuidstructure>
+			<uuidresource>9e6ab31a-eb4d-11e5-b021-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 08:03:50 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 08:03:50 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demos: Example resources and the interesting spots]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-section/oc10-section_00005.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-section/oc10-section_00005.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>bfe76490-eb4d-11e5-b021-0242ac11002b</uuidstructure>
+			<uuidresource>bfe76491-eb4d-11e5-b021-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 08:04:46 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 08:04:46 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demos - Result section]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-section/oc10-section_00006.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-section/oc10-section_00006.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>bfee4263-eb4d-11e5-b021-0242ac11002b</uuidstructure>
+			<uuidresource>bfee4264-eb4d-11e5-b021-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 08:04:47 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 08:04:46 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demos: Example resources and the interesting spots]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/demos/.content/documentation-topic-row</destination>
 			<type>folder</type>
 			<uuidstructure>e26760cb-2922-11e4-8d36-d144f6bb3566</uuidstructure>
@@ -48334,17 +50092,12 @@
 			<type>documentation-topic</type>
 			<uuidstructure>b7a0b52c-22cd-11e4-a67d-d9f74955ba1b</uuidstructure>
 			<uuidresource>b7a0b52d-22cd-11e4-a67d-d9f74955ba1b</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:22:06 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Wed, 16 Mar 2016 10:25:04 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Wed, 13 Aug 2014 09:39:27 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Article detail views]]></value>
-				</property>
-			</properties>
+			<properties/>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -48433,6 +50186,69 @@
 					<value><![CDATA[PDF thumbnail generation]]></value>
 				</property>
 			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-topic/oc10-topic_00001.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-topic/oc10-topic_00001.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>0364bdf6-eaa7-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>0364bdf7-eaa7-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 12:38:24 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 12:11:14 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Keywords</name>
+					<value><![CDATA[Demo, image drag'n'drop]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Image drag'n'drop]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-topic/oc10-topic_00002.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-topic/oc10-topic_00002.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>9e5e08e4-eb4d-11e5-b021-0242ac11002b</uuidstructure>
+			<uuidresource>9e5e08e5-eb4d-11e5-b021-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 14:57:34 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 08:03:50 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Keywords</name>
+					<value><![CDATA[demo, collector, list, detail page]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Lists and detail pages II]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-topic/oc10-topic_00003.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-topic/oc10-topic_00003.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>bfde3cce-eb4d-11e5-b021-0242ac11002b</uuidstructure>
+			<uuidresource>bfde3ccf-eb4d-11e5-b021-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 08:04:46 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 08:04:46 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -49483,6 +51299,52 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>opencms-documentation/demos/image-dragndrop</destination>
+			<type>folder</type>
+			<uuidstructure>035eca81-eaa7-11e5-8020-0242ac11002b</uuidstructure>
+			<datelastmodified>Tue, 15 Mar 2016 12:11:51 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 12:11:14 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[8.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Image drag'n'drop]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Image drag'n'drop]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/image-dragndrop/index.html</source>
+			<destination>opencms-documentation/demos/image-dragndrop/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>03764a2e-eaa7-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>03764a2f-eaa7-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 12:39:07 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 12:11:14 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Image drag'n'drop]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/demos/image-scaling</destination>
 			<type>folder</type>
 			<uuidstructure>d13ee036-22ae-11e4-8f7a-d9f74955ba1b</uuidstructure>
@@ -49569,6 +51431,418 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Inline editing]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/demos/lists-and-detail-pages-ii</destination>
+			<type>subsitemap</type>
+			<uuidstructure>9e541dcf-eb4d-11e5-b021-0242ac11002b</uuidstructure>
+			<datelastmodified>Wed, 16 Mar 2016 08:04:20 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 08:03:50 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[12.5]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Lists and detail pages II]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Lists and detail pages II]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/lists-and-detail-pages-ii/index.html</source>
+			<destination>opencms-documentation/demos/lists-and-detail-pages-ii/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>9e70a68c-eb4d-11e5-b021-0242ac11002b</uuidstructure>
+			<uuidresource>9e70a68d-eb4d-11e5-b021-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 13:47:15 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 08:03:50 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Lists and detail pages II]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/demos/lists-and-detail-pages-ii/.content</destination>
+			<type>content_folder</type>
+			<uuidstructure>b063d5bf-eb4d-11e5-b021-0242ac11002b</uuidstructure>
+			<datelastmodified>Wed, 16 Mar 2016 08:04:20 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 08:04:20 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/lists-and-detail-pages-ii/.content/.config</source>
+			<destination>opencms-documentation/demos/lists-and-detail-pages-ii/.content/.config</destination>
+			<type>sitemap_config</type>
+			<uuidstructure>b065d191-eb4d-11e5-b021-0242ac11002b</uuidstructure>
+			<uuidresource>b065d192-eb4d-11e5-b021-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 14:47:31 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 08:04:20 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>512</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Sitemap configuration file]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-demo-list</destination>
+			<type>folder</type>
+			<uuidstructure>cfbc3f59-eb5b-11e5-ad35-0242ac11002b</uuidstructure>
+			<datelastmodified>Wed, 16 Mar 2016 09:45:26 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 09:45:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-demo-list/documentation-demo-list-00001.xml</source>
+			<destination>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-demo-list/documentation-demo-list-00001.xml</destination>
+			<type>documentation-demo-list</type>
+			<uuidstructure>cfc232cb-eb5b-11e5-ad35-0242ac11002b</uuidstructure>
+			<uuidresource>cfc232cc-eb5b-11e5-ad35-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 13:46:44 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 09:45:26 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Articles]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-demo-source</destination>
+			<type>folder</type>
+			<uuidstructure>be093292-eb6b-11e5-ad35-0242ac11002b</uuidstructure>
+			<datelastmodified>Wed, 16 Mar 2016 11:39:28 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 11:39:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-demo-source/oc10-demo-source_00001.xml</source>
+			<destination>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-demo-source/oc10-demo-source_00001.xml</destination>
+			<type>documentation-demo-source</type>
+			<uuidstructure>be0c18c4-eb6b-11e5-ad35-0242ac11002b</uuidstructure>
+			<uuidresource>be0c18c5-eb6b-11e5-ad35-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 11:40:31 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 11:39:28 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo list schema]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-demo-source/oc10-demo-source_00002.xml</source>
+			<destination>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-demo-source/oc10-demo-source_00002.xml</destination>
+			<type>documentation-demo-source</type>
+			<uuidstructure>3a90feaf-eb75-11e5-ad35-0242ac11002b</uuidstructure>
+			<uuidresource>3a90feb0-eb75-11e5-ad35-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 12:49:35 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 12:47:23 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Add a new title here]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-demo-source/oc10-demo-source_00003.xml</source>
+			<destination>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-demo-source/oc10-demo-source_00003.xml</destination>
+			<type>documentation-demo-source</type>
+			<uuidstructure>0b71490f-eb76-11e5-ad35-0242ac11002b</uuidstructure>
+			<uuidresource>0b714910-eb76-11e5-ad35-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 12:53:57 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 12:53:13 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo list formatter]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-figure</destination>
+			<type>folder</type>
+			<uuidstructure>a877bc49-eb6d-11e5-ad35-0242ac11002b</uuidstructure>
+			<datelastmodified>Wed, 16 Mar 2016 11:53:11 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 11:53:11 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-html</destination>
+			<type>folder</type>
+			<uuidstructure>a7a04592-eb69-11e5-ad35-0242ac11002b</uuidstructure>
+			<datelastmodified>Wed, 16 Mar 2016 11:24:32 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 11:24:32 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-html/oc10-html_00001.xml</source>
+			<destination>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-html/oc10-html_00001.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>a7a32bc4-eb69-11e5-ad35-0242ac11002b</uuidstructure>
+			<uuidresource>a7a32bc5-eb69-11e5-ad35-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 15:48:19 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 11:24:32 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-html/oc10-html_00002.xml</source>
+			<destination>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-html/oc10-html_00002.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>ca5162dd-eb6a-11e5-ad35-0242ac11002b</uuidstructure>
+			<uuidresource>ca5162de-eb6a-11e5-ad35-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 15:49:11 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 11:32:39 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-html/oc10-html_00003.xml</source>
+			<destination>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-html/oc10-html_00003.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>09bd3ba8-eb6c-11e5-ad35-0242ac11002b</uuidstructure>
+			<uuidresource>09bd3ba9-eb6c-11e5-ad35-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 15:50:56 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 11:41:35 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-html/oc10-html_00004.xml</source>
+			<destination>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-html/oc10-html_00004.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>ea0f4b9c-eb75-11e5-ad35-0242ac11002b</uuidstructure>
+			<uuidresource>ea0f4b9d-eb75-11e5-ad35-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 13:17:04 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 12:52:17 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-html/oc10-html_00005.xml</source>
+			<destination>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-html/oc10-html_00005.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>67d1c941-eb79-11e5-ad35-0242ac11002b</uuidstructure>
+			<uuidresource>67d1c942-eb79-11e5-ad35-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 16:06:51 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 13:17:17 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-html/oc10-html_00006.xml</source>
+			<destination>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-html/oc10-html_00006.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>f95c7984-eb7b-11e5-ad35-0242ac11002b</uuidstructure>
+			<uuidresource>f95c7985-eb7b-11e5-ad35-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 16:03:35 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 13:35:40 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-section</destination>
+			<type>folder</type>
+			<uuidstructure>901bce27-eb6a-11e5-ad35-0242ac11002b</uuidstructure>
+			<datelastmodified>Wed, 16 Mar 2016 11:31:02 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 11:31:02 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-section/oc10-section_00001.xml</source>
+			<destination>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-section/oc10-section_00001.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>901e6639-eb6a-11e5-ad35-0242ac11002b</uuidstructure>
+			<uuidresource>901e663a-eb6a-11e5-ad35-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 11:31:25 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 11:31:02 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Lists and detail pages II - Display formatters and the DisplayTypeSelectWidget]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-section/oc10-section_00002.xml</source>
+			<destination>opencms-documentation/demos/lists-and-detail-pages-ii/.content/documentation-section/oc10-section_00002.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>d9ed8108-eb75-11e5-ad35-0242ac11002b</uuidstructure>
+			<uuidresource>d9ed8109-eb75-11e5-ad35-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 16 Mar 2016 12:52:03 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 12:51:50 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Lists and detail pages II - Rendering the list]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/demos/lists-and-detail-pages-ii/article-detail-views</destination>
+			<type>folder</type>
+			<uuidstructure>bfd737e9-eb4d-11e5-b021-0242ac11002b</uuidstructure>
+			<datelastmodified>Wed, 16 Mar 2016 10:24:22 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 08:04:46 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Article detail views]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Article detail views]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/lists-and-detail-pages-ii/article-detail-views/index.html</source>
+			<destination>opencms-documentation/demos/lists-and-detail-pages-ii/article-detail-views/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>16608f1a-eb61-11e5-ad35-0242ac11002b</uuidstructure>
+			<uuidresource>16608f1b-eb61-11e5-ad35-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 12 Jan 2015 10:22:08 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Wed, 16 Mar 2016 10:23:12 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Article detail views]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -50145,6 +52419,52 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>opencms-documentation/development-setups/developer-tools</destination>
+			<type>folder</type>
+			<uuidstructure>e2c77a75-ea82-11e5-8cf4-0242ac11002b</uuidstructure>
+			<datelastmodified>Tue, 15 Mar 2016 07:53:11 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 07:52:37 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[2.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Developer Tools]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Developer Tools]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/development-setups/developer-tools/index.html</source>
+			<destination>opencms-documentation/development-setups/developer-tools/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>e32e529f-ea82-11e5-8cf4-0242ac11002b</uuidstructure>
+			<uuidresource>e32e52a0-ea82-11e5-8cf4-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 12:06:54 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 07:52:38 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Developer Tools]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/development-setups/installing-eclipse-and-gradle</destination>
 			<type>folder</type>
 			<uuidstructure>58ccb21a-3989-11e4-81c6-578a14069906</uuidstructure>
@@ -50319,7 +52639,7 @@
 			<uuidstructure>b87d655c-28fd-11e4-86cf-f33727103161</uuidstructure>
 			<uuidresource>b87d655d-28fd-11e4-86cf-f33727103161</uuidresource>
 			<datelastmodified>Tue, 03 Nov 2015 08:31:29 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 21 Aug 2014 06:38:11 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -50579,6 +52899,52 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>opencms-documentation/introduction/latest-updates/march-2016</destination>
+			<type>folder</type>
+			<uuidstructure>3fa7d72d-ec24-11e5-ad5a-0242ac11002b</uuidstructure>
+			<datelastmodified>Thu, 17 Mar 2016 09:40:27 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 09:40:13 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.0625]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[March 2016]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[March 2016]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/introduction/latest-updates/march-2016/index.html</source>
+			<destination>opencms-documentation/introduction/latest-updates/march-2016/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>3fcfaa87-ec24-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>3fcfaa88-ec24-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 09:52:54 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 09:40:13 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[March 2016]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/introduction/latest-updates/september-2015</destination>
 			<type>folder</type>
 			<uuidstructure>b420c728-62a9-11e5-81f9-0242ac11002b</uuidstructure>
@@ -50681,6 +53047,56 @@
 				<property type="shared">
 					<name>template-elements</name>
 					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/introduction/new-in-opencms/new-in-opencms-10.0</destination>
+			<type>folder</type>
+			<uuidstructure>3617059c-eaa5-11e5-8020-0242ac11002b</uuidstructure>
+			<datelastmodified>Tue, 15 Mar 2016 11:58:31 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 11:58:20 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.0625]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[New in OpenCms 10.0]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[New in OpenCms 10.0]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/introduction/new-in-opencms/new-in-opencms-10.0/index.html</source>
+			<destination>opencms-documentation/introduction/new-in-opencms/new-in-opencms-10.0/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>362c1446-eaa5-11e5-8020-0242ac11002b</uuidstructure>
+			<uuidresource>362c1447-eaa5-11e5-8020-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 15 Mar 2016 12:06:02 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 15 Mar 2016 11:58:20 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[New in OpenCms 10.0]]></value>
+				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.opencms.documentation/templates/documentation-overview-template.jsp]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -51865,6 +54281,52 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>opencms-documentation/solr-search-integration/full-text-search-with-solr</destination>
+			<type>folder</type>
+			<uuidstructure>e294f8cc-ec0a-11e5-ad5a-0242ac11002b</uuidstructure>
+			<datelastmodified>Thu, 17 Mar 2016 06:39:03 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 06:38:39 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.25]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Full text search with Solr]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Full text search with Solr]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/solr-search-integration/full-text-search-with-solr/index.html</source>
+			<destination>opencms-documentation/solr-search-integration/full-text-search-with-solr/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>e2b88666-ec0a-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>e2b88667-ec0a-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 08:58:01 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 06:38:40 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Full text search with Solr]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/solr-search-integration/solr-frequently-asked-questions</destination>
 			<type>folder</type>
 			<uuidstructure>9278979c-0cc3-11e4-a7cb-b7bfd6088c56</uuidstructure>
@@ -51951,6 +54413,586 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Spellchecking for the TinyMCE]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/the-opencms-workplace</destination>
+			<type>folder</type>
+			<uuidstructure>11e7df15-276b-11e4-b2bf-49dbf0abad32</uuidstructure>
+			<datelastmodified>Thu, 17 Mar 2016 10:57:18 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 19 Aug 2014 06:35:54 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.75]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[The OpenCms workplace]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The OpenCms workplace]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/the-opencms-workplace/index.html</source>
+			<destination>opencms-documentation/the-opencms-workplace/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>11f3c5fa-276b-11e4-b2bf-49dbf0abad32</uuidstructure>
+			<uuidresource>11f3c5fb-276b-11e4-b2bf-49dbf0abad32</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 10:57:18 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 19 Aug 2014 06:35:54 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The OpenCms workplace]]></value>
+				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[/system/modules/com.alkacon.opencms.documentation/templates/documentation-overview-template.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/the-opencms-workplace/editors</destination>
+			<type>folder</type>
+			<uuidstructure>f74462c4-37e5-11e4-8113-d144f6bb3566</uuidstructure>
+			<datelastmodified>Thu, 17 Mar 2016 10:57:58 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 09 Sep 2014 05:55:56 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.03125]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Editors]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Editors]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/the-opencms-workplace/editors/index.html</source>
+			<destination>opencms-documentation/the-opencms-workplace/editors/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>f784c72d-37e5-11e4-8113-d144f6bb3566</uuidstructure>
+			<uuidresource>f784c72e-37e5-11e4-8113-d144f6bb3566</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 10:57:59 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 09 Sep 2014 05:55:56 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Editors]]></value>
+				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.opencms.documentation/templates/documentation-overview-template.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/the-opencms-workplace/editors/content-editors</destination>
+			<type>folder</type>
+			<uuidstructure>38c478e8-486e-11e4-8008-336f7b60f7b1</uuidstructure>
+			<datelastmodified>Mon, 12 Jan 2015 10:20:00 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 30 Sep 2014 06:51:36 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[3.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Content editors]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content editors]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/the-opencms-workplace/editors/content-editors/index.html</source>
+			<destination>opencms-documentation/the-opencms-workplace/editors/content-editors/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>38e3e7d1-486e-11e4-8008-336f7b60f7b1</uuidstructure>
+			<uuidresource>38e3e7d2-486e-11e4-8008-336f7b60f7b1</uuidresource>
+			<datelastmodified>Tue, 17 Feb 2015 12:25:45 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 30 Sep 2014 06:51:36 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content editors]]></value>
+				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.opencms.documentation/templates/documentation-overview-template.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/the-opencms-workplace/editors/content-editors/the-form-based-content-editor</destination>
+			<type>folder</type>
+			<uuidstructure>00a4c7ee-0812-11e4-8e56-b7bfd6088c56</uuidstructure>
+			<datelastmodified>Mon, 12 Jan 2015 10:20:00 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 10 Jul 2014 09:10:14 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.5]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[The form-based editor]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The form-based editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/the-opencms-workplace/editors/content-editors/the-form-based-content-editor/index.html</source>
+			<destination>opencms-documentation/the-opencms-workplace/editors/content-editors/the-form-based-content-editor/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>00bbf973-0812-11e4-8e56-b7bfd6088c56</uuidstructure>
+			<uuidresource>00bbf974-0812-11e4-8e56-b7bfd6088c56</uuidresource>
+			<datelastmodified>Mon, 12 Jan 2015 10:22:14 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 10 Jul 2014 09:10:14 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The form-based content editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/the-opencms-workplace/editors/content-editors/the-inline-content-editor</destination>
+			<type>folder</type>
+			<uuidstructure>80930cc6-0b4f-11e4-8c80-b7bfd6088c56</uuidstructure>
+			<datelastmodified>Mon, 12 Jan 2015 10:20:00 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 14 Jul 2014 12:08:01 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[The inline editor]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The inline editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/the-opencms-workplace/editors/content-editors/the-inline-content-editor/index.html</source>
+			<destination>opencms-documentation/the-opencms-workplace/editors/content-editors/the-inline-content-editor/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>8098b21b-0b4f-11e4-8c80-b7bfd6088c56</uuidstructure>
+			<uuidresource>8098b21c-0b4f-11e4-8c80-b7bfd6088c56</uuidresource>
+			<datelastmodified>Mon, 12 Jan 2015 10:22:14 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 14 Jul 2014 12:08:01 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The inline content editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/the-opencms-workplace/editors/the-page-editor</destination>
+			<type>folder</type>
+			<uuidstructure>772a450b-02c1-11e4-8167-1305b26fecac</uuidstructure>
+			<datelastmodified>Mon, 12 Jan 2015 10:20:00 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 03 Jul 2014 14:51:07 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[The page editor]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The page editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/the-opencms-workplace/editors/the-page-editor/index.html</source>
+			<destination>opencms-documentation/the-opencms-workplace/editors/the-page-editor/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>772fc350-02c1-11e4-8167-1305b26fecac</uuidstructure>
+			<uuidresource>772fc351-02c1-11e4-8167-1305b26fecac</uuidresource>
+			<datelastmodified>Mon, 12 Jan 2015 10:22:14 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Thu, 03 Jul 2014 14:51:07 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The page editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/the-opencms-workplace/editors/the-sitemap-editor</destination>
+			<type>folder</type>
+			<uuidstructure>270e7393-06a0-11e4-909a-1305b26fecac</uuidstructure>
+			<datelastmodified>Mon, 12 Jan 2015 10:20:00 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 08 Jul 2014 13:02:44 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[2.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[The sitemap editor]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The sitemap editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/the-opencms-workplace/editors/the-sitemap-editor/index.html</source>
+			<destination>opencms-documentation/the-opencms-workplace/editors/the-sitemap-editor/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>2715c698-06a0-11e4-909a-1305b26fecac</uuidstructure>
+			<uuidresource>2715c699-06a0-11e4-909a-1305b26fecac</uuidresource>
+			<datelastmodified>Mon, 12 Jan 2015 10:22:14 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Tue, 08 Jul 2014 13:02:44 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The sitemap editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/the-opencms-workplace/launchpad-and-other-apps-old</destination>
+			<type>folder</type>
+			<uuidstructure>035988f0-31ad-11e4-8511-d144f6bb3566</uuidstructure>
+			<datelastmodified>Thu, 17 Mar 2016 11:50:41 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 01 Sep 2014 07:53:08 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.5]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Launchpad and other apps old]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Launchpad and other apps old]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/the-opencms-workplace/launchpad-and-other-apps-old/index.html</source>
+			<destination>opencms-documentation/the-opencms-workplace/launchpad-and-other-apps-old/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>0367b9c9-31ad-11e4-8511-d144f6bb3566</uuidstructure>
+			<uuidresource>0367b9ca-31ad-11e4-8511-d144f6bb3566</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 11:51:18 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 01 Sep 2014 07:53:08 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Launchpad and other apps old]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/the-opencms-workplace/launchpad-and-other-apps-old/the-administration-view</destination>
+			<type>folder</type>
+			<uuidstructure>70dc80d0-375e-11e4-9771-d144f6bb3566</uuidstructure>
+			<datelastmodified>Mon, 12 Jan 2015 10:20:00 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 08 Sep 2014 13:45:48 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[2.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[The administration view]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The administration view]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/the-opencms-workplace/launchpad-and-other-apps-old/the-administration-view/index.html</source>
+			<destination>opencms-documentation/the-opencms-workplace/launchpad-and-other-apps-old/the-administration-view/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>70e88ec9-375e-11e4-9771-d144f6bb3566</uuidstructure>
+			<uuidresource>70e88eca-375e-11e4-9771-d144f6bb3566</uuidresource>
+			<datelastmodified>Wed, 04 Feb 2015 15:12:47 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Mon, 08 Sep 2014 13:45:48 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The administration view]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/the-opencms-workplace/launchpad-and-other-apps</destination>
+			<type>folder</type>
+			<uuidstructure>174ab582-ec32-11e5-ad5a-0242ac11002b</uuidstructure>
+			<datelastmodified>Thu, 17 Mar 2016 11:19:29 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 11:19:18 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.765625]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Launchpad and other apps]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Launchpad and other apps]]></value>
+				</property>
+				<property>
+					<name>default-file</name>
+					<value><![CDATA[##navigation_level_folder##]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/index.html</source>
+			<destination>opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/index.html</destination>
+			<type>htmlredirect</type>
+			<uuidstructure>1750f718-ec32-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>1750f719-ec32-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 11:19:18 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 11:19:18 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+				<property type="shared">
+					<name>template-elements</name>
+					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/explorer</destination>
+			<type>folder</type>
+			<uuidstructure>64f5eee2-375e-11e4-9771-d144f6bb3566</uuidstructure>
+			<datelastmodified>Thu, 17 Mar 2016 11:20:28 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 08 Sep 2014 13:45:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[2.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Explorer]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Explorer]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/explorer/index.html</source>
+			<destination>opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/explorer/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>6503aa8b-375e-11e4-9771-d144f6bb3566</uuidstructure>
+			<uuidresource>6503aa8c-375e-11e4-9771-d144f6bb3566</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 11:20:28 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 08 Sep 2014 13:45:28 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Explorer]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/launchpad</destination>
+			<type>folder</type>
+			<uuidstructure>2cef2cf0-ec32-11e5-ad5a-0242ac11002b</uuidstructure>
+			<datelastmodified>Thu, 17 Mar 2016 11:20:10 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 11:19:55 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Launchpad]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Launchpad]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/launchpad/index.html</source>
+			<destination>opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/launchpad/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>2d0ee9fa-ec32-11e5-ad5a-0242ac11002b</uuidstructure>
+			<uuidresource>2d0ee9fb-ec32-11e5-ad5a-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 17 Mar 2016 11:20:10 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 17 Mar 2016 11:19:55 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Launchpad]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -52291,472 +55333,32 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>opencms-documentation/views-in-opencms</destination>
-			<type>folder</type>
-			<uuidstructure>11e7df15-276b-11e4-b2bf-49dbf0abad32</uuidstructure>
-			<datelastmodified>Mon, 12 Jan 2015 10:20:00 GMT</datelastmodified>
+			<source>opencms-documentation/index.html</source>
+			<destination>opencms-documentation/index.html</destination>
+			<type>htmlredirect</type>
+			<uuidstructure>5572c9c0-973e-11e4-8878-b7eb8d90e9b7</uuidstructure>
+			<uuidresource>5572c9c1-973e-11e4-8878-b7eb8d90e9b7</uuidresource>
+			<datelastmodified>Mon, 12 Jan 2015 10:22:09 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 19 Aug 2014 06:35:54 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[0.75]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[Views in OpenCms]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Views in OpenCms]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>opencms-documentation/views-in-opencms/index.html</source>
-			<destination>opencms-documentation/views-in-opencms/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>11f3c5fa-276b-11e4-b2bf-49dbf0abad32</uuidstructure>
-			<uuidresource>11f3c5fb-276b-11e4-b2bf-49dbf0abad32</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:22:14 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 19 Aug 2014 06:35:54 GMT</datecreated>
+			<datecreated>Thu, 08 Jan 2015 13:57:50 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Views in OpenCms]]></value>
+					<value><![CDATA[Documentation]]></value>
 				</property>
 				<property>
-					<name>template</name>
-					<value><![CDATA[/system/modules/com.alkacon.opencms.documentation/templates/documentation-overview-template.jsp]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>opencms-documentation/views-in-opencms/the-ade-views</destination>
-			<type>folder</type>
-			<uuidstructure>f74462c4-37e5-11e4-8113-d144f6bb3566</uuidstructure>
-			<datelastmodified>Mon, 12 Jan 2015 10:20:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 09 Sep 2014 05:55:56 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[0.03125]]></value>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
 				</property>
 				<property>
-					<name>NavText</name>
-					<value><![CDATA[The ADE views]]></value>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
 				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[The ADE views]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>opencms-documentation/views-in-opencms/the-ade-views/index.html</source>
-			<destination>opencms-documentation/views-in-opencms/the-ade-views/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>f784c72d-37e5-11e4-8113-d144f6bb3566</uuidstructure>
-			<uuidresource>f784c72e-37e5-11e4-8113-d144f6bb3566</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:22:14 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 09 Sep 2014 05:55:56 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[The ADE views]]></value>
-				</property>
-				<property>
-					<name>template</name>
-					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.opencms.documentation/templates/documentation-overview-template.jsp]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>opencms-documentation/views-in-opencms/the-ade-views/content-editors</destination>
-			<type>folder</type>
-			<uuidstructure>38c478e8-486e-11e4-8008-336f7b60f7b1</uuidstructure>
-			<datelastmodified>Mon, 12 Jan 2015 10:20:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 30 Sep 2014 06:51:36 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[3.0]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[Content editors]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Content editors]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>opencms-documentation/views-in-opencms/the-ade-views/content-editors/index.html</source>
-			<destination>opencms-documentation/views-in-opencms/the-ade-views/content-editors/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>38e3e7d1-486e-11e4-8008-336f7b60f7b1</uuidstructure>
-			<uuidresource>38e3e7d2-486e-11e4-8008-336f7b60f7b1</uuidresource>
-			<datelastmodified>Tue, 17 Feb 2015 12:25:45 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 30 Sep 2014 06:51:36 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Content editors]]></value>
-				</property>
-				<property>
-					<name>template</name>
-					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.opencms.documentation/templates/documentation-overview-template.jsp]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>opencms-documentation/views-in-opencms/the-ade-views/content-editors/the-form-based-content-editor</destination>
-			<type>folder</type>
-			<uuidstructure>00a4c7ee-0812-11e4-8e56-b7bfd6088c56</uuidstructure>
-			<datelastmodified>Mon, 12 Jan 2015 10:20:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 10 Jul 2014 09:10:14 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[0.5]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[The form-based editor]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[The form-based editor]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>opencms-documentation/views-in-opencms/the-ade-views/content-editors/the-form-based-content-editor/index.html</source>
-			<destination>opencms-documentation/views-in-opencms/the-ade-views/content-editors/the-form-based-content-editor/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>00bbf973-0812-11e4-8e56-b7bfd6088c56</uuidstructure>
-			<uuidresource>00bbf974-0812-11e4-8e56-b7bfd6088c56</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:22:14 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 10 Jul 2014 09:10:14 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[The form-based content editor]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>opencms-documentation/views-in-opencms/the-ade-views/content-editors/the-inline-content-editor</destination>
-			<type>folder</type>
-			<uuidstructure>80930cc6-0b4f-11e4-8c80-b7bfd6088c56</uuidstructure>
-			<datelastmodified>Mon, 12 Jan 2015 10:20:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 14 Jul 2014 12:08:01 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[1.0]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[The inline editor]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[The inline editor]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>opencms-documentation/views-in-opencms/the-ade-views/content-editors/the-inline-content-editor/index.html</source>
-			<destination>opencms-documentation/views-in-opencms/the-ade-views/content-editors/the-inline-content-editor/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>8098b21b-0b4f-11e4-8c80-b7bfd6088c56</uuidstructure>
-			<uuidresource>8098b21c-0b4f-11e4-8c80-b7bfd6088c56</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:22:14 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 14 Jul 2014 12:08:01 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[The inline content editor]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>opencms-documentation/views-in-opencms/the-ade-views/the-page-editor</destination>
-			<type>folder</type>
-			<uuidstructure>772a450b-02c1-11e4-8167-1305b26fecac</uuidstructure>
-			<datelastmodified>Mon, 12 Jan 2015 10:20:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 03 Jul 2014 14:51:07 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[1.0]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[The page editor]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[The page editor]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>opencms-documentation/views-in-opencms/the-ade-views/the-page-editor/index.html</source>
-			<destination>opencms-documentation/views-in-opencms/the-ade-views/the-page-editor/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>772fc350-02c1-11e4-8167-1305b26fecac</uuidstructure>
-			<uuidresource>772fc351-02c1-11e4-8167-1305b26fecac</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:22:14 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 03 Jul 2014 14:51:07 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[The page editor]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>opencms-documentation/views-in-opencms/the-ade-views/the-sitemap-editor</destination>
-			<type>folder</type>
-			<uuidstructure>270e7393-06a0-11e4-909a-1305b26fecac</uuidstructure>
-			<datelastmodified>Mon, 12 Jan 2015 10:20:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 08 Jul 2014 13:02:44 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[2.0]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[The sitemap editor]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[The sitemap editor]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>opencms-documentation/views-in-opencms/the-ade-views/the-sitemap-editor/index.html</source>
-			<destination>opencms-documentation/views-in-opencms/the-ade-views/the-sitemap-editor/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>2715c698-06a0-11e4-909a-1305b26fecac</uuidstructure>
-			<uuidresource>2715c699-06a0-11e4-909a-1305b26fecac</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:22:14 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 08 Jul 2014 13:02:44 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[The sitemap editor]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>opencms-documentation/views-in-opencms/the-traditional-workplace</destination>
-			<type>folder</type>
-			<uuidstructure>035988f0-31ad-11e4-8511-d144f6bb3566</uuidstructure>
-			<datelastmodified>Mon, 12 Jan 2015 10:20:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 01 Sep 2014 07:53:08 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[1.5]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[The traditional workplace]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[The traditional workplace]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>opencms-documentation/views-in-opencms/the-traditional-workplace/index.html</source>
-			<destination>opencms-documentation/views-in-opencms/the-traditional-workplace/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>0367b9c9-31ad-11e4-8511-d144f6bb3566</uuidstructure>
-			<uuidresource>0367b9ca-31ad-11e4-8511-d144f6bb3566</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:22:15 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 01 Sep 2014 07:53:08 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[The traditional workplace]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>opencms-documentation/views-in-opencms/the-traditional-workplace/the-administration-view</destination>
-			<type>folder</type>
-			<uuidstructure>70dc80d0-375e-11e4-9771-d144f6bb3566</uuidstructure>
-			<datelastmodified>Mon, 12 Jan 2015 10:20:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 08 Sep 2014 13:45:48 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[2.0]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[The administration view]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[The administration view]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>opencms-documentation/views-in-opencms/the-traditional-workplace/the-administration-view/index.html</source>
-			<destination>opencms-documentation/views-in-opencms/the-traditional-workplace/the-administration-view/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>70e88ec9-375e-11e4-9771-d144f6bb3566</uuidstructure>
-			<uuidresource>70e88eca-375e-11e4-9771-d144f6bb3566</uuidresource>
-			<datelastmodified>Wed, 04 Feb 2015 15:12:47 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 08 Sep 2014 13:45:48 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[The administration view]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>opencms-documentation/views-in-opencms/the-traditional-workplace/the-explorer-view</destination>
-			<type>folder</type>
-			<uuidstructure>64f5eee2-375e-11e4-9771-d144f6bb3566</uuidstructure>
-			<datelastmodified>Mon, 12 Jan 2015 10:20:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 08 Sep 2014 13:45:28 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[1.0]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[The explorer view]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[The explorer view]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>opencms-documentation/views-in-opencms/the-traditional-workplace/the-explorer-view/index.html</source>
-			<destination>opencms-documentation/views-in-opencms/the-traditional-workplace/the-explorer-view/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>6503aa8b-375e-11e4-9771-d144f6bb3566</uuidstructure>
-			<uuidresource>6503aa8c-375e-11e4-9771-d144f6bb3566</uuidresource>
-			<datelastmodified>Wed, 04 Feb 2015 15:11:29 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 08 Sep 2014 13:45:28 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[The explorer view]]></value>
+				<property type="shared">
+					<name>template-elements</name>
+					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
 				</property>
 			</properties>
 			<relations/>

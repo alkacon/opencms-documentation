@@ -2,17 +2,15 @@
 
 <export>
 	<info>
-		<creator>dSeidel</creator>
-		<opencms_version>9.9.x</opencms_version>
-		<createdate>Mon, 14 Sep 2015 14:07:42 GMT</createdate>
 		<infoproject>Offline</infoproject>
-		<export_version>7</export_version>
+		<export_version>10</export_version>
 	</info>
 	<module>
 		<name>com.alkacon.opencms.documentation.editortools</name>
 		<nicename><![CDATA[OpenCms Documenation Administration]]></nicename>
 		<group>OpenCms Documentation</group>
 		<class/>
+		<export-mode name="reduced"/>
 		<description><![CDATA[Provides tools and extra contents to be used by editors]]></description>
 		<version>10.0.0</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
@@ -31,6 +29,7 @@
 			<resource uri="/system/workplace/resources/filetypes/auto-correct-xml.png"/>
 			<resource uri="/system/workplace/resources/filetypes/auto-correct-xml_big.png"/>
 		</resources>
+		<excluderesources/>
 		<parameters/>
 		<resourcetypes>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="auto-correct-xml" id="20297">
@@ -47,55 +46,18 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>a49c980c-5789-11e5-8584-0242ac11002b</uuidstructure>
-			<datelastmodified>Mon, 27 Jun 2005 08:00:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 10 Sep 2015 07:00:38 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
 			<properties/>
-			<relations/>
-			<accesscontrol>
-				<accessentry>
-					<uuidprincipal>ROLE.WORKPLACE_USER</uuidprincipal>
-					<flags>514</flags>
-					<permissionset>
-						<allowed>1</allowed>
-						<denied>0</denied>
-					</permissionset>
-				</accessentry>
-			</accesscontrol>
 		</file>
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>a70581f8-5789-11e5-8584-0242ac11002b</uuidstructure>
-			<datelastmodified>Thu, 10 Sep 2015 07:00:42 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 10 Sep 2015 07:00:42 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
 			<properties/>
-			<relations/>
-			<accesscontrol>
-				<accessentry>
-					<uuidprincipal>ROLE.WORKPLACE_USER</uuidprincipal>
-					<flags>514</flags>
-					<permissionset>
-						<allowed>5</allowed>
-						<denied>0</denied>
-					</permissionset>
-				</accessentry>
-			</accesscontrol>
 		</file>
 		<file>
 			<destination>system/modules/com.alkacon.opencms.documentation.editortools</destination>
 			<type>folder</type>
 			<uuidstructure>d49f3f87-2d2a-11e4-93f4-d144f6bb3566</uuidstructure>
-			<datelastmodified>Tue, 26 Aug 2014 14:11:10 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 26 Aug 2014 14:11:10 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -105,10 +67,7 @@
 			<destination>system/modules/com.alkacon.opencms.documentation.editortools/elements</destination>
 			<type>folder</type>
 			<uuidstructure>9d32efa0-2e80-11e4-8af3-d144f6bb3566</uuidstructure>
-			<datelastmodified>Thu, 28 Aug 2014 06:57:45 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 28 Aug 2014 06:57:45 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -120,10 +79,7 @@
 			<type>jsp</type>
 			<uuidstructure>b1dade92-2e80-11e4-8af3-d144f6bb3566</uuidstructure>
 			<uuidresource>b1dade93-2e80-11e4-8af3-d144f6bb3566</uuidresource>
-			<datelastmodified>Tue, 18 Nov 2014 07:32:17 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 28 Aug 2014 06:58:20 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -144,10 +100,7 @@
 			<type>jsp</type>
 			<uuidstructure>b1e14736-2e80-11e4-8af3-d144f6bb3566</uuidstructure>
 			<uuidresource>b1e14737-2e80-11e4-8af3-d144f6bb3566</uuidresource>
-			<datelastmodified>Tue, 18 Nov 2014 08:04:59 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 28 Aug 2014 06:58:20 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -168,10 +121,7 @@
 			<type>jsp</type>
 			<uuidstructure>b1e5b40a-2e80-11e4-8af3-d144f6bb3566</uuidstructure>
 			<uuidresource>b1e5b40b-2e80-11e4-8af3-d144f6bb3566</uuidresource>
-			<datelastmodified>Tue, 18 Nov 2014 07:45:28 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 28 Aug 2014 06:58:20 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -192,10 +142,7 @@
 			<type>jsp</type>
 			<uuidstructure>b1ea20de-2e80-11e4-8af3-d144f6bb3566</uuidstructure>
 			<uuidresource>b1ea20df-2e80-11e4-8af3-d144f6bb3566</uuidresource>
-			<datelastmodified>Tue, 18 Nov 2014 08:05:13 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 28 Aug 2014 06:58:20 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -214,10 +161,7 @@
 			<destination>system/modules/com.alkacon.opencms.documentation.editortools/formatters</destination>
 			<type>folder</type>
 			<uuidstructure>d4a2c1fb-2d2a-11e4-93f4-d144f6bb3566</uuidstructure>
-			<datelastmodified>Tue, 26 Aug 2014 14:11:10 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 26 Aug 2014 14:11:10 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -229,10 +173,7 @@
 			<type>formatter_config</type>
 			<uuidstructure>734f7666-0746-11e4-9ef6-1305b26fecac</uuidstructure>
 			<uuidresource>734f7667-0746-11e4-9ef6-1305b26fecac</uuidresource>
-			<datelastmodified>Wed, 09 Jul 2014 09:39:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 09 Jul 2014 08:53:09 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -261,10 +202,7 @@
 			<type>jsp</type>
 			<uuidstructure>734982f3-0746-11e4-9ef6-1305b26fecac</uuidstructure>
 			<uuidresource>734982f4-0746-11e4-9ef6-1305b26fecac</uuidresource>
-			<datelastmodified>Tue, 11 Nov 2014 15:32:12 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 09 Jul 2014 08:53:09 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -283,10 +221,7 @@
 			<destination>system/modules/com.alkacon.opencms.documentation.editortools/formatters/dynamically-loaded</destination>
 			<type>folder</type>
 			<uuidstructure>95ebcf55-38b6-11e4-9abe-d144f6bb3566</uuidstructure>
-			<datelastmodified>Wed, 10 Sep 2014 06:50:36 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 10 Sep 2014 06:49:17 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -303,10 +238,7 @@
 			<type>jsp</type>
 			<uuidstructure>af826878-38b6-11e4-9abe-d144f6bb3566</uuidstructure>
 			<uuidresource>af826879-38b6-11e4-9abe-d144f6bb3566</uuidresource>
-			<datelastmodified>Tue, 11 Nov 2014 15:32:41 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 10 Sep 2014 06:50:00 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -331,10 +263,7 @@
 			<type>jsp</type>
 			<uuidstructure>57b48ac6-4328-11e4-a380-6725b2578a6f</uuidstructure>
 			<uuidresource>57b48ac7-4328-11e4-a380-6725b2578a6f</uuidresource>
-			<datelastmodified>Tue, 11 Nov 2014 15:32:25 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Sep 2014 13:48:47 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -357,10 +286,7 @@
 			<destination>system/modules/com.alkacon.opencms.documentation.editortools/functions</destination>
 			<type>folder</type>
 			<uuidstructure>cf6dc1fc-2db3-11e4-a7dc-d144f6bb3566</uuidstructure>
-			<datelastmodified>Wed, 27 Aug 2014 06:31:43 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 27 Aug 2014 06:31:43 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -372,10 +298,7 @@
 			<type>jsp</type>
 			<uuidstructure>b99e4e87-31c7-11e4-8511-d144f6bb3566</uuidstructure>
 			<uuidresource>b99e4e88-31c7-11e4-8511-d144f6bb3566</uuidresource>
-			<datelastmodified>Tue, 11 Nov 2014 15:32:59 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 01 Sep 2014 11:04:21 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -400,10 +323,7 @@
 			<type>function</type>
 			<uuidstructure>9d388fd4-31c7-11e4-8511-d144f6bb3566</uuidstructure>
 			<uuidresource>9d388fd5-31c7-11e4-8511-d144f6bb3566</uuidresource>
-			<datelastmodified>Mon, 01 Sep 2014 12:07:38 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 01 Sep 2014 11:03:33 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -424,10 +344,7 @@
 			<type>jsp</type>
 			<uuidstructure>ea1f8f1e-2db3-11e4-a7dc-d144f6bb3566</uuidstructure>
 			<uuidresource>ea1f8f1f-2db3-11e4-a7dc-d144f6bb3566</uuidresource>
-			<datelastmodified>Tue, 11 Nov 2014 15:33:09 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 27 Aug 2014 06:32:27 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -452,10 +369,7 @@
 			<type>function</type>
 			<uuidstructure>06e19ea2-2db4-11e4-a7dc-d144f6bb3566</uuidstructure>
 			<uuidresource>06e19ea3-2db4-11e4-a7dc-d144f6bb3566</uuidresource>
-			<datelastmodified>Wed, 27 Aug 2014 06:39:10 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 27 Aug 2014 06:33:16 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -474,10 +388,7 @@
 			<destination>system/modules/com.alkacon.opencms.documentation.editortools/functions/dynamically-loaded</destination>
 			<type>folder</type>
 			<uuidstructure>c0e3f3fd-31df-11e4-8511-d144f6bb3566</uuidstructure>
-			<datelastmodified>Mon, 01 Sep 2014 13:56:46 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 01 Sep 2014 13:56:21 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -494,10 +405,7 @@
 			<type>jsp</type>
 			<uuidstructure>e070e350-31df-11e4-8511-d144f6bb3566</uuidstructure>
 			<uuidresource>e070e351-31df-11e4-8511-d144f6bb3566</uuidresource>
-			<datelastmodified>Tue, 02 Sep 2014 08:30:37 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 01 Sep 2014 13:57:14 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -516,10 +424,7 @@
 			<destination>system/modules/com.alkacon.opencms.documentation.editortools/i18n</destination>
 			<type>folder</type>
 			<uuidstructure>3c21712f-3824-11e4-825e-d144f6bb3566</uuidstructure>
-			<datelastmodified>Tue, 09 Sep 2014 13:21:40 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 09 Sep 2014 13:21:40 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -531,10 +436,7 @@
 			<type>xmlvfsbundle</type>
 			<uuidstructure>7344a0f0-0746-11e4-9ef6-1305b26fecac</uuidstructure>
 			<uuidresource>7344a0f1-0746-11e4-9ef6-1305b26fecac</uuidresource>
-			<datelastmodified>Tue, 09 Sep 2014 13:21:01 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 09 Jul 2014 08:53:09 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -549,10 +451,7 @@
 			<destination>system/modules/com.alkacon.opencms.documentation.editortools/lib</destination>
 			<type>folder</type>
 			<uuidstructure>a2dc535b-38bd-11e4-9abe-d144f6bb3566</uuidstructure>
-			<datelastmodified>Wed, 10 Sep 2014 07:39:46 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 10 Sep 2014 07:39:46 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -564,10 +463,7 @@
 			<type>binary</type>
 			<uuidstructure>a5bc4c63-38be-11e4-9abe-d144f6bb3566</uuidstructure>
 			<uuidresource>a5bc4c64-38be-11e4-9abe-d144f6bb3566</uuidresource>
-			<datelastmodified>Wed, 10 Sep 2014 07:47:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 10 Sep 2014 07:47:00 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -582,10 +478,7 @@
 			<destination>system/modules/com.alkacon.opencms.documentation.editortools/schemas</destination>
 			<type>folder</type>
 			<uuidstructure>d4a3fa7d-2d2a-11e4-93f4-d144f6bb3566</uuidstructure>
-			<datelastmodified>Tue, 26 Aug 2014 14:11:10 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 26 Aug 2014 14:11:10 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -597,10 +490,7 @@
 			<type>plain</type>
 			<uuidstructure>733bc743-0746-11e4-9ef6-1305b26fecac</uuidstructure>
 			<uuidresource>733bc744-0746-11e4-9ef6-1305b26fecac</uuidresource>
-			<datelastmodified>Tue, 28 Oct 2014 11:39:05 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 09 Jul 2014 08:53:09 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -615,10 +505,7 @@
 			<destination>system/modules/com.alkacon.opencms.documentation.editortools/templates</destination>
 			<type>folder</type>
 			<uuidstructure>d4a16269-2d2a-11e4-93f4-d144f6bb3566</uuidstructure>
-			<datelastmodified>Tue, 26 Aug 2014 14:11:10 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 26 Aug 2014 14:11:10 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -630,10 +517,7 @@
 			<type>containerpage_template</type>
 			<uuidstructure>0956e25f-2d2b-11e4-93f4-d144f6bb3566</uuidstructure>
 			<uuidresource>0956e260-2d2b-11e4-93f4-d144f6bb3566</uuidresource>
-			<datelastmodified>Mon, 14 Sep 2015 14:04:08 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 26 Aug 2014 14:12:39 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -671,58 +555,12 @@
 		<file>
 			<destination>system/workplace</destination>
 			<type>folder</type>
-			<uuidstructure>825afce2-11b7-11db-91cd-fdbae480bac9</uuidstructure>
-			<datelastmodified>Mon, 27 Mar 2006 12:00:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 27 Jun 2005 08:00:00 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>content-encoding</name>
-					<value><![CDATA[UTF-8]]></value>
-				</property>
-				<property>
-					<name>export</name>
-					<value><![CDATA[false]]></value>
-				</property>
-				<property>
-					<name>login-form</name>
-					<value><![CDATA[/system/login/index.html]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol>
-				<accessentry>
-					<uuidprincipal>ALL_OTHERS</uuidprincipal>
-					<flags>134</flags>
-					<permissionset>
-						<allowed>0</allowed>
-						<denied>0</denied>
-					</permissionset>
-				</accessentry>
-				<accessentry>
-					<uuidprincipal>ROLE.WORKPLACE_USER</uuidprincipal>
-					<flags>518</flags>
-					<permissionset>
-						<allowed>5</allowed>
-						<denied>0</denied>
-					</permissionset>
-				</accessentry>
-			</accesscontrol>
+			<properties/>
 		</file>
 		<file>
 			<destination>system/workplace/resources</destination>
 			<type>folder</type>
-			<uuidstructure>82c16052-11b7-11db-91cd-fdbae480bac9</uuidstructure>
-			<datelastmodified>Mon, 27 Mar 2006 12:00:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Mon, 27 Jun 2005 08:00:00 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
 			<properties/>
-			<relations/>
-			<accesscontrol/>
 		</file>
 		<file>
 			<source>system/workplace/resources/filetypes/auto-correct-xml.png</source>
@@ -730,10 +568,7 @@
 			<type>image</type>
 			<uuidstructure>733e8666-0746-11e4-9ef6-1305b26fecac</uuidstructure>
 			<uuidresource>733e8667-0746-11e4-9ef6-1305b26fecac</uuidresource>
-			<datelastmodified>Mon, 03 Feb 2014 15:58:54 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 09 Jul 2014 08:53:09 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -754,10 +589,7 @@
 			<type>image</type>
 			<uuidstructure>7340a94a-0746-11e4-9ef6-1305b26fecac</uuidstructure>
 			<uuidresource>7340a94b-0746-11e4-9ef6-1305b26fecac</uuidresource>
-			<datelastmodified>Mon, 03 Feb 2014 15:58:54 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 09 Jul 2014 08:53:09 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>

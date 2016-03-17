@@ -2,18 +2,27 @@
 
 <DocumentationTopicrows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic-row.xsd">
   <DocumentationTopicrow language="en">
-    <Title><![CDATA[The traditional workplace views]]></Title>
+    <Title><![CDATA[Launchpad and other apps]]></Title>
     <Description name="Description0">
       <links/>
-      <content><![CDATA[<p>The traditional workplace is mainly used by administrators and template developers. It provides access the whole VFS and an interface to manage administrative tasks.</p>]]></content>
+      <content><![CDATA[<p>Besides the page, sitemap and content editors, OpenCms provides more apps for various different development and administration tasks. Users with according roles get access to the launchpad, which is the central place to switch between apps.</p>
+<p>A very important app is the explorer, which allows to access the whole VFS.</p>]]></content>
     </Description>
     <Item>
       <Headline/>
       <Topic>
         <PageLink>
           <link internal="true" type="WEAK">
-            <target><![CDATA[/sites/default/opencms-documentation/views-in-opencms/the-traditional-workplace/]]></target>
-            <uuid>035988f0-31ad-11e4-8511-d144f6bb3566</uuid>
+            <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/launchpad/]]></target>
+            <uuid>2cef2cf0-ec32-11e5-ad5a-0242ac11002b</uuid>
+          </link>
+        </PageLink>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/explorer/]]></target>
+            <uuid>64f5eee2-375e-11e4-9771-d144f6bb3566</uuid>
           </link>
         </PageLink>
       </Topic>

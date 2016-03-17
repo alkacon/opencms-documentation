@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/search-settings/]]></target>
+          <uuid>bb7a2160-65a5-11e4-9296-005056b61161</uuid>
+        </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/]]></target>
+          <uuid>c0625fc8-1bcf-11e4-bfa5-b7bfd6088c56</uuid>
+          <anchor><![CDATA[formatter_configuration]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>When your content is searchable, you should take care on how it is indexed. In particular, you should</p>
+<ul>
+<li><a href="%(link0)">Set suitable search settings in the schema of XML contents</a></li>
+<li><a href="%(link1)">Specify in formatter configurations if the content should be indexed for container pages as well</a></li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/]]></target>
+          <uuid>c0625fc8-1bcf-11e4-bfa5-b7bfd6088c56</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>OpenCms 10 introduces a new way to build lists. The example shows the three new features that ease the creation of editable lists:</p>
+<ul>
+<li>Content collection via <code>&lt;cms:search&gt;</code></li>
+<li>Formatting of list entries with "normal" <a href="%(link0)">formatters</a> via <code>&lt;cms:display&gt;</code></li>
+<li>A create option for the empty list via <code>&lt;cms:edit&gt;</code></li>
+</ul>
+<p>The list formatter is kept simple. Typically, it would facilitate pagination, dynamic content reloading and a like. Moreover, for a list in a productive site, changing the sort order should only re-render the list itself, not the whole page. A more elaborate example for an editable list is found in the Apollo demo, shipped with OpenCms 10 (see blog entries and events).</p>
+<p>Using <code>&lt;cms:search&gt;</code> for the collecting contents provides the full power of the Solr search engine. Thus, it can be featured with facets, full text search, sorting etc. In the example, we only implement a sort option.</p>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>OpenCms 10 introduces a new way to build (editable) lists in a simple and very flexible manner. Here's an example providing a first impression of the new technique.</p>]]></content>
+    </Teaser>
+    <Keywords><![CDATA[demo, collector, list, detail page]]></Keywords>
+    <InterestingFor><![CDATA[c_developer]]></InterestingFor>
+    <RelatedLinks>
+      <Link>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/tld/]]></target>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Taglib documentation]]></LinkText>
+        <LinkDescription name="LinkDescription0">
+          <links/>
+          <content><![CDATA[<p>Find detailed descriptions of the tags <code>&lt;cms:search&gt;</code>, <code>&lt;cms:display&gt;</code> and <code>&lt;cms:edit&gt;</code>.</p>]]></content>
+        </LinkDescription>
+      </Link>
+    </RelatedLinks>
+    <NewInVersion><![CDATA[10.0]]></NewInVersion>
+    <NewInDocuVersion><![CDATA[10.0]]></NewInDocuVersion>
+    <RevisedForVersion><![CDATA[10.0]]></RevisedForVersion>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

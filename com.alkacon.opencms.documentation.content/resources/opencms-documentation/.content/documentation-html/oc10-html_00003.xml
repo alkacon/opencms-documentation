@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/development-setups/developer-tools/]]></target>
+          <uuid>e2c77a75-ea82-11e5-8cf4-0242ac11002b</uuid>
+          <anchor><![CDATA[sec_git_integration_configuration]]></anchor>
+        </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/development-setups/developer-tools/]]></target>
+          <uuid>e2c77a75-ea82-11e5-8cf4-0242ac11002b</uuid>
+          <anchor><![CDATA[git_integration_installation]]></anchor>
+        </link>
+        <link name="link2" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/development-setups/developer-tools/]]></target>
+          <uuid>e2c77a75-ea82-11e5-8cf4-0242ac11002b</uuid>
+          <anchor><![CDATA[fig_git_integration_app]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>Checking in changes made on modules in OpenCms to a version control system can be quite cumbersome. The OpenCms Git integration tackles that problem. You simply configure where your repository is and which modules you want to check in or check out and install from the repository. Then the workplace app "Git integration" provides an easy way to check in or check out and install modules.</p>
+<div class="alert alert-info">The tool only works on Linux systems, since it uses a shell script for the git actions. Furthermore, git must be installed independently from OpenCms.</div>
+<p>Via the Git integration you can perform<a href="%(link0)"> check in</a> and <a href="%(link1)">(re-)installation</a> of modules from within the OpenCms and in just a few clicks. Fig. <a href="%(link2)">[git_integration_app]</a> shows the dialog for the tool when configured correctly.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

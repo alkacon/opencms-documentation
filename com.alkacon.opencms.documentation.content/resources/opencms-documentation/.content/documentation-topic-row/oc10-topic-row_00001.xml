@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationTopicrows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic-row.xsd">
+  <DocumentationTopicrow language="en">
+    <Title><![CDATA[New features in OpenCms 10.0]]></Title>
+    <Item>
+      <Headline><![CDATA[New features in OpenCms 10.0]]></Headline>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/development-setups/developer-tools/]]></target>
+            <uuid>e2c77a75-ea82-11e5-8cf4-0242ac11002b</uuid>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[Features that ease the development process]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>OpenCms 10 adds several features to improve the development experience. In particular</p>
+<ul>
+<li>Git version control is integrated</li>
+<li>Module management can be performed via the network share</li>
+<li>The module export format has been adjusted to prevent merge conflicts in version control systems</li>
+</ul>]]></content>
+        </AltTeaser>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/demos/image-dragndrop/]]></target>
+            <uuid>035eca81-eaa7-11e5-8020-0242ac11002b</uuid>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[Drag'n'drop images into contents]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>OpenCms 10 allows to drag'n'drop images directly from galleries into contents. The new feature makes image handling much more intuitive for content editors. Moreover, it is very easy to add to existing contents.</p>]]></content>
+        </AltTeaser>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/solr-search-integration/full-text-search-with-solr/]]></target>
+            <uuid>e294f8cc-ec0a-11e5-ad5a-0242ac11002b</uuid>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[Support for the implementation full text searches]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>With the <code>&lt;cms:search&gt;</code> tag OpenCms 10 provides an easy way to implement a feature-rich full text search.</p>]]></content>
+        </AltTeaser>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/demos/lists-and-detail-pages-ii/]]></target>
+            <uuid>9e541dcf-eb4d-11e5-b021-0242ac11002b</uuid>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[Building lists via <cms:search>]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>Up to OpenCms 9.5 lists were build using &lt;cms:contentload&gt;. Since OpenCms 10 <code>&lt;cms:search&gt;</code>, <code>&lt;cms:display&gt;</code> and <code>&lt;cms:edit&gt;</code> provide a much more powerful way to build list.</p>]]></content>
+        </AltTeaser>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/groups-of-content/]]></target>
+            <uuid>a7760a70-eab1-11e5-8020-0242ac11002b</uuid>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[Model groups]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>For headers and footers, it is valuable to manage their content in a central place and just render them on all web pages. Model groups, in particular reuse groups, enable the implementation of that scenario. Moreover, the experimental copy groups allow to arrange several container page elements and drag'n'drop them as a whole to a container page.</p>]]></content>
+        </AltTeaser>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/macro-formatters/]]></target>
+            <uuid>7a160955-eab6-11e5-8020-0242ac11002b</uuid>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[Macro formatters]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>With the introduction of nested containers in OpenCms 9.5 it became possible to build up a website from layout elements and "real" content element, that render text or images. In particular in combination with responsive design frameworks this technique proved to be very powerful. But to wrap the full flexibility of a responsive design framework in your template, you either had to write very complex formatters, or dissect your contents into very tiny snippets and loose semantical relations, or force the editor to place the same content several times but rendered with different formatters on the same page.</p>
+<p>Macro formatters takle this problem.</p>]]></content>
+        </AltTeaser>
+      </Topic>
+    </Item>
+  </DocumentationTopicrow>
+</DocumentationTopicrows>

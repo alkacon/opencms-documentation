@@ -14,7 +14,7 @@
 		
 		<a name="fig_${fn:replace(fn:toLowerCase(content.value.Identifier)," ","_")}"></a>
 	
-		<div ${content.rdfa.Image}>
+		<div ${content.imageDnd[content.value.Image.path]}>
 			<cms:img src="${content.value.Image}" cssclass="img-responsive center-block" />
 		</div>
 		<c:if test="${cms.element.settings['inline'] eq 'false'}">	

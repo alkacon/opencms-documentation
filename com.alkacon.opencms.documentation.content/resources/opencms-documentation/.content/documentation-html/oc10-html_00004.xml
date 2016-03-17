@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[fig_git_integration_app]]></anchor>
+        </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/development-setups/developer-tools/]]></target>
+          <uuid>e2c77a75-ea82-11e5-8cf4-0242ac11002b</uuid>
+          <anchor><![CDATA[sec_git_integration_configuration]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>Via the workplace app "Git integration" (Fig. <a href="%(link0)">[git_integration_app]</a>) you can select the modules you want to check in. The modules appearing in the list are <a href="%(link1)">pre-configured</a>, but you can also add new modules via the drop-down left of the "Deselect all" button. Moreover, you can set your user information for the commit and the commit message. There are other options available. Via these, you specify copy, unzip, pull and push options. The options checked by default are configurable. Therefore, you typically do not have to alter these options. For example, you can only copy and unzip the module to your local repository and perform checkin manually. This will provide you more fine-grained influence on what is checked in. But you can also automatically check in and push your changes.</p>
+<div class="alert alert-info">When directly checking in to the repository and pushing changes, you can only replace the whole module, i.e., all changes you made to the module are checked in.</div>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>Solr is a mighty tool to perform full text search with many of extra features, such as (various kinds of) facets, "Did you mean?" functionality and highlighting with suitable selection of text snippets for an extract.</p>
+<p>Implementing a fully featured Solr search can be involved and time consuming. Up to OpenCms 9.5 a client side Solr search was integrated in the demo template shipped with OpenCms. Even partly configurable, it was hard to adjust for the use in other web sites. In particular, a lot of GWT code that handled the state of the search form and rendered the output had to be touched.</p>
+<p>The complexity of implementing a client-side search function led to the decision to add support for a server side search. This will remove the complexity of writing client side code and might be sufficient for many purposes. With the tag <code>&lt;cms:search&gt;</code>, introduced in OpenCms 10, writing a full text search for a website is done within just a few minutes or hours. And this search already supports facets, highlighting, pagination, etc.</p>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>Write a server side full text search for your OpenCms website in just a few minutes. Support facets, pagination, "Did you mean?", etc.</p>]]></content>
+    </Teaser>
+    <Keywords><![CDATA[Solr, search, <cms:search>]]></Keywords>
+    <InterestingFor><![CDATA[c_developer]]></InterestingFor>
+    <RelatedLinks>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/search/]]></target>
+            <uuid>ee7e543b-ac5d-11e4-b42e-0242ac11002b</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Example: The full text search for this documentation]]></LinkText>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[http://de.slideshare.net/AlkaconOpenCms/opencms-days-2015-advanced-solr-searching-54157910]]></target>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Presentation of the tag on the OpenCms Days 2015]]></LinkText>
+        <LinkDescription name="LinkDescription0">
+          <links/>
+          <content><![CDATA[<p>A good introduction on the tag's intention and it's usage. In particular explaining how to use the tag in JSPs to render your search form.</p>]]></content>
+        </LinkDescription>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/demos/lists-and-detail-pages-ii/]]></target>
+            <uuid>9e541dcf-eb4d-11e5-b021-0242ac11002b</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Using <cms:search> to create editable lists]]></LinkText>
+        <LinkDescription name="LinkDescription0">
+          <links/>
+          <content><![CDATA[<p>Full text search and list creation become conceptually the same thing in OpenCms 10. Here's an example for creating an editable list.</p>]]></content>
+        </LinkDescription>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/tld/cms/search.html]]></target>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Taglib documentation for <cms:search>]]></LinkText>
+        <LinkDescription name="LinkDescription0">
+          <links/>
+          <content><![CDATA[<p>Get an overview on the options of <code>&lt;cms:search&gt;</code>.</p>]]></content>
+        </LinkDescription>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[http://lucene.apache.org/solr/]]></target>
+          </link>
+        </URI>
+        <LinkText><![CDATA[General information on Apache Solr]]></LinkText>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/solr-search-integration/]]></target>
+            <uuid>2377f7cb-0c27-11e4-8bcb-b7bfd6088c56</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[General information on the integration of Solr in OpenCms]]></LinkText>
+      </Link>
+    </RelatedLinks>
+    <NewInVersion><![CDATA[10.0]]></NewInVersion>
+    <NewInDocuVersion><![CDATA[10.0]]></NewInDocuVersion>
+    <RevisedForVersion><![CDATA[10.0]]></RevisedForVersion>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

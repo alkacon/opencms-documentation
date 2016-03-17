@@ -129,7 +129,7 @@
 					</c:when>
 					<c:when test="${source.value.SitemapEditor.isSet}">
 						<c:set var="sitemapEditorLink">
-							<cms:link>/system/modules/org.opencms.ade.sitemap/pages/sitemap.jsp</cms:link>
+							<cms:link>/system/workplace/commons/sitemap.jsp</cms:link>
 						</c:set>
 						<c:if test="${showLink}">
 							<div class="documentation-source-link"><a target="_blank" href="${sitemapEditorLink}?path=${source.value.SitemapEditor}">${source.value.SitemapEditor}</a></div>

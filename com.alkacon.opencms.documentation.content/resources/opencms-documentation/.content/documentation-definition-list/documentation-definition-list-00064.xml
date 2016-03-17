@@ -69,10 +69,31 @@
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Nested containers]]></Term>
+      <Term><![CDATA[Use as display formatter]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/widget-configuration/]]></target>
+            <uuid>a8badf1f-489a-11e4-8008-336f7b60f7b1</uuid>
+            <anchor><![CDATA[sec_display_type_select]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>If checked, the formatter is used by the tag <code>&lt;cms:display&gt;</code> if no other formatter is specified for the same resource type. Moreover, the formatter is added as option in the <a href="%(link0)">DisplayTypeSelectWidget</a>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Contains nested containers]]></Term>
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>Check this option if the formatter introduces a nested container.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Use strict containers]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If checked, nested containers exposed by the formatter, but not rendered on a container page anymore, are deleted when the container page is stored.</p>
+<p>Example: You have a row formatter that is configured to have four columns, each exposes a nested container. Now you reconfigure the row to have only three columns and save the container page where the row is displayed on. Then the information on the container of the fourth column is removed in the container page exactly if the option is set.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
