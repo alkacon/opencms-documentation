@@ -2,9 +2,82 @@
 
 <DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
   <DocumentationDefinitionList language="en">
-    <Title><![CDATA[Administration - Default tasks]]></Title>
-    <Heading><![CDATA[Tasks available in the default installation]]></Heading>
+    <Title><![CDATA[Default apps]]></Title>
+    <Heading><![CDATA[Apps available in the default installation]]></Heading>
     <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[Page editor]]></Term>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/editors/the-page-editor/]]></target>
+          <uuid>772a450b-02c1-11e4-8167-1305b26fecac</uuid>
+        </link>
+      </Link>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>App to edit a webpage's content.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Sitemap editor]]></Term>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/editors/the-sitemap-editor/]]></target>
+          <uuid>270e7393-06a0-11e4-909a-1305b26fecac</uuid>
+        </link>
+      </Link>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>App to edit the website's structure and the navigational behavior of pages, also to manage galleries and categories and to handle template pages and model groups.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Explorer]]></Term>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/explorer/]]></target>
+          <uuid>64f5eee2-375e-11e4-9771-d144f6bb3566</uuid>
+        </link>
+      </Link>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>App to provide full access to the VFS via an explorer view. It allows to change sites and projects, to add, edit and remove resources, as well as editing all resource meta information.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Scheduled jobs]]></Term>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/administration/scheduled-jobs/]]></target>
+          <uuid>25f3e711-4247-11e4-b94d-6725b2578a6f</uuid>
+        </link>
+      </Link>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>View, add, delete or edit scheduled jobs.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Git integration]]></Term>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/development-setups/developer-tools/]]></target>
+          <uuid>e2c77a75-ea82-11e5-8cf4-0242ac11002b</uuid>
+          <anchor><![CDATA[sec_git_integration]]></anchor>
+        </link>
+      </Link>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Check-in modules to a git repository directly and also import modules from a repository.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Quick launch editor]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Adjust the icons in the quick launch menu according to your preferences.</p>]]></content>
+      </Description>
+    </Entry>
     <Entry>
       <Term><![CDATA[Project Management]]></Term>
       <Description name="Description0">
@@ -13,14 +86,13 @@
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Publish Queue]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>View what was published when.</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
       <Term><![CDATA[Account Management]]></Term>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/administration/user-management/]]></target>
+          <uuid>7e23e5a4-269d-11e4-8e1b-49dbf0abad32</uuid>
+        </link>
+      </Link>
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>Manage users, groups, roles and organizational units.</p>]]></content>
@@ -35,9 +107,22 @@
     </Entry>
     <Entry>
       <Term><![CDATA[Module Management]]></Term>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/administration/module-management/]]></target>
+          <uuid>7387573f-0b56-11e4-8c80-b7bfd6088c56</uuid>
+        </link>
+      </Link>
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>Import, export, create, delete and manipulate modules. Here many options are available.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Publish Queue]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>View what was published when.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -55,24 +140,10 @@
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Gallery Overview]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>View and edit galleries of various types (e.g., image or download galleries).</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
       <Term><![CDATA[Search Management]]></Term>
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>Use the search and replace function to search resources and alter content as specified by patterns. You can also view, rebuild, add, delete or edit search indices, adjust index sources and field configurations.</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
-      <Term><![CDATA[Scheduled Jobs]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>View, add, delete or edit scheduled jobs.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -84,6 +155,12 @@
     </Entry>
     <Entry>
       <Term><![CDATA[Cache Administration]]></Term>
+      <Link>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/administration/cache-administration/]]></target>
+          <uuid>c13b9306-43eb-11e4-8dcd-6725b2578a6f</uuid>
+        </link>
+      </Link>
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>View or flush the different caches used by OpenCms.</p>]]></content>

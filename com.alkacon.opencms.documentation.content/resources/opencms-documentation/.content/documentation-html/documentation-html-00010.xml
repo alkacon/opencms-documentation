@@ -3,8 +3,14 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>By selecting the <strong>Context menu</strong> icon from the toolbar you can select the following options.</p>]]></content>
+      <links>
+        <link name="link0" internal="true" type="IMG">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_big/menuBigIconActive.png]]></target>
+          <uuid>7ba7d044-02bc-11e4-8167-1305b26fecac</uuid>
+          <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+        </link>
+      </links>
+      <content><![CDATA[<p>By selecting the <strong>Context menu</strong>&nbsp;<img style="width: 14px;" title="menuBigIconActive" src="%(link0)" alt="" /> icon from the toolbar you can select the following options.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

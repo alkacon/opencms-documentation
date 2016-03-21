@@ -5,17 +5,17 @@
     <Title><![CDATA[Explorer - Resource operations]]></Title>
     <PropertyDef>false</PropertyDef>
     <Entry>
-      <Term><![CDATA[Copy]]></Term>
+      <Term><![CDATA[Rename]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Copy the resource to another place. For files, siblings can also be created.</p>]]></content>
+        <content><![CDATA[<p>Rename the resource</p>]]></content>
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Rename/Move]]></Term>
+      <Term><![CDATA[Copy / Move]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Move the resource - where moving it inside a folder is the same as renaming. Note that the relationship engine takes care that links to the resource do not break when you move it.</p>]]></content>
+        <content><![CDATA[<p>Coppy or move the resource. A dialog is shown where you select the folder, where the resource should be copied or moved. Furthermore, you specify the copy/move behavior. Note that drag &amp; drop of resources is also possible to open the dialog.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -44,6 +44,13 @@
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>View and change permissions set for the resource</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Assign categories (files only)]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Edit the categories assigned to the resource.</p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>

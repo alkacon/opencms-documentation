@@ -32,10 +32,16 @@
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Advanced > Show workplace]]></Term>
+      <Term><![CDATA[Advanced > Sitemap configuration]]></Term>
       <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Opens the OpenCms workplace in a new window.</p>]]></content>
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/ade-configuration/]]></target>
+            <uuid>40522cc2-18b2-11e4-8e8b-b7bfd6088c56</uuid>
+            <anchor><![CDATA[sec_sitemap_configuration]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Opens the<a href="%(link0)"> sitemap's configuration</a>.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -43,19 +49,12 @@
       <Description name="Description0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/default/opencms-documentation/views-in-opencms/the-ade-views/the-page-editor/]]></target>
+            <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/editors/the-page-editor/]]></target>
             <uuid>772a450b-02c1-11e4-8167-1305b26fecac</uuid>
             <anchor><![CDATA[context_menu_preferences]]></anchor>
           </link>
         </links>
         <content><![CDATA[<p>Open a dialog to edit the user preferences. See <a href="%(link0)">here</a> for more information.</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
-      <Term><![CDATA[Logout]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Logout from OpenCms and redirect to the login page.</p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>

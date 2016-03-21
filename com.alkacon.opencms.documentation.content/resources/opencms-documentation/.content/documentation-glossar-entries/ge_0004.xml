@@ -2,18 +2,17 @@
 
 <AlkaconDocumentationGlossarEntrys xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-glossar-entry.xsd">
   <AlkaconDocumentationGlossarEntry language="en">
-    <Term><![CDATA[workplace (traditional workplace)]]></Term>
+    <Term><![CDATA[workplace]]></Term>
     <RefId><![CDATA[workplace]]></RefId>
     <Match><![CDATA[workplace]]></Match>
-    <Match><![CDATA[traditional workplace]]></Match>
     <Description name="Description0">
       <links>
         <link name="link0" internal="true" type="A">
-          <target><![CDATA[/sites/default/opencms-documentation/views-in-opencms/the-traditional-workplace/]]></target>
-          <uuid>035988f0-31ad-11e4-8511-d144f6bb3566</uuid>
+          <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/]]></target>
+          <uuid>11e7df15-276b-11e4-b2bf-49dbf0abad32</uuid>
         </link>
       </links>
-      <content><![CDATA[<p>The (traditional) workplace is like the back office of OpenCms. Here you can access VFS resources via an explorer view and get access to administrative tools. Not all users in OpenCms can see the workplace. They must have the role "workplace user". Learn more about the traditional workplace <a href="%(link0)">here</a>.</p>]]></content>
+      <content><![CDATA[<p>If you are logged in to OpenCms, you are in the OpenCms workplace. Whenever you are in the workplace, you see a toolbar at the top of the window. Learn more about the workplace <a href="%(link0)">here</a>.</p>]]></content>
     </Description>
   </AlkaconDocumentationGlossarEntry>
 </AlkaconDocumentationGlossarEntrys>

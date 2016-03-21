@@ -6,14 +6,20 @@
 <cms:formatter var="content">
 <div>
 	<c:set var="docuBranch"><cms:property name="opencms.documentation.branch" file="search"/></c:set>
-	<c:if test="${not empty docuBranch}">
+	<c:set var="isEditor">
+		<cms:property name="opencms.documentation.editor" file="search" default="false" />
+	</c:set>
+	<c:if test="${not (empty docuBranch or isEditor)}">
 		<a href="https://github.com/alkacon/opencms-documentation/blob/${docuBranch}/com.alkacon.opencms.documentation.content/resources/${content.filename}" target="_blank" title="Edit Html content on GitHub" class="glyphicon glyphicon-edit pull-right github-link"></a>
 	</c:if>
-	<cms:decorate file="/system/modules/com.alkacon.opencms.documentation/decoration/configuration.xml">
+	<c:choose>
+	<c:when test="${isEditor && not cms.isOnlineProject}">
 		<div ${content.rdfa.Html}>${content.value.Html}</div>
-	</cms:decorate>
-	<script type="text/javascript">
-		
-	</script>
+	</c:when>
+	<c:otherwise>
+		<cms:decorate file="/system/modules/com.alkacon.opencms.documentation/decoration/configuration.xml">
+			<div>${content.value.Html}</div>
+		</cms:decorate>	
+	</c:otherwise></c:choose>
 </div>
 </cms:formatter>

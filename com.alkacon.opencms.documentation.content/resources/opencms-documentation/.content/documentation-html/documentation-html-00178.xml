@@ -5,7 +5,7 @@
     <Html name="Html0">
       <links>
         <link name="link0" internal="true" type="A">
-          <target><![CDATA[/sites/default/opencms-documentation/views-in-opencms/the-ade-views/the-page-editor/]]></target>
+          <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/editors/the-page-editor/]]></target>
           <uuid>772a450b-02c1-11e4-8167-1305b26fecac</uuid>
           <anchor><![CDATA[context_menu_preferences]]></anchor>
         </link>
@@ -14,9 +14,10 @@
           <uuid>944a9ef8-4871-11e4-8008-336f7b60f7b1</uuid>
         </link>
       </links>
-      <content><![CDATA[<p>Container page elements can be grouped in views by their type. If elements are not in the view you currently work in, edit points on the elements are hidden and also the Add wizard does not provide the option to add such elements.</p>
-<p>The context menu option "Element view" is only shown if more than one such view is available (and non-empty with respect to the available content types). Each user can also choose their default element view via the <a href="%(link0)">user preferences</a>.</p>
-<p><a href="%(link1)">Here</a> you can learn more about element views, in particular how to configure them.</p>]]></content>
+      <content><![CDATA[<p>Container page elements can be grouped in views by their type. If elements are not in the view you currently work in, edit points on the elements are hidden and also the <strong>Add content</strong> does not provide the option to add such elements.</p>
+<p>The context menu option "Element view" is only shown if more than one such view is available (and non-empty with respect to the available content types). Each user can also choose his default element view via the <a href="%(link0)">user preferences</a>.</p>
+<p>Besides via the context menu, the element view can also be switched in the <strong>Add content</strong> dialog. In that dialog an additional element view "System elements" is shown. By default it holds all the content types exposed by the OpenCms core.</p>
+<p><a href="%(link1)">Here</a>&nbsp;you can learn more about element views, in particular how to configure them.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

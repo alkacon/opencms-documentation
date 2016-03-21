@@ -20,7 +20,7 @@
 <c:otherwise>
 <c:set var="replaceDialog"><cms:link>/system/workplace/commons/replace.jsp</cms:link></c:set>
 <c:set var="currentPage" value="${empty param.currentPage?0:param.currentPage}" />
-<c:set var="pageSize" value="${5}" />
+<c:set var="pageSize" value="${20}" />
 <c:set var="contentUpdaterLink"><cms:link>%(link.strong:/system/modules/com.alkacon.opencms.documentation.editortools/functions/dynamically-loaded/update-version.jsp:e070e350-31df-11e4-8511-d144f6bb3566)</cms:link></c:set>
 <jsp:useBean id="pageFinder" class="com.alkacon.opencms.documentation.editortools.PageFinderBean">
 	<% pageFinder.init(pageContext, request, response);%>

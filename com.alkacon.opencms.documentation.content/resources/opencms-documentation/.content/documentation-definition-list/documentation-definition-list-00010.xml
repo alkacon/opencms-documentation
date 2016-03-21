@@ -2,9 +2,16 @@
 
 <DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
   <DocumentationDefinitionList language="en">
-    <Title><![CDATA[Sitemap editor's alternative views]]></Title>
-    <Heading><![CDATA[The sitemap editors alternative views]]></Heading>
+    <Title><![CDATA[Sitemap editors views]]></Title>
+    <Heading><![CDATA[The sitemap editors views]]></Heading>
     <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[Sitemap]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The main view that shows the sitemap and allows to add, edit and delete webpages.</p>]]></content>
+      </Description>
+    </Entry>
     <Entry>
       <Term><![CDATA[Resources]]></Term>
       <Description name="Description0">
@@ -20,6 +27,13 @@
       </Description>
     </Entry>
     <Entry>
+      <Term><![CDATA[Categories]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Shows the categories available in the current sitemap. Local categories, i.e., categories defined in the current sitemap can be edited. Global categories, i.e., categories defined in some parent sitemap or system wide, can only be viewed.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
       <Term><![CDATA[Templates]]></Term>
       <Description name="Description0">
         <links>
@@ -27,15 +41,12 @@
             <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/creating-template-models/]]></target>
             <uuid>7119307d-59bb-11e4-9326-005056b61161</uuid>
           </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/groups-of-content/]]></target>
+            <uuid>a7760a70-eab1-11e5-8020-0242ac11002b</uuid>
+          </link>
         </links>
-        <content><![CDATA[<p>Shows the template models defined in the sitemap. You can add, edit or remove models. Read more about template models <a href="%(link0)">here</a>.</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
-      <Term><![CDATA[Categories]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Shows the categories available in the current sitemap. Local categories, i.e., categories defined in the current sitemap can be edited. Global categories, i.e., categories defined in some parent sitemap or system wide, can only be viewed.</p>]]></content>
+        <content><![CDATA[<p>Shows the template models and model group pages defined in the sitemap. You can add, edit or remove models. Read more about template models <a href="%(link0)">here</a> and about model groups <a href="%(link1)">here</a>.</p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>
