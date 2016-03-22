@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/configuration/CmsConfigurationManager.html]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p><strong>Be careful when changing configurations from inside OpenCms.</strong> The transformations will be wrote back to your configuration files together with your changes.</p>
+<p><strong>The adjusted configuration is logged at debug level.</strong> If you switch to the log level to debug, the transformed configuration will be printed to the <code>opencms.log</code>.</p>
+<p><strong>More information is found in sourcecode and JavaDoc.</strong> Search for the method <code>tranformConfiguration(..)</code> in the class <a href="%(link0)"><code>org.opencms.configuration.ConfigurationManager</code></a>.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

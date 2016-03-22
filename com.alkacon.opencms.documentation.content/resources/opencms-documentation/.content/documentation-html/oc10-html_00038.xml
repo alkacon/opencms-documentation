@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>To define the macro, wee add the formatters that we want to use in the macro and declare a name for them - here it's one for headline, one for text and one for image. Then you write the macro HTML snippet with a <code>%(formatter_name)</code> used whereever the formatter with name <code>formatter_name</code> should be rendered. Additionally to <code>%(formatter_name)</code>, we can use <code>%(settings.settingname)</code> to read element settings defined in the "Supported settings" tab.</p>
+<div class="alert alert-danger">As normal formatters, the macro needs a surrounding <code>&lt;div&gt;</code><span class="footnote">or other block element</span> to be displayed correctly.</div>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

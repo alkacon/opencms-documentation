@@ -8,6 +8,19 @@
       <Topic>
         <PageLink>
           <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/]]></target>
+            <uuid>11e7df15-276b-11e4-b2bf-49dbf0abad32</uuid>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[A completely reworked workplace]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>OpenCms 10 features a completely reworked workplace with a modernized look &amp; feel.</p>]]></content>
+        </AltTeaser>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
             <target><![CDATA[/sites/default/opencms-documentation/development-setups/developer-tools/]]></target>
             <uuid>e2c77a75-ea82-11e5-8cf4-0242ac11002b</uuid>
           </link>
@@ -20,6 +33,7 @@
 <li>Git version control is integrated</li>
 <li>Module management can be performed via the network share</li>
 <li>The module export format has been adjusted to prevent merge conflicts in version control systems</li>
+<li>OpenCms configuration can be adjusted dynamically on start-up via XSLT</li>
 </ul>]]></content>
         </AltTeaser>
       </Topic>

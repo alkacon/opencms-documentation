@@ -4,10 +4,29 @@
   <AlkaconDocumentationTopicFrame language="en">
     <Overview name="Overview0">
       <links/>
-      <content><![CDATA[<p>Please edit this overview. And do not forget to adjust the meta-data.</p>]]></content>
+      <content><![CDATA[<p>With the introduction of nested containers in OpenCms 9.5 it became possible to build up a website from layout elements and "real" content element, that render text or images. In particular in combination with responsive design frameworks this technique proved to be very powerful. But to wrap the full flexibility of a responsive design framework in your template, you either had to write very complex formatters, or dissect your contents into very tiny snippets and loose semantical relations, or force the editor to place the same content several times but rendered with different formatters on the same page. Macro formatters takle that problem. They allow to write several "normal" formatters that only render parts of a content and glue them together in the macro formatter.</p>
+<p>Macro formatters are a special content type introduced in OpenCms 10. They allow to build a new formatter from existing ones. Macro formatters basically glue "normal" formatters together by arranging their output in an HTML structure, referencing each individual formatter via a macro. Moreover, they accumulate all element settings of the individual formatters and support additional settings as well.</p>
+<p>&nbsp;</p>]]></content>
     </Overview>
-    <Keywords/>
-    <InterestingFor/>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>Macro formatters glue normal formatters together in a HTML snippet. They allow to write very specific formatters that render only content parts and glue them together to one "big" formatter that renders the whole content - only by writing HTML with some macros.</p>]]></content>
+    </Teaser>
+    <Keywords><![CDATA[content, formatter, XML content]]></Keywords>
+    <InterestingFor><![CDATA[c_developer]]></InterestingFor>
+    <RelatedLinks>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/]]></target>
+            <uuid>c0625fc8-1bcf-11e4-bfa5-b7bfd6088c56</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Formatters and their configuration]]></LinkText>
+      </Link>
+    </RelatedLinks>
+    <NewInVersion><![CDATA[10.0]]></NewInVersion>
+    <NewInDocuVersion><![CDATA[10.0]]></NewInDocuVersion>
     <StatusMetaData>
       <Todos>
         <Todo><![CDATA[Add content]]></Todo>

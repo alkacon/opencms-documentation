@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/macro-formatters/]]></target>
+          <uuid>7a160955-eab6-11e5-8020-0242ac11002b</uuid>
+          <anchor><![CDATA[fig_element_settings]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p><strong>Macro formatters build a new layer of abstraction.</strong> The target is to reduce development complexity. Once suitable formatters for special content parts (text, image, headline, ...) are defined, they can easily be combined. Writing JSPs is only necessary for that basic formatters - and even these will become less complex. The combination of the basic formatters requires solely HTML and some macros. Hence it can be done by differently skilled persons as well. Thus, you are enabled to define the set of customer specific formatters easily from a set of basic formatters that may be reused.</p>
+<p><strong>Hiding basic formatters bears an advantage.</strong> Basic formatters do not need a surrounding &lt;div&gt; if not used directly. Hence, output is even more flexible. You may benefit from that flexibility when writing the macro formatters.</p>
+<p>Name element settings of the basic formatters suitable. All element settings of the basic formatters will also be available in the macro formatter. So name them suitably, e.g., prefixing them with "Headline", "Image", "Text" etc. An example for suitable naming is shown in Fig. <a href="%(link0)">[element_settings]</a>.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>
