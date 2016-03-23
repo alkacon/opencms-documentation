@@ -4,15 +4,13 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>The OpenCms 9.5 demo is a bootstrap wrapper. The intention is to:</p>
+      <content><![CDATA[<p>The OpenCms 10.0 demo is a bootstrap wrapper. The intention is to:</p>
 <ul>
 <li>Start with an empty page (the template exposes only one big container for the body)</li>
-<li>Add template rows with different columns to set up the "rough" design of a page. This is done by the template developer.</li>
-<li>Add layout rows into the cols of template rows for the "fine-tuning". This can be done by content editors.</li>
+<li>Add (usually various and nested) layout rows with different columns to set up the "rough" design of a page.</li>
 <li>Add content into cols of layout rows. This can be done by element authors (if not configured differently).</li>
 </ul>
-<p>The difference between layout and template rows are mainly the permissions: template rows must be created and added to pages by template developers. Also layout rows are created only by template developers - but they can be added to pages by content editors (role editor or element author).</p>
-<p>Moreover, the containers exposed by template and layout rows can be restricted, such that only template developers can add contents, or also content editors.</p>]]></content>
+<p>Containers exposed by layout rows can be restricted, such that only template developers can add contents, or also content editors.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

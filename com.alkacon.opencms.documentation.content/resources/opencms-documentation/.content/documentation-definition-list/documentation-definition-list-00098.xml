@@ -5,7 +5,7 @@
     <Heading><![CDATA[The demo modules]]></Heading>
     <PropertyDef>true</PropertyDef>
     <Entry>
-      <Term><![CDATA[com.alkacon.bootstrap.basics]]></Term>
+      <Term><![CDATA[org.opencms.apollo.template.basics]]></Term>
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>Contains resources of used frameworks/libraries</p>
@@ -19,10 +19,23 @@
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[com.alkacon.bootstrap.formatters]]></Term>
+      <Term><![CDATA[org.opencms.apollo.template.schemas]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Contains all</p>
+        <content><![CDATA[<p>Contains</p>
+<ul>
+<li>Resource type definitions</li>
+<li>Schema files</li>
+<li>Localization files for schemas</li>
+<li>Element views</li>
+</ul>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[org.opencms.apollo.template.formatters]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Contains</p>
 <ul>
 <li>Formatters (for all contents of the module <code>com.alkacon.bootstrap.schemas</code>)</li>
 <li>Templates</li>
@@ -33,30 +46,24 @@
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[com.alkacon.bootstrap.schemas]]></Term>
+      <Term><![CDATA[org.opencms.apollo.template.extensions]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Contains all</p>
-<ul>
-<li>Resource type definitions</li>
-<li>Schema files</li>
-<li>Localization files for schemas</li>
-<li>Element views</li>
-</ul>]]></content>
+        <content><![CDATA[<p>Two additional resource types (<code>a-imagegallery</code> and <code>a-sliderextended</code>) with schemas and formatters</p>]]></content>
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[com.alkacon.bootrap.search]]></Term>
+      <Term><![CDATA[org.opencms.apollo.template.webform]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Contains the GWT generated resources for the integrated search.</p>]]></content>
+        <content><![CDATA[<p>Adds support for forms.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[com.alkacon.boostrap.contents]]></Term>
+      <Term><![CDATA[org.opencms.apollo.template.democontents]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>The content of the demo website. This module has no module folder - it only contains the contents under <code>/sites/default/</code> (except the <code>documentation/</code> subfolder). The content module also adds some users that have the new roles added in OpenCms 9.5.</p>]]></content>
+        <content><![CDATA[<p>The content of the demo website. This module has no module folder - it only contains the contents under <code>/sites/default/</code> (except the <code>.formatters/</code> folder, which comes with the formatters module). The content module also adds some users with different roles.</p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>
