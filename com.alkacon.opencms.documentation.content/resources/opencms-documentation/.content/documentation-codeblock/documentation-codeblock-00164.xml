@@ -47,6 +47,8 @@
 
 
   # 7. Add opencms/ prefix if required
+  RewriteCond %{REQUEST_URI} !^/workplace/.*$    # required since OpenCms 10
+  RewriteCond %{REQUEST_URI} !^/VAADIN/.*$       # required since OpenCms 10
   RewriteCond %{REQUEST_URI} !^/resources/.*$
   RewriteCond %{REQUEST_URI} !^/export/.*$
   RewriteCond %{REQUEST_URI} !^/webdav.*$
