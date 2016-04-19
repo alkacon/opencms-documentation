@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/creating-a-template-jsp/]]></target>
+          <uuid>a2914c1c-1be1-11e4-bfa5-b7bfd6088c56</uuid>
+          <anchor><![CDATA[sec_insert_containers_enable_ade]]></anchor>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://documentation.opencms.org/javadoc/tld/cms/container.html]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>The main purpose of a formatter is to glue content, formatter and template together. Hence the main things to specify (with the formatter configuration's editor fields in braces) are</p>
+<ul>
+<li>The type of the resources for which the formatter should be applied ("Resource type")</li>
+<li>The formatter (JSP) that should be used for rendering ("JSP").</li>
+<li>The containers in which the formatter should be used ("Match" as "Container types" or "Container width")</li>
+</ul>
+<p>For specifying in which containers a formatter is used, we strongly recommend to match by "Container types". Containers (see <a href="%(link0)">here</a> and <a href="%(link1)">here</a>) have a <code>type</code> attribute where you can specify container types (just a comma-separated list of Strings, e.g. <code>"default,center,flexible"</code>). If the formatter configuration lists at least one of the types mentioned there (e.g. <code>default</code>), the formatter can be used for the container, i.e., the content is rendered with the formatter.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

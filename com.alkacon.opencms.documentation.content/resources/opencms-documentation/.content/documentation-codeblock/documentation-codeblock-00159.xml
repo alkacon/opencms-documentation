@@ -47,7 +47,7 @@
 
 
   # 7. Add opencms/ prefix if required
-  RewriteCond %{REQUEST_URI} !^/workplace/.*$    # required since OpenCms 10
+  RewriteCond %{REQUEST_URI} !^/workplace.*$    # required since OpenCms 10
   RewriteCond %{REQUEST_URI} !^/VAADIN/.*$       # required since OpenCms 10
   RewriteCond %{REQUEST_URI} !^/resources/.*$
   RewriteCond %{REQUEST_URI} !^/export/.*$
@@ -64,6 +64,8 @@
   ProxyPreserveHost On
   ProxyPass /opencms ajp://localhost:8009/opencms
   ProxyPass /webdav(.*) ajp://localhost:8009/webdav$1
+  ProxyPass /VAADIN ajp://localhost:8009/VAADIN    # required since OpenCms 10
+  ProxyPass /workplace ajp://localhost:8009/workplace    # required since OpenCms 10
 </VirtualHost>]]></Code>
   </DocumentationCodeBlock>
 </DocumentationCodeBlocks>

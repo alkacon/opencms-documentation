@@ -37,7 +37,8 @@
       <Term><![CDATA[Match]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Match defines in which containers a formatter can be applied. You can either specify containers via their <code>width</code> attribute or via their <code>type</code> attribute. If you choose width, the value specified as "Width" in the formatter configuration corresponds to the minimum width a container must have (set as "width" attribute), and the optional "Maximum width" specifies the maximum value of the width attribute that is allowed where the formatter is applicable.</p>]]></content>
+        <content><![CDATA[<p>Match defines in which containers a formatter can be applied. You can either specify containers via their <code>width</code> attribute or via their <code>type</code> attribute. If you choose width, the value specified as "Width" in the formatter configuration corresponds to the minimum width a container must have (set as <code>width</code> attribute), and the optional "Maximum width" specifies the maximum value of the width attribute that is allowed where the formatter is applicable.</p>
+<p><strong>We strongly recommend to match formatter to containers via the type.</strong></p>]]></content>
       </Description>
     </Entry>
     <Entry>
