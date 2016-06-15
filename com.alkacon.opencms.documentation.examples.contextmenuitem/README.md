@@ -6,18 +6,21 @@ Here we show how to add new context menu items.
 When you install the module and restart OpenCms (to load the Jar shipped with the module),
 the context menu for resources in the Explorer is extended - depending on the resources you
 call the menu on:
- * For a single folder, the menu has not changed
- * For multiple resources the entry "Greet" with a deactivated sub-entry "Say hello" appears
- * For a single non-folder resource, the menu is extended by the entry "Greet" with the active sub-entry "Say hello"
+
+* For a single folder, the menu has not changed
+* For multiple resources the entry "Greet" with a deactivated sub-entry "Say hello" appears
+* For a single non-folder resource, the menu is extended by the entry "Greet" with the active sub-entry "Say hello"
+
 If you click the new entry, an alert box is displayed, saying hello.
  
 ## Implementation ##
 Just for convenience, we produced a whole module. The only interesting stuff is in the jar, shipped with the module.
 These are the resources in the `src/` subfolder, in particular the folder contains:
- * A context menu item provider (`ExampleContextMenuItemProvider`)
- * A context menu item (`ExampleHelloContextMenuItem`)
- * Localizations (`Messages` and the `.properties` files)
- * The registration information for the context menu item provider.
+
+* A context menu item provider (`ExampleContextMenuItemProvider`)
+* A context menu item (`ExampleHelloContextMenuItem`)
+* Localizations (`Messages` and the `.properties` files)
+* The registration information for the context menu item provider.
 
 ### Writing a context menu item provider ###
 A context menu item provider is a class implementing `I_CmsContextMenuItemProvider`.
@@ -29,12 +32,13 @@ See the example implementation for more details.
 Context menu items are classes implementing `I_CmsContextMenuItem`.
 Typically, the have a constructor that takes the id of the parent menu item.
 The interface of a context menu item has several methods that allow to:
- * use items of the same class at different places (via the parent id)
- * replace items by others (via a priority)
- * fix the position of the item relative to other items on the same menu level (via the order)
- * provide a localized item title (via getTitle(locale))
- * tell when the item is visible and activated or deactivated - typically this depends on the resource selection and the role of the current user
- * tell if the item is a leaf - meaning if it has sub-items or not.
+
+* use items of the same class at different places (via the parent id)
+* replace items by others (via a priority)
+* fix the position of the item relative to other items on the same menu level (via the order)
+* provide a localized item title (via getTitle(locale))
+* tell when the item is visible and activated or deactivated - typically this depends on the resource selection and the role of the current user
+* tell if the item is a leaf - meaning if it has sub-items or not.
  
 For non-leaf items the class `CmsSubmenu` eases creating such items (see the example provider). Leaf-items you typically implement yourself. See the `ExampleHelloContextMenuItem` for details.
 
