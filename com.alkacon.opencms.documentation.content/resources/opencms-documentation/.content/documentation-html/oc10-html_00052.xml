@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The example generates a new main menu item "Greet" with a subitem "Say Hello". Clicking on the sub-item you get an alert message, saying hello.</p>
+<p>The visibility of the menu items is as follows:</p>
+<ul>
+<li>For folders the item does not show up</li>
+<li>For multiple resources, the item shows up, but is deactivated</li>
+<li>For a single non-folder resource the item shows up and is active</li>
+</ul>
+<p>This is illustrated by the following figures.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>
