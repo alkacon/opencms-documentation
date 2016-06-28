@@ -5,7 +5,7 @@
     <Html name="Html0">
       <links/>
       <content><![CDATA[<p>When you call the OpenCms shell, a new instance of OpenCms is started. You do not need to have OpenCms already running in your Tomcat (or other servlet container). You do not even need to start the servlet container at all.</p>
-<div class="alert alert-info">You should be aware that the shell starts a new OpenCms instance. That may interfere with an already running instance started by Tomcat, although it usually causes no problems.</div>]]></content>
+<div class="alert alert-info alert-danger">You should be aware that the shell starts a new OpenCms instance. That may interfere with an already running instance started by Tomcat. So we strongly recommend not using the shell while OpenCms is already running.</div>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>
