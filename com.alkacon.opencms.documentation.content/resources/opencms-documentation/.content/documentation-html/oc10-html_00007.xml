@@ -13,7 +13,7 @@
 <p>The script expects all parameters first and then the configuration file. To get an overview on the parameters, please refer to the script itself and search for "read commandline arguments".</p>
 <p>For using the script directly, you need to <a href="%(link0)">import and export modules via the network share</a>. The reason is, that the Git integration app triggers module import and export directly in OpenCms, but the script cannot use that functionality.</p>
 <p>A typical scenario for using the script directly could be, that you export and unzip modules to a repository you have present in a project in your IDE. You check the changes and commit via the IDE and then build the module again and copy it to the module import folder of the network share.</p>
-<p>In summary, you have a lot of control on what is done automatically, and where you take action manually. Of course, all this can also be reached using the Git integration app.</p>]]></content>
+<p>In summary, you have a lot of control on what is done automatically, and where you take action manually. Of course, all this can also be achieved using the Git integration app.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>
