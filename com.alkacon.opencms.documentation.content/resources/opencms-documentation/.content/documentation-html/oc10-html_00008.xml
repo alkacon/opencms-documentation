@@ -16,7 +16,7 @@
       </links>
       <content><![CDATA[<p>Since OpenCms 9.0 you can <a href="%(link0)">mount the VFS via a network share</a>. OpenCms 10.0 adds a new feature to the share. You can import and export modules.</p>
 <p>The feature is enabled by default. If it is not enabled in your installation, please look <a href="%(link1)">here</a> how to find out how the&nbsp;<code>org.opencms.file.wrapper.CmsResourceWrapperModules</code> is configured.</p>
-<p>If configured correctly, the VFS mount has three additional folders <code>/modules/import/</code> and <code>/modules/export/</code> and <code>/modules/log/</code>. The <code>export/</code> folder lists zip files for all modules installed on the system. The <code>import/</code> folder is always empty and the <code>log/</code> folder holds for each module in the system a log file with the actions performed on this module. Use the folders as follows to import, export or remove modules.</p>]]></content>
+<p>If configured correctly, the VFS mount has three additional folders: <code>/modules/import/</code>, <code>/modules/export/</code> and <code>/modules/log/</code>. The <code>export/</code> folder lists zip files for all modules installed on the system. The <code>import/</code> folder is always empty and the <code>log/</code> folder holds for each module in the system a log file with the actions performed on this module. Use the folders as follows to import, export or remove modules.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>
