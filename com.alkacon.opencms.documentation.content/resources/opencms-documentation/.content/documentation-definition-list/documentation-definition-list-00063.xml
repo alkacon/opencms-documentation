@@ -22,8 +22,14 @@
     <Entry>
       <Term><![CDATA[name]]></Term>
       <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Define the name shown in the tab. This attribute supports <code>%(key.)</code> macro to insert localized messages. If the attribute is not given, the element's name is used as the tab name.</p>]]></content>
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/localization/multilingual-menus/]]></target>
+            <uuid>f4a3c66b-b2a1-11e4-b42e-0242ac11002b</uuid>
+            <anchor><![CDATA[content_specific_editor_localization]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Define the name shown in the tab. If the attribute is not given, the element's name is used as the tab name. To localize the tab name, use the key <code>label.{schema type name}.{tab name}</code>. You can also add a tool tip via <code>label.{schema type name}.{tab name}.help</code>. See <a href="%(link0)">here</a> for more information on localization.</p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>
