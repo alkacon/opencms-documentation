@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The main advantages of the single-tree approach are</p>
+<ul>
+<li>it is very easy to set up. You can use your existing uni-lingual page, change some configurations and start translating,</li>
+<li>it is easy to maintain, since there are no duplicate folder structures.</li>
+</ul>
+<p>The ease of use and maintance is a big advantage, but it causes also some drawbacks:</p>
+<ul>
+<li>you publish always all language versions (since the contents rendered are necessarily the same in each locale variant of a page)</li>
+<li>you have the same folder names in the URLs for each locale variant (which is bad in terms of SEO)</li>
+</ul>
+<p>Summing up the pros and cons, the single-tree approach is probably <strong>very suitable for "Applications"</strong>. For example, customer portals, where you have a fixed functionality that should be accessible in various languages. In this scenario SEO is not important, since only customers get a login or an invitation or some other information to be directed to the page.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

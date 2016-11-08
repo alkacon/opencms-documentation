@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>To translate the content, just go to the language version of a page for which you want to add the translation and start editing. To translate the "Home" page to German, open <code>localhost:8080/opencms/de/home/</code> to get the German variant of the "Home" page opened in the page editor. Nothing is translated yet, so the German page looks exactly as the English one. Since German is not available, English content is shown. To add German content, just start editing - inline or via the form based editor. OpenCms will copy the English content version to the German version when before it is edited. That's a new feature in OpenCms 10.5.</p>
+<p>When you have finished with the German "Home" page, go on and translate the other pages.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

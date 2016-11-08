@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>To configure the multi-tree localization mode for the tutorial site, open the Launchpad and choose the Site Management. Choose the site were you placed the tuturial's&nbsp;content and edit it. Below, this site is&nbsp;named&nbsp;"Multi-Tree".</p>
+<p>You need to add two parameters:</p>
+<ul>
+<li><code>locale.main=en</code>: This means that English is the primary variant of your website. Pages are all first created in English and copied to other locales afterwards.</li>
+<li><code>locale.secondary=de,fr</code>: You specify German and French as secondary locales. These are the languages, you want to copy English pages to.</li>
+</ul>
+<p>Our configuration means, that we have a main version of the site in English and we want to (partly) translate pages to German and French.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

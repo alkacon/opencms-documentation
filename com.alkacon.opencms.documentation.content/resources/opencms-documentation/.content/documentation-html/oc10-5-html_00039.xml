@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Our page is already available in the locale variants we wanted. So the tutorial could be finished here. But it might be the case, that you want to link to a specific locale variant of a page.</p>
+<p>Creating a link in a JSP we can use <code>&lt;cms:link&gt;</code> with the locale attribute to specify in which locale the linked page should be rendered. Placing the link in a content, we cannot use the tag. Here we can add the parameter <code>__locale={target locale}</code> to the link. E.g., a link to the English "Home" page would look like</p>
+<ul>
+<li><code>/home/?__locale=en</code></li>
+</ul>
+<p>If the <code>__locale</code> parameter is not provided, we the link target is rendered in the same locale as the page with the link on. I.e., if you do not want to switch the locale, you don't need the extra parameter.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

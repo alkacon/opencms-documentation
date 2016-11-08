@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The handlers act exactly as the default handlers unless a site is configured to use the "singleTree" localization mode. So you can change the configurations, restart OpenCms and everything should work as before.</p>
+<p>To enable the adjusted locale handling and link substitution for the site with the tutorial content, go to the "Site Management" and edit the site with the tutorial contents. Add the parameter <code>localizationMode=singleTree</code>.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

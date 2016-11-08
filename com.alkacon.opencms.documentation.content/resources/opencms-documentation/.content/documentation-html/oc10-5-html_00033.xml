@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>To switch between the different locale variants of a page, we need a language switch. We adjust the one shipped with the Apollo Demo. It is part of the link sequence formatter <code>linksequence-head.jsp</code> in <code>/system/modules/org.opencms.apollo/formatters/</code>.</p>
+<p>Here's the part to adjust: Replace the lines enclosed by the <code>&lt;c:if test="${fn:contains(cms.container.type, 'head') ...&gt;</code> tag<span class="footnote">The original switch is designed for the multi-tree localization mode.</span> with:</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

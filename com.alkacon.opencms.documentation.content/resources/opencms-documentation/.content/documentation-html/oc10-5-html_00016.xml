@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Because nothing is translated yet, the German page looks exactly as the English one. Since German is not available, the English content version is shown. To add a German version, just edit the content - inline or via the form based editor. The english content version will be copied to the German version and you edit this copy directly. That's a new feature in OpenCms 10.5.</p>
+<p>When you have finished, go on, copy and translate all the other pages to German and French in the same manner. Doing so, you will encounter a tiny problem: The navigation level "Products" cannot be copied. Copying is only implemented for container pages. So just go to the German (French) sub-sitemap in the Sitemap editor's Sitemap view, create the respective navigation levels and link them to the English version as we have done for the roots of the sub-sitemaps before.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

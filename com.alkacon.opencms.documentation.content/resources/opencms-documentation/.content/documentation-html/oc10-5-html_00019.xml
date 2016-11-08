@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Our website already exists in three different locale variants. But users visiting our site we cannot switch from one locale to another. So we need to add a language switcher. It should work as follows: For each page, you should be able to switch to all available translations. If no translation is available, you can not switch. Of course, this is a suggestion and you can implement a different logic if you like.</p>
+<p>The Apollo-Template already contains a locale switcher we can use. If we add an element of type "Link Sequence" to the header of our page, it renders the language switch automatically. Go to the sitemap editor and open the "Templates" view in the root sitemap. Edit the model group page "Headers &amp; Footers" and add a new link sequence to the header as shown below.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

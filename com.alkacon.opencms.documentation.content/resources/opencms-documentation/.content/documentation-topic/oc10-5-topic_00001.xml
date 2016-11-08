@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>In OpenCms you can build multilingual websites easily. Starting with an unilingual website, the tutorial tells you how to add localizations.</p>
+<p>There are two ways to add localizations:</p>
+<ul>
+<li><strong>The multi-tree approach</strong>: That means, each translation of the website has it's own folder tree. This way localizations of the site can diverge in content and structure.</li>
+<li><strong>The single-tree approach</strong>: That means, we keep the single folder tree of the unilingual site and make it accessible in various locales.</li>
+</ul>
+<p>The tutorial covers both approaches. You can decide which approach you choose. Both have their pros and cons that are briefly discussed as well.</p>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>Starting with an unilingual website, we add additional language versions and show how OpenCms supports creation and management of different localizations the website.</p>]]></content>
+    </Teaser>
+    <Keywords><![CDATA[localization, multilingual]]></Keywords>
+    <InterestingFor><![CDATA[b_opencmsAdmin,c_developer]]></InterestingFor>
+    <NewInVersion><![CDATA[10.5]]></NewInVersion>
+    <NewInDocuVersion><![CDATA[10.5]]></NewInDocuVersion>
+    <RevisedForVersion><![CDATA[10.5]]></RevisedForVersion>
+    <StatusMetaData>
+      <Todos>
+        <Todo><![CDATA[Add more links]]></Todo>
+      </Todos>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

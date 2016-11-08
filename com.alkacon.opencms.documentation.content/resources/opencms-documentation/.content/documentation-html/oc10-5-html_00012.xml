@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/groups-of-content/]]></target>
+          <uuid>a7760a70-eab1-11e5-8020-0242ac11002b</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>The last thing to do is to adjust the navigation content. It displays the navigation starting directly below the site root. Now that we have an extra folder level before the "real" pages start, we need to adjust the navigation.</p>
+<p>The tutorial site uses a <a href="%(link0)">reuse group</a> for the header that contains the navigation. Therefor, it suffices to adjust the navigation just once. Go to the Templates view of the sitemap editor and open the model group page "Headers &amp; Footers". You are asked if you really want to edit the model: Say yes! Then edit the navigation element in the "Header" model. Set "Navigation Start Level" to "1 - First Level". That's it. For the English version of your website the navigation should work again as expected. Try it.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>At the moment, the English version of our website starts directly below the site root. If we have various language variants, it is beneficial to place each of them in separate sub-sitemaps directly below the site root<span class="footnote">This is not mandatory, but, e.g., starting at the same folder level eases reusing navigations.</span>. So go to the Sitemap editor's "Sitemap" view and add Navigation levels "en", "de" and "fr" directly below the site root. Convert all of them to sub-sitemaps<span class="footnote">Use the option "Create sub-sitemap" under "Advanced" in the context menu of the navigation levels.</span>. Furthermore, set the "locale" property to the folder's name on all of the sub-sitemaps. That causes pages&nbsp;inside the sub-sitemap to be rendered in the respective locale.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

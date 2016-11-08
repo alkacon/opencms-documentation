@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Before we start to add localized variants of our website, we need to configure the locales (languages) we want to support. In OpenCms locales must be configured in the <code>opencms-system.xml</code>. By default English and German are configured. We want to support French as well and thus need to add it.</p>
+<ul>
+<li>Open the <code>opencms-system.xml</code> (found under <code>{webapp home}/WEB-INF/config/</code>) and edit the elements <code>localesconfigured</code> and <code>localesavailable</code>, such that they look as follows:</li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

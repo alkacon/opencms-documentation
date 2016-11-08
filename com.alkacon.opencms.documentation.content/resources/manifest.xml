@@ -3,8 +3,8 @@
 <export>
 	<info>
 		<creator>dSeidel</creator>
-		<opencms_version>10.0.x</opencms_version>
-		<createdate>Tue, 28 Jun 2016 07:14:35 GMT</createdate>
+		<opencms_version>10.5.x</opencms_version>
+		<createdate>Tue, 08 Nov 2016 11:16:41 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>10</export_version>
 	</info>
@@ -39,7 +39,7 @@
 			<destination>opencms-documentation</destination>
 			<type>subsitemap</type>
 			<uuidstructure>f002c53d-973d-11e4-8878-b7eb8d90e9b7</uuidstructure>
-			<datelastmodified>Wed, 15 Jun 2016 13:36:12 GMT</datelastmodified>
+			<datelastmodified>Tue, 08 Nov 2016 11:15:05 GMT</datelastmodified>
 			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Thu, 08 Jan 2015 13:55:00 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -60,6 +60,10 @@
 				<property>
 					<name>default-file</name>
 					<value><![CDATA[##navigation_level_folder##]]></value>
+				</property>
+				<property>
+					<name>documentation.opencms.version</name>
+					<value><![CDATA[10.5.0]]></value>
 				</property>
 				<property>
 					<name>opencms.documentation.branch</name>
@@ -3292,6 +3296,111 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/oc10-5-codeblock_00001.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/oc10-5-codeblock_00001.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>89b0a151-a1b7-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>89b0a152-a1b7-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 03 Nov 2016 11:36:33 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 11:20:34 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/oc10-5-codeblock_00002.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/oc10-5-codeblock_00002.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>1f242651-a4d9-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>1f242652-a4d9-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 11:05:21 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 10:58:31 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/oc10-5-codeblock_00003.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/oc10-5-codeblock_00003.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>b56a9d26-a4f3-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>b56a9d27-a4f3-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 14:09:19 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 14:08:50 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/oc10-5-codeblock_00004.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/oc10-5-codeblock_00004.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>d8073d7c-a4f3-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>d8073d7d-a4f3-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 14:12:38 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 14:09:48 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/oc10-5-codeblock_00005.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/oc10-5-codeblock_00005.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>6f4a6282-a4f4-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>6f4a6283-a4f4-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 14:14:32 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 14:14:02 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/oc10-5-codeblock_00006.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/oc10-5-codeblock_00006.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>8d24e6e8-a4f4-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>8d24e6e9-a4f4-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 14:15:04 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 14:14:52 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/oc10-5-codeblock_00007.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/oc10-5-codeblock_00007.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>725b306b-a589-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>725b306c-a589-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 08:07:06 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 08 Nov 2016 08:00:42 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>opencms-documentation/.content/documentation-codeblock/oc10-codeblock_00001.xml</source>
 			<destination>opencms-documentation/.content/documentation-codeblock/oc10-codeblock_00001.xml</destination>
 			<type>documentation-codeblock</type>
@@ -4571,7 +4680,7 @@
 			<uuidstructure>33beccdb-31a3-11e4-8511-d144f6bb3566</uuidstructure>
 			<uuidresource>33beccdc-31a3-11e4-8511-d144f6bb3566</uuidresource>
 			<datelastmodified>Mon, 23 May 2016 07:06:10 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 01 Sep 2014 06:42:54 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -7956,6 +8065,406 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-5-figure_00001.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-5-figure_00001.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>4aa69690-a1b6-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>4aa69691-a1b6-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 14:40:50 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 11:11:39 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[orig-website]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-5-figure_00002.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-5-figure_00002.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>bdfcf7e6-a1ba-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>bdfcf7e7-a1ba-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 03 Nov 2016 11:44:04 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 11:43:30 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[languageswitcher]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-5-figure_00003.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-5-figure_00003.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>8f3ccdc2-a1c3-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>8f3ccdc3-a1c3-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 03 Nov 2016 12:57:02 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 12:46:37 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[multitree_parameters]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-5-figure_00004.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-5-figure_00004.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>0ea77283-a1c6-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>0ea77284-a1c6-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 03 Nov 2016 13:04:55 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 13:04:30 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[compare_locales_view]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-5-figure_00005.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-5-figure_00005.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>d4edc7d6-a1c9-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>d4edc7d7-a1c9-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:21:07 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 13:31:31 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[intermediate_page_structure]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-5-figure_00006.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-5-figure_00006.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>80557b03-a1ca-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>80557b04-a1ca-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 03 Nov 2016 13:48:15 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 13:36:18 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[moving_resources]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-5-figure_00007.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-5-figure_00007.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>810f5c52-a4cc-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>810f5c53-a4cc-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 09:39:21 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 09:28:12 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[link_locale_variant_menu]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-5-figure_00008.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-5-figure_00008.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>a6a3dfeb-a4cc-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>a6a3dfec-a4cc-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 09:39:57 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 09:29:15 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[link_locale_variant_dialog]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-5-figure_00009.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-5-figure_00009.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>0ef19e1a-a4cf-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>0ef19e1b-a4cf-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 09:47:58 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 09:46:29 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[copy_page_menu]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-5-figure_00010.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-5-figure_00010.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>2d40dd53-a4cf-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>2d40dd54-a4cf-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 09:48:28 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 09:47:20 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[copy_page_dialog]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-5-figure_00011.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-5-figure_00011.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>10a30ccf-a4d1-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>10a30cd0-a4d1-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 10:01:38 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 10:00:51 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[show_locale_variant]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-5-figure_00012.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-5-figure_00012.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>a71b07c2-a4d3-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>a71b07c3-a4d3-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 10:20:05 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 10:19:23 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[adding_navigation_level]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-5-figure_00013.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-5-figure_00013.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>b66abfdb-a4d4-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>b66abfdc-a4d4-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 10:27:52 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 10:26:58 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[property_adjustments]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-5-figure_00014.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-5-figure_00014.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>4d409cce-a4d8-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>4d409ccf-a4d8-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 10:53:08 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 10:52:39 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[add_link_sequence]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-5-figure_00015.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-5-figure_00015.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>8dcb227a-a4d8-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>8dcb227b-a4d8-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 10:55:08 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 10:54:28 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[edit_link_sequence]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-5-figure_00016.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-5-figure_00016.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>a8819f17-a4e2-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>a8819f18-a4e2-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 12:07:30 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 12:06:47 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[single_tree_approach_overview]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-5-figure_00017.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-5-figure_00017.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>8340fb83-a4f7-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>8340fb84-a4f7-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 14:36:36 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 14:36:04 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[single_tree_parameters]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-5-figure_00018.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-5-figure_00018.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>ed964a65-a58d-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>ed964a66-a58d-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 08:34:40 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 08 Nov 2016 08:32:47 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[multi_language_property_config]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-5-figure_00019.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-5-figure_00019.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>96a8ff22-a590-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>96a8ff23-a590-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 08:52:27 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 08 Nov 2016 08:51:50 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[multi_language_property_edit]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-5-figure_00020.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-5-figure_00020.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>fb262b63-a59d-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>fb262b64-a59d-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:29:18 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 08 Nov 2016 10:27:42 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[sitemap_templates_view]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>opencms-documentation/.content/documentation-figure/oc10-figure_00001.xml</source>
 			<destination>opencms-documentation/.content/documentation-figure/oc10-figure_00001.xml</destination>
 			<type>documentation-figure</type>
@@ -8242,9 +8751,9 @@
 			<uuidstructure>3ebb776f-32f8-11e6-8b53-0242ac11002b</uuidstructure>
 			<uuidresource>3ebb7770-32f8-11e6-8b53-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 15 Jun 2016 12:57:51 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 15 Jun 2016 12:54:06 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8262,9 +8771,9 @@
 			<uuidstructure>d0e84608-32f8-11e6-8b53-0242ac11002b</uuidstructure>
 			<uuidresource>d0e84609-32f8-11e6-8b53-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 15 Jun 2016 12:59:28 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 15 Jun 2016 12:58:11 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8282,9 +8791,9 @@
 			<uuidstructure>06474c71-32f9-11e6-8b53-0242ac11002b</uuidstructure>
 			<uuidresource>06474c72-32f9-11e6-8b53-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 15 Jun 2016 13:01:42 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 15 Jun 2016 12:59:41 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -8302,9 +8811,9 @@
 			<uuidstructure>5b8c85bc-32f9-11e6-8b53-0242ac11002b</uuidstructure>
 			<uuidresource>5b8c85bd-32f9-11e6-8b53-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 15 Jun 2016 13:03:41 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 15 Jun 2016 13:02:04 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -17801,7 +18310,7 @@
 			<uuidstructure>ee5c073e-4492-11e4-a5b9-6725b2578a6f</uuidstructure>
 			<uuidresource>ee5c073f-4492-11e4-a5b9-6725b2578a6f</uuidresource>
 			<datelastmodified>Tue, 28 Jun 2016 07:12:39 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 25 Sep 2014 09:04:18 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -20390,6 +20899,621 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00001.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00001.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>e031615d-a1af-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>e031615e-a1af-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 03 Nov 2016 10:27:51 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 10:25:43 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00002.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00002.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>fa36217e-a1b6-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>fa36217f-a1b6-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 09:53:16 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 11:16:33 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00003.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00003.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>1317f424-a1b8-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>1317f425-a1b8-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 09:54:05 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 11:24:24 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00004.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00004.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>7de40aa7-a1b8-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>7de40aa8-a1b8-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 09:51:22 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 11:27:23 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00005.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00005.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>103c07ee-a1b9-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>103c07ef-a1b9-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 14:40:23 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 11:31:29 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00006.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00006.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>06a6ce3e-a1bb-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>06a6ce3f-a1bb-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:14:02 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 11:45:32 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00007.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00007.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>307a8cb7-a1bc-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>307a8cb8-a1bc-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:16:22 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 11:53:52 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00008.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00008.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>3f857a0b-a1c5-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>3f857a0c-a1c5-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:16:13 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 12:58:42 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00009.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00009.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>40c49457-a1c6-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>40c49458-a1c6-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:30:29 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 13:05:54 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00010.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00010.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>ac5102be-a1c8-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>ac5102bf-a1c8-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:20:51 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 13:23:13 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00011.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00011.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>24508110-a1ca-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>24508111-a1ca-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 03 Nov 2016 13:33:47 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 13:33:44 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00012.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00012.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>bdadac77-a1ca-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>bdadac78-a1ca-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:24:19 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 13:38:01 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00013.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00013.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>2e6d44bf-a4ce-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>2e6d44c0-a4ce-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 09:42:05 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 09:40:13 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00014.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00014.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>72362c82-a4ce-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>72362c83-a4ce-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:31:36 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 09:42:06 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00015.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00015.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>5cf78677-a4cf-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>5cf78678-a4cf-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:33:55 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 09:48:40 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00016.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00016.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>571ce3c3-a4d1-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>571ce3c4-a4d1-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:36:55 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 10:02:49 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00017.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00017.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>a969810a-a4d2-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>a969810b-a4d2-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:37:55 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 10:12:17 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00018.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00018.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>055dee5f-a4d5-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>055dee60-a4d5-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:38:09 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 10:29:10 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00019.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00019.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>36aac7e6-a4d5-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>36aac7e7-a4d5-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:40:19 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 10:30:33 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00020.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00020.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>67b93182-a4d8-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>67b93183-a4d8-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 10:53:52 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 10:53:24 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00021.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00021.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>c7a5ecfe-a4d8-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>c7a5ecff-a4d8-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 10:58:20 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 10:56:05 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00022.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00022.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>3429d034-a4da-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>3429d035-a4da-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:45:19 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 11:06:16 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00023.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00023.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>94258a5b-a4db-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>94258a5c-a4db-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:50:23 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 11:16:07 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00024.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00024.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>fc12aa8f-a4e0-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>fc12aa90-a4e0-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:51:15 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 11:54:49 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00025.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00025.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>84ec30cc-a4eb-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>84ec30cd-a4eb-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:51:53 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 13:10:13 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00026.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00026.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>8b6ad033-a4f3-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>8b6ad034-a4f3-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:52:39 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 14:07:40 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00027.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00027.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>cd55d039-a4f3-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>cd55d03a-a4f3-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 14:09:35 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 14:09:31 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00028.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00028.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>48d6a27f-a4f4-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>48d6a280-a4f4-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 14:13:46 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 14:12:58 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00029.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00029.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>856fc9b5-a4f4-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>856fc9b6-a4f4-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 14:14:44 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 14:14:39 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00030.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00030.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>9b397c5b-a4f4-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>9b397c5c-a4f4-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:53:28 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 14:15:16 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00031.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00031.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>c2d7d257-a4f7-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>c2d7d258-a4f7-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:54:13 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 14:37:51 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00032.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00032.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>e535786f-a4f8-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>e5357870-a4f8-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:10:25 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 14:45:58 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00033.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00033.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>59a04058-a580-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>59a06769-a580-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:55:40 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 08 Nov 2016 06:55:35 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00034.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00034.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>c895f7ce-a58a-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>c895f7cf-a58a-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 08:13:07 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 08 Nov 2016 08:10:17 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00035.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00035.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>53751d95-a58b-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>53751d96-a58b-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:57:53 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 08 Nov 2016 08:14:10 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00036.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00036.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>efe99b1c-a58b-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>efe99b1d-a58b-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 11:04:37 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 08 Nov 2016 08:18:32 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00037.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00037.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>692bc0aa-a58f-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>692bc0ab-a58f-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 11:05:33 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 08 Nov 2016 08:43:24 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00038.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00038.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>c9685466-a590-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>c9685467-a590-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 11:07:24 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 08 Nov 2016 08:53:15 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00039.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00039.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>a263709d-a593-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>a263709e-a593-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 11:10:10 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 08 Nov 2016 09:13:38 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00040.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00040.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>75031d24-a594-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>75031d25-a594-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 11:13:21 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 08 Nov 2016 09:19:31 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00041.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00041.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>8432c928-a5a0-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>8432c929-a5a0-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:46:38 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 08 Nov 2016 10:45:51 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>opencms-documentation/.content/documentation-html/oc10-html_00001.xml</source>
 			<destination>opencms-documentation/.content/documentation-html/oc10-html_00001.xml</destination>
 			<type>documentation-html</type>
@@ -21131,9 +22255,9 @@
 			<uuidstructure>6cf6087a-3204-11e6-8b53-0242ac11002b</uuidstructure>
 			<uuidresource>6cf6087b-3204-11e6-8b53-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 15 Jun 2016 13:35:52 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 14 Jun 2016 07:48:47 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -21146,9 +22270,9 @@
 			<uuidstructure>859410cd-3204-11e6-8b53-0242ac11002b</uuidstructure>
 			<uuidresource>859410ce-3204-11e6-8b53-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 14 Jun 2016 08:26:55 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 14 Jun 2016 07:49:28 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -21161,9 +22285,9 @@
 			<uuidstructure>db60994c-32e1-11e6-8b53-0242ac11002b</uuidstructure>
 			<uuidresource>db60994d-32e1-11e6-8b53-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 15 Jun 2016 13:00:34 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 15 Jun 2016 10:13:51 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -33103,6 +34227,366 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-5-section_00001.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-5-section_00001.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>d5230b5c-9f5c-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>d5230b5d-9f5c-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 31 Oct 2016 11:43:37 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 31 Oct 2016 11:26:14 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Building a multilingual website - The site we start with]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-5-section_00002.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-5-section_00002.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>e69457ea-a1b6-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>e69457eb-a1b6-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:00:24 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 11:16:00 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Building a multilingual website - Global locale configuration]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-5-section_00003.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-5-section_00003.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>06ecc2ba-a1b9-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>06ecc2bb-a1b9-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 03 Nov 2016 11:31:22 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 11:31:13 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Building a multilingual website - Preparation]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-5-section_00004.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-5-section_00004.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>f3556e9a-a1ba-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>f3556e9b-a1ba-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 14:57:31 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 11:44:59 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Building a multilingual website - Taking the multi-tree approach]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-5-section_00005.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-5-section_00005.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>f9b69f21-a1bb-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>f9b69f22-a1bb-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 03 Nov 2016 11:52:46 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 11:52:20 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Building a multilingual website - Taking the single-tree approach]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-5-section_00006.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-5-section_00006.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>7efc5bc9-a1bc-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>7efc5bca-a1bc-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:42:32 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 11:56:03 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Building a multilingual website - Adjust the site configuration]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-5-section_00007.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-5-section_00007.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>2c7ac057-a1c5-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>2c7ac058-a1c5-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 03 Nov 2016 15:11:51 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 12:58:10 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Building a multilingual website - Adding translations]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-5-section_00008.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-5-section_00008.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>a278de7a-a1c8-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>a278de7b-a1c8-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 03 Nov 2016 13:23:06 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 13:22:57 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Building a multilingual website - Adjusting the website structure]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-5-section_00009.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-5-section_00009.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>9675d1c6-a4d2-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>9675d1c7-a4d2-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 10:12:08 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 10:11:45 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Building a multilingual website - Adjusting URLs and navigation properties]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-5-section_00010.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-5-section_00010.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>2bd24aa2-a4d5-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>2bd24aa3-a4d5-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 10:30:25 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 10:30:15 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Building a multilingual website - Implementing a locale switcher]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-5-section_00011.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-5-section_00011.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>853f7417-a4db-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>853f7418-a4db-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 11:32:00 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 11:15:42 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Building a multilingual website - Evaluation of the multi-tree approach]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-5-section_00012.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-5-section_00012.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>f04c22df-a4eb-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>f04c22e0-a4eb-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 13:13:27 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 13:13:13 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Building a multilingual website - Configuration for the single-tree approach]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-5-section_00013.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-5-section_00013.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>b28f296a-a4f8-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>b28f296b-a4f8-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:00:39 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 14:44:33 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Building a multilingual website - Choose the approach for your multilingual website]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-5-section_00014.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-5-section_00014.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>579a2c94-a57f-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>579a2c95-a57f-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 06:48:34 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 08 Nov 2016 06:48:23 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Building a multilingual website - Adding a language switcher]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-5-section_00015.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-5-section_00015.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>4632cc41-a58b-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>4632cc42-a58b-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 08:14:02 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 08 Nov 2016 08:13:47 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Building a multilingual website - Translating content]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-5-section_00016.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-5-section_00016.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>e1b74478-a58b-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>e1b74479-a58b-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 08:25:10 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 08 Nov 2016 08:18:08 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Building a multilingual website - Translating page titles and navigation properties]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-5-section_00017.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-5-section_00017.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>88e6c819-a593-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>88e6c81a-a593-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 09:13:19 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 08 Nov 2016 09:12:55 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Building a multilingual website - Linking to other locales]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-5-section_00018.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-5-section_00018.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>68290380-a594-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>68290381-a594-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 09:19:21 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 08 Nov 2016 09:19:10 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Building a multilingual website - Evaluation of the single-tree approach]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>opencms-documentation/.content/documentation-section/oc10-section_00001.xml</source>
 			<destination>opencms-documentation/.content/documentation-section/oc10-section_00001.xml</destination>
 			<type>documentation-section</type>
@@ -33849,9 +35333,9 @@
 			<uuidstructure>0f2c540c-3204-11e6-8b53-0242ac11002b</uuidstructure>
 			<uuidresource>0f2c540d-3204-11e6-8b53-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 14 Jun 2016 07:48:10 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 14 Jun 2016 07:46:09 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -33869,9 +35353,9 @@
 			<uuidstructure>5b7dfcb6-3204-11e6-8b53-0242ac11002b</uuidstructure>
 			<uuidresource>5b7dfcb7-3204-11e6-8b53-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 14 Jun 2016 07:48:28 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 14 Jun 2016 07:48:17 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -33889,14 +35373,14 @@
 			<uuidstructure>617211ab-32df-11e6-8b53-0242ac11002b</uuidstructure>
 			<uuidresource>617211ac-32df-11e6-8b53-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 15 Jun 2016 10:13:40 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 15 Jun 2016 09:56:07 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Adding Context menu items in the explorer - The new context menu items added by the example]]></value>
+					<value><![CDATA[Adding context menu items in the explorer - The new context menu items added by the example]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -37395,6 +38879,30 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.content/documentation-topic/oc10-5-topic_00001.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic/oc10-5-topic_00001.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>d50b8bba-9f5c-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>d50b8bbb-9f5c-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 11:15:00 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 31 Oct 2016 11:26:14 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Keywords</name>
+					<value><![CDATA[localization, multilingual]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Building a multilingual website]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>opencms-documentation/.content/documentation-topic/oc10-topic_00001.xml</source>
 			<destination>opencms-documentation/.content/documentation-topic/oc10-topic_00001.xml</destination>
 			<type>documentation-topic</type>
@@ -37497,9 +39005,9 @@
 			<uuidstructure>7344a286-3202-11e6-8b53-0242ac11002b</uuidstructure>
 			<uuidresource>7344a287-3202-11e6-8b53-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 14 Jun 2016 07:41:35 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 14 Jun 2016 07:34:38 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -37545,7 +39053,7 @@
 			<uuidstructure>3fb43342-ec24-11e5-ad5a-0242ac11002b</uuidstructure>
 			<uuidresource>3fb43343-ec24-11e5-ad5a-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 14 Jun 2016 07:47:47 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 17 Mar 2016 09:40:13 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -37589,9 +39097,9 @@
 			<uuidstructure>0f16d03a-3204-11e6-8b53-0242ac11002b</uuidstructure>
 			<uuidresource>0f16d03b-3204-11e6-8b53-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 14 Jun 2016 07:48:00 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 14 Jun 2016 07:46:09 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -37609,9 +39117,9 @@
 			<uuidstructure>615ed7c9-32df-11e6-8b53-0242ac11002b</uuidstructure>
 			<uuidresource>615ed7ca-32df-11e6-8b53-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 15 Jun 2016 13:33:43 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 15 Jun 2016 09:56:07 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -37730,14 +39238,34 @@
 			<uuidstructure>a22f4aa4-32e0-11e6-8b53-0242ac11002b</uuidstructure>
 			<uuidresource>a22f4aa5-32e0-11e6-8b53-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 15 Jun 2016 10:05:40 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 15 Jun 2016 10:05:05 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Module adding an example context menu item]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/Documentation-Documents-for-download/multilanguage-tutorial-content.zip</source>
+			<destination>opencms-documentation/.galleries/Documentation-Documents-for-download/multilanguage-tutorial-content.zip</destination>
+			<type>binary</type>
+			<uuidstructure>b301a3e8-a598-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>b301a3e9-a598-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 09:50:34 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 08 Nov 2016 09:49:53 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content for the tutorial "Building a multilingal website"]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -41303,6 +42831,30 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.galleries/pictures/add-link-sequence.png</source>
+			<destination>opencms-documentation/.galleries/pictures/add-link-sequence.png</destination>
+			<type>image</type>
+			<uuidstructure>43b7f81a-a4d8-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>43b7f81b-a4d8-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 10:52:23 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 10:52:23 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[add-link-sequence]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1063,h:716]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>opencms-documentation/.galleries/pictures/AddContentDialog.png</source>
 			<destination>opencms-documentation/.galleries/pictures/AddContentDialog.png</destination>
 			<type>image</type>
@@ -41321,6 +42873,30 @@
 				<property type="shared">
 					<name>image.size</name>
 					<value><![CDATA[w:1045,h:553]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/adding-navigation-level.png</source>
+			<destination>opencms-documentation/.galleries/pictures/adding-navigation-level.png</destination>
+			<type>image</type>
+			<uuidstructure>9b405cbe-a4d3-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>9b405cbf-a4d3-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 10:19:03 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 10:19:03 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[adding-navigation-level]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1054,h:312]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -41585,6 +43161,30 @@
 				<property type="shared">
 					<name>image.size</name>
 					<value><![CDATA[w:809,h:235]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/compare-locales-view.png</source>
+			<destination>opencms-documentation/.galleries/pictures/compare-locales-view.png</destination>
+			<type>image</type>
+			<uuidstructure>f9c8bc1e-a1c5-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>f9c8bc1f-a1c5-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 03 Nov 2016 13:03:55 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 13:03:55 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[compare-locales-view]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:970,h:473]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -42383,6 +43983,54 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.galleries/pictures/copy-page-dialog.png</source>
+			<destination>opencms-documentation/.galleries/pictures/copy-page-dialog.png</destination>
+			<type>image</type>
+			<uuidstructure>17300f8e-a4cf-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>17300f8f-a4cf-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 09:46:43 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 09:46:43 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[copy-page-dialog]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:600,h:224]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/copy-page-menu.png</source>
+			<destination>opencms-documentation/.galleries/pictures/copy-page-menu.png</destination>
+			<type>image</type>
+			<uuidstructure>05ea3756-a4cf-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>05ea3757-a4cf-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 09:46:14 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 09:46:14 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[copy-page-menu]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:975,h:407]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>opencms-documentation/.galleries/pictures/default.png</source>
 			<destination>opencms-documentation/.galleries/pictures/default.png</destination>
 			<type>image</type>
@@ -42671,6 +44319,54 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.galleries/pictures/edit-link-sequence.png</source>
+			<destination>opencms-documentation/.galleries/pictures/edit-link-sequence.png</destination>
+			<type>image</type>
+			<uuidstructure>84a70bf6-a4d8-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>84a70bf7-a4d8-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 10:54:12 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 10:54:12 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[edit-link-sequence]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1047,h:733]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/edit-model-groups.png</source>
+			<destination>opencms-documentation/.galleries/pictures/edit-model-groups.png</destination>
+			<type>image</type>
+			<uuidstructure>f3199f5f-a59d-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>f3199f60-a59d-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:27:28 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 08 Nov 2016 10:27:28 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[edit-model-groups]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1036,h:390]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>opencms-documentation/.galleries/pictures/EditAliasesDialog.png</source>
 			<destination>opencms-documentation/.galleries/pictures/EditAliasesDialog.png</destination>
 			<type>image</type>
@@ -42809,6 +44505,30 @@
 				<property type="shared">
 					<name>image.size</name>
 					<value><![CDATA[w:929,h:286]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/explorer-moving-resources.png</source>
+			<destination>opencms-documentation/.galleries/pictures/explorer-moving-resources.png</destination>
+			<type>image</type>
+			<uuidstructure>10d4dd1a-a1ca-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>10d4dd1b-a1ca-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 03 Nov 2016 13:33:11 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 13:33:11 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[explorer-moving-resources]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1005,h:536]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -43037,9 +44757,9 @@
 			<uuidstructure>8c7c9840-32f9-11e6-8b53-0242ac11002b</uuidstructure>
 			<uuidresource>8c7c9841-32f9-11e6-8b53-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 15 Jun 2016 13:03:26 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 15 Jun 2016 13:03:26 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -43061,9 +44781,9 @@
 			<uuidstructure>b983a813-32f8-11e6-8b53-0242ac11002b</uuidstructure>
 			<uuidresource>b983a814-32f8-11e6-8b53-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 15 Jun 2016 12:57:32 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 15 Jun 2016 12:57:32 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -43085,9 +44805,9 @@
 			<uuidstructure>4512bcf6-32f9-11e6-8b53-0242ac11002b</uuidstructure>
 			<uuidresource>4512bcf7-32f9-11e6-8b53-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 15 Jun 2016 13:01:26 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 15 Jun 2016 13:01:26 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -43109,9 +44829,9 @@
 			<uuidstructure>f5b77dcc-32f8-11e6-8b53-0242ac11002b</uuidstructure>
 			<uuidresource>f5b77dcd-32f8-11e6-8b53-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 15 Jun 2016 12:59:13 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 15 Jun 2016 12:59:13 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -43415,6 +45135,30 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.galleries/pictures/language-switch.png</source>
+			<destination>opencms-documentation/.galleries/pictures/language-switch.png</destination>
+			<type>image</type>
+			<uuidstructure>b4a99402-a1ba-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>b4a99403-a1ba-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 03 Nov 2016 11:43:14 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 11:43:14 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[language-switch]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:992,h:147]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>opencms-documentation/.galleries/pictures/Launchpad.png</source>
 			<destination>opencms-documentation/.galleries/pictures/Launchpad.png</destination>
 			<type>image</type>
@@ -43481,6 +45225,54 @@
 				<property type="shared">
 					<name>image.size</name>
 					<value><![CDATA[w:941,h:935]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/link-locale-variant-dialog.png</source>
+			<destination>opencms-documentation/.galleries/pictures/link-locale-variant-dialog.png</destination>
+			<type>image</type>
+			<uuidstructure>9e1615f7-a4cc-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>9e1615f8-a4cc-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 09:29:01 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 09:29:01 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[link-locale-variant-dialog]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:600,h:420]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/link-locale-variant-menu.png</source>
+			<destination>opencms-documentation/.galleries/pictures/link-locale-variant-menu.png</destination>
+			<type>image</type>
+			<uuidstructure>78c6b2ae-a4cc-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>78c6b2af-a4cc-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 09:27:58 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 09:27:58 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[link-locale-variant-menu]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:981,h:466]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -43703,6 +45495,102 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.galleries/pictures/multi-language-property-config.png</source>
+			<destination>opencms-documentation/.galleries/pictures/multi-language-property-config.png</destination>
+			<type>image</type>
+			<uuidstructure>e4690c21-a58d-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>e4690c22-a58d-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 08:40:54 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 08 Nov 2016 08:32:32 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[multi-language-property-config]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1050,h:1063]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/multi-language-property-edit.png</source>
+			<destination>opencms-documentation/.galleries/pictures/multi-language-property-edit.png</destination>
+			<type>image</type>
+			<uuidstructure>8a15d98e-a590-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>8a15d98f-a590-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 08:51:29 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Tue, 08 Nov 2016 08:51:29 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[multi-language-property-edit]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:940,h:458]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/multi-tree-parameters.png</source>
+			<destination>opencms-documentation/.galleries/pictures/multi-tree-parameters.png</destination>
+			<type>image</type>
+			<uuidstructure>8382f12e-a1c3-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>8382f12f-a1c3-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 03 Nov 2016 12:46:17 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 12:46:17 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[multi-tree-parameters]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1004,h:610]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/multi-tree-sitemap-adjustments-1.png</source>
+			<destination>opencms-documentation/.galleries/pictures/multi-tree-sitemap-adjustments-1.png</destination>
+			<type>image</type>
+			<uuidstructure>cc009fd2-a1c9-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>cc009fd3-a1c9-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 03 Nov 2016 13:31:16 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 13:31:16 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[multi-tree-sitemap-adjustments-1]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:963,h:493]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>opencms-documentation/.galleries/pictures/multilingual_content_editor.png</source>
 			<destination>opencms-documentation/.galleries/pictures/multilingual_content_editor.png</destination>
 			<type>image</type>
@@ -43871,6 +45759,30 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.galleries/pictures/orig-page.png</source>
+			<destination>opencms-documentation/.galleries/pictures/orig-page.png</destination>
+			<type>image</type>
+			<uuidstructure>6f934163-a1b6-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>6f934164-a1b6-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 03 Nov 2016 11:12:41 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 03 Nov 2016 11:12:41 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[orig-page]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1004,h:616]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>opencms-documentation/.galleries/pictures/pageeditor-add-content-for-language.png</source>
 			<destination>opencms-documentation/.galleries/pictures/pageeditor-add-content-for-language.png</destination>
 			<type>image</type>
@@ -43985,6 +45897,30 @@
 				<property type="shared">
 					<name>image.size</name>
 					<value><![CDATA[w:940,h:473]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/property-adjustments.png</source>
+			<destination>opencms-documentation/.galleries/pictures/property-adjustments.png</destination>
+			<type>image</type>
+			<uuidstructure>ae497357-a4d4-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>ae497358-a4d4-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 10:26:44 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 10:26:44 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[property-adjustments]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:943,h:332]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -44201,6 +46137,78 @@
 				<property type="shared">
 					<name>image.size</name>
 					<value><![CDATA[w:930,h:514]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/show-locale-variant.png</source>
+			<destination>opencms-documentation/.galleries/pictures/show-locale-variant.png</destination>
+			<type>image</type>
+			<uuidstructure>06bc1b7b-a4d1-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>06bc1b7c-a4d1-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 10:00:34 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 10:00:34 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[show-locale-variant]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:983,h:415]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/single-tree-approach-overview.png</source>
+			<destination>opencms-documentation/.galleries/pictures/single-tree-approach-overview.png</destination>
+			<type>image</type>
+			<uuidstructure>9fc09023-a4e2-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>9fc09024-a4e2-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 12:06:33 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 12:06:33 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[single-tree-approach-overview]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:901,h:488]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/single-tree-parameters.png</source>
+			<destination>opencms-documentation/.galleries/pictures/single-tree-parameters.png</destination>
+			<type>image</type>
+			<uuidstructure>7364292f-a4f7-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>73642930-a4f7-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 07 Nov 2016 14:35:38 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 07 Nov 2016 14:35:38 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[single-tree-parameters]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1065,h:585]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -47149,6 +49157,10 @@
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Redirect to first page in navigation]]></value>
+				</property>
 				<property>
 					<name>locale-available</name>
 					<value><![CDATA[en]]></value>
@@ -52738,7 +54750,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[page]]></value>
+					<value><![CDATA[Redirect to first page in navigation]]></value>
 				</property>
 				<property>
 					<name>locale-available</name>
@@ -53129,9 +55141,9 @@
 			<type>folder</type>
 			<uuidstructure>39ad4086-32df-11e6-8b53-0242ac11002b</uuidstructure>
 			<datelastmodified>Wed, 15 Jun 2016 09:55:21 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 15 Jun 2016 09:55:00 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -53161,14 +55173,14 @@
 			<uuidstructure>39c0c88c-32df-11e6-8b53-0242ac11002b</uuidstructure>
 			<uuidresource>39c0c88d-32df-11e6-8b53-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 15 Jun 2016 09:55:00 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 15 Jun 2016 09:55:00 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[page]]></value>
+					<value><![CDATA[Redirect to first page in navigation]]></value>
 				</property>
 				<property>
 					<name>locale-available</name>
@@ -53191,9 +55203,9 @@
 			<type>folder</type>
 			<uuidstructure>61507fe4-32df-11e6-8b53-0242ac11002b</uuidstructure>
 			<datelastmodified>Wed, 15 Jun 2016 13:06:33 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 15 Jun 2016 09:56:07 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -53219,9 +55231,9 @@
 			<uuidstructure>61787a4e-32df-11e6-8b53-0242ac11002b</uuidstructure>
 			<uuidresource>61787a4f-32df-11e6-8b53-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 15 Jun 2016 13:06:33 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 15 Jun 2016 09:56:07 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -53464,7 +55476,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Latest Updates]]></value>
+					<value><![CDATA[Redirect to first page in navigation]]></value>
 				</property>
 				<property>
 					<name>locale-available</name>
@@ -53625,9 +55637,9 @@
 			<type>folder</type>
 			<uuidstructure>0f0cbe15-3204-11e6-8b53-0242ac11002b</uuidstructure>
 			<datelastmodified>Tue, 14 Jun 2016 07:46:18 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 14 Jun 2016 07:46:09 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -53653,9 +55665,9 @@
 			<uuidstructure>0f32e3bf-3204-11e6-8b53-0242ac11002b</uuidstructure>
 			<uuidresource>0f32e3c0-3204-11e6-8b53-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 14 Jun 2016 07:49:28 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 14 Jun 2016 07:46:09 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -53802,7 +55814,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[page]]></value>
+					<value><![CDATA[Redirect to first page in navigation]]></value>
 				</property>
 				<property>
 					<name>locale-available</name>
@@ -53825,9 +55837,9 @@
 			<type>folder</type>
 			<uuidstructure>73292b41-3202-11e6-8b53-0242ac11002b</uuidstructure>
 			<datelastmodified>Tue, 14 Jun 2016 07:34:53 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 14 Jun 2016 07:34:38 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -53853,9 +55865,9 @@
 			<uuidstructure>7364adab-3202-11e6-8b53-0242ac11002b</uuidstructure>
 			<uuidresource>7364adac-3202-11e6-8b53-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 14 Jun 2016 07:38:46 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 14 Jun 2016 07:34:38 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -55610,7 +57622,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[page]]></value>
+					<value><![CDATA[Redirect to first page in navigation]]></value>
 				</property>
 				<property>
 					<name>locale-available</name>
@@ -55715,6 +57727,114 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Launchpad]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/tutorials</destination>
+			<type>folder</type>
+			<uuidstructure>c582ccc7-9f5c-11e6-a24e-0242ac11002b</uuidstructure>
+			<datelastmodified>Mon, 31 Oct 2016 11:26:03 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 31 Oct 2016 11:25:48 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.5625]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Tutorials]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Tutorials]]></value>
+				</property>
+				<property>
+					<name>default-file</name>
+					<value><![CDATA[##navigation_level_folder##]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/tutorials/index.html</source>
+			<destination>opencms-documentation/tutorials/index.html</destination>
+			<type>htmlredirect</type>
+			<uuidstructure>c599d73d-9f5c-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>c599d73e-9f5c-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 31 Oct 2016 11:25:48 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 31 Oct 2016 11:25:48 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+				<property type="shared">
+					<name>template-elements</name>
+					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/tutorials/building-a-multilingual-website</destination>
+			<type>folder</type>
+			<uuidstructure>d5039c75-9f5c-11e6-a24e-0242ac11002b</uuidstructure>
+			<datelastmodified>Mon, 31 Oct 2016 11:26:27 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 31 Oct 2016 11:26:14 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Building a multilingual website]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Building a multilingual website]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/tutorials/building-a-multilingual-website/index.html</source>
+			<destination>opencms-documentation/tutorials/building-a-multilingual-website/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>d52c331f-9f5c-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>d52c3320-9f5c-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 08 Nov 2016 10:45:51 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 31 Oct 2016 11:26:14 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Building a multilingual website]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -56068,7 +58188,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Documentation]]></value>
+					<value><![CDATA[Redirect to first page in navigation]]></value>
 				</property>
 				<property>
 					<name>locale-available</name>
