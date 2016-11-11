@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>If a page, when requested, would produce an HTTP status code which is not 200, then the response when requesting the same page in JSON mode will not, in general, be usable JSON.<br /><br />If, while in JSON conversion mode, an exception is thrown and not caught while inside the body of a <code>&lt;cms:jsonpart&gt;</code> tag, but caught before escaping the top-level JSP, then valid JSON will be returned in the response, but the value corresponding to the <code>&lt;cms:jsonpart&gt;</code> tag from which the exception originated will be truncated and contain only the output which was printed before the exception was thrown.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

@@ -2779,10 +2779,7 @@
 			<type>binary</type>
 			<uuidstructure>16dbea37-ac5b-11e4-9571-f9d322068617</uuidstructure>
 			<uuidresource>16dbea38-ac5b-11e4-9571-f9d322068617</uuidresource>
-			<datelastmodified>Wed, 04 Feb 2015 10:47:09 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 04 Feb 2015 10:46:35 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -2792,7 +2789,7 @@
 			</properties>
 			<relations/>
 			<accesscontrol/>
-		</file>		
+		</file>
 		<file>
 			<destination>system/modules/com.alkacon.opencms.documentation/pages</destination>
 			<type>folder</type>
@@ -3818,6 +3815,11 @@
 		</file>
 		<file>
 			<destination>system/workplace/resources</destination>
+			<type>folder</type>
+			<properties/>
+		</file>
+		<file>
+			<destination>system/workplace/resources/filetypes</destination>
 			<type>folder</type>
 			<properties/>
 		</file>

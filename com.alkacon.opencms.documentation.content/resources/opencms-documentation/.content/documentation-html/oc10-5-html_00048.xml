@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>This following&nbsp; assumes that in your JSPs, you include the penCms tag library as follows:</p>
+<p><code>&lt;%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms"%&gt;</code></p>
+<p>&nbsp;</p>
+<p>When the URL of an incoming request contains the request parameter "<code>__json=true</code>", JSON conversion is activated for this request. This means that instead of rendering the page normally, OpenCms produces JSON output that contains selected sections of the page's HTML as JSON values.</p>
+<p>The <code>&lt;cms;jsonpart&gt;</code> tag can be used to control which parts of the JSP output should be used as JSON values, and the <code>element</code> attribute of the tag is used to control the JSON key for the value produced from the tag's body.</p>
+<p><br />For example, the output of the JSP code:</p>
+<p>&nbsp;</p>
+<p><code>&lt;%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms"%&gt;</code></p>
+<p><code>lorem ipsum</code><br /><code>&lt;cms:jsonpart element="part1"&gt;this is the first part&lt;/cms:jsonpart&gt;</code></p>
+<p><code>lorem ipsum<br /></code></p>
+<p><code>&lt;cms:jsonpart element="part2"&gt;this is the second part&lt;/cms:jsonpart&gt;</code><br /><br />will, when in JSON conversion mode, be converted to the (approximate) JSON output:</p>
+<p><code>{</code></p>
+<p><code>"part1": "this is the first part",</code></p>
+<p><code>"part2": "this is the second part",</code></p>
+<p><code>"parts": ["part1", "part2"]</code></p>
+<p><code>}</code></p>
+<p>(Note that spacing/newlines have been adjusted in this example to increase readability. The actual output will look more messy.)</p>
+<p>When not in JSON conversion mode, the <code>&lt;cms:jsonpart&gt;</code> tag will leave its content's output unchanged, i.e. the output will be the same as if the tags weren't there. <br /><br />In JSON conversion mode, everything except the parts of the page enclosed by these tags is thrown away, and the response text will consist of a single JSON object&nbsp; with the key-value pairs described above.<br /><br />An additional key-value pair with the key "parts" is added to this object, which contains an array of the other key names, in the order they were processed while rendering the original page.<br /><br /><code>&lt;cms:jsonpart&gt;</code> tags may not be nested either directly in the same JSP file, or indirectly, i.e. by including a JSP file using <code>&lt;cms:jsonpart&gt;</code> inside the body of another <code>&lt;cms:jsonpart&gt;</code> tag.</p>
+<p>Note that the tag does not require that the output of its content is valid HTML; it is your responsibility as a developer to ensure this if the application consuming the JSON output requires valid HTML as JSON values.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

@@ -2,9 +2,9 @@
 
 <export>
 	<info>
-		<creator>dSeidel</creator>
-		<opencms_version>10.0.x</opencms_version>
-		<createdate>Wed, 23 Mar 2016 08:04:44 GMT</createdate>
+		<creator>gWestenberger</creator>
+		<opencms_version>10.5.x</opencms_version>
+		<createdate>Fri, 11 Nov 2016 07:25:11 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>10</export_version>
 	</info>
@@ -40,8 +40,8 @@
 			<destination>opencms-documentation</destination>
 			<type>subsitemap</type>
 			<uuidstructure>f002c53d-973d-11e4-8878-b7eb8d90e9b7</uuidstructure>
-			<datelastmodified>Wed, 23 Mar 2016 07:59:09 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<datelastmodified>Fri, 11 Nov 2016 06:36:32 GMT</datelastmodified>
+			<userlastmodified>gWestenberger</userlastmodified>
 			<datecreated>Thu, 08 Jan 2015 13:55:00 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -61,6 +61,10 @@
 				<property>
 					<name>default-file</name>
 					<value><![CDATA[##navigation_level_folder##]]></value>
+				</property>
+				<property>
+					<name>documentation.opencms.version</name>
+					<value><![CDATA[10.5.0]]></value>
 				</property>
 				<property>
 					<name>opencms.documentation.branch</name>
@@ -181,10 +185,10 @@
 		<file>
 			<destination>system</destination>
 			<type>folder</type>
-			<uuidstructure>d357c98e-f04a-11e5-9102-0242ac11002b</uuidstructure>
-			<datelastmodified>Tue, 22 Mar 2016 16:26:26 GMT</datelastmodified>
+			<uuidstructure>3bb02ed9-9f54-11e6-b70c-0242ac11002b</uuidstructure>
+			<datelastmodified>Mon, 31 Oct 2016 10:24:40 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 22 Mar 2016 16:26:26 GMT</datecreated>
+			<datecreated>Mon, 31 Oct 2016 10:24:40 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
@@ -203,10 +207,10 @@
 		<file>
 			<destination>system/modules</destination>
 			<type>folder</type>
-			<uuidstructure>d52bed8a-f04a-11e5-9102-0242ac11002b</uuidstructure>
-			<datelastmodified>Tue, 22 Mar 2016 16:26:29 GMT</datelastmodified>
+			<uuidstructure>3db2b5d5-9f54-11e6-b70c-0242ac11002b</uuidstructure>
+			<datelastmodified>Mon, 31 Oct 2016 10:24:44 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Tue, 22 Mar 2016 16:26:29 GMT</datecreated>
+			<datecreated>Mon, 31 Oct 2016 10:24:44 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
