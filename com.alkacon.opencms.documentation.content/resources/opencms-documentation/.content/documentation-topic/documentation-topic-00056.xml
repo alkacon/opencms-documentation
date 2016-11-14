@@ -3,8 +3,15 @@
 <AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
   <AlkaconDocumentationTopicFrame language="en">
     <Overview name="Overview0">
-      <links/>
-      <content><![CDATA[<p>You want to run a website with OpenCms. So you need to set up a web server and install OpenCms on it. Here you'll learn about the hardware and software requirements for running OpenCms in the web.</p>]]></content>
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/server-installation/installing-opencms/]]></target>
+          <uuid>8dadcb95-3343-11e4-ae50-d144f6bb3566</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>You want to run a website with OpenCms. So you need to set up a web server and install OpenCms on it. Here you'll learn about the hardware and software requirements for running OpenCms in the web.</p>
+<p>For OpenCms before version 10.5 we recommend the combination of Tomcat and the Apache webserver to run OpenCms.</p>
+<p>Since 10.5 you may run OpenCms without having installed an extra webserver besides your servlet container. A newly added servlet filter does the URL rewriting formerly done by the webserver. If you want an installation without additional webserver "<a href="%(link0)">Installing OpenCms</a>" is the topic of interest. You can skip all topics concered with the Apache webserver.</p>]]></content>
     </Overview>
     <Teaser name="Teaser0">
       <links/>
@@ -14,7 +21,28 @@
     <InterestingFor><![CDATA[a_serverOperator]]></InterestingFor>
     <RelatedLinks>
       <LinkList>
-        <Title><![CDATA[For your server installation, find out ...]]></Title>
+        <Title><![CDATA[For your server installation without Apache webserver, find out ...]]></Title>
+        <Link>
+          <URI>
+            <link internal="true" type="WEAK">
+              <target><![CDATA[/sites/default/opencms-documentation/server-installation/installing-opencms/]]></target>
+              <uuid>8dadcb95-3343-11e4-ae50-d144f6bb3566</uuid>
+            </link>
+          </URI>
+          <LinkText><![CDATA[How to install and configure OpenCms]]></LinkText>
+        </Link>
+        <Link>
+          <URI>
+            <link internal="true" type="WEAK">
+              <target><![CDATA[/sites/default/opencms-documentation/server-installation/securing-the-installation/]]></target>
+              <uuid>17eedcb2-3344-11e4-ae50-d144f6bb3566</uuid>
+            </link>
+          </URI>
+          <LinkText><![CDATA[How to make your installation more secure]]></LinkText>
+        </Link>
+      </LinkList>
+      <LinkList>
+        <Title><![CDATA[For your server installation with Apache webserver, find out ...]]></Title>
         <Link>
           <URI>
             <link internal="true" type="WEAK">
@@ -87,6 +115,7 @@
       </LinkList>
     </RelatedLinks>
     <NewInDocuVersion><![CDATA[9.5]]></NewInDocuVersion>
+    <RevisedForVersion><![CDATA[10.5]]></RevisedForVersion>
     <StatusMetaData>
       <Todos/>
     </StatusMetaData>

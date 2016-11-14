@@ -4,8 +4,9 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<ul>
-<li>Apache
+      <content><![CDATA[<p>You do not need a webserver at all for running OpenCms. Up to OpenCms 10, a webserver was required to get rid of the "opencms" Servlet name in URLs. OpenCms 10.5 provides a Servlet filter to handle URL adjustment.</p>
+<ul>
+<li>&nbsp;Apache
 <ul>
 <li>Apache 2.2 (tested)</li>
 <li><strong>Apache 2.4 (recommended)</strong></li>

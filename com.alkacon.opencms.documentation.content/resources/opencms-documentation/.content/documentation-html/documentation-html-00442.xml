@@ -11,7 +11,7 @@
           <target><![CDATA[http://httpd.apache.org]]></target>
         </link>
       </links>
-      <content><![CDATA[<p>OpenCms requires a Servlet 2.4 / JSP 2.0 standards compliant container. This release was tested with Tomcat 6.0.x. and Tomcat 7.0.x.</p>
+      <content><![CDATA[<p>OpenCms requires a Servlet 2.4 / JSP 2.0 standards compliant container. This release was tested with Tomcat 7.0.x. and Tomcat 8.0.x.</p>
 <p>Install Tomcat from <code> <a title="External link, opens in new window" href="%(link0)" target="_blank">http://tomcat.apache.org</a> </code> into a folder of your choice. This is the <code>CATALINA_HOME</code> folder. Don't forget to set the environment variables <code>CATALINA_HOME</code> and <code>JAVA_HOME</code>.</p>
 <p>Test the installation by running Tomcat in standalone mode and check the examples. Note: Tomcat uses port 8080 in standalone mode. If you wish, you can combine the servlet-engine with a web server like the Apache Web Server <code> <a title="External link, 
 opens in new window" href="%(link1)" target="_blank">http://httpd.apache.org</a></code>. Please see the documentation available with the web server on how to combine it with your servlet environment.</p>

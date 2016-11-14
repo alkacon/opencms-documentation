@@ -10,7 +10,7 @@
         </link>
       </links>
       <content><![CDATA[<div class="alert alert-info">This configuration is only suitable if OpenCms has been installed as the ROOT web application in Tomcat and <a href="%(link0)">Apache is configured as suggested</a>.</div>
-<p>Edit the file <code>WEB-INF/config/opencms-importexport.xml</code> in your OpenCms installation. Remove the <code>${SERVLET_NAME}</code> macro, such that the original containing the macro looks as shown below:</p>]]></content>
+<p>For OpenCms <strong>versions &lt; 10.5</strong>, edit the file <code>WEB-INF/config/opencms-importexport.xml</code> in your OpenCms installation. Remove the <code>${SERVLET_NAME}</code> macro, such that the original containing the macro looks as shown below:</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

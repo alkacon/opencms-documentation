@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Since OpenCms 10.5, OpenCms provides a special servlet filter, named&nbsp;OpenCmsUrlServletFilter and configured in the <code>WEB-INF/web.xml</code>. It will add the "<code>/opencms</code>" servlet name in URLs when necessary. It is already configured by default. Hence you don't have to alter your configuration. You may only need to adjust the filter configuration if for some URLs the opencms servlet should not be called. These are typically URL prefixed with names of additionally installed servlets. In that case, add the following <code>init-param</code> to the filter configuration.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

@@ -4,7 +4,7 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>Now your system is ready to use. You can login with username: <code>Admin</code> and password: <code>admin</code>. Please change this password as soon as possible. The login URL of OpenCms in a default configuration is: <code>http://localhost:8080/opencms/system/login/</code>.</p>]]></content>
+      <content><![CDATA[<p>For OpenCms <strong>versions &gt;= 10.5</strong> a servlet filter (<code>OpenCmsUrlServletFilter</code>) is configured in the <code>WEB-INF/web.xml</code>. Remove the filter and the corresponding mapping. The job the filter does, is done by your Apache web server in the described configuration.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>
