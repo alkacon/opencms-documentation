@@ -6,7 +6,7 @@
 <cms:formatter var="content">
 	<div class="tag-box tag-box-v2">
 		<c:choose>
-		<c:when test="${cms.edited}">
+		<c:when test="${!cms.element.inMemoryOnly && cms.edited}">
 			${cms.enableReload}
 			<h4 class="headline">
 				Content sanitizer
