@@ -26,14 +26,15 @@
 <li>The property resouce bundles are placed in the modules <code>i18n/</code>-subfolder.</li>
 <li>The basename is <code>{module name}.{bundle specific name}</code>.</li>
 </ul>
-<p>As example, consider that we want properties files as in Section <a href="%(link1)">[what_are_resource_bundles]</a>. We place them in the module <code>my.demo.bundle</code> and thus in the VFS folder <code>/system/modules/my.demo.bundle/i18n/</code>. The files are added via the workplace ("New" -&gt; "Other options" -&gt; "Property resource bundle") and named</p>
+<p>As example, consider that we want properties files as in Section <a href="%(link1)">[what_are_resource_bundles]</a>. We place them in the module <code>my.demo.bundle</code> and thus in the VFS folder <code>/system/modules/my.demo.bundle/i18n/</code>. The files are added via the workplace ("New" -&gt; "Configurations" -&gt; "Property resource bundle") and named</p>
 <ul>
-<li><code>my.demo.bundle.test</code></li>
+<li><code>my.demo.bundle.test_en</code></li>
 <li><code>my.demo.bundle.test_de</code></li>
 </ul>
 <p>They are used in a JSP as described in Section <a href="%(link2)">[what_are_resource_bundles]</a>, except that <strong>the tag <code>&lt;fmt:bundle&gt;</code> has to be replaced with <code>&lt;cms:bundle&gt;</code></strong>.</p>
 <div class="alert alert-info">The <strong>advantage</strong> of using property resource bundles is, that it suffices to <em>publish</em> the bundles files to make changes available. Restarting the servlet container is <em>not</em> required.</div>
-<div class="alert alert-info alert-danger">The mechanism for the default locale will only work in OpenCms <strong>9.5.1</strong> upwards. In older OpenCms version you need to provide the locale postfix for all the property resource bundle files.</div>]]></content>
+<div class="alert alert-info">We strongly recommend to <strong>place all files of one bundle in the same folder</strong>. Not doing so, the bundle editor will fail to correctly switch between the different translations.</div>
+<div class="alert alert-info alert-danger">The translation for the system's default locale (in the default installation "en") is automatically used as default translation. I.e., you do not need to add a file without locale postfix containing the default translation. Actually, you should not even do so. Because you should not, we also prohibit editing such file via the bundle editor.</div>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

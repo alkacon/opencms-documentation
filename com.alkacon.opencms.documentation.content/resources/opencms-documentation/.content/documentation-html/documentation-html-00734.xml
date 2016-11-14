@@ -9,14 +9,18 @@
           <uuid>7387573f-0b56-11e4-8c80-b7bfd6088c56</uuid>
         </link>
         <link name="link1" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[propertyvfsbundle]]></anchor>
+        </link>
+        <link name="link2" internal="true" type="A">
           <target><![CDATA[/sites/default/opencms-documentation/localization/multilingual-menus/]]></target>
           <uuid>f4a3c66b-b2a1-11e4-b42e-0242ac11002b</uuid>
           <anchor><![CDATA[workplace_locales]]></anchor>
         </link>
       </links>
       <content><![CDATA[<p>In OpenCms resource bundles are typically added via <a href="%(link0)">modules</a>. Where to place the bundles inside the modules depends on which technique for bundles you use.</p>
-<div class="alert alert-danger">We encourage you to use one of the two OpenCms specific ways to work with resource bundles.</div>
-<div class="alert alert-info">We are not talking about the bundles for workplace and (resource type independent) system dialog localization here. See <a href="%(link1)">here</a> for some description about such bundles. In this section we are concerned about the bundles for content specific localization of editors and website localization.</div>]]></content>
+<div class="alert alert-danger">We encourage you to use of <a href="%(link1)">property resource bundles</a> - optionally with bundle descriptors.</div>
+<div class="alert alert-info">We are not talking about the bundles for workplace and (resource type independent) system dialog localization here. See&nbsp;<a href="%(link2)">here</a> for some description about such bundles. In this section we are concerned about the bundles for content specific localization of editors and website localization.</div>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

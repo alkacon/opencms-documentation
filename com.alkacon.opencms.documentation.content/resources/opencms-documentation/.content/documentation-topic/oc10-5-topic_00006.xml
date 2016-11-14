@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>OpenCms 10.5 ships with an additional editor for message bundles. It can be used for property and XML resource bundles and makes editing easier since:</p>
+<ul>
+<li>Each key used in at least one language is shown for each translation</li>
+<li>Errors are shown when you try to add already existing keys</li>
+<li>Keys and messages can be sorted and filtered in the editor</li>
+</ul>
+<p>Moreover the editor supports bundle descriptors that allow to fix the key set and provide additional information for the keys.</p>
+<p>&nbsp;</p>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>The feature-rich editor for message bundles.</p>]]></content>
+    </Teaser>
+    <Keywords><![CDATA[localization, message bundles, editor]]></Keywords>
+    <InterestingFor><![CDATA[c_developer,d_workplaceUser]]></InterestingFor>
+    <RelatedLinks>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/localization/message-bundles/]]></target>
+            <uuid>a726f96f-b2a3-11e4-b42e-0242ac11002b</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Message bundles in OpenCms]]></LinkText>
+        <LinkDescription name="LinkDescription0">
+          <links/>
+          <content><![CDATA[<p>Learn about the bundle types and bundle descriptors</p>]]></content>
+        </LinkDescription>
+      </Link>
+    </RelatedLinks>
+    <NewInVersion><![CDATA[10.5]]></NewInVersion>
+    <NewInDocuVersion><![CDATA[10.5]]></NewInDocuVersion>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

@@ -5,7 +5,8 @@
     <Overview name="Overview0">
       <links/>
       <content><![CDATA[<p>Localization and internationalization is an important topic when maintaining multilingual websites. OpenCms has a variety of mechanisms to support multilingual websites, as well as the localization of the OpenCms grapical user interface. A central part of these mechanisms are so called message or resource bundles. They are the default Java mechanism for the internationalization. In the raw version of those bundles, one provides for each language a so called property file, containing key-value pairs with message identifiers as keys and localized messages as values. OpenCms supports the raw Java bundles, but also provides two slightly refined versions of that mechanism to ease the handling.</p>
-<p>In this topic we discuss for what purposes message bundles are used in OpenCms. Furthermore, we provide an overview on the three alternative ways of defining message bundles and discuss the special behavior of so called "workplace" bundles.</p>]]></content>
+<p>In this topic we discuss for what purposes message bundles are used in OpenCms. Furthermore, we provide an overview on the three alternative ways of defining message bundles and discuss the special behavior of so called "workplace" bundles.</p>
+<p>Since version 10.5 OpenCms features a special editor for message bundles and a descriptor mechanism for bundles, that allows the fix the key set for a bundle and provide extra information for each key. We take a look at these features.</p>]]></content>
     </Overview>
     <Teaser name="Teaser0">
       <links/>
@@ -27,9 +28,22 @@
           <content><![CDATA[<p>Get an overview on the localization of websites and also see how to localize the user interface of OpenCms.</p>]]></content>
         </LinkDescription>
       </Link>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/editors/the-bundle-editor/]]></target>
+            <uuid>c4992af5-aa40-11e6-a24e-0242ac11002b</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Message bundle editor]]></LinkText>
+        <LinkDescription name="LinkDescription0">
+          <links/>
+          <content><![CDATA[<p>Have a look at the editor for message bundles that ships with OpenCms.</p>]]></content>
+        </LinkDescription>
+      </Link>
     </RelatedLinks>
     <NewInDocuVersion><![CDATA[9.5]]></NewInDocuVersion>
-    <RevisedForVersion><![CDATA[9.5]]></RevisedForVersion>
+    <RevisedForVersion><![CDATA[10.5]]></RevisedForVersion>
     <StatusMetaData>
       <Todos/>
     </StatusMetaData>
