@@ -4,19 +4,20 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links>
-        <link name="link0" internal="true" type="A">
-          <target><![CDATA[/sites/default/opencms-documentation/administration/module-management/]]></target>
-          <uuid>7387573f-0b56-11e4-8c80-b7bfd6088c56</uuid>
-          <anchor><![CDATA[cloning_a_module]]></anchor>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://sass-lang.com/]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://gruntjs.com/]]></target>
+        </link>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[https://github.com/alkacon/apollo-template/]]></target>
         </link>
       </links>
-      <content><![CDATA[<p>The demo modules provide a good starting point for your own website, at least if you want to use the bootstrap framework. Especially interesting are</p>
-<ul>
-<li>reusing the content types that wrap the bootstrap layout</li>
-<li>reusing and adjusting the content types that really contain content (e.g., blog entries)</li>
-<li>reusing and adjusting the formatters</li>
-</ul>
-<p>Information on cloning a module are found <a href="%(link0)">here</a>. To ease cloning, all content types have "bs-" prefix. When you clone a module it is generally advisable to delete the original module afterwards.</p>]]></content>
+      <content><![CDATA[<p>The Apollo template, without the demo contents, is a good starting point for your own website. But, not using any demo content you must define your own macro formatters and also rebuild the basic layout rows that are already present in the demo content. So you should think about copying these for your website and then start building model groups and template pages.</p>
+<p>Moreover, it is likely that you want to adjust the styling for your website. The Apollo template uses <a href="%(link0)">Sass</a> and <a href="%(link1)">Grunt</a> to generate one minified CSS file that is included directly in the template JSP and additional theme CSS files that are used to adjust the default style. Additionally Grunt is used to create one big Java Script file, also included in the template and also to handle additional resources, e.g. images.</p>
+<p>The suggestion to adjust styles is to write your own theme CSS file and manipulate the Grunt file to build your theme CSS as well. The theme can be selected via the property "Apollo Theme CSS" (apollo.theme).</p>
+<p>To add your own styles, checkout the <a href="%(link2)">repository of the Apollo template from GitHub</a>. The respository contains a <code>Gruntfile.js</code> at top-level and a folder <code>apollo-src</code> with all CSS, Java Script and additional resources. The subfolders contain again Grunt files. To add your theme, you can add it like the ones under <code>apollo-src/scss-themes/</code>. The simplest way is to put your theme in the same folder and add it to the <code>Gruntparts.js</code> in that folder. If you like to keep your adjustments in an own project, you need to set up suitable Grunt files for your project that are based on the ones of the Apollo template.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

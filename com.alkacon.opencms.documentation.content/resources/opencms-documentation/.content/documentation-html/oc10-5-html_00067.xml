@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>As seen in the section above, the layout rows are the essential building block for the page layout. Have a look at them. Explore the rows from the demo.</p>
+<p>The layout rows are very flexible. In the content itself you store:</p>
+<ul>
+<li><strong>Title</strong>: The title of the row as displayed in the "Add wizard"</li>
+<li><strong>PreMarkup/PostMarkup</strong>: The HTML that is rendered around the containers exposed by the row. You can use macros <code>$(param)</code> and <code>$(link)</code>. They are replaced with the corresponding element settings, where link is processed by the link substitution. Use <code>$(param)</code> for example to allow for adding CSS classes.</li>
+<li><strong>Container</strong>: The type of the containers into which the row should fit.</li>
+<li><strong>Column</strong>: Settings for the columns the row renders.</li>
+<li><strong>Defaults</strong>: Common settings that are used for all configured columns (if the value is not explicitly set for the respective column)</li>
+</ul>
+<p>Additionally to the options in the content itself, rows have various element settings:</p>
+<ul>
+<li><strong>Param</strong>: Value for the <code>$(param)</code> macro in pre and post markup.</li>
+<li><strong>Link</strong>: A valid link as substituion for the <code>$(link)</code> macro in pre and post markup.</li>
+<li><strong>Container</strong>: Overwrite the container type for the rendered containers/columns (can be a comma-separated list of container types)</li>
+<li><strong>Detail page settings</strong>: Select, if a container should be marked as detail container or if the whole row is shown only on detail pages.</li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

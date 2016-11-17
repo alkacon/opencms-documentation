@@ -16,12 +16,12 @@
       <content><![CDATA[<p>The demo's <a href="%(link0)">search page is implemented with the</a> <code>&lt;cms:search&gt;</code> tag. The interesting spots are:</p>
 <ul>
 <li>The search form content, that you can edit directly at the search page</li>
-<li>The formatter for the search form content, found at <code>/system/modules/org.opencms.apollo.template.formatters/formatters/jsp-search-formatter.jsp</code></li>
+<li>The formatter for the search form content, found at <code>/system/modules/org.opencms.apollo/formatters/jsp-search-formatter.jsp</code></li>
 </ul>
 <p>Furthermore, the <a href="%(link1)">lists</a> in the demo (for blog entries and events) use <code>&lt;cms:search&gt;</code>. Have a look at:</p>
 <ul>
 <li>The list contents itself at the demo pages (and the exposed options)</li>
-<li>The list formatter, found at <code>/system/modules/org.opencms.apollo.template.formatters/formatters/list.jsp</code> and all the elements it includes.</li>
+<li>The list formatters are part of the module org.opencms.apollo.list and found at <code>/system/modules/org.opencms.apollo/formatters/list-xxx.jsp</code>.</li>
 </ul>]]></content>
     </Html>
   </DocumentationHtml>
