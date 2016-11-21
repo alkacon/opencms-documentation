@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>When you open an XML bundle in the editor, the toolbar has an extra button "Convert to property resource bundle" as shown in the figure below. Pressing the button will:</p>
+<ul>
+<li>Add for each locale in the XML bundle a separate property bundle file named <code>{bundle base name}_{locale}</code> in the folder where the XML bundle file is located</li>
+<li>Delete the original XML bundle file</li>
+</ul>
+Nothing will be published.]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

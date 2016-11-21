@@ -4,7 +4,7 @@
   <AlkaconDocumentationTopicFrame language="en">
     <Overview name="Overview0">
       <links/>
-      <content><![CDATA[<p>OpenCms 10.5 ships with an additional editor for message bundles. It can be used for property and XML resource bundles and makes editing easier since:</p>
+      <content><![CDATA[<p>Since version 10.5, OpenCms ships with an additional editor for message bundles. It can be used for property and XML resource bundles and makes editing easier since:</p>
 <ul>
 <li>Each key used in at least one language is shown for each translation</li>
 <li>Errors are shown when you try to add already existing keys</li>
@@ -32,6 +32,16 @@
           <links/>
           <content><![CDATA[<p>Learn about the bundle types and bundle descriptors</p>]]></content>
         </LinkDescription>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/shortcuts-cheat-sheet/]]></target>
+            <uuid>ae93b01a-a5a5-11e6-a24e-0242ac11002b</uuid>
+            <anchor><![CDATA[content_and_bundleeditor]]></anchor>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Shortcuts in the editor]]></LinkText>
       </Link>
     </RelatedLinks>
     <NewInVersion><![CDATA[10.5]]></NewInVersion>

@@ -4,7 +4,7 @@
 	<info>
 		<creator>dSeidel</creator>
 		<opencms_version>10.5.x</opencms_version>
-		<createdate>Mon, 21 Nov 2016 10:17:10 GMT</createdate>
+		<createdate>Mon, 21 Nov 2016 12:22:54 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>10</export_version>
 	</info>
@@ -8749,6 +8749,26 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[custom_widget_example]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc10-5-figure_00028.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc10-5-figure_00028.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>d01748e8-afe4-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>d01748e9-afe4-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 21 Nov 2016 12:21:19 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 21 Nov 2016 12:19:55 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[convert_bundle]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -22224,6 +22244,36 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00068.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00068.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>7046e482-afe3-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>7046e483-afe3-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 21 Nov 2016 12:14:08 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 21 Nov 2016 12:10:05 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc10-5-html_00069.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc10-5-html_00069.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>073c37a5-afe4-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>073c37a6-afe4-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 21 Nov 2016 12:19:41 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 21 Nov 2016 12:14:19 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>opencms-documentation/.content/documentation-html/oc10-html_00001.xml</source>
 			<destination>opencms-documentation/.content/documentation-html/oc10-html_00001.xml</destination>
 			<type>documentation-html</type>
@@ -35332,7 +35382,7 @@
 			<type>documentation-section</type>
 			<uuidstructure>921cef7c-a646-11e6-a24e-0242ac11002b</uuidstructure>
 			<uuidresource>921cef7d-a646-11e6-a24e-0242ac11002b</uuidresource>
-			<datelastmodified>Wed, 09 Nov 2016 06:34:39 GMT</datelastmodified>
+			<datelastmodified>Mon, 21 Nov 2016 12:05:50 GMT</datelastmodified>
 			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Wed, 09 Nov 2016 06:34:31 GMT</datecreated>
 			<usercreated>dSeidel</usercreated>
@@ -35340,7 +35390,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Shortcuts Cheat Sheet - Content editor shortcuts]]></value>
+					<value><![CDATA[Shortcuts Cheat Sheet - Content and bundle editor shortcuts]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -35701,6 +35751,66 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[The Apollo template - Details about the layout rows]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-5-section_00042.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-5-section_00042.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>0d54d844-afe3-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>0d54d845-afe3-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 21 Nov 2016 12:07:38 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 21 Nov 2016 12:07:19 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The bundle editor - Additional features of the bundle editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-5-section_00043.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-5-section_00043.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>4a4212ea-afe3-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>4a4212eb-afe3-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 21 Nov 2016 12:21:50 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 21 Nov 2016 12:09:01 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The bundle editor - Behavior on save]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc10-5-section_00044.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc10-5-section_00044.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>5bac8a1e-afe3-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>5bac8a1f-afe3-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 21 Nov 2016 12:09:51 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 21 Nov 2016 12:09:31 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The bundle editor - Converting XML bundles to property bundles]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -40045,7 +40155,7 @@
 			<type>documentation-topic</type>
 			<uuidstructure>c4aa1aea-aa40-11e6-a24e-0242ac11002b</uuidstructure>
 			<uuidresource>c4aa1aeb-aa40-11e6-a24e-0242ac11002b</uuidresource>
-			<datelastmodified>Mon, 14 Nov 2016 08:13:10 GMT</datelastmodified>
+			<datelastmodified>Mon, 21 Nov 2016 12:06:00 GMT</datelastmodified>
 			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Mon, 14 Nov 2016 08:03:03 GMT</datecreated>
 			<usercreated>dSeidel</usercreated>
@@ -44318,6 +44428,30 @@
 				<property type="shared">
 					<name>image.size</name>
 					<value><![CDATA[w:1027,h:973]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/bundle-editor-convert-bundle.png</source>
+			<destination>opencms-documentation/.galleries/pictures/bundle-editor-convert-bundle.png</destination>
+			<type>image</type>
+			<uuidstructure>f9d774cc-afe4-11e6-a24e-0242ac11002b</uuidstructure>
+			<uuidresource>f9d774cd-afe4-11e6-a24e-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 21 Nov 2016 12:21:06 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 21 Nov 2016 12:21:06 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[bundle-editor-convert-bundle]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1085,h:57]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -59095,7 +59229,7 @@
 			<type>containerpage</type>
 			<uuidstructure>c4b9843f-aa40-11e6-a24e-0242ac11002b</uuidstructure>
 			<uuidresource>c4b98440-aa40-11e6-a24e-0242ac11002b</uuidresource>
-			<datelastmodified>Mon, 14 Nov 2016 11:09:42 GMT</datelastmodified>
+			<datelastmodified>Mon, 21 Nov 2016 12:21:38 GMT</datelastmodified>
 			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Mon, 14 Nov 2016 08:03:03 GMT</datecreated>
 			<usercreated>dSeidel</usercreated>
