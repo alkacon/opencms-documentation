@@ -9,24 +9,20 @@
           <uuid>6f4b9948-18b5-11e4-8e8b-b7bfd6088c56</uuid>
         </link>
       </links>
-      <content><![CDATA[<p>The interplay of responsive design frameworks and nested containers yield to templates where layout elements (e.g., rows) are filled with content elements (e.g., text blocks, images, ...). To keep the design flexible without providing a whole bunch of complex formatters for each content, contents become smaller or are placed several times on a page to show different content parts (e.g., only heading, picture or text) at different places. The first solution complicates template development. The second solution is a burden for editors.</p>
-<p>OpenCms 10 provides new ways to group content: <em>model groups</em>. These can, in contrast to <a href="%(link0)">element groups</a>, deal with nested containers. Basically, model groups are just a set of nested container page elements with one root element that can be placed on a container page as a whole.</p>
-<p>There are two kinds of model groups: reuse and copy groups. Reuse groups are only editable on special model group pages. They are a good solution for headers and footers, i.e., content that is the same everywhere and editable in a central place. Copy groups are an experimental feature at the moment. They allow to drag a group of elements to a page in one step. Contrary to reuse groups, the group itself disappears when dragged to a page.</p>]]></content>
+      <content><![CDATA[<p>OpenCms 10 provides new ways to group content: <em>model groups</em>. These can, in contrast to <a href="%(link0)">element groups</a>, deal with nested containers. Basically, model groups are just container pages with an element marked as root of the group. This element, and all elements nested in it, can be placed on any container page as a whole.</p>
+<p>There are two kinds of model groups: reuse and copy groups. Reuse groups are only editable directly via a special view in the sitemap editor. They are a good solution for headers and footers, i.e., content that is the same everywhere and editable in a central place. Copy groups are an experimental feature at the moment. They allow to drag a group of elements to a page in one step. Contrary to reuse groups, the group itself disappears when dragged to a page.</p>]]></content>
     </Overview>
     <Teaser name="Teaser0">
       <links/>
-      <content><![CDATA[<p>Considering the interplay of responsive design and nested containers, the content placed on container pages renders ever smaller HTML snippets. Thus grouping becomes important. OpenCms 10 adds group features that ease handling the various content snippets.</p>]]></content>
+      <content><![CDATA[<p>OpenCms 10 adds group features that can deal with nested containers and are, for example, a great solution to implement headers and footers.</p>]]></content>
     </Teaser>
     <Keywords><![CDATA[website creation, reuse group, copy group, templating, sitemap editor, page creation]]></Keywords>
     <InterestingFor><![CDATA[c_developer,d_workplaceUser,e_editor]]></InterestingFor>
     <NewInVersion><![CDATA[10.0]]></NewInVersion>
     <NewInDocuVersion><![CDATA[10.0]]></NewInDocuVersion>
-    <RevisedForVersion><![CDATA[10.0]]></RevisedForVersion>
+    <RevisedForVersion><![CDATA[10.5]]></RevisedForVersion>
     <StatusMetaData>
-      <Todos>
-        <Todo><![CDATA[Add content]]></Todo>
-        <Todo><![CDATA[Related links]]></Todo>
-      </Todos>
+      <Todos/>
     </StatusMetaData>
   </AlkaconDocumentationTopicFrame>
 </AlkaconDocumentationTopicFrames>

@@ -16,10 +16,10 @@
       <content><![CDATA[<p>Grouping content has two purposes</p>
 <ul>
 <li>Reuse the same group of content in different places and be able to edit it in just one place</li>
-<li>Drag a whole set of contents to a page at one time, e.g., a pre-filled row in bootstrap template or a the collection of container page elements that format different parts of the same content.</li>
+<li>Drag a whole set of contents to a page at a time, e.g., a pre-filled row in bootstrap template or a the collection of container page elements that format different parts of the same content or several different contents.</li>
 </ul>
-<p>The first use case was possible in OpenCms by using <a href="%(link0)">element groups</a>. But these do not support nested containers and hence are not suitable anymore. The adequat replacement for them are reuse groups, described here.</p>
-<p>The second use case is completely new and implemented by copy groups. These are just experimental at the moment and for the use case of placing various containerpage elements of the same content on a container page at the same time, an even more promissing, also experimental, feature is added in OpenCms 10: <a href="%(link1)">macro formatters</a>.</p>]]></content>
+<p>The first use case was possible in OpenCms before version 10 by using <a href="%(link0)">element groups</a>. But these do not support nested containers and hence are not suitable anymore. Since OpenCms 10.5 elements groups are not even activated by default. They are considered deprecated. The adequat replacement for them are <em>reuse groups</em>, described here.</p>
+<p>The second use case is completely new and implemented by copy groups. These are just experimental at the moment and for the use case of placing various containerpage elements on a container page at the same time. A similar feature (but for adding the same content with a formatter combined of various "micro formatters") that can be used alternatively for some scenarios are <a href="%(link1)">macro formatters</a>.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>
