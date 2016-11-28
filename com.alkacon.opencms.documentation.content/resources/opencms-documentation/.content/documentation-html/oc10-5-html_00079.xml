@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspCategoryAccessBean.html]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>When you assign categories to content, you may want to display the assigned categories when the content is rendered. Or, if you have a list of contents or a search page for your website, you may want to filter the shown results by category. Therefor, you need to access categories assigned to the content in a JSP.</p>
+<p>Categories can be read in JSPs using EL. You can obtain a <code><a href="%(link0)">CmsJspCategroyAccessBean</a></code> via the following options:</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

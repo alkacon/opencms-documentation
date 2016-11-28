@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/widget-configuration/]]></target>
+          <uuid>a8badf1f-489a-11e4-8008-336f7b60f7b1</uuid>
+        </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/widget-configuration/]]></target>
+          <uuid>a8badf1f-489a-11e4-8008-336f7b60f7b1</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>Categories can be assigned via the content editor when editing a content. You should use elements of type <code>OpenCmsDynamicCategory</code> (introduced in OpenCms 10.5) and configure the <a href="%(link0)">category widget</a> for these elements. This combination of type and widget allows you to assign categories to the content easily. It also allows for changing only special sub-categories via an editor field and to leave the other categories unchanged. As a consequence, you have the possibility&nbsp;to set different sub-categories (e.g., location/ and topic/) via different editor fields. Moreover, in contrast to using <code>OpenCmsCategory</code> as type, the selected categories will be synchronized for each locale and directly assigned&nbsp;to the resource, without being saved in the XML content itself.</p>
+<div class="alert alert-info">Using <code>OpenCmsDynamicCategory</code> as type is only possible for elements that must appear exactly once in the content.</div>
+<p>Please read&nbsp;the section about&nbsp;the <a href="%(link1)">catogory widget</a> for information on it's configuration.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

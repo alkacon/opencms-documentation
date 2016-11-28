@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/widget-configuration/]]></target>
+          <uuid>a8badf1f-489a-11e4-8008-336f7b60f7b1</uuid>
+          <anchor><![CDATA[sec_categorywidget]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>Categories are basically folders in OpenCms. In each (sub-)sitemap folders below the <code>.categories/</code> folder are interpreted as categories by OpenCms.<span class="footnote">For backwards compatibility, the folder can also be named _categories/.</span>&nbsp;Additionally to these (sub-)site specific categories, global categories can be created as folders below <code>/system/categories/</code>.</p>
+<p>If a folder is recognized as category by the system, it will appear as category in the "Assing categories" dialogs that is available via a resource's context menu in the explorer, in galleries and in the page editor. It is also available for the content editor via the <a href="%(link0)">category widget</a>.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

@@ -3,12 +3,19 @@
 <DocumentationSections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-section.xsd">
   <DocumentationSection language="en">
     <Headline><![CDATA[Category widget]]></Headline>
+    <RefId><![CDATA[sec_categorywidget]]></RefId>
     <VersionInfo/>
-    <DocuVersionInfo/>
+    <DocuVersionInfo>
+      <ImprovedIn>
+        <Version><![CDATA[10.5]]></Version>
+        <ImprovementDescription name="ImprovementDescription0">
+          <links/>
+          <content><![CDATA[<p>Added the options list and told about the type OpenCmsDynamicCategory.</p>]]></content>
+        </ImprovementDescription>
+      </ImprovedIn>
+    </DocuVersionInfo>
     <StatusMetaData>
-      <Todos>
-        <Todo><![CDATA[Configuration does not work correctly - only the categories-option works]]></Todo>
-      </Todos>
+      <Todos/>
     </StatusMetaData>
   </DocumentationSection>
 </DocumentationSections>

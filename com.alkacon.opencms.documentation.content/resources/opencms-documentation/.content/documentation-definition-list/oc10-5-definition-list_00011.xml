@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Category widget configuration options]]></Title>
+    <Heading><![CDATA[Available configuration options]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[category]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Configure&nbsp;the starting&nbsp;category by setting <code>category=category/path/</code>. Only the configured category and categories below that main category are displayed.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[onlyleafs]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If you configure&nbsp;<code>onlyleafs=true</code>, &nbsp;Only leaf-categories can be selected.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[property]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Configure&nbsp;the starting&nbsp;category via a property by setting <code>property=property-name</code>. The property is read from the edited content (or it's parent folders) and the value of the property is used as (category path of) starting category. Only the starting&nbsp;category and categories below that main category are displayed.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

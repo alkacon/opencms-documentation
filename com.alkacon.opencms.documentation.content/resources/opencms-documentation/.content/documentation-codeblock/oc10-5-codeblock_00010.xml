@@ -2,7 +2,13 @@
 
 <DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
   <DocumentationCodeBlock language="en">
-    <Code><![CDATA[<layout element="Category" widget="CategoryWidget"
-        configuration="category=location/|onlyleafs=false"/>]]></Code>
+    <Code><![CDATA[<c:set var="categories" value="${content.readCategories}" />
+<c:if test="${not content.readCategories.isEmpty}">
+  <ul>
+    <c:forEach var="category" items="${categories.allItems}">
+      <li>${category.title}</li>
+    </c:forEach>
+  </ul>
+</c:if>]]></Code>
   </DocumentationCodeBlock>
 </DocumentationCodeBlocks>

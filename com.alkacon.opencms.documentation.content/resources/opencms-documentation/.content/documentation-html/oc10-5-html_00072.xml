@@ -21,7 +21,7 @@
           <uuid>8c874fdf-ab20-11e6-a24e-0242ac11002b</uuid>
         </link>
         <link name="link4" internal="true" type="A">
-          <target><![CDATA[/sites/default/opencms-documentation/json-support/]]></target>
+          <target><![CDATA[/sites/default/opencms-documentation/more-opencms-features/json-support/]]></target>
           <uuid>b71e0585-a757-11e6-a24e-0242ac11002b</uuid>
         </link>
         <link name="link5" internal="true" type="A">
@@ -32,6 +32,10 @@
           <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/shortcuts-cheat-sheet/]]></target>
           <uuid>ae93b01a-a5a5-11e6-a24e-0242ac11002b</uuid>
         </link>
+        <link name="link7" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/more-opencms-features/category-support/]]></target>
+          <uuid>658a6902-b20c-11e6-a24e-0242ac11002b</uuid>
+        </link>
       </links>
       <content><![CDATA[<ul>
 <li><a href="%(link0)">New in OpenCms 10.5</a></li>
@@ -41,6 +45,7 @@
 <li><a href="%(link4)">JSON support</a></li>
 <li><a href="%(link5)">The bundle editor</a></li>
 <li><a href="%(link6)">Shortcuts cheat sheet</a></li>
+<li><a href="%(link7)">Category support</a></li>
 </ul>]]></content>
     </Html>
   </DocumentationHtml>

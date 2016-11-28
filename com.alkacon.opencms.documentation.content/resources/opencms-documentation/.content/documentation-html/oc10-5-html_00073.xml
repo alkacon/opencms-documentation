@@ -40,6 +40,10 @@
           <uuid>64f5eee2-375e-11e4-9771-d144f6bb3566</uuid>
           <anchor><![CDATA[defaultaction]]></anchor>
         </link>
+        <link name="link8" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/introduction/latest-updates/november-2016/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/widget-configuration/]]></target>
+          <anchor><![CDATA[sec_categorywidget]]></anchor>
+        </link>
       </links>
       <content><![CDATA[<ul>
 <li>Server installation: Updated <a href="%(link0)">tested software versions</a>, improved related links and added a hint to a<a href="%(link1)"> installation without additional webserver</a> using the servlet filter that is integrated in OpenCms since version 10.5.</li>
@@ -48,6 +52,7 @@
 <li><a href="%(link4)">Adjusted description of model groups to the changed implementation in OpenCms 10.5.</a></li>
 <li><a href="%(link5)">Extended topic on message bundles with a section about bundle descriptors.</a></li>
 <li>Updated <a href="%(link6)">description of the explorer</a> - added section about the <a href="%(link7)">default action</a> and adjusted documentation to feature changes.</li>
+<li>Description of the <a href="%(link8)">category widget</a> has been updated and extended.</li>
 </ul>]]></content>
     </Html>
   </DocumentationHtml>

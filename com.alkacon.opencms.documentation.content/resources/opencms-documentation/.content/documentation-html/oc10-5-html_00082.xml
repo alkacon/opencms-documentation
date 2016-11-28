@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Note the differences between the types <code>OpenCmsCategory</code> and <code>OpenCmsDynamicCategory</code>:</p>
+<ul>
+<li>Values of <code>OpenCmsCategory</code> are physically stored in the XML content and can differ between the different language versions. For each sibling of the edited resource the categories of the sibling's locale (or the best fitting locale) are assigned to the sibling on save<span class="footnote">The assignment takes only place if the CategoryWidget is explicitely configured.</span>.</li>
+<li>Values of <code>OpenCmsDynamicCategory</code> are not stored in the XML content at all. They refer directly to the categories assigned to the edited resource and are synchronized for all language versions automatically.</li>
+</ul>
+<div class="alert alert-info">We recommend using the type OpenCmsDynamic category to avoid discrepancies between the categories stored in the content and the ones really assigned to the resource.</div>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>
