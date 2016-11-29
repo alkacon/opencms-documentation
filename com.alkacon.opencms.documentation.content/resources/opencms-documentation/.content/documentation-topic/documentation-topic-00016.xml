@@ -10,7 +10,8 @@
         </link>
       </links>
       <content><![CDATA[<p>An element group is a content element, which references a group of other content elements. Find out, how to use it.</p>
-<div class="alert alert-info">Element groups do not work with nested containers. You may prefer <a href="%(link0)">reuse model groups</a> instead.</div>]]></content>
+<div class="alert alert-info">Element groups do not work with nested containers. You may prefer <a href="%(link0)">reuse model groups</a> instead.</div>
+<div class="alert alert-info alert-danger">Element groups are deprecated.They are commented out in the configuration since OpenCms 10.5.&nbsp;Enable them in the opencms-modules.xml if needed.</div>]]></content>
     </Overview>
     <Teaser name="Teaser0">
       <links/>
