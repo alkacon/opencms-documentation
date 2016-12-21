@@ -17,8 +17,8 @@
       <c:set var="showlang" value="true" />
       <c:set var="langlinks">
         ${langlinks}
-        <li><a href="<cms:link>${locentry.value.link}</cms:link>">${locentry.key}</a></li>
-      </c:set>   
+        <li><a href="${locentry.value.link}">${locentry.key}</a></li>
+      </c:set>
     </c:otherwise>
   </c:choose>
 </c:forEach>
