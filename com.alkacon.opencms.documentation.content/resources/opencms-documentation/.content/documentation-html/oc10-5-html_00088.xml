@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>This dialog&nbsp;can be configured to</p>
+<ul>
+<li>offer the delete option preselected (default)</li>
+<li>offer the delete option not preselected</li>
+<li>not to offer the delete option</li>
+<li>always delete without asking</li>
+</ul>
+<p>This is done by editing the configuration file '/WEB-INF/config/opencms-workplace.xml' in the RFS. Add the element <code>&lt;element-delete-mode&gt;</code>&nbsp;as last element with one of the following values: [askDelete,askKeep,alwaysKeep,alwaysDelete].</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>
