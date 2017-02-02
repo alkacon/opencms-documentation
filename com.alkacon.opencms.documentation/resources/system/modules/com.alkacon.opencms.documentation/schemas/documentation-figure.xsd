@@ -27,7 +27,7 @@
 				<default element="Identifier" value="Add identifier" />
 				<default element="Title" value="Add title" />
 				<default element="Image" value="/opencms-documentation/.galleries/pictures/default.png" />
-				<default element="OpenCmsVersion" value="%(opencms.version)" />
+				<default element="OpenCmsVersion" value="%(property.opencms.documentation.version)" />
 			</defaults>
 			<mappings>
 				<mapping element="Title" mapto="urlName" />
