@@ -10,7 +10,7 @@
         </link>
       </links>
       <content><![CDATA[<p>The last thing to do is to adjust the navigation content. It displays the navigation starting directly below the site root. Now that we have an extra folder level before the "real" pages start, we need to adjust the navigation.</p>
-<p>The tutorial site uses a <a href="%(link0)">reuse group</a> for the header that contains the navigation. Therefor, it suffices to adjust the navigation just once. Go to the Templates view of the sitemap editor and open the model group page "Headers &amp; Footers". You are asked if you really want to edit the model: Say yes! Then edit the navigation element in the "Header" model. Set "Navigation Start Level" to "1 - First Level". That's it. For the English version of your website the navigation should work again as expected. Try it.</p>]]></content>
+<p>The tutorial site uses a <a href="%(link0)">reuse group</a> for the header that contains the navigation. Therefor, it suffices to adjust the navigation just once. Go to the Templates view of the sitemap editor and open the model group "Header". You are asked if you really want to edit the model group: Say yes! Then edit the navigation element in the "Header" model group. Set "Navigation Start Level" to "1 - First Level". That's it. For the English version of your website the navigation should work again as expected. Try it.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

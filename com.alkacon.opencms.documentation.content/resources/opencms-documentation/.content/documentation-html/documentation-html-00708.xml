@@ -8,12 +8,16 @@
           <target><![CDATA[/sites/default/opencms-documentation/background/the-module-system/]]></target>
           <uuid>efd65468-b05f-11e4-b42e-0242ac11002b</uuid>
         </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/tutorials/building-a-multilingual-website/]]></target>
+          <uuid>d5039c75-9f5c-11e6-a24e-0242ac11002b</uuid>
+        </link>
       </links>
       <content><![CDATA[<p>Of course, this tutorial can not capture all aspects of creating a website. For example, we have not discussed directly:</p>
 <ul>
 <li><a href="%(link0)">What's a good module structure for your website's resources?</a></li>
 <li>What's the best design for your template? (includes vs. contents)</li>
-<li>How to generate multi-lingual websites?</li>
+<li><a href="%(link1)">How to generate multi-lingual websites?</a></li>
 <li>...</li>
 </ul>
 <p>Check out the documentation for answers to these and other questions. We try to add information with every update - and will also try to link to it.</p>]]></content>

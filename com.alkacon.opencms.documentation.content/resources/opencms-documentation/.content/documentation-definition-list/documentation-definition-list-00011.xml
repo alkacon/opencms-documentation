@@ -5,6 +5,13 @@
     <Title><![CDATA[Sitemap Editor's context menu options]]></Title>
     <PropertyDef>false</PropertyDef>
     <Entry>
+      <Term><![CDATA[Switch site]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Switch the current site.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
       <Term><![CDATA[Show parent sitemap]]></Term>
       <Description name="Description0">
         <links/>
@@ -45,16 +52,10 @@
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Preferences]]></Term>
+      <Term><![CDATA[Publish queue]]></Term>
       <Description name="Description0">
-        <links>
-          <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/editors/the-page-editor/]]></target>
-            <uuid>772a450b-02c1-11e4-8167-1305b26fecac</uuid>
-            <anchor><![CDATA[context_menu_preferences]]></anchor>
-          </link>
-        </links>
-        <content><![CDATA[<p>Open a dialog to edit the user preferences. See <a href="%(link0)">here</a> for more information.</p>]]></content>
+        <links/>
+        <content><![CDATA[<p>Opens the "Publish Queue" workplace app.</p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>

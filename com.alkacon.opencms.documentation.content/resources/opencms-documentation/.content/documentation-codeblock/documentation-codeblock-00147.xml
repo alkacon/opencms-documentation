@@ -4,6 +4,6 @@
   <DocumentationCodeBlock language="en">
     <Code><![CDATA[<layout element="Map" 
         widget="LocationPickerWidget" 
-        configuration='{"edit":["map", "address", "coords", "size", "zoom", "type", "mode"]}' />]]></Code>
+        configuration='{"edit":["map", "address", "coords", "size", "zoom", "type", "mode"], "apiKey": "your Google API key"}' />]]></Code>
   </DocumentationCodeBlock>
 </DocumentationCodeBlocks>

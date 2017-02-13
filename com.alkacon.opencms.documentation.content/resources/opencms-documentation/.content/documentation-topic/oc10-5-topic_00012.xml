@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>This is a tutorial on how to define and configure a very simple content type. It is meant as a starting point for content definition and links to many more specific topics (in each of the sections).</p>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>A tutorial on how to define a content type</p>]]></content>
+    </Teaser>
+    <Keywords><![CDATA[content type]]></Keywords>
+    <InterestingFor><![CDATA[c_developer]]></InterestingFor>
+    <RelatedLinks>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/background/the-concept-of-content/]]></target>
+            <uuid>a16c7f09-2770-11e4-b2bf-49dbf0abad32</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[The concept of content]]></LinkText>
+        <LinkDescription name="LinkDescription0">
+          <links/>
+          <content><![CDATA[<p>Get background information about the concept of content in OpenCms.</p>]]></content>
+        </LinkDescription>
+      </Link>
+    </RelatedLinks>
+    <NewInDocuVersion><![CDATA[10.5.1]]></NewInDocuVersion>
+    <RevisedForVersion><![CDATA[10.5.1]]></RevisedForVersion>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

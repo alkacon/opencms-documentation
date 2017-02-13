@@ -5,8 +5,8 @@
     <Html name="Html0">
       <links/>
       <content><![CDATA[<p>After adding the different locale specific versions of the properties, we do not see the intended effect directly. We have to adjust the JSPs rendering the page title and the navigation. We need to tell that properties should be accessed locale specific.</p>
-<p>Open the formatter for the head navigation used in our template. It is located under <code>/system/modules/org.opencms.apollo/formatters/navigation-head.jsp</code>. Replace <code>${cms.title}</code> by&nbsp;<code>${cms.titleLocale[cms.locale]}</code> to read the page title locale specific.</p>
-<p>The formatter includes the files <code>/system/modules/org.opencms.apollo/elements/nav-main.jsp</code> and <code>/system/modules/org.opencms.apollo/elements/nav-breadcrumb.jsp</code>. Both use the <code>&lt;cms:navigation&gt;</code> tag to generate the navigation. Add the attribute <code>locale="${cms.locale}"</code> for all occurrences of the tag. Doing so, the navigation properties are read locale specific.</p>
+<p>Open the formatter for the head navigation used in our template. It is located under <code>/system/modules/org.opencms.apollo/formatters/navigation-head.jsp</code>. Replace <code>${cms.title}</code> by&nbsp;<code>${cms.titleLocale[cms.locale]}</code> to read the page title locale specific. Perform the same adjustment in the template JSP <code>/system/modules/org.opencms.apollo/templates/apollo-page.jsp</code> to make&nbsp;the title in HTML meta data locale specific.</p>
+<p>The <code>navigation-head.jsp</code> formatter uses&nbsp;the tag&nbsp;<code>/system/modules/org.opencms.apollo/tags/nav-items.tag</code>. It uses the <code>&lt;cms:navigation&gt;</code> tag to generate the navigation. Have a look at the usage. The attribute <code>locale="${cms.locale}"</code>&nbsp;is provided. Doing so, the navigation properties are read locale specific.</p>
 <p>Now the page titles and the navigation are shown localized. Of course, reading properties locale specific is not restricted to navigation properties. The mechanism works for all properties.</p>]]></content>
     </Html>
   </DocumentationHtml>

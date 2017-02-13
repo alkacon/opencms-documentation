@@ -31,8 +31,15 @@
           </URI>
           <LinkText><![CDATA[opencms.xml]]></LinkText>
           <LinkDescription name="LinkDescription0">
-            <links/>
-            <content><![CDATA[<p>The main configuration file. Here all configuration classes are registered.</p>]]></content>
+            <links>
+              <link name="link0" internal="false" type="A">
+                <target><![CDATA[https://github.com/alkacon/opencms-core/blob/branch_10_5_x/src/org/opencms/configuration/opencms-configuration.dtd]]></target>
+              </link>
+            </links>
+            <content><![CDATA[<p>The main configuration file. Here all configuration classes are registered.</p>
+<ul>
+<li><a href="%(link0)">DTD for the opencms.xml</a></li>
+</ul>]]></content>
           </LinkDescription>
         </Link>
         <Link>
@@ -44,13 +51,21 @@
           </URI>
           <LinkText><![CDATA[opencms-importexport.xml]]></LinkText>
           <LinkDescription name="LinkDescription0">
-            <links/>
+            <links>
+              <link name="link0" internal="false" type="A">
+                <target><![CDATA[https://github.com/alkacon/opencms-core/blob/branch_10_5_x/src/org/opencms/configuration/opencms-importexport.dtd]]></target>
+              </link>
+            </links>
             <content><![CDATA[<p>The file contains all configurations somehow related to import and export, in particular:</p>
 <ul>
 <li>module or database imports and exports</li>
 <li>settings for the static export</li>
 <li>settings for user csv export</li>
 <li>configuration of repository view on the vfs, e.g., the samba-share.</li>
+</ul>
+<p>To get an overview on all available options, consult the</p>
+<ul>
+<li><a href="%(link0)">DTD for the opencms-importexport.xml</a></li>
 </ul>]]></content>
           </LinkDescription>
         </Link>
@@ -63,8 +78,16 @@
           </URI>
           <LinkText><![CDATA[opencms-modules.xml]]></LinkText>
           <LinkDescription name="LinkDescription0">
-            <links/>
-            <content><![CDATA[<p>The configuration of all installed modules, reaching from general module meta-information up to the explorertype and resourcetype definitions for types exposed by modules.</p>]]></content>
+            <links>
+              <link name="link0" internal="false" type="A">
+                <target><![CDATA[https://github.com/alkacon/opencms-core/blob/branch_10_5_x/src/org/opencms/configuration/opencms-modules.dtd]]></target>
+              </link>
+            </links>
+            <content><![CDATA[<p>The configuration of all installed modules, reaching from general module meta-information up to the explorertype and resourcetype definitions for types exposed by modules.</p>
+<p>To get an overview on all available options, consult the</p>
+<ul>
+<li><a href="%(link0)">DTD for the opencms-modules.xml</a></li>
+</ul>]]></content>
           </LinkDescription>
         </Link>
         <Link>
@@ -76,8 +99,16 @@
           </URI>
           <LinkText><![CDATA[opencms-search.xml]]></LinkText>
           <LinkDescription name="LinkDescription0">
-            <links/>
-            <content><![CDATA[<p>OpenCms specific search configuration, e.g., index sources, document types, ....</p>]]></content>
+            <links>
+              <link name="link0" internal="false" type="A">
+                <target><![CDATA[https://github.com/alkacon/opencms-core/blob/branch_10_5_x/src/org/opencms/configuration/opencms-search.dtd]]></target>
+              </link>
+            </links>
+            <content><![CDATA[<p>OpenCms specific search configuration, e.g., index sources, document types, ....</p>
+<p>To get an overview on all available options, consult the</p>
+<ul>
+<li><a href="%(link0)">DTD for the opencms-search.xml</a></li>
+</ul>]]></content>
           </LinkDescription>
         </Link>
         <Link>
@@ -89,8 +120,16 @@
           </URI>
           <LinkText><![CDATA[opencms-system.xml]]></LinkText>
           <LinkDescription name="LinkDescription0">
-            <links/>
-            <content><![CDATA[<p>Configuration of system (installation) specific settings, e.g., the available locales, the sites hosted on the installation, and many more options.</p>]]></content>
+            <links>
+              <link name="link0" internal="false" type="A">
+                <target><![CDATA[https://github.com/alkacon/opencms-core/blob/branch_10_5_x/src/org/opencms/configuration/opencms-system.dtd]]></target>
+              </link>
+            </links>
+            <content><![CDATA[<p>Configuration of system (installation) specific settings, e.g., the available locales, the sites hosted on the installation, and many more options.</p>
+<p>To get an overview on all available options, consult the</p>
+<ul>
+<li><a href="%(link0)">DTD for the opencms-system.xml</a></li>
+</ul>]]></content>
           </LinkDescription>
         </Link>
         <Link>
@@ -102,8 +141,16 @@
           </URI>
           <LinkText><![CDATA[opencms-vfs.xml]]></LinkText>
           <LinkDescription name="LinkDescription0">
-            <links/>
-            <content><![CDATA[<p>The file contains settings concerned with the handling of VFS resources. For example, resource loaders can be configured here, but also widgets for the content editor can be registered.</p>]]></content>
+            <links>
+              <link name="link0" internal="false" type="A">
+                <target><![CDATA[https://github.com/alkacon/opencms-core/blob/branch_10_5_x/src/org/opencms/configuration/opencms-vfs.dtd]]></target>
+              </link>
+            </links>
+            <content><![CDATA[<p>The file contains settings concerned with the handling of VFS resources. For example, resource loaders can be configured here, but also widgets for the content editor can be registered.</p>
+<p>To get an overview on all available options, consult the</p>
+<ul>
+<li><a href="%(link0)">DTD for the opencms-vfs.xml</a></li>
+</ul>]]></content>
           </LinkDescription>
         </Link>
         <Link>
@@ -115,8 +162,16 @@
           </URI>
           <LinkText><![CDATA[opencms-workplace.xml]]></LinkText>
           <LinkDescription name="LinkDescription0">
-            <links/>
-            <content><![CDATA[<p>The file contains various configuration options related to the workplace, reaching from different handlers up to preferences.</p>]]></content>
+            <links>
+              <link name="link0" internal="false" type="A">
+                <target><![CDATA[https://github.com/alkacon/opencms-core/blob/branch_10_5_x/src/org/opencms/configuration/opencms-workplace.dtd]]></target>
+              </link>
+            </links>
+            <content><![CDATA[<p>The file contains various configuration options related to the workplace, reaching from different handlers up to preferences.</p>
+<p>To get an overview on all available options, consult the</p>
+<ul>
+<li><a href="%(link0)">DTD for the opencms-workplace.xml</a></li>
+</ul>]]></content>
           </LinkDescription>
         </Link>
       </LinkList>

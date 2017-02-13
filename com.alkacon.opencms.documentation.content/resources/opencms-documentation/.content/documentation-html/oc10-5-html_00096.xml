@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The wizard we ran to add the new content type, created a file <code>demo-content.xsd</code> under <code>/system/modules/my.template/schemas/</code>. The folder <code>schemas/</code> below the module's main folder is (by convention) the suitable place for such schema files.</p>
+<p>The schema describes the structure of the content and it's behavior. All schemas of content types have the same "structural wrapper" and a sequence (or choice) of content elements specific to the type. Here's the automatically generated schema, explanations follow.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

@@ -13,18 +13,18 @@
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Local contents]]></Term>
+      <Term><![CDATA[Local content elements]]></Term>
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>If checked, a local <code>.content/</code> folder is created and, whenever as "Folder" in a resource type configuration only a name is chosen, the resources will be stored locally in a subfolder of the <code>.content/</code> folder. If the option is not checked, the <code>.content/</code> folder of a parent sitemap or the site will be used.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Prefer detail pages]]></Term>
+      <Term><![CDATA[Prefer local detail pages]]></Term>
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>If you link to content that is stored locally in the sitemap and your sitemap has a detail page for content of that type configured, then this detail page will be preferred over a detail page that might be configured for the calling (sub-)site, i.e., the (sub-)site where the link to the content is placed. If the option is not checked, the detail page from the "calling (sub)site" will be preferred.</p>
-<div class="alert alert-info">The feature only works for content that is stored locally in a folder under the (sub-)sites main folder.</div>]]></content>
+<div class="alert alert-info">The feature only works for content that is stored locally in a folder under the (sub-)sitemaps main folder.</div>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>

@@ -49,5 +49,17 @@
         <content><![CDATA[<p>Shows the template models and model group pages defined in the sitemap. You can add, edit or remove models. Read more about template models <a href="%(link0)">here</a> and about model groups <a href="%(link1)">here</a>.</p>]]></content>
       </Description>
     </Entry>
+    <Entry>
+      <Term><![CDATA[Compare locales]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/tutorials/building-a-multilingual-website/]]></target>
+            <uuid>d5039c75-9f5c-11e6-a24e-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>A special view to manage locale variants of pages. See&nbsp;<a href="%(link0)">here</a> for more information on multilingual websites in OpenCms.</p>]]></content>
+      </Description>
+    </Entry>
   </DocumentationDefinitionList>
 </DocumentationDefinitionLists>

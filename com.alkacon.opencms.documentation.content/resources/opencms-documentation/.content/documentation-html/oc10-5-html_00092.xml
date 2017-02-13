@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://tomcat.apache.org/tomcat-8.5-doc/changelog.html]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>Since Tomcat 8.5 files written by Tomcat are not readable by "the world":</p>
+<p><em> Tighten up the default file permissions for the <code>.tar.gz</code> distribution so no files or directories are world readable by default. Configure Tomcat to run with a default umask of <code>0027</code> which may be overridden by setting <code>UMASK</code> in <code>setenv.sh</code>. &nbsp;</em>(<a href="%(link0)">Tomcat 8.5 change log</a>)</p>
+<p>To remedy the situation, use the suggested override option.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

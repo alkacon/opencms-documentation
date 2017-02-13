@@ -11,8 +11,15 @@
           <target><![CDATA[/sites/default/opencms-documentation/typical-tasks/writing-jsps/]]></target>
           <uuid>62f3bf30-0bf2-11e4-a03c-b7bfd6088c56</uuid>
         </link>
+        <link name="link2" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/building-a-page-navigation/]]></target>
+          <uuid>bb7cd4b2-1bdd-11e4-bfa5-b7bfd6088c56</uuid>
+        </link>
       </links>
-      <content><![CDATA[<p>This part can also only be described in an abstract way because these steps depend on the specific project requirements. Anyway, the following description should be enough to get a picture of what needs to be done. Let’s make the main navigation shown above dynamic by copying and pasting the content of the file <code><a href="%(link0)" target="_blank">nav_main.jsp</a></code> from the modules-v8 into the <code>main-nav.jsp</code> created one step before. Have a look at the section about the <a href="%(link1)">OpenCms JSP API</a> of this documentation in order to get an impression about how to use the OpenCms specific tag library. A good starting point is also to "copy" from the current demo template shipped with OpenCms.</p>]]></content>
+      <content><![CDATA[<p>This part can also only be described in an abstract way because these steps depend on the specific project requirements. Anyway, the following description should be enough to get a picture of what needs to be done. Let’s make the main navigation shown above dynamic by copying and pasting the content of the file <code><a href="%(link0)" target="_blank">nav_main.jsp</a></code> from the modules-v8 into the <code>main-nav.jsp</code> created one step before. Have a look at the section about the&nbsp;<a href="%(link1)">OpenCms JSP API</a> of this documentation in order to get an impression about how to use the OpenCms specific tag library. A good starting point is also to "copy" from the current demo template shipped with OpenCms.</p>
+<ul>
+<li><a href="%(link2)">Here's more information on building a navigation.</a></li>
+</ul>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

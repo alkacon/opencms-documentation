@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/]]></target>
+          <uuid>ce157352-1bcf-11e4-bfa5-b7bfd6088c56</uuid>
+        </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/widget-configuration/]]></target>
+          <uuid>a8badf1f-489a-11e4-8008-336f7b60f7b1</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<ul>
+<li>In the schema, you find the "Schema type name" "DemoContent" that we specified for our content type. It's used in the "structural wrapper" that's similar for each content type.</li>
+<li>The elements, that the content has, are are defined via the <code>&lt;xsd:element&gt;</code> nodes under <code>&lt;xsd:complexType name="OpenCmsDemoContent"&gt;/&lt;xsd:sequence&gt;</code>. These are the nodes you alter specifically for your type. We just stick to the elements defined by default.&nbsp;A valuable hint for the element nodes concerns the <code>type</code> attribute. OpenCms has multiple build in schema types for various purposes. <code>OpenCmsString</code> is great for Strings, <code>OpenCmsHtml</code> for Html, <code>OpenCmsVfsFile</code> for internal links, <code>OpenCmsVarLink</code> for links that can be internal or external, ....</li>
+<li>The part under <code>&lt;xsd:annotation&gt;/&lt;xsd:appinfo&gt;</code> specifies the behavior of the content. The auto-generated schema has some of the possible subnodes. In particular:
+<ul>
+<li><code>&lt;mappings&gt;</code>: Mappings allow to map the value of elements in the content to properties or attributes of the resource. Moreover, some special mappings are available.</li>
+<li><code>&lt;defaults&gt;</code>: Elements can be filled with default values when you create a new content.</li>
+<li><code>&lt;layouts&gt;</code>: For each element a default widget is used depending on the elements type. You can alter that widget (or the widget's configuration) by using <code>&lt;layout&gt;</code> nodes.</li>
+<li><code>&lt;searchsettings&gt;</code>: The node specifies the behavior of the content wrt. search. The containerpageOnly attribute handles, if the content should be findalbe itself, or should only be index with the container pages it is placed on. Via <code>&lt;searchsetting&gt;</code> sub-nodes, you can specify the search behavior for each element separately.</li>
+</ul>
+</li>
+</ul>
+<p>For now, that's enough information on the schema. If you want to read more about it:</p>
+<ul>
+<li><a href="%(link0)">See here (and subtopics) for detailed information on schemas for content types.</a></li>
+<li><a href="%(link1)">Get an overview on the available editor widgets and their configuration options.</a></li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

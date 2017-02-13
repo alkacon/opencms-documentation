@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/creating-a-template-jsp/]]></target>
+          <uuid>a2914c1c-1be1-11e4-bfa5-b7bfd6088c56</uuid>
+        </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/administration/module-management/]]></target>
+          <uuid>7387573f-0b56-11e4-8c80-b7bfd6088c56</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>A content type is always defined in a module. We assume there is a module <code>my.template</code> from&nbsp;<a href="%(link0)">"Creating a template JSP"</a>&nbsp;to define the content type in. Open the <a href="%(link1)">Module management</a> and choose the module <code>my.template</code>&nbsp;by clicking on the module's name in the list of modules.</p>
+<p>Now there's an option "Add resource type"<span class="footnote">We use "content type" and "resource type" synonym here.</span>:</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Source search works in two steps:</p>
+<ol>
+<li><em>Collect:</em> A specified set of resources is collected (e.g., resources under a specific folder and/or with a specific type)</li>
+<li><em>Match:</em> The collected resources are filter via a given search pattern (regular expression) and optionally the matches are replaced by another provided regular expression.</li>
+</ol>
+<p>The resources that are matched, are displayed in an explorer-like resource list. Such you have all the context menu options for the resources that you would have in the explorer. E.g., you can display, edit, rename or publish the resources.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

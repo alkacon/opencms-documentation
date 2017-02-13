@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/localization/multilingual-menus/]]></target>
+          <uuid>f4a3c66b-b2a1-11e4-b42e-0242ac11002b</uuid>
+          <anchor><![CDATA[localization_for_resource_types]]></anchor>
+        </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/localization/multilingual-menus/]]></target>
+          <uuid>f4a3c66b-b2a1-11e4-b42e-0242ac11002b</uuid>
+          <anchor><![CDATA[content_specific_editor_localization]]></anchor>
+        </link>
+        <link name="link2" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/]]></target>
+          <uuid>db85f6e8-1bce-11e4-bfa5-b7bfd6088c56</uuid>
+        </link>
+        <link name="link3" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/demos/]]></target>
+          <uuid>f680ee6e-1e02-11e4-a270-d9f74955ba1b</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>We talked about the "Add resource type" wizard, the schema, the formatter and it's configuration and linked to topics diving deeper in each of the three subjects. But there's more about content:</p>
+<ul>
+<li><a href="%(link0)">Localization of the resoure type's information (Type name, description etc.)</a></li>
+<li><a href="%(link1)">Localization of the content editor for the specific type</a></li>
+<li><a href="%(link2)">Each of the specific topics under "Content in OpenCms"</a></li>
+<li><a href="%(link3)">Various demos on content and formatting</a></li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

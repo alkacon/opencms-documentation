@@ -4,8 +4,8 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>To switch between the different locale variants of a page, we need a language switch. We adjust the one shipped with the Apollo Demo. It is part of the link sequence formatter <code>linksequence-head.jsp</code> in <code>/system/modules/org.opencms.apollo/formatters/</code>.</p>
-<p>Here's the part to adjust: Replace the lines enclosed by the <code>&lt;c:if test="${fn:contains(cms.container.type, 'head') ...&gt;</code> tag<span class="footnote">The original switch is designed for the multi-tree localization mode.</span> with:</p>]]></content>
+      <content><![CDATA[<p>To switch between the different locale variants of a page, we need a language switch. We replace&nbsp;the one shipped with the Apollo Demo. It is used by&nbsp;the link sequence formatter <code>linksequence-head.jsp</code> in <code>/system/modules/org.opencms.apollo/formatters/</code>, where it is included via the tag <code>&lt;apollo:language-linklist /&gt;</code>. The tag's code is placed in <code>language-linklist.tag</code> under <code>/system/modules/org.opencms.apollo/tags/</code>. We simply edit this file to adjust the language switcher implementation.</p>
+<p>Here's the part to adjust: Replace the lines between <code>&lt;c:set var="showlinks" value="false" /&gt;</code>&nbsp;and <code>&lt;c:if test="${showlinks}"&gt;</code>&nbsp;in the tag<span class="footnote">The original switch is designed for the multi-tree localization mode.</span> with:</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

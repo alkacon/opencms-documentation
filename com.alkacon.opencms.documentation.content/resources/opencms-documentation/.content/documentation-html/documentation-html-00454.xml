@@ -3,8 +3,13 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>The configuration string specifies which values should be editable via the widget. The configuration string used in the example resembles the default configuration that allows all possible values to be edited. If a value should not be changed: just remove it from the list in the configuration string.</p>
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[https://developers.google.com/maps/documentation/javascript/get-api-key]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>The configuration string's <code>"edit"</code>-option specifies which values should be editable via the widget. The example resembles the default <code>"edit"</code> configuration that allows all possible values to be edited. If a value should not be changed: just remove it from the list in the configuration string.</p>
+<p>The <code>"apiKey"</code>-option is used to set a valid <a href="%(link0)" target="_blank">Google API key</a>. If the option is not given, the key is read from the property <code>google.apikey</code> that has to be set on the path to the XML content the widget is used in.</p>
 <p>For the widget, the default value is important. If no default value is set, the widget uses</p>]]></content>
     </Html>
   </DocumentationHtml>

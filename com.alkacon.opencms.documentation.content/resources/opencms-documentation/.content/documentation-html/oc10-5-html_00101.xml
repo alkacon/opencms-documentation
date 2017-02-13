@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The setting, we are interested in most for the moment is what is named "Container width" in the sample configuration. Setting the width to "-1" will cause the formatter to fit in all containers. We want to restrict the matching containers, i.e., the ones the formatter is applicable in, to containers of type "center". Therefor, cut the "Container width" editor field&nbsp;from the configuration. An optional "Match" field will appear, where you now choose the "Container types" alternative to add a match. Then you enter the container type "center", as shown in the figure below.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

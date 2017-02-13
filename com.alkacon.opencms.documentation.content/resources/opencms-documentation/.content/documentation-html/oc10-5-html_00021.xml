@@ -4,7 +4,8 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>The link sequence is formatted by <code>/system/modules/org.opencms.apollo/formatters/link-sequence-head.jsp</code>. Here's the part of the JSP that creates the language switch:</p>]]></content>
+      <content><![CDATA[<p>The link sequence is formatted by <code>/system/modules/org.opencms.apollo/formatters/linksequence-head.jsp</code>. It uses the tag <code>&lt;apollo:language-linklist /&gt;</code> to produce the language links.<span class="footnote">You find the tag under <code>/system/modules/org.opencms.apollo/tags/language-linklist.tag</code>.</span>&nbsp;It is advanced in the way, that you are taken to the home page of a respective locale, if the current page is not translated and that you see the language names in the according language's translation. Check out the tag to see how this is done.</p>
+<p>Here's simpler version of a&nbsp;language switch that basically does the same thing, but just displays "DE", "EN" etc. instead of the localized Language names and simply does omit languages for which the current page is not translated (has no locale variant):</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

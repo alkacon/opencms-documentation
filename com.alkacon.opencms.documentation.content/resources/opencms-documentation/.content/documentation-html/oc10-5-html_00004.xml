@@ -9,7 +9,8 @@
           <uuid>b301a3e8-a598-11e6-a24e-0242ac11002b</uuid>
         </link>
       </links>
-      <content><![CDATA[<div class="alert alert-info">You can download the content of the site <a href="%(link0)">here</a>. <strong>You need to have the Apollo demo modules installed</strong>. Then you can add a new site to your OpenCms installation and import the content into that site.</div>]]></content>
+      <content><![CDATA[<div class="alert alert-info">You can download the content of the site <a href="%(link0)">here</a>. <strong>You need to have the Apollo demo modules installed</strong>. Then you can add a new site to your OpenCms installation and choose the Apollo template JSP as template (i.e., <code>/system/modules/org.opencms.apollo/templates/apollo-page.jsp</code>). Import the content into that site.</div>
+<div class="alert alert-info alert-danger">The demo contents will only work with OpenCms 10.5.1.</div>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

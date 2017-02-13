@@ -3,8 +3,13 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links/>
-      <content><![CDATA[<p>Note that there are more macros. In particular you can use the <code>%(key.{message key})</code> macro to provide localized, but not content specific default values.</p>]]></content>
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[https://github.com/alkacon/opencms-core/blob/branch_10_5_x/src/org/opencms/util/CmsMacroResolver.java]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>Note that there are more macros. In particular you can use the <code>%(key.{message key})</code> macro to provide localized, but not content specific default values.</p>
+<p>For more available macros, see the constants in the <a href="%(link0)">CmsMacroResolver</a>.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

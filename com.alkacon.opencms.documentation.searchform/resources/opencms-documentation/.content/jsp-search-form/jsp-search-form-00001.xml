@@ -5,7 +5,7 @@
     <Title><![CDATA[Documentation Search Results]]></Title>
     <SearchForEmptyQuery>true</SearchForEmptyQuery>
     <QueryModifier><![CDATA[content_en:%(query)]]></QueryModifier>
-    <EscapeQueryCharacters>false</EscapeQueryCharacters>
+    <EscapeQueryCharacters>true</EscapeQueryCharacters>
     <ExtraSolrParams><![CDATA[fq=type:containerpage&fq=parent-folders:"/sites/default/opencms-documentation/"]]></ExtraSolrParams>
     <PageSize><![CDATA[8]]></PageSize>
     <SortOption>
