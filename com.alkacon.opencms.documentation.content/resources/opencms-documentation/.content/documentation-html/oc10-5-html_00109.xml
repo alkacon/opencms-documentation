@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>When you change or delete a key, the key will be changed or deleted in all translations (and the bundle descriptor) if it is present.</p>
+<div class="alert alert-info">Note that the operation requires write access to all localizations where the key exists, i.e., it might not be possible due to locking problems. In this case you will get a warning.</div>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

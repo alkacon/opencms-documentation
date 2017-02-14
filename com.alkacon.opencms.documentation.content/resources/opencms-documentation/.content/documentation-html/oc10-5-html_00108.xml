@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Since OpenCms 10.5.1, the bundle editor locks the opened files lazily. A lock is placed only when you really start editing data stored in the specific file. Whenever an input field in the editor's table loses it's focus, it is checked if the value has changed. You will be warned, when changes are not possible because locking failed. In this case the original value contained in the input field will be restored.</p>
+<p>Lazy locking allows you in particular to translate to different languages in parallel when using property resource bundles.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>
