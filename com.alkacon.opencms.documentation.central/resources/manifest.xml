@@ -56,6 +56,10 @@ writeProperty '/' 'default-file' '##navigation_level_folder##']]></import-script
 					<name>template</name>
 					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.bootstrap.formatters/templates/bootstrap-grid-page.jsp]]></value>
 				</property>
+				<property>
+					<name>varnish.forcecaching</name>
+					<value><![CDATA[true]]></value>
+				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
@@ -890,6 +894,10 @@ writeProperty '/' 'default-file' '##navigation_level_folder##']]></import-script
 				<property type="shared">
 					<name>template-elements</name>
 					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
+				</property>
+				<property>
+					<name>varnish.forcecaching</name>
+					<value><![CDATA[true]]></value>
 				</property>
 			</properties>
 			<relations/>
