@@ -16,14 +16,14 @@
 		<import-site>/sites/default</import-site>
 		<export-mode name="default"/>
 		<description><![CDATA[All the content of the OpenCms documentation. Place it in the site where the content should be available, usually /sites/default/]]></description>
-		<version>10.5.0</version>
+		<version>11.0.0</version>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
 		<datecreated/>
 		<userinstalled/>
 		<dateinstalled/>
 		<dependencies>
-			<dependency name="com.alkacon.opencms.documentation" version="10.0.0"/>
+			<dependency name="com.alkacon.opencms.documentation" version="11.0.0"/>
 		</dependencies>
 		<exportpoints/>
 		<resources>
@@ -63,19 +63,19 @@
 				</property>
 				<property>
 					<name>documentation.opencms.version</name>
-					<value><![CDATA[10.5.1]]></value>
+					<value><![CDATA[11.0.0]]></value>
 				</property>
 				<property>
 					<name>opencms.documentation.branch</name>
-					<value><![CDATA[branch_10_5_x]]></value>
+					<value><![CDATA[branch_11_0_x]]></value>
 				</property>
 				<property>
 					<name>opencms.documentation.editor</name>
-					<value><![CDATA[true]]></value>
+					<value><![CDATA[false]]></value>
 				</property>
 				<property>
 					<name>opencms.documentation.version</name>
-					<value><![CDATA[10.5.1]]></value>
+					<value><![CDATA[11.0.0]]></value>
 				</property>
 				<property>
 					<name>template</name>
