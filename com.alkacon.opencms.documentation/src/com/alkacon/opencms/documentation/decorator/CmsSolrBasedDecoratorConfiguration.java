@@ -45,6 +45,8 @@ import java.util.Locale;
 
 import org.apache.commons.logging.Log;
 
+import org.htmlparser.Tag;
+
 /**
  * The CmsDecoratorConfiguration initalizes and stores the text decorations.<p>
  *
@@ -123,9 +125,9 @@ public class CmsSolrBasedDecoratorConfiguration implements I_CmsDecoratorConfigu
         m_configFile = null;
         m_cms = null;
         m_locale = null;
-        m_usedDecorations = new ArrayList<String>();
-        m_excludes = new ArrayList<String>();
-        m_decorationDefinitions = new ArrayList<CmsDecorationDefintion>();
+        m_usedDecorations = new ArrayList<>();
+        m_excludes = new ArrayList<>();
+        m_decorationDefinitions = new ArrayList<>();
     }
 
     /**
@@ -142,9 +144,9 @@ public class CmsSolrBasedDecoratorConfiguration implements I_CmsDecoratorConfigu
         m_configFile = null;
         m_cms = cms;
         m_locale = m_cms.getRequestContext().getLocale();
-        m_usedDecorations = new ArrayList<String>();
-        m_excludes = new ArrayList<String>();
-        m_decorationDefinitions = new ArrayList<CmsDecorationDefintion>();
+        m_usedDecorations = new ArrayList<>();
+        m_excludes = new ArrayList<>();
+        m_decorationDefinitions = new ArrayList<>();
         init(cms, null, null);
     }
 
@@ -162,9 +164,9 @@ public class CmsSolrBasedDecoratorConfiguration implements I_CmsDecoratorConfigu
         m_configFile = null;
         m_cms = cms;
         m_locale = m_cms.getRequestContext().getLocale();
-        m_usedDecorations = new ArrayList<String>();
-        m_excludes = new ArrayList<String>();
-        m_decorationDefinitions = new ArrayList<CmsDecorationDefintion>();
+        m_usedDecorations = new ArrayList<>();
+        m_excludes = new ArrayList<>();
+        m_decorationDefinitions = new ArrayList<>();
         init(cms, configFile, null);
     }
 
@@ -183,9 +185,9 @@ public class CmsSolrBasedDecoratorConfiguration implements I_CmsDecoratorConfigu
         m_configFile = null;
         m_cms = cms;
         m_locale = m_cms.getRequestContext().getLocale();
-        m_usedDecorations = new ArrayList<String>();
-        m_excludes = new ArrayList<String>();
-        m_decorationDefinitions = new ArrayList<CmsDecorationDefintion>();
+        m_usedDecorations = new ArrayList<>();
+        m_excludes = new ArrayList<>();
+        m_decorationDefinitions = new ArrayList<>();
         init(cms, configFile, locale);
     }
 
@@ -230,17 +232,15 @@ public class CmsSolrBasedDecoratorConfiguration implements I_CmsDecoratorConfigu
     }
 
     /**
-     * Builds a CmsDecorationDefintion from a given configuration file.<p>
-     *
-     * @param configuration the configuration file
-     * @param i the number of the decoration definition to create
-     * @return CmsDecorationDefintion created form configuration file
+     * @see org.opencms.jsp.decorator.I_CmsDecoratorConfiguration#getDecorationDefinition(org.opencms.xml.content.CmsXmlContent, int)
      */
+    @Override
     public CmsSolrBasedDecorationDefinition getDecorationDefinition(CmsXmlContent configuration, int i) {
 
         CmsSolrBasedDecorationDefinition decDef = new CmsSolrBasedDecorationDefinition();
-        String name = configuration.getValue(XPATH_DECORATION + "[" + i + "]/" + XPATH_NAME, m_configurationLocale).getStringValue(
-            m_cms);
+        String name = configuration.getValue(
+            XPATH_DECORATION + "[" + i + "]/" + XPATH_NAME,
+            m_configurationLocale).getStringValue(m_cms);
         String markfirst = configuration.getValue(
             XPATH_DECORATION + "[" + i + "]/" + XPATH_MARKFIRST,
             m_configurationLocale).getStringValue(m_cms);
@@ -284,9 +284,9 @@ public class CmsSolrBasedDecoratorConfiguration implements I_CmsDecoratorConfigu
     }
 
     /**
-     * Gets the decoration bundle.<p>
-     *@return the decoration bundle to be used
+     * @see org.opencms.jsp.decorator.I_CmsDecoratorConfiguration#getDecorations()
      */
+    @Override
     public CmsDecorationBundle getDecorations() {
 
         return m_decorations;
@@ -323,10 +323,9 @@ public class CmsSolrBasedDecoratorConfiguration implements I_CmsDecoratorConfigu
     }
 
     /**
-     * Tests if a decoration key was used before in this configuration.<p>
-     * @param key the key to look for
-     * @return true if this key was already used
+     * @see org.opencms.jsp.decorator.I_CmsDecoratorConfiguration#hasUsed(java.lang.String)
      */
+    @Override
     public boolean hasUsed(String key) {
 
         return m_usedDecorations.contains(key);
@@ -335,6 +334,7 @@ public class CmsSolrBasedDecoratorConfiguration implements I_CmsDecoratorConfigu
     /**
      * @see org.opencms.jsp.decorator.I_CmsDecoratorConfiguration#init(org.opencms.file.CmsObject, java.lang.String, java.util.Locale)
      */
+    @Override
     public void init(CmsObject cms, String configFile, Locale locale) throws CmsException {
 
         // This will be used to implement the SolrBased approach. Instead of CSV decoration definitions the
@@ -401,31 +401,39 @@ public class CmsSolrBasedDecoratorConfiguration implements I_CmsDecoratorConfigu
     }
 
     /**
-     * Tests if a tag is contained in the exclude list of the decorator.<p>
-     *
-     * @param tag the tag to test
-     * @return true if the tag is in the exclode list, false othwerwise.
+     * @see org.opencms.jsp.decorator.I_CmsDecoratorConfiguration#isExcluded(java.lang.String)
      */
+    @Override
     public boolean isExcluded(String tag) {
 
         return m_excludes.contains(tag.toLowerCase());
     }
 
     /**
-     * Mark a decoration key as already used.<p>
-     * @param key the key to mark
+     * @see org.opencms.jsp.decorator.I_CmsDecoratorConfiguration#isExcludedAttr(org.htmlparser.Tag)
      */
+    @Override
+    public boolean isExcludedAttr(Tag tag) {
+
+        return false;
+    }
+
+    /**
+     * @see org.opencms.jsp.decorator.I_CmsDecoratorConfiguration#markAsUsed(java.lang.String)
+     */
+    @Override
     public void markAsUsed(String key) {
 
         m_usedDecorations.add(key);
     }
 
     /**
-     * Resets the used decoration keys.<p>
+     * @see org.opencms.jsp.decorator.I_CmsDecoratorConfiguration#resetMarkedDecorations()
      */
+    @Override
     public void resetMarkedDecorations() {
 
-        m_usedDecorations = new ArrayList<String>();
+        m_usedDecorations = new ArrayList<>();
     }
 
     /**
@@ -525,5 +533,4 @@ public class CmsSolrBasedDecoratorConfiguration implements I_CmsDecoratorConfigu
         buf.append("']");
         return buf.toString();
     }
-
 }
