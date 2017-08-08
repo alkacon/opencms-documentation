@@ -2,6 +2,16 @@
 
 <DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
   <DocumentationCodeBlock language="en">
-    <Code><![CDATA[http://localhost:8080/opencms/opencms/handleSpellcheckDictionary?rebuild]]></Code>
+    <Code><![CDATA[<opencms>
+  <system>
+    <!-- ... -->
+    <sites>
+      <!-- ... -->
+    </sites>
+    <!-- ADD THE FOLLOWING LINE below the "sites" node or replace value "false" with "true" -->
+    <sax-impl-system-properties>true</sax-impl-system-properties>
+    <!-- ... -->
+  </system>
+</opencms>]]></Code>
   </DocumentationCodeBlock>
 </DocumentationCodeBlocks>
