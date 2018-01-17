@@ -19,12 +19,12 @@ repositories {
         }
     }
     mavenCentral()
-    maven { 
+    maven {
     	url "http://maven.vaadin.com/vaadin-addons"
     }
     maven {
     	url 'http://maven.restlet.org'
-    }    
+    }
 }
 
 configurations { compile { description = 'used to compile the modules jars'
@@ -65,8 +65,8 @@ modules_documentation_all.split(',').each{ moduleName ->
             }
         }
     }
-    
-    
+
+
     def moduleDependencies=[]
     def moduleVersion = version
     if (manifestFile.exists()){
@@ -107,7 +107,7 @@ modules_documentation_all.split(',').each{ moduleName ->
         ext.gwtSourceSetName = gwtSourceSetName
         ext.gwtRenameTo = gwtRename
         if (project.hasProperty('noVersion')) {
-        	version 
+        	version
         } else {
          	version moduleVersion
         }
@@ -141,7 +141,7 @@ modules_documentation_all.split(',').each{ moduleName ->
             def syncedManifest="${project.buildDir}/extra/${moduleName}/manifest.xml"
             from syncedManifest
             doFirst{
-                println "Syncing manifest from ${moduleFolder}/resources/manifest.xml to ${syncedManifest} using resources folder system/modules/${moduleName}/resources/${gwtRenameTo} with resources from ${project.buildDir}/gwt/${moduleName}/${gwtRenameTo}" 
+                println "Syncing manifest from ${moduleFolder}/resources/manifest.xml to ${syncedManifest} using resources folder system/modules/${moduleName}/resources/${gwtRenameTo} with resources from ${project.buildDir}/gwt/${moduleName}/${gwtRenameTo}"
                 ant.taskdef(resource: 'org/opencms/util/ant/taskdefs.properties', classpath: configurations.compile.asPath)
                 ant.syncmanifest(
                         srcmanifestfile: "${moduleFolder}/resources/manifest.xml",
@@ -153,10 +153,10 @@ modules_documentation_all.split(',').each{ moduleName ->
             }
         }
     }
-    
+
     if (gwtModule != null){
         println "creating sourceset for $gwtModule"
-        
+
         sourceSets.create(gwtSourceSetName,{
             java {
                 srcDirs srcGwtDir
@@ -226,7 +226,7 @@ modules_documentation_all.split(',').each{ moduleName ->
 
         tasks["dist_$moduleName"].dependsOn tasks["gwt_$moduleName"]
     }
-    
+
 }
 task bindist {
     doFirst{
@@ -253,4 +253,8 @@ tasks.findAll{ task -> task.name.startsWith('dist_')}.each{ dist_task ->
 // fixed issue with libraries containing both .java and .class files
 tasks.withType(JavaCompile) {
     options.compilerArgs += ["-sourcepath", ""]
+}
+
+task wrapper(type: Wrapper){
+   gradleVersion = '4.4'
 }
