@@ -28,6 +28,7 @@
 package com.alkacon.opencms.documentation.examples.workplaceapps;
 
 import org.opencms.file.CmsObject;
+import org.opencms.security.CmsRole;
 import org.opencms.ui.apps.CmsAppVisibilityStatus;
 import org.opencms.ui.apps.I_CmsAppButtonProvider;
 import org.opencms.ui.apps.I_CmsWorkplaceApp;
@@ -127,6 +128,15 @@ public class FormAppConfiguration implements I_CmsWorkplaceAppConfiguration {
     public int getPriority() {
 
         return I_CmsWorkplaceAppConfiguration.DEFAULT_PRIORIY;
+    }
+
+    /**
+     * @see org.opencms.ui.apps.I_CmsWorkplaceAppConfiguration#getRequiredRole()
+     */
+    @Override
+    public CmsRole getRequiredRole() {
+
+        return CmsRole.WORKPLACE_USER;
     }
 
     /**
