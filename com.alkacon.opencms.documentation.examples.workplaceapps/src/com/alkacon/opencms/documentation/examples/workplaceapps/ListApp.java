@@ -63,15 +63,15 @@ import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.List;
 
-import com.vaadin.data.Property.ValueChangeEvent;
-import com.vaadin.data.Property.ValueChangeListener;
 import com.vaadin.ui.Alignment;
-import com.vaadin.ui.CheckBox;
-import com.vaadin.ui.ComboBox;
 import com.vaadin.ui.Component;
 import com.vaadin.ui.FormLayout;
 import com.vaadin.ui.Panel;
 import com.vaadin.ui.VerticalLayout;
+import com.vaadin.v7.data.Property.ValueChangeEvent;
+import com.vaadin.v7.data.Property.ValueChangeListener;
+import com.vaadin.v7.ui.CheckBox;
+import com.vaadin.v7.ui.ComboBox;
 
 /**
  * Sample app.<p>
@@ -112,7 +112,7 @@ public class ListApp extends A_CmsWorkplaceApp implements ValueChangeListener {
     protected LinkedHashMap<String, String> getBreadCrumbForState(String state) {
 
         //using linked hash map to have an ordered map.
-        LinkedHashMap<String, String> crumbs = new LinkedHashMap<String, String>();
+        LinkedHashMap<String, String> crumbs = new LinkedHashMap<>();
         crumbs.put("", "List");
         return crumbs;
     }
@@ -210,7 +210,7 @@ public class ListApp extends A_CmsWorkplaceApp implements ValueChangeListener {
                 List<CmsResource> resources = cms.readResources(folderName, filter);
                 List<CmsResource> resourcesToShow = resources;
                 if (onlyUnused) {
-                    resourcesToShow = new ArrayList<CmsResource>();
+                    resourcesToShow = new ArrayList<>();
                     for (CmsResource res : resources) {
                         if (getDisplayedOnPages(cms, res).isEmpty()) {
                             resourcesToShow.add(res);
@@ -232,7 +232,7 @@ public class ListApp extends A_CmsWorkplaceApp implements ValueChangeListener {
      */
     private Collection<String> getAvailableTypes() {
 
-        Collection<String> result = new ArrayList<String>();
+        Collection<String> result = new ArrayList<>();
         List<I_CmsResourceType> types = OpenCms.getResourceManager().getResourceTypes();
         for (I_CmsResourceType type : types) {
             if ((type instanceof CmsResourceTypeXmlContent)
@@ -254,7 +254,7 @@ public class ListApp extends A_CmsWorkplaceApp implements ValueChangeListener {
     private List<CmsResource> getDisplayedOnPages(final CmsObject cmsObject, final CmsResource resource)
     throws CmsException {
 
-        List<CmsResource> pages = new LinkedList<CmsResource>();
+        List<CmsResource> pages = new LinkedList<>();
         CmsRelationFilter filter = CmsRelationFilter.SOURCES;
         List<CmsRelation> relations = cmsObject.getRelationsForResource(resource, filter);
         for (CmsRelation relation : relations) {
