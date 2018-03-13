@@ -5,7 +5,7 @@
     <Html name="Html0">
       <links/>
       <content><![CDATA[<p>The index fields <code>content_{locale}</code> are special fields they are intended to represent the language specific content of a resource. For XML contents, you can decide on schema element level if an element should be added to the <code>content_{locale}</code> fields or not. This is done by the optional attribute <code>searchcontent</code>, available for the tag <code>&lt;searchsetting&gt;</code>. The default value is <code>true</code>, indicating that the element's value is added to the <code>content_{locale}</code>. Setting the value to <code>false</code> will prevent the element from being added to the <code>content_{locale}</code> field.</p>
-<div class="alert alert-info">Note that, at the moment, the setting is not applicable to elements of nested contents from the root content's schema. Settings must be made in the schema of the nested content.</div>
+<div class="alert alert-info">Note that the setting for elements of nested contents only can be made in the root content's schema <code>element="root element/nested element"</code>.</div>
 <p>Here's an example configuration, telling that a <code>Date</code> schema element should not be added to the <code>content_{locale}</code> field - while <code>Title</code> and <code>Text</code> should be added.</p>]]></content>
     </Html>
   </DocumentationHtml>
