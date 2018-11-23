@@ -4,7 +4,7 @@
 	<info>
 		<creator>dSeidel</creator>
 		<opencms_version>10.5.x</opencms_version>
-		<createdate>Wed, 12 Jul 2017 08:49:18 GMT</createdate>
+		<createdate>Mon, 16 Apr 2018 12:50:07 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>10</export_version>
 	</info>
@@ -39,7 +39,7 @@
 			<destination>opencms-documentation</destination>
 			<type>subsitemap</type>
 			<uuidstructure>f002c53d-973d-11e4-8878-b7eb8d90e9b7</uuidstructure>
-			<datelastmodified>Wed, 12 Jul 2017 08:45:32 GMT</datelastmodified>
+			<datelastmodified>Mon, 16 Apr 2018 12:26:51 GMT</datelastmodified>
 			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Thu, 08 Jan 2015 13:55:00 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -42296,6 +42296,50 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.content/documentation-topic/oc10-5-topic_00016.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic/oc10-5-topic_00016.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>79fe46e3-4170-11e8-b5fd-0242ac11002b</uuidstructure>
+			<uuidresource>79fe46e4-4170-11e8-b5fd-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 16 Apr 2018 12:27:09 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 16 Apr 2018 12:19:57 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Keywords</name>
+					<value><![CDATA[overview, new in Opencms]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[New in OpenCms 10.5.3]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-topic/oc10-5-topic_00017.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic/oc10-5-topic_00017.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>b8fd552a-4171-11e8-b5fd-0242ac11002b</uuidstructure>
+			<uuidresource>b8fd552b-4171-11e8-b5fd-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 16 Apr 2018 12:34:45 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 16 Apr 2018 12:28:52 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[April 2018]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>opencms-documentation/.content/documentation-topic/oc10-topic_00001.xml</source>
 			<destination>opencms-documentation/.content/documentation-topic/oc10-topic_00001.xml</destination>
 			<type>documentation-topic</type>
@@ -59560,6 +59604,52 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>opencms-documentation/introduction/latest-updates/april-2018</destination>
+			<type>folder</type>
+			<uuidstructure>b8f4c9a5-4171-11e8-b5fd-0242ac11002b</uuidstructure>
+			<datelastmodified>Mon, 16 Apr 2018 12:29:00 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 16 Apr 2018 12:28:52 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.001953125]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[April 2018]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[April 2018]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/introduction/latest-updates/april-2018/index.html</source>
+			<destination>opencms-documentation/introduction/latest-updates/april-2018/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>b90ac2af-4171-11e8-b5fd-0242ac11002b</uuidstructure>
+			<uuidresource>b90ac2b0-4171-11e8-b5fd-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 16 Apr 2018 12:32:54 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 16 Apr 2018 12:28:52 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[April 2018]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/introduction/latest-updates/february-2015</destination>
 			<type>folder</type>
 			<uuidstructure>8ce71c23-b100-11e4-b42e-0242ac11002b</uuidstructure>
@@ -60226,6 +60316,52 @@
 				<property>
 					<name>template</name>
 					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.opencms.documentation/templates/documentation-overview-template.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/introduction/new-in-opencms/new-in-opencms-10.5.3</destination>
+			<type>folder</type>
+			<uuidstructure>79cf208e-4170-11e8-b5fd-0242ac11002b</uuidstructure>
+			<datelastmodified>Mon, 16 Apr 2018 12:20:08 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 16 Apr 2018 12:19:57 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.001953125]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[New in OpenCms 10.5.3]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[New in OpenCms 10.5.3]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/introduction/new-in-opencms/new-in-opencms-10.5.3/index.html</source>
+			<destination>opencms-documentation/introduction/new-in-opencms/new-in-opencms-10.5.3/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>7a0f5de8-4170-11e8-b5fd-0242ac11002b</uuidstructure>
+			<uuidresource>7a0f5de9-4170-11e8-b5fd-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 16 Apr 2018 12:27:23 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Mon, 16 Apr 2018 12:19:57 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[New in OpenCms 10.5.3]]></value>
 				</property>
 			</properties>
 			<relations/>

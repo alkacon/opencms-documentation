@@ -4,6 +4,8 @@
   <DocumentationCodeBlock language="en">
     <Code><![CDATA[#!/bin/bash
 socat TCP-LISTEN:445,fork TCP:localhost:1445 &
-mount -t cifs //localhost/OPENCMS ~/opencms/vfs -o credentials=~/.credentials/occredentials,rw,uid=1000,gid=1000]]></Code>
+mount -t cifs //localhost/OPENCMS ~/opencms/vfs -o credentials=~/.credentials/occredentials,rw,uid=1000,gid=1000
+# Set CIFS/SMBv1 explicitly if you get a `mount error(112): Host is down`:
+mount -t cifs //localhost/OPENCMS ~/opencms/vfs -o credentials=~/.credentials/occredentials,rw,uid=1000,gid=1000,vers=1.0]]></Code>
   </DocumentationCodeBlock>
 </DocumentationCodeBlocks>
