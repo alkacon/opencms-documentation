@@ -24,19 +24,22 @@ repositories {
             maven { url repo }
         }
     }
-    mavenCentral()
-    maven { 
-    	url "http://maven.vaadin.com/vaadin-addons"
+    jcenter()
+    maven {
+    	url "http://maven.nuiton.org/release/"
     }
     maven {
-    	url 'http://maven.restlet.org'
-    }    
+    	url "http://software.rescarta.org/nexus/content/repositories/thirdparty/"
+    }
+    maven {
+        url "http://maven.vaadin.com/vaadin-addons"
+    }
 }
 
-configurations { 
-	compile { 
+configurations {
+	compile {
 		description = 'used to compile the modules jars'
-    } 
+    }
 }
 
 // import dependencies
@@ -78,8 +81,8 @@ allModuleNames.split(',').each{ moduleName ->
             }
         }
     }
-    
-    
+
+
     def moduleDependencies=[]
     def moduleVersion = version
     if (manifestFile.exists()){
@@ -116,7 +119,7 @@ allModuleNames.split(',').each{ moduleName ->
         ext.gwtSourceSetName = gwtSourceSetName
         ext.gwtRenameTo = gwtRename
         if (project.hasProperty('noVersion')) {
-        	version 
+        	version
         } else {
          	version moduleVersion
         }
@@ -148,7 +151,7 @@ allModuleNames.split(',').each{ moduleName ->
             def syncedManifest="${project.buildDir}/extra/${moduleName}/manifest.xml"
             from syncedManifest
             doFirst{
-                println "Syncing manifest from ${moduleFolder}/resources/manifest.xml to ${syncedManifest} using resources folder system/modules/${moduleName}/resources/${gwtRenameTo} with resources from ${project.buildDir}/gwt/${moduleName}/${gwtRenameTo}" 
+                println "Syncing manifest from ${moduleFolder}/resources/manifest.xml to ${syncedManifest} using resources folder system/modules/${moduleName}/resources/${gwtRenameTo} with resources from ${project.buildDir}/gwt/${moduleName}/${gwtRenameTo}"
                 ant.taskdef(resource: 'org/opencms/util/ant/taskdefs.properties', classpath: configurations.compile.asPath)
                 ant.syncmanifest(
                         srcmanifestfile: "${moduleFolder}/resources/manifest.xml",
@@ -160,14 +163,14 @@ allModuleNames.split(',').each{ moduleName ->
             }
         }
     }
-    
+
     if (requiresJar.toBoolean()) {
         tasks["dist_$moduleName"].dependsOn("jar_$moduleName")
     }
-    
+
     if (gwtModule != null){
         println "creating sourceset for $gwtModule"
-        
+
         sourceSets.create(gwtSourceSetName,{
             java {
                 srcDirs srcGwtDir
@@ -237,7 +240,7 @@ allModuleNames.split(',').each{ moduleName ->
 
         tasks["dist_$moduleName"].dependsOn tasks["gwt_$moduleName"]
     }
-    
+
     task "javadoc_$moduleName" (type: Javadoc){
         source = sourceSets[moduleName].allJava
         classpath = project.sourceSets[moduleName].compileClasspath
@@ -257,7 +260,7 @@ allModuleNames.split(',').each{ moduleName ->
         classifier = 'sources'
         baseName moduleName
     }
-    
+
 }
 task bindist {
     doFirst{
