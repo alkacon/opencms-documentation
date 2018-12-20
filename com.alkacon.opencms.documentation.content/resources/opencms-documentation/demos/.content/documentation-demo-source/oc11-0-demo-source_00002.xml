@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDemoSources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-demo-source.xsd">
+  <DocumentationDemoSource language="en">
+    <Title><![CDATA[Configuration file for common element settings]]></Title>
+    <Offline>
+      <ContentEditor>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/com.alkacon.opencms.documentation/formatters/demo/common-element-settings.xml]]></target>
+          <uuid>afa0f6e0-f894-11e8-9605-0242ac11002b</uuid>
+        </link>
+      </ContentEditor>
+    </Offline>
+    <Online>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/system/modules/com.alkacon.opencms.documentation/formatters/demo/CommonSettings_ConfigurationFile.png]]></target>
+            <uuid>6742795c-f936-11e8-9605-0242ac11002b</uuid>
+            <query><![CDATA[__scale=undefined&description=]]></query>
+          </link>
+          <scale><![CDATA[undefined]]></scale>
+        </Image>
+        <Link>
+          <link type="WEAK">
+            <target><![CDATA[/system/modules/com.alkacon.opencms.documentation/formatters/demo/common-element-settings.xml]]></target>
+            <uuid>afa0f6e0-f894-11e8-9605-0242ac11002b</uuid>
+          </link>
+        </Link>
+        <Show><![CDATA[contenteditor]]></Show>
+      </Image>
+    </Online>
+  </DocumentationDemoSource>
+</DocumentationDemoSources>

@@ -10,6 +10,7 @@
 		<nicename><![CDATA[OpenCms Documentation]]></nicename>
 		<group>OpenCms Documentation</group>
 		<class/>
+		<site>/sites/default</site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[Provides all the content types with formatters and templates to set up a topic-based documentation. Used for the OpenCms documentation.]]></description>
 		<version>11.0.0</version>
@@ -1383,6 +1384,143 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/demo/common-element-settings.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/demo/common-element-settings.xml</destination>
+			<type>settings_config</type>
+			<uuidstructure>afa0f6e0-f894-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>afa0f6e1-f894-11e8-9605-0242ac11002b</uuidresource>
+			<datecreated>Wed, 05 Dec 2018 13:50:12 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Configuration for common element settings]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Common element settings]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-common-settings-formatter.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-common-settings-formatter.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>0197a167-f895-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>0197a168-f895-11e8-9605-0242ac11002b</uuidresource>
+			<datecreated>Wed, 05 Dec 2018 13:52:29 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo article formatter for handling repeatedly used element settings]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-common-settings-formatter.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-common-settings-formatter.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>0199eb5b-f895-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>0199eb5c-f895-11e8-9605-0242ac11002b</uuidresource>
+			<datecreated>Wed, 05 Dec 2018 13:52:29 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo formatter: Common element settings]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-common-settings-formatter2.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-common-settings-formatter2.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>3a35c1e4-f89f-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>3a35c1e5-f89f-11e8-9605-0242ac11002b</uuidresource>
+			<datecreated>Wed, 05 Dec 2018 15:05:39 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Demo article formatter with the same element settings as formatter1]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo article formatter with the same element settings as formatter1]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-common-settings-formatter2.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-common-settings-formatter2.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>3a3859f8-f89f-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>3a3859f9-f89f-11e8-9605-0242ac11002b</uuidresource>
+			<datecreated>Wed, 05 Dec 2018 15:05:39 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo formatter : Common element settings Part2]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-detail-formatter.jsp</source>
 			<destination>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-detail-formatter.jsp</destination>
 			<type>jsp</type>
@@ -1914,7 +2052,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Demo article formatter: PDF generation demo]]></value>
+					<value><![CDATA[Demo article formatter: PDF generation demo download]]></value>
 				</property>
 				<property>
 					<name>locale</name>
@@ -1965,6 +2103,106 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Demo article formatter: PDF generation demo]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-read-metamappings.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-read-metamappings.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>c98d5980-f3ee-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>c98d5981-f3ee-11e8-a09c-0242ac11002b</uuidresource>
+			<datecreated>Thu, 29 Nov 2018 15:52:34 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo article formatter for reading meta information]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-read-metamappings.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-read-metamappings.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>bfc3660a-f3ee-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>bfc3660b-f3ee-11e8-a09c-0242ac11002b</uuidresource>
+			<datecreated>Thu, 29 Nov 2018 15:52:18 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo formatter: Reading meta information]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-with-meta-information.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-with-meta-information.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>c342bc36-f47d-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>c342bc37-f47d-11e8-a09c-0242ac11002b</uuidresource>
+			<datecreated>Fri, 30 Nov 2018 08:56:01 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo article formatter for mapping meta information]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-with-meta-information.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-with-meta-information.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>c34ef13a-f47d-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>c34ef13b-f47d-11e8-a09c-0242ac11002b</uuidresource>
+			<datecreated>Fri, 30 Nov 2018 08:56:01 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demo article formatter: Meta mappings]]></value>
 				</property>
 				<property>
 					<name>locale</name>
@@ -2127,6 +2365,31 @@
 				<property type="shared">
 					<name>export</name>
 					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/formatters/demo/new_settings_config</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/formatters/demo/new_settings_config</destination>
+			<type>settings_config</type>
+			<uuidstructure>777b3933-f964-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>777b3934-f964-11e8-9605-0242ac11002b</uuidresource>
+			<datecreated>Thu, 06 Dec 2018 14:37:33 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -3528,6 +3791,23 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Nested content for layout elements, captures information for a single container]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/schemas/demo/nested/meta-info.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/schemas/demo/nested/meta-info.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>aa9b2ef9-f3e4-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>aa9b2efa-f3e4-11e8-a09c-0242ac11002b</uuidresource>
+			<datecreated>Thu, 29 Nov 2018 14:40:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Nested content for meta information]]></value>
 				</property>
 			</properties>
 			<relations/>

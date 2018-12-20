@@ -2,7 +2,7 @@
 
 <NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
   <NewFormatter language="en">
-    <NiceName><![CDATA[Demo article formatter: PDF generation demo]]></NiceName>
+    <NiceName><![CDATA[Demo article formatter: PDF generation demo download]]></NiceName>
     <Type><![CDATA[documentation-demo-article]]></Type>
     <Jsp>
       <link type="WEAK">
@@ -16,10 +16,10 @@
         <ContainerType><![CDATA[demo-content]]></ContainerType>
       </Types>
     </Match>
-    <Preview>false</Preview>
-    <SearchContent>true</SearchContent>
     <AutoEnabled>true</AutoEnabled>
+    <SearchContent>true</SearchContent>
+    <StrictContainers>true</StrictContainers>
     <Detail>false</Detail>
-    <NestedContainers>false</NestedContainers>
+    <Preview>false</Preview>
   </NewFormatter>
 </NewFormatters>

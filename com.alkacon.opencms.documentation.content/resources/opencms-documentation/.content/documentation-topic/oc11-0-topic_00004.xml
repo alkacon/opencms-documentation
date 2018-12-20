@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>Since OpenCms 11.0 it is not necessary to configure frequently used element settings in every formatter, which they are used in. Once described in one configuration file, all element settings can be used by calling their setting names.</p>
+<p>Some element settings are needed in a number of formatters without any or little changes. To avoid the work to configure each time they are used, OpenCms allows you to define the element settings in one configuration file. Then, you can access the settings from your formatter in a few easy steps.</p>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>Configute element settings once in a configuration file and use them in different formatters.</p>]]></content>
+    </Teaser>
+    <Keywords><![CDATA[common element setttings, elemen setting, content]]></Keywords>
+    <InterestingFor><![CDATA[c_developer,d_workplaceUser]]></InterestingFor>
+    <RelatedLinks>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/demos/common-element-settings/]]></target>
+            <uuid>e4c2c5fb-f897-11e8-9605-0242ac11002b</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[A demo how to configure common element settings]]></LinkText>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/index.html]]></target>
+            <uuid>c06768dd-1bcf-11e4-bfa5-b7bfd6088c56</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Get an overview of formatters and their configuration]]></LinkText>
+      </Link>
+    </RelatedLinks>
+    <NewInVersion><![CDATA[11.0.0]]></NewInVersion>
+    <NewInDocuVersion><![CDATA[11.0.0]]></NewInDocuVersion>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

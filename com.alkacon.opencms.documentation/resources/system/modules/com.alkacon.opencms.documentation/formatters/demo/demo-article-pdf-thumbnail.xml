@@ -16,10 +16,11 @@
         <ContainerType><![CDATA[demo-content]]></ContainerType>
       </Types>
     </Match>
-    <Preview>false</Preview>
-    <SearchContent>true</SearchContent>
     <AutoEnabled>true</AutoEnabled>
+    <SearchContent>true</SearchContent>
+    <StrictContainers>true</StrictContainers>
     <Detail>false</Detail>
-    <NestedContainers>false</NestedContainers>
+    <AlwaysApplyMetaMappings>false</AlwaysApplyMetaMappings>
+    <Preview>false</Preview>
   </NewFormatter>
 </NewFormatters>

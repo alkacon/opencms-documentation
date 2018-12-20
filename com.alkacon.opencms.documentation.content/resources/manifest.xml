@@ -3,8 +3,8 @@
 <export>
 	<info>
 		<creator>dSeidel</creator>
-		<opencms_version>10.5.x</opencms_version>
-		<createdate>Mon, 16 Apr 2018 12:50:07 GMT</createdate>
+		<opencms_version>11.0.x</opencms_version>
+		<createdate>Thu, 20 Dec 2018 10:39:12 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>10</export_version>
 	</info>
@@ -39,8 +39,8 @@
 			<destination>opencms-documentation</destination>
 			<type>subsitemap</type>
 			<uuidstructure>f002c53d-973d-11e4-8878-b7eb8d90e9b7</uuidstructure>
-			<datelastmodified>Mon, 16 Apr 2018 12:26:51 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<datelastmodified>Fri, 30 Nov 2018 10:57:47 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
 			<datecreated>Thu, 08 Jan 2015 13:55:00 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -71,7 +71,7 @@
 				</property>
 				<property>
 					<name>opencms.documentation.editor</name>
-					<value><![CDATA[false]]></value>
+					<value><![CDATA[true]]></value>
 				</property>
 				<property>
 					<name>opencms.documentation.version</name>
@@ -3276,7 +3276,7 @@
 			<uuidstructure>775ad3e7-1999-11e5-9ac7-0242ac11002b</uuidstructure>
 			<uuidresource>775ad3e8-1999-11e5-9ac7-0242ac11002b</uuidresource>
 			<datelastmodified>Tue, 02 May 2017 10:36:11 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 23 Jun 2015 11:17:42 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -3531,9 +3531,9 @@
 			<uuidstructure>e8c04377-66d9-11e7-921f-0242ac11002b</uuidstructure>
 			<uuidresource>e8c04378-66d9-11e7-921f-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 12 Jul 2017 08:27:49 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Jul 2017 08:12:55 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -3564,6 +3564,66 @@
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 22 Mar 2016 11:04:42 GMT</datecreated>
 			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/oc11-0-codeblock_00001.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/oc11-0-codeblock_00001.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>517dcf18-f2fc-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>517dcf19-f2fc-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 28 Nov 2018 10:58:46 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 10:56:54 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/oc11-0-codeblock_00002.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/oc11-0-codeblock_00002.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>61a2d14b-f300-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>61a2d14c-f300-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 28 Nov 2018 14:15:17 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 11:25:59 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/oc11-0-codeblock_00003.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/oc11-0-codeblock_00003.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>b4930c33-fa30-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>b4930c34-fa30-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 15:11:01 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 07 Dec 2018 14:59:32 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-codeblock/oc11-0-codeblock_00004.xml</source>
+			<destination>opencms-documentation/.content/documentation-codeblock/oc11-0-codeblock_00004.xml</destination>
+			<type>documentation-codeblock</type>
+			<uuidstructure>e06b2629-fa31-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>e06b262a-fa31-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 15:09:14 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 07 Dec 2018 15:07:56 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -9548,6 +9608,246 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[greet_active]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc11-0-figure_00001.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc11-0-figure_00001.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>22aa2861-f2fb-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>22aa2862-f2fb-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 30 Nov 2018 09:34:38 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 10:48:26 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[formatter_addmetamappings]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc11-0-figure_00002.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc11-0-figure_00002.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>85f7b02e-f2fd-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>85f7b02f-f2fd-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 30 Nov 2018 09:34:46 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 11:05:32 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[formatter_metamappingscheckbox]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc11-0-figure_00003.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc11-0-figure_00003.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>c3c5ea24-f2ff-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>c3c5ea25-f2ff-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Nov 2018 08:28:06 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 11:21:34 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[metamapping_exampleformatter]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc11-0-figure_00004.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc11-0-figure_00004.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>c774d7ca-f31b-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>c774d7cb-f31b-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 28 Nov 2018 15:02:06 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 14:42:07 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[metamapping_metainfowizard]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc11-0-figure_00005.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc11-0-figure_00005.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>2108839d-f31c-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>2108839e-f31c-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 28 Nov 2018 15:39:52 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 14:44:37 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[metamapping_metoinfoelement]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc11-0-figure_00006.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc11-0-figure_00006.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>eeac6afb-f965-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>eeac6afc-f965-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 06 Dec 2018 15:35:39 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 14:48:02 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[commonsettings_addwizard]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc11-0-figure_00007.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc11-0-figure_00007.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>167ea98f-f966-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>167ea990-f966-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 06 Dec 2018 15:37:08 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 14:49:09 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[commonsettings_configurationfile]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc11-0-figure_00008.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc11-0-figure_00008.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>9738c396-f966-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>9738c397-f966-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 06 Dec 2018 15:50:20 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 14:52:45 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[commonsettings_formatterconfiguration]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc11-0-figure_00009.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc11-0-figure_00009.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>38da0403-f972-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>38da0404-f972-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 06 Dec 2018 16:17:01 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 16:16:01 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[commonsettings_elementsettings]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc11-0-figure_00010.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc11-0-figure_00010.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>825cb78d-f9f8-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>825cb78e-f9f8-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 08:19:51 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 07 Dec 2018 08:17:16 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[commonsettings_modconfigurationfile]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc11-0-figure_00011.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc11-0-figure_00011.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>f7cc319a-f9f8-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>f7cc319b-f9f8-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 08:21:23 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 07 Dec 2018 08:20:33 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[commonsettings_modformatterconfiguration]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-figure/oc11-0-figure_00012.xml</source>
+			<destination>opencms-documentation/.content/documentation-figure/oc11-0-figure_00012.xml</destination>
+			<type>documentation-figure</type>
+			<uuidstructure>76af1a9e-f9f9-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>76af1a9f-f9f9-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 09:22:42 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 07 Dec 2018 08:24:06 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[commonsettings_modelementsettings]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -23329,9 +23629,9 @@
 			<uuidstructure>b2d48d74-66d9-11e7-921f-0242ac11002b</uuidstructure>
 			<uuidresource>b2d48d75-66d9-11e7-921f-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 12 Jul 2017 08:16:53 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Jul 2017 08:11:25 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -23344,9 +23644,9 @@
 			<uuidstructure>7c9ac20a-66da-11e7-921f-0242ac11002b</uuidstructure>
 			<uuidresource>7c9ac20b-66da-11e7-921f-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 12 Jul 2017 08:37:27 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Jul 2017 08:17:03 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -23359,9 +23659,9 @@
 			<uuidstructure>e878dd8e-66dd-11e7-921f-0242ac11002b</uuidstructure>
 			<uuidresource>e878dd8f-66dd-11e7-921f-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 12 Jul 2017 08:43:32 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Jul 2017 08:41:33 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -24112,6 +24412,336 @@
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 15 Jun 2016 10:13:51 GMT</datecreated>
 			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc11-0-html_00001.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc11-0-html_00001.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>21ee8b6d-f2f9-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>21ee8b6e-f2f9-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 10 Dec 2018 07:29:21 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 10:34:06 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc11-0-html_00002.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc11-0-html_00002.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>f8336145-f2fb-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>f8336146-f2fb-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 28 Nov 2018 10:54:36 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 10:54:24 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc11-0-html_00003.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc11-0-html_00003.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>c3b06d9b-f2fc-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>c3b06d9c-f2fc-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 04 Dec 2018 08:28:38 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 11:00:06 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc11-0-html_00004.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc11-0-html_00004.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>6e8d296a-f2fe-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>6e8d296b-f2fe-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 28 Nov 2018 11:13:03 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 11:12:02 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc11-0-html_00005.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc11-0-html_00005.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>7f805851-f2ff-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>7f805852-f2ff-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 28 Nov 2018 11:20:47 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 11:19:40 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc11-0-html_00006.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc11-0-html_00006.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>0283c619-f300-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>0283c61a-f300-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 28 Nov 2018 11:33:49 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 11:23:20 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc11-0-html_00007.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc11-0-html_00007.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>a4c0dd9e-f301-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>a4c0dd9f-f301-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 28 Nov 2018 16:00:39 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 11:35:01 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc11-0-html_00008.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc11-0-html_00008.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>968dc4f6-f31b-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>968dc4f7-f31b-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 28 Nov 2018 14:41:20 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 14:40:45 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc11-0-html_00009.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc11-0-html_00009.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>197d4021-f31d-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>197d4022-f31d-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Nov 2018 08:10:56 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 14:51:34 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc11-0-html_00010.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc11-0-html_00010.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>012aefcb-f860-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>012aefcc-f860-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 05 Dec 2018 12:43:52 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 05 Dec 2018 07:33:05 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc11-0-html_00011.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc11-0-html_00011.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>d035c237-f3c9-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>d035c238-f3c9-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Nov 2018 12:26:29 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 29 Nov 2018 11:27:54 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc11-0-html_00012.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc11-0-html_00012.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>ad68c0b0-f960-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>ad68c0b1-f960-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 13:45:35 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 14:10:25 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc11-0-html_00013.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc11-0-html_00013.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>23a09e5c-f962-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>23a09e5d-f962-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 13:46:06 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 14:20:53 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc11-0-html_00014.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc11-0-html_00014.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>ace42aa9-f964-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>ace42aaa-f964-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 07:13:04 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 14:39:02 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc11-0-html_00015.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc11-0-html_00015.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>40bd5443-f966-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>40bd5444-f966-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 07:19:05 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 14:50:20 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc11-0-html_00016.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc11-0-html_00016.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>b787100b-f972-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>b787100c-f972-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 06 Dec 2018 16:22:31 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 16:19:33 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc11-0-html_00017.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc11-0-html_00017.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>cd12840d-f9f0-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>cd12840e-f9f0-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 10 Dec 2018 08:14:37 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 07 Dec 2018 07:22:06 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc11-0-html_00018.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc11-0-html_00018.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>9cc54299-f9ff-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>9cc5429a-f9ff-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 14:00:31 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 07 Dec 2018 09:08:07 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc11-0-html_00019.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc11-0-html_00019.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>30c925ad-fa01-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>30c925ae-fa01-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 10 Dec 2018 08:12:03 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 07 Dec 2018 09:19:25 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc11-0-html_00020.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc11-0-html_00020.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>d8df26ad-fa2f-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>d8df26ae-fa2f-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 14:55:02 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 07 Dec 2018 14:53:24 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc11-0-html_00021.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc11-0-html_00021.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>26164d50-fa30-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>26164d51-fa30-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 15:29:25 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 07 Dec 2018 14:55:33 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-html/oc11-0-html_00022.xml</source>
+			<destination>opencms-documentation/.content/documentation-html/oc11-0-html_00022.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>9f7841c6-fa31-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>9f7841c7-fa31-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 15:07:47 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 07 Dec 2018 15:06:07 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -37577,9 +38207,9 @@
 			<uuidstructure>94f37cb4-66dd-11e7-921f-0242ac11002b</uuidstructure>
 			<uuidresource>94f37cb5-66dd-11e7-921f-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 12 Jul 2017 08:41:26 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Jul 2017 08:39:13 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -37597,9 +38227,9 @@
 			<uuidstructure>85b271e0-66d9-11e7-921f-0242ac11002b</uuidstructure>
 			<uuidresource>85b271e1-66d9-11e7-921f-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 12 Jul 2017 08:26:43 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Jul 2017 08:10:09 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -38391,6 +39021,206 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.content/documentation-section/oc11-0-section_00001.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc11-0-section_00001.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>97d71f40-f2f4-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>97d71f41-f2f4-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 05 Dec 2018 16:12:12 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 10:01:36 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Meta mappings - Use case: The header of detail pages]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc11-0-section_00002.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc11-0-section_00002.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>1ca3ec62-f2fe-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>1ca3ec63-f2fe-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 28 Nov 2018 15:41:37 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 11:09:45 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Meta mapping - &lt;apollo:meta-info&gt;-tag]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc11-0-section_00003.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc11-0-section_00003.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>491c2d62-f31b-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>491c2d63-f31b-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 28 Nov 2018 14:38:57 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 14:38:35 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Meta mapping - Meta info element]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc11-0-section_00004.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc11-0-section_00004.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>a3dc85e6-f85f-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>a3dc85e7-f85f-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 05 Dec 2018 07:30:59 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 05 Dec 2018 07:30:28 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Meta mappings - Meta mappings in practice]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc11-0-section_00005.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc11-0-section_00005.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>dfb9e1ad-f3d3-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>dfb9e1ae-f3d3-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 29 Nov 2018 15:14:19 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 29 Nov 2018 12:39:55 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Meta mappings - Options]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc11-0-section_00006.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc11-0-section_00006.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>017583ae-f8a9-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>017583af-f8a9-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 06 Dec 2018 13:41:18 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 05 Dec 2018 16:15:39 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Common element settings - An often used element setting]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc11-0-section_00007.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc11-0-section_00007.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>96db2c63-f961-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>96db2c64-f961-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 14:23:11 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 14:16:57 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Common element settings - Create a configuration file<br />]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc11-0-section_00008.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc11-0-section_00008.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>7ecd96e8-f9f0-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>7ecd96e9-f9f0-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 09:23:31 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 07 Dec 2018 07:19:54 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Common element settings - Field "Include name"]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc11-0-section_00009.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc11-0-section_00009.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>d3581454-fa2c-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>d3581455-fa2c-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 14:33:37 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 07 Dec 2018 14:31:46 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Elaborated XSD annotation - Widget Configuration]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-section/oc11-0-section_00010.xml</source>
+			<destination>opencms-documentation/.content/documentation-section/oc11-0-section_00010.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>1f7a3344-fa2b-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>1f7a3345-fa2b-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 14:24:39 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 07 Dec 2018 14:19:35 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Common element settings - Usage of the common element settings]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/.content/documentation-topic-row</destination>
 			<type>folder</type>
 			<uuidstructure>20d5b252-17c1-11e4-a3fa-b7bfd6088c56</uuidstructure>
@@ -38409,8 +39239,8 @@
 			<type>documentation-topic-row</type>
 			<uuidstructure>4447404c-1e04-11e4-a270-d9f74955ba1b</uuidstructure>
 			<uuidresource>4447404d-1e04-11e4-a270-d9f74955ba1b</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:21:37 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 06 Dec 2018 13:19:46 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
 			<datecreated>Thu, 07 Aug 2014 07:27:20 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -39250,9 +40080,9 @@
 			<uuidstructure>62a10f76-66dc-11e7-921f-0242ac11002b</uuidstructure>
 			<uuidresource>62a10f77-66dc-11e7-921f-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 12 Jul 2017 08:34:30 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Jul 2017 08:30:39 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -39298,6 +40128,46 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Improved in OpenCms 10]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-topic-row/oc11-0-topic-row_00001.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic-row/oc11-0-topic-row_00001.xml</destination>
+			<type>documentation-topic-row</type>
+			<uuidstructure>c61c0152-f7dc-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>c61c0153-f7dc-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 06 Dec 2018 13:18:26 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Tue, 04 Dec 2018 15:53:42 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[New features in OpenCms 11.0]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-topic-row/oc11-0-topic-row_00002.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic-row/oc11-0-topic-row_00002.xml</destination>
+			<type>documentation-topic-row</type>
+			<uuidstructure>82a88bd6-fa33-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>82a88bd7-fa33-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 15:20:39 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 07 Dec 2018 15:19:37 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Improved in OpenCms 11.0]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -42166,7 +43036,7 @@
 			<uuidstructure>a953d295-e788-11e6-810f-0242ac11002b</uuidstructure>
 			<uuidresource>a953d296-e788-11e6-810f-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 12 Jul 2017 08:40:47 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 31 Jan 2017 07:41:22 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -42258,9 +43128,9 @@
 			<uuidstructure>a9fa3c05-66d7-11e7-921f-0242ac11002b</uuidstructure>
 			<uuidresource>a9fa3c06-66d7-11e7-921f-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 12 Jul 2017 07:59:09 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Jul 2017 07:56:51 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -42282,9 +43152,9 @@
 			<uuidstructure>94e6d282-66dd-11e7-921f-0242ac11002b</uuidstructure>
 			<uuidresource>94e6d283-66dd-11e7-921f-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 12 Jul 2017 08:41:08 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Jul 2017 08:39:13 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -42302,9 +43172,9 @@
 			<uuidstructure>79fe46e3-4170-11e8-b5fd-0242ac11002b</uuidstructure>
 			<uuidresource>79fe46e4-4170-11e8-b5fd-0242ac11002b</uuidresource>
 			<datelastmodified>Mon, 16 Apr 2018 12:27:09 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 16 Apr 2018 12:19:57 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -42326,9 +43196,9 @@
 			<uuidstructure>b8fd552a-4171-11e8-b5fd-0242ac11002b</uuidstructure>
 			<uuidresource>b8fd552b-4171-11e8-b5fd-0242ac11002b</uuidresource>
 			<datelastmodified>Mon, 16 Apr 2018 12:34:45 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 16 Apr 2018 12:28:52 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -42566,6 +43436,126 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Adding context menu items in the explorer]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-topic/oc11-0-topic_00001.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic/oc11-0-topic_00001.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>97c87a3e-f2f4-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>97c87a3f-f2f4-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 10 Dec 2018 07:26:46 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 10:01:36 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Keywords</name>
+					<value><![CDATA[website creation, templating, template jsp, meta tag, meta mappings, detail pages, header]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Meta mappings]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-topic/oc11-0-topic_00002.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic/oc11-0-topic_00002.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>c0c710a0-f7db-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>c0c710a1-f7db-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 04 Dec 2018 15:49:42 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Tue, 04 Dec 2018 15:46:23 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Keywords</name>
+					<value><![CDATA[overview, new in Opencms]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[New in OpenCms 11.0]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-topic/oc11-0-topic_00003.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic/oc11-0-topic_00003.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>c617bb8f-f7dc-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>c617bb90-f7dc-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 04 Dec 2018 16:00:39 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Tue, 04 Dec 2018 15:53:42 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Keywords</name>
+					<value><![CDATA[overview, new in Opencms]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[New in OpenCms 11.0]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-topic/oc11-0-topic_00004.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic/oc11-0-topic_00004.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>016c5bec-f8a9-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>016c5bed-f8a9-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 14:16:20 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 05 Dec 2018 16:15:39 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Keywords</name>
+					<value><![CDATA[common element setttings, elemen setting, content]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Common element settings]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.content/documentation-topic/oc11-0-topic_00005.xml</source>
+			<destination>opencms-documentation/.content/documentation-topic/oc11-0-topic_00005.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>d34eec92-fa2c-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>d34eec93-fa2c-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 15:25:24 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 07 Dec 2018 14:31:46 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Keywords</name>
+					<value><![CDATA[XSD, annotation, widget configuration, field settings]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Elaborated XSD annotation]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -46788,6 +47778,294 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/.galleries/pictures/CommonSettings_AddWizard.png</source>
+			<destination>opencms-documentation/.galleries/pictures/CommonSettings_AddWizard.png</destination>
+			<type>image</type>
+			<uuidstructure>38a40f5a-f96c-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>38a40f5b-f96c-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 11:39:02 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 15:33:03 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[CommonSettings_AddWizard]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:600,h:355]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/CommonSettings_ConfigurationFile.png</source>
+			<destination>opencms-documentation/.galleries/pictures/CommonSettings_ConfigurationFile.png</destination>
+			<type>image</type>
+			<uuidstructure>6742795c-f936-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>6742795d-f936-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 11:39:02 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 09:07:49 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[CommonSettings_ConfigurationFile]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:930,h:1058]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/CommonSettings_DateConfiguration.png</source>
+			<destination>opencms-documentation/.galleries/pictures/CommonSettings_DateConfiguration.png</destination>
+			<type>image</type>
+			<uuidstructure>38a806fe-f96c-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>38a806ff-f96c-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 11:39:02 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 15:33:03 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[CommonSettings_DateConfiguration]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:930,h:453]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/CommonSettings_DateElementSettings.png</source>
+			<destination>opencms-documentation/.galleries/pictures/CommonSettings_DateElementSettings.png</destination>
+			<type>image</type>
+			<uuidstructure>4d723b86-f972-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>4d723b87-f972-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 11:39:02 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 16:16:35 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[CommonSettings_DateElementSettings]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:710,h:455]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/CommonSettings_DateFomatterConfiguration.png</source>
+			<destination>opencms-documentation/.galleries/pictures/CommonSettings_DateFomatterConfiguration.png</destination>
+			<type>image</type>
+			<uuidstructure>38ab6162-f96c-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>38ab6163-f96c-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 11:39:02 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 15:33:03 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[CommonSettings_DateFomatterConfiguration]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:930,h:333]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/CommonSettings_DateModConfiguration.png</source>
+			<destination>opencms-documentation/.galleries/pictures/CommonSettings_DateModConfiguration.png</destination>
+			<type>image</type>
+			<uuidstructure>d4fd5db0-f9f8-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>d4fd5db1-f9f8-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 08:57:22 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 07 Dec 2018 08:19:35 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[CommonSettings_DateModConfiguration]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:930,h:453]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/CommonSettings_DateModFomatterConfiguration.png</source>
+			<destination>opencms-documentation/.galleries/pictures/CommonSettings_DateModFomatterConfiguration.png</destination>
+			<type>image</type>
+			<uuidstructure>d5023fb4-f9f8-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>d5023fb5-f9f8-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 08:57:22 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 07 Dec 2018 08:19:35 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[CommonSettings_DateModFomatterConfiguration]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:930,h:374]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/CommonSettings_ElementSettings.png</source>
+			<destination>opencms-documentation/.galleries/pictures/CommonSettings_ElementSettings.png</destination>
+			<type>image</type>
+			<uuidstructure>ea536c65-f947-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>ea536c66-f947-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 11:39:02 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 11:13:10 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[CommonSettings_ElementSettings]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:710,h:567]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/CommonSettings_FormatterConfigurations.png</source>
+			<destination>opencms-documentation/.galleries/pictures/CommonSettings_FormatterConfigurations.png</destination>
+			<type>image</type>
+			<uuidstructure>529d218c-f941-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>529d218d-f941-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 11:39:03 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 10:25:58 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[CommonSettings_FormatterConfigurations]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:930,h:970]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/CommonSettings_ModElementSettings.png</source>
+			<destination>opencms-documentation/.galleries/pictures/CommonSettings_ModElementSettings.png</destination>
+			<type>image</type>
+			<uuidstructure>bfc9db31-f9f9-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>bfc9db32-f9f9-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 09:22:38 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 07 Dec 2018 08:26:09 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[CommonSettings_ModElementSettings]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:710,h:455]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/CommonSetttings_FormatterConfigurationPart1.png</source>
+			<destination>opencms-documentation/.galleries/pictures/CommonSetttings_FormatterConfigurationPart1.png</destination>
+			<type>image</type>
+			<uuidstructure>bb841292-f943-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>bb841293-f943-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 06 Dec 2018 10:43:52 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 10:43:13 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[CommonSetttings_FormatterConfigurationPart1]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:743,h:437]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/CommonSetttings_FormatterConfigurationPart2.png</source>
+			<destination>opencms-documentation/.galleries/pictures/CommonSetttings_FormatterConfigurationPart2.png</destination>
+			<type>image</type>
+			<uuidstructure>e748c108-f943-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>e748c109-f943-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 06 Dec 2018 10:44:27 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 10:44:27 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[CommonSetttings_FormatterConfigurationPart2]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:742,h:897]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>opencms-documentation/.galleries/pictures/compare-locales-view.png</source>
 			<destination>opencms-documentation/.galleries/pictures/compare-locales-view.png</destination>
 			<type>image</type>
@@ -49086,6 +50364,174 @@
 				<property type="shared">
 					<name>image.size</name>
 					<value><![CDATA[w:639,h:425]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/MetaMapping_Content.png</source>
+			<destination>opencms-documentation/.galleries/pictures/MetaMapping_Content.png</destination>
+			<type>image</type>
+			<uuidstructure>d3e83d1d-f317-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>d3e83d1e-f317-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 28 Nov 2018 16:28:27 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 14:13:49 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[MetaMapping_Content]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:931,h:597]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/MetaMapping_ContentEditor.png</source>
+			<destination>opencms-documentation/.galleries/pictures/MetaMapping_ContentEditor.png</destination>
+			<type>image</type>
+			<uuidstructure>bf54c5af-f7c2-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>bf54c5b0-f7c2-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 10 Dec 2018 08:05:39 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Tue, 04 Dec 2018 12:47:24 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[MetaMapping_ContentEditor]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:930,h:887]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/MetaMapping_FormatterCheckbox.png</source>
+			<destination>opencms-documentation/.galleries/pictures/MetaMapping_FormatterCheckbox.png</destination>
+			<type>image</type>
+			<uuidstructure>e11b81f8-f311-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>e11b81f9-f311-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 28 Nov 2018 16:21:39 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 13:31:15 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[MetaMapping_FormatterCheckbox]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:961,h:317]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/MetaMapping_FormatterConfiguration.png</source>
+			<destination>opencms-documentation/.galleries/pictures/MetaMapping_FormatterConfiguration.png</destination>
+			<type>image</type>
+			<uuidstructure>338bd801-f30c-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>338bd802-f30c-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 28 Nov 2018 16:26:33 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 12:50:36 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[MetaMapping_FormatterConfiguration]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:931,h:327]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/MetaMapping_FormatterConfigurationDemo.png</source>
+			<destination>opencms-documentation/.galleries/pictures/MetaMapping_FormatterConfigurationDemo.png</destination>
+			<type>image</type>
+			<uuidstructure>5e6e60c2-f7c5-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>5e6ed5f3-f7c5-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 04 Dec 2018 13:06:09 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Tue, 04 Dec 2018 13:06:09 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[MetaMapping_FormatterConfigurationDemo]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:837,h:878]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/MetaMapping_MetaInfoContent.png</source>
+			<destination>opencms-documentation/.galleries/pictures/MetaMapping_MetaInfoContent.png</destination>
+			<type>image</type>
+			<uuidstructure>d6506d29-f323-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>d6506d2a-f323-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 28 Nov 2018 16:15:24 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 15:39:47 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[MetaMapping_MetaInfoContent]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:934,h:625]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/.galleries/pictures/MetaMapping_MetaInfoWizard.png</source>
+			<destination>opencms-documentation/.galleries/pictures/MetaMapping_MetaInfoWizard.png</destination>
+			<type>image</type>
+			<uuidstructure>8eeaeff4-f31e-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>8eeaeff5-f31e-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 28 Nov 2018 15:02:00 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 15:02:00 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[MetaMapping_MetaInfoWizard]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1009,h:277]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -51999,8 +53445,8 @@
 			<type>containerpage</type>
 			<uuidstructure>5fcadeea-48a2-11e4-9176-336f7b60f7b1</uuidstructure>
 			<uuidresource>5fcadeeb-48a2-11e4-9176-336f7b60f7b1</uuidresource>
-			<datelastmodified>Thu, 02 Feb 2017 08:02:42 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Fri, 07 Dec 2018 14:53:24 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
 			<datecreated>Tue, 30 Sep 2014 13:04:55 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -52008,6 +53454,60 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Widget configuration]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/widget-configuration/elaborated-xsd-annotation</destination>
+			<type>folder</type>
+			<uuidstructure>d346610c-fa2c-11e8-9605-0242ac11002b</uuidstructure>
+			<datelastmodified>Fri, 07 Dec 2018 14:32:26 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 07 Dec 2018 14:31:46 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Elaborated XSD annotation]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Elaborated XSD annotation]]></value>
+				</property>
+				<property type="shared">
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/widget-configuration/elaborated-xsd-annotation/index.html</source>
+			<destination>opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/widget-configuration/elaborated-xsd-annotation/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>d35b2197-fa2c-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>d35b2198-fa2c-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 15:07:56 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 07 Dec 2018 14:31:46 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[The OpenCms documentation, brought to you by Alkacon Software.]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Elaborated XSD annotation]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -52238,6 +53738,52 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Formatters and their configuration]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/content-in-opencms/formatters-and-their-configuration/common-element-settings</destination>
+			<type>folder</type>
+			<uuidstructure>0164bac7-f8a9-11e8-9605-0242ac11002b</uuidstructure>
+			<datelastmodified>Wed, 05 Dec 2018 16:17:42 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 05 Dec 2018 16:15:39 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[2.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Common element settings]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Common element settings]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/content-in-opencms/formatters-and-their-configuration/common-element-settings/index.html</source>
+			<destination>opencms-documentation/content-in-opencms/formatters-and-their-configuration/common-element-settings/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>017869e1-f8a9-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>017869e2-f8a9-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 14:23:57 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 05 Dec 2018 16:15:39 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Common element settings]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -53225,6 +54771,60 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>opencms-documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/meta-mappings</destination>
+			<type>folder</type>
+			<uuidstructure>97783758-f2f4-11e8-a09c-0242ac11002b</uuidstructure>
+			<datelastmodified>Thu, 29 Nov 2018 09:56:49 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 10:01:36 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[3.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Meta mappings]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Meta mappings]]></value>
+				</property>
+				<property type="shared">
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/meta-mappings/index.html</source>
+			<destination>opencms-documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/meta-mappings/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>97db8c13-f2f4-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>97db8c14-f2f4-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 05 Dec 2018 07:33:05 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 28 Nov 2018 10:01:36 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[The OpenCms documentation, brought to you by Alkacon Software.]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Meta mappings]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/creating-a-website/creating-template-models</destination>
 			<type>folder</type>
 			<uuidstructure>7119307d-59bb-11e4-9326-005056b61161</uuidstructure>
@@ -53715,10 +55315,70 @@
 			<type>documentation-demo-article</type>
 			<uuidstructure>4106ad3f-eaa8-11e5-8020-0242ac11002b</uuidstructure>
 			<uuidresource>4106ad40-eaa8-11e5-8020-0242ac11002b</uuidresource>
-			<datelastmodified>Tue, 15 Mar 2016 12:22:49 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 29 Nov 2018 14:06:17 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
 			<datecreated>Tue, 15 Mar 2016 12:20:07 GMT</datecreated>
 			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-demo-article/oc11-0-demo-article_00001.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-demo-article/oc11-0-demo-article_00001.xml</destination>
+			<type>documentation-demo-article</type>
+			<uuidstructure>29c599a8-f3eb-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>29c599a9-f3eb-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 05 Dec 2018 13:45:24 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 29 Nov 2018 15:26:37 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-demo-article/oc11-0-demo-article_00002.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-demo-article/oc11-0-demo-article_00002.xml</destination>
+			<type>documentation-demo-article</type>
+			<uuidstructure>903955c5-f3ef-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>903955c6-f3ef-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 04 Dec 2018 13:30:38 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 29 Nov 2018 15:58:07 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-demo-article/oc11-0-demo-article_00003.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-demo-article/oc11-0-demo-article_00003.xml</destination>
+			<type>documentation-demo-article</type>
+			<uuidstructure>0ed8ef42-f89a-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>0ed8ef43-f89a-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 10:12:08 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 05 Dec 2018 14:28:39 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-demo-article/oc11-0-demo-article_00004.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-demo-article/oc11-0-demo-article_00004.xml</destination>
+			<type>documentation-demo-article</type>
+			<uuidstructure>ead5f980-f89f-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>ead5f981-f89f-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 05 Dec 2018 15:44:43 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 05 Dec 2018 15:10:35 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -54292,6 +55952,146 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Demo article Image drag'n'drop formatter]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-demo-source/oc11-0-demo-source_00001.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-demo-source/oc11-0-demo-source_00001.xml</destination>
+			<type>documentation-demo-source</type>
+			<uuidstructure>4bffb899-f3f4-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>4bffb89a-f3f4-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 04 Dec 2018 13:06:16 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 29 Nov 2018 16:32:00 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter with meta mappings]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-demo-source/oc11-0-demo-source_00002.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-demo-source/oc11-0-demo-source_00002.xml</destination>
+			<type>documentation-demo-source</type>
+			<uuidstructure>aa652845-f931-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>aa652846-f931-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 06 Dec 2018 09:08:14 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 08:33:54 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Configuration file for common element settings]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-demo-source/oc11-0-demo-source_00003.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-demo-source/oc11-0-demo-source_00003.xml</destination>
+			<type>documentation-demo-source</type>
+			<uuidstructure>da68bcb8-f478-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>da68bcb9-f478-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 06 Dec 2018 08:31:18 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 30 Nov 2018 08:20:53 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content editor of element with meta information]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-demo-source/oc11-0-demo-source_00004.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-demo-source/oc11-0-demo-source_00004.xml</destination>
+			<type>documentation-demo-source</type>
+			<uuidstructure>5915a19f-f479-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>5915a1a0-f479-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 30 Nov 2018 08:29:09 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 30 Nov 2018 08:24:25 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter reading meta information]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-demo-source/oc11-0-demo-source_00005.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-demo-source/oc11-0-demo-source_00005.xml</destination>
+			<type>documentation-demo-source</type>
+			<uuidstructure>85d8c1c4-f938-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>85d8c1c5-f938-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 11:43:32 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 09:22:59 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter configuration of the first element]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-demo-source/oc11-0-demo-source_00006.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-demo-source/oc11-0-demo-source_00006.xml</destination>
+			<type>documentation-demo-source</type>
+			<uuidstructure>7a490d08-f939-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>7a490d09-f939-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 06 Dec 2018 10:45:09 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 09:29:49 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter configuration of the second element]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-demo-source/oc11-0-demo-source_00007.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-demo-source/oc11-0-demo-source_00007.xml</destination>
+			<type>documentation-demo-source</type>
+			<uuidstructure>d02cef52-f947-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>d02cef53-f947-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 06 Dec 2018 11:13:37 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 11:12:26 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Element settings of the second formatter]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -55292,6 +57092,126 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/demos/.content/documentation-html/oc11-0-html_00001.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-html/oc11-0-html_00001.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>478e4c88-f92e-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>478e4c89-f92e-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 10:33:21 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 08:09:39 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-html/oc11-0-html_00002.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-html/oc11-0-html_00002.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>b86e4fd5-f478-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>b86e4fd6-f478-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 04 Dec 2018 13:34:34 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 30 Nov 2018 08:19:56 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-html/oc11-0-html_00003.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-html/oc11-0-html_00003.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>42dc162c-f479-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>42dc162d-f479-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 10 Dec 2018 07:48:27 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 30 Nov 2018 08:23:48 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-html/oc11-0-html_00004.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-html/oc11-0-html_00004.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>7cefeab4-f47c-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>7cefeab5-f47c-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 05 Dec 2018 07:54:41 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 30 Nov 2018 08:46:54 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-html/oc11-0-html_00005.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-html/oc11-0-html_00005.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>0af1ccf1-f480-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>0af1ccf2-f480-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 04 Dec 2018 14:45:22 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Fri, 30 Nov 2018 09:12:21 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-html/oc11-0-html_00006.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-html/oc11-0-html_00006.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>2179edd9-f932-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>2179edda-f932-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 10:33:38 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 08:37:14 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-html/oc11-0-html_00007.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-html/oc11-0-html_00007.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>20fd0371-f937-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>20fd0372-f937-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Mon, 10 Dec 2018 08:27:38 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 09:13:00 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-html/oc11-0-html_00008.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-html/oc11-0-html_00008.xml</destination>
+			<type>documentation-html</type>
+			<uuidstructure>60547f5b-f945-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>60547f5c-f945-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 06 Dec 2018 15:03:56 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 06 Dec 2018 10:54:59 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/demos/.content/documentation-section</destination>
 			<type>folder</type>
 			<uuidstructure>edf184c8-1e07-11e4-a270-d9f74955ba1b</uuidstructure>
@@ -56165,6 +58085,86 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/demos/.content/documentation-section/oc11-0-section_00001.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-section/oc11-0-section_00001.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>ca237129-f3e9-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>ca23712a-f3e9-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 04 Dec 2018 08:54:59 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 29 Nov 2018 15:16:47 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demos - Result section]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-section/oc11-0-section_00002.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-section/oc11-0-section_00002.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>ca2a27ec-f3e9-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>ca2a27ed-f3e9-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 30 Nov 2018 14:12:51 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 29 Nov 2018 15:16:47 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demos: Example resources and the interesting spots]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-section/oc11-0-section_00003.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-section/oc11-0-section_00003.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>e4cf4923-f897-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>e4cf4924-f897-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 05 Dec 2018 14:13:09 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 05 Dec 2018 14:13:09 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demos - Result section]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-section/oc11-0-section_00004.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-section/oc11-0-section_00004.xml</destination>
+			<type>documentation-section</type>
+			<uuidstructure>e4d319b6-f897-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>e4d319b7-f897-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Wed, 05 Dec 2018 14:13:09 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 05 Dec 2018 14:13:09 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Demos: Example resources and the interesting spots]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/demos/.content/documentation-topic-row</destination>
 			<type>folder</type>
 			<uuidstructure>e26760cb-2922-11e4-8d36-d144f6bb3566</uuidstructure>
@@ -56834,6 +58834,54 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>opencms-documentation/demos/.content/documentation-topic/oc11-0-topic_00001.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-topic/oc11-0-topic_00001.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>ca1df2e7-f3e9-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>ca1df2e8-f3e9-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Tue, 04 Dec 2018 14:52:42 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 29 Nov 2018 15:16:47 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Keywords</name>
+					<value><![CDATA[demo, meta mappings, formatter configuraiton, meta tag, template JSP]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Meta mappings]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/.content/documentation-topic/oc11-0-topic_00002.xml</source>
+			<destination>opencms-documentation/demos/.content/documentation-topic/oc11-0-topic_00002.xml</destination>
+			<type>documentation-topic</type>
+			<uuidstructure>e4cbc6b1-f897-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>e4cbc6b2-f897-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 13:45:08 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 05 Dec 2018 14:13:09 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Keywords</name>
+					<value><![CDATA[demo, element settings, common element settings, formatter configuration]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Common element settings]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/demos/.galleries</destination>
 			<type>folder</type>
 			<uuidstructure>fa47029b-1e1d-11e4-8373-d9f74955ba1b</uuidstructure>
@@ -57431,6 +59479,60 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>opencms-documentation/demos/common-element-settings</destination>
+			<type>folder</type>
+			<uuidstructure>e4c2c5fb-f897-11e8-9605-0242ac11002b</uuidstructure>
+			<datelastmodified>Wed, 05 Dec 2018 16:08:08 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 05 Dec 2018 14:13:09 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.5]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Common element settings]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Common element settings]]></value>
+				</property>
+				<property type="shared">
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/common-element-settings/index.html</source>
+			<destination>opencms-documentation/demos/common-element-settings/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>e4d5b1c9-f897-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>e4d5b1ca-f897-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 11:43:41 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Wed, 05 Dec 2018 14:13:09 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[The OpenCms documentation, brought to you by Alkacon Software.]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Common element settings]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>opencms-documentation/demos/dependent-editor-fields</destination>
 			<type>subsitemap</type>
 			<uuidstructure>363f50e9-3e8c-11e4-b97e-578a14069906</uuidstructure>
@@ -57723,8 +59825,8 @@
 			<type>containerpage</type>
 			<uuidstructure>9625c7b3-1e07-11e4-a270-d9f74955ba1b</uuidstructure>
 			<uuidresource>9625c7b4-1e07-11e4-a270-d9f74955ba1b</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:22:08 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Tue, 04 Dec 2018 11:26:31 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
 			<datecreated>Thu, 07 Aug 2014 07:51:06 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -57865,8 +59967,8 @@
 			<type>containerpage</type>
 			<uuidstructure>3c1834b7-221e-11e4-9aa0-d9f74955ba1b</uuidstructure>
 			<uuidresource>3c1834b8-221e-11e4-9aa0-d9f74955ba1b</uuidresource>
-			<datelastmodified>Mon, 12 Jan 2015 10:22:08 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 29 Nov 2018 14:32:22 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
 			<datecreated>Tue, 12 Aug 2014 12:43:18 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -58561,6 +60663,60 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Article detail views]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/demos/meta_mappings</destination>
+			<type>folder</type>
+			<uuidstructure>ca0b2e31-f3e9-11e8-a09c-0242ac11002b</uuidstructure>
+			<datelastmodified>Thu, 29 Nov 2018 15:17:18 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 29 Nov 2018 15:16:47 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[9.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Meta mappings]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Meta mappings]]></value>
+				</property>
+				<property type="shared">
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/demos/meta_mappings/index.html</source>
+			<destination>opencms-documentation/demos/meta_mappings/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>ca2daa5f-f3e9-11e8-a09c-0242ac11002b</uuidstructure>
+			<uuidresource>ca2daa60-f3e9-11e8-a09c-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 06 Dec 2018 08:32:25 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Thu, 29 Nov 2018 15:16:47 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[The OpenCms documentation, brought to you by Alkacon Software.]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Meta mappings]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -59608,9 +61764,9 @@
 			<type>folder</type>
 			<uuidstructure>b8f4c9a5-4171-11e8-b5fd-0242ac11002b</uuidstructure>
 			<datelastmodified>Mon, 16 Apr 2018 12:29:00 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 16 Apr 2018 12:28:52 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -59636,9 +61792,9 @@
 			<uuidstructure>b90ac2af-4171-11e8-b5fd-0242ac11002b</uuidstructure>
 			<uuidresource>b90ac2b0-4171-11e8-b5fd-0242ac11002b</uuidresource>
 			<datelastmodified>Mon, 16 Apr 2018 12:32:54 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 16 Apr 2018 12:28:52 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -59792,9 +61948,9 @@
 			<type>folder</type>
 			<uuidstructure>94d657bd-66dd-11e7-921f-0242ac11002b</uuidstructure>
 			<datelastmodified>Wed, 12 Jul 2017 08:39:20 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Jul 2017 08:39:12 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -59820,9 +61976,9 @@
 			<uuidstructure>94f7e987-66dd-11e7-921f-0242ac11002b</uuidstructure>
 			<uuidresource>94f7e988-66dd-11e7-921f-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 12 Jul 2017 08:41:33 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Jul 2017 08:39:13 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -60276,9 +62432,9 @@
 			<type>folder</type>
 			<uuidstructure>a953e9e0-66d7-11e7-921f-0242ac11002b</uuidstructure>
 			<datelastmodified>Wed, 12 Jul 2017 07:56:59 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Jul 2017 07:56:50 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -60304,9 +62460,9 @@
 			<uuidstructure>aa29d78a-66d7-11e7-921f-0242ac11002b</uuidstructure>
 			<uuidresource>aa29d78b-66d7-11e7-921f-0242ac11002b</uuidresource>
 			<datelastmodified>Wed, 12 Jul 2017 08:30:39 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 12 Jul 2017 07:56:51 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -60326,9 +62482,9 @@
 			<type>folder</type>
 			<uuidstructure>79cf208e-4170-11e8-b5fd-0242ac11002b</uuidstructure>
 			<datelastmodified>Mon, 16 Apr 2018 12:20:08 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 16 Apr 2018 12:19:57 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -60354,9 +62510,9 @@
 			<uuidstructure>7a0f5de8-4170-11e8-b5fd-0242ac11002b</uuidstructure>
 			<uuidresource>7a0f5de9-4170-11e8-b5fd-0242ac11002b</uuidresource>
 			<datelastmodified>Mon, 16 Apr 2018 12:27:23 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Mon, 16 Apr 2018 12:19:57 GMT</datecreated>
-			<usercreated>dSeidel</usercreated>
+			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -60408,6 +62564,56 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[New in OpenCms 10.5]]></value>
+				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.opencms.documentation/templates/documentation-overview-template.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/introduction/new-in-opencms/new-in-opencms-11.0</destination>
+			<type>folder</type>
+			<uuidstructure>c60df786-f7dc-11e8-9605-0242ac11002b</uuidstructure>
+			<datelastmodified>Tue, 04 Dec 2018 15:55:04 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Tue, 04 Dec 2018 15:53:42 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[9.765625E-4]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[New in OpenCms 11.0]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[New in OpenCms 11.0]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/introduction/new-in-opencms/new-in-opencms-11.0/index.html</source>
+			<destination>opencms-documentation/introduction/new-in-opencms/new-in-opencms-11.0/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>c610688b-f7dc-11e8-9605-0242ac11002b</uuidstructure>
+			<uuidresource>c610688c-f7dc-11e8-9605-0242ac11002b</uuidresource>
+			<datelastmodified>Fri, 07 Dec 2018 15:19:37 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
+			<datecreated>Tue, 04 Dec 2018 15:53:42 GMT</datecreated>
+			<usercreated>fZeller</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[New in OpenCms 11.0]]></value>
 				</property>
 				<property>
 					<name>template</name>
@@ -60571,15 +62777,15 @@
 			<destination>opencms-documentation/introduction/new-in-opencms/new-in-opencms-9.5</destination>
 			<type>folder</type>
 			<uuidstructure>d05e1306-31c2-11e4-8511-d144f6bb3566</uuidstructure>
-			<datelastmodified>Mon, 12 Jan 2015 10:20:00 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Tue, 04 Dec 2018 15:54:58 GMT</datelastmodified>
+			<userlastmodified>fZeller</userlastmodified>
 			<datecreated>Mon, 01 Sep 2014 10:29:11 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[1.0]]></value>
+					<value><![CDATA[5.75]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
@@ -61648,7 +63854,7 @@
 			<uuidstructure>8dbb391e-3343-11e4-ae50-d144f6bb3566</uuidstructure>
 			<uuidresource>8dbb391f-3343-11e4-ae50-d144f6bb3566</uuidresource>
 			<datelastmodified>Wed, 12 Jul 2017 08:17:03 GMT</datelastmodified>
-			<userlastmodified>dSeidel</userlastmodified>
+			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 03 Sep 2014 08:23:16 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>

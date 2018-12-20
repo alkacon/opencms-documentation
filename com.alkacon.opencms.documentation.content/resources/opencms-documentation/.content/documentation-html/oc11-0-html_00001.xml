@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>To take a closer look on meta mappings of detail pages, we explain them on a concrete example.</p>
+<p>The formatter "Blog article detail view" shall be rendered on a detaiil page. We want to map the value of the field "Title" of our content element and call it in the header of the template under the&nbsp;<code>&lt;meta property="og:title"&gt;</code>-tag .&nbsp;</p>
+<p>In the tab called “Meta mappings” of the formatter configuration,&nbsp; you can add and configure a new meta mapping. The value in the "Key" field will be used to access the mapping, the "Path" field defines which value should be mapped.</p>
+<p>The formatter configuration looks as follows:</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

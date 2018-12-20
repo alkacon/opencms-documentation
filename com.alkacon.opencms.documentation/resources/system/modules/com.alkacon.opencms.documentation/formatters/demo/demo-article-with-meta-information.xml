@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[Demo article formatter: Meta mappings]]></NiceName>
+    <Type><![CDATA[documentation-demo-article]]></Type>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-with-meta-information.jsp]]></target>
+        <uuid>c342bc36-f47d-11e8-a09c-0242ac11002b</uuid>
+      </link>
+    </Jsp>
+    <Rank><![CDATA[1000]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[demo-content]]></ContainerType>
+      </Types>
+    </Match>
+    <AutoEnabled>true</AutoEnabled>
+    <SearchContent>true</SearchContent>
+    <StrictContainers>true</StrictContainers>
+    <Detail>false</Detail>
+    <AlwaysApplyMetaMappings>true</AlwaysApplyMetaMappings>
+    <Preview>false</Preview>
+    <MetaMapping>
+      <Key><![CDATA[MainTitle]]></Key>
+      <Element><![CDATA[Title]]></Element>
+    </MetaMapping>
+    <MetaMapping>
+      <Key><![CDATA[Description]]></Key>
+      <Element><![CDATA[MetaInfo/Description]]></Element>
+    </MetaMapping>
+    <MetaMapping>
+      <Key><![CDATA[Keywords]]></Key>
+      <Element><![CDATA[MetaInfo/Keywords]]></Element>
+    </MetaMapping>
+    <MetaMapping>
+      <Key><![CDATA[containsMeta]]></Key>
+      <Element><![CDATA[NonExistingPath]]></Element>
+      <Default><![CDATA[true]]></Default>
+    </MetaMapping>
+  </NewFormatter>
+</NewFormatters>

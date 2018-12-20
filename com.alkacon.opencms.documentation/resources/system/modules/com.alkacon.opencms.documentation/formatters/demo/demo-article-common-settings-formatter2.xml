@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[Demo article formatter: Shared element settings Part2]]></NiceName>
+    <Type><![CDATA[documentation-demo-article]]></Type>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.opencms.documentation/formatters/demo/demo-article-common-settings-formatter2.jsp]]></target>
+        <uuid>3a35c1e4-f89f-11e8-9605-0242ac11002b</uuid>
+      </link>
+    </Jsp>
+    <Rank><![CDATA[1000]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[demo-content]]></ContainerType>
+      </Types>
+    </Match>
+    <AutoEnabled>true</AutoEnabled>
+    <SearchContent>true</SearchContent>
+    <StrictContainers>true</StrictContainers>
+    <Detail>false</Detail>
+    <Preview>false</Preview>
+    <IncludeSettings>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.alkacon.opencms.documentation/formatters/demo/common-element-settings.xml]]></target>
+        <uuid>afa0f6e0-f894-11e8-9605-0242ac11002b</uuid>
+      </link>
+    </IncludeSettings>
+    <Setting>
+      <PropertyName><![CDATA[hideTitle]]></PropertyName>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[textLength]]></PropertyName>
+      <Default><![CDATA[500]]></Default>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[borderColour]]></PropertyName>
+      <Default><![CDATA[Red]]></Default>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[dateFormat]]></PropertyName>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[logoPosition]]></PropertyName>
+      <DisplayName><![CDATA[Position of the logo]]></DisplayName>
+      <Description><![CDATA[sets the position of the logo in relation to the text]]></Description>
+      <Widget><![CDATA[radio]]></Widget>
+      <Default><![CDATA[left]]></Default>
+      <WidgetConfig><![CDATA[       	left:To the left|       	right:To the right]]></WidgetConfig>
+    </Setting>
+  </NewFormatter>
+</NewFormatters>
