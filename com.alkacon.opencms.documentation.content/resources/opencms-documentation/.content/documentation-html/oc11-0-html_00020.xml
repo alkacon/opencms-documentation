@@ -3,13 +3,8 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links>
-        <link name="link0" internal="true" type="A">
-          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/widget-configuration/elaborated-xsd-annotation/]]></target>
-          <uuid>d346610c-fa2c-11e8-9605-0242ac11002b</uuid>
-        </link>
-      </links>
-      <content><![CDATA[<p>Since OpenCms 11.0 there is an <a href="%(link0)">elaborated annotation</a> for widget configurations in the XSD.</p>]]></content>
+      <links/>
+      <content><![CDATA[<p><span lang="en">Modern websites need to be able to handle images according to the used screen size to prevent unnecessarily large images on small devices. HTML5 provides the attribute "srcset" in the tag &lt;img&gt;, into which you insert a set of images from which the browser chooses the image with the appropriate resolution.</span> To manage an image on a full-responsive website, you have to create a set of images. Usu<span lang="en">ally, the image is scaled for five different screen sizes. In addition, these images must be available in double resolution to optimize them for devices with high resolution displays such as retina displays. </span><span lang="en">With OpenCms you can create these images in a few steps</span><span lang="en">.</span></p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

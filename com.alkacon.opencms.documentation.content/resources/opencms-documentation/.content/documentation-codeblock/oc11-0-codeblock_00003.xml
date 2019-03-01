@@ -4,9 +4,18 @@
   <DocumentationCodeBlock language="en">
     <ProgrammingLanguage><![CDATA[plain]]></ProgrammingLanguage>
     <Code><![CDATA[...
-    <layouts>
-       <layout element="Text" widget="TextareaWidget" configuration="5" />
-    </layouts>
+    <FieldSettings>
+           <Setting>
+                <PropertyName>FieldName</PropertyName>
+                <Option1>...<Option1>
+                <Option2>...<Option2>
+                ...
+           </Setting>
+           <Setting>
+                ...
+           </Setting>
+           ... 
+    </FieldSettings>
 ...]]></Code>
   </DocumentationCodeBlock>
 </DocumentationCodeBlocks>

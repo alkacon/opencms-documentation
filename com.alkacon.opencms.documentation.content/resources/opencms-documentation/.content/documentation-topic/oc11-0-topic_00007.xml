@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>Websites have to handle images flexibly and adapt them to the used screen size. The ImageBean enables you to access the information of an image and edit the image. Here we explain, how the ImageBean works and how you can use it to manipulate images</p>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>Get an overview of the image handling with the help of the ImageBean.</p>]]></content>
+    </Teaser>
+    <Keywords><![CDATA[imagebean, image scaling, sourceset]]></Keywords>
+    <InterestingFor><![CDATA[d_workplaceUser]]></InterestingFor>
+    <RelatedLinks>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/demos/image-sourceset/]]></target>
+            <uuid>439fb5e5-3039-11e9-827d-0242ac11002b</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Demo for creating a set of scaled images]]></LinkText>
+        <LinkDescription name="LinkDescription0">
+          <links/>
+          <content><![CDATA[<p>See how to create a set of multiple scaled versions of one image to use the one with the optimized resolution for the situation.</p>]]></content>
+        </LinkDescription>
+      </Link>
+    </RelatedLinks>
+    <StatusMetaData>
+      <Todos>
+        <Todo><![CDATA[Add content]]></Todo>
+      </Todos>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

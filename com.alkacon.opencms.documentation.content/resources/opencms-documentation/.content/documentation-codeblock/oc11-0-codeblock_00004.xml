@@ -2,14 +2,52 @@
 
 <DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
   <DocumentationCodeBlock language="en">
-    <Code><![CDATA[...
-  <FieldSettings>
-    <Setting>
-      <PropertyName>Text</PropertyName>
-      <Widget>TextareaWidget</Widget>
-      <WidgetConfig>5</WidgetConfig>
-    </Setting>
-  </FieldSettings>
+    <Code><![CDATA[...	
+		<xsd:sequence>
+			<xsd:element name="Headline" type="OpenCmsString" />
+			<xsd:element name="Selection" type="OpenCmsString" />
+			<xsd:element name="Teaser" type="OpenCmsString"/>
+			<xsd:element name="Text" type="OpenCmsHtml" />
+			...
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+                        ...
+			<FieldSettings>
+				<Setting>
+					<PropertyName>Headline</PropertyName>
+					<DisplayName>%(key.label.Headline)</DisplayName>
+					<RuleRegex>.+</RuleRegex>
+					<RuleType>Error</RuleType>
+					<Error>%(key.error.notempty)</Error>
+				</Setting>
+				<Setting>
+					<PropertyName>Selection</PropertyName>
+					<DisplayName>%(key.label.Selection)</DisplayName>
+					<Description>%(key.help.Selection)</Description>
+					<Widget>SelectorWidget</Widget>
+					<WidgetConfig>Option 1|Option 2|Option 3*</WidgetConfig>
+					<Display>singleline</Display>
+				</Setting>
+				<Setting>
+					<PropertyName>Teaser</PropertyName>
+					<Description>%(key.help.Teaser)</Description>
+					<Widget>TextareaWidget</Widget>
+					<WidgetConfig>4</WidgetConfig>
+					<Display>column</Display>
+				</Setting>
+				<Setting>
+					<PropertyName>Text</PropertyName>
+					<Widget>HtmlWidget</Widget>
+					<Default>%(key.default.Text)</Default>
+					<WidgetConfig>height:400px,link,anchor,source,formatselect</WidgetConfig> 
+					<Display>column</Display>
+				</Setting>
+			</FieldSettings>
+		</xsd:appinfo>
+	</xsd:annotation>
 ...]]></Code>
   </DocumentationCodeBlock>
 </DocumentationCodeBlocks>

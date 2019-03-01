@@ -5,17 +5,11 @@
     <Overview name="Overview0">
       <links>
         <link name="link0" internal="true" type="A">
-          <target><![CDATA[]]></target>
-          <anchor><![CDATA[metamappings_detailpage]]></anchor>
-        </link>
-        <link name="link1" internal="true" type="A">
           <target><![CDATA[/sites/default/opencms-documentation/demos/meta_mappings/]]></target>
           <uuid>ca0b2e31-f3e9-11e8-a09c-0242ac11002b</uuid>
         </link>
       </links>
-      <content><![CDATA[<p>With a smart configuration of your meta information you can optimize the search engine behaviour of your website. Furthermore, with the help of the open graph meta tags and Twitter Card tags you are able to give your pages individual appearance on social media sites when they are shared.</p>
-<p>For that, OpenCms provides meta mapping, you simply define in your content editor which information should be mapped. This eases for example the adding of metadata <a title="A simple example" href="%(link0)">to the head of your detail pages</a>.&nbsp;Here, the required information for the meta-tags is automatically generated from the content and can be transferred to the header of the page.</p>
-<p>Since the meta mappings are executed before the JSP is rendered, you can call the meta information of your content from any point of the same page. To gain a better understanding of this situation, see the demonstration <a title="A demonstration of meta mappings" href="%(link1)">here</a>.</p>]]></content>
+      <content><![CDATA[<p>Meta mappings, introduced in OpenCms 11, allow you to map information, specified in the content editor, to another element or the template of your site. Since the meta mappings are executed before the JSP is rendered, you can call the meta information of your content from any point of the same page. You simply define in your content editor which information should be mapped. This eases for example the adding of metadata to the head of your detail pages.&nbsp;Here, the required information for the meta-tags is automatically generated from the content and can be transferred to the header of the page.&nbsp;To gain a better understanding of this situation, see the demonstration <a title="A demonstration of meta mappings" href="%(link0)">here</a>.</p>]]></content>
     </Overview>
     <Keywords><![CDATA[website creation, templating, template jsp, meta tag, meta mappings, detail pages, header]]></Keywords>
     <InterestingFor><![CDATA[c_developer,d_workplaceUser]]></InterestingFor>
@@ -38,26 +32,6 @@
             </link>
           </URI>
           <LinkText><![CDATA[Further information on SEO]]></LinkText>
-        </Link>
-      </LinkList>
-      <LinkList>
-        <Title><![CDATA[Meta-tags in short]]></Title>
-        <Link>
-          <URI>
-            <link internal="false" type="WEAK">
-              <target><![CDATA[https://developers.facebook.com/docs/sharing/webmasters/]]></target>
-              <anchor><![CDATA[markup]]></anchor>
-            </link>
-          </URI>
-          <LinkText><![CDATA[Open Graph Tags - facebook for developers]]></LinkText>
-        </Link>
-        <Link>
-          <URI>
-            <link internal="false" type="WEAK">
-              <target><![CDATA[https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/markup.html]]></target>
-            </link>
-          </URI>
-          <LinkText><![CDATA[Cards Markup Tag - twitter for developers]]></LinkText>
         </Link>
       </LinkList>
     </RelatedLinks>

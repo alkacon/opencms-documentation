@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Fieldsettings</p>
+<ul>
+<li>allow to explicitly specify message keys for the localization of editor fields and the help texts (via<code>&lt;DisplayName&gt;</code>&nbsp;and <code>&lt;Description&gt;</code>). Hence, you can share the same localizations in various schemas, which was formerly not possible.<span class="footnote">Which has also the advantage that you can use the same schema type names in several XSDs without getting into conflicts concerning localization.</span></li>
+<li>unify the configuration syntax for editor fields and element settings in formatter configurations</li>
+<li>group the configuration options in an easily reusable way.</li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

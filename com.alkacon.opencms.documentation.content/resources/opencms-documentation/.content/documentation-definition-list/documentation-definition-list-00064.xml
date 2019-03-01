@@ -27,6 +27,13 @@
       </Description>
     </Entry>
     <Entry>
+      <Term><![CDATA[Description]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Description of the formatter. It is shown in the element settings of a content when hovering over the question mark next to the chosen formatter.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
       <Term><![CDATA[Rank]]></Term>
       <Description name="Description0">
         <links/>
@@ -42,20 +49,6 @@
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Use for preview]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Resources can be previewed in the "Add wizard" or in the workplace's explorer. Check this option if the formatter should be used for such previews.</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
-      <Term><![CDATA[Search content]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>If a resource is added to a page, its content may or may not be indexed for the page. If this option is checked and the resource is searchable at all, the page where it is placed will be found when you search for content of that type. </p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
       <Term><![CDATA[Enabled]]></Term>
       <Description name="Description0">
         <links/>
@@ -63,10 +56,46 @@
       </Description>
     </Entry>
     <Entry>
+      <Term><![CDATA[Search content in container page]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If a resource is added to a page, its content may or may not be indexed for the page. If this option is checked and the resource is searchable at all, the page where it is placed will be found when you search for content of that type. </p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Remove unused nested containers]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If checked, nested containers exposed by the formatter, but not rendered on a container page anymore, are deleted when the container page is stored.</p>
+<p>Example: You have a row formatter that is configured to have four columns, each exposes a nested container. Now you reconfigure the row to have only three columns and save the container page where the row is displayed on. Then the information on the container of the fourth column is removed in the container page exactly if the option is set.</p>
+<p>It is called "Use strict containers" before OpenCms 11.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
       <Term><![CDATA[Use as detail formatter]]></Term>
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>If checked, the formatter can be used when the resource is rendered in detail view.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Always apply meta mappings]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/meta-mappings/]]></target>
+            <uuid>97783758-f2f4-11e8-a09c-0242ac11002b</uuid>
+            <anchor><![CDATA[MetaMappings_Options]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>If unchecked, the meta mappings are applied only if that formatter is used on a detail page. See <a href="%(link0)">here</a> for details.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Show element settings in content editor]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If checked, an extra tab is added in the content editor, which allows you to edit the ellement settings there.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -83,18 +112,10 @@
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Contains nested containers]]></Term>
+      <Term><![CDATA[Use for preview]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Check this option if the formatter introduces a nested container.</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
-      <Term><![CDATA[Use strict containers]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>If checked, nested containers exposed by the formatter, but not rendered on a container page anymore, are deleted when the container page is stored.</p>
-<p>Example: You have a row formatter that is configured to have four columns, each exposes a nested container. Now you reconfigure the row to have only three columns and save the container page where the row is displayed on. Then the information on the container of the fourth column is removed in the container page exactly if the option is set.</p>]]></content>
+        <content><![CDATA[<p>Resources can be previewed in the "Add wizard" or in the workplace's explorer. Check this option if the formatter should be used for such previews.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -118,7 +139,14 @@
             <uuid>6c12ef88-1bdd-11e4-bfa5-b7bfd6088c56</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>Add formatter-specific JavaScript here. See <a href="%(link0)">here</a> for details.</p>]]></content>
+        <content><![CDATA[<p>Add formatter-specific JavaScript here. See&nbsp;<a href="%(link0)">here</a> for details.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Contains nested containers]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p><em>Check this option if the formatter introduces a nested container. Does not appear anymore since OpenCms 11.</em></p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>

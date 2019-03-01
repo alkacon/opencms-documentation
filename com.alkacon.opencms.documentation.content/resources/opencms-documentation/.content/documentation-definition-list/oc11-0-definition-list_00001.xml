@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[PropertyName]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The name of the content field. This element is required.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[DisplayName]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The user-readable name of the field, which is displayed next to the field in the editor.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Description]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The user-readable help text for the field. This is used for tooltips.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Widget]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/widget-configuration/]]></target>
+            <uuid>a8badf1f-489a-11e4-8008-336f7b60f7b1</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The widget to use for the field. Widget name are defined in the <code>opencms-vfs.xml</code> configuration file. For further information see&nbsp;<a href="%(link0)">widget configuration</a>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Default]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The default value for the field.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[DefaultResolveMacros]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/mappings-and-defaults-with-macros/]]></target>
+            <uuid>9c7ffd7e-290b-11e4-86cf-f33727103161</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Boolean value that controls whether macros int the <code>&lt;Default&gt;</code> configuration option will be expanded when the default value is being filled in. See also&nbsp;<a href="%(link0)">defaults with macros.</a> Default ist <code>true</code>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[WidgetConfig]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/widget-configuration/]]></target>
+            <uuid>a8badf1f-489a-11e4-8008-336f7b60f7b1</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The configuration string for the widget.&nbsp;For further information see&nbsp;<a href="%(link0)">widget configuration</a>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[RuleRegex]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The regular expression used to validate the field.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[RuleType]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Can be <code>error</code> or <code>warning</code>. This determines whether failure to vaidate the field using the given <code>RuleRegex</code> should be displayed as an error or warning.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Error]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The error or warning message to display when validation using the given <code>RuleRegex</code> fails.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Relation]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Used to specify the relation type for file-valued fields. This element can contain two sub-elements:</p>
+<ul>
+<li><code>Type</code> Specifies the relation type, <code>weak</code> or <code>strong</code></li>
+<li><code>Invalidate</code> Boolean value that specifies how an invalid link in the field should be handled. The value <code>true</code> means that the field will be removed, the value <code>parent</code> means that the nested content containing the field will be removed.</li>
+</ul>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Search]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/search-settings/]]></target>
+            <uuid>bb7a2160-65a5-11e4-9296-005056b61161</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Used to specify how this field should be treated during indexing. This option does not have the full flexibility of the <code>&lt;searchsettings&gt;</code> configuration. Possible values are</p>
+<ul>
+<li><code>true</code> The field should be included in the content fields of the indexed document. This is default.</li>
+<li><code>false</code> The field should not be included in the content fields of the indexed document.</li>
+<li><code>listdate</code>, <code>listorder</code>, <code>listtitle</code> Shortcuts for some specialized search setting configurations. See src/org/opencms/xml/content/simple-searchsetting-configs.st in the opencms-core project for the standard search setting configuration.</li>
+</ul>
+<p>This option covers most use cases, but not all the options available via the&nbsp;<code>&lt;searchsettings&gt;</code> configuration node as described&nbsp;<a href="%(link0)">here</a>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Visibility]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/hiding-schema-elements/]]></target>
+            <uuid>1ee44df5-494f-11e4-bf16-336f7b60f7b1</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Simple option for setting the visibility for this field. When this is used, the content handler is used as the visibility handler for this field and the content of this element is passed as a parameter. Here you can see how to <a href="%(link0)">hide schema elements in the content editor</a>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[FieldVisibilitiy]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/hiding-schema-elements/]]></target>
+            <uuid>1ee44df5-494f-11e4-bf16-336f7b60f7b1</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>More flexible version of <code>Visibiity</code> that also allows giving a custom visibility handler class name. Sub-elements&nbsp; are:</p>
+<ul>
+<li><code>Class</code> The class name of the visibility handler.</li>
+<li><code>Params</code> The parameters for the visibility handler.</li>
+</ul>
+<p>Here you can see how to <a href="%(link0)">hide schema elements in the content editor</a>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Mapping]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/mappings-and-defaults-with-macros/]]></target>
+            <uuid>9c7ffd7e-290b-11e4-86cf-f33727103161</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Allows the value of the field to be mapped to something else like properties or the URL name. This element can be used multiple times to define different mappings for the same field. This element contains two sub-elements:</p>
+<ul>
+<li><code>MapTo</code> The target of the mapping. The most important values are:</li>
+</ul>
+<ul style="list-style-type: circle;">
+<li><code>property:PropName</code> the field value will be mapped to the PropName property.</li>
+<li><code>urlName</code> the field value will be used as the URL name for generating detail page links to the content.</li>
+<li><code>galleryName</code> the field value should be used as the title for displaying search results in the gallery dialog.</li>
+</ul>
+<ul>
+<li><code>UseDefault</code> Boolean value. If <code>true</code>, the default value for this field should be mapped to the given target if the field does not exist.</li>
+</ul>
+<p>See also&nbsp;<a href="%(link0)">Mappings</a>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[NestedFormatter]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Boolean value that indicates that the field contains the references to the nested formatters used by this content element.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Display]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Display style for the field in the content editor. Possible values are <code>column</code>, <code>wide</code>, <code>singleline</code> and <code>none</code>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Synchronization]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/language-independent-values/]]></target>
+            <uuid>b6465567-32a6-11e4-84a4-d144f6bb3566</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Boolean value that indicates whether changes to this field should be synchronized to other locales when editing the content. Read more about <a href="%(link0)">synchronization</a>. Default is <code>false</code>.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>
