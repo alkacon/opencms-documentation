@@ -35,8 +35,8 @@ import org.opencms.file.CmsObject;
 import org.opencms.file.CmsResource;
 import org.opencms.main.OpenCms;
 import org.opencms.ui.I_CmsDialogContext;
+import org.opencms.ui.contextmenu.CmsMenuItemVisibilityMode;
 import org.opencms.ui.contextmenu.I_CmsContextMenuItem;
-import org.opencms.workplace.explorer.menu.CmsMenuItemVisibilityMode;
 
 import java.util.List;
 import java.util.Locale;
@@ -54,6 +54,7 @@ public class ExampleHelloContextMenuItem implements I_CmsContextMenuItem {
      * @param parentId the id of the parent context menu item.
      */
     public ExampleHelloContextMenuItem(String parentId) {
+
         m_parentId = parentId;
     }
 
