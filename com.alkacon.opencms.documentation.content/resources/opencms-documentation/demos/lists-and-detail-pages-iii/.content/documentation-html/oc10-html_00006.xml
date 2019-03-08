@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://documentation.opencms.org/javadoc/tld/]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://documentation.opencms.org/javadoc/tld/]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>The second interesting tag in the example is <code>&lt;cms:display&gt;</code>. The tag simply renders the resource, whose structure id (that is read via <code>${result.fields['id']}</code>) is provided via the attribute <code>value</code>. For rendering, it uses the formatters that are specified via the <code>displayFormatters</code> attribute for the specific types of content that should be rendered. Using <code>displayFormatters</code> really several formatters for different types can be provided. Setting <code>editable</code>, <code>delete</code> and <code>create</code> to <code>true</code> enables the edit, delete and the create options at the rendered element. The tag also passes settings to the display formatters via the nested <code>&lt;cms:parameter&gt;</code> tags. Note that we kind of "make up" element settings by just passing a parameter, e.g., "index". It has even more options. Have a look at the <a href="%(link0)">taglib documentation</a> to get an overview.</p>
+<p>The last interesting spot in the example is the use of <code>&lt;cms:edit&gt;</code>. The tag allows to display an edit point at any HTML snippet. Here we use it to generate an "add option" for resources of the types specified in the list content, i.e., the type <code>documentation-demo-article</code> in the example. The tag has more options. Have a look at the <a href="%(link1)">taglib documentation</a> to get an overview.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

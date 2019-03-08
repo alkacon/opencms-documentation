@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[detail page]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The page that is configured to show the detailed prepresentation of contents. We mean the one container page to use for rendering the detail view of a content. E.g., the container page under URL "/detail-page/".</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[detail view]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The detail view of a content is the "virtual page" that shows the content on the configured detail page. E.g., the detail view of the news "OpenCms is great" would be the "virtual page" under URL "/detailpage/opencms-is-great/".</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[detail content]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The content shown in the detail view is called detail content. E.g., on the detail view of the news "OpenCms is great", this news is called the detail content.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[detail formatter]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The formatter to display the detail content. A formatter has to be marked as detail formatter in the formatter configuration.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[attachment / detail-only content]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>A content added at the detail view of another content. It is attached to that content and shown only on the detail view of that content. Moreover it can be accessed in the content's formatter via special JSP API methods.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[detail container]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The container where the detail content is rendered in the detail view. The <code>&lt;cms:container&gt;</code>-tag rendering it has the attribute <code>detailview="true"</code>.&nbsp; If the detail page is called directly, i.e., without detail content, it behaves like a normal container.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[attachment or detail-only container]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>A container only shown on detail views. Elements in this container are related to the detail content directly and stored in specific container pages. The <code>&lt;cms:container&gt;</code>-tag rendering the container has the attribute <code>detailonly="true"</code>.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

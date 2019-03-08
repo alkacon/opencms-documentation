@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/element-settings/common-element-settings/]]></target>
+          <uuid>0164bac7-f8a9-11e8-9605-0242ac11002b</uuid>
+        </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/element-settings/special-options-for-display-formatters/]]></target>
+          <uuid>b5658b3f-4184-11e9-9d3e-0242ac11002b</uuid>
+        </link>
+        <link name="link2" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/element-settings/]]></target>
+          <uuid>9b6e3354-4007-11e9-9d3e-0242ac11002b</uuid>
+          <anchor><![CDATA[settings_in_content_editor]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>Besides the configuration of element settings explained here, you might be interested in:</p>
+<ul>
+<li><a href="%(link0)">Using common element settings just included for various formatter configurations.</a></li>
+<li><a href="%(link1)">Showing element settings of display formatters with the settings of the list, showning the contents.</a></li>
+</ul>
+<p>Moreover, <a href="%(link2)">above</a> a feature to show element settings in the content editor is mentioned. It is configured in the formatter configuration's first tab by checking the option "Show element settings in the content editor".</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

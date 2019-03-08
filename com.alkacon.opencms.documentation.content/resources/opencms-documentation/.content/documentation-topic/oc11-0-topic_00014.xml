@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>Element settings allow editors to change how contents are displayed. If a content is dropped directly to the page, a dialog for the element settings is available. But, if the content gets to the page indirectly, typically when collected in a list that is dopped to the page, the element settings can't be edited directly at the content.</p>
+<p>With OpenCms 11 you can display the settings of a display formatter with the list that collects the rendered content. Several options are available.</p>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>OpenCms 11 allows to display element settings of display formatters with the lists element options that uses this formatter.</p>]]></content>
+    </Teaser>
+    <Keywords><![CDATA[content, formatter configuration, element settings]]></Keywords>
+    <InterestingFor><![CDATA[c_developer]]></InterestingFor>
+    <RelatedLinks>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/demos/lists-and-detail-pages-iii/]]></target>
+            <uuid>bd5d897c-3e45-11e9-9d3e-0242ac11002b</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Demo of a list using the special element settings]]></LinkText>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/element-settings/]]></target>
+            <uuid>9b6e3354-4007-11e9-9d3e-0242ac11002b</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[More information on element settings in general]]></LinkText>
+      </Link>
+    </RelatedLinks>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

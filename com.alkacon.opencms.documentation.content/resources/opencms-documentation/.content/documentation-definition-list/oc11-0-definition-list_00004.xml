@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Lists app: Management view toolbar options]]></Title>
+    <Heading><![CDATA[Toolbar options]]></Heading>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[Publish]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_big/publishBigIconActive.png]]></target>
+          <uuid>7bb2098c-02bc-11e4-8167-1305b26fecac</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Opens the publish dialog in direct publish mode to publish changes at the list configuration and at contents displayed by the list.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Edit]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_big/editBigIconActive.png]]></target>
+          <uuid>7b922530-02bc-11e4-8167-1305b26fecac</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Edit the list configuration in the form-based editor.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Info]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_big/elementsBigIcon.png]]></target>
+          <uuid>7b958098-02bc-11e4-8167-1305b26fecac</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Open the info dialog for the list configuration, e.g., to see where the list is used.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

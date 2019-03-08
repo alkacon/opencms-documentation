@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspContentAccessBean.html]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>Attached contents are conceptually treated like parts of the content itself. Hence:</p>
+<ul>
+<li>They are indexed with the content, i.e., you are able to find the content even if you search for a word present only in an attachement</li>
+<li>Attachments are treated as related contents when the detail content is published</li>
+<li>The <a href="%(link0)">CmsJspContentAccessBean</a> provides special methods to access attachments.</li>
+</ul>
+<p>You may think of attachments as a way to add information to your content without altering the schema. And in the same manner as editing the content itself when adding an attachment.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

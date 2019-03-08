@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>If you use mappings of type "urlName" to determine the content specific URL part, this part might change when you change the mapped value, e.g., you alter the title of your news. Now, what should happen? The link to the "old" nice URL might be sent to some person or indexed by a search engine, hence it might be inappropriate to delete it. On the other hand, the link that is adjusted to the new value would be "nicer".</p>
+<p>By default, OpenCms handles the old and the new nice URL and takes you to the same contents detail view. If you want to get rid of the outdated nice URL, you can set the property <code>urlname.replace</code> to <code>true</code> at the content itself of a parent folder of it. Then, the old nice URL will be removed and only the updated one will work when the content is published.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

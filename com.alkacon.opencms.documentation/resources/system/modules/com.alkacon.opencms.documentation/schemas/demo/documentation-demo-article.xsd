@@ -22,18 +22,43 @@
 			<xsd:element name="MetaInfo" type="OpenCmsDocumentationMetaInfo" minOccurs="0" />
 			<xsd:element name="Script" type="OpenCmsString" minOccurs="0" />
 			<xsd:element name="PDF" type="OpenCmsVfsFile" minOccurs="0" />
+			<xsd:element name="Order" type="OpenCmsString" minOccurs="0" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="optional" />
 	</xsd:complexType>
 
 	<xsd:annotation>
 		<xsd:appinfo>
-			<layouts>
-				<layout element="Script" widget="TextareaWidget" configuration="10" />
-			</layouts>
-			<mappings>
-				<mapping element="Title" mapto="urlName" />
-			</mappings>
+			<FieldSettings>
+				<Setting>
+					<PropertyName>Title</PropertyName>
+					<Search>listtitle</Search>
+					<Mapping>
+                       <MapTo>property:Title</MapTo>
+                       <UseDefault>true</UseDefault>
+                    </Mapping>
+                    <Mapping>
+                        <MapTo>urlName</MapTo>
+                        <UseDefault>true</UseDefault>
+                    </Mapping>
+				</Setting>
+				<Setting>
+					<PropertyName>Date</PropertyName>
+					<Search>listdate</Search>
+				</Setting>
+				<Setting>
+					<PropertyName>Script</PropertyName>
+					<Widget>textarea</Widget>
+					<WidgetConfig>10</WidgetConfig>
+				</Setting>
+				<Setting>
+					<PropertyName>Order</PropertyName>
+                    <RuleRegex>^[-+]?\d+$</RuleRegex>
+                    <RuleType>error</RuleType>
+                    <Error><![CDATA[Please provide a valid integer.]]></Error>
+					<Search>listorder</Search>
+				</Setting>
+			</FieldSettings>
 		</xsd:appinfo>
 	</xsd:annotation>
-</xsd:schema>	  
+</xsd:schema>

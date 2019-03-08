@@ -9,22 +9,42 @@
           <uuid>c0625fc8-1bcf-11e4-bfa5-b7bfd6088c56</uuid>
         </link>
       </links>
-      <content><![CDATA[<p>OpenCms 10 introduces a new way to build lists. The example shows the three new features that ease the creation of editable lists:</p>
+      <content><![CDATA[<p>OpenCms 11 introduces a list content type already shipped with the core. The example shows the main features that ease the creation of editable lists:</p>
 <ul>
-<li>Content collection via <code>&lt;cms:search&gt;</code></li>
-<li>Formatting of list entries with "normal" <a href="%(link0)">formatters</a> via <code>&lt;cms:display&gt;</code></li>
+<li>Content collection via the list type and the use of&nbsp; <code>&lt;cms:simplesearch&gt;</code></li>
+<li>Formatting of list entries with display <a href="%(link0)">formatters</a> via <code>&lt;cms:display&gt;</code></li>
 <li>A create option for the empty list via <code>&lt;cms:edit&gt;</code></li>
+<li>The integration of display formatter element settings into the element settings dialog of the list.</li>
+<li>The "Lists" workplace app to manage the contents in the list.</li>
 </ul>
-<p>The list formatter is kept simple. Typically, it would facilitate pagination, dynamic content reloading and a like. Moreover, for a list in a productive site, changing the sort order should only re-render the list itself, not the whole page. A more elaborate example for an editable list is found in the Apollo demo, shipped with OpenCms 10 (see blog entries and events).</p>
-<p>Using <code>&lt;cms:search&gt;</code> for the collecting contents provides the full power of the Solr search engine. Thus, it can be featured with facets, full text search, sorting etc. In the example, we only implement a sort option.</p>]]></content>
+<p>The list formatter is kept simple, only showing parts of the available options (sorting and pagination). It could also facilitate facetting and a search option. Moreover, on a productive system the list content would dynamically reload on change, i.e., changing the sort order or the currently displayed page should only re-render the list itself, not the whole page. A more elaborate example for an editable list is found in the demo template, shipped with OpenCms (version 11 and later).</p>
+<p>The example can only cover parts of the features. Have a look at the related topics if you require more detailed information.</p>]]></content>
     </Overview>
     <Teaser name="Teaser0">
       <links/>
-      <content><![CDATA[<p>OpenCms 10 introduces a new way to build (editable) lists in a simple and very flexible manner. Here's an example providing a first impression of the new technique.</p>]]></content>
+      <content><![CDATA[<p>Since OpenCms 11 (editable) lists can be build with an integrated list type that allows for simple configuration and covers the most relevant features that are of interest when building lists of contents, e.g., for news, blog articles or events.</p>]]></content>
     </Teaser>
     <Keywords><![CDATA[demo, collector, list, detail page]]></Keywords>
     <InterestingFor><![CDATA[c_developer]]></InterestingFor>
     <RelatedLinks>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/lists-and-detail-pages/building-lists/lists-with-the-integrated-list-type/]]></target>
+            <uuid>e6d2b7de-3c20-11e9-9d3e-0242ac11002b</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[More information on using the integrated list type]]></LinkText>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/lists/]]></target>
+            <uuid>c2c685df-3fed-11e9-9d3e-0242ac11002b</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[The lists workplace app]]></LinkText>
+      </Link>
       <Link>
         <URI>
           <link internal="false" type="WEAK">
@@ -34,28 +54,17 @@
         <LinkText><![CDATA[Taglib documentation]]></LinkText>
         <LinkDescription name="LinkDescription0">
           <links/>
-          <content><![CDATA[<p>Find detailed descriptions of the tags <code>&lt;cms:search&gt;</code>, <code>&lt;cms:display&gt;</code> and <code>&lt;cms:edit&gt;</code>.</p>]]></content>
-        </LinkDescription>
-      </Link>
-      <Link>
-        <URI>
-          <link internal="true" type="WEAK">
-            <target><![CDATA[/sites/default/opencms-documentation/.galleries/Documentation-Documents-for-download/cms-search-config-full.json]]></target>
-            <uuid>d34e434a-e78f-11e6-810f-0242ac11002b</uuid>
-          </link>
-        </URI>
-        <LinkText><![CDATA[Complete JSON configuration example for &lt;cms:search&gt;]]></LinkText>
-        <LinkDescription name="LinkDescription0">
-          <links/>
-          <content><![CDATA[<p>An example JSON configuration containing all currently available options. Descriptions of the options you get from the XML configuration content that essentially contains the same options.</p>]]></content>
+          <content><![CDATA[<p>Find detailed descriptions of the tags <code>&lt;cms:simplesearch&gt;</code>, <code>&lt;cms:display&gt;</code> and <code>&lt;cms:edit&gt;</code>.</p>]]></content>
         </LinkDescription>
       </Link>
     </RelatedLinks>
-    <NewInVersion><![CDATA[10.0]]></NewInVersion>
-    <NewInDocuVersion><![CDATA[10.0]]></NewInDocuVersion>
-    <RevisedForVersion><![CDATA[10.0]]></RevisedForVersion>
+    <NewInVersion><![CDATA[11.0]]></NewInVersion>
+    <NewInDocuVersion><![CDATA[11.0]]></NewInDocuVersion>
+    <RevisedForVersion><![CDATA[11.0]]></RevisedForVersion>
     <StatusMetaData>
-      <Todos/>
+      <Todos>
+        <Todo><![CDATA[Add related links]]></Todo>
+      </Todos>
     </StatusMetaData>
   </AlkaconDocumentationTopicFrame>
 </AlkaconDocumentationTopicFrames>

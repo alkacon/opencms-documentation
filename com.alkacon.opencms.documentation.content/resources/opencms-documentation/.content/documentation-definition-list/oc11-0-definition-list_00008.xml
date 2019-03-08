@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Heading><![CDATA[Visibility options for element settings]]></Heading>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[element]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The default option. The setting is only shown when the formatted element is dropped directly at the page.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[elementAndParentShared]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The setting is shown if the formatted element is directly dropped to the page and with the element settings of the list like a native setting of the list.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[elementAndParentIndividual]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The setting is shown if the formatted element is directly dropped to the page and with the element settings of the list, but in an extra section in the settings dialog.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[parentShared]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The setting is not shown if the formatted element is directly dropped to the page, but with the element settings of lists like a native list setting.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[parentIndividual]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The setting is only shown with the list's settings, but in an extra section in the settings dialog.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

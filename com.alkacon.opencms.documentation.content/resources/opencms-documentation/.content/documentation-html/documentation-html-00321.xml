@@ -4,7 +4,7 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>In some cases you may want to add related content to a detail view of a news article (this may also be any other content type displayed using content collector lists, to keep it simple we call this type ‘news’). The related content may be a photo gallery or something that you want to place in a side column. Since OpenCms 9 this is possible to use detail-only containers for such purposes. These containers will only be rendered in case the template is used for a detail view and the contained elements will be individual for each news item.</p>
+      <content><![CDATA[<p>In some cases you may want to add related content to a detail view of a content. The related content may be an image gallery or something alike. Since OpenCms 9 this is possible to use detail-only containers for such purposes. These containers will only be rendered in case the template is used for a detail view and the contained elements will be individual for each content item.</p>
 <p>To use this feature, place additional container tags into your template with the attribute <code>detailonly</code> set to <code>true</code> like this:</p>]]></content>
     </Html>
   </DocumentationHtml>

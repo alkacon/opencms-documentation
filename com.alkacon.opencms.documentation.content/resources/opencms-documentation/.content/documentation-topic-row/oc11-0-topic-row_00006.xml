@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationTopicrows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic-row.xsd">
+  <DocumentationTopicrow language="en">
+    <Title><![CDATA[Lists as recommended in OpenCms 10 and 11]]></Title>
+    <Description name="Description0">
+      <links/>
+      <content><![CDATA[<p>In OpenCms 10 the tag &lt;cms:search&gt; was introduced to collect content using the Solr index and thus having a universal, powerful tool for advanced query options. Moreover, the collection and iteration over search results was separated and display formatters for rendering the found contents where introduced.</p>
+<p>Due to the complexity of &lt;cms:search&gt; a simplified version &lt;cms:simpleSearch&gt; was introduced in OpenCms 11. It interacts with a "list" resource type where you can easily configure your list. Even a specific workplace app for list management is introduced.</p>]]></content>
+    </Description>
+    <Item>
+      <Headline><![CDATA[Lists with the list content introduced in OpenCms 11]]></Headline>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/lists-and-detail-pages/building-lists/lists-in-opencms-11/]]></target>
+            <uuid>e6d2b7de-3c20-11e9-9d3e-0242ac11002b</uuid>
+          </link>
+        </PageLink>
+      </Topic>
+    </Item>
+    <Item>
+      <Headline><![CDATA[An example using the integrated list content type]]></Headline>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/demos/lists-and-detail-pages-iii/]]></target>
+            <uuid>bd5d897c-3e45-11e9-9d3e-0242ac11002b</uuid>
+          </link>
+        </PageLink>
+      </Topic>
+    </Item>
+    <Item>
+      <Headline><![CDATA[An example using <cms:search> to create a list]]></Headline>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/demos/lists-and-detail-pages-ii/]]></target>
+            <uuid>9e541dcf-eb4d-11e5-b021-0242ac11002b</uuid>
+          </link>
+        </PageLink>
+      </Topic>
+    </Item>
+  </DocumentationTopicrow>
+</DocumentationTopicrows>

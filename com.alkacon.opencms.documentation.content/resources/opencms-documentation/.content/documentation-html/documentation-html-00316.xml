@@ -9,7 +9,12 @@
           <uuid>40522cc2-18b2-11e4-8e8b-b7bfd6088c56</uuid>
         </link>
       </links>
-      <content><![CDATA[<p>If detail pages are allowed for a special resource type or not can be configured in <a href="%(link0)">the module or the sitemap configuration</a>. Furthermore, the content-specific URL part can be configured and the template of detail pages must be configured adequately.</p>]]></content>
+      <content><![CDATA[<p>If detail pages can be added for a special content type or not can be configured in <a href="%(link0)">the module or the sitemap configuration</a>:</p>
+<ul>
+<li>In the <strong>module or sitemap configuration</strong>, open the tab "Content elements"</li>
+<li>Add or edit the "Content element configuration" for your content type</li>
+<li>Select or deselect the option "<strong>Detail pages disabled</strong>"</li>
+</ul>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

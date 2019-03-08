@@ -9,9 +9,9 @@
           <uuid>017a27d0-22c2-11e4-8f7a-d9f74955ba1b</uuid>
         </link>
       </links>
-      <content><![CDATA[<p>Content items like news or events are usually displayed using detail pages. This way you don’t need to create a separate page for each and every new content item; but all content items of a specific resource type can be displayed using the same page arrangement. ‘Detail pages’ can be created with the sitemap editor for all configured resource types. In addition this concept allows you to generate human readable URLs for contents that are not dropped onto a container page but created in the <code>/.content/</code> directory automatically, e.g., when using the “create” option of collectors or creating content via drag &amp; drop.</p>
+      <content><![CDATA[<p>For content items like news or events usually a detail page is configured to display the most detailed information of the content. With detail pages, you don’t need to create a separate page for each and every new content item; but all content items of a specific resource type can be displayed using the same page arrangement. Detail pages can be created with the sitemap editor for all configured resource types.</p>
 <ul>
-<li><a href="%(link0)" target="_blank">Here's a detail page demo</a></li>
+<li><a href="%(link0)" target="_blank" rel="noopener">Here's a detail page demo</a></li>
 </ul>]]></content>
     </Html>
   </DocumentationHtml>

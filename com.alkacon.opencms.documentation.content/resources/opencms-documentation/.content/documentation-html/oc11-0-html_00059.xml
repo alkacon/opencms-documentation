@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[https://github.com/alkacon/opencms-core/blob/branch_11_0_x/src/org/opencms/xml/adeconfig/list_config.xsd]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>Basically the element defined in line 5 is declared to hold the references to the display formatters by the <code>nestedformatter</code> node in line 13.</p>
+<div class="alert alert-info">A good example XSD is the schema definition of the list content shipped with OpenCms since version 11. Here you can see the <a href="%(link0)">xsd on GitHub</a>.</div>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

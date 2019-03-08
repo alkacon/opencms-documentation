@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/lists-and-detail-pages/detail-pages/]]></target>
+          <uuid>fefc9768-1bb3-11e4-bfa5-b7bfd6088c56</uuid>
+        </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/lists-and-detail-pages/building-lists/lists-with-the-integrated-list-type/]]></target>
+          <uuid>e6d2b7de-3c20-11e9-9d3e-0242ac11002b</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>Building lists of content items that are linked with its detail views is a common task when creating a website. For example, a typical list of news displays the title, the teaser and maybe the creation date or information about the author per entry/news. Moreover, a list might offer pagination or simple filter options to the website’s visitors. Those lists are realized by “Collectors” in OpenCms, whereby “<a href="%(link0)">Detail pages</a>” are used to show the complete details of a news article, an event, a product or any other type of resource/content. This chapter introduces how to implement such lists using collectors and how to link from list entries to their detail pages.</p>
+<div class="alert alert-info">OpenCms 11 provides an <strong><a href="%(link1)">alternative recommended way to build lists</a></strong>.</div>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>Building lists of content items that are linked with its detail views is a common task when creating a website. OpenCms helps you to solve this task easily.</p>]]></content>
+    </Teaser>
+    <Keywords><![CDATA[content, XML, list, collector]]></Keywords>
+    <InterestingFor><![CDATA[c_developer]]></InterestingFor>
+    <RelatedLinks>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/lists-and-detail-pages/building-lists/lists-with-the-integrated-list-type/]]></target>
+            <uuid>e6d2b7de-3c20-11e9-9d3e-0242ac11002b</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Recommended alternative way to build lists in OpenCms 11]]></LinkText>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/demos/lists-and-detail-pages/]]></target>
+            <uuid>017a27d0-22c2-11e4-8f7a-d9f74955ba1b</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Demo for a list created with &lt;cms:contentload&gt;]]></LinkText>
+      </Link>
+    </RelatedLinks>
+    <NewInVersion><![CDATA[6.0]]></NewInVersion>
+    <NewInDocuVersion><![CDATA[9.0]]></NewInDocuVersion>
+    <RevisedForVersion><![CDATA[11.0.0]]></RevisedForVersion>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

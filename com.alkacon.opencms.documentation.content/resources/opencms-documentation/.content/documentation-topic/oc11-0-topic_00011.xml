@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>OpenCms 11 introduces an integrated list type. It basically allows you to easily configure lists. The lists app provides a special view on such lists, displaying all collected contents as in the explorer app and showing all the filter and sort options your list could display on the website as well.</p>
+<p>The standardized view is a powerful tool to manage your single lists and keep an overview on the lists at all.</p>
+<div class="alert alert-info">Only users with the role <strong>List editor</strong> see the lists app.</div>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>See all your lists in one place, get an overview on what contents they show and easily reconfigure the list or edit contents.</p>]]></content>
+    </Teaser>
+    <Keywords><![CDATA[content, app, workplace, list]]></Keywords>
+    <InterestingFor><![CDATA[b_opencmsAdmin]]></InterestingFor>
+    <RelatedLinks>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/lists-and-detail-pages/building-lists/lists-with-the-integrated-list-type/]]></target>
+            <uuid>e6d2b7de-3c20-11e9-9d3e-0242ac11002b</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Building lists with the integrated list content type]]></LinkText>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/demos/lists-and-detail-pages-iii/]]></target>
+            <uuid>bd5d897c-3e45-11e9-9d3e-0242ac11002b</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Demo for a list built with the integrated content type]]></LinkText>
+      </Link>
+    </RelatedLinks>
+    <NewInVersion><![CDATA[11.0.0]]></NewInVersion>
+    <NewInDocuVersion><![CDATA[11.0.0]]></NewInDocuVersion>
+    <RevisedForVersion><![CDATA[11.0.0]]></RevisedForVersion>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

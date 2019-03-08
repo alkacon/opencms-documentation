@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/jsp/search/result/CmsSearchResultWrapper.html]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/jsp/search/result/CmsSearchResourceBean.html]]></target>
+        </link>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/jsp/search/result/CmsSearchResultWrapper.html]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>The tag&nbsp;<code>&lt;cms:simplesearch&gt;</code> returns a deeply structured result object of type&nbsp;<code><a href="%(link0)">org.opencms.jsp.search.result.CmsSearchResultWrapper</a></code> that allows to</p>
+<ul>
+<li>access the search result</li>
+<li>access the search configuration</li>
+<li>access the state of search options (e.g., the currently selected sort option)</li>
+<li>construct the correct request parameters to manipulate the search state (e.g., set another search option)</li>
+</ul>
+<p>To get an impression of the result object's structure, take a look at the code snippets for rendering the select box with the sort options or the pagination. Also, have a look at how we iterate through the search results (that are provided as objects of type <code><a href="%(link1)">org.opencms.jsp.search.result.CmsSearchResourceBean</a></code>). For a detailed overview on the result object, take a look at the JavaDoc for <code><a href="%(link2)">CmsSearchResultWrapper</a></code>.</p>
+<p>Besides handing over a configuration to <code>&lt;cms:simplesearch&gt;</code> (by feeding it with the list content and the configuration string for setting the page size), we specify <code>addContentInfo</code>. If set to true, the content that is collected in the list is treated as part of the page on publish. Hence, when you publish the page and an element in the list - even if on a page of the list not visible at the moment - is published as related resource of the page well.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

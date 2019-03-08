@@ -16,11 +16,18 @@
         <ContainerType><![CDATA[none]]></ContainerType>
       </Types>
     </Match>
-    <Preview>false</Preview>
-    <SearchContent>true</SearchContent>
+    <Display><![CDATA[true]]></Display>
     <AutoEnabled>true</AutoEnabled>
+    <SearchContent>true</SearchContent>
+    <StrictContainers>true</StrictContainers>
     <Detail>false</Detail>
-    <Display>true</Display>
-    <NestedContainers>false</NestedContainers>
+    <Preview>false</Preview>
+    <Setting>
+      <PropertyName><![CDATA[showIndex]]></PropertyName>
+      <DisplayName><![CDATA[Show index]]></DisplayName>
+      <Visibility><![CDATA[parentShared]]></Visibility>
+      <Widget><![CDATA[checkbox]]></Widget>
+      <Default><![CDATA[false]]></Default>
+    </Setting>
   </NewFormatter>
 </NewFormatters>

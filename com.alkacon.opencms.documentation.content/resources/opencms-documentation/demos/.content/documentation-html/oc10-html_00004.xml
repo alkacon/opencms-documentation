@@ -4,7 +4,8 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>Click on the headings of the list entries to see their detail views. If you are offline, you might also change the list content or even play with it's formatter (shown below). You can also edit, create or delete list entries.</p>
+      <content><![CDATA[<p>Click on the headings of the list entries to see their detail views. If you are offline, you might also change the list content or even play with it's formatter (shown below). You can also edit, create or delete list entries. You should also play with the element settings of the list formatter.</p>
+<p>Moreover you can sort the list or use the pagination. Note that in this minimal example, the whole page reloads when you change the page or the sort order. You might reload the list via AJAX in a more advanced example.</p>
 <div class="alert alert-info">In the detail view a special formatter is used. It displays the title, the text and the image, if present. Hence, it may happen that the content says "Do something!" - but you simply can't because of the different formatter that is used. Or the article might describe somethings that's not true for its detail view formatter.</div>]]></content>
     </Html>
   </DocumentationHtml>

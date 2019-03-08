@@ -2,7 +2,6 @@
 
 <DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
   <DocumentationCodeBlock language="en">
-    <ProgrammingLanguage><![CDATA[plain]]></ProgrammingLanguage>
-    <Code><![CDATA[http://www.example.com/en/football/news/rafael-hopes-for-brazil-chance.html]]></Code>
+    <Code><![CDATA[<a href="<cms:link baseUri="/sites/my-site/subsite/the-real-page/">${content.filename}</cms:link>">Link text</a>]]></Code>
   </DocumentationCodeBlock>
 </DocumentationCodeBlocks>

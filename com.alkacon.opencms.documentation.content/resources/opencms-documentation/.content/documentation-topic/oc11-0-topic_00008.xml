@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>You want to show always the latest news? With OpenCms you can <strong>collect contents in a list</strong> - for example showing teasers for the 10 latest news articles. Whenever a new news is published, the list is <strong>automatically updated</strong>. Moreover, editors can <strong>directly edit, add or delete</strong> news in the list.</p>
+<p>Having teasers for the news articles in the list, you may want to provide each whole news on a specific page. With OpenCms you can add a <strong>detail page</strong> for news articles and link to it from the list. <strong><em>One detail page</em></strong> is sufficient for showing the detailed information for <em><strong>all</strong> news <strong>contents</strong></em> under nicely generated URLs.</p>
+<p>Of course, you can use the mechanism for other content types as well, e.g., event lists, blogs, .... And your lists can support many advanced features like <strong>filters</strong> (for categories, full text search, ...), <strong>pagination</strong> or various <strong>sort options</strong>.</p>
+<p><strong>OpenCms 11</strong> even provides a <strong>content type for lists</strong> in the core, that supports all the advanced features and eases list <strong>management via a dedicated workplace app</strong>.</p>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>Show contents of one or various types (news, events, blog entries, ...) in a list and link to detailed presentations of the content. Take advantage of the pagination, filter and sort options support for those lists.</p>]]></content>
+    </Teaser>
+    <Keywords><![CDATA[list, detail page, search]]></Keywords>
+    <InterestingFor><![CDATA[c_developer,e_editor]]></InterestingFor>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

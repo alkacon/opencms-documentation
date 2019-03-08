@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="IMG">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_big/searchBigIconActive.png]]></target>
+          <uuid>7bc6550c-02bc-11e4-8167-1305b26fecac</uuid>
+          <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+        </link>
+      </links>
+      <content><![CDATA[<p>When opening the lists app from the launchpad, you get an overview on all lists on the current site (and subsites). Clicking on a list, you open the list inside the app. You can also create a new list with the "Add" wizard in the toolbar (<img alt="" style="width: 14px;" title="searchBigIconActive" src="%(link0)" />).</p>
+<div class="alert alert-info">Creating a new list only works if you have configured the list type (resource type name is "listconfig") in the sites sitemap configuration. All new lists will be created as configured there, i.e. not in sub-sitemaps. To add lists to sub-sitemaps, use the explorer or drag&amp;drop a new list to a page directly.</div>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ListConfigs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/list_config.xsd">
+  <ListConfig language="en">
+    <Title><![CDATA[Demo articles collected with the internal list type.]]></Title>
+    <TypesToCollect>documentation-demo-article:401f7513-eb5c-11e5-ad35-0242ac11002b</TypesToCollect>
+    <SearchFolder>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/opencms-documentation/demos/.content/documentation-demo-article/]]></target>
+        <uuid>57a8c2d4-1e1d-11e4-8373-d9f74955ba1b</uuid>
+      </link>
+    </SearchFolder>
+    <Category/>
+    <CategoryMode><![CDATA[OR]]></CategoryMode>
+    <SortOrder><![CDATA[TITLE_ASC]]></SortOrder>
+    <Blacklist>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/opencms-documentation/demos/.content/documentation-demo-article/documentation-demo-article-00001.xml]]></target>
+        <uuid>57ab5ae6-1e1d-11e4-8373-d9f74955ba1b</uuid>
+      </link>
+    </Blacklist>
+  </ListConfig>
+</ListConfigs>

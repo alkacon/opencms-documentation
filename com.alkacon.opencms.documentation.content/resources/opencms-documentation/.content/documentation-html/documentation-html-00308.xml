@@ -3,19 +3,9 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links>
-        <link name="link0" internal="true" type="A">
-          <target><![CDATA[]]></target>
-          <anchor><![CDATA[detailpages]]></anchor>
-        </link>
-      </links>
-      <content><![CDATA[<p>The code <code>&lt;a href="&lt;cms:link&gt;${content.filename}&lt;/cms:link&gt;"&gt;${content.value.Title}&lt;/a&gt;</code> will create a link that points on the current resource collected by the <code>&lt;cms:contentload&gt;</code>-tag. If you want OpenCms to open the detail view by clicking on that link, you have to perform the following steps in order to create a “Detail page”:</p>
-<ul>
-<li>Go to the sitemap editor and open the "Create page" dialog.</li>
-<li>Select the detail page for the resource type you want to create a detail page for from the upcoming dialog and place it somewhere you like into the sitemap.</li>
-</ul>
-<p>OpenCms configures the new detail page automatically for the opened sub-sitemap. This new page will be used as detail page for all instances of the selected resource type. Now the link (constructed by the above shown code snippet) opens the detail page. Find more information about detail pages <a href="%(link0)">here</a>.</p>
-<div class="alert alert-danger">It is important, that the link to the list entry that should link to the detail view is sourrounded by the <code>&lt;cms:link&gt;</code>-tag. This tag will manage the redirect from the URL of the resource of the list entry to its detail page.</div>]]></content>
+      <links/>
+      <content><![CDATA[<p>To link to a detail page, you need to link to the VFS URL of the content whose detail view should be shown. In a formatter, where the content is available as object <code>content</code>, the code <code>&lt;a href="&lt;cms:link&gt;${content.filename}&lt;/cms:link&gt;"&gt;Link text&lt;/a&gt;</code> will create a link that points to the detail page of the content.</p>
+<div class="alert alert-danger">It is important, that the link to the detail page is sourrounded by the <code>&lt;cms:link&gt;</code>-tag. This tag will manage the redirect from the URL of the content to its detail page.</div>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

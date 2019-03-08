@@ -4,8 +4,9 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>to the .xsd that defines the content's type. You can use any other content element as well.</p>
-<div class="alert alert-info">The element's value is not mapped unchanged to the URL-part. It is manipulated to make up a valid URL.</div>]]></content>
+      <content><![CDATA[<p>to the <code>.xsd</code> that defines the content's type. You can use any other content element as well.</p>
+<div class="alert alert-info">The element's value is not mapped unchanged to the URL part. It is manipulated to make up a valid URL.</div>
+<div class="alert alert-info">To make URLs unique, suffixes are added to the URLs if two contents would have the same "nice" detail page URL. E.g., you have two news with the title "OpenCms is great", then one will have the content specific URL part "opencms-is-great" and the second one "opencms-is-great-00001".</div>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

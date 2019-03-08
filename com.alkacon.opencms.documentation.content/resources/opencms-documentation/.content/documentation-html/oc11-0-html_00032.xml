@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/nested-containers/]]></target>
+          <uuid>3e5f51a4-334d-11e4-ae50-d144f6bb3566</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<div class="alert alert-info">You can have multiple containers with <code>detailview="true"</code>. Then the content will render in each of teh containers. By using different container types and thereby triggering other formatters, this can be an interesting feature.</div>
+<div class="alert alert-info">The container for the detail view can be part of a formatter as well if you work with nested container. This is interesting if you build your template with <a href="%(link0)">nested containers</a>, building the page structure via "layout"-contents.</div>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>
