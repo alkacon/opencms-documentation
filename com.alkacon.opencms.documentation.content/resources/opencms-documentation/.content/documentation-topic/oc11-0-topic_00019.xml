@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>Since OpenCms 11, has support for managing a whole series of events in a single content. E.g., you have a guitar course taking place ten times, you can simply add one XML content describing your course and adding all dates via a special widget.</p>
+<p>In lists, listing your upcoming events, the course will appear for each instance once, and also when linking to detail pages you can manage to show the correct date for the specific date of the one course meeting.</p>]]></content>
+    </Overview>
+    <Keywords><![CDATA[serial date, date series, event series, search]]></Keywords>
+    <InterestingFor/>
+    <RelatedLinks>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/more-opencms-features/solr-search-integration/indexed-data/]]></target>
+            <uuid>8ba2369f-4720-11e9-8ac3-0242ac11002b</uuid>
+            <anchor><![CDATA[sec_special_indexing_for_series_contents]]></anchor>
+          </link>
+        </URI>
+        <LinkText><![CDATA[Special indexing for series contents]]></LinkText>
+        <LinkDescription name="LinkDescription0">
+          <links/>
+          <content><![CDATA[<p>For the event series, each event in the series will be indexed (and thus found in a search) at its own. Here, the special handling on indexing is described.</p>]]></content>
+        </LinkDescription>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/widget-configuration/]]></target>
+            <uuid>a8badf1f-489a-11e4-8008-336f7b60f7b1</uuid>
+            <anchor><![CDATA[sec_serial_date_widget]]></anchor>
+          </link>
+        </URI>
+        <LinkText><![CDATA[The serial date widget]]></LinkText>
+        <LinkDescription name="LinkDescription0">
+          <links/>
+          <content><![CDATA[<p>The widget to easily edit a date series.</p>]]></content>
+        </LinkDescription>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspDateSeriesBean.html]]></target>
+          </link>
+        </URI>
+        <LinkText><![CDATA[JavaDoc of the CmsJspDateSeriesBean]]></LinkText>
+        <LinkDescription name="LinkDescription0">
+          <links/>
+          <content><![CDATA[<p>The bean you access a date series with in a JSP.</p>]]></content>
+        </LinkDescription>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspInstanceDateBean.html]]></target>
+          </link>
+        </URI>
+        <LinkText><![CDATA[JavaDoc of the CmsJspInstanceDateBean]]></LinkText>
+        <LinkDescription name="LinkDescription0">
+          <links/>
+          <content><![CDATA[<p>The bean wrapping a single event instance' date (with start and end time).</p>]]></content>
+        </LinkDescription>
+      </Link>
+    </RelatedLinks>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

@@ -29,5 +29,14 @@
         <content><![CDATA[<p>The maximal time Solr is allowed to wait between adding a document and committing it. See <a href="%(link0)">here</a> for more information.</p>]]></content>
       </Description>
     </Entry>
+    <Entry>
+      <Term><![CDATA[&lt;maxProcessedResults&gt;]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>By default, Solr will return only the first 400 results of a query. So each search is limited to showing at maximum 400 results.</p>
+<p>The reason is, that for each query a permission check on the results is performed that requires to fetch all results up to the requested ones, e.g., if you want to get result 300 to 310, permissions are checked for results 1 to at least 310.</p>
+<p>If 400 results are not sufficient for your purpose, you can increase the number here for all Solr indexes, or adjust it on an per-index-base at the index itself, setting the parameter <code>search.solr.maxProcessedResults</code> at the index configuration.</p>]]></content>
+      </Description>
+    </Entry>
   </DocumentationDefinitionList>
 </DocumentationDefinitionLists>

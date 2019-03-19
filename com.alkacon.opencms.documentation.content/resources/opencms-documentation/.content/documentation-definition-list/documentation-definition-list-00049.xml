@@ -23,7 +23,8 @@
       <Term><![CDATA[Passthrough]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>The path resulting from the pattern replacement will be passed to the next resource handler configured in the <code>&lt;resourceinit&gt;</code>-element after the alias handler.</p>]]></content>
+        <content><![CDATA[<p>The path resulting from the pattern replacement will be passed to the next resource handler configured in the <code>&lt;resourceinit&gt;</code>-element after the alias handler.</p>
+<div class="alert alert-info">Here the target resources have to be the pages to deliver (index.html). For folder aliases this will not work.</div>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>

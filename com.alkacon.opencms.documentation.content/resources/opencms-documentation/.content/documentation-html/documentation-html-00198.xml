@@ -3,13 +3,9 @@
 <DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
   <DocumentationHtml language="en">
     <Html name="Html0">
-      <links>
-        <link name="link0" internal="true" type="A">
-          <target><![CDATA[]]></target>
-          <anchor><![CDATA[sec_custom_fields_for_xml_content]]></anchor>
-        </link>
-      </links>
-      <content><![CDATA[<p>With OpenCms version 8.5 there is a new document type called <code>xmlcontent-solr</code>. Its implementation (<code>CmsSolrDocumentXmlContent</code>) performs a localized content extraction that is used later on to fill the Solr input document. As explained in the section about <a href="%(link0)">custom fields for XML content</a>, it is possible to define a mapping between elements defined in the XSD of an XML resource type and a field of the Solr document. The values for those defined XSD field mappings are also extracted by the document type named <code>xmlcontent-solr</code>.</p>]]></content>
+      <links/>
+      <content><![CDATA[<p>Document types, also defined in the <code>opencms-search.xml</code>, declare how documents of a specific resource or mimetype should be extracted.</p>
+<p>With OpenCms version 8.5 there is a new document type called <code>xmlcontent-solr</code>. Its implementation (<code>CmsSolrDocumentXmlContent</code>) performs a localized content extraction that is used later on to fill the Solr input document.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Heading><![CDATA[Accessing meta information of the wrapped image (incomplete)]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[ib.height]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns the original height of the (possibly scaled) image.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[ib.width]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns the original width of the (possibly scaled) image.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[ib.scaled]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns a flag, indicating if the image is scaled.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[ib.image]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns a flag, indicating if an image is wrapped at all. If this is false, the bean has not been initialized correctly.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

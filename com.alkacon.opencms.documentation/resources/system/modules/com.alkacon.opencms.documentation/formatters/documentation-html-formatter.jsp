@@ -9,7 +9,7 @@
 	<c:set var="isEditor">
 		<cms:property name="opencms.documentation.editor" file="search" default="false" />
 	</c:set>
-	<c:if test="${not (empty docuBranch or isEditor)}">
+	<c:if test="${not (empty docuBranch or cms.isEditMode)}">
 		<a href="https://github.com/alkacon/opencms-documentation/blob/${docuBranch}/com.alkacon.opencms.documentation.content/resources/${content.filename}" target="_blank" title="Edit Html content on GitHub" class="glyphicon glyphicon-edit pull-right github-link"></a>
 	</c:if>
 	<c:choose>

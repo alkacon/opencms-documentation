@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The &lt;cms:search&gt; tag is great for feature-rich full-text searches where you are not satisfied with the integrated list type. For this simple example, it might look a bit complicated, but the tag has great advantages:</p>
+<ul>
+<li>It lets you easily configure complex searches and provides methods to keep track of the state (are facet items checked, which page is currently displayed, ...).</li>
+<li>It provides easy access to search results.</li>
+</ul>
+<p>Here's a small JSP that does the search for us on the server and prints the titles used for sorting:</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

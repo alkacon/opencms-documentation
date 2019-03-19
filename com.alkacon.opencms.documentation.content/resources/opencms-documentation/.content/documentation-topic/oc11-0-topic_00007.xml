@@ -4,19 +4,21 @@
   <AlkaconDocumentationTopicFrame language="en">
     <Overview name="Overview0">
       <links/>
-      <content><![CDATA[<p>Websites have to handle images flexibly and adapt them to the used screen size. The ImageBean enables you to access the information of an image and edit the image. Here we explain, how the ImageBean works and how you can use it to manipulate images</p>]]></content>
+      <content><![CDATA[<p>OpenCms supports image scaling on demand, i.e., editors upload one (big) image, but the server delivers scaled versions of the image to the client. The images are scaled when the image is requested for the first time<span class="footnote">Then the result is cached, hence delivery will be fast.</span>. How images should be scaled can be selected by the editor and by the template developer, when scaling the image in the JSP.</p>
+<p>This topic explains how to use scaling in JSPs. A special focus is on the case of providing source sets of images is discussed.</p>
+<div class="alert alert-info">We use the <strong>image bean</strong> for scaling images, introduced in OpenCms 11<span class="footnote">A much simpler version of the bean was present in OpenCms 10.5 already.</span>, which is far more flexible and powerful than the <code>&lt;cms:img&gt;</code> tag used before.</div>]]></content>
     </Overview>
     <Teaser name="Teaser0">
       <links/>
-      <content><![CDATA[<p>Get an overview of the image handling with the help of the ImageBean.</p>]]></content>
+      <content><![CDATA[<p>Use the image bean in your JSP: Easily link to scaled/transformed image versions and deal with source sets.</p>]]></content>
     </Teaser>
-    <Keywords><![CDATA[imagebean, image scaling, sourceset]]></Keywords>
-    <InterestingFor><![CDATA[d_workplaceUser]]></InterestingFor>
+    <Keywords><![CDATA[image bean, image scaling, srcset]]></Keywords>
+    <InterestingFor><![CDATA[c_developer]]></InterestingFor>
     <RelatedLinks>
       <Link>
         <URI>
           <link internal="true" type="WEAK">
-            <target><![CDATA[/sites/default/opencms-documentation/demos/image-sourceset/]]></target>
+            <target><![CDATA[/sites/default/opencms-documentation/demos/scaling-images-for-source-sets/]]></target>
             <uuid>439fb5e5-3039-11e9-827d-0242ac11002b</uuid>
           </link>
         </URI>
@@ -27,10 +29,11 @@
         </LinkDescription>
       </Link>
     </RelatedLinks>
+    <NewInVersion><![CDATA[11.0.0]]></NewInVersion>
+    <NewInDocuVersion><![CDATA[11.0.0]]></NewInDocuVersion>
+    <RevisedForVersion><![CDATA[11.0.0]]></RevisedForVersion>
     <StatusMetaData>
-      <Todos>
-        <Todo><![CDATA[Add content]]></Todo>
-      </Todos>
+      <Todos/>
     </StatusMetaData>
   </AlkaconDocumentationTopicFrame>
 </AlkaconDocumentationTopicFrames>

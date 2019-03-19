@@ -9,9 +9,14 @@
           <uuid>00a4c7ee-0812-11e4-8e56-b7bfd6088c56</uuid>
           <anchor><![CDATA[vfs_image_widget]]></anchor>
         </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/typical-tasks/writing-jsps/image-handling/]]></target>
+          <uuid>47e6535f-3029-11e9-827d-0242ac11002b</uuid>
+        </link>
       </links>
       <content><![CDATA[<p>OpenCms scales images if requested and caches scaled versions. We demonstrate how to use the <code>&lt;cms:img&gt;</code>-tag in a formatter to scale images.</p>
-<p>Note that this is just one way to scale images. Images may also be scaled, cropped, etc. when inserting them into the content when using appropriate widgets (see the related links). Consult the <a href="%(link0)">descriptions of the ImageGalleryWidget and the VfsImageWidget</a> for such options.</p>]]></content>
+<p>Note that this is just one way to scale images. Images may also be scaled, cropped, etc. when inserting them into the content when using appropriate widgets (see the related links). Consult the&nbsp;<a href="%(link0)">descriptions of the ImageGalleryWidget and the VfsImageWidget</a> for such options.</p>
+<div class="alert alert-danger">Since OpenCms 11, the image bean provides much more flexibility on scaling images in JSPs. The scaling options explained here are accessible via the bean as well. So<a href="%(link1)"> have a look at the bean</a> before using <code>&lt;cms:img&gt;</code>.</div>]]></content>
     </Overview>
     <Teaser name="Teaser0">
       <links/>
@@ -20,6 +25,35 @@
     <Keywords><![CDATA[demo, images, scaling]]></Keywords>
     <InterestingFor><![CDATA[c_developer]]></InterestingFor>
     <RelatedLinks>
+      <LinkList>
+        <Title><![CDATA[Image scaling since OpenCms 11]]></Title>
+        <Description name="Description0">
+          <links/>
+          <content><![CDATA[<p>Since OpenCms scaling options are accessible via the image bean. It is more flexible and powerful than the &lt;cms:img&gt; tag discussed here.</p>]]></content>
+        </Description>
+        <Link>
+          <URI>
+            <link internal="true" type="WEAK">
+              <target><![CDATA[/sites/default/opencms-documentation/typical-tasks/writing-jsps/image-handling/]]></target>
+              <uuid>47e6535f-3029-11e9-827d-0242ac11002b</uuid>
+            </link>
+          </URI>
+          <LinkText><![CDATA[Background topic on the image bean]]></LinkText>
+        </Link>
+        <Link>
+          <URI>
+            <link internal="true" type="WEAK">
+              <target><![CDATA[/sites/default/opencms-documentation/demos/image-sourceset/]]></target>
+              <uuid>439fb5e5-3039-11e9-827d-0242ac11002b</uuid>
+            </link>
+          </URI>
+          <LinkText><![CDATA[Demo using the image bean]]></LinkText>
+          <LinkDescription name="LinkDescription0">
+            <links/>
+            <content><![CDATA[<p>Easily use source sets for images.</p>]]></content>
+          </LinkDescription>
+        </Link>
+      </LinkList>
       <LinkList>
         <Title><![CDATA[Widgets that allow image cropping on insertion]]></Title>
         <Link>
@@ -46,6 +80,7 @@
     </RelatedLinks>
     <NewInVersion><![CDATA[6.2.0]]></NewInVersion>
     <NewInDocuVersion><![CDATA[9.0]]></NewInDocuVersion>
+    <RevisedForVersion><![CDATA[11.0.0]]></RevisedForVersion>
     <StatusMetaData>
       <Todos/>
     </StatusMetaData>

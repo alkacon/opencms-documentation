@@ -2,9 +2,16 @@
 
 <DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
   <DocumentationDefinitionList language="en">
-    <Title><![CDATA[Solr: Default index fields]]></Title>
-    <Heading><![CDATA[List of default index fields]]></Heading>
+    <Title><![CDATA[Solr: Default index fields (incomplete)]]></Title>
+    <Heading><![CDATA[List of further interesting index fields]]></Heading>
     <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[solr_id]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The unique identifier of the document in the Solr index since OpenCms 11. Unless you use serial dates, it is idential to the <code>id</code> field.</p>]]></content>
+      </Description>
+    </Entry>
     <Entry>
       <Term><![CDATA[id]]></Term>
       <Description name="Description0">
@@ -17,13 +24,6 @@
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>Full root path (The root path of the resource, e.g., <code>/sites/default/flower_en/.content/article.html</code>)</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
-      <Term><![CDATA[path_hierarchy]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>The full path as (path tokenized field type: <code>text_path</code>).</p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -62,17 +62,17 @@
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[contentdate]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>The content date (The date when the resource's content has been modified).</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
       <Term><![CDATA[released]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>The release and expiration date of the resource.</p>]]></content>
+        <content><![CDATA[<p>The release date of the resource.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[expired]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The expiration date of the resource.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -83,17 +83,17 @@
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[contentblob]]></Term>
+      <Term><![CDATA[content_{locale}]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>The serialized extraction result (content_blob) to improve the extraction performance while indexing.</p>]]></content>
+        <content><![CDATA[<p>Extracted textual content optimized for the language specific search (Default languages: en, de, el, es, fr, hu, it). This is typically a field to search in and to highlight on.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[category]]></Term>
+      <Term><![CDATA[{locale}_excerpt]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>All categories as general text.</p>]]></content>
+        <content><![CDATA[<p>Holds only an excerpt of the content, i.e., the first part of the localized content field. This can be useful if you print excerpts of contents and not use highlighting.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -104,31 +104,31 @@
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[text_<locale>]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Extracted textual content optimized for the language specific search (Default languages: en, de, el, es, fr, hu, it).</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
-      <Term><![CDATA[timestamp]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>The time when the document was last indexed.</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
       <Term><![CDATA[*_prop]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>All properties of a resource as searchable and stored text (field name: <code>&lt;Property_Definition_Name&gt;_prop</code> as <code>text_general</code>).</p>]]></content>
+        <content><![CDATA[<p>All searched properties<span class="footnote">Means set at the resource or a folder the resource is located in.</span> of a resource as searchable and stored text (field name: <code>&lt;Property_Definition_Name&gt;_prop</code> as <code>text_general</code>).</p>]]></content>
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[*_exact]]></Term>
+      <Term><![CDATA[*_prop_s]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>All properties of a resource as exact not stored string (field name: <code>&lt;Property_Definition_Name&gt;_exact</code> as <code>string</code>)</p>]]></content>
+        <content><![CDATA[<p>Same as <code>*_prop</code>, but stored as String.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[*_dprop]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>All properties directly set at a resource as searchable and stored text (field name: <code>&lt;Property_Definition_Name&gt;_prop</code> as <code>text_general</code>).</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[*_dprop_s]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Same as <code>*_dprop</code> but stored as String.</p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>

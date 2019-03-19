@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
+  <DocumentationCodeBlock language="en">
+    <Code><![CDATA[<index class="org.opencms.search.solr.CmsSolrIndex">
+   <name>Solr Online</name>
+
+   <!-- ... some more nodes not of interest here -->
+
+   <!-- The following parameters secure the Solr Handlers by disallowing certain requests. 
+        All the restrictions are only applied if the request is not a valid debug request,
+        i.e., if the param "_debug" does not hold the debug secret, as specified in a file configured via the
+        configuration parameter "handle.solr.debugSecretFile" listed below. -->
+
+   <!-- Specify if querying the index via handleSolrSelect should be disabled (in non-debug-mode). -->
+   <param name="handle.solr.disableSelectHandler">true</param>
+
+   <!-- Specify if querying the index via handleSolrSpell should be disabled (in non-debug-mode). -->
+   <param name="handle.solr.disableSpellHandler">true</param>
+
+   <!-- VFS path to the file that holds the debug secret.
+        To disable debug mode remove the file or leave it empty. -->
+   <param name="handle.solr.debugSecretFile">/system/config/solr-handler/debug-secret.txt</param>
+   
+   <!-- The following restrictions can be apllied to the handleSolrSelect enabled in non-debug-mode. -->
+
+   <!-- Specify a comma-separated list of fields, only these will be allowed
+        in the "fl"-parameter of the Solr Query -->
+   <param name="handle.solr.allowedFields">path,id,solr_id,lastmodified,created</param>
+
+   <!-- Specify the number of results maximally allowed per page, i.e., the maximal value of the "rows" parameter. -->
+   <param name="handle.solr.maxAllowedResultsPerPage">20</param> -->
+
+   <!-- Specify the number of results maximally allowed to be returned,
+        i.e., the maximal sum of the values of the "rows" and the "start" parameter. -->
+   <param name="handle.solr.maxAllowedResultsAtAll"></param>
+</index>]]></Code>
+  </DocumentationCodeBlock>
+</DocumentationCodeBlocks>

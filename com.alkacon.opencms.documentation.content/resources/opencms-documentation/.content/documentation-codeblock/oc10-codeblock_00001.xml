@@ -2,6 +2,15 @@
 
 <DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
   <DocumentationCodeBlock language="en">
-    <Code><![CDATA[<xsd:element name="TypesToCollect" type="OpenCmsDisplayFormatter" />]]></Code>
+    <Code><![CDATA[<!-- ... -->
+<xsd:sequence>
+	<xsd:element name="TypesToCollect" type="OpenCmsDisplayFormatter" maxOccurs="unbounded" />
+</xsd:sequence>
+<!-- ... -->
+<layouts>
+	<layout element="TypesToCollect" widget="DisplayTypeSelectWidget"
+                configuration="template.display.types|matchTypes" />
+</layouts>
+<!-- ... -->]]></Code>
   </DocumentationCodeBlock>
 </DocumentationCodeBlocks>

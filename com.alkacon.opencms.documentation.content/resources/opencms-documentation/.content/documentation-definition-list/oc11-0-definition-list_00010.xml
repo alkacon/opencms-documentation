@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Heading><![CDATA[Display Type Select Widget  configuration options]]></Heading>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[matchTypes]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/]]></target>
+            <uuid>c0625fc8-1bcf-11e4-bfa5-b7bfd6088c56</uuid>
+            <anchor><![CDATA[formatter_configuration_basic_options]]></anchor>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/special-predefined-content-types/list-configuration/]]></target>
+            <uuid>693b062b-44a1-11e9-8c54-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>If the widget is used in a sequence of nodes, the option takes care of combining only "compatible" display formatters.</p>
+<p>Once one display formatter is selected, only compatible display formatters are shown when selecting the second formatter. Compatible means to have the same "Display formatter type" set in the<a href="%(link0)"> formatter configuration</a>.</p>
+<p>E.g., if you use the <a href="%(link1)">integrated list</a> to collect, for example, events and blog entries in <em>one list</em> and both content types have two different display formatters, one with display formatter type "compact" (showing very little information) and one with display formatter type "elaborate" (showing much more information), you can't mix "compact" and "elaborate" formatters in the list.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[template.display.types]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/]]></target>
+            <uuid>c0625fc8-1bcf-11e4-bfa5-b7bfd6088c56</uuid>
+            <anchor><![CDATA[formatter_configuration_basic_options]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>This option is mainly useful if you have several websites with different templates on your OpenCms instance and different templates use different sets of display formatters.</p>
+<p>If the option is provided, the property <code>template.display.type</code> is looked up recursively at the currently edited content and it's parent folders. If not found, it is looked up at the template JSP used at the place where the edited content is located. The property should contain a comma-separated list of container types. If the property is found and not empty, display formatters will be selectable only if they match to one of the containers of the given types. See the <a href="%(link0)">formatter configuration</a> to see how matching containers are specified. If the property is not found, the matching conditions are simply ignored.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

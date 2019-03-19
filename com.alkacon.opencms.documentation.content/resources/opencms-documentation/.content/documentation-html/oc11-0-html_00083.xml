@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>In the improved formatter, we use value wrappers:</p>
+<ol>
+<li>We access the element setting via<code> cms.element.setting</code> (<code>setting</code> without 's' in the end - in comparism to the first formatter) and make it a boolean value by <code>toBoolean</code>.</li>
+<li>We access the image as image bean by using <code>content.value.Image.toImage</code> and directly scale it and output the <code>src</code>, <code>width</code> and <code>height</code> attribute of the <code>&lt;img&gt;</code> tag by calling <code>imgSrc</code>. Hence, the correctly scaled image is served by the browser.</li>
+</ol>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

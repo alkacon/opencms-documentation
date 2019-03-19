@@ -23,7 +23,8 @@
       <Term><![CDATA[Show page]]></Term>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>OpenCms will try to load the target resource directly in the current request.</p>]]></content>
+        <content><![CDATA[<p>OpenCms will try to load the target resource directly in the current request.</p>
+<div class="alert alert-info">Here the target resource has to be the page to deliver (index.html). For folder aliases this will not work.</div>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>

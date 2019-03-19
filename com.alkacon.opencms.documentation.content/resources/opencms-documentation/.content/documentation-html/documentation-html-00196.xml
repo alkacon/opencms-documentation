@@ -4,7 +4,7 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>By default OpenCms comes along with a "Solr Online" index. To add a new Solr index you can use the default configuration as a copy template.</p>]]></content>
+      <content><![CDATA[<p>By default OpenCms comes along with a "Solr Online" and a "Solr Offline" index - one indexes the offline versions of resources, one the online versions. "Solr Offline" is used internally and should not be removed. The index configuration basically, brings together the index implementation (class attribute), the rebuild behavior, the field configuration (schema) and the source for indexed resources. To add a new Solr index you can use the default configuration as a copy template.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

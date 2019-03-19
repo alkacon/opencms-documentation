@@ -15,8 +15,8 @@
 	<div class="navbar navbar-default" role="navigation">
         <div class="container-fluid container-main">
         	<div class="headline">
-                <a href="<cms:link>http://www.opencms.org</cms:link>">
-                    <cms:img scaleType="2" scaleColor="transparent" height="40" id="logo-header" src="%(link.weak:/system/modules/com.alkacon.opencms.documentation/images/OpenCms_Logo_800_transparent_24bit.png:f43050fa-17c9-11e4-a3fa-b7bfd6088c56)" alt="OpenCms Logo"/>
+                <a href="<cms:link>http://www.opencms.org</cms:link>" title="OpenCms homepage">
+					<span class="docu-logo logo-opencms"></span>
                 </a>
 				<h1 class="pull-right">OpenCms Documentation</h1>
 			</div>       

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
+  <DocumentationCodeBlock language="en">
+    <Code><![CDATA[<%-- Import taglibs etc. --%>
+
+<cms:formatter var="content">
+<div>
+  <%-- some HTML --%>
+
+  <%-- conditionally output an image --%>
+  <c:if test="${cms.element.setting.showImage.toBoolean}">
+    <img ${content.value.Image.toImage.scaleWidth[400].imgSrc} />
+  </c:if>
+
+  <%-- some more HTML --%>
+</div>
+</cms:formatter>]]></Code>
+  </DocumentationCodeBlock>
+</DocumentationCodeBlocks>

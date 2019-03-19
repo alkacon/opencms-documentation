@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Heading><![CDATA[Transformation methods of the image bean (incomplete)]]></Heading>
+    <PropertyDef>true</PropertyDef>
+    <Entry>
+      <Term><![CDATA[ib.scaleWidth[{width}]]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Scales the image to the provided width, wher <code>{width}</code> should be the target width in pixels, e.g., <code>400</code>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[ib.scaleRatio[{ratio}]]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Scales the image to the provided ratio, changing the height of the image, not the width. A ratio should have format, e.g., <code>{ratio}</code> could be <code>4-3</code>, or <code>2.35-1</code> or <code>1,4-3,1</code>.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[ib.scaleHiDpi[{fact}]]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Returns the high dpi version of the current image, e.g., scales it with the provided scaling factor (width and height). The scaling factor is given as number followed by 'x', e.g., <code>{fact}</code> can be <code>2x</code> or <code>2.5x</code>.&nbsp;</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[ib.scaler]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/loader/CmsImageScaler.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>Returns the <a href="%(link0)">CmsImageScaler</a> that is used for scaling the image. Here any possible transformation can be added and will be applied to the image. Note that this method can't be chained, since the return value is not an image bean.</p>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/demos/lists-and-detail-pages-iii/]]></target>
+          <uuid>bd5d897c-3e45-11e9-9d3e-0242ac11002b</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>OpenCms does not provide a formatter for the list contents by default. The formatter is very specific for your template, hence there's no point in providing a default one. In essence, you feed the list content into the <code>&lt;cms:simplesearch&gt;</code> tag and then you get the collected contents (and some extra information) as result.</p>
+<ul>
+<li><a href="%(link0)">See the demo on using the integrated list type to get more information.</a></li>
+</ul>
+<p>The attribute exposed by <code>&lt;cms:simplesearch&gt;</code> is the same as exposed by<code> &lt;cms:search&gt;</code>. Here, we provide a fully featured demo formatter for dealing with the result.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

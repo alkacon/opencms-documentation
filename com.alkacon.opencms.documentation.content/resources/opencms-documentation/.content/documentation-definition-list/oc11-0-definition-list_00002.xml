@@ -19,9 +19,17 @@
             <anchor><![CDATA[CmsJspContentAccessBean]]></anchor>
           </link>
         </links>
-        <content><![CDATA[<p>With <code>content</code> of type <a href="%(link0)"><code>CmsJspContentAccessBean</code></a>:</p>
+        <content><![CDATA[<p>With <code>content</code> of type <a href="%(link0)"><code>CmsJspContentAccessBean</code></a>&nbsp;(as typical in a formatter):</p>
 <ul>
-<li><code>content.<strong>value.&lt;XML node name&gt;.toImage</strong></code></li>
+<li><code>content.<strong>value.{XML node name}.toImage</strong></code></li>
+</ul>
+<p>With content of type res of type <code>CmsJspResourceWrapper</code> (as typical, when you read a resource via some EL expression):</p>
+<ul>
+<li><code>res.toImage</code></li>
+</ul>
+<p>When accessing element settings where <code>setting</code> is <code>cms.element.setting.{my setting}</code>:</p>
+<ul>
+<li><code>setting.toImage</code></li>
 </ul>]]></content>
       </Description>
     </Entry>
@@ -30,10 +38,10 @@
       <Description name="Description0">
         <links>
           <link name="link0" internal="false" type="A">
-            <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspImageBean.html]]></target>
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspImageBean.html]]></target>
           </link>
         </links>
-        <content><![CDATA[<p><a href="%(link0)">http://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspImageBean.html</a></p>]]></content>
+        <content><![CDATA[<p><a href="%(link0)">https://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspImageBean.html</a></p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>

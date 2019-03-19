@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>When you add a document to Solr, you basically provide a map from field names to values. In the schema file, each of the field names in the map must be declared as field of a specific field type. Moreover, for each field, it is declared if the field is:</p>
+<ul>
+<li><strong>stored</strong> - meaning that Solr keeps the original value of the field and it can return it when on query.</li>
+<li><strong>indexed</strong> - meaning that Solr processes the original value in a way that you can search in the field.</li>
+</ul>
+<p>The field type tells how Solr processes the original value of the field to prepare it for search. By the field type, it is defined how you can query a field. Here are some interesting field types:</p>
+<ul>
+<li><strong>Text fields</strong>: Here you can store text. For different languages, different field types are typically used, since the original text should be processed language specific to get good search results. Fields are matched typically, if you match one word of the original text. E.g., if your original value is "OpenCms is great!" then a search for "OpenCms" would match, but also a search for "great".</li>
+<li><strong>String fields</strong>: String fields are different than text fields. For string fields, the original values are not processed and you will match the field only if you exactly match the original string. In the OpenCms schema, we have the field <code>parent-folders</code> of type string. This specific field holds all parent folders of a resource. You typically filter by the fields value with <code>fq=parent-folders:"/sites/default/sub-folder/"</code>. Note that for string fields you need really exact values and quotes around them.</li>
+<li><strong>Date fields</strong>: Here you can store dates and have special query options - for example a range query like <code>fq=lastmodified:[NOW-1DAY TO NOW]</code>.</li>
+<li><strong>Numeric fields</strong>: Here you can store numbers. For different types of numbers, different fields types are declared. On numeric fields you can do range queries as well, or have specific sort behavior.</li>
+</ul>
+<p>Except of indexing behavior and field type, you specify how many values a field can hold:</p>
+<ul>
+<li><strong>single-valued</strong> fields - hold exactly one value.</li>
+<li><strong>multi-valued</strong> fields - can hold multiple values.</li>
+</ul>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

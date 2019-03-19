@@ -2,14 +2,27 @@
 
 <DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
   <DocumentationCodeBlock language="en">
-    <Code><![CDATA[http://localhost:8080/opencms/opencms/handleSolrSelect    
-   // The URI of the OpenCms Solr Select Handler configured in 
-   // 'opencms-system.xml'
-    ?fq=type:v8article                   // Filter query on the field type
-                                         // with the value 'v8article'
-    &fq=lastmodified:[NOW-1DAY TO NOW]   // Filter query on the field    lastmodified
-                                         // with a range query from 'NOW-1DAY TO NOW'
-    &fq=Title_prop:Flower                // Filter query on the field Title_prop
-                                         // with the value 'v8article']]></Code>
+    <Code><![CDATA[http://localhost:8080/opencms/handleSolrSelect  
+  // The URI of the OpenCms Solr Select Handler configured in 
+  // 'opencms-system.xml'
+   ?wt=xml                              // By default the handler returns it's result in JSON,
+                                        // which is usuallypreferrable when using it for a
+                                        // client-side search feature, but for better readability,
+                                        // we prefer XML as result format.
+
+   &fq=type:m-article                   // Filter query on the field type
+                                        // with the value 'm-article'
+                                        // This is the resource type for articles in the
+                                        // mercury template shipped with OpenCms 11.
+
+   &fq=parent-folders:"/sites/default/" // Filter query on field parent-folders.
+                                        // We filter by folder, showing only articles
+                                        // in the default site.
+                                        // Note the quotes around the folder - they are necessary
+                                        // because of the special type of that field (string field).
+
+   &fq=lastmodified:[NOW-1YEAR TO NOW]  // Filter query on the field lastmodified with a range
+                                        // query for everything changed in the past year.
+   &sort=disptitle_en_sort asc          // Sort by the field disptitle_en_sort in ascending order]]></Code>
   </DocumentationCodeBlock>
 </DocumentationCodeBlocks>

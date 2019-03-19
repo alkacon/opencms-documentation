@@ -26,6 +26,61 @@
     </Teaser>
     <Keywords><![CDATA[content, XML, lists, search]]></Keywords>
     <InterestingFor><![CDATA[c_developer]]></InterestingFor>
+    <RelatedLinks>
+      <LinkList>
+        <Title><![CDATA[Demos]]></Title>
+        <Link>
+          <URI>
+            <link internal="true" type="WEAK">
+              <target><![CDATA[/sites/default/opencms-documentation/demos/lists-and-detail-pages-iii/]]></target>
+              <uuid>bd5d897c-3e45-11e9-9d3e-0242ac11002b</uuid>
+            </link>
+          </URI>
+          <LinkText><![CDATA[An example list using the integrated list type]]></LinkText>
+        </Link>
+      </LinkList>
+      <LinkList>
+        <Title><![CDATA[More information on]]></Title>
+        <Link>
+          <URI>
+            <link internal="true" type="WEAK">
+              <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/lists/]]></target>
+              <uuid>c2c685df-3fed-11e9-9d3e-0242ac11002b</uuid>
+            </link>
+          </URI>
+          <LinkText><![CDATA[The lists app]]></LinkText>
+        </Link>
+        <Link>
+          <URI>
+            <link internal="false" type="WEAK">
+              <target><![CDATA[https://github.com/alkacon/opencms-core/blob/branch_11_0_x/src/org/opencms/xml/adeconfig/list_config.xsd]]></target>
+            </link>
+          </URI>
+          <LinkText><![CDATA[The schema of the integrated list type]]></LinkText>
+        </Link>
+        <Link>
+          <URI>
+            <link internal="true" type="WEAK">
+              <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/element-settings/special-options-for-display-formatters/]]></target>
+              <uuid>b5658b3f-4184-11e9-9d3e-0242ac11002b</uuid>
+            </link>
+          </URI>
+          <LinkText><![CDATA[Element setting options for display formatters]]></LinkText>
+        </Link>
+        <Link>
+          <URI>
+            <link internal="false" type="WEAK">
+              <target><![CDATA[https://documentation.opencms.org/javadoc/tld/]]></target>
+            </link>
+          </URI>
+          <LinkText><![CDATA[The OpenCms taglib]]></LinkText>
+          <LinkDescription name="LinkDescription0">
+            <links/>
+            <content><![CDATA[<p>In particular, the tags <code>&lt;cms:simplesearch&gt;</code> and <code>&lt;cms:display&gt;</code> are interesting.</p>]]></content>
+          </LinkDescription>
+        </Link>
+      </LinkList>
+    </RelatedLinks>
     <StatusMetaData>
       <Todos>
         <Todo><![CDATA[Add content]]></Todo>

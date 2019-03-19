@@ -4,9 +4,7 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>In the source code below you see, how easy it is to adapt images to your needs. In line 21, you initialize the ImageBean with</p>
-<p><code>&lt;c:set var="imageBean" value="${value.Image.toImage}"/&gt;</code>.</p>
-<p>The ImageBean is then used to scale the image to five sizes with <code>${imageBean.scaleWidth['size']}.</code> The used sizes are the often used breakpoints between different screen sizes. With <code>${imageBean.scaleWidth['size'].scaleHiDpi['2x']}</code> we create an additional image of double resolution to optimize the display of the image on devices with double resolution screens such as retina displays.</p>]]></content>
+      <content><![CDATA[<p>The interesting bit is the use of the image bean in the formatter. See the comments in the formatter below.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

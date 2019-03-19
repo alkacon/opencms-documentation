@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://lucene.apache.org/solr/]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>Apache Solr is an enterprise search engine based on Lucene. It can be installed as stand-alone or embeded server and can be queried via a REST API or a special Java API.</p>
+<p>Basically, you have to add all the resources you want to search for to a Solr index. Adding a resource is called "indexing" it. To index a resource, you extract the information from it - e.g., its content, its location, its type - and put each of this information in a so called "field" of a "document". Hence, each resouce is represented by a document in a Solr index. Each document has various fields - e.g., one called "content" (holding the content), one called "location" (holding the link to the original resource, .... Once you added a document for your resource to a Solr index, you can ask Solr for all documents fullfilling certain conditions (that you specify in the query). For example, you might index some PDF files and ask Solr for up to 10 documents that contain the word "OpenCms". Solr can even rank the result, hence returning a document containing "OpenCms" very often before a document that contains "OpenCms" just once.</p>
+<p>Solr has many more advanced features like you are already used to when visiting Google or Amazon:</p>
+<ul>
+<li>Faceted search</li>
+<li>Highlighting</li>
+<li>Range queries</li>
+<li>Sorting</li>
+<li>Spellchecking</li>
+<li>Auto suggestion/completion/correction</li>
+<li>Thesaurus/Synonyms</li>
+<li>...</li>
+</ul>
+<p>So Solr is great to implement a full text search for your website with many advanced features. But of course, it is as well a great choice for very simple searches.</p>
+<div class="alert alert-info">Learn more about Solr <a href="%(link0)">here</a>.</div>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

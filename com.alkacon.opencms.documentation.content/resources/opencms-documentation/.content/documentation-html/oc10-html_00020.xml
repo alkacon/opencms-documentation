@@ -10,19 +10,26 @@
         <link name="link1" internal="false" type="A">
           <target><![CDATA[http://de.slideshare.net/AlkaconOpenCms/opencms-days-2015-advanced-solr-searching-54157910]]></target>
         </link>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[https://github.com/alkacon/opencms-core/blob/branch_11_0_x/test/org/opencms/jsp/search/config/parser/fullConfig.json]]></target>
+        </link>
       </links>
-      <content><![CDATA[<p>The simplest way to implement a full text search is to write a formatter for the <code>jsp-search</code> content, shipped with the OpenCms core in the module <code>org.opencms.jsp.search</code>. The module provides a default formatter, located under <code>/system/modules/org.opencms.jsp.search/formatters/jsp-search-formatter.jsp</code>. Copy the formatter and adjust it to your needs. The default formatter includes a lot of comments that will help understanding it. Your copy can be much simpler if you do not need to support all options of <code>&lt;cms:search&gt;</code>.</p>
+      <content><![CDATA[<p>The simplest way to implement a full-text search is to write a formatter for the <code>jsp-search</code> content, shipped with the OpenCms core in the module <code>org.opencms.jsp.search</code> and get your configuration right. For the formatter, you can start with the demo formatter referenced in the above section.</p>
+<div class="alert alert-danger">Do not let normal editors edit your search content directly. Your formatter may not be capable of all configuration options and you typically do not want to let persons not skilled for it change the configuration.</div>
+<p>When you got everything correct, you rewrite your formatter JSP to be used for a dynamic function or a content type providing configuration options specific to your needs. The rewrite is very easy, since you only replace the confguration handed over to the <code>&lt;cms:search&gt;</code> tag. You may even keep your configuration content, or what might be more valueable, replace it with a JSON configuration<span class="footnote">There's a one-to-one correspondence between the options in the XML content and in the JSON&nbsp; configuration.</span>. Everything else remains the same.</p>
 <p>The formatter basically:</p>
 <ul>
-<li>hands over the <code>jsp-search</code> content to the <code>&lt;cms:search&gt;</code> tag as configuration content.</li>
+<li>hands over the <code>jsp-search</code> content (or later the JSON configuration) to the <code>&lt;cms:search&gt;</code> tag as configuration content (or string).</li>
 <li>explores the result object exposed by <code>&lt;cms:search&gt;</code> to build up the search form and render the search results.</li>
 </ul>
 <p>The result exposed by <code>&lt;cms:search&gt;</code> is of type <code><a href="%(link0)">org.opencms.jsp.search.result.I_CmsSearchResultWrapper</a></code>. A good explanation of its structure is given in the <a href="%(link1)">presentation of the tag on the OpenCms Days 2015</a>. Moreover, you can explore the formatters for the full text search of</p>
 <ul>
-<li>the Apollo demo template shipped with OpenCms 10.0<span class="footnote">The formatter is located under /system/modules/org.opencms.apollo.template.formatters/formatters/jsp-search-formatter.jsp</span></li>
+<li>the Mercury demo template shipped with OpenCms 10.0<span class="footnote">The formatter is located under /system/modules/alkacon.mercury.template/functions/search.jsp</span></li>
 <li>the search included in this documentation<span class="footnote">The formatter is located under /system/modules/com.alkacon.opencms.documentation.searchform/formatters/searchform-formatter.jsp</span></li>
 </ul>
-<p>as examples for using it.</p>]]></content>
+<p>as examples for using it.</p>
+<div class="alert alert-info">When your formatter is finished, ensure that you set the <code>fl</code> parameter for your search correctly to prevent loading too much fields that you do not use in the formatter.</div>
+<p>Moreover, for the JSON configuration, an example JSON file with all options is found in the test cases for OpenCms <a href="%(link2)">here</a>.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

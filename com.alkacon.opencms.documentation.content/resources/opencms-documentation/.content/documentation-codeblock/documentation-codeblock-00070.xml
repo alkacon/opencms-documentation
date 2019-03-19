@@ -3,13 +3,12 @@
 <DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
   <DocumentationCodeBlock language="en">
     <ProgrammingLanguage><![CDATA[java]]></ProgrammingLanguage>
-    <Code><![CDATA[String query="fq=type:v8article&fq=lastmodified:[NOW-1DAY TO NOW]&fq=Title_prop:Flower";
+    <Code><![CDATA[String query="&fq=type:m-article&fq=parent-folders:\"/sites/default/\"\
+              &fq=lastmodified:[NOW-1YEAR TO NOW]&sort=disptitle_en_sort asc"
 CmsSolrResultList results = OpenCms.getSearchManager().getIndexSolr("Solr Online 
      Index").search(getCmsObject(), query);
-for (CmsSearchResource sResource : results) {
-   String path = searchRes.getField(I_CmsSearchField.FIELD_PATH);
-   Date date =searchRes.getMultivaluedField(I_CmsSearchField.FIELD_DATE_LASTMODIFIED);
-   List<String> cats =  searchRes.getMultivaluedField(I_CmsSearchField.FIELD_CATEGORY);
+for (CmsSearchResource result : results) {
+  // Do something with the result
 }]]></Code>
   </DocumentationCodeBlock>
 </DocumentationCodeBlocks>
