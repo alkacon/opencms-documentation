@@ -112,11 +112,11 @@
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="documentation-view-switcher" id="363">
 				<param name="schema">/system/modules/com.alkacon.opencms.documentation/schemas/documentation-view-switcher.xsd</param>
 			</type>
-			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="documentation-video" id="20527">
-				<param name="schema">/system/modules/com.alkacon.opencms.documentation/schemas/documentation-video.xsd</param>
-			</type>
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="documentation-demo-list" id="373">
 				<param name="schema">/system/modules/com.alkacon.opencms.documentation/schemas/demo/documentation-demo-list.xsd</param>
+			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="documentation-video" id="364">
+				<param name="schema">/system/modules/com.alkacon.opencms.documentation/schemas/documentation-video.xsd</param>
 			</type>
 		</resourcetypes>
 		<explorertypes>
@@ -168,11 +168,11 @@
 			<explorertype name="documentation-view-switcher" key="fileicon.documentation-view-switcher" icon="documentation-view-switcher.png" bigicon="documentation-view-switcher_big.png" reference="xmlcontent">
 				<newresource noncreatable="false" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-view-switcher" key="title.documentation-view-switcher"/>
 			</explorertype>
-			<explorertype name="documentation-video" key="fileicon.documentation-video" icon="documentation-video.png" bigicon="documentation-video_big.png" reference="xmlcontent">
-				<newresource noncreatable="false" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-video" key="title.documentation-video"/>
-			</explorertype>
 			<explorertype name="documentation-demo-list" key="fileicon.documentation-demo-list" icon="documentation-demo-list.png" bigicon="documentation-demo-list_big.png" reference="xmlcontent">
 				<newresource noncreatable="false" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-demo-list" key="title.documentation-demo-list"/>
+			</explorertype>
+			<explorertype name="documentation-video" key="fileicon.documentation-video" icon="documentation-video.png" bigicon="documentation-video_big.png" reference="xmlcontent">
+				<newresource noncreatable="false" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-video" key="title.documentation-video"/>
 			</explorertype>
 		</explorertypes>
 	</module>
@@ -3383,6 +3383,23 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Javascript resources]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/resources/js/anchor.min.js</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/resources/js/anchor.min.js</destination>
+			<type>plain</type>
+			<uuidstructure>eb29ba9d-4a45-11e9-b182-0242ac11002b</uuidstructure>
+			<uuidresource>eb29ba9e-4a45-11e9-b182-0242ac11002b</uuidresource>
+			<datecreated>Tue, 19 Mar 2019 12:52:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Anchor JS version 4.2]]></value>
 				</property>
 			</properties>
 			<relations/>

@@ -5,7 +5,7 @@
     <Overview name="Overview0">
       <links>
         <link name="link0" internal="true" type="A">
-          <target><![CDATA[/sites/default/opencms-documentation/administration/module-management/]]></target>
+          <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/modules/]]></target>
           <uuid>7387573f-0b56-11e4-8c80-b7bfd6088c56</uuid>
         </link>
       </links>
@@ -21,14 +21,27 @@
       <Link>
         <URI>
           <link internal="true" type="WEAK">
-            <target><![CDATA[/sites/default/opencms-documentation/administration/module-management/]]></target>
+            <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/modules/]]></target>
             <uuid>7387573f-0b56-11e4-8c80-b7bfd6088c56</uuid>
           </link>
         </URI>
-        <LinkText><![CDATA[Managing modules via the module management app]]></LinkText>
+        <LinkText><![CDATA[Managing modules via the modules app]]></LinkText>
         <LinkDescription name="LinkDescription0">
           <links/>
-          <content><![CDATA[<p>Learn how to add, import, export, manipulate modules via the module management app.</p>]]></content>
+          <content><![CDATA[<p>Learn how to add, import, export, manipulate modules via the modules app.</p>]]></content>
+        </LinkDescription>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/resource-types/]]></target>
+            <uuid>f5ea8bc5-4bdf-11e9-81ca-0242ac11002b</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[The resource types app]]></LinkText>
+        <LinkDescription name="LinkDescription0">
+          <links/>
+          <content><![CDATA[<p>Resource types are configured in modules. Since OpenCms 11, there's an own app to manage resource types.</p>]]></content>
         </LinkDescription>
       </Link>
     </RelatedLinks>

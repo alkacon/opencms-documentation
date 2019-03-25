@@ -1,6 +1,13 @@
 <%@page buffer="none" session="false" trimDirectiveWhitespaces="true" taglibs="cms,c" %>
 <!--=== Header ===-->
-
+<%-- initialize the anchor script --%>
+<c:if test="${cms.isOnlineProject}">
+	<script>
+		document.addEventListener("DOMContentLoaded", function(event) {
+			anchors.add('.anchored');
+		});
+	</script>
+</c:if>
 <!--=== Top ===-->
 <div class="topbar">
 

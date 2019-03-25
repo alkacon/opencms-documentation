@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Once you've created a resource type, you can edit it's configuration. Here you can edit some options that where not present on adding the type. In particular, you could change the type's icon and get more control on the localizations.</p>
+<div class="alert alert-info">Note: Changes are written to the opencms-modules.xml. Contents in the system are not changed. In particular you might break things when changing the type name, id or schema. To make you aware of this, you need to check the warning message at the top of the dialog before saving (pressing "OK") is allowed.</div>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

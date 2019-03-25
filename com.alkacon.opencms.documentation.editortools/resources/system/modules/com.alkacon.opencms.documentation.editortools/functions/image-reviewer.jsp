@@ -18,7 +18,7 @@
 </form>
 </c:when>
 <c:otherwise>
-<c:set var="replaceDialog"><cms:link>/system/workplace/commons/replace.jsp</cms:link></c:set>
+<c:set var="replaceDialog"><cms:link>/workplace/dialogs/org.opencms.ui.actions.CmsReplaceDialogAction</cms:link></c:set>
 <c:set var="currentPage" value="${empty param.currentPage?0:param.currentPage}" />
 <c:set var="pageSize" value="${20}" />
 <c:set var="contentUpdaterLink"><cms:link>%(link.strong:/system/modules/com.alkacon.opencms.documentation.editortools/functions/dynamically-loaded/update-version.jsp:e070e350-31df-11e4-8511-d144f6bb3566)</cms:link></c:set>
@@ -38,7 +38,7 @@
 		<c:choose>
 		<c:when test="${resultSize > 0}">
 			<div class="iframe-overlay" style="display:none; z-index: 1000; margin:auto; position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; width: 100%; height:100%; border:1px solid black; background-color:rgba(0,0,0,0.8); ">
-				<iframe class="iframe-dialog" style="z-index: 1001; margin:auto; position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; width: 500px; height:300px; border:1px solid black; background-color:rgba(0,0,0,0.8); " src=""></iframe>
+				<iframe class="iframe-dialog" style="z-index: 1001; margin:auto; position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; width: 700px; height:300px; border:1px solid black; background-color:rgba(0,0,0,0.8); " src=""></iframe>
 			</div>
 			<%-- <div class="waitindicator-overlay" style="cursor:wait; display:none; z-index: 2000; margin:auto; position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; width: 100%; height:100%; border:1px solid black; background-color:rgba(0,0,0,0.8); ">Please wait ...</div>  --%>
 			
@@ -67,7 +67,7 @@
 					<div class="col-lg-3 col-md-3">
 						<div class="well well-sm" style="text-align:center;margin: 5px;" >Current version: ${content.value.version.isSet?content.value.version:"unset"}</div>
 						<div style="text-align:center;margin: 5px;" class="update-${content.id}"><a class="btn btn-default btn-block" href='javascript:updateVersionNumber("${param.version}","${content.id}");'>Update to ${param.version}</a></div>
-						<div style="text-align:center;margin: 5px;"><a class="btn btn-default btn-block" href='javascript:showReplaceDialog("${content.value.Image}");'>Replace picture</a></div>
+						<div style="text-align:center;margin: 5px;"><a class="btn btn-default btn-block" href='javascript:showReplaceDialog("${content.value.Image.toImage.resource.structureId}");'>Replace picture</a></div>
 					</div>
 				</div>
 				<div>
@@ -106,8 +106,8 @@
 				    window.scroll(0,0);
 				    location.reload();
 				}
-				function showReplaceDialog(resource) {
-				    $("iframe.iframe-dialog").attr("src","${replaceDialog}?resource=" + resource + "&ispopup=true")
+				function showReplaceDialog(id) {
+				    $("iframe.iframe-dialog").attr("src","${replaceDialog}?resources=" + id + "&contextType=0")
 				    $("div.iframe-overlay").show();
 				}
 				function close() {

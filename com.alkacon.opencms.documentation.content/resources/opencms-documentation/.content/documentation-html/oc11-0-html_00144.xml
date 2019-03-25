@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/Documentation-Documents-for-download/oc-icon-24-overview.html]]></target>
+          <uuid>139505d0-4ef8-11e9-83bc-0242ac11002b</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>For each resource type an icon of size 16x16 pixels and an icon of size 24x24 pixels is needed. Traditionally, you place the icons <code>&lt;name&gt;.png</code> and <code>&lt;name&gt;_big.png</code> in the folder <code>/system/workplace/resources/filetypes/</code>. Or re-use icons already there. To do so, choose "Icon" as "File in VFS" and put the filenames in respective input fields. Do not forget to add the icon files to your module's resources if you do so.</p>
+<p>Since OpenCms 11, icons can be provided via image sprites, i.e., you have two sprites with a set of SVG icons, one containing all your icons for size 16x16, one containing the icons in size 24x24, and the corresponding CSS file with classes for each of the icons. If you use this mechanism, add the CSS classes that will display the icons in the dialog.</p>
+<p>Before you create your own icon set, you may think about using the default icons shipped with OpenCms. <a href="%(link0)" target="_blank" rel="noopener">Here</a>'s an overview on the present icons and the classes for 24px. Of course the icons exist in the 16px version as well.</p>
+<p>If you created your own icons in a sprite, you need to:</p>
+<ul>
+<li>create a sprite for 16px</li>
+<li>create a sprite for 24px</li>
+<li>create a <code>my-workplace.css</code> file referencing the icons (and including the sprite files) in the sprite via CSS classes, e.g. <code>my-icon-16-xxx</code> and <code>my-icon-24-xxx</code>.</li>
+</ul>
+<p>Put all the three files you created to a folder in your module - we suggest a <code>workplace-css</code> subfolder of the module folder and export that folder to subfolder of <code>resources/</code> that is specific for your module.</p>
+<div class="alert alert-info">The OpenCms demo will add it's own icons in the way described above. You may check the configuration for it to get a concrete example.</div>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

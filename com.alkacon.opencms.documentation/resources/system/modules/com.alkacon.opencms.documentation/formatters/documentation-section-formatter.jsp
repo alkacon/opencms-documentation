@@ -23,13 +23,13 @@
 		<c:when test="${level == 4}">${requestScope.sectionIndexer.sectionIndex4}</c:when>
 		</c:choose>
 	</c:set>
-	<c:set var="translator" value="<%=org.opencms.main.OpenCms.getResourceManager().getFileTranslator()%>" />
-	<a name="${fn:toLowerCase(translator.translateResource(content.value.Headline))}"></a>
+<%--	<c:set var="translator" value="<%=org.opencms.main.OpenCms.getResourceManager().getFileTranslator()%>" />
+	<a name="${fn:toLowerCase(translator.translateResource(content.value.Headline))}"></a> --%>
 	<c:if test="${content.value.RefId.exists}">
 		<a name="${content.value.RefId}"></a>
 	</c:if>
 	<a name="${sectionIndex}"></a>
-	<${headingTag} class="headline">
+	<${headingTag} class="headline anchored">
 		<span ${content.rdfa.Headline}>${content.value.Headline}</span>
 	</${headingTag}>
 

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Via RMI (remote method invocation) you connect directly to the running OpenCms instance. This is the way to go if you want to excute shell scripts while OpenCms is running as webapp.</p>
+<p>To allow for connections via RMI, you need to configure the connection in the <code>opencms-system.xml</code> (und <code>{webapp home}/WEB-INF/config/</code>). Add the following line right above the closing <code>&lt;/system&gt;</code> tag:</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/extending-opencms/development-setups/developer-tools/]]></target>
+          <uuid>e2c77a75-ea82-11e5-8cf4-0242ac11002b</uuid>
+          <anchor><![CDATA[sec_git_integration_configuration]]></anchor>
+        </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/extending-opencms/development-setups/developer-tools/]]></target>
+          <uuid>e2c77a75-ea82-11e5-8cf4-0242ac11002b</uuid>
+          <anchor><![CDATA[sec_using_git_integration_from_commandline]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<div class="alert alert-danger">Since OpenCms 11, the tool is only shown if a <a href="%(link0)">valid configuration</a> is present. To get more control on the checked-in changes, we recommend to <a href="%(link1)">use the feature from the shell</a> for most scenarios.</div>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

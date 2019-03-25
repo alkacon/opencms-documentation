@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AlkaconDocumentationTopicFrames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-topic.xsd">
+  <AlkaconDocumentationTopicFrame language="en">
+    <Overview name="Overview0">
+      <links/>
+      <content><![CDATA[<p>OpenCms is a typed content management system. Each resource in the VFS has a specific type and in particular each XML content has a specific type and a configuration that determines how the type and contents of it are displayed in apps, e.g., in the page editor.</p>
+<p>To manage your resource types, OpenCms 11 introduces a special app. Here you can add, edit or move resource types. Moreover, you get easy access to all resources of a type present in your current installation and to the schema file for XML contents.</p>]]></content>
+    </Overview>
+    <Teaser name="Teaser0">
+      <links/>
+      <content><![CDATA[<p>Add, move or remove resource/content types on your installation and find out where contents of which type are present.</p>]]></content>
+    </Teaser>
+    <Keywords><![CDATA[resource type, content type, workplace, app, management, modules]]></Keywords>
+    <InterestingFor><![CDATA[b_opencmsAdmin,c_developer]]></InterestingFor>
+    <RelatedLinks>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/background/the-concept-of-content/]]></target>
+            <uuid>a16c7f09-2770-11e4-b2bf-49dbf0abad32</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[The concept of content in OpenCms]]></LinkText>
+        <LinkDescription name="LinkDescription0">
+          <links/>
+          <content><![CDATA[<p>Get some background about content in OpenCms, in particular find out about the use of content types.</p>]]></content>
+        </LinkDescription>
+      </Link>
+      <Link>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/background/the-module-system/]]></target>
+            <uuid>efd65468-b05f-11e4-b42e-0242ac11002b</uuid>
+          </link>
+        </URI>
+        <LinkText><![CDATA[The OpenCms module system]]></LinkText>
+        <LinkDescription name="LinkDescription0">
+          <links/>
+          <content><![CDATA[<p>Find out more about managing modules. This might be relevant since resource types you configure via the app belong to modules.&nbsp;</p>]]></content>
+        </LinkDescription>
+      </Link>
+    </RelatedLinks>
+    <NewInVersion><![CDATA[11.0.0]]></NewInVersion>
+    <NewInDocuVersion><![CDATA[11.0.0]]></NewInDocuVersion>
+    <RevisedForVersion><![CDATA[11.0.0]]></RevisedForVersion>
+    <StatusMetaData>
+      <Todos/>
+    </StatusMetaData>
+  </AlkaconDocumentationTopicFrame>
+</AlkaconDocumentationTopicFrames>

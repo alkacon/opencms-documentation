@@ -31,7 +31,13 @@
 </ul>
 <p>You can look up descriptions of the methods available as commands in the JavaDoc.</p>
 <p>Using the argument <code>-additional</code> when calling the OpenCms shell, you can add an extra class for exposing methods. The class must implement <code><a href="%(link4)">I_CmsShellCommands</a></code>.</p>
-<p>Typing <code>help *</code> in the shell, you can always get an overview of the available commands.</p>]]></content>
+<p>Typing <code>help *</code> in the shell, you can always get an overview of the available commands.</p>
+<p>When you connect to the shell via<strong> RMI</strong>, there are three interesting commands available that do not make sence in stand-alone mode:</p>
+<ul>
+<li><code><strong>sendBroadcast message</strong></code>: Sends the message to all logged in users via the OpenCms broadcast mechanism.</li>
+<li><code><strong>setLoginMessage message loginDisabled</strong></code>: Sets a login message and disables/enables login. E.g., you could call <code>setLoginMessage "Login disabled for maintenance" "true"</code></li>
+<li><strong><code>clearLoginMessage</code></strong>: Disables a formerly set login message.</li>
+</ul>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

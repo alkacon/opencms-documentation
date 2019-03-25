@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Heading><![CDATA[Common toolbar options]]></Heading>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[Menu]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_big/menuBigIconActive.svg]]></target>
+          <uuid>7ba7d044-02bc-11e4-8167-1305b26fecac</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>A context menu with various options which depend on the current app.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Bookmarks]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_big/pinboard.svg]]></target>
+          <uuid>815e61c8-4bb9-11e9-81ca-0242ac11002b</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Here you can add a bookmark for your current place, this means:</p>
+<ul>
+<li>current project</li>
+<li>current site</li>
+<li>and current folder<span class="footnote">via structure id</span></li>
+</ul>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Quick launch]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_big/QuickLaunch.svg]]></target>
+          <uuid>90759c66-ec4a-11e5-b80f-0242ac11002b</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Switch to other apps</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[User info]]></Term>
+      <Icon>
+        <link type="WEAK">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_big/UserIcon.png]]></target>
+          <uuid>edbd3da1-ec4c-11e5-b80f-0242ac11002b</uuid>
+        </link>
+      </Icon>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<dl>
+<dd id="gwt-uid-53" class="mce-content-body mce-edit-focus" style="z-index: 1; position: relative;" tabindex="0" contenteditable="true" spellcheck="false" data-oc-id="http://opencms.org/resources/en/572bf2c1-05a8-11e4-a26d-1305b26fecac/Entry[9]" data-oc-field="/Entry:opencms://system/modules/com.alkacon.opencms.documentation/schemas/nested/definition-list-entry.xsd/OpenCmsDocumentationDefinitionListEntry/Description">
+<p>The icons shows a user specific configurable picture. It provides access to user information, preferences and the logout button.</p>
+</dd>
+</dl>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

@@ -14,7 +14,9 @@
 <li>Automatically install extra modules when deploying OpenCms</li>
 <li>Automatically export database data or modules, e.g., for moving the exported data to another server for backup.</li>
 </ul>
-<p>The OpenCms shell also supports import and export in <a href="%(link0)">clusters</a>.</p>]]></content>
+<p>The OpenCms shell also supports import and export in <a href="%(link0)">clusters</a>.</p>
+<p>Since OpenCms 11, you can start the shell either in stand-alone mode (as was before) or connect to your running OpenCms webapp via remote method invocation (RMI).</p>
+<div class="alert alert-danger">To avoid inconsistencies due to caches, you should always use the RMI connection for starting the shell while your OpenCms webapp is running.</div>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>
