@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
-<DecorationConfigurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/shared/decoration/decorationconfiguration.xsd">
+<DecorationConfigurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/config/decoration/decorationconfiguration.xsd">
   <DecorationConfiguration language="en">
     <uselocale>false</uselocale>
     <decoration>
@@ -12,7 +12,8 @@
       <posttextfirst/>
       <filename>
         <link type="WEAK">
-          <target><![CDATA[/system/shared/decoration/decorations.csv]]></target>
+          <target><![CDATA[/system/modules/com.alkacon.opencms.documentation/decoration/decorations.csv]]></target>
+          <uuid>a6039f1c-4d6c-11e5-8a41-0050563e5972</uuid>
         </link>
       </filename>
     </decoration>

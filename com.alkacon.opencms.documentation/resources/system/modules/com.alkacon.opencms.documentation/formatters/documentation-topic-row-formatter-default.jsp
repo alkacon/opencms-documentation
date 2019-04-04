@@ -14,7 +14,7 @@
 
 	<c:set var="docuBranch"><cms:property name="opencms.documentation.branch" file="search"/></c:set>
 	<c:if test="${not empty docuBranch}">
-		<a href="https://github.com/alkacon/opencms-documentation/blob/${docuBranch}/com.alkacon.opencms.documentation.content/resources/${content.filename}" target="_blank" title="Edit topic row content on GitHub" class="glyphicon glyphicon-edit pull-right github-link"></a>
+		<a href="https://github.com/alkacon/opencms-documentation/blob/${docuBranch}/com.alkacon.opencms.documentation.content/resources/${content.filename}" target="_blank" title="Edit topic row content on GitHub" class="fa fa-edit pull-right github-link"></a>
 	</c:if>
 
 	<c:if test="${not cms.element.settings.hidetitle}">
@@ -25,7 +25,7 @@
 	</c:if>
 	<div class="row">
 		<c:forEach var="item" items="${content.valueList.Item}">
-			<div class="${cms:lookup(fn:length(content.valueList.Item), '1:col-xs-12|2:col-sm-6|3:col-md-4')}">				
+			<div class="${cms:lookup(fn:length(content.valueList.Item), '1:col-xs-12|2:col-sm-6|3:col-md-4')}">
 				<div>
 					<!-- <h4 ${item.rdfa.Headline}>${item.value.Headline}</h4>  -->
 					<ul class="topic-row-item">
@@ -52,7 +52,7 @@
 					</ul>
 				</div>
 			</div>
-		</c:forEach>	
+		</c:forEach>
 	</div>
 
 </div>

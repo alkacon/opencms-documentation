@@ -1,4 +1,14 @@
-<%@page buffer="none" session="false" trimDirectiveWhitespaces="true" taglibs="cms,c,fmt,fn" %>
+<%@page
+    pageEncoding="UTF-8"
+    buffer="none"
+    session="false"
+    trimDirectiveWhitespaces="true"%>
+
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms"%>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+
 <cms:formatter var="content">
 <div>
 	<c:set var="docuBranch"><cms:property name="opencms.documentation.branch" file="search"/></c:set>
@@ -9,7 +19,7 @@
 	<c:set var="openCmsVersion">
 		<cms:property name="opencms.documentation.version" file="search" />
 	</c:set>
-	<c:if test="${not cms.isOnlineProject and isEditor and cms.vfs.exists['/documentation-editor-tools/']}">
+	<c:if test="${cms.isEditMode and isEditor and cms.vfs.exists['/documentation-editor-tools/']}">
 		<div class="alert alert-info">
 			Edit me to change the topic's metadata.
 		</div>
@@ -28,30 +38,30 @@
 	<c:if test="${content.value.NewInVersion.exists || content.value.NewInDocuVersion.exists || content.value.RevisedForVersion.exists}">
 		<div class="topic-status-tags">
 			<c:if test="${not empty docuBranch}">
-				<a id="documentation-github-links-show" class="pull-left github-links-switcher" title="Show links for editing contents on GitHub."><span class="glyphicon glyphicon-edit"></span>&nbsp;Show GitHub edit links</a>
-				<a id="documentation-github-links-hide" class="pull-left github-links-switcher active" title="Hide links for editing contents on GitHub."><span class="glyphicon glyphicon-edit"></span>&nbsp;Hide GitHub edit links</a>
+				<a id="documentation-github-links-show" class="pull-left github-links-switcher" title="Show links for editing contents on GitHub."><span class="fa fa-edit"></span>&nbsp;Show GitHub edit links</a>
+				<a id="documentation-github-links-hide" class="pull-left github-links-switcher active" title="Hide links for editing contents on GitHub."><span class="fa fa-edit"></span>&nbsp;Hide GitHub edit links</a>
 			</c:if>
 			<div class="topic-status-tags-inner">
 				<c:if test="${content.value.NewInVersion.exists}">
-					<span class="label label-info">In OpenCms since: ${content.value.NewInVersion}</span>
+					<span class="badge badge-info">In OpenCms since: ${content.value.NewInVersion}</span>
 				</c:if>
 				<c:if test="${isEditor && content.value.NewInDocuVersion.exists}">
-					<span class="label label-default">Documented since: ${content.value.NewInDocuVersion}</span>
+					<span class="badge badge-default">Documented since: ${content.value.NewInDocuVersion}</span>
 				</c:if>
 				<c:if test="${isEditor && (content.value.RevisedForVersion.exists || content.value.NewInDocuVersion.exists)}">
-					<span class="label label-orange">Latest revision for: ${content.value.RevisedForVersion.exists ? content.value.RevisedForVersion : content.value.NewInDocuVersion}</span>
+					<span class="badge badge-orange">Latest revision for: ${content.value.RevisedForVersion.exists ? content.value.RevisedForVersion : content.value.NewInDocuVersion}</span>
 				</c:if>
 				<c:if test="${not empty openCmsVersion}">
-					<span class="label label-success">Valid for OpenCms: ${openCmsVersion}</span>
+					<span class="badge badge-success">Valid for OpenCms: ${openCmsVersion}</span>
 				</c:if>
 			</div>
 		</div>
 	</c:if>
-	
+
 	<c:if test="${not empty docuBranch}">
-		<a href="https://github.com/alkacon/opencms-documentation/blob/${docuBranch}/com.alkacon.opencms.documentation.content/resources/${content.filename}" target="_blank" title="Edit topic content on GitHub" class="glyphicon glyphicon-edit pull-right github-link"></a>
+		<a href="https://github.com/alkacon/opencms-documentation/blob/${docuBranch}/com.alkacon.opencms.documentation.content/resources/${content.filename}" target="_blank" title="Edit topic content on GitHub" class="fa fa-edit pull-right github-link"></a>
 	</c:if>
-	
+
 	<div class="tag-box tag-box-v3" ${content.rdfa.Overview}>${content.value.Overview}</div>
 	<c:set var="relatedLinks" value="${content.subValueList.RelatedLinks}" />
 	<c:if test="${cms:getListSize(relatedLinks) > 0}">

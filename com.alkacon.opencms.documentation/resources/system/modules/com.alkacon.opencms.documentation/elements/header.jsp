@@ -1,49 +1,62 @@
-<%@page buffer="none" session="false" trimDirectiveWhitespaces="true" taglibs="cms,c" %>
-<!--=== Header ===-->
-<%-- initialize the anchor script --%>
-<c:if test="${cms.isOnlineProject}">
-	<script>
-		document.addEventListener("DOMContentLoaded", function(event) {
-			anchors.add('.anchored');
-		});
-	</script>
-</c:if>
-<!--=== Top ===-->
-<div class="topbar">
+<%@page
+    pageEncoding="UTF-8"
+    buffer="none"
+    session="false"
+    trimDirectiveWhitespaces="true"%>
 
-    <div class="container-fluid container-main">
-        
-    </div> 
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms"%>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<%@ taglib prefix="mercury" tagdir="/WEB-INF/tags/mercury" %>
 
-</div><!--/top-->
-<!--=== End Top ===-->
+        <mercury:nl />
+        <header class="area-header logo-left"><%----%>
+            <mercury:nl />
 
-<div class="header">
-	<div class="navbar navbar-default" role="navigation">
-        <div class="container-fluid container-main">
-        	<div class="headline">
-                <a href="<cms:link>http://www.opencms.org</cms:link>" title="OpenCms homepage">
-					<span class="docu-logo logo-opencms"></span>
-                </a>
-				<h1 class="pull-right">OpenCms Documentation</h1>
-			</div>       
-		</div><!-- /container -->
-	</div><!-- /navbar -->
-</div><!--/header -->
-<!--=== End Header ===-->
+            <input type="checkbox" id="nav-toggle-check"><%-- Must be here so it works even when JavaScript is disabled --%>
+            <div id="nav-toggle-group"><%----%>
+                <label for="nav-toggle-check" id="nav-toggle-label"><%----%>
+                    <span class="nav-toggle"><%----%>
+                        <span><fmt:message key="msg.page.navigation.toggle" /></span><%----%>
+                    </span><%----%>
+                </label><%----%>
+                <div class="head-overlay"></div><%----%>
+            </div><%----%>
+            <mercury:nl />
 
-<!--=== Breadcrumbs ===-->
-<div class="breadcrumbs margin-bottom-30">
-	<div class="container-fluid container-main">
-        <h1 class="pull-left">
-        	<c:out value="${cms.title}" />
-        	<c:if test="${cms.isEditMode}">
-            	<span class="badge superscript">${cms.requestContext.currentUser.name}</span>
-            </c:if>
-        </h1>
-        <cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/nav-breadcrumb.jsp:90ca36ae-68b8-11e4-9296-005056b61161)">
-			<cms:param name="startlevel">0</cms:param>
-		</cms:include>
-    </div><!--/container-->
-</div><!--/breadcrumbs-->
-<!--=== End Breadcrumbs ===-->
+            <div class="header-group sticky csssetting"><%----%>
+                <div class="head notfixed"><%----%>
+
+                    <mercury:nl />
+                    <div class="container-fluid"><%----%>
+                        <div class="row"><%----%>
+                            <div class="col col-head-logo">
+								<mercury:link link="/" css="imglink">
+								    <mercury:image-simple  image="%(link.weak:/system/modules/com.alkacon.opencms.documentation/images/opencms_logo.svg:348222e4-5217-11e9-98ba-0242ac11002b)" title="The Alkacon OpenCms homepage"/>
+								</mercury:link>
+							</div>
+
+                            <div class="col col-head-info"><%----%>
+
+                                <mercury:heading level="${7}" ade="false" text="OpenCms Documentation" css="header-title hidden-fixed" />
+								<div class="nav-main-container">
+									<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/nav-main.jsp:b9188568-521a-11e9-98ba-0242ac11002b)"/>
+								</div>
+                            </div><%----%>
+                            <mercury:nl />
+
+                        </div><%----%>
+                    </div><%----%>
+                    <mercury:nl />
+
+                </div><%----%>
+            </div><%----%>
+            <mercury:nl />
+
+            <div class="breadcrumbs-bg">
+            	<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/nav-breadcrumb.jsp:90ca36ae-68b8-11e4-9296-005056b61161)"/>
+            </div>
+            <mercury:nl />
+
+        </header><%----%>

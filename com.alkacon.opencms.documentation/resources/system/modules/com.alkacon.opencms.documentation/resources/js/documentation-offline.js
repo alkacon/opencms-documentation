@@ -7,7 +7,7 @@ function addClickHandlers() {
     });
 }
 
-$('document').ready(function() {
+mercury.ready(function() {
     $(".scroll-left").scrollLeft();
     addClickHandlers();
 });

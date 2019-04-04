@@ -503,57 +503,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>system/modules/com.alkacon.opencms.documentation.editortools/templates</destination>
-			<type>folder</type>
-			<uuidstructure>d4a16269-2d2a-11e4-93f4-d144f6bb3566</uuidstructure>
-			<datecreated>Tue, 26 Aug 2014 14:11:10 GMT</datecreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.opencms.documentation.editortools/templates/documentation-editortools-template.jsp</source>
-			<destination>system/modules/com.alkacon.opencms.documentation.editortools/templates/documentation-editortools-template.jsp</destination>
-			<type>containerpage_template</type>
-			<uuidstructure>0956e25f-2d2b-11e4-93f4-d144f6bb3566</uuidstructure>
-			<uuidresource>0956e260-2d2b-11e4-93f4-d144f6bb3566</uuidresource>
-			<datecreated>Tue, 26 Aug 2014 14:12:39 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Description</name>
-					<value><![CDATA[Template to display editor tools for the documentation.]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Editortools template]]></value>
-				</property>
-				<property>
-					<name>cache</name>
-					<value><![CDATA[uri;locale]]></value>
-				</property>
-				<property>
-					<name>container.info</name>
-					<value><![CDATA[functionDetail=documentation-content-container]]></value>
-				</property>
-				<property type="shared">
-					<name>export</name>
-					<value><![CDATA[false]]></value>
-				</property>
-				<property>
-					<name>template</name>
-					<value><![CDATA[/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/css/style-editor.css]]></value>
-				</property>
-				<property>
-					<name>template.provider</name>
-					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=%(templatepath)]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<destination>system/workplace</destination>
 			<type>folder</type>
 			<properties/>

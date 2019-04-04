@@ -1,7 +1,16 @@
+<%@page
+    pageEncoding="UTF-8"
+    buffer="none"
+    session="false"
+    trimDirectiveWhitespaces="true"%>
+
 <%@page import="org.opencms.jsp.util.CmsJspStandardContextBean
 			   ,com.alkacon.opencms.documentation.navigation.PageNavBuilder
 			   ,com.alkacon.opencms.documentation.navigation.PageNavElement" %>
-<%@page buffer="none" session="false" trimDirectiveWhitespaces="true" taglibs="c,cms" %>
+
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms"%>
+
 
 <%	CmsJspStandardContextBean cmsBean = CmsJspStandardContextBean.getInstance(request);
 	PageNavBuilder pageNav = new PageNavBuilder(cmsBean,"documentation-content-container");
@@ -9,29 +18,47 @@
 %>
 
 <c:if test="${cms:getListSize(pageNav.navElements) > 0}">
-	<i class="page-nav-btn glyphicon glyphicon-align-justify hidden-xs"></i>
-	<div class="page-nav hidden-xs">
+	<i class="page-nav-btn icon-image fa fa-bars hidden-xs hidden-sm hidden-md"></i>
+	<div class="page-nav hidden-xs hidden-sm hidden-md">
 		<h4 class="heading">
 			Page Navigation
-			<button type="button" class="close">&times;</button>
+			<%-- TODO: Style --%>
+			<a class="close float-right icon-image fa fa-times"></a>
 		</h4>
-		<div class="page-nav-content">
-			<ul class="nav-side list-group sidebar-nav-v1">			
-				<c:forEach items="${pageNav.navElements}" var="elem">
-					<li class="nav-side-level-${elem.navLevel} list-group-item"><a href="#${elem.link}">${elem.title}</a></li>
+		<div class="page-nav-content" style="background-color: #ffffff;">
+			<ul class="nav-side">
+				<c:set var="lastLevel" value="${1}" />
+				<c:forEach items="${pageNav.navElements}" var="elem" varStatus="status">
+					<c:choose>
+					<c:when test="${not status.first and lastLevel eq elem.navLevel}">
+						</li>
+					</c:when>
+					<c:when test="${lastLevel lt elem.navLevel}">
+						<ul>
+					</c:when>
+					<c:when test="${lastLevel gt elem.navLevel}">
+						</li>
+						<c:forEach var="i" begin="${elem.navLevel}" end="${lastLevel - 1}">
+							</ul>
+							</li>
+						</c:forEach>
+					</c:when>
+					</c:choose>
+
+					<li><a href="#${elem.link}">${elem.title}</a>
+
+					<c:set var="lastLevel" value="${elem.navLevel}" />
+
 				</c:forEach>
-			</ul>
-		</div>
-	</div>
-	<div class="row visible-xs-block hidden-sm hidden-md hidden-lg">
-		<div class="col-xs-12">
-			<div class="page-nav-content">
-				<ul class="nav-side list-group sidebar-nav-v1">			
-					<c:forEach items="${pageNav.navElements}" var="elem">
-						<li class="nav-side-level-${elem.navLevel} list-group-item"><a href="#${elem.link}">${elem.title}</a></li>
+
+				<c:if test="${lastLevel gt 1}">
+					<c:forEach var="i" begin="${1}" end="${lastLevel}">
+						</li>
+						</ul>
 					</c:forEach>
-				</ul>
-			</div>
+				</c:if>
+				</li>
+			</ul>
 		</div>
 	</div>
 </c:if>

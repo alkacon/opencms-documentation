@@ -55,7 +55,7 @@
 			</layouts>
 			<validationrules>
 				<rule element="NewInVersion" regex="\d{1,3}(.\d{1,3}){0,3}" type="error" message="The value seems not to be an OpenCms version number." />
-				<rule element="RemovedInVersion" regex="\d{1,3}(.\d{1,3}){0,3}" type="error" message="The value seems not to be an OpenCms version number." /> 
+				<rule element="RemovedInVersion" regex="\d{1,3}(.\d{1,3}){0,3}" type="error" message="The value seems not to be an OpenCms version number." />
 				<rule element="NewInDocuVersion" regex="\d{1,3}(.\d{1,3}){0,3}" type="error" message="The value seems not to be an OpenCms version number." />
 			</validationrules>
 			<relations/>
@@ -85,10 +85,10 @@
 					<solrfield targetfield="newInDocuVersion" addto="page,element" default="unknown" />
 				</searchsetting>
 				<searchsetting element="Keywords" searchcontent="false">
-					<solrfield targetfield="keywords" addto="page,element" sourcefield="_cs" />
+					<solrfield targetfield="keywords" addto="page,element" sourcefield="_comma" />
 				</searchsetting>
 				<searchsetting element="InterestingFor" searchcontent="false">
-					<solrfield targetfield="interestingFor" sourcefield="*_cs" addto="page,element" />
+					<solrfield targetfield="interestingFor" sourcefield="*_comma" addto="page,element" />
 				</searchsetting>
 			</searchsettings>
 		</xsd:appinfo>

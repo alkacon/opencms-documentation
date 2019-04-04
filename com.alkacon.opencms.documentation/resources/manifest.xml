@@ -10,7 +10,7 @@
 		<nicename><![CDATA[OpenCms Documentation]]></nicename>
 		<group>OpenCms Documentation</group>
 		<class/>
-		<site>/sites/default</site>
+		<site>/</site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[Provides all the content types with formatters and templates to set up a topic-based documentation. Used for the OpenCms documentation.]]></description>
 		<version>11.0.0</version>
@@ -352,106 +352,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.opencms.documentation/elements/default-headincludes-css-offline.jsp</source>
-			<destination>system/modules/com.alkacon.opencms.documentation/elements/default-headincludes-css-offline.jsp</destination>
-			<type>jsp</type>
-			<uuidstructure>f6cfa205-23b6-11e4-a9de-49dbf0abad32</uuidstructure>
-			<uuidresource>f6cfa206-23b6-11e4-a9de-49dbf0abad32</uuidresource>
-			<datecreated>Thu, 14 Aug 2014 13:29:05 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[CSS includes for jQuery, bootstrap, unify and specials for all documentation templates]]></value>
-				</property>
-				<property>
-					<name>cache</name>
-					<value><![CDATA[uri;locale]]></value>
-				</property>
-				<property type="shared">
-					<name>export</name>
-					<value><![CDATA[false]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.opencms.documentation/elements/default-headincludes-css-online.jsp</source>
-			<destination>system/modules/com.alkacon.opencms.documentation/elements/default-headincludes-css-online.jsp</destination>
-			<type>jsp</type>
-			<uuidstructure>0c0f8b39-23b7-11e4-a9de-49dbf0abad32</uuidstructure>
-			<uuidresource>0c0f8b3a-23b7-11e4-a9de-49dbf0abad32</uuidresource>
-			<datecreated>Thu, 14 Aug 2014 13:29:41 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[CSS includes for jQuery, bootstrap, unify and specials for all documentation templates]]></value>
-				</property>
-				<property>
-					<name>cache</name>
-					<value><![CDATA[uri;locale]]></value>
-				</property>
-				<property type="shared">
-					<name>export</name>
-					<value><![CDATA[false]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.opencms.documentation/elements/default-headincludes-javascript-offline.jsp</source>
-			<destination>system/modules/com.alkacon.opencms.documentation/elements/default-headincludes-javascript-offline.jsp</destination>
-			<type>jsp</type>
-			<uuidstructure>b2e612dd-23b6-11e4-a9de-49dbf0abad32</uuidstructure>
-			<uuidresource>b2e612de-23b6-11e4-a9de-49dbf0abad32</uuidresource>
-			<datecreated>Thu, 14 Aug 2014 13:27:12 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Javascript includes for jQuery, bootstrap, unify and specials for all documentation templates]]></value>
-				</property>
-				<property>
-					<name>cache</name>
-					<value><![CDATA[uri;locale]]></value>
-				</property>
-				<property type="shared">
-					<name>export</name>
-					<value><![CDATA[false]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.opencms.documentation/elements/default-headincludes-javascript-online.jsp</source>
-			<destination>system/modules/com.alkacon.opencms.documentation/elements/default-headincludes-javascript-online.jsp</destination>
-			<type>jsp</type>
-			<uuidstructure>e905aa21-23b6-11e4-a9de-49dbf0abad32</uuidstructure>
-			<uuidresource>e905aa22-23b6-11e4-a9de-49dbf0abad32</uuidresource>
-			<datecreated>Thu, 14 Aug 2014 13:28:42 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Javascript includes for jQuery, bootstrap, unify and specials for all documentation templates]]></value>
-				</property>
-				<property>
-					<name>cache</name>
-					<value><![CDATA[uri;locale]]></value>
-				</property>
-				<property type="shared">
-					<name>export</name>
-					<value><![CDATA[false]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>system/modules/com.alkacon.opencms.documentation/elements/footer.jsp</source>
 			<destination>system/modules/com.alkacon.opencms.documentation/elements/footer.jsp</destination>
 			<type>jsp</type>
@@ -527,6 +427,23 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/elements/nav-main.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/elements/nav-main.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>b9188568-521a-11e9-98ba-0242ac11002b</uuidstructure>
+			<uuidresource>b9188569-521a-11e9-98ba-0242ac11002b</uuidresource>
+			<datecreated>Fri, 29 Mar 2019 12:03:53 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.opencms.documentation/elements/pagenavigation.jsp</source>
 			<destination>system/modules/com.alkacon.opencms.documentation/elements/pagenavigation.jsp</destination>
 			<type>jsp</type>
@@ -552,17 +469,17 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.opencms.documentation/elements/search-google.jsp</source>
-			<destination>system/modules/com.alkacon.opencms.documentation/elements/search-google.jsp</destination>
+			<source>system/modules/com.alkacon.opencms.documentation/elements/search.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/elements/search.jsp</destination>
 			<type>jsp</type>
-			<uuidstructure>407a975a-68b6-11e4-9296-005056b61161</uuidstructure>
-			<uuidresource>407a975b-68b6-11e4-9296-005056b61161</uuidresource>
-			<datecreated>Mon, 10 Nov 2014 08:47:50 GMT</datecreated>
+			<uuidstructure>913527e3-811a-11e4-8c93-bfc0090a1084</uuidstructure>
+			<uuidresource>913527e4-811a-11e4-8c93-bfc0090a1084</uuidresource>
+			<datecreated>Thu, 11 Dec 2014 09:46:23 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Searching the documentation via Google]]></value>
+					<value><![CDATA[Searching the documentation]]></value>
 				</property>
 				<property>
 					<name>cache</name>
@@ -1158,56 +1075,6 @@
 			<uuidstructure>8fa6329f-fd33-11e3-8938-fb93821e3720</uuidstructure>
 			<uuidresource>8fa632a0-fd33-11e3-8938-fb93821e3720</uuidresource>
 			<datecreated>Thu, 26 Jun 2014 13:12:44 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>cache</name>
-					<value><![CDATA[container-element;uri]]></value>
-				</property>
-				<property type="shared">
-					<name>export</name>
-					<value><![CDATA[false]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-topic-row-formatter-complex-config.xml</source>
-			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-topic-row-formatter-complex-config.xml</destination>
-			<type>formatter_config</type>
-			<uuidstructure>f95ad3b8-74b1-11e4-82bd-259ec8a334d7</uuidstructure>
-			<uuidresource>f95ad3b9-74b1-11e4-82bd-259ec8a334d7</uuidresource>
-			<datecreated>Tue, 25 Nov 2014 14:47:26 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Complex Topic Row Formatter]]></value>
-				</property>
-				<property>
-					<name>locale</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>locale-available</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>search.exclude</name>
-					<value><![CDATA[all]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.opencms.documentation/formatters/documentation-topic-row-formatter-complex.jsp</source>
-			<destination>system/modules/com.alkacon.opencms.documentation/formatters/documentation-topic-row-formatter-complex.jsp</destination>
-			<type>jsp</type>
-			<uuidstructure>ff092c72-17b8-11e4-a3fa-b7bfd6088c56</uuidstructure>
-			<uuidresource>ff092c73-17b8-11e4-a3fa-b7bfd6088c56</uuidresource>
-			<datecreated>Wed, 30 Jul 2014 07:13:24 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -2557,6 +2424,52 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/functions/search.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/functions/search.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>04ec9b93-55fe-11e9-b60e-0242ac11002b</uuidstructure>
+			<uuidresource>04ec9b94-55fe-11e9-b60e-0242ac11002b</uuidresource>
+			<datecreated>Wed, 03 Apr 2019 10:48:30 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Documentation's full text search]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/functions/search.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/functions/search.xml</destination>
+			<type>function_config</type>
+			<uuidstructure>f8ecb54e-55fd-11e9-b60e-0242ac11002b</uuidstructure>
+			<uuidresource>f8ecb54f-55fd-11e9-b60e-0242ac11002b</uuidresource>
+			<datecreated>Wed, 03 Apr 2019 10:48:10 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Documentation's full text search]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>system/modules/com.alkacon.opencms.documentation/functions/demo</destination>
 			<type>folder</type>
 			<uuidstructure>71b8cee4-2129-11e4-a141-d9f74955ba1b</uuidstructure>
@@ -3034,6 +2947,27 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/images/alkacon-logo.svg</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/images/alkacon-logo.svg</destination>
+			<type>image</type>
+			<uuidstructure>1f7b8e34-56ae-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>1f7b8e35-56ae-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 07:49:06 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Alkacon logo]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:129,h:42]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.alkacon.opencms.documentation/images/Alkacon_Logo_1000_transparent_24bit.png</source>
 			<destination>system/modules/com.alkacon.opencms.documentation/images/Alkacon_Logo_1000_transparent_24bit.png</destination>
 			<type>image</type>
@@ -3083,6 +3017,27 @@
 				<property type="shared">
 					<name>image.size</name>
 					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/images/opencms_logo.svg</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/images/opencms_logo.svg</destination>
+			<type>image</type>
+			<uuidstructure>348222e4-5217-11e9-98ba-0242ac11002b</uuidstructure>
+			<uuidresource>348249f5-5217-11e9-98ba-0242ac11002b</uuidresource>
+			<datecreated>Fri, 29 Mar 2019 11:38:43 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms logo]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:170,h:42]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -3204,6 +3159,40 @@
 			<type>folder</type>
 			<uuidstructure>c6e04ea2-00ef-11e4-aa3f-1305b26fecac</uuidstructure>
 			<datecreated>Tue, 01 Jul 2014 07:17:36 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation/resources/css</destination>
+			<type>folder</type>
+			<uuidstructure>bc6e1d21-4fc7-11e9-8a3e-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 26 Mar 2019 13:04:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/resources/css/theme-documentation-default.min.css</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/resources/css/theme-documentation-default.min.css</destination>
+			<type>plain</type>
+			<uuidstructure>bcc84b17-4fc7-11e9-8a3e-0242ac11002b</uuidstructure>
+			<uuidresource>bcc84b18-4fc7-11e9-8a3e-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Mar 2019 13:04:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation/resources/css/theme-documentation-default.min.css.map</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/resources/css/theme-documentation-default.min.css.map</destination>
+			<type>plain</type>
+			<uuidstructure>bcd59189-4fc7-11e9-8a3e-0242ac11002b</uuidstructure>
+			<uuidresource>bcd5918a-4fc7-11e9-8a3e-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Mar 2019 13:04:49 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -3402,18 +3391,6 @@
 					<value><![CDATA[Anchor JS version 4.2]]></value>
 				</property>
 			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.opencms.documentation/resources/js/back-to-top.js</source>
-			<destination>system/modules/com.alkacon.opencms.documentation/resources/js/back-to-top.js</destination>
-			<type>jsp</type>
-			<uuidstructure>7a6489cc-6e6c-11e4-954c-259ec8a334d7</uuidstructure>
-			<uuidresource>7a6489cd-6e6c-11e4-954c-259ec8a334d7</uuidresource>
-			<datecreated>Mon, 17 Nov 2014 15:14:51 GMT</datecreated>
-			<flags>0</flags>
-			<properties/>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -4128,39 +4105,6 @@
 			<datecreated>Thu, 03 Jul 2014 09:35:02 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.opencms.documentation/templates/documentation-overview-template.jsp</source>
-			<destination>system/modules/com.alkacon.opencms.documentation/templates/documentation-overview-template.jsp</destination>
-			<type>containerpage_template</type>
-			<uuidstructure>a1437bce-1d79-11e4-9d87-d9f74955ba1b</uuidstructure>
-			<uuidresource>a1437bcf-1d79-11e4-9d87-d9f74955ba1b</uuidresource>
-			<datecreated>Wed, 06 Aug 2014 14:54:56 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Template for Overviews]]></value>
-				</property>
-				<property>
-					<name>cache</name>
-					<value><![CDATA[uri;locale]]></value>
-				</property>
-				<property type="shared">
-					<name>export</name>
-					<value><![CDATA[false]]></value>
-				</property>
-				<property>
-					<name>template</name>
-					<value><![CDATA[/system/modules/com.alkacon.bootstrap.basics/resources/theme-unify/css/style-editor.css]]></value>
-				</property>
-				<property>
-					<name>template.provider</name>
-					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=%(templatepath)]]></value>
-				</property>
-			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>

@@ -17,15 +17,15 @@
 ${cms.enableReload}
 	<div>
 		<div class="tag-box tag-box-v4">
-			
+
 			<a name="vid_${fn:replace(fn:toLowerCase(content.value.Identifier)," ","_")}"></a>
-		
+
 			<c:choose>
 				<c:when test="${content.value.VideoID.isSet}">
-					<iframe type="text/html" width="${width}" height="${height}" 
+					<iframe type="text/html" width="${width}" height="${height}"
 						src="http://www.youtube.com/embed/${content.value.VideoID}?autoplay=${autoplay}&loop=${loop}&fs=${fs}&showinfo=${showinfo}&rel=0&modestbranding=1" frameborder="0" ></iframe>
 				</c:when>
-				
+
 				<c:otherwise>
 					<div class="alert alert-danger" style="width: ${width}px; height: ${height}px;">
 						<h2>
@@ -37,9 +37,9 @@ ${cms.enableReload}
 
 			<c:set var="docuBranch"><cms:property name="opencms.documentation.branch" file="search"/></c:set>
 			<c:if test="${not empty docuBranch}">
-				<a href="https://github.com/alkacon/opencms-documentation/blob/${docuBranch}/com.alkacon.opencms.documentation.content/resources/${content.filename}" target="_blank" title="Edit video content on GitHub" class="glyphicon glyphicon-edit pull-right github-link"></a>
+				<a href="https://github.com/alkacon/opencms-documentation/blob/${docuBranch}/com.alkacon.opencms.documentation.content/resources/${content.filename}" target="_blank" title="Edit video content on GitHub" class="fa fa-edit pull-right github-link"></a>
 			</c:if>
-		
+
 			<div>
 				<b>Fig. [<span ${content.rdfa.Identifier}>${content.value.Identifier}</span>]:</b> <span ${content.rdfa.Title}>${content.value.Title}</span>
 			</div>

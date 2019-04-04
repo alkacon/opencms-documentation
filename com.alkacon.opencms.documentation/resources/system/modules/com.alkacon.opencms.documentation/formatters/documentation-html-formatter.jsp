@@ -10,7 +10,7 @@
 		<cms:property name="opencms.documentation.editor" file="search" default="false" />
 	</c:set>
 	<c:if test="${not (empty docuBranch or cms.isEditMode)}">
-		<a href="https://github.com/alkacon/opencms-documentation/blob/${docuBranch}/com.alkacon.opencms.documentation.content/resources/${content.filename}" target="_blank" title="Edit Html content on GitHub" class="glyphicon glyphicon-edit pull-right github-link"></a>
+		<a href="https://github.com/alkacon/opencms-documentation/blob/${docuBranch}/com.alkacon.opencms.documentation.content/resources/${content.filename}" target="_blank" title="Edit Html content on GitHub" class="fa fa-edit pull-right github-link"></a>
 	</c:if>
 	<c:choose>
 	<c:when test="${isEditor && not cms.isOnlineProject}">
@@ -19,7 +19,7 @@
 	<c:otherwise>
 		<cms:decorate file="/system/modules/com.alkacon.opencms.documentation/decoration/configuration.xml">
 			<div>${content.value.Html}</div>
-		</cms:decorate>	
+		</cms:decorate>
 	</c:otherwise></c:choose>
 </div>
 </cms:formatter>

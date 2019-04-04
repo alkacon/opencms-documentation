@@ -9,7 +9,7 @@
 
 	<c:set var="docuBranch"><cms:property name="opencms.documentation.branch" file="search"/></c:set>
 	<c:if test="${not empty docuBranch}">
-		<a href="https://github.com/alkacon/opencms-documentation/blob/${docuBranch}/com.alkacon.opencms.documentation.content/resources/${content.filename}" target="_blank" title="Edit section content on GitHub" class="glyphicon glyphicon-edit pull-right github-link"></a>
+		<a href="https://github.com/alkacon/opencms-documentation/blob/${docuBranch}/com.alkacon.opencms.documentation.content/resources/${content.filename}" target="_blank" title="Edit section content on GitHub" class="fa fa-edit pull-right github-link"></a>
 	</c:if>
 
 	<c:set var="level" value="${cms.element.settings['level']}" />
@@ -52,6 +52,6 @@
 	<cms:container type="documentation-section" name="documentation-section-container">
 		<div class="jumbotron"><h2>Please add content to this section.</h2></div>
 	</cms:container>
-	
+
 </div>
 </cms:formatter>

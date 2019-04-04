@@ -41,21 +41,21 @@
 				<iframe class="iframe-dialog" style="z-index: 1001; margin:auto; position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; width: 700px; height:300px; border:1px solid black; background-color:rgba(0,0,0,0.8); " src=""></iframe>
 			</div>
 			<%-- <div class="waitindicator-overlay" style="cursor:wait; display:none; z-index: 2000; margin:auto; position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; width: 100%; height:100%; border:1px solid black; background-color:rgba(0,0,0,0.8); ">Please wait ...</div>  --%>
-			
-			<div style="clear:right;margin-top:20px;" class="alert alert-info"> 
+
+			<div style="clear:right;" class="alert alert-info">
+				<a style="float:right;margin-top:4px;" class="btn btn-default" href="javascript:reloadPage();">Reload page</a>
 				There are ${info.resultSize} figures that are not up to date. You see at most ${pageSize} pictures. Update them and reload the page to see more pictures.
-				<a style="float:right;margin-top:-6px;" class="btn btn-default" href="javascript:reloadPage();">Reload page</a>
 			</div>
 			<%-- TODO: Add pagination? --%>
 			<cms:contentload collector="byQuery" param='${queryString}&rows=${pageSize}&start=${pagesize*currentPage}'>
 				<cms:contentaccess var="content" />
 				<hr />
 				<div class="row">
-					<div class="col-lg-9 col-md-9">
+					<div class="col-lg-9 col-xl-9">
 						<div class="tag-box tag-box-v4">
-		
+
 							<a name="fig_${fn:replace(fn:toLowerCase(content.value.Identifier)," ","_")}"></a>
-	
+
 							<div>
 								<cms:img src="${content.value.Image}" cssclass="img-responsive center-block" />
 							</div>
@@ -64,7 +64,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-3">
+					<div class="col-lg-3 col-xl-3">
 						<div class="well well-sm" style="text-align:center;margin: 5px;" >Current version: ${content.value.version.isSet?content.value.version:"unset"}</div>
 						<div style="text-align:center;margin: 5px;" class="update-${content.id}"><a class="btn btn-default btn-block" href='javascript:updateVersionNumber("${param.version}","${content.id}");'>Update to ${param.version}</a></div>
 						<div style="text-align:center;margin: 5px;"><a class="btn btn-default btn-block" href='javascript:showReplaceDialog("${content.value.Image.toImage.resource.structureId}");'>Replace picture</a></div>
@@ -89,11 +89,11 @@
 				</div>
 			</cms:contentload>
 			<hr />
-			<div style="clear:right;margin-top:20px;" class="alert alert-info"> 
+			<div style="clear:right;margin-top:20px;" class="alert alert-info">
 				There are ${info.resultSize} figures that are not up to date. You see at most ${pageSize} pictures. Update them and reload the page to see more pictures.
 				<a style="float:right;margin-top:-6px;" class="btn btn-default" href="javascript:reloadPage();">Reload page</a>
 			</div>
-			
+
 			<script type="text/javascript">
 				function updateVersionNumber(number, uuid) {
 				    //setWaitIndicator(true);

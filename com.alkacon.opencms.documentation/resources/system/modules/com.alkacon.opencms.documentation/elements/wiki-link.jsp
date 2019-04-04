@@ -25,7 +25,7 @@
 			</p>
 		</div>
 		<div class="col-xs-12 col-md-4">
-			<p><a type="submit" class="btn btn-block btn-info" title="Go to the wiki page for this topic." href="http://www.opencms-wiki.org/wiki${wikiLink}" target="_blank">To the wiki</a></p>
+			<p><a class="btn btn-block btn-info" title="Go to the wiki page for this topic." href="http://www.opencms-wiki.org/wiki${wikiLink}" target="_blank">To the wiki</a></p>
 		</div>
 	</div>
 </div>

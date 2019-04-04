@@ -16,10 +16,19 @@
         <ContainerType><![CDATA[documentation-topic]]></ContainerType>
       </Types>
     </Match>
-    <Preview>false</Preview>
-    <SearchContent>true</SearchContent>
     <AutoEnabled>true</AutoEnabled>
+    <SearchContent>true</SearchContent>
+    <StrictContainers>true</StrictContainers>
     <Detail>true</Detail>
-    <NestedContainers>false</NestedContainers>
+    <AlwaysApplyMetaMappings>true</AlwaysApplyMetaMappings>
+    <Preview>false</Preview>
+    <MetaMapping>
+      <Key><![CDATA[ogDescription]]></Key>
+      <Element><![CDATA[Teaser]]></Element>
+    </MetaMapping>
+    <MetaMapping>
+      <Key><![CDATA[Keywords]]></Key>
+      <Element><![CDATA[Keywords]]></Element>
+    </MetaMapping>
   </NewFormatter>
 </NewFormatters>

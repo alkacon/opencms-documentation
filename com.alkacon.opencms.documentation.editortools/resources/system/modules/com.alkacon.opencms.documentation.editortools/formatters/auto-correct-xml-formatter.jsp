@@ -4,7 +4,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <cms:formatter var="content">
-	<div class="tag-box tag-box-v2">
+	<div class="tag-box tag-box-v4">
 		<c:choose>
 		<c:when test="${!cms.element.inMemoryOnly && cms.edited}">
 			${cms.enableReload}

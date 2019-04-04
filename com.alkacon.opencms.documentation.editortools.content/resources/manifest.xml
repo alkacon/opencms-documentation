@@ -2,9 +2,9 @@
 
 <export>
 	<info>
-		<creator>dSeidel</creator>
+		<creator>Admin</creator>
 		<opencms_version>11.0.x_DOCUMENTATION_EDITABLE</opencms_version>
-		<createdate>Mon, 25 Mar 2019 13:48:13 GMT</createdate>
+		<createdate>Thu, 04 Apr 2019 11:52:48 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>10</export_version>
 	</info>
@@ -38,8 +38,8 @@
 			<destination>documentation-editor-tools</destination>
 			<type>subsitemap</type>
 			<uuidstructure>28547f56-2d2a-11e4-93f4-d144f6bb3566</uuidstructure>
-			<datelastmodified>Mon, 27 Oct 2014 18:49:07 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 04 Apr 2019 07:03:50 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
 			<datecreated>Tue, 26 Aug 2014 14:06:21 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -65,12 +65,16 @@
 					<value><![CDATA[Documentation tools]]></value>
 				</property>
 				<property>
+					<name>opencms.documentation.template.type</name>
+					<value><![CDATA[tools]]></value>
+				</property>
+				<property>
 					<name>opencms.documentation.version</name>
 					<value><![CDATA[11.0]]></value>
 				</property>
 				<property>
 					<name>template</name>
-					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.opencms.documentation.editortools/templates/documentation-editortools-template.jsp]]></value>
+					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.opencms.documentation/templates/documentation-template.jsp]]></value>
 				</property>
 			</properties>
 			<relations/>
