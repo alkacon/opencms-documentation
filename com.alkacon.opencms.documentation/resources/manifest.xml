@@ -2903,14 +2903,22 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.opencms.documentation/i18n/com.alkacon.opencms.documentation.topic</source>
-			<destination>system/modules/com.alkacon.opencms.documentation/i18n/com.alkacon.opencms.documentation.topic</destination>
-			<type>xmlvfsbundle</type>
-			<uuidstructure>38dc20b5-b695-11e4-b42e-0242ac11002b</uuidstructure>
-			<uuidresource>38dc20b6-b695-11e4-b42e-0242ac11002b</uuidresource>
-			<datecreated>Tue, 17 Feb 2015 11:07:54 GMT</datecreated>
+			<source>system/modules/com.alkacon.opencms.documentation/i18n/com.alkacon.opencms.documentation.topic_en</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/i18n/com.alkacon.opencms.documentation.topic_en</destination>
+			<type>propertyvfsbundle</type>
+			<uuidstructure>5ced7012-56d8-11e9-8960-0242ac11002b</uuidstructure>
+			<uuidresource>5ced7013-56d8-11e9-8960-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 12:51:28 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
+				<property>
+					<name>content-encoding</name>
+					<value><![CDATA[UTF-8]]></value>
+				</property>
+				<property type="shared">
+					<name>content-encoding</name>
+					<value><![CDATA[UTF-8]]></value>
+				</property>
 				<property>
 					<name>search.exclude</name>
 					<value><![CDATA[all]]></value>
@@ -2920,14 +2928,22 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/com.alkacon.opencms.documentation/i18n/com.alkacon.opencms.documentation.workplace</source>
-			<destination>system/modules/com.alkacon.opencms.documentation/i18n/com.alkacon.opencms.documentation.workplace</destination>
-			<type>xmlvfsbundle</type>
-			<uuidstructure>d997293e-fc67-11e3-8410-fb93821e3720</uuidstructure>
-			<uuidresource>d997293f-fc67-11e3-8410-fb93821e3720</uuidresource>
-			<datecreated>Wed, 25 Jun 2014 12:54:31 GMT</datecreated>
+			<source>system/modules/com.alkacon.opencms.documentation/i18n/com.alkacon.opencms.documentation.workplace_en</source>
+			<destination>system/modules/com.alkacon.opencms.documentation/i18n/com.alkacon.opencms.documentation.workplace_en</destination>
+			<type>propertyvfsbundle</type>
+			<uuidstructure>6f23268e-56d8-11e9-8960-0242ac11002b</uuidstructure>
+			<uuidresource>6f23268f-56d8-11e9-8960-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 12:51:58 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
+				<property>
+					<name>content-encoding</name>
+					<value><![CDATA[UTF-8]]></value>
+				</property>
+				<property type="shared">
+					<name>content-encoding</name>
+					<value><![CDATA[UTF-8]]></value>
+				</property>
 				<property>
 					<name>search.exclude</name>
 					<value><![CDATA[all]]></value>
