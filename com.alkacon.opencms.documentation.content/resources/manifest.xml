@@ -3,8 +3,8 @@
 <export>
 	<info>
 		<creator>Admin</creator>
-		<opencms_version>11.0.x_DOCUMENTATION_EDITABLE</opencms_version>
-		<createdate>Thu, 04 Apr 2019 11:52:28 GMT</createdate>
+		<opencms_version>11.0.x</opencms_version>
+		<createdate>Thu, 04 Apr 2019 12:59:33 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>10</export_version>
 	</info>
@@ -29,9 +29,7 @@
 		<resources>
 			<resource uri="/opencms-documentation/"/>
 		</resources>
-		<excluderesources>
-			<resource uri="/opencms-documentation/search/"/>
-		</excluderesources>
+		<excluderesources/>
 		<parameters/>
 	</module>
 	<files>
@@ -70938,6 +70936,56 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Spellchecking for the TinyMCE]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>opencms-documentation/search</destination>
+			<type>folder</type>
+			<uuidstructure>c8496aa4-56d8-11e9-8960-0242ac11002b</uuidstructure>
+			<datelastmodified>Thu, 04 Apr 2019 12:54:36 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 04 Apr 2019 12:54:28 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[2.96875]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Search]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Search]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>opencms-documentation/search/index.html</source>
+			<destination>opencms-documentation/search/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>c9e1bdee-56d8-11e9-8960-0242ac11002b</uuidstructure>
+			<uuidresource>c9e1bdef-56d8-11e9-8960-0242ac11002b</uuidresource>
+			<datelastmodified>Thu, 04 Apr 2019 12:55:39 GMT</datelastmodified>
+			<userlastmodified>dSeidel</userlastmodified>
+			<datecreated>Thu, 04 Apr 2019 12:54:31 GMT</datecreated>
+			<usercreated>dSeidel</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Search]]></value>
+				</property>
+				<property>
+					<name>opencms.documentation.template.type</name>
+					<value><![CDATA[search]]></value>
 				</property>
 			</properties>
 			<relations/>
