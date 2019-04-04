@@ -1,0 +1,241 @@
+/* Adjust maximal width of content */
+.container-fluid {
+	max-width: $max-container-width;
+}
+
+a:active, a:hover, a:focus {
+	text-decoration: none;
+}
+
+/* Badges */
+.badge {
+	&.badge-success {
+		background-color: $badge-success-bg-color;
+	}
+
+	&.badge-info {
+		background-color:  $badge-info-bg-color;
+	}
+
+	&.badge-default {
+		background-color:  $badge-default-bg-color;
+	}
+
+	&.badge-orange {
+		background-color:  $badge-orange-bg-color;
+	}
+}
+
+.btn-block {
+  // Vertically space out multiple block buttons
+  + .btn-block {
+    margin-top: $btn-block-spacing-y;
+  }
+}
+
+pre {
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+}
+
+pre,
+.alert {
+  border: none;
+}
+
+.alert-success {
+  color: #0e5a4e;
+  background-color: #a8f2e6;
+}
+
+.alert-info {
+  color: #144382;
+  background-color: #d9edf9;
+}
+
+.alert-warning {
+  color: #bf7200;
+  background-color: #ffe5bf;
+}
+
+.alert-danger {
+  color: #b31b34;
+  background-color: #ffe3e7;
+}
+
+.alert-danger a {
+	color: #555;
+}
+
+.alert-danger a:focus,
+.alert-danger a:active,
+.alert-danger a:hover {
+	color: #ff264a;
+}
+
+
+code {
+	color: #144382;
+	background-color: #f5f5f5;
+}
+
+.alert code {
+  	background-color: rgba(245, 245, 245, 0.4);
+}
+
+dt code {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding: 0;
+	font-size: 14px;
+	color: #2197db;
+	background-color: transparent;
+}
+
+dt {
+	color: $color-dt;
+	a {
+		color: $color-dt;
+	}
+	a::after {
+		padding-left: 5px;
+		padding-right: 5px;
+		content: "\f0c1";
+		font-family: "FontAwesome";
+	}
+}
+
+dd {
+	padding-left: 20px;
+	margin-bottom: 15px;
+	p {
+		margin: 0;
+	}
+}
+
+dl.documentation-dl-compact {
+	dt {
+		display: inline-block;
+		padding-right: 5px;
+	}
+	dd {
+		display: block;
+		padding-left: 200px;
+	}
+}
+
+/* tag boxes */
+.tag-box {
+	padding: 20px;
+	margin-bottom: 30px;
+	background: $white;
+
+	&.tag-box-v3 {
+	border: solid 2px $grey-light;
+	}
+
+	&.tag-box-v4 {
+		border: dashed 1px $grey-light;
+	}
+}
+
+.tag-box:last-child {
+	padding-bottom: 10px;
+
+}
+
+
+/* Tooltips */
+div.tooltip-inner {
+	max-width: 250px;
+}
+
+/* Sections */
+div.documentation-section {
+	padding-bottom: 20px;
+}
+
+/* Footnotes */
+span {
+	&.footnote-hover {
+		color: $main-theme;
+		cursor: help;
+	}
+}
+
+/* Special for demos */
+.xscroll {
+	overflow-x:auto;
+}
+
+iframe.opencms-documentation-source {
+	border: none;
+	display: none;
+	width: 100%;
+
+	.contenteditor {
+		min-width:950px;
+	}
+}
+
+.documentation-source-link {
+	font-style: monospace;
+	background-color: $grey-light;
+	border: 1px solid $grey-dark;
+	padding: 5px 10px;
+	margin: 10px 0px;
+}
+
+div.documentation-demo-source {
+	margin-bottom: 15px;
+}
+
+/* Box for related links */
+.related-links {
+	background-color: #f5f5f5;
+	padding: 20px;
+	code {
+		background-color: #f5f5f5;
+		color: #333;
+	}
+}
+
+.related-links:last-child {
+	padding-bottom: 10px;
+}
+
+div.link-description {
+	font-style: italic;
+	margin: 5px;
+}
+
+/* Special styles for topic rows */
+div.topic-row-teaser {
+	padding: 0px;
+	font-style: italic;
+}
+
+/* Topic status tags */
+div.topic-status-tags {
+	text-align:right;
+	border-color: $grey-light;
+	border-style: solid;
+	border-width: 2px;
+	margin-bottom: 8px;
+}
+
+div.topic-status-tags-inner {
+	display: inline-block;
+	padding: 6px;
+	padding-top: 4px;
+}
+
+/** GitHub edit options */
+a.github-links-switcher {
+	display: inline-block;
+	padding: 8px;
+}
+
+a.github-link {
+	padding: 8px;
+}

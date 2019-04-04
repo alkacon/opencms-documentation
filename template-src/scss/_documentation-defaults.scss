@@ -1,0 +1,166 @@
+// This program is part of the OpenCms Mercury Template.
+//
+// Copyright (c) Alkacon Software GmbH & Co. KG (http://www.alkacon.com)
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+// Basic colors
+
+$white:                         #fff !default;
+$black:                         #000 !default;
+
+$text-light:                    $white !default;
+$text-dark:                     #555 !default;
+
+$blue:                          #144382 !default;
+$blue-light:                    #2197db !default;
+$blue-lighter:                  lighten($blue-light, 42%) !default;
+$blue-dark:                     darken($blue, 10%) !default;
+$blue-darker:                   darken($blue, 15%) !default;
+
+$red:                           #b31b34 !default;
+$red-light:                     #ff264a !default;
+$red-lighter:                   lighten($red-light, 37%) !default;
+$red-dark:                      darken($red, 9%) !default;
+$red-darker:                    darken($red, 21%) !default;
+
+$orange:                        #ffa826 !default;
+$orange-light:                  adjust-hue($orange, 10deg) !default;
+$orange-lighter:                adjust-hue($orange, 20deg) !default;
+$orange-dark:                   darken($orange, 8%) !default;
+$orange-darker:                 darken($orange, 16%) !default;
+
+$grey:                          #a8adb4 !default;
+$grey-lighter:                  #eeeef0 !default;
+$grey-light:                    #dddddf !default;
+$grey-dark:                     darken($grey, 15%) !default;
+$grey-darker:                   darken($grey, 30%) !default;
+
+$cyan:                          #1bb39a !default;
+$yellow:                        #ffd900 !default;
+$green:                         #00af33 !default;
+$green-light:                   lighten($green, 20%) !default;
+
+$blue-cyan:                     mix($blue, $cyan) !default;
+$violet:                        mix($blue, $red) !default;
+$brown:                         mix($blue, $orange) !default;
+$red-orange:                    mix($red, $orange) !default;
+$red-cyan:                      mix($red, $cyan) !default;
+
+
+// Nav colors
+
+$nav-text:                      $grey-darker !default;
+$nav-breadcrump-bg:             $grey-lighter !default;
+$foot-main-bg-color:            $grey-darker !default;
+
+
+// Large array of colors to be used in backgrounds
+
+$many-colors:
+(
+ // name            // bg-color      // highlight-color
+ (grey-dark,        $grey-dark,     $main-theme),
+ (grey,             $grey,          $main-theme),
+ (grey-light,       $grey-light,    $main-theme),
+ (grey-lighter,     $grey-lighter,  $main-theme),
+ (violet,           $violet,        $red),
+ (green,            $green,         $orange),
+ (yellow,           $yellow,        $red-orange),
+ (cyan,             $cyan,          $blue-cyan),
+ (blue-dark,        $blue-dark,     $blue),
+ (blue,             $blue,          $blue-light),
+ (blue-light,       $blue-light,    $blue),
+ (orange-dark,      $red-orange,    $orange),
+ (orange,           $orange,        $orange-light),
+ (red-dark,         $red-dark,      $red),
+ (red,              $red,           $red-light),
+ (white,            $white,         $main-theme),
+ (default,          $main-theme,    $main-theme-hover)
+) !default;
+
+
+// Reduced array of colors to be used in backgrounds
+
+$reduced-colors:
+(
+ (grey,             $grey,          $main-theme),
+ (grey-light,       $grey-light,    $main-theme),
+ (grey-lighter,     $grey-lighter,  $main-theme),
+ (cyan,             $cyan,          $blue-cyan),
+ (orange,           $orange,        $red-orange),
+ (blue,             $blue,          $blue-light),
+ (red,              $red,           $red-light),
+ (default,          $main-theme,    $main-theme-hover)
+) !default;
+
+
+// Link colors
+
+$link-colors:
+(
+ (black,  $black, $grey-darker),
+ (grey, $grey, $grey-light),
+ (white, $white, $grey-lighter),
+ (light, $text-light, $grey-lighter),
+ (dark, $text-dark, $grey),
+ (theme, $main-theme, $main-theme-hover),
+ (complementary, $main-theme-complementary, $main-theme-hover),
+ (default, default, default)
+) !default;
+
+
+// Map colors (for marker groups)
+
+$map-colors: (
+    $main-theme,
+    $main-theme-complementary,
+    $orange,
+    $cyan
+) !default;
+
+
+// Tile and square settings
+
+$sq-margins:                    (2, 4, 5, 10, 15, 20, 25, 50, 100) !default;
+$sq-cols-sm:                    ((12, 12), (6, 6)) !default;
+$sq-cols-md:                    ((12, 12), (9, 9), (6, 6), (4, 4), (3, 3)) !default;
+$sq-cols-lg:                    ((12, 12), (9, 9), (8, 8), (6, 6), (4, 4), (3, 3), (2o4, 2.4), (2,2)) !default;
+$sq-cols-xl:                    ((12, 12), (9, 9), (8, 8), (6, 6), (4, 4), (3, 3), (2o4, 2.4), (2,2)) !default;
+
+$sq-heights-sm:                 ((0o5, 0.5), (2, 2)) !default;
+$sq-heights-md:                 ((0o5, 0.5), (1o5, 1.5), (2, 2)) !default;
+$sq-heights-lg:                 ((0o5, 0.5), (1o5, 1.5), (2, 2)) !default;
+$sq-heights-xl:                 ((0o25, 0.25), (0o5, 0.5), (1o5, 1.5), (2, 2)) !default;
+
+$ti-cols:                       ((6, 6), (4, 4), (3, 3), (2o4, 2.4), (2,2), (1o5, 1.5)) !default;
+
+// Spaces used for margins and paddings
+$margins:                       (0, 1, 2, 3, 4, 5, 10, 15, 20, 25, 30, 40, 50, 75, 100) !default;
+
+// Fixed image sizes
+$images-sizes:                  (100, 150, 200, 250, 300, 350, 400) !default;
+
+// Generic font sizes and line heights
+$margins-paddings:              $margins !default;
+$font-sizes:                    (6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 20, 22, 24, 26, 28, 30, 36, 48, 72) !default;
+$line-heights:                  (5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20) !default;
+
+// Generic borders
+$border-default-color:          $main-theme !default;
+$border-sizes:                  (1, 2) !default;
+$border-radiuses:               ((0, 0px), (2, 2px),  (4, 4px), (5, 5px), (10, 10px), (15, 15px), (20, 20px), (30, 30px), (25p, 25%), (50p, 50%)) !default;
+$border-positions:              (bottom, top, left, right) !default;
+$border-styles:                 (solid, dotted, dashed, hidden) !default;
+
