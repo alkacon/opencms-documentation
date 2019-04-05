@@ -20,9 +20,7 @@
 		<userinstalled/>
 		<dateinstalled/>
 		<dependencies/>
-		<exportpoints>
-			<exportpoint uri="/system/modules/com.alkacon.opencms.documentation.examples.contenteditor.nativewidget/lib/" destination="WEB-INF/lib/"/>
-		</exportpoints>
+		<exportpoints/>
 		<resources>
 			<resource uri="/system/modules/com.alkacon.opencms.documentation.examples.contenteditor.nativewidget/"/>
 			<resource uri="/system/workplace/resources/filetypes/documentation-native-widget-example.png"/>
@@ -111,28 +109,6 @@
 					<value><![CDATA[all]]></value>
 				</property>
 			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>system/modules/com.alkacon.opencms.documentation.examples.contenteditor.nativewidget/lib</destination>
-			<type>folder</type>
-			<uuidstructure>f042e3aa-aafa-11e6-bca8-116ff2071fc1</uuidstructure>
-			<datecreated>Tue, 15 Nov 2016 06:15:43 GMT</datecreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.opencms.documentation.examples.contenteditor.nativewidget/lib/com.alkacon.opencms.documentation.examples.contenteditor.nativewidget.jar</source>
-			<destination>system/modules/com.alkacon.opencms.documentation.examples.contenteditor.nativewidget/lib/com.alkacon.opencms.documentation.examples.contenteditor.nativewidget.jar</destination>
-			<type>binary</type>
-			<uuidstructure>082b2270-ab1b-11e6-8d5d-116ff2071fc1</uuidstructure>
-			<uuidresource>082b2271-ab1b-11e6-8d5d-116ff2071fc1</uuidresource>
-			<datecreated>Tue, 15 Nov 2016 10:05:27 GMT</datecreated>
-			<flags>0</flags>
-			<properties/>
 			<relations/>
 			<accesscontrol/>
 		</file>

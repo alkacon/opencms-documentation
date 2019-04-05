@@ -22,9 +22,7 @@
 		<dependencies>
 			<dependency name="com.alkacon.opencms.documentation" version="9.5.3"/>
 		</dependencies>
-		<exportpoints>
-			<exportpoint uri="/system/modules/com.alkacon.opencms.documentation.editortools/lib/" destination="WEB-INF/lib/"/>
-		</exportpoints>
+		<exportpoints/>
 		<resources>
 			<resource uri="/system/modules/com.alkacon.opencms.documentation.editortools/"/>
 			<resource uri="/system/workplace/resources/filetypes/auto-correct-xml.png"/>
@@ -443,33 +441,6 @@
 				<property>
 					<name>search.exclude</name>
 					<value><![CDATA[all]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>system/modules/com.alkacon.opencms.documentation.editortools/lib</destination>
-			<type>folder</type>
-			<uuidstructure>a2dc535b-38bd-11e4-9abe-d144f6bb3566</uuidstructure>
-			<datecreated>Wed, 10 Sep 2014 07:39:46 GMT</datecreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.alkacon.opencms.documentation.editortools/lib/com.alkacon.opencms.documentation.editortools.jar</source>
-			<destination>system/modules/com.alkacon.opencms.documentation.editortools/lib/com.alkacon.opencms.documentation.editortools.jar</destination>
-			<type>binary</type>
-			<uuidstructure>a5bc4c63-38be-11e4-9abe-d144f6bb3566</uuidstructure>
-			<uuidresource>a5bc4c64-38be-11e4-9abe-d144f6bb3566</uuidresource>
-			<datecreated>Wed, 10 Sep 2014 07:47:00 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[com.alkacon.opencms.documentation.editortools]]></value>
 				</property>
 			</properties>
 			<relations/>

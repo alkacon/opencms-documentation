@@ -1,5 +1,7 @@
+import org.apache.tools.ant.filters.ReplaceTokens
 apply plugin: 'java'
 apply plugin: 'maven'
+apply plugin: 'eclipse'
 
 sourceCompatibility = java_target_version
 targetCompatibility = java_target_version
@@ -7,6 +9,9 @@ targetCompatibility = java_target_version
 buildDir = build_directory
 project.ext.currentDate=new Date().format('dd.MM.yy')
 project.ext.modulesDistsDir = file("${project.buildDir}/modulesZip")
+project.ext.moduleLibs=''
+project.ext.dependencyLibs=''
+project.ext.modulesAll=''
 
 if (!project.hasProperty('max_heap_size')){
     project.ext.max_heap_size='1024m'
@@ -32,13 +37,29 @@ repositories {
     	url "http://software.rescarta.org/nexus/content/repositories/thirdparty/"
     }
     maven {
-        url "http://maven.vaadin.com/vaadin-addons"
+    	url "http://maven.vaadin.com/vaadin-addons"
     }
 }
 
 configurations {
+	moduleDeps {
+    	description = 'additional dependencies required by modules, need to be added into the webapp lib folder'
+    }
 	compile {
 		description = 'used to compile the modules jars'
+		extendsFrom moduleDeps
+    }
+    testCompile {
+        extendsFrom compile
+    }
+}
+
+sourceSets {
+    test {
+        java {
+                srcDir "test/src"
+        }
+        compileClasspath=configurations.testCompile
     }
 }
 
@@ -49,18 +70,20 @@ task wrapper(type: Wrapper){
 	gradleVersion = '4.10'
 }
 
+//task testAll (type: Test)
+
 allModuleNames.split(',').each{ moduleName ->
     sourceSets.create(moduleName,{
         java {
             srcDir "${moduleName}/src"
-            exclude '**/test/**'
         }
         resources.srcDir "${moduleName}/src"
     });
    sourceSets[moduleName].compileClasspath=configurations.compile
     def moduleFolder = file("${moduleName}")
     def srcGwtDir = file("${moduleFolder}/src")
-    def requiresJar = srcGwtDir.exists()
+    def staticFolder=file("${moduleFolder}/static")
+    def requiresJar = srcGwtDir.exists() || staticFolder.exists()
     def manifestFile = file("${moduleFolder}/resources/manifest.xml")
     def gwtModule = null
     def gwtSourceSetName = null
@@ -81,8 +104,13 @@ allModuleNames.split(',').each{ moduleName ->
             }
         }
     }
-
-
+    def testDir = file("${moduleFolder}/test")
+    def requiresTest = testDir.exists()
+    if (requiresTest){
+       sourceSets.test.compileClasspath += files(sourceSets[moduleName].java.outputDir) { builtBy sourceSets[moduleName].compileJavaTaskName }
+       sourceSets.test.runtimeClasspath += files(sourceSets[moduleName].java.outputDir) { builtBy sourceSets[moduleName].compileJavaTaskName }
+       sourceSets.test.java.srcDir "${moduleName}/test"
+    }
     def moduleDependencies=[]
     def moduleVersion = version
     if (manifestFile.exists()){
@@ -93,79 +121,74 @@ allModuleNames.split(',').each{ moduleName ->
         moduleVersion = parsedManifest.module[0].version[0].text()
     }
     if (requiresJar.toBoolean()) {
-    task "jar_$moduleName" (type: Jar) {
-        ext.moduleName = moduleName
-        ext.moduleVersion= moduleVersion
-        manifest {
-            attributes 'Implementation-Title': 'OpenCms Documentation', 'Implementation-Version': moduleVersion
-        }
-        from sourceSets[moduleName].output
-        archiveName moduleName+'.jar'
-        baseName moduleName
-        exclude '**/.gitignore'
-        exclude '**/test/**'
-        doFirst {
-            println '======================================================'
-            println "Building JAR for $moduleName version $moduleVersion"
-            println '======================================================'
-        }
+	    task "jar_$moduleName" (type: Jar) {
+	        ext.moduleName = moduleName
+	        ext.moduleVersion= moduleVersion
+	        manifest {
+	            attributes 'Implementation-Title': 'OpenCms documentation', 'Implementation-Version': moduleVersion
+	        }
+	        from sourceSets[moduleName].output
+	        from ("$staticFolder") { into "OPENCMS" }
+	        archiveName moduleName+'.jar'
+	        baseName moduleName
+	        exclude '**/.gitignore'
+	        doFirst {
+	            println '======================================================'
+	            println "Building JAR for $moduleName version $moduleVersion"
+	            println '======================================================'
+	        }
+	    }
     }
+    if (requiresTest.toBoolean()) {
+        task "test_$moduleName" (type: Test, dependsOn: sourceSets.test.compileJavaTaskName) {
+            useJUnit()
+            classpath += sourceSets.test.compileClasspath
+            classpath += files(sourceSets.test.java.outputDir)
+            include "**/Test*"
+            // important: exclude all anonymous classes
+            exclude '**/*$*.class'
+            scanForTestClasses false
+            testClassesDirs = files(sourceSets.test.java.outputDir)
+            systemProperties['db.product'] = "hsqldb"
+            systemProperties['test.data.path'] = "${projectDir}/test/data"
+            systemProperties['test.webapp.path'] = "${projectDir}/test/webapp"
+            systemProperties['test.build.folder'] =sourceSets.test.output.resourcesDir
+            maxHeapSize = max_heap_size
+            jvmArgs '-XX:MaxPermSize=256m'
+            testLogging.showStandardStreams = true
+            ignoreFailures true
+        }
     }
     task "dist_$moduleName" (type: Zip){
-        ext.requiresJar = requiresJar
         ext.moduleName = moduleName
         ext.moduleFolder = moduleFolder
         ext.dependencies = moduleDependencies
         ext.gwtSourceSetName = gwtSourceSetName
         ext.gwtRenameTo = gwtRename
+        ext.requiresJar = requiresJar
+        ext.requiresTest = requiresTest
         if (project.hasProperty('noVersion')) {
         	version
+        	project.modulesAll +="${moduleName}.zip,"
         } else {
          	version moduleVersion
+         	project.modulesAll +="${moduleName}-${moduleVersion}.zip,"
         }
         destinationDir modulesDistsDir
-        // include the jar file
-        from( "${project.buildDir}/libs") {
-            include "${moduleName}.jar"
-            into "/system/modules/${moduleName}/lib/"
-        }
         baseName moduleName
         doFirst {
             println '======================================================'
             println "Building ZIP for $moduleName version $moduleVersion"
             println '======================================================'
         }
-        // include the GWT resources if necessary
-        if (gwtModule == null){
-            from "${moduleFolder}/resources"
-        }else{
-            // exclude the manifest for now, use the synced manifest later
-            from ("${moduleFolder}/resources") {
-                exclude 'manifest.xml'
-                exclude "system/modules/${moduleName}/resources/${gwtRenameTo}/**"
-            }
-            from( "${project.buildDir}/gwt/${moduleName}") {
-                exclude '**/WEB-INF/**'
-                into "/system/modules/${moduleName}/resources/"
-            }
-            def syncedManifest="${project.buildDir}/extra/${moduleName}/manifest.xml"
-            from syncedManifest
-            doFirst{
-                println "Syncing manifest from ${moduleFolder}/resources/manifest.xml to ${syncedManifest} using resources folder system/modules/${moduleName}/resources/${gwtRenameTo} with resources from ${project.buildDir}/gwt/${moduleName}/${gwtRenameTo}"
-                ant.taskdef(resource: 'org/opencms/util/ant/taskdefs.properties', classpath: configurations.compile.asPath)
-                ant.syncmanifest(
-                        srcmanifestfile: "${moduleFolder}/resources/manifest.xml",
-                        dstmanifestfile: syncedManifest,
-                        base: "${moduleFolder}/resources/",
-                        prefix: "system/modules/${moduleName}/resources/${gwtRenameTo}",
-                        directory: "${project.buildDir}/gwt/${moduleName}/${gwtRenameTo}"
-                        )
-            }
+        // excluding jars from modules, jars will be placed in the WEB-INF lib folder through the deployment process
+        from("${moduleFolder}/resources"){
+        	exclude '**/lib*/*.jar'
         }
     }
-
     if (requiresJar.toBoolean()) {
         tasks["dist_$moduleName"].dependsOn("jar_$moduleName")
+        project.moduleLibs+="${moduleName}.jar,"
     }
 
     if (gwtModule != null){
@@ -240,52 +263,96 @@ allModuleNames.split(',').each{ moduleName ->
 
         tasks["dist_$moduleName"].dependsOn tasks["gwt_$moduleName"]
     }
-
-    task "javadoc_$moduleName" (type: Javadoc){
-        source = sourceSets[moduleName].allJava
-        classpath = project.sourceSets[moduleName].compileClasspath
-        destinationDir = file("${buildDir}/docs/javadoc${moduleName}")
-        options.addStringOption("sourcepath", "")
-    }
-
-    task "javadocJar_$moduleName"(type: Jar) {
-        it.dependsOn("javadoc_$moduleName")
-        classifier = 'javadoc'
-        from "${buildDir}/docs/javadoc${moduleName}"
-        baseName moduleName
-    }
-
-    task "sourcesJar_$moduleName"(type: Jar) {
-        from sourceSets[moduleName].allSource
-        classifier = 'sources'
-        baseName moduleName
-    }
-
 }
-task bindist {
+
+task copyDeps(type: Copy){
+	from configurations.moduleDeps
+    into "${buildDir}/deps"
+}
+
+task copyProjectProps(type: Copy){
+	configurations.moduleDeps.each {d ->
+			project.dependencyLibs="${project.dependencyLibs}${d.name},"
+	}
+	from(projectDir) {
+        include 'project.properties'
+        filter(ReplaceTokens, tokens: [
+        	MODULES_ALL: ''+project.modulesAll,
+        	MODULE_LIBS: ''+project.moduleLibs,
+            DEPENDENCY_LIBS: ''+project.dependencyLibs
+        ])
+
+    }
+    into modulesDistsDir
+}
+
+task bindist(dependsOn: [copyDeps, copyProjectProps]) {
     doFirst{
         println 'Done'
     }
+}
+
+task documentationAllJar(type: Jar){
+	allModuleNames.split(',').each{ moduleName ->
+		from sourceSets[moduleName].output
+	}
+	baseName 'documentation-all'
+    exclude '**/.gitignore'
+    exclude '**/test/**'
+    doFirst {
+        println '======================================================'
+        println "Building JAR for DOCUMENTATION ALL"
+        println '======================================================'
+	}
+}
+
+task documentationAllJavadoc (type: Javadoc){
+	allModuleNames.split(',').each{ moduleName ->
+    	source += sourceSets[moduleName].allJava
+    	classpath += project.sourceSets[moduleName].compileClasspath
+    }
+    destinationDir = file("${buildDir}/docs/documentationAllJavadoc")
+    options.addStringOption("sourcepath", "")
+}
+
+task documentationAllJavadocJar(dependsOn: documentationAllJavadoc, type: Jar) {
+ 	classifier 'javadoc'
+    from "${buildDir}/docs/documentationAllJavadoc"
+    baseName 'documentation-all'
+}
+
+task documentationAllSourcesJar(type: Jar) {
+	allModuleNames.split(',').each{ moduleName ->
+    	from sourceSets[moduleName].allSource
+    }
+    classifier 'sources'
+    baseName 'documentation-all'
 }
 
 tasks.findAll{ task -> task.name.startsWith('dist_')}.each{ dist_task ->
     dist_task.dependencies.each{ dep ->
         def depCompileName = 'compile'+dep.replaceAll('\\.','')+'java'
         tasks.findAll{ comp_task -> comp_task.name.toLowerCase().equals(depCompileName)}.each {comp_task ->
-            sourceSets[dist_task.moduleName].compileClasspath += files("${project.buildDir}/classes/$dep") { builtBy comp_task.name }
+            sourceSets[dist_task.moduleName].compileClasspath += files(sourceSets[dep].java.outputDir) { builtBy comp_task.name }
             if (dist_task.gwtSourceSetName!=null){
-                sourceSets["${dist_task.gwtSourceSetName}"].compileClasspath += files("${project.buildDir}/classes/$dep") { builtBy comp_task.name }
-                // we need to manipulate the classpath of the java doc task specifically
-                tasks['javadoc_'+dist_task.moduleName].classpath += files("${project.buildDir}/classes/$dep") { builtBy comp_task.name }
+                sourceSets["${dist_task.gwtSourceSetName}"].compileClasspath += files(sourceSets[dep].java.outputDir) { builtBy comp_task.name }
+            }
+            if (dist_task.requiresTest.toBoolean()){
+                sourceSets.test.compileClasspath += files(sourceSets[dep].java.outputDir) { builtBy comp_task.name }
+                sourceSets.test.runtimeClasspath += files(sourceSets[dep].java.outputDir) { builtBy comp_task.name }
             }
         }
     }
+
     if (dist_task.requiresJar.toBoolean()){
-    tasks['jar_'+dist_task.moduleName].dependsOn{
-        tasks.findAll{ comp_task -> comp_task.name.toLowerCase().equals('compile'+dist_task.moduleName.replaceAll('\\.','')+'java')}
-    }
+	    tasks['jar_'+dist_task.moduleName].dependsOn{
+	        tasks.findAll{ comp_task -> comp_task.name.toLowerCase().equals('compile'+dist_task.moduleName.replaceAll('\\.','')+'java')}
+	    }
     }
     bindist.dependsOn dist_task
+    documentationAllJar.dependsOn{
+        tasks.findAll{ comp_task -> comp_task.name.toLowerCase().equals('compile'+dist_task.moduleName.replaceAll('\\.','')+'java')}
+    }
 }
 
 // fixed issue with libraries containing both .java and .class files
@@ -293,12 +360,55 @@ tasks.withType(JavaCompile) {
     options.compilerArgs += ["-sourcepath", ""]
 }
 artifacts {
-    tasks.each{ task ->
-        if (task.name.startsWith("jar_com.alkacon.")){
-            def moduleName=task.baseName
-            archives task
-            archives tasks["javadocJar_$moduleName"]
-            archives tasks["sourcesJar_$moduleName"]
+    archives documentationAllJar
+    archives documentationAllSourcesJar
+    archives documentationAllJavadocJar
+}
+
+install {
+    repositories {
+        mavenInstaller {
+        	addFilter('documentation-all'){artifact, file ->
+                artifact.name.startsWith('documentation-all')
+            }
+            pom('documentation-all').project {
+                name 'Documentation all'
+                description 'Documentation all modules'
+                packaging 'jar'
+                groupId 'com.alkacon'
+                url 'http://www.alkacon.com'
+                version documentation_all_version
+                licenses {
+                    license {
+                        name 'GNU General Public License'
+                        url 'http://www.gnu.org/licenses/gpl.html'
+                        distribution 'repo'
+                    }
+                }
+                organization {
+                    name 'Alkacon Software'
+                    url 'http://www.alkacon.com'
+                }
+                developers {
+                    developer {
+                        name 'Alkacon Software'
+                        url 'http://www.alkacon.com'
+                    }
+                }
+            }
+        }
+    }
+}
+
+/** Necessary to let eclipse run test cases. */
+eclipse.classpath.file {
+    whenMerged { classpath ->
+        classpath.entries.each {entry ->
+            if (entry.kind == 'src') {
+                if (entry.path.endsWith("src")) {
+                    entry.output='bin/main'
+                }
+            }
         }
     }
 }
