@@ -19,7 +19,7 @@
  *
  * For further information about OpenCms, please see the
  * project website: http://www.opencms.org
- * 
+ *
  * You should have received a copy of the GNU Lesser General Public
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
@@ -49,7 +49,7 @@ import org.apache.commons.logging.Log;
  *  documentations container page template.
  *  In particular, the documentation-topic-container is searched
  *  for the topic and the topic can be exposed to the JSP.
- * 
+ *
  */
 public class TopicGrabber extends CmsJspBean {
 
@@ -76,24 +76,6 @@ public class TopicGrabber extends CmsJspBean {
         }
     }
 
-    /**
-     * Returns the content of the topic found on the explored page.
-     * @return content of the found topic
-     */
-    private Map<String, CmsJspContentAccessBean> getTopicContentInternal() {
-
-        if (m_topics == null) {
-            m_topics = CmsCollectionsGenericWrapper.createLazyMap(new Transformer() {
-
-                public Object transform(Object url) {
-
-                    return getTopicContentForPage(url.toString());
-                }
-            });
-        }
-        return m_topics;
-    }
-
     /** Returns the topic placed on the page with the given VFS URL
      * @param url VFS URL of the page where the topic is searched on
      * @return Topic content as CmsJspContentAccessBean
@@ -116,18 +98,42 @@ public class TopicGrabber extends CmsJspBean {
             CmsContainerPageBean page = xmlPage.getContainerPage(cmsObject);
             CmsContainerBean container = page.getContainers().get("documentation-topic-container");
             if (container == null) {
-                throw (new Exception("Container page with URL "
-                    + url
-                    + " has no container with name 'documentation-topic-container'."));
+                throw (new Exception(
+                    "Container page with URL " + url + " has no container with name 'documentation-topic-container'."));
             }
             CmsContainerElementBean topicElement = container.getElements().get(0);
             topicElement.initResource(getCmsObject());
             CmsResource topicResource = topicElement.getResource();
             return new CmsJspContentAccessBean(getCmsObject(), topicResource);
         } catch (Exception e) {
-            LOG.error("Problem getting the topic content: ", e);
+            if (LOG.isDebugEnabled()) {
+                LOG.debug("Problem getting the topic content: ", e);
+            }
             return null;
         }
+    }
+
+    /**
+     * Returns the content of the topic found on the explored page.
+     * @return content of the found topic
+     */
+    private Map<String, CmsJspContentAccessBean> getTopicContentInternal() {
+
+        if (m_topics == null) {
+            m_topics = CmsCollectionsGenericWrapper.createLazyMap(new Transformer() {
+
+                public Object transform(Object url) {
+
+                    String urlString = url.toString();
+                    int rauteIndex = urlString.indexOf("#");
+                    if (rauteIndex > -1) {
+                        urlString.substring(0, rauteIndex);
+                    }
+                    return getTopicContentForPage(url.toString());
+                }
+            });
+        }
+        return m_topics;
     }
 
 }
