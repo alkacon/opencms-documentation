@@ -54,7 +54,7 @@ writeProperty '/' 'default-file' '##navigation_level_folder##']]></import-script
 				</property>
 				<property>
 					<name>template</name>
-					<value><![CDATA[provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/com.alkacon.bootstrap.formatters/templates/bootstrap-grid-page.jsp]]></value>
+					<value><![CDATA[/system/modules/alkacon.mercury.template/templates/mercury.jsp]]></value>
 				</property>
 				<property>
 					<name>varnish.forcecaching</name>
@@ -105,18 +105,18 @@ writeProperty '/' 'default-file' '##navigation_level_folder##']]></import-script
 			<source>central/index.html</source>
 			<destination>central/index.html</destination>
 			<type>containerpage</type>
-			<uuidstructure>14f6e727-757b-11e4-a586-0242ac11002b</uuidstructure>
-			<uuidresource>14f6e728-757b-11e4-a586-0242ac11002b</uuidresource>
-			<datecreated>Wed, 26 Nov 2014 14:47:02 GMT</datecreated>
+			<uuidstructure>55a9fd3b-56af-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>55a9fd3c-56af-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 07:57:46 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Description</name>
-					<value><![CDATA[The official reference source for OpenCms end user and developer documentation.]]></value>
+					<value><![CDATA[Template for pure content / welcome pages]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Documentation Central]]></value>
+					<value><![CDATA[Central Template]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -265,395 +265,462 @@ writeProperty '/' 'default-file' '##navigation_level_folder##']]></import-script
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Grid template]]></value>
+					<value><![CDATA[Central Template]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>central/.content/flexiblecontents</destination>
+			<destination>central/.content/layout-area</destination>
 			<type>folder</type>
-			<uuidstructure>2f025059-757d-11e4-a586-0242ac11002b</uuidstructure>
-			<datecreated>Wed, 26 Nov 2014 15:02:04 GMT</datecreated>
+			<uuidstructure>e2e5ca7b-56aa-11e9-bbec-0242ac11002b</uuidstructure>
+			<datecreated>Thu, 04 Apr 2019 07:25:56 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>central/.content/flexiblecontents/fc_00001.xml</source>
-			<destination>central/.content/flexiblecontents/fc_00001.xml</destination>
-			<type>bs-flexible</type>
-			<uuidstructure>2f04733b-757d-11e4-a586-0242ac11002b</uuidstructure>
-			<uuidresource>2f04733c-757d-11e4-a586-0242ac11002b</uuidresource>
-			<datecreated>Wed, 26 Nov 2014 15:02:04 GMT</datecreated>
+			<source>central/.content/layout-area/la_00001.xml</source>
+			<destination>central/.content/layout-area/la_00001.xml</destination>
+			<type>m-layout-area-simple</type>
+			<uuidstructure>e8b9566d-56aa-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>e8b9566e-56aa-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 07:26:06 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Footer for welcome pages]]></value>
+					<value><![CDATA[Area - One row]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>central/.content/flexiblecontents/fc_00002.xml</source>
-			<destination>central/.content/flexiblecontents/fc_00002.xml</destination>
-			<type>bs-flexible</type>
-			<uuidstructure>649aae97-761f-11e4-a586-0242ac11002b</uuidstructure>
-			<uuidresource>649aae98-761f-11e4-a586-0242ac11002b</uuidresource>
-			<datecreated>Thu, 27 Nov 2014 10:23:13 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[CSS Style Adaptor]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>central/.content/iconboxes</destination>
+			<destination>central/.content/layout-group</destination>
 			<type>folder</type>
-			<uuidstructure>4870366a-757e-11e4-a586-0242ac11002b</uuidstructure>
-			<datecreated>Wed, 26 Nov 2014 15:09:56 GMT</datecreated>
+			<uuidstructure>443dcb1e-56aa-11e9-bbec-0242ac11002b</uuidstructure>
+			<datecreated>Thu, 04 Apr 2019 07:21:30 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>central/.content/iconboxes/ib_00001.xml</source>
-			<destination>central/.content/iconboxes/ib_00001.xml</destination>
-			<type>bs-iconbox</type>
-			<uuidstructure>48720b2c-757e-11e4-a586-0242ac11002b</uuidstructure>
-			<uuidresource>48720b2d-757e-11e4-a586-0242ac11002b</uuidresource>
-			<datecreated>Wed, 26 Nov 2014 15:09:56 GMT</datecreated>
+			<source>central/.content/layout-group/lg_00001.xml</source>
+			<destination>central/.content/layout-group/lg_00001.xml</destination>
+			<type>m-layout-group-simple</type>
+			<uuidstructure>4ae289c0-56aa-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>4ae289c1-56aa-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 07:21:41 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Documentation Central: Documentation]]></value>
+					<value><![CDATA[Mercury header with logo left]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>central/.content/iconboxes/ib_00002.xml</source>
-			<destination>central/.content/iconboxes/ib_00002.xml</destination>
-			<type>bs-iconbox</type>
-			<uuidstructure>66207683-757e-11e4-a586-0242ac11002b</uuidstructure>
-			<uuidresource>66207684-757e-11e4-a586-0242ac11002b</uuidresource>
-			<datecreated>Wed, 26 Nov 2014 15:10:46 GMT</datecreated>
+			<source>central/.content/layout-group/lg_00002.xml</source>
+			<destination>central/.content/layout-group/lg_00002.xml</destination>
+			<type>m-layout-group-simple</type>
+			<uuidstructure>ccbd9169-56ac-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>ccbd916a-56ac-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 07:39:38 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Documentation Central: Javadocs]]></value>
+					<value><![CDATA[Mercury footer reduced]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>central/.content/iconboxes/ib_00003.xml</source>
-			<destination>central/.content/iconboxes/ib_00003.xml</destination>
-			<type>bs-iconbox</type>
-			<uuidstructure>e990a11e-7584-11e4-a586-0242ac11002b</uuidstructure>
-			<uuidresource>e990a11f-7584-11e4-a586-0242ac11002b</uuidresource>
-			<datecreated>Wed, 26 Nov 2014 15:57:24 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Documentation Central: Wiki]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>central/.content/iconboxes/ib_00004.xml</source>
-			<destination>central/.content/iconboxes/ib_00004.xml</destination>
-			<type>bs-iconbox</type>
-			<uuidstructure>2f0e3dc8-7585-11e4-a586-0242ac11002b</uuidstructure>
-			<uuidresource>2f0e3dc9-7585-11e4-a586-0242ac11002b</uuidresource>
-			<datecreated>Wed, 26 Nov 2014 15:59:20 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Documentation Central: Video Tutorials]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>central/.content/images</destination>
+			<destination>central/.content/layout-row</destination>
 			<type>folder</type>
-			<uuidstructure>678cd3af-7585-11e4-a586-0242ac11002b</uuidstructure>
-			<datecreated>Wed, 26 Nov 2014 16:00:55 GMT</datecreated>
+			<uuidstructure>2b8cf602-56ad-11e9-bbec-0242ac11002b</uuidstructure>
+			<datecreated>Thu, 04 Apr 2019 07:42:17 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>central/.content/images/i_00001.xml</source>
-			<destination>central/.content/images/i_00001.xml</destination>
-			<type>bs-image</type>
-			<uuidstructure>678ea871-7585-11e4-a586-0242ac11002b</uuidstructure>
-			<uuidresource>678ea872-7585-11e4-a586-0242ac11002b</uuidresource>
-			<datecreated>Wed, 26 Nov 2014 16:00:55 GMT</datecreated>
+			<source>central/.content/layout-row/lr_00001.xml</source>
+			<destination>central/.content/layout-row/lr_00001.xml</destination>
+			<type>m-layout-row-simple</type>
+			<uuidstructure>80ac7eda-56ad-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>80ac7edb-56ad-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 07:44:39 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Documentation Central: Welcome main image]]></value>
+					<value><![CDATA[Row 1 column (12 - full)]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>central/.content/layoutrows</destination>
+			<source>central/.content/layout-row/lr_00002.xml</source>
+			<destination>central/.content/layout-row/lr_00002.xml</destination>
+			<type>m-layout-row-simple</type>
+			<uuidstructure>580934a7-56ad-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>580934a8-56ad-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 07:43:31 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Row 4 columns (3 - 3 - 3 - 3) [from display size LG]]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>central/.content/linksequence</destination>
 			<type>folder</type>
-			<uuidstructure>4e035a7d-757a-11e4-a586-0242ac11002b</uuidstructure>
-			<datecreated>Wed, 26 Nov 2014 14:41:28 GMT</datecreated>
+			<uuidstructure>96122b39-56ab-11e9-bbec-0242ac11002b</uuidstructure>
+			<datecreated>Thu, 04 Apr 2019 07:30:56 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>central/.content/layoutrows/lr_00001.xml</source>
-			<destination>central/.content/layoutrows/lr_00001.xml</destination>
-			<type>bs-layoutrow</type>
-			<uuidstructure>4e05f28f-757a-11e4-a586-0242ac11002b</uuidstructure>
-			<uuidresource>4e05f290-757a-11e4-a586-0242ac11002b</uuidresource>
-			<datecreated>Wed, 26 Nov 2014 14:41:28 GMT</datecreated>
+			<source>central/.content/linksequence/ls_00001.xml</source>
+			<destination>central/.content/linksequence/ls_00001.xml</destination>
+			<type>m-linksequence</type>
+			<uuidstructure>9617826b-56ab-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>9617826c-56ab-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 07:30:56 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Full column]]></value>
+					<value><![CDATA[Header: Header links]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>central/.content/layoutrows/lr_00002.xml</source>
-			<destination>central/.content/layoutrows/lr_00002.xml</destination>
-			<type>bs-layoutrow</type>
-			<uuidstructure>2460101b-757b-11e4-a586-0242ac11002b</uuidstructure>
-			<uuidresource>2460101c-757b-11e4-a586-0242ac11002b</uuidresource>
-			<datecreated>Wed, 26 Nov 2014 14:47:27 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[4 columns]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>central/.content/navigations</destination>
+			<destination>central/.content/modelgroup</destination>
 			<type>folder</type>
-			<uuidstructure>6ad66f3b-757c-11e4-a586-0242ac11002b</uuidstructure>
-			<datecreated>Wed, 26 Nov 2014 14:56:35 GMT</datecreated>
+			<uuidstructure>90f42903-56aa-11e9-bbec-0242ac11002b</uuidstructure>
+			<datecreated>Thu, 04 Apr 2019 07:23:38 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>central/.content/navigations/nv_00001.xml</source>
-			<destination>central/.content/navigations/nv_00001.xml</destination>
-			<type>bs-navigation</type>
-			<uuidstructure>6adb784d-757c-11e4-a586-0242ac11002b</uuidstructure>
-			<uuidresource>6adb784e-757c-11e4-a586-0242ac11002b</uuidresource>
-			<datecreated>Wed, 26 Nov 2014 14:56:35 GMT</datecreated>
+			<source>central/.content/modelgroup/modelgroup-00001.html</source>
+			<destination>central/.content/modelgroup/modelgroup-00001.html</destination>
+			<type>modelgroup</type>
+			<uuidstructure>90f820a5-56aa-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>90f820a6-56aa-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 07:23:38 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
+					<name>Description</name>
+					<value><![CDATA[Header for the central pages]]></value>
+				</property>
+				<property>
 					<name>Title</name>
-					<value><![CDATA[Welcome main navigation]]></value>
+					<value><![CDATA[Header]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>central/.content/templaterows</destination>
+			<source>central/.content/modelgroup/modelgroup-00002.html</source>
+			<destination>central/.content/modelgroup/modelgroup-00002.html</destination>
+			<type>modelgroup</type>
+			<uuidstructure>e95339bc-56ac-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>e95339bd-56ac-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 07:40:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Footer for central pages]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Footer]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>central/.content/navigation</destination>
 			<type>folder</type>
-			<uuidstructure>b9e8506c-7579-11e4-a586-0242ac11002b</uuidstructure>
-			<datecreated>Wed, 26 Nov 2014 14:37:19 GMT</datecreated>
+			<uuidstructure>6ae0e323-56ab-11e9-bbec-0242ac11002b</uuidstructure>
+			<datecreated>Thu, 04 Apr 2019 07:29:44 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>central/.content/templaterows/tr_00001.xml</source>
-			<destination>central/.content/templaterows/tr_00001.xml</destination>
-			<type>bs-templaterow</type>
-			<uuidstructure>b9ea734e-7579-11e4-a586-0242ac11002b</uuidstructure>
-			<uuidresource>b9ea734f-7579-11e4-a586-0242ac11002b</uuidresource>
-			<datecreated>Wed, 26 Nov 2014 14:37:19 GMT</datecreated>
+			<source>central/.content/navigation/nav_00001.xml</source>
+			<destination>central/.content/navigation/nav_00001.xml</destination>
+			<type>m-navigation</type>
+			<uuidstructure>6ae59e15-56ab-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>6ae59e16-56ab-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 07:29:44 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[New template row]]></value>
+					<value><![CDATA[Central navigation]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>central/.content/templaterows/tr_00002.xml</source>
-			<destination>central/.content/templaterows/tr_00002.xml</destination>
-			<type>bs-templaterow</type>
-			<uuidstructure>f526a294-7579-11e4-a586-0242ac11002b</uuidstructure>
-			<uuidresource>f526a295-7579-11e4-a586-0242ac11002b</uuidresource>
-			<datecreated>Wed, 26 Nov 2014 14:38:59 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[New template row]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>central/.content/texts</destination>
+			<destination>central/.content/section</destination>
 			<type>folder</type>
-			<uuidstructure>9abe6721-7609-11e4-a586-0242ac11002b</uuidstructure>
-			<datecreated>Thu, 27 Nov 2014 07:47:15 GMT</datecreated>
+			<uuidstructure>2bf6347b-56ac-11e9-bbec-0242ac11002b</uuidstructure>
+			<datecreated>Thu, 04 Apr 2019 07:35:08 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>central/.content/texts/t_00001.xml</source>
-			<destination>central/.content/texts/t_00001.xml</destination>
-			<type>bs-text</type>
-			<uuidstructure>9ac03be3-7609-11e4-a586-0242ac11002b</uuidstructure>
-			<uuidresource>9ac03be4-7609-11e4-a586-0242ac11002b</uuidresource>
-			<datecreated>Thu, 27 Nov 2014 07:47:15 GMT</datecreated>
+			<source>central/.content/section/cs_00001.xml</source>
+			<destination>central/.content/section/cs_00001.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>2bfc00dd-56ac-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>2bfc00de-56ac-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 07:35:08 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Documentation Central: Github]]></value>
+					<value><![CDATA[Header: OpenCms Documentation]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>central/.content/texts/t_00002.xml</source>
-			<destination>central/.content/texts/t_00002.xml</destination>
-			<type>bs-text</type>
-			<uuidstructure>df0865cb-7609-11e4-a586-0242ac11002b</uuidstructure>
-			<uuidresource>df088cdc-7609-11e4-a586-0242ac11002b</uuidresource>
-			<datecreated>Thu, 27 Nov 2014 07:49:09 GMT</datecreated>
+			<source>central/.content/section/cs_00002.xml</source>
+			<destination>central/.content/section/cs_00002.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>c64592c1-56ad-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>c64592c2-56ad-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 07:46:36 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Documentation Central: Taglib Docs]]></value>
+					<value><![CDATA[Footer: ]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>central/.content/texts/t_00003.xml</source>
-			<destination>central/.content/texts/t_00003.xml</destination>
-			<type>bs-text</type>
-			<uuidstructure>2720827a-760a-11e4-a586-0242ac11002b</uuidstructure>
-			<uuidresource>2720827b-760a-11e4-a586-0242ac11002b</uuidresource>
-			<datecreated>Thu, 27 Nov 2014 07:51:10 GMT</datecreated>
+			<source>central/.content/section/cs_00003.xml</source>
+			<destination>central/.content/section/cs_00003.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>6a3f9cb5-56af-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>6a3f9cb6-56af-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 07:58:21 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Documentation Central: Issue Tracker]]></value>
+					<value><![CDATA[Central Template: OpenCms Documentation Central]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>central/.content/texts/t_00004.xml</source>
-			<destination>central/.content/texts/t_00004.xml</destination>
-			<type>bs-text</type>
-			<uuidstructure>59f2ea92-760a-11e4-a586-0242ac11002b</uuidstructure>
-			<uuidresource>59f2ea93-760a-11e4-a586-0242ac11002b</uuidresource>
-			<datecreated>Thu, 27 Nov 2014 07:52:35 GMT</datecreated>
+			<source>central/.content/section/cs_00004.xml</source>
+			<destination>central/.content/section/cs_00004.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>a9af8a9b-56af-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>a9af8a9c-56af-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 08:00:07 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Documentation Central: Alkacon Support]]></value>
+					<value><![CDATA[Central Template: Documentation]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>central/.content/texts/t_00005.xml</source>
-			<destination>central/.content/texts/t_00005.xml</destination>
-			<type>bs-text</type>
-			<uuidstructure>2a4afed5-761b-11e4-a586-0242ac11002b</uuidstructure>
-			<uuidresource>2a4afed6-761b-11e4-a586-0242ac11002b</uuidresource>
-			<datecreated>Thu, 27 Nov 2014 09:52:57 GMT</datecreated>
+			<source>central/.content/section/cs_00005.xml</source>
+			<destination>central/.content/section/cs_00005.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>de47be8f-56af-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>de47be90-56af-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 08:01:36 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Documentation Central: OpenCms Documentation Central]]></value>
+					<value><![CDATA[Central Template: Javadocs]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>central/.content/texts/t_00006.xml</source>
-			<destination>central/.content/texts/t_00006.xml</destination>
-			<type>bs-text</type>
-			<uuidstructure>839a50d0-762a-11e4-a586-0242ac11002b</uuidstructure>
-			<uuidresource>839a50d1-762a-11e4-a586-0242ac11002b</uuidresource>
-			<datecreated>Thu, 27 Nov 2014 11:42:49 GMT</datecreated>
+			<source>central/.content/section/cs_00006.xml</source>
+			<destination>central/.content/section/cs_00006.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>6907eab3-56b0-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>6907eab4-56b0-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 08:05:28 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Javadoc overview: What OpenCms JavaDocs are you looking for?]]></value>
+					<value><![CDATA[Central Template: Wiki]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>central/.content/texts/t_00007.xml</source>
-			<destination>central/.content/texts/t_00007.xml</destination>
-			<type>bs-text</type>
-			<uuidstructure>35547217-762d-11e4-a586-0242ac11002b</uuidstructure>
-			<uuidresource>35547218-762d-11e4-a586-0242ac11002b</uuidresource>
-			<datecreated>Thu, 27 Nov 2014 12:02:06 GMT</datecreated>
+			<source>central/.content/section/cs_00007.xml</source>
+			<destination>central/.content/section/cs_00007.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>d5efdc5c-56b0-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>d5efdc5d-56b0-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 08:08:31 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Central Template: Video Tutorials]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>central/.content/section/cs_00008.xml</source>
+			<destination>central/.content/section/cs_00008.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>0843ecb0-56b1-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>0843ecb1-56b1-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 08:09:55 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Central Template: Github]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>central/.content/section/cs_00009.xml</source>
+			<destination>central/.content/section/cs_00009.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>beff4b1e-56b2-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>beff4b1f-56b2-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 08:22:12 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Central Template: <cms> Taglib Docs]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>central/.content/section/cs_00010.xml</source>
+			<destination>central/.content/section/cs_00010.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>e498fed2-56b2-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>e498fed3-56b2-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 08:23:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Central Template: Issue Tracker]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>central/.content/section/cs_00011.xml</source>
+			<destination>central/.content/section/cs_00011.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>0fa22576-56b3-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>0fa22577-56b3-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 08:24:27 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Central Template: Support]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>central/.content/section/cs_00012.xml</source>
+			<destination>central/.content/section/cs_00012.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>7250e724-56b3-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>7250e725-56b3-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 08:27:12 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Javadocs: What OpenCms JavaDocs are you looking for?]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>central/.content/section/cs_00013.xml</source>
+			<destination>central/.content/section/cs_00013.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>d1551776-56b3-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>d1551777-56b3-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 08:29:52 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -665,17 +732,51 @@ writeProperty '/' 'default-file' '##navigation_level_folder##']]></import-script
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>central/.content/texts/t_00008.xml</source>
-			<destination>central/.content/texts/t_00008.xml</destination>
-			<type>bs-text</type>
-			<uuidstructure>c9bebbb7-bd9e-11e4-80c9-0242ac11002b</uuidstructure>
-			<uuidresource>c9bebbb8-bd9e-11e4-80c9-0242ac11002b</uuidresource>
-			<datecreated>Thu, 26 Feb 2015 10:04:01 GMT</datecreated>
+			<source>central/.content/section/cs_00014.xml</source>
+			<destination>central/.content/section/cs_00014.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>ebe37e1a-56b3-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>ebe37e1b-56b3-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 08:30:36 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Impressum: Contributors]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>central/.content/section/cs_00015.xml</source>
+			<destination>central/.content/section/cs_00015.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>299f7a74-56b4-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>299f7a75-56b4-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 08:32:20 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Privacy policy: Privacy Policy (Datenschutzerklärung)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>central/.content/section/cs_00016.xml</source>
+			<destination>central/.content/section/cs_00016.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>2835bbe2-56b5-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>2835bbe3-56b5-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 08:39:27 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Central Template: Welcome main image]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -785,8 +886,8 @@ writeProperty '/' 'default-file' '##navigation_level_folder##']]></import-script
 		<file>
 			<destination>central/impressum</destination>
 			<type>folder</type>
-			<uuidstructure>72b5728d-762c-11e4-a586-0242ac11002b</uuidstructure>
-			<datecreated>Thu, 27 Nov 2014 11:56:40 GMT</datecreated>
+			<uuidstructure>aeacde4e-56b3-11e9-bbec-0242ac11002b</uuidstructure>
+			<datecreated>Thu, 04 Apr 2019 08:28:54 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -795,7 +896,7 @@ writeProperty '/' 'default-file' '##navigation_level_folder##']]></import-script
 				</property>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[2.0]]></value>
+					<value><![CDATA[2.75]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
@@ -813,9 +914,9 @@ writeProperty '/' 'default-file' '##navigation_level_folder##']]></import-script
 			<source>central/impressum/index.html</source>
 			<destination>central/impressum/index.html</destination>
 			<type>containerpage</type>
-			<uuidstructure>72b91c12-762c-11e4-a586-0242ac11002b</uuidstructure>
-			<uuidresource>72b91c13-762c-11e4-a586-0242ac11002b</uuidresource>
-			<datecreated>Thu, 27 Nov 2014 11:56:40 GMT</datecreated>
+			<uuidstructure>aeb6f073-56b3-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>aeb6f074-56b3-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 08:28:54 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -829,13 +930,13 @@ writeProperty '/' 'default-file' '##navigation_level_folder##']]></import-script
 		<file>
 			<destination>central/javadocs</destination>
 			<type>folder</type>
-			<uuidstructure>1f821413-762a-11e4-a586-0242ac11002b</uuidstructure>
-			<datecreated>Thu, 27 Nov 2014 11:40:01 GMT</datecreated>
+			<uuidstructure>08cb6184-56b0-11e9-bbec-0242ac11002b</uuidstructure>
+			<datecreated>Thu, 04 Apr 2019 08:02:47 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[1.0]]></value>
+					<value><![CDATA[1.125]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
@@ -853,18 +954,58 @@ writeProperty '/' 'default-file' '##navigation_level_folder##']]></import-script
 			<source>central/javadocs/index.html</source>
 			<destination>central/javadocs/index.html</destination>
 			<type>containerpage</type>
-			<uuidstructure>1f8ac6a8-762a-11e4-a586-0242ac11002b</uuidstructure>
-			<uuidresource>1f8ac6a9-762a-11e4-a586-0242ac11002b</uuidresource>
-			<datecreated>Thu, 27 Nov 2014 11:40:01 GMT</datecreated>
+			<uuidstructure>08d43b29-56b0-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>08d43b2a-56b0-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 08:02:47 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
-					<name>Description</name>
-					<value><![CDATA[Javadoc reference listings for all relevant OpenCms packages.]]></value>
+					<name>Title</name>
+					<value><![CDATA[Javadocs]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>central/privacy-policy</destination>
+			<type>folder</type>
+			<uuidstructure>bba6b4f8-56b3-11e9-bbec-0242ac11002b</uuidstructure>
+			<datecreated>Thu, 04 Apr 2019 08:29:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavInfo</name>
+					<value><![CDATA[ignoreInDefaultNav]]></value>
+				</property>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[3.75]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Privacy policy]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Javadoc overview]]></value>
+					<value><![CDATA[Privacy policy]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>central/privacy-policy/index.html</source>
+			<destination>central/privacy-policy/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>bbb8412d-56b3-11e9-bbec-0242ac11002b</uuidstructure>
+			<uuidresource>bbb8412e-56b3-11e9-bbec-0242ac11002b</uuidresource>
+			<datecreated>Thu, 04 Apr 2019 08:29:16 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Privacy policy]]></value>
 				</property>
 			</properties>
 			<relations/>

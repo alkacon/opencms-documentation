@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BootstrapTexts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/text.xsd">
-  <BootstrapText language="en">
-    <Headline><![CDATA[OpenCms Documentation Central]]></Headline>
+<ContentSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/section.xsd">
+  <ContentSection language="en">
+    <Title><![CDATA[OpenCms Documentation Central]]></Title>
     <Text name="Text0">
       <links>
         <link name="link0" internal="false" type="A">
           <target><![CDATA[http://opencms.org]]></target>
         </link>
       </links>
-      <content><![CDATA[<div class="headline" style="margin-bottom: 8px;">
-<h2>OpenCms Documentation Central</h2>
-</div>
-<div class="sml">For OpenCms Version<strong> 11.0.0</strong> / Last update: <strong>February 22, 2018</strong></div>
+      <content><![CDATA[<div class="sml">For OpenCms Version<strong> 11.0.0</strong> / Last update: <strong>April 22, 2019</strong></div>
 <div class="sml">&nbsp;</div>
 <p>Welcome to <strong>Alkacon OpenCms®</strong>&nbsp;Documentation Central, your portal to documentation for all <a title="Go to the official OpenCms website" href="%(link0)">OpenCms</a>&nbsp;related technology.</p>
 <p>Please select the OpenCms Documentation resource you are looking for:</p>]]></content>
     </Text>
-  </BootstrapText>
-</BootstrapTexts>
+  </ContentSection>
+</ContentSectionData>
