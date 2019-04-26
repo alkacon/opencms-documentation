@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationDefinitionLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-definition-list.xsd">
+  <DocumentationDefinitionList language="en">
+    <Title><![CDATA[Websites: Global options]]></Title>
+    <Heading><![CDATA[Global website options]]></Heading>
+    <PropertyDef>false</PropertyDef>
+    <Entry>
+      <Term><![CDATA[Workplace server]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Here you configure the server url and encryption mode for accessing the workplace. You can configure multiple server urls.</p>
+<div class="alert alert-info">As long as there's only one site configured, you can access the workplace via all server urls, independent of the configuration.</div>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Default site]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If for the server url (hostname + protocol, e.g. https://my-site.de) in the HTTP request getting to OpenCms no specific site is configured, the default site is served.</p>
+<div class="alert alert-info">For a productive environment, we suggest an empty site returning only error pages, since anyone can map a domain to your server to get the default site served.<span class="footnote">As long as you do not add a security layer infront of OpenCms.</span></div>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Shared folder]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>The shared folder is where you place contents shared between various sites. By default it is "/shared/".</p>
+<div class="alert alert-info">You can only select existing folders directly below the root site to prevent misconfigurations.</div>]]></content>
+      </Description>
+    </Entry>
+  </DocumentationDefinitionList>
+</DocumentationDefinitionLists>

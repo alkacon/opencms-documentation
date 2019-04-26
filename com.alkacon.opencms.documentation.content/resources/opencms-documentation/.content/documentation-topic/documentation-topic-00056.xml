@@ -9,19 +9,29 @@
           <uuid>8dadcb95-3343-11e4-ae50-d144f6bb3566</uuid>
         </link>
       </links>
-      <content><![CDATA[<p>You want to run a website with OpenCms. So you need to set up a web server and install OpenCms on it. Here you'll learn about the hardware and software requirements for running OpenCms in the web.</p>
-<p>For OpenCms before version 10.5 we recommend the combination of Tomcat and the Apache webserver to run OpenCms.</p>
-<p>Since 10.5 you may run OpenCms without having installed an extra webserver besides your servlet container. A newly added servlet filter does the URL rewriting formerly done by the webserver. If you want an installation without additional webserver "<a href="%(link0)">Installing OpenCms</a>" is the topic of interest. You can skip all topics concered with the Apache webserver.</p>]]></content>
+      <content><![CDATA[<p>For OpenCms <strong>before version 10.5</strong> we recommended the combination of Tomcat and the Apache webserver to run OpenCms.</p>
+<p>Since 10.5 you may run OpenCms without having installed an extra webserver besides your servlet container. A newly added servlet filter does the URL rewriting formerly done by the webserver.<strong> If you want an installation without additional webserver "<a href="%(link0)">Installing OpenCms</a>" is the topic of interest. You can skip all topics concered with the Apache webserver.</strong></p>
+<div class="alert alert-danger">In earlier OpenCms versions (&lt; 10.5) the setup with Apache webserver was recommended, especially for URL-Rewriting. Now, a stand-alone Tomcat instance is typically sufficient - since a special filter does the rewriting.</div>
+<div class="alert alert-danger">On the other hand, if you need a proxy infront of OpenCms, HaProxy, nginx, etc. are very good alternatives to Apache webserver. So the installation process described here is <strong>deprecated</strong>.</div>]]></content>
     </Overview>
     <Teaser name="Teaser0">
       <links/>
-      <content><![CDATA[<p>Learn about the requirements for running OpenCms on a server in the web.</p>]]></content>
+      <content><![CDATA[<p>The traditional productive setup with Apache Tomcat and Apache Webserver. - Deprecated but still providing some valuable hints.</p>]]></content>
     </Teaser>
-    <Keywords><![CDATA[overview, server, requirements, hardware, software]]></Keywords>
+    <Keywords><![CDATA[overview, server, Apache webserver]]></Keywords>
     <InterestingFor><![CDATA[a_serverOperator]]></InterestingFor>
     <RelatedLinks>
       <LinkList>
-        <Title><![CDATA[For your server installation without Apache webserver, find out ...]]></Title>
+        <Title><![CDATA[Server installation]]></Title>
+        <Link>
+          <URI>
+            <link internal="true" type="WEAK">
+              <target><![CDATA[/sites/default/opencms-documentation/server-installation/]]></target>
+              <uuid>b8d1893f-3280-11e4-84a4-d144f6bb3566</uuid>
+            </link>
+          </URI>
+          <LinkText><![CDATA[System requirements, alternative setups, ...]]></LinkText>
+        </Link>
         <Link>
           <URI>
             <link internal="true" type="WEAK">
@@ -34,19 +44,7 @@
         <Link>
           <URI>
             <link internal="true" type="WEAK">
-              <target><![CDATA[/sites/default/opencms-documentation/server-installation/securing-the-installation/]]></target>
-              <uuid>17eedcb2-3344-11e4-ae50-d144f6bb3566</uuid>
-            </link>
-          </URI>
-          <LinkText><![CDATA[How to make your installation more secure]]></LinkText>
-        </Link>
-      </LinkList>
-      <LinkList>
-        <Title><![CDATA[For your server installation with Apache webserver, find out ...]]></Title>
-        <Link>
-          <URI>
-            <link internal="true" type="WEAK">
-              <target><![CDATA[/sites/default/opencms-documentation/server-installation/apache-webserver-configuration/]]></target>
+              <target><![CDATA[/sites/default/opencms-documentation/server-installation/traditional-with-apache-webserver/apache-webserver-configuration/]]></target>
               <uuid>26b783c2-333d-11e4-ae50-d144f6bb3566</uuid>
             </link>
           </URI>
@@ -55,29 +53,11 @@
         <Link>
           <URI>
             <link internal="true" type="WEAK">
-              <target><![CDATA[/sites/default/opencms-documentation/server-installation/tomcat-configuration/]]></target>
+              <target><![CDATA[/sites/default/opencms-documentation/server-installation/traditional-with-apache-webserver/tomcat-configuration/]]></target>
               <uuid>04d8d854-3344-11e4-ae50-d144f6bb3566</uuid>
             </link>
           </URI>
           <LinkText><![CDATA[How to configure Tomcat as a servlet container connected to the Apache web server]]></LinkText>
-        </Link>
-        <Link>
-          <URI>
-            <link internal="true" type="WEAK">
-              <target><![CDATA[/sites/default/opencms-documentation/server-installation/installing-opencms/]]></target>
-              <uuid>8dadcb95-3343-11e4-ae50-d144f6bb3566</uuid>
-            </link>
-          </URI>
-          <LinkText><![CDATA[How to install and configure OpenCms for running on your Tomcat-Apache-combo]]></LinkText>
-        </Link>
-        <Link>
-          <URI>
-            <link internal="true" type="WEAK">
-              <target><![CDATA[/sites/default/opencms-documentation/server-installation/securing-the-installation/]]></target>
-              <uuid>17eedcb2-3344-11e4-ae50-d144f6bb3566</uuid>
-            </link>
-          </URI>
-          <LinkText><![CDATA[How to make your OpenCms installation secure]]></LinkText>
         </Link>
       </LinkList>
       <LinkList>
@@ -115,7 +95,7 @@
       </LinkList>
     </RelatedLinks>
     <NewInDocuVersion><![CDATA[9.5]]></NewInDocuVersion>
-    <RevisedForVersion><![CDATA[10.5]]></RevisedForVersion>
+    <RevisedForVersion><![CDATA[11.0]]></RevisedForVersion>
     <StatusMetaData>
       <Todos/>
     </StatusMetaData>

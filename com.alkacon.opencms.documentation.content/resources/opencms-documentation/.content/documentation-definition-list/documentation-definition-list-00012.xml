@@ -6,6 +6,13 @@
     <Heading><![CDATA[Flushing tools and options]]></Heading>
     <PropertyDef>false</PropertyDef>
     <Entry>
+      <Term><![CDATA[Core Cache]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Core cache flushing always flushes the whole cache. No options are available. What exactly happens depends on your installation. Technically, an event is sent that can be handled in various places.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
       <Term><![CDATA[Flex Cache]]></Term>
       <Description name="Description0">
         <links/>
@@ -13,17 +20,17 @@
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Core Cache]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Core cache flushing always flushes the whole cache. No options are available.</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
       <Term><![CDATA[Image Cache]]></Term>
       <Description name="Description0">
         <links/>
         <content><![CDATA[<p>The image cache flushing tool allows a date to be specified, such that only images (image variations) are removed that have not been requested after the given date.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Initialize the workplace]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Reinitializes workplace related options, e.g. the workplace message bundle.<span class="footnote">Calls org.opencms.workplace.CmsWorkplaceManager#initialize(CmsObject).</span> Additionally the core cache is flushed.</p>]]></content>
       </Description>
     </Entry>
     <Entry>

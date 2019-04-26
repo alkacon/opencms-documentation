@@ -12,13 +12,9 @@
           <target><![CDATA[]]></target>
           <anchor><![CDATA[fig_settings_at_model_group_pages]]></anchor>
         </link>
-        <link name="link2" internal="true" type="A">
-          <target><![CDATA[]]></target>
-          <anchor><![CDATA[fig_model_group_example]]></anchor>
-        </link>
       </links>
       <content><![CDATA[<p>The model groups should use your template and you build up (part of) the site structure exactly as for your normal container pages. The special features are: An element can be marked as a reuse or copy group. Furthermore, for copy groups the copy behavior of each element in the group (except the root element that is always reused) can be adjusted as well - similar to the "Copy this element" setting in <a href="%(link0)">template models</a><span class="footnote">. For elements in copy groups the "Copy this element" setting is available as well, but has no influence, since everything is reused.</span>.</p>
-<p>If you mark an element as copy or reuse group, it gets a name and a description, used to identify it in the "Add wizard". Fig. <a href="%(link1)">[settings_at_model_group_pages]</a> shows the special element settings for creating a model group. Fig. <a href="%(link2)">[model_group_example]</a> shows how groups are highlighted in the model group page.</p>
+<p>You mark an element as copy or reuse group via a specific element setting, shown in Fig. <a href="%(link1)">[settings_at_model_group_pages]</a>.</p>
 <div class="alert alert-info">You can copy a template to create a model group by using it's context menu option "Copy for model group".</div>]]></content>
     </Html>
   </DocumentationHtml>

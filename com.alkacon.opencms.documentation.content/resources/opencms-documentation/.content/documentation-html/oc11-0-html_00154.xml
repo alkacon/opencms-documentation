@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/server-installation/traditional-with-apache-webserver/]]></target>
+          <uuid>2d10096e-6749-11e9-9a18-0242ac11002b</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>Depending on your requirements, it can be valuable to access OpenCms via a proxy, e.g., HaProxy, nginx, .... This might for example be the case when you have a cluster setup and need load balancing, you need to access various different backends depending on the URLs, ....</p>
+<p>Installing OpenCms behind a proxy should work out of the box. But you might also want to serve resources that are statically exported by OpenCms directly from the proxy. To achive this, have a look at the<a href="%(link0)"> traditional installation with the Apache Webserver</a>. You need only the parts about the rewrite rules concerned with static export.</p>
+<p>An advanced setup with docker could, for example, include a container for HaProxy, a container for OpenCms (connecting to an external database) and one for a Let's Encrypt certbot. HaProxy could do the encryption with the certificates provided by the certbot, could serve statically exported resources and manage the interplay of potentially more backends.</p>
+<p>The best setup for you - and the components you might use - will depend on your concrete needs and there is no "best" solution we can provide here.&nbsp;</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

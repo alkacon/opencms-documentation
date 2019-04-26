@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The dialog has several tabs with many settings. Typically, the "Basic setup" options suffice to create a new site from scratch. If you have a site template that you like to copy when creating a new site, the "Create site options are the interesting ones.</p>
+<p>Be aware that some inputs will auto-fill or manipulate other fields.</p>
+<p>When you click "OK" in the dialog after filling in appropriate values, the following happens:</p>
+<ul>
+<li>The site folder with some essential resources in is created (if not already present before).</li>
+<li>The template property is set at the site's root folder.</li>
+<li>The site is configured in the <code>opencms-sites.xml</code> configuration file (under <code>{webapp home}/WEB-INF/config/</code>)</li>
+</ul>
+<p>When you use the "Create site options" to copy an existing site (template) as your new site, the complete site structure will be copied.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>OpenCms 11 introduced a new function type (<code>function_config</code>) that superseeds the former type (<code>function</code>). The intention is to get the content and all options closer to a formatter configuration.</p>
+<div class="alert alert-info">If you design new functions, use the new function type. If you have existing functions, the old type will still work. Be aware that in the "Add wizard" in the page editor the old and new functions are merged.</div>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

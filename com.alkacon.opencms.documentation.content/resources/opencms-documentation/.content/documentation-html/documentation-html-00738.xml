@@ -13,13 +13,18 @@
           <uuid>f4a3c66b-b2a1-11e4-b42e-0242ac11002b</uuid>
           <anchor><![CDATA[localization_for_resource_types]]></anchor>
         </link>
+        <link name="link2" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/ade-configuration/content-element-configuration/]]></target>
+          <uuid>8053896a-4871-11e4-8008-336f7b60f7b1</uuid>
+        </link>
       </links>
       <content><![CDATA[<p>At some places where localization takes place, you cannot explicitely state which resource bundle you use. This is in particular the case, when the available content types and their descriptions are listed in the "Add wizard" of the <a href="%(link0)">page editor</a>. The keys used for localization here have to follow a specific name scheme (see&nbsp;<a href="%(link1)">here</a> for details) and also reside in so called <em>workplace bundles</em>.</p>
-<p>A workplace bundle follows the one of the name schemes</p>
+<p>A workplace bundle is a bundle that either follows the one of the name schemes</p>
 <ul>
 <li><code>{module name}.workplace</code></li>
 <li><code>{module name}.messages</code></li>
 </ul>
+<p>or is referenced as "Localization" in a <a href="%(link2)">content element configuration in the module configuration</a>.<code></code></p>
 <p>When the workplace is build, all bundles following that name scheme are collected and merged into a single bundle that is present globally without opening it explicitely. Hence, what you should be aware of:</p>
 <ul>
 <li>workplace bundles should have very unique keys</li>

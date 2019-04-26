@@ -21,6 +21,27 @@
       </Description>
     </Entry>
     <Entry>
+      <Term><![CDATA[Property search]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Collects all resources where the selected property is set and where the value matches the search pattern. Optionally, the matching property values can be replaced.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Elements in pages]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Collects all container pages where the specified element (path to the underlying XML content) is placed on. Optionally, the element can be replaced. Settings remain identically.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Rename nested containers]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Similarly to the "Elements in page" mode, all container pages the provided content is placed on are collected. Now you can rename nested containers made up by the elements. This can be interesting if your formatter for the element has changed and now the nested container has a different name. Unless you rename the container in all exsisting container pages, the contents in that containers will not display anymore.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
       <Term><![CDATA[SOLR]]></Term>
       <Description name="Description0">
         <links/>

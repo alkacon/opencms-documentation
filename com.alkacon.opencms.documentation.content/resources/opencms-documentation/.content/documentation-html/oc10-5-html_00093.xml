@@ -9,12 +9,23 @@
           <uuid>a2914c1c-1be1-11e4-bfa5-b7bfd6088c56</uuid>
         </link>
         <link name="link1" internal="true" type="A">
-          <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/modules/]]></target>
-          <uuid>7387573f-0b56-11e4-8c80-b7bfd6088c56</uuid>
+          <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/resource-types/]]></target>
+          <uuid>f5ea8bc5-4bdf-11e9-81ca-0242ac11002b</uuid>
+        </link>
+        <link name="link2" internal="true" type="IMG">
+          <target><![CDATA[/sites/default/opencms-documentation/.galleries/icons_big/searchBigIconActive.svg]]></target>
+          <uuid>7bc6550c-02bc-11e4-8167-1305b26fecac</uuid>
+          <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+        </link>
+        <link name="link3" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/adding-a-content-type/]]></target>
+          <uuid>a8fb9834-e87f-11e6-810f-0242ac11002b</uuid>
+          <anchor><![CDATA[fig_type_definition]]></anchor>
         </link>
       </links>
-      <content><![CDATA[<p>A content type is always defined in a module. We assume there is a module <code>my.template</code> from&nbsp;<a href="%(link0)">"Creating a template JSP"</a>&nbsp;to define the content type in. Open the <a href="%(link1)">Module management</a> and choose the module <code>my.template</code>&nbsp;by clicking on the module's name in the list of modules.</p>
-<p>Now there's an option "Add resource type"<span class="footnote">We use "content type" and "resource type" synonym here.</span>:</p>]]></content>
+      <content><![CDATA[<div class="alert alert-info">A content type is always defined in a module. We assume there is a module <code>my.template</code> from&nbsp;<a href="%(link0)">"Creating a template JSP"</a> to define the content type in.</div>
+<p>Open the <a href="%(link1)">Resource types app</a> and click "Add new resource type" in the toolbar (<img style="width: 14px;" title="searchBigIconActive" src="%(link2)" alt="" />).</p>
+<p>A dialog appears where you can select the module your type should be defined in. Choose the "my.template" module and click "OK". To get to another dialog where you can enter details for your new type. Fig. <a href="%(link3)">[type definition]</a> shows it with the form already filled suitable for the type we want to add.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

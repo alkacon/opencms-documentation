@@ -11,19 +11,13 @@
       <content><![CDATA[<p>OpenCms can connect to several different database management systems. The list provides an overview of the various provided database connectors and the DBMS versions for which the connectors are tested. <strong>Probably the connectors work also for newer versions of the DBMSs.</strong></p>
 <div class="alert alert-danger">Only the connectors that are displayed <strong>bold</strong> are officially supported by <a href="%(link0)">Alkacon Software GmbH</a>, the main developer of OpenCms.</div>
 <ul>
-<li><strong>MySQL</strong><br />
-<ul>
-<li>MySQL Community Server 5.1 (tested)</li>
-<li>MySQL Community Server 5.5 (tested)</li>
-<li>MySQL Community Server 5.6 (tested)</li>
-<li><strong>MySQL Community Server 5.7 (recommended)</strong></li>
-</ul>
-</li>
+<li><strong>MySQL Community Server/MariaDB &gt;= 5.5 (recommended)</strong></li>
 <li><strong>Oracle</strong>
 <ul>
 <li>Oracle 9i (tested)</li>
 <li>Oracle 10g (tested)</li>
 <li>Oracle 11g (tested)</li>
+<li><em>later versions (untested)</em></li>
 </ul>
 </li>
 <li><strong>PostgreSQL</strong>
@@ -36,6 +30,8 @@
 <ul>
 <li>MS SQL Server 2000 (tested)</li>
 <li>MS SQL Server 2005 (tested)</li>
+<li>MS SQL Server 2008 R2 (tested)</li>
+<li><em>later versions (untested)</em></li>
 </ul>
 </li>
 <li><strong>DB2</strong>
@@ -46,25 +42,9 @@
 <li><strong>AS400</strong></li>
 <li>HSQLDB
 <ul>
-<li>HSQLDB 1.8.0 (tested)</li>
+<li>HSQLDB &gt;= 1.8.0 (tested)</li>
 </ul>
 </li>
-<li>PostgreSQL (JPA based)
-<ul>
-<li>PostgreSQL 7.4.x or newer</li>
-</ul>
-</li>
-<li>MS SQL Server (JPA based)</li>
-<li>HSQLDB (JPA based)</li>
-<li>Apache Derby (JPA based)</li>
-<li>Borland INterbase (JPA based)</li>
-<li>Borland JDataStore (JPA based)</li>
-<li>Empress (JPA based)</li>
-<li>Firebird (JPA based)</li>
-<li>H2 Database Engine (JPA based)</li>
-<li>Informix Dynamic Server (JPA based)</li>
-<li>InterSystems Cache (JPA based)</li>
-<li>Sybase Adaptive Server (JPA based)</li>
 </ul>]]></content>
     </Html>
   </DocumentationHtml>

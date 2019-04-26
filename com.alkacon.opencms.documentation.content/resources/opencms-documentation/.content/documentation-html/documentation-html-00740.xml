@@ -4,7 +4,7 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>If you are using Apache 2.2 (or higher) to access your website, you need special rewrite rules in your virtual host definition to mace static export work properly. Here's the important part to make static export working:</p>]]></content>
+      <content><![CDATA[<p>If you are using a proxy server taht should directly serve statically exported resources, you have to configure special rewrite rules to make the export work. Here's the important part to make static export working in the Apache Webserver configuration style:</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

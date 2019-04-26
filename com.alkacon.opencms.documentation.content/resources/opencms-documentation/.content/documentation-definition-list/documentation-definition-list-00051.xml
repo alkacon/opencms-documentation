@@ -5,16 +5,16 @@
     <Title><![CDATA[Module configuration: the tabs]]></Title>
     <PropertyDef>false</PropertyDef>
     <Entry>
-      <Term><![CDATA[Resource types]]></Term>
+      <Term><![CDATA[Content elements]]></Term>
       <Link>
         <link internal="true" type="WEAK">
-          <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/ade-configuration/resource-type-configuration/]]></target>
+          <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/ade-configuration/content-element-configuration/]]></target>
           <uuid>8053896a-4871-11e4-8008-336f7b60f7b1</uuid>
         </link>
       </Link>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Defines a resource type‘s name and name pattern, default folder, formatter and more.</p>]]></content>
+        <content><![CDATA[<p>Defines a content type‘s name and name pattern, default folder, formatter and more.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
@@ -27,8 +27,17 @@
     <Entry>
       <Term><![CDATA[Functions]]></Term>
       <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Defines a dynamic function that is shipped with the module. (A name for identification and a JSP provider is required at least.)</p>]]></content>
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/special-predefined-content-types/dynamic-functions/function-detail-pages/]]></target>
+            <uuid>8fda6856-18b5-11e4-8e8b-b7bfd6088c56</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/editors/the-sitemap-editor/]]></target>
+            <uuid>270e7393-06a0-11e4-909a-1305b26fecac</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Define named functions that are shipped with the module. For named functions, <a href="%(link0)">function detail pages</a> can be added in the <a href="%(link1)">sitemap editor</a>.</p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>

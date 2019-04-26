@@ -49,6 +49,38 @@
           <target><![CDATA[/sites/default/opencms-documentation/background/configuration-files/]]></target>
           <uuid>e19ae958-1fdc-11e5-921f-0242ac11002b</uuid>
         </link>
+        <link name="link10" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/special-predefined-content-types/dynamic-functions/]]></target>
+          <uuid>841cbb2c-18b5-11e4-8e8b-b7bfd6088c56</uuid>
+        </link>
+        <link name="link11" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/special-predefined-content-types/dynamic-functions/function-detail-pages/]]></target>
+          <uuid>8fda6856-18b5-11e4-8e8b-b7bfd6088c56</uuid>
+        </link>
+        <link name="link12" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/caches/]]></target>
+          <uuid>c13b9306-43eb-11e4-8dcd-6725b2578a6f</uuid>
+        </link>
+        <link name="link13" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/scheduled-jobs/]]></target>
+          <uuid>25f3e711-4247-11e4-b94d-6725b2578a6f</uuid>
+        </link>
+        <link name="link14" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/ade-configuration/]]></target>
+          <uuid>40522cc2-18b2-11e4-8e8b-b7bfd6088c56</uuid>
+        </link>
+        <link name="link15" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/adding-a-content-type/]]></target>
+          <uuid>a8fb9834-e87f-11e6-810f-0242ac11002b</uuid>
+        </link>
+        <link name="link16" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/source-search/]]></target>
+          <uuid>ee3b618e-e916-11e6-810f-0242ac11002b</uuid>
+        </link>
+        <link name="link17" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/server-installation/]]></target>
+          <uuid>b8d1893f-3280-11e4-84a4-d144f6bb3566</uuid>
+        </link>
       </links>
       <content><![CDATA[<ul>
 <li>Reorganized and updated and extended <a href="%(link0)">topics on the Solr search integration</a></li>
@@ -61,6 +93,13 @@
 <li>Explained how to connect with the<a href="%(link7)"> OpenCms shell to a running OpenCms instance via RMI</a>.</li>
 <li>Moved and updated the <a href="%(link8)">topic on managing modules</a>.</li>
 <li>Adjusted <a href="%(link9)">topic about configuration files</a> to the configuration files of OpenCms 11.</li>
+<li>Updated topic and demos on <a href="%(link10)">dynamic functions</a> and <a href="%(link11)">function detail pages</a> to the redesigned function type of OpenCms 11.</li>
+<li>Completely rewrote and moved the topic on <a href="%(link12)">cache administration</a> for the new Caches apps.</li>
+<li>Updated documentation for the<a href="%(link13)"> scheduled jobs app</a> to fit for the new design and the changed configuration file format.</li>
+<li>Updated the topic on <a href="%(link14)">ADE configuration</a> and subtopics: Added OpenCms 11 options and explained the sitemap master configuration.</li>
+<li>Reworked <a href="%(link15)">tutorial "Adding a content type"</a> to fit for OpenCms 11.</li>
+<li>Documented new OpenCms 11 search modes of the <a href="%(link16)">source search app</a>.</li>
+<li>Partly reworked, restructured and updated the topics on <a href="%(link17)">server installation</a>.</li>
 </ul>]]></content>
     </Html>
   </DocumentationHtml>

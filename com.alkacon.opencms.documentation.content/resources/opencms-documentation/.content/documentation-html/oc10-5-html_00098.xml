@@ -4,7 +4,7 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>The formatter is the JSP that renders a content as HTML. The "Add resource type" wizard created already a suitable formatter for the demo type. It is named <code>demo-content-formatter.jsp</code> and placed under <code>/system/modules/my.module/formatters/</code>. The <code>formatters/</code> directory below the module's main folder is (by convention) the place where formatters should reside. Using the type name in the formatters name is also a good practice.</p>
+      <content><![CDATA[<p>The formatter is the JSP that renders a content as HTML. The "Add resource type" wizard created already a suitable formatter for the demo type. It is named <code>demo-content.jsp</code> and placed under <code>/system/modules/my.module/formatters/</code>. The <code>formatters/</code> directory below the module's main folder is (by convention) the place where formatters should reside. Using the type name in the formatters name is also a good practice.</p>
 <p>Here's the generated formatter:</p>]]></content>
     </Html>
   </DocumentationHtml>

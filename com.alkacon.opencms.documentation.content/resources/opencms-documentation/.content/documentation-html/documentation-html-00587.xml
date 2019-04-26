@@ -9,13 +9,12 @@
           <uuid>41f42fc3-3d99-11e4-b238-578a14069906</uuid>
         </link>
       </links>
-      <content><![CDATA[<p>Each "real" permission can be allowed, denied, or kept unset. Read <a href="%(link0)">here</a> about the three states of permissions. Moreover the following options are available:</p>
+      <content><![CDATA[<p>Each "real" permission can be allowed, denied, or kept unset. Read&nbsp;<a href="%(link0)">here</a> about the three states of permissions. Moreover the following options are available:</p>
 <ul>
 <li><em>Responsible:</em> If checked, the user or group is declared responsible for the resource (all resources in the folder).</li>
 <li><em>Overwrite inherited:</em> All inherited permissions that are set for the user/group on parent folders are overwritten. Note that these permissions are thus (by intention) unset again.</li>
 <li><em>Inherit on subfolders:</em> If checked, the set permissions are inherited by subfolders.</li>
-</ul>
-<p>When you click "Set", changes made to the permissions are persisted. If you click "Delete", the permissions that you set for the user/group are deleted.</p>]]></content>
+</ul>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

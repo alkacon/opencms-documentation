@@ -5,20 +5,41 @@
     <Title><![CDATA[Sitemap configuration: the tabs]]></Title>
     <PropertyDef>false</PropertyDef>
     <Entry>
-      <Term><![CDATA[Resource types]]></Term>
+      <Term><![CDATA[Content elements]]></Term>
       <Link>
         <link internal="true" type="WEAK">
-          <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/ade-configuration/resource-type-configuration/]]></target>
+          <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/ade-configuration/content-element-configuration/]]></target>
           <uuid>8053896a-4871-11e4-8008-336f7b60f7b1</uuid>
         </link>
       </Link>
       <Description name="Description0">
         <links/>
-        <content><![CDATA[<p>Defines a resource type‘s name and name pattern, default folder, formatter (optional) and more.</p>]]></content>
+        <content><![CDATA[<p>Defines a content type‘s name and name pattern, default folder, formatter (optional) and more.</p>]]></content>
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Model pages]]></Term>
+      <Term><![CDATA[Formatters]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Configure which formatters should be available.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Dynamic functions]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Configure which dynamic functions should be available. (Since OpenCms 11)</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Property configuration]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Defines which properties get displayed under the "Basic Properties" tab for the property dialog in the ADE.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Templates]]></Term>
       <Description name="Description0">
         <links>
           <link name="link0" internal="true" type="A">
@@ -30,17 +51,16 @@
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Property configuration]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Defines which properties get displayed under the "Basic Properties" tab for the property dialog in the ADE.</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
       <Term><![CDATA[Detail pages]]></Term>
       <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>Defines detail pages used for the specified resource type in the sitemap.</p>]]></content>
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/editors/the-sitemap-editor/]]></target>
+            <uuid>270e7393-06a0-11e4-909a-1305b26fecac</uuid>
+            <anchor><![CDATA[creating_detail_pages]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Defines detail pages used for the specified content type in the sitemap. Most of the configuration is done automatically when a <a href="%(link0)">detail page is added via the sitemap editor</a>.</p>]]></content>
       </Description>
     </Entry>
   </DocumentationDefinitionList>
