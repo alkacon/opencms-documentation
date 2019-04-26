@@ -56,8 +56,8 @@
 
 							<a name="fig_${fn:replace(fn:toLowerCase(content.value.Identifier)," ","_")}"></a>
 
-							<div>
-								<cms:img src="${content.value.Image}" cssclass="img-responsive center-block" />
+							<div class="text-center">
+								<cms:img src="${content.value.Image}" cssclass="img-fluid" />
 							</div>
 							<div>
 								<b>Fig. [<span ${content.rdfa.Identifier}>${content.value.Identifier}</span>]:</b> <span ${content.rdfa.Title}>${content.value.Title}</span>
