@@ -101,7 +101,7 @@
 					<%-- Menu for view switching (editor vs. user) --%>
 					<c:if test="${!cms.isOnlineProject}">
 						<cms:container name="documentation-view-switcher-container" type="documentation-view-switcher" maxElements="1">
-							<div class="jumbotron">Place the view switcher here.</div>
+							<div class="container-box box-special">Place the view switcher here.</div>
 						</cms:container>
 					</c:if>
 
@@ -117,7 +117,7 @@
 					<c:if test="${not isTools}">
 						<!-- BEGIN: Topic Container -->
 				   		<cms:container name="documentation-topic-container" type="documentation-topic" width="1350" maxElements="1">
-								<div class="jumbotron"><h2>Add a topic here!</h2></div>
+								<div class="container-box box-special"><h2>Add a topic here!</h2></div>
 				   		</cms:container>
 				    <!-- END: Topic Container -->
 			   		</c:if>
@@ -130,7 +130,7 @@
 
 					<!-- Here goes all the documentation topic's content -->
 					<cms:container name="documentation-${containerName}-container" type="documentation-${containerName}" width="1350" detailview="true">
-							<div class="jumbotron"><h2>${isOverview ? 'Put overview rows here.' : 'Put section contents here.'}</h2></div>
+							<div class="container-box box-special"><h2>${isOverview ? 'Put overview rows here.' : 'Put section contents here.'}</h2></div>
 					</cms:container>
 
 					<!-- Link to wiki for comments and suggestions plus hint to mailing list -->

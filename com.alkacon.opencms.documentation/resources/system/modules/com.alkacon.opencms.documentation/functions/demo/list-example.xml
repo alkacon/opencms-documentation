@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<DynamicFunctions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/function.xsd">
-  <DynamicFunction language="en">
-    <Title><![CDATA[Demo - Lists and detail pages]]></Title>
-    <Description/>
-    <FunctionProvider>
+<FunctionConfigs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/function-v2.xsd">
+  <FunctionConfig language="en">
+    <NiceName><![CDATA[Demo - Lists and detail pages]]></NiceName>
+    <Jsp>
       <link type="WEAK">
         <target><![CDATA[/system/modules/com.alkacon.opencms.documentation/functions/demo/list-example.jsp]]></target>
         <uuid>eebaeebc-22c4-11e4-8f7a-d9f74955ba1b</uuid>
       </link>
-    </FunctionProvider>
+    </Jsp>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[demo-content]]></ContainerType>
+      </Types>
+    </Match>
+    <StrictContainers>true</StrictContainers>
     <Parameter>
       <Key><![CDATA[folder]]></Key>
       <Value><![CDATA[/opencms-documentation/demos/.content/documentation-demo-article/]]></Value>
@@ -22,9 +27,5 @@
       <Key><![CDATA[count]]></Key>
       <Value><![CDATA[5]]></Value>
     </Parameter>
-    <ContainerSettings>
-      <Type><![CDATA[demo-content]]></Type>
-      <MinWidth/>
-    </ContainerSettings>
-  </DynamicFunction>
-</DynamicFunctions>
+  </FunctionConfig>
+</FunctionConfigs>

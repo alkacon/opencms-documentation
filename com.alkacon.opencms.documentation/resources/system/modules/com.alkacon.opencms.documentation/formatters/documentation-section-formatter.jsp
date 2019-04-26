@@ -50,7 +50,7 @@
 		</c:if>
 	</c:if>
 	<cms:container type="documentation-section" name="documentation-section-container">
-		<div class="jumbotron"><h2>Please add content to this section.</h2></div>
+		<div class="container-box box-special"><h2>Please add content to this section.</h2></div>
 	</cms:container>
 
 </div>

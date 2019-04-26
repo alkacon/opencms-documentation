@@ -20,7 +20,7 @@
          the srcset attibute, and provide our srcset as well.
 	     The sizes are needed to tell the browser when to use which resolution. --%>
     <img class="demo-float-on-big-screen"
-         src="${imageBean.scaleWidth[400].srcUrl}"
+         src="${imageBean.scaleWidth[400]}"
 	     srcset="${imageBean.srcSet}"
 	     sizes="(min-width: 768px) 350px, 250px">
 

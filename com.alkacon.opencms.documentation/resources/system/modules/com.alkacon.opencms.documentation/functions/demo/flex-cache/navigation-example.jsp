@@ -19,5 +19,5 @@
 		</ul>
 	</div>
 	<hr />
-	<div><a href="<cms:link>/demos/flex-cache-settings/navigation-example-at-another-page/</cms:link>">See this example on a nested page.</a></div>
+	<div><a href="<cms:link>/opencms-documentation/demos/flex-cache-settings/navigation-example-at-another-page/</cms:link>">See this example on a nested page.</a></div>
 </div>

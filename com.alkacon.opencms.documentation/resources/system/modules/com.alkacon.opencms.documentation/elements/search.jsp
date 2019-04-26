@@ -8,7 +8,7 @@
 
 <div class="tag-box tag-box-v4">
   <h5>Search the documentation</h5>
-  <form class="styled-form no-border compact" role="form" action='<cms:link>%(link.weak:/sites/default/opencms-documentation/search/:ee7e543b-ac5d-11e4-b42e-0242ac11002b)</cms:link>'>
+  <form class="styled-form no-border compact" role="form" action='<cms:link>%(link.weak:/opencms-documentation/search/)</cms:link>'>
     <section>
       <div class="input">
       	<input type="text" class="form-control" id="q" name="q" placeholder="Enter query">

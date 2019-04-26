@@ -24,7 +24,7 @@
 					</c:if>
 				</c:otherwise>
 			</c:choose>
-			
+
 			<%-- Render source if possible --%>
 			<c:choose>
 				<c:when test="${canShowOnline}">
@@ -107,23 +107,30 @@
 							height="${heightSetting}"
 						</c:if>
 					</c:set>
-				<c:set var="contentEditorLink"><cms:link>/system/workplace/editors/editor.jsp</cms:link></c:set>
 				<c:choose>
 					<c:when test="${source.value.SourceCode.isSet}">
+						<c:if test="${showLink || showSource}">
+							<c:set var="id">${source.value.SourceCode.toResource.structureId}</c:set>
+							<c:set var="link"><cms:link>/workplace#!editor/!!resourceId::${id}!!plainText::true!!backLink::%23</cms:link></c:set>
+						</c:if>
 						<c:if test="${showLink}">
-							<div class="documentation-source-link"><a target="_blank" href="${contentEditorLink}?resource=${source.value.SourceCode}">${source.value.SourceCode}</a></div>
+							<div class="documentation-source-link"><a target="_blank" href="${link}">${source.value.SourceCode}</a></div>
 						</c:if>
 						<c:if test="${showSource}">
-							<iframe class="opencms-documentation-source" src="${contentEditorLink}?resource=${source.value.SourceCode}&closefunction=top.cms_ade_closeEditorDialog()" onload="this.style.display='block';" width="100%" ${sourceHeight}></iframe>
+							<iframe class="opencms-documentation-source" src="${link}" onload="this.style.display='block';" width="100%" ${sourceHeight}></iframe>
 						</c:if>
 					</c:when>
 					<c:when test="${source.value.ContentEditor.isSet}">
+						<c:if test="${showLink || showSource}">
+							<c:set var="id">${source.value.ContentEditor.toResource.structureId}</c:set>
+							<c:set var="link"><cms:link>/workplace#!editor/!!resourceId::${id}!!plainText::false!!backLink::%23</cms:link></c:set>
+						</c:if>
 						<c:if test="${showLink}">
-							<div class="documentation-source-link"><a target="_blank" href="${contentEditorLink}?resource=${source.value.ContentEditor}">${source.value.ContentEditor}</a></div>
+							<div class="documentation-source-link"><a target="_blank" href="${link}">${source.value.ContentEditor}</a></div>
 						</c:if>
 						<c:if test="${showSource}">
 							<div class="xscroll scroll-left" width="100%">
-								<iframe class="opencms-documentation-source contenteditor" src="${contentEditorLink}?resource=${source.value.ContentEditor}&closefunction=top.cms_ade_closeEditorDialog()" onload="this.style.display='block';" ${sourceHeight}></iframe>
+								<iframe class="opencms-documentation-source contenteditor" src="${link}" onload="this.style.display='block';" ${sourceHeight}></iframe>
 							</div>
 						</c:if>
 					</c:when>
@@ -141,22 +148,45 @@
 						</c:if>
 					</c:when>
 					<c:when test="${source.value.Explorer.isSet}">
-						<c:if test="${showLink}">
-							<div class="documentation-source-link">${source.value.Explorer}</div>
+						<c:if test="${showLink || showSource}">
+							<c:set var="res" value="${source.value.Explorer.toResource}" />
+							<c:set var="isSameSite" value="${fn:startsWith(res.rootPath, cms.requestContext.siteRoot)}" />
+							<c:set var="link"><cms:link>/workplace#!explorer/${res.structureId}!!${isSameSite ? cms.requestContext.siteRoot : ''}!!${res.sitePath}!!backLink::%23</cms:link></c:set>
 						</c:if>
-						<%-- Source can not be shown - or I don't know how. --%>
-					</c:when>
-					<c:when test="${source.value.Image.isSet}">
 						<c:if test="${showLink}">
-							<div class="documentation-source-link"><a target="_blank" href="${contentEditorLink}?resource=${source.value.Image.value.Link}">${source.value.Image.value.Link}</a></div>
+							<div class="documentation-source-link"><a target="${isSameSite ?  '_blank' : '_self'}" href="${link}">${source.value.Explorer}</a></div>
 						</c:if>
-						<c:if test="${showSource}">
-							<div ${heightSetting}>
-								<cms:img src="${source.value.Image.value.Image}" cssclass="img-responsive" />
+						<c:if test="${showSource && isSameSite}"><%-- Problems with site switching if it's not the same site. --%>
+							<div class="xscroll scroll-left">
+								<iframe class="opencms-documentation-source explorer" src="${link}" onload="this.style.display='block';" ${sourceHeight}></iframe>
 							</div>
 						</c:if>
 					</c:when>
-				</c:choose>	
+					<c:when test="${source.value.Image.isSet}">
+						<c:set var="image" value="${source.value.Image}" />
+						<c:if test="${showLink}">
+							<c:set var="showType">${image.value.Show}</c:set>
+							<c:set var="originalLink" value="${image.value.Link}" />
+							<c:choose>
+							<c:when test="${showType eq 'contenteditor'}">
+								<c:set var="id">${originalLink.toResource.structureId}</c:set>
+								<c:set var="link"><cms:link>/workplace#!editor/!!resourceId::${id}!!plainText::false!!backLink::%23</cms:link></c:set>
+							</c:when>
+							<c:when test="${showType eq 'sitemapeditor'}">
+								<c:set var="link"><cms:link>/system/workplace/commons/sitemap.jsp?path=${originalLink}"</cms:link></c:set>
+							</c:when>
+							<c:otherwise>
+							</c:otherwise>
+							</c:choose>
+							<div class="documentation-source-link"><a target="_blank" href="${link}">${source.value.Image.value.Link}</a></div>
+						</c:if>
+						<c:if test="${showSource}">
+							<div ${heightSetting}>
+								<cms:img src="${image.value.Image}" cssclass="img-responsive" />
+							</div>
+						</c:if>
+					</c:when>
+				</c:choose>
 			</c:otherwise>
 			</c:choose>
 		</c:otherwise>

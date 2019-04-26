@@ -20,7 +20,7 @@
 			<c:set var="isPropertyDef" value="${content.value.PropertyDef == 'true'}" />
 			<c:forEach var="entry" items="${content.valueList.Entry}">
 				<tr>
-					<td>
+					<td class="text-nowrap">
 						<c:set var="term">
 							<c:choose>
 								<c:when test="${isPropertyDef}">
