@@ -7,10 +7,136 @@
       <Topic>
         <PageLink>
           <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/]]></target>
+            <uuid>11e7df15-276b-11e4-b2bf-49dbf0abad32</uuid>
+          </link>
+        </PageLink>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/websites/]]></target>
+            <uuid>a2b6872d-674b-11e9-9a18-0242ac11002b</uuid>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[Websites app]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>Improved 'Websites' app for site and sub-site management with extended https support.</p>]]></content>
+        </AltTeaser>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/modules/]]></target>
+            <uuid>7387573f-0b56-11e4-8c80-b7bfd6088c56</uuid>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[Modules app]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>Improved and completely reworked modules app.</p>]]></content>
+        </AltTeaser>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/source-search/]]></target>
+            <uuid>ee3b618e-e916-11e6-810f-0242ac11002b</uuid>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[Source search app]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>Improved 'Source search' app with several search options in the OpenCms database.</p>]]></content>
+        </AltTeaser>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/scheduled-jobs/]]></target>
+            <uuid>25f3e711-4247-11e4-b94d-6725b2578a6f</uuid>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[Scheduled jobs app]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>Redesigned 'Scheduled jobs' app.&nbsp;</p>]]></content>
+        </AltTeaser>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
             <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/field-settings/]]></target>
             <uuid>d346610c-fa2c-11e8-9605-0242ac11002b</uuid>
           </link>
         </PageLink>
+        <AltHeading><![CDATA[Field settings: alternative notation for resource type schemas]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>Alternative notation for resource type schemas, grouping content fields configuration similar to formatter settings.</p>]]></content>
+        </AltTeaser>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/element-settings/common-element-settings/]]></target>
+            <uuid>0164bac7-f8a9-11e8-9605-0242ac11002b</uuid>
+          </link>
+        </PageLink>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/special-predefined-content-types/dynamic-functions/]]></target>
+            <uuid>841cbb2c-18b5-11e4-8e8b-b7bfd6088c56</uuid>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[Improved dynamic function type]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>Improved dynamic function configurations to use the same notation as formatter configurations.</p>]]></content>
+        </AltTeaser>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/widget-configuration/]]></target>
+            <uuid>a8badf1f-489a-11e4-8008-336f7b60f7b1</uuid>
+            <anchor><![CDATA[sec_serial_date_widget]]></anchor>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[Serial date widget]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>A widget to define a series of dates. Also backed up with support for special indexing.</p>]]></content>
+        </AltTeaser>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/element-settings/special-options-for-display-formatters/]]></target>
+            <uuid>b5658b3f-4184-11e9-9d3e-0242ac11002b</uuid>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[Special element setting options for display formatters]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>Display formatters are used by lists and not directly dropped to the page, hence the settings are not accessible by default. OpenCms 11 allows you to show the settings of display formatters with the settings of the lists formatter.</p>]]></content>
+        </AltTeaser>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/more-opencms-features/solr-search-integration/basic-solr-configuration/]]></target>
+            <uuid>d1a0d69d-bb64-11e4-a975-f9d322068617</uuid>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[Additional Solr configuration features]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>Due to security and memory issues, the maximal number of searchable results can be restricted and also the Solr handler can be configured much more fine-grained.</p>]]></content>
+        </AltTeaser>
       </Topic>
     </Item>
   </DocumentationTopicrow>

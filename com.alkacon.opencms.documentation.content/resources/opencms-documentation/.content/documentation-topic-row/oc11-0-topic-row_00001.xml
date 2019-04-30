@@ -8,6 +8,37 @@
       <Topic>
         <PageLink>
           <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/lists/]]></target>
+            <uuid>c2c685df-3fed-11e9-9d3e-0242ac11002b</uuid>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[Lists app]]></AltHeading>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/common-toolbar-options/]]></target>
+            <uuid>bb4088c9-4a48-11e9-b182-0242ac11002b</uuid>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[Bookmarks]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>Via bookmarks you can save your favorite folder, site and project combination to switch directly to it. The feature is described in the common toolbar options.</p>]]></content>
+        </AltTeaser>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/resource-types/]]></target>
+            <uuid>f5ea8bc5-4bdf-11e9-81ca-0242ac11002b</uuid>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[Resource types app]]></AltHeading>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
             <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/meta-mappings/]]></target>
             <uuid>97783758-f2f4-11e8-a09c-0242ac11002b</uuid>
           </link>
@@ -16,32 +47,6 @@
         <AltTeaser name="AltTeaser0">
           <links/>
           <content><![CDATA[<p>This feature allows to inherit values from XML contents to the page template</p>]]></content>
-        </AltTeaser>
-      </Topic>
-      <Topic>
-        <PageLink>
-          <link internal="true" type="WEAK">
-            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/element-settings/common-element-settings/]]></target>
-            <uuid>0164bac7-f8a9-11e8-9605-0242ac11002b</uuid>
-          </link>
-        </PageLink>
-        <AltHeading><![CDATA[Common element settings]]></AltHeading>
-        <AltTeaser name="AltTeaser0">
-          <links/>
-          <content><![CDATA[<p>See how to configure frequently used element settings only once.</p>]]></content>
-        </AltTeaser>
-      </Topic>
-      <Topic>
-        <PageLink>
-          <link internal="true" type="WEAK">
-            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/element-settings/special-options-for-display-formatters/]]></target>
-            <uuid>b5658b3f-4184-11e9-9d3e-0242ac11002b</uuid>
-          </link>
-        </PageLink>
-        <AltHeading><![CDATA[Special element setting options for display formatters]]></AltHeading>
-        <AltTeaser name="AltTeaser0">
-          <links/>
-          <content><![CDATA[<p>Display formatters are used by lists and not directly dropped to the page, hence the settings are not accessible by default. OpenCms 11 allows you to show the settings of display formatters with the settings of the lists formatter.</p>]]></content>
         </AltTeaser>
       </Topic>
       <Topic>
@@ -60,10 +65,52 @@
       <Topic>
         <PageLink>
           <link internal="true" type="WEAK">
-            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/field-settings/]]></target>
-            <uuid>d346610c-fa2c-11e8-9605-0242ac11002b</uuid>
+            <target><![CDATA[/sites/default/opencms-documentation/typical-tasks/writing-jsps/image-handling/]]></target>
+            <uuid>47e6535f-3029-11e9-827d-0242ac11002b</uuid>
           </link>
         </PageLink>
+        <AltHeading><![CDATA[EL functions to create image variations for 'srcset' or 'picture'.]]></AltHeading>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/widget-configuration/]]></target>
+            <uuid>a8badf1f-489a-11e4-8008-336f7b60f7b1</uuid>
+            <anchor><![CDATA[fig_setting_the_focal_point]]></anchor>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA['Focal point' for images]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>Control automatic image cropping by setting the focal point for images.</p>]]></content>
+        </AltTeaser>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/server-installation/opencms-shell/]]></target>
+            <uuid>d3b8e96a-4479-11e4-bfb4-6725b2578a6f</uuid>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[Execute shell commands in a running OpenCms instance using RMI.]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>The OpenCms shell can now connect to a running OpenCms instance.</p>]]></content>
+        </AltTeaser>
+      </Topic>
+      <Topic>
+        <PageLink>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/default/opencms-documentation/caching-in-opencms/the-flex-cache/]]></target>
+            <uuid>836b2208-2164-11e4-a141-d9f74955ba1b</uuid>
+            <anchor><![CDATA[sec_flex_cache_buckets]]></anchor>
+          </link>
+        </PageLink>
+        <AltHeading><![CDATA[Flex cache bucket feature]]></AltHeading>
+        <AltTeaser name="AltTeaser0">
+          <links/>
+          <content><![CDATA[<p>The flex-cache bucket feature allows selective flex-cache purging.</p>]]></content>
+        </AltTeaser>
       </Topic>
     </Item>
   </DocumentationTopicrow>
