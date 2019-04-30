@@ -119,58 +119,58 @@
 		</resourcetypes>
 		<explorertypes>
 			<explorertype name="documentation-topic" key="fileicon.documentation-topic" icon="documentation-topic.png" bigicon="documentation-topic_big.png" reference="xmlcontent">
-				<newresource noncreatable="false" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-topic" key="title.documentation-topic"/>
+				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-topic" key="title.documentation-topic"/>
 			</explorertype>
 			<explorertype name="documentation-html" key="fileicon.documentation-html" icon="documentation-html.png" bigicon="documentation-html_big.png" reference="xmlcontent">
-				<newresource noncreatable="false" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-html" key="title.documentation-html"/>
+				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-html" key="title.documentation-html"/>
 			</explorertype>
 			<explorertype name="documentation-codeblock" key="fileicon.documentation-codeblock" icon="documentation-codeblock.png" bigicon="documentation-codeblock_big.png" reference="xmlcontent">
-				<newresource noncreatable="false" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-codeblock" key="title.documentation-codeblock"/>
+				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-codeblock" key="title.documentation-codeblock"/>
 			</explorertype>
 			<explorertype name="documentation-section" key="fileicon.documentation-section" icon="documentation-section.png" bigicon="documentation-section_big.png" reference="xmlcontent">
-				<newresource noncreatable="false" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-section" key="title.documentation-section"/>
+				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-section" key="title.documentation-section"/>
 			</explorertype>
 			<explorertype name="documentation-figure" key="fileicon.documentation-figure" icon="documentation-figure.png" bigicon="documentation-figure_big.png" reference="xmlcontent">
-				<newresource noncreatable="false" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-figure" key="title.documentation-figure"/>
+				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-figure" key="title.documentation-figure"/>
 			</explorertype>
 			<explorertype name="documentation-definition-list" key="fileicon.documentation-definition-list" icon="documentation-definition-list.png" bigicon="documentation-definition-list_big.png" reference="xmlcontent">
-				<newresource noncreatable="false" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-definition-list" key="title.documentation-definition-list"/>
+				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-definition-list" key="title.documentation-definition-list"/>
 			</explorertype>
 			<explorertype name="documentation-topic-row" key="fileicon.documentation-topic-row" icon="documentation-topic-row.png" bigicon="documentation-topic-row_big.png" reference="xmlcontent">
-				<newresource noncreatable="false" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-topic-row" key="title.documentation-topic-row"/>
+				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-topic-row" key="title.documentation-topic-row"/>
 			</explorertype>
 			<explorertype name="documentation-glossar-entry" key="fileicon.documentation-glossar-entry" icon="documentation-glossar-entry.png" bigicon="documentation-glossar-entry_big.png" reference="xmlcontent">
-				<newresource noncreatable="false" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-glossar-entry" key="title.documentation-glossar-entry"/>
+				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-glossar-entry" key="title.documentation-glossar-entry"/>
 			</explorertype>
 			<explorertype name="documentation-glossar" key="fileicon.documentation-glossar" icon="documentation-glossar.png" bigicon="documentation-glossar_big.png" reference="xmlcontent">
-				<newresource noncreatable="false" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-glossar" key="title.documentation-glossar"/>
+				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-glossar" key="title.documentation-glossar"/>
 			</explorertype>
 			<explorertype name="documentation-demo-article" key="fileicon.documentation-demo-article" icon="documentation-demo-content.png" bigicon="documentation-demo-content_big.png" reference="xmlcontent">
-				<newresource noncreatable="false" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-demo-article" key="title.documentation-demo-article"/>
+				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-demo-article" key="title.documentation-demo-article"/>
 			</explorertype>
 			<explorertype name="documentation-demo-dependent-fields" key="fileicon.documentation-demo-dependent-fields" icon="documentation-demo-content.png" bigicon="documentation-demo-content_big.png" reference="xmlcontent">
-				<newresource noncreatable="false" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-demo-dependent-fields" key="title.documentation-demo-dependent-fields"/>
+				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-demo-dependent-fields" key="title.documentation-demo-dependent-fields"/>
 			</explorertype>
 			<explorertype name="documentation-demo-wrapper" key="fileicon.documentation-demo-wrapper" icon="documentation-demo-wrapper.png" bigicon="documentation-demo-wrapper_big.png" reference="xmlcontent">
-				<newresource noncreatable="false" order="10" autosetnavigation="false" autosettitle="false" key="title.documentation-demo-wrapper"/>
+				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" key="title.documentation-demo-wrapper"/>
 			</explorertype>
 			<explorertype name="documentation-demo-source" key="fileicon.documentation-demo-source" icon="documentation-demo-source.png" bigicon="documentation-demo-source_big.png" reference="xmlcontent">
-				<newresource noncreatable="false" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-demo-source" key="title.documentation-demo-source"/>
+				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-demo-source" key="title.documentation-demo-source"/>
 			</explorertype>
 			<explorertype name="documentation-dummy-content" key="fileicon.documentation-dummy-content" icon="documentation-dummy-content.png" bigicon="documentation-dummy-content_big.png" reference="xmlcontent">
-				<newresource noncreatable="false" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-dummy-content" key="title.documentation-dummy-content"/>
+				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-dummy-content" key="title.documentation-dummy-content"/>
 			</explorertype>
 			<explorertype name="documentation-demo-layout-element" key="fileicon.documentation-demo-layout-element" icon="documentation-demo-content.png" bigicon="documentation-demo-content_big.png" reference="xmlcontent">
-				<newresource noncreatable="false" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-demo-layout-element" key="title.documentation-demo-layout-element"/>
+				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-demo-layout-element" key="title.documentation-demo-layout-element"/>
 			</explorertype>
 			<explorertype name="documentation-view-switcher" key="fileicon.documentation-view-switcher" icon="documentation-view-switcher.png" bigicon="documentation-view-switcher_big.png" reference="xmlcontent">
-				<newresource noncreatable="false" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-view-switcher" key="title.documentation-view-switcher"/>
+				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-view-switcher" key="title.documentation-view-switcher"/>
 			</explorertype>
 			<explorertype name="documentation-demo-list" key="fileicon.documentation-demo-list" icon="documentation-demo-list.png" bigicon="documentation-demo-list_big.png" reference="xmlcontent">
-				<newresource noncreatable="false" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-demo-list" key="title.documentation-demo-list"/>
+				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-demo-list" key="title.documentation-demo-list"/>
 			</explorertype>
 			<explorertype name="documentation-video" key="fileicon.documentation-video" icon="documentation-video.png" bigicon="documentation-video_big.png" reference="xmlcontent">
-				<newresource noncreatable="false" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-video" key="title.documentation-video"/>
+				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="desc.documentation-video" key="title.documentation-video"/>
 			</explorertype>
 		</explorertypes>
 	</module>

@@ -37,7 +37,7 @@
 		</resourcetypes>
 		<explorertypes>
 			<explorertype name="auto-correct-xml" key="fileicon.auto-correct-xml" icon="auto-correct-xml.png" bigicon="auto-correct-xml_big.png" reference="xmlcontent">
-				<newresource noncreatable="false" order="10" autosetnavigation="false" autosettitle="false" info="desc.auto-correct-xml" key="title.auto-correct-xml"/>
+				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="desc.auto-correct-xml" key="title.auto-correct-xml"/>
 			</explorertype>
 		</explorertypes>
 	</module>
