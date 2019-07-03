@@ -31,23 +31,23 @@ repositories {
     }
     jcenter()
     maven {
-    	url "http://maven.nuiton.org/release/"
+        url "http://maven.nuiton.org/release/"
     }
     maven {
-    	url "http://software.rescarta.org/nexus/content/repositories/thirdparty/"
+        url "http://software.rescarta.org/nexus/content/repositories/thirdparty/"
     }
     maven {
-    	url "http://maven.vaadin.com/vaadin-addons"
+        url "http://maven.vaadin.com/vaadin-addons"
     }
 }
 
 configurations {
-	moduleDeps {
-    	description = 'additional dependencies required by modules, need to be added into the webapp lib folder'
+    moduleDeps {
+        description = 'additional dependencies required by modules, need to be added into the webapp lib folder'
     }
-	compile {
-		description = 'used to compile the modules jars'
-		extendsFrom moduleDeps
+    compile {
+        description = 'used to compile the modules jars'
+        extendsFrom moduleDeps
     }
     testCompile {
         extendsFrom compile
@@ -67,7 +67,7 @@ sourceSets {
 apply from: 'dependencies.gradle'
 
 task wrapper(type: Wrapper){
-	gradleVersion = '4.10'
+    gradleVersion = '4.10'
 }
 
 //task testAll (type: Test)
@@ -121,23 +121,23 @@ allModuleNames.split(',').each{ moduleName ->
         moduleVersion = parsedManifest.module[0].version[0].text()
     }
     if (requiresJar.toBoolean()) {
-	    task "jar_$moduleName" (type: Jar) {
-	        ext.moduleName = moduleName
-	        ext.moduleVersion= moduleVersion
-	        manifest {
-	            attributes 'Implementation-Title': 'OpenCms documentation', 'Implementation-Version': moduleVersion
-	        }
-	        from sourceSets[moduleName].output
-	        from ("$staticFolder") { into "OPENCMS" }
-	        archiveName moduleName+'.jar'
-	        baseName moduleName
-	        exclude '**/.gitignore'
-	        doFirst {
-	            println '======================================================'
-	            println "Building JAR for $moduleName version $moduleVersion"
-	            println '======================================================'
-	        }
-	    }
+        task "jar_$moduleName" (type: Jar) {
+            ext.moduleName = moduleName
+            ext.moduleVersion= moduleVersion
+            manifest {
+                attributes 'Implementation-Title': 'OpenCms documentation', 'Implementation-Version': moduleVersion
+            }
+            from sourceSets[moduleName].output
+            from ("$staticFolder") { into "OPENCMS" }
+            archiveName moduleName+'.jar'
+            baseName moduleName
+            exclude '**/.gitignore'
+            doFirst {
+                println '======================================================'
+                println "Building JAR for $moduleName version $moduleVersion"
+                println '======================================================'
+            }
+        }
     }
     if (requiresTest.toBoolean()) {
         task "test_$moduleName" (type: Test, dependsOn: sourceSets.test.compileJavaTaskName) {
@@ -168,11 +168,11 @@ allModuleNames.split(',').each{ moduleName ->
         ext.requiresJar = requiresJar
         ext.requiresTest = requiresTest
         if (project.hasProperty('noVersion')) {
-        	version
-        	project.modulesAll +="${moduleName}.zip,"
+            version
+            project.modulesAll +="${moduleName}.zip,"
         } else {
-         	version moduleVersion
-         	project.modulesAll +="${moduleName}-${moduleVersion}.zip,"
+             version moduleVersion
+             project.modulesAll +="${moduleName}-${moduleVersion}.zip,"
         }
         destinationDir modulesDistsDir
         baseName moduleName
@@ -183,7 +183,7 @@ allModuleNames.split(',').each{ moduleName ->
         }
         // excluding jars from modules, jars will be placed in the WEB-INF lib folder through the deployment process
         from("${moduleFolder}/resources"){
-        	exclude '**/lib*/*.jar'
+            exclude '**/lib*/*.jar'
         }
     }
     if (requiresJar.toBoolean()) {
@@ -266,19 +266,19 @@ allModuleNames.split(',').each{ moduleName ->
 }
 
 task copyDeps(type: Copy){
-	from configurations.moduleDeps
+    from configurations.moduleDeps
     into "${buildDir}/deps"
 }
 
 task copyProjectProps(type: Copy){
-	configurations.moduleDeps.each {d ->
-			project.dependencyLibs="${project.dependencyLibs}${d.name},"
-	}
-	from(projectDir) {
+    configurations.moduleDeps.each {d ->
+            project.dependencyLibs="${project.dependencyLibs}${d.name},"
+    }
+    from(projectDir) {
         include 'project.properties'
         filter(ReplaceTokens, tokens: [
-        	MODULES_ALL: ''+project.modulesAll,
-        	MODULE_LIBS: ''+project.moduleLibs,
+            MODULES_ALL: ''+project.modulesAll,
+            MODULE_LIBS: ''+project.moduleLibs,
             DEPENDENCY_LIBS: ''+project.dependencyLibs
         ])
 
@@ -293,40 +293,40 @@ task bindist(dependsOn: [copyDeps, copyProjectProps]) {
 }
 
 task documentationAllJar(type: Jar){
-	allModuleNames.split(',').each{ moduleName ->
-		from sourceSets[moduleName].output
-	}
-	baseName 'documentation-all'
+    allModuleNames.split(',').each{ moduleName ->
+        from sourceSets[moduleName].output
+    }
+    baseName 'opencms-documentation'
     exclude '**/.gitignore'
     exclude '**/test/**'
     doFirst {
         println '======================================================'
         println "Building JAR for DOCUMENTATION ALL"
         println '======================================================'
-	}
+    }
 }
 
 task documentationAllJavadoc (type: Javadoc){
-	allModuleNames.split(',').each{ moduleName ->
-    	source += sourceSets[moduleName].allJava
-    	classpath += project.sourceSets[moduleName].compileClasspath
+    allModuleNames.split(',').each{ moduleName ->
+        source += sourceSets[moduleName].allJava
+        classpath += project.sourceSets[moduleName].compileClasspath
     }
     destinationDir = file("${buildDir}/docs/documentationAllJavadoc")
     options.addStringOption("sourcepath", "")
 }
 
 task documentationAllJavadocJar(dependsOn: documentationAllJavadoc, type: Jar) {
- 	classifier 'javadoc'
+     classifier 'javadoc'
     from "${buildDir}/docs/documentationAllJavadoc"
-    baseName 'documentation-all'
+    baseName 'opencms-documentation'
 }
 
 task documentationAllSourcesJar(type: Jar) {
-	allModuleNames.split(',').each{ moduleName ->
-    	from sourceSets[moduleName].allSource
+    allModuleNames.split(',').each{ moduleName ->
+        from sourceSets[moduleName].allSource
     }
     classifier 'sources'
-    baseName 'documentation-all'
+    baseName 'opencms-documentation'
 }
 
 tasks.findAll{ task -> task.name.startsWith('dist_')}.each{ dist_task ->
@@ -345,9 +345,9 @@ tasks.findAll{ task -> task.name.startsWith('dist_')}.each{ dist_task ->
     }
 
     if (dist_task.requiresJar.toBoolean()){
-	    tasks['jar_'+dist_task.moduleName].dependsOn{
-	        tasks.findAll{ comp_task -> comp_task.name.toLowerCase().equals('compile'+dist_task.moduleName.replaceAll('\\.','')+'java')}
-	    }
+        tasks['jar_'+dist_task.moduleName].dependsOn{
+            tasks.findAll{ comp_task -> comp_task.name.toLowerCase().equals('compile'+dist_task.moduleName.replaceAll('\\.','')+'java')}
+        }
     }
     bindist.dependsOn dist_task
     documentationAllJar.dependsOn{
@@ -368,10 +368,10 @@ artifacts {
 install {
     repositories {
         mavenInstaller {
-        	addFilter('documentation-all'){artifact, file ->
-                artifact.name.startsWith('documentation-all')
+            addFilter('opencms-documentation'){artifact, file ->
+                artifact.name.startsWith('opencms-documentation')
             }
-            pom('documentation-all').project {
+            pom('opencms-documentation').project {
                 name 'Documentation all'
                 description 'Documentation all modules'
                 packaging 'jar'
