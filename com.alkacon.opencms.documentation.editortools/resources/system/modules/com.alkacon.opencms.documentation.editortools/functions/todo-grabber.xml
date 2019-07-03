@@ -11,7 +11,9 @@
       </link>
     </FunctionProvider>
     <SettingConfig>
-      <PropertyName/>
+      <PropertyName><![CDATA[folders]]></PropertyName>
+      <DisplayName><![CDATA[Content folders]]></DisplayName>
+      <Description><![CDATA[A comma-separated list of site-relative folders, e.g., "/opencms-documentation/.content/"]]></Description>
       <Type><![CDATA[string]]></Type>
       <Widget/>
     </SettingConfig>

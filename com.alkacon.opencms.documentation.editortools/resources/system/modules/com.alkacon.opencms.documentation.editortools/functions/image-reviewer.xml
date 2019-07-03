@@ -10,5 +10,12 @@
         <uuid>b99e4e87-31c7-11e4-8511-d144f6bb3566</uuid>
       </link>
     </FunctionProvider>
+    <SettingConfig>
+      <PropertyName><![CDATA[folders]]></PropertyName>
+      <DisplayName><![CDATA[Content folders]]></DisplayName>
+      <Description><![CDATA[A comma-separated list of site-relative folders, e.g., "/opencms-documentation/.content/"]]></Description>
+      <Type><![CDATA[string]]></Type>
+      <Widget/>
+    </SettingConfig>
   </DynamicFunction>
 </DynamicFunctions>

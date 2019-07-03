@@ -1,7 +1,12 @@
-<%@page taglibs="c,cms" %>
+<%@page taglibs="fn,c,cms" %>
+
+<c:set var="folderSetting">${cms.element.settings["folders"]}</c:set>
+<c:set var="folders" value="${empty folderSetting ? null : fn:split(folderSetting,'/')}" />
+
 <jsp:useBean id="todoCollector" class="com.alkacon.opencms.documentation.editortools.TodoCollector">
-	<% todoCollector.init(pageContext, request, response);%>
+	<% todoCollector.init(pageContext, request, response, (String[])pageContext.getAttribute("folders"));%>
 </jsp:useBean>
+
 <div>
 	<h3>
 	TODOs
