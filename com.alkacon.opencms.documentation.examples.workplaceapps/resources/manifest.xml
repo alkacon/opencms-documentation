@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <export>
-	<info>
-		<infoproject>Offline</infoproject>
-		<export_version>10</export_version>
-	</info>
-	<module>
-		<name>com.alkacon.opencms.documentation.examples.workplaceapps</name>
-		<nicename><![CDATA[OpenCms Documentation Example: Writing workplace apps]]></nicename>
-		<group>OpenCms Documentation</group>
-		<class/>
-		<import-site>/</import-site>
-		<export-mode name="reduced"/>
-		<description><![CDATA[The module contains the workplace apps and the app category "Example Apps" from the documentation's example.]]></description>
-		<version>11.0.0</version>
-		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
-		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
-		<datecreated/>
-		<userinstalled/>
-		<dateinstalled/>
-		<dependencies/>
-		<exportpoints/>
-		<resources>
-			<resource uri="/system/modules/com.alkacon.opencms.documentation.examples.workplaceapps/"/>
-		</resources>
-		<excluderesources/>
-		<parameters/>
-	</module>
-	<files>
-		<file>
-			<destination>system</destination>
-			<type>folder</type>
-			<properties/>
-		</file>
-		<file>
-			<destination>system/modules</destination>
-			<type>folder</type>
-			<properties/>
-		</file>
-		<file>
-			<destination>system/modules/com.alkacon.opencms.documentation.examples.workplaceapps</destination>
-			<type>folder</type>
-			<uuidstructure>b64217e5-a683-11e6-a1c1-c3d2e24f648c</uuidstructure>
-			<datecreated>Wed, 09 Nov 2016 13:52:11 GMT</datecreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-	</files>
+    <info>
+        <infoproject>Offline</infoproject>
+        <export_version>10</export_version>
+    </info>
+    <module>
+        <name>com.alkacon.opencms.documentation.examples.workplaceapps</name>
+        <nicename><![CDATA[OpenCms Documentation Example: Writing workplace apps]]></nicename>
+        <group>OpenCms Documentation</group>
+        <class/>
+        <import-site>/</import-site>
+        <export-mode name="reduced"/>
+        <description><![CDATA[The module contains the workplace apps and the app category "Example Apps" from the documentation's example.]]></description>
+        <version>12.0.0</version>
+        <authorname><![CDATA[Alkacon Software GmbH]]></authorname>
+        <authoremail><![CDATA[sales@alkacon.com]]></authoremail>
+        <datecreated/>
+        <userinstalled/>
+        <dateinstalled/>
+        <dependencies/>
+        <exportpoints/>
+        <resources>
+            <resource uri="/system/modules/com.alkacon.opencms.documentation.examples.workplaceapps/"/>
+        </resources>
+        <excluderesources/>
+        <parameters/>
+    </module>
+    <files>
+        <file>
+            <destination>system</destination>
+            <type>folder</type>
+            <properties/>
+        </file>
+        <file>
+            <destination>system/modules</destination>
+            <type>folder</type>
+            <properties/>
+        </file>
+        <file>
+            <destination>system/modules/com.alkacon.opencms.documentation.examples.workplaceapps</destination>
+            <type>folder</type>
+            <uuidstructure>b64217e5-a683-11e6-a1c1-c3d2e24f648c</uuidstructure>
+            <datecreated>Wed, 09 Nov 2016 13:52:11 GMT</datecreated>
+            <flags>0</flags>
+            <properties/>
+            <relations/>
+            <accesscontrol/>
+        </file>
+    </files>
 </export>
