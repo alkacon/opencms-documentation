@@ -10,6 +10,8 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="mercury" tagdir="/WEB-INF/tags/mercury" %>
 
+<mercury:content-properties>
+
 <fmt:setLocale value="${cms.locale}" />
 
 <c:set var="templateType">
@@ -65,7 +67,7 @@
         <script async src="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.documentation/resources/js/documentation-offline.js:ef5ad321-23bf-11e4-a9de-49dbf0abad32)</cms:link>"></script>
     </c:if>
 
-    <mercury:meta-info/>
+    <mercury:meta-info contentUri="${contentUri}" contentPropertiesSearch="${contentPropertiesSearch}" />
 
     <link rel="apple-touch-icon" sizes="120x120" href="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.documentation/images/favicon_120.png:b278b977-ac43-11e4-b80e-f9d322068617)</cms:link>"/>
     <link rel="icon" href="<cms:link>%(link.weak:/system/modules/com.alkacon.opencms.documentation/images/favicon_16.png:b27cb11a-ac43-11e4-b80e-f9d322068617)</cms:link>" type="image/png"/>
@@ -160,13 +162,15 @@
     <!--=== End Foot ===-->
 
     <%-- Page information transfers OpenCms state information to JavaScript --%>
-    <mercury:pageinfo />
+    <mercury:pageinfo contentPropertiesSearch="${contentPropertiesSearch}" />
 
     <%-- JavaScript blocking files placed at the end of the document so the pages load faster --%>
     <cms:headincludes type="javascript" />
 
     <%-- Privacy policy markup is inserted last --%>
-    <mercury:privacy-policy-banner />
+    <mercury:privacy-policy-banner contentUri="${contentUri}" contentPropertiesSearch="${contentPropertiesSearch}" />
 
 </body>
 </html>
+
+</mercury:content-properties>
