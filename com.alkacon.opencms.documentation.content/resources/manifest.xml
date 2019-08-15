@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>11.0.x_DOCUMENTATION_EDITABLE</opencms_version>
-		<createdate>Thu, 15 Aug 2019 12:41:07 GMT</createdate>
+		<createdate>Thu, 15 Aug 2019 13:09:05 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>10</export_version>
 	</info>
@@ -37,8 +37,8 @@
 			<destination>opencms-documentation</destination>
 			<type>subsitemap</type>
 			<uuidstructure>f002c53d-973d-11e4-8878-b7eb8d90e9b7</uuidstructure>
-			<datelastmodified>Tue, 30 Apr 2019 08:21:27 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
+			<datelastmodified>Thu, 15 Aug 2019 13:06:55 GMT</datelastmodified>
+			<userlastmodified>gWestenberger</userlastmodified>
 			<datecreated>Thu, 08 Jan 2015 13:55:00 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
@@ -81,6 +81,10 @@
 				</property>
 				<property>
 					<name>varnish.forcecaching</name>
+					<value><![CDATA[true]]></value>
+				</property>
+				<property>
+					<name>wikilink</name>
 					<value><![CDATA[true]]></value>
 				</property>
 			</properties>

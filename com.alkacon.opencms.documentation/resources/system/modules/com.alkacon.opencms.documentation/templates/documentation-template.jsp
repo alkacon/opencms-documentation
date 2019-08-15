@@ -17,6 +17,7 @@
 <c:set var="templateType">
     <cms:property name="opencms.documentation.template.type" file="search" default="default" />
 </c:set>
+<c:set var="wikilink"><cms:property name="wikilink" file="search" default="false" /></c:set>
 
 <c:choose>
 <c:when test="${templateType eq 'overview'}">
@@ -146,9 +147,10 @@
                     <cms:container name="documentation-${containerName}-container" type="documentation-${containerName}" width="1350" detailview="true">
                             <div class="container-box box-special"><h2>${isOverview ? 'Put overview rows here.' : 'Put section contents here.'}</h2></div>
                     </cms:container>
-
-                    <!-- Link to wiki for comments and suggestions plus hint to mailing list -->
-                    <cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/wiki-link.jsp:74887459-814e-11e5-93bb-0242ac11002b)" />
+                    <c:if test="${wikilink == 'true'}">
+                    	<!-- Link to wiki for comments and suggestions plus hint to mailing list -->
+                    	<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/wiki-link.jsp:74887459-814e-11e5-93bb-0242ac11002b)" />
+					</c:if>
 
                 </div>
             </div>
