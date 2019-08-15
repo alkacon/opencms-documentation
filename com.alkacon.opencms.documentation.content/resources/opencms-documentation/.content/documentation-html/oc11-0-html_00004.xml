@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[detailpages_configuringcontentspecificurlpart]]></anchor>
+        </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/creating-a-website/seo/]]></target>
+          <uuid>516ba0f0-0cd6-11e4-a7cb-b7bfd6088c56</uuid>
+          <anchor><![CDATA[xmlsitemapgen]]></anchor>
+        </link>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[https://github.com/alkacon/opencms-core/blob/branch_11_0_x/src/org/opencms/configuration/opencms-system.dtd]]></target>
+        </link>
+        <link name="link3" internal="true" type="A">
+          <target><![CDATA[]]></target>
+          <anchor><![CDATA[preferlocal]]></anchor>
+        </link>
+      </links>
+      <content><![CDATA[<p>As <a href="%(link0)">previously described</a>, detail view links are composed of two parts, the detail page itself and the content-specific part at the end. Conversely, any URL composed of a detail page and the content-specific URL name for a detail content may be potentially interpreted as a detail view link, so that the same detail content can be shown in different detail pages. Depending on how your system is configured, some of these combinations may be <strong>valid</strong> (i.e. resulting in the detail view being opened in your browser for the given URL) or <strong>invalid</strong> (resulting in an HTTP 404 status code).</p>
+<p>Restricting possible detail page / detail content combinations can be useful for SEO purposes. Some search engines penalize duplicate content available under different URLs. Also, the <a href="%(link1)">XML sitemap generator</a> in OpenCms uses the information whether a combination of detail page and detail content is valid to eliminate superfluous detail view links.</p>
+<p>However, allowing the same content on different detail pages also has valid uses. For example, on a website with multiple sub-sections, you might want to have individual detail pages for news articles in each of the sub-sections, but also be able to show the news articles in the context of the main site.</p>
+<p>As a minimum requirement, a detail page must actually be registered as the detail page for the type of the detail content somewhere in a sitemap configuration - otherwise the combination is invalid.</p>
+<p>The validity of various combinations is further controlled by the following configuration options:</p>
+<ul>
+<li>The <code>&lt;restrict-detail-contents&gt;</code> option in <code>WEB-INF/config/opencms-system.xml</code> (see the <a href="%(link2)">DTD</a>).<br />This can be set to <code>true</code> (which is the default value) or <code>false</code>. If set to <code>true</code>, any combination of a detail page located in a proper site (i.e. not the shared folder or /system/ folder) and a detail content in a <em>different</em> proper site, will be rejected as invalid.</li>
+<li>The "<strong>Prefer local detail pages</strong>" option in the sitemap configuration (.config). We already discussed how this option <a href="%(link3)">influences the generation of links</a>.&nbsp; If this is enabled for a (sub-)site, then any combinations of detail contents in the subsite and detail pages not configured for the subsite will be rejected as invalid, but only if there actually are detail pages configured for the detail content's type in the subsite.<br />Note that this option is not inherited through levels of subsites; you have to configure it individually for subsites.</li>
+<li>The "<strong>Disallow detail contents from other (sub)sitemap</strong>" option in the sitemap configuration (.config). If this is set, then combinations of detail pages inside the subsite and detail contents outside of it will be rejected as invalid.</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>
