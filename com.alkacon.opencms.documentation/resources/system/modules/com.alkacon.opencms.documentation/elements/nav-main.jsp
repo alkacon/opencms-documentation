@@ -29,6 +29,15 @@
         <ul class="nav-main-items"><%----%>
         <mercury:nl />
 
+<li id="nav-main-addition" aria-expanded="true" class="hidden-lg hidden-xl"><a href="#" title="Search" aria-controls="nav_nav-main-addition" id="label_nav-main-addition">Header links</a>
+				<ul class="nav-menu" id="nav_nav-main-addition" aria-labelledby="label_nav-main-addition">
+					<li><a href="http://www.opencms.org" target="_blank" rel="noopener">OPENCMS.ORG</a></li>
+					<li><a href="http://www.alkacon.com" target="_blank" rel="noopener">ALKACON.COM</a></li>
+					<li><a href="<cms:link>/central/impressum/</cms:link>" target="_blank" rel="noopener">IMPRESSUM</a></li>
+					<li><a href="<cms:link>/central/privacy-policy/</cms:link>" target="_blank" rel="noopener">PRIVACY POLICY</a></li>
+				</ul>
+			</li>
+
         <c:set var="navLength" value="${fn:length(nav.items) - 1}" />
         <c:forEach var="i" begin="0" end="${navLength}" >
 
