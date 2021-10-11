@@ -21,13 +21,17 @@
 
 	<xsd:annotation>
 		<xsd:appinfo>
-			<layouts>
-				<layout element="CustomWidget" widget="com.alkacon.opencms.documentation.examples.contenteditor.nativewidget.ExampleWidget" configuration=""/>
-				<layout element="SameCustomWidget" widget="com.alkacon.opencms.documentation.examples.contenteditor.nativewidget.ExampleWidget" configuration="" display="column"/>
-			</layouts>
-			<defaults>
-				<default element="CustomWidget" value="blubb"/>
-			</defaults>
+			<FieldSettings>
+				<Setting>
+					<Property>CustomWidget</Property>
+					<Widget>com.alkacon.opencms.documentation.examples.contenteditor.nativewidget.ExampleWidget</Widget>
+					<Default>My default value</Default>
+				</Setting>
+				<Setting>
+					<Property>SameCustomWidget</Property>
+					<Widget>com.alkacon.opencms.documentation.examples.contenteditor.nativewidget.ExampleWidget</Widget>
+				</Setting>
+			</FieldSettings>
 		</xsd:appinfo>
 	</xsd:annotation>
 

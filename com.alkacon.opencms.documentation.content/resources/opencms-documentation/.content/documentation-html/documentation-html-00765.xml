@@ -4,7 +4,7 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>To add a new language, say Czech (locale <code>cs</code>), to the spellchecker, you have to add a new field definition to the <code>schema.xml</code> of the spellchecker's Solr core. The <code>schema.xml</code> is found under <code>${WEBAPP_HOME}/WEB-INF/spellcheck/conf/</code>. Just add the new field with the same attributes as the already existing fields, as done in line 22 in the <code>schema.xml</code> shown below.</p>]]></content>
+      <content><![CDATA[<p>To add a new language, say Czech (locale <code>cs</code>), to the spellchecker, you have to add a new field definition to the <code>managed-schema</code> of the spellchecker's Solr core. The <code>managed-schema</code> is found under <code>${WEBAPP_HOME}/WEB-INF/solr/spellcheck/conf/</code>. Just add the new field with the same attributes as the already existing fields, as done in line 17 in the <code>managed-schema</code> shown below.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

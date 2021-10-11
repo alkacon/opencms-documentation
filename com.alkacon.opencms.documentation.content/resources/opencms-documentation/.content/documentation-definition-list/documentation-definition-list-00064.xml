@@ -50,6 +50,23 @@
       </Description>
     </Entry>
     <Entry>
+      <Term><![CDATA[Display formatter type]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/widget-configuration/]]></target>
+            <uuid>a8badf1f-489a-11e4-8008-336f7b60f7b1</uuid>
+            <anchor><![CDATA[sec_display_type_select]]></anchor>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/lists-and-detail-pages/building-lists/lists-with-the-integrated-list-type/]]></target>
+            <uuid>e6d2b7de-3c20-11e9-9d3e-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>If a non-empty value is provided, the formatter is used by the tag <code>&lt;cms:display&gt;</code> by default for resources of that type<span class="footnote">If more than one display formatter is present, the rank is used to select the formatter. Moreover, in the tag, a formatter might be specified explictly, overwriting the default.</span>. Moreover, the formatter is added as option in the <a href="%(link0)">DisplayTypeSelectWidget</a>. Via the widgets configuration option <code>matchTypes</code> the combination of display formatters can be restricted to the ones that have the same display type set here. This is for example used by the <a href="%(link1)">integrated list type</a> and allows you to guarantee mixing only compatible display formatters.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
       <Term><![CDATA[Enabled]]></Term>
       <Description name="Description0">
         <links/>
@@ -93,23 +110,22 @@
       </Description>
     </Entry>
     <Entry>
-      <Term><![CDATA[Show element settings in content editor]]></Term>
-      <Description name="Description0">
-        <links/>
-        <content><![CDATA[<p>If checked, an extra tab is added in the content editor, which allows you to edit the ellement settings there.</p>]]></content>
-      </Description>
-    </Entry>
-    <Entry>
-      <Term><![CDATA[Use as display formatter]]></Term>
+      <Term><![CDATA[Include element settings from display formatters]]></Term>
       <Description name="Description0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/widget-configuration/]]></target>
-            <uuid>a8badf1f-489a-11e4-8008-336f7b60f7b1</uuid>
-            <anchor><![CDATA[sec_display_type_select]]></anchor>
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/element-settings/special-options-for-display-formatters/]]></target>
+            <uuid>b5658b3f-4184-11e9-9d3e-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>If checked, the formatter is used by the tag <code>&lt;cms:display&gt;</code> if no other formatter is specified for the same resource type. Moreover, the formatter is added as option in the <a href="%(link0)">DisplayTypeSelectWidget</a>.</p>]]></content>
+        <content><![CDATA[<p>If checked, element settings of referenced nested formatters are displayed with the settings of this formatter according to the settings configuration. See <a href="%(link0)">here</a> for a detailed description.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[Show element settings in content editor]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>If checked, an extra tab is added in the content editor, which allows you to edit the element settings there.</p>]]></content>
       </Description>
     </Entry>
     <Entry>

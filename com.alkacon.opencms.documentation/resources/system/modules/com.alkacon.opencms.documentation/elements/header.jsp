@@ -38,8 +38,17 @@
 							</div>
 
                             <div class="col col-head-info"><%----%>
-
-                                <mercury:heading level="${7}" ade="false" text="OpenCms Documentation" css="header-title hidden-fixed" />
+								<div class="header-links-bg">
+									<div class="element type-linksequence ls-row header-links no-icon">
+										<ul>
+											<li><a href="http://www.opencms.org" target="_blank" rel="noopener"><span class="ls-item">OPENCMS.ORG</span></a></li>
+											<li><a href="http://www.alkacon.com" target="_blank" rel="noopener"><span class="ls-item">ALKACON.COM</span></a></li>
+											<li><a href="<cms:link>/central/impressum/</cms:link>" target="_blank" rel="noopener"><span class="ls-item">IMPRESSUM</span></a></li>
+											<li><a href="<cms:link>/central/privacy-policy/</cms:link>" target="_blank" rel="noopener"><span class="ls-item">PRIVACY POLICY</span></a></li>
+										</ul>
+									</div>
+								</div>
+                                <mercury:heading level="${7}" ade="false" text="${cms.requestContext.siteRoot.startsWith('/sites/ocee') ? 'Alkacon OCEE Documentation' : 'OpenCms Documentation'}" css="header-title hidden-fixed" />
 								<div class="nav-main-container">
 									<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/nav-main.jsp:b9188568-521a-11e9-98ba-0242ac11002b)"/>
 								</div>

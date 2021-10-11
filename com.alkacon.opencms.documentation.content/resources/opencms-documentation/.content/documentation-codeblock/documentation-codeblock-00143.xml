@@ -5,7 +5,9 @@
     <Code><![CDATA[<tabs>
     <tab element="Title" collapse="false" name="General" />
     <tab element="Author" collapse="false" name="AuthorTab" />
-    <tab element="Availability" collapse="true" name="Availability" />
+    <tab element="Availability" collapse="true" name="Availability">
+        <description>In this tab you can configure release and expiration dates.</description>
+    </tab>
 </tabs>]]></Code>
   </DocumentationCodeBlock>
 </DocumentationCodeBlocks>

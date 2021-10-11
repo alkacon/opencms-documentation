@@ -37,7 +37,23 @@
 					<c:choose>
 						<c:when test="${source.value.Image.isSet}">
 							<c:if test="${showLink}">
-								<div class="documentation-source-link">${source.value.Image.value.Link}</div>
+								<c:set var="link">${source.value.Image.value.Link}</c:set>
+								<c:if test="${empty link}">
+									<%-- Default to the offline link. --%>
+									<c:set var="offlineSource" value="${content.value.Offline}"/>
+									<c:choose>
+									<c:when test="${offlineSource.value.ContentEditor.isSet}">
+										<c:set var="link">${offlineSource.value.ContentEditor}</c:set>
+									</c:when>
+									<c:when test="${offlineSource.value.SitemapEditor.isSet}">
+										<c:set var="link">${offlineSource.value.SitemapEditor}</c:set>
+									</c:when>
+									<c:when test="${offlineSource.value.Explorer.isSet}">
+										<c:set var="link">${offlineSource.value.Explorer}</c:set>
+									</c:when>
+									</c:choose>
+								</c:if>
+								<div class="documentation-source-link">${link}</div>
 							</c:if>
 							<c:if test="${showSource}">
 								<div ${sourceHeight}>

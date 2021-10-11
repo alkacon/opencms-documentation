@@ -119,8 +119,8 @@ writeProperty '/' 'default-file' '##navigation_level_folder##']]></import-script
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>central/videos</source>
-			<destination>central/videos</destination>
+			<source>central/ocee</source>
+			<destination>central/ocee</destination>
 			<type>htmlredirect</type>
 			<uuidstructure>d803ad18-76e7-11e4-b3fd-0242ac11002b</uuidstructure>
 			<uuidresource>d803ad19-76e7-11e4-b3fd-0242ac11002b</uuidresource>
@@ -133,11 +133,11 @@ writeProperty '/' 'default-file' '##navigation_level_folder##']]></import-script
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[Videos]]></value>
+					<value><![CDATA[OCEE]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Link to: http://www.youtube.com/user/Alkacon]]></value>
+					<value><![CDATA[Link to: /sites/ocee-documentation/]]></value>
 				</property>
 				<property>
 					<name>locale-available</name>
@@ -491,6 +491,33 @@ writeProperty '/' 'default-file' '##navigation_level_folder##']]></import-script
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Central navigation]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>central/.content/section-m</destination>
+			<type>folder</type>
+			<uuidstructure>8fede5a6-d3b3-11e9-9b2d-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 10 Sep 2019 10:12:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>central/.content/section-m/cs_00001.xml</source>
+			<destination>central/.content/section-m/cs_00001.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>8ffab6e8-d3b3-11e9-9b2d-0242ac11002b</uuidstructure>
+			<uuidresource>8ffab6e9-d3b3-11e9-9b2d-0242ac11002b</uuidresource>
+			<datecreated>Tue, 10 Sep 2019 10:12:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Welcome to the OpenCms Documentation: Alkacon OCEE]]></value>
 				</property>
 			</properties>
 			<relations/>

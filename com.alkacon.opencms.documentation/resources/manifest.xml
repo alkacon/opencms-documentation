@@ -389,7 +389,7 @@
 				</property>
 				<property>
 					<name>cache</name>
-					<value><![CDATA[uri;user]]></value>
+					<value><![CDATA[uri;user;site]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
@@ -433,6 +433,10 @@
 			<datecreated>Fri, 29 Mar 2019 12:03:53 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[uri;user;site]]></value>
+				</property>
 				<property type="shared">
 					<name>export</name>
 					<value><![CDATA[false]]></value>
@@ -481,7 +485,7 @@
 				</property>
 				<property>
 					<name>cache</name>
-					<value><![CDATA[always]]></value>
+					<value><![CDATA[site]]></value>
 				</property>
 				<property type="shared">
 					<name>export</name>
