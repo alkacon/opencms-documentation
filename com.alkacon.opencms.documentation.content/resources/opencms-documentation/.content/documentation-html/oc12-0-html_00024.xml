@@ -12,10 +12,15 @@
           <target><![CDATA[/sites/default/opencms-documentation/more-opencms-features/json-api/]]></target>
           <uuid>a8e78c49-2687-11ec-b117-0242ac11002b</uuid>
         </link>
+        <link name="link2" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/server-installation/database-settings/]]></target>
+          <uuid>4321ff6e-66d9-11eb-bb58-0242ac11002b</uuid>
+        </link>
       </links>
       <content><![CDATA[<ul>
 <li><a href="%(link0)">New in OpenCms 12.0</a></li>
 <li>Topic about the <a href="%(link1)">JSON-API</a></li>
+<li>Recommendations on <a href="%(link2)">database settings for MySql/MariaDB</a></li>
 </ul>]]></content>
     </Html>
   </DocumentationHtml>
