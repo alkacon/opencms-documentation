@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The list response contains the list configuration and the list result. The list results appear when the&nbsp;<em>content</em>&nbsp;parameter is set to true.</p>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<th>Property</th>
+<th>Description</th>
+<th>JSON Type</th>
+</tr>
+<tr>
+<td colspan="3"><strong>List Configuration</strong></td>
+</tr>
+<tr>
+<td>Category, CategoryFolderFilter, CategoryMode</td>
+<td>Categories configured to restrict the list result.</td>
+<td>String</td>
+</tr>
+<tr>
+<td>SearchFolder</td>
+<td>Folders configured to search contents in.</td>
+<td>Array</td>
+</tr>
+<tr>
+<td>ShowExpired</td>
+<td>Whether to list expired contents.</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>SortOrder</td>
+<td>The configured default list sort order. One of DATE_ASC, DATE_DESC, TITLE_ASC, TITLE_DESC, ORDER_ASC, ORDER_DESC. Can be overwritten with the&nbsp;<em>sort</em>&nbsp;parameter.</td>
+<td>String</td>
+</tr>
+<tr>
+<td>Title</td>
+<td>The internal name of the list.</td>
+<td>String</td>
+</tr>
+<tr>
+<td>TypesToCollect</td>
+<td>Content types configured that shall be collected.</td>
+<td>Array</td>
+</tr>
+<tr>
+<td colspan="3"><strong>List Result</strong></td>
+</tr>
+<tr>
+<td>linkedContents</td>
+<td>Contents that are linked by one of the contents in the result list.</td>
+<td>Object</td>
+</tr>
+<tr>
+<td>listInfo</td>
+<td>Information about the list result.</td>
+<td>Object</td>
+</tr>
+<tr>
+<td>listInfo.numFound</td>
+<td>Total number of list items found.</td>
+<td>Number</td>
+</tr>
+<tr>
+<td>list</td>
+<td>The contents found.</td>
+</tr>
+</tbody>
+</table>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

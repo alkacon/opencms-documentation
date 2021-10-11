@@ -16,20 +16,20 @@
         <ContainerType><![CDATA[documentation-section]]></ContainerType>
       </Types>
     </Match>
-    <Preview>false</Preview>
-    <SearchContent>true</SearchContent>
     <AutoEnabled>true</AutoEnabled>
+    <SearchContent>true</SearchContent>
+    <StrictContainers>true</StrictContainers>
     <Detail>true</Detail>
-    <NestedContainers>false</NestedContainers>
+    <Preview>false</Preview>
     <HeadIncludeCss>
       <CssLink>
-        <link type="WEAK">
+        <link internal="true" type="WEAK">
           <target><![CDATA[/system/modules/com.alkacon.opencms.documentation/resources/highlight-js/styles/default.css]]></target>
           <uuid>3d6be70e-00f0-11e4-aa3f-1305b26fecac</uuid>
         </link>
       </CssLink>
       <CssLink>
-        <link type="WEAK">
+        <link internal="true" type="WEAK">
           <target><![CDATA[/system/modules/com.alkacon.opencms.documentation/resources/stylesheets/linenumbers.css]]></target>
           <uuid>f7470b65-4315-11e4-a380-6725b2578a6f</uuid>
         </link>
@@ -37,13 +37,13 @@
     </HeadIncludeCss>
     <HeadIncludeJs>
       <JavascriptLink>
-        <link type="WEAK">
+        <link internal="true" type="WEAK">
           <target><![CDATA[/system/modules/com.alkacon.opencms.documentation/resources/js/linenumbers.js]]></target>
           <uuid>c2674722-4315-11e4-a380-6725b2578a6f</uuid>
         </link>
       </JavascriptLink>
       <JavascriptLink>
-        <link type="WEAK">
+        <link internal="true" type="WEAK">
           <target><![CDATA[/system/modules/com.alkacon.opencms.documentation/resources/highlight-js/highlight.pack.js]]></target>
           <uuid>29b86a38-00f0-11e4-aa3f-1305b26fecac</uuid>
         </link>

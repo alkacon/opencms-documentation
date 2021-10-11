@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The page type is a tree with two nested types&nbsp;<em>Container</em>&nbsp;and&nbsp;<em>Element</em>.</p>
+<p><em>Page</em>&nbsp;is the root node of the tree model. It may contain one or more&nbsp;<em>Containers</em>.<br /><em>Container</em>&nbsp;is a wrapper for a collection of arbitrary elements in a defined order.<br /><em>Element</em>&nbsp;contains a content with additional formatting settings informing about how to display the content in this specific context.</p>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<th>Property</th>
+<th>Description</th>
+<th>JSON Type</th>
+</tr>
+<tr>
+<td colspan="3"><strong>Page</strong></td>
+</tr>
+<tr>
+<td>containers</td>
+<td>The list of containers the requested page contains.</td>
+<td>List</td>
+</tr>
+<tr>
+<td>linkedContents</td>
+<td><em>linkedContents</em>&nbsp;is the property where all the contents or model groups the requested page links to in its elements are embedded.</td>
+<td>List</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Container</strong></td>
+</tr>
+<tr>
+<td>elements</td>
+<td>The list of elements this container contains.</td>
+<td>List</td>
+</tr>
+<tr>
+<td>isNestedContainer</td>
+<td>Whether this container is a nested container.</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>isRootContainer</td>
+<td>Whether this container is a root level container.</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>name</td>
+<td>The name of this container.</td>
+<td>String</td>
+</tr>
+<tr>
+<td>type</td>
+<td>A comma-separated list of type names that are allowed as children in this container.</td>
+<td>String</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Element</strong></td>
+</tr>
+<tr>
+<td>formatterKey</td>
+<td>Formatter key of this element indicating how the content of this element should be displayed.</td>
+<td>String</td>
+</tr>
+<tr>
+<td>path</td>
+<td>The full path of the content this element links to. The path link is resolved in the&nbsp;<em>linkedContents</em><br />property of the page.</td>
+<td>String</td>
+</tr>
+<tr>
+<td>settings</td>
+<td>Additional styling information for content formatting such as CSS classes, margins or colors.</td>
+<td>Object</td>
+</tr>
+</tbody>
+</table>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

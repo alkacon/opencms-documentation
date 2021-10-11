@@ -1,440 +1,440 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <export>
-    <info>
-        <infoproject>Offline</infoproject>
-        <export_version>10</export_version>
-    </info>
-    <module>
-        <name>com.alkacon.opencms.documentation.editortools</name>
-        <nicename><![CDATA[OpenCms Documenation Administration]]></nicename>
-        <group>OpenCms Documentation</group>
-        <class/>
-        <site>/sites/default</site>
-        <export-mode name="reduced"/>
-        <description><![CDATA[Provides tools and extra contents to be used by editors]]></description>
-        <version>12.0.0</version>
-        <authorname><![CDATA[Alkacon Software GmbH]]></authorname>
-        <authoremail><![CDATA[sales@alkacon.com]]></authoremail>
-        <datecreated/>
-        <userinstalled/>
-        <dateinstalled/>
-        <dependencies>
-            <dependency name="com.alkacon.opencms.documentation" version="12.0.0"/>
-        </dependencies>
-        <exportpoints/>
-        <resources>
-            <resource uri="/system/modules/com.alkacon.opencms.documentation.editortools/"/>
-            <resource uri="/system/workplace/resources/filetypes/auto-correct-xml.png"/>
-            <resource uri="/system/workplace/resources/filetypes/auto-correct-xml_big.png"/>
-        </resources>
-        <excluderesources/>
-        <parameters/>
-        <resourcetypes>
-            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="auto-correct-xml" id="20297">
-                <param name="schema">/system/modules/com.alkacon.opencms.documentation.editortools/schemas/auto-correct-xml.xsd</param>
-            </type>
-        </resourcetypes>
-        <explorertypes>
-            <explorertype name="auto-correct-xml" key="fileicon.auto-correct-xml" icon="auto-correct-xml.png" bigicon="auto-correct-xml_big.png" reference="xmlcontent">
-                <newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="desc.auto-correct-xml" key="title.auto-correct-xml"/>
-            </explorertype>
-        </explorertypes>
-    </module>
-    <files>
-        <file>
-            <destination>system</destination>
-            <type>folder</type>
-            <properties/>
-        </file>
-        <file>
-            <destination>system/modules</destination>
-            <type>folder</type>
-            <properties/>
-        </file>
-        <file>
-            <destination>system/modules/com.alkacon.opencms.documentation.editortools</destination>
-            <type>folder</type>
-            <uuidstructure>d49f3f87-2d2a-11e4-93f4-d144f6bb3566</uuidstructure>
-            <datecreated>Tue, 26 Aug 2014 14:11:10 GMT</datecreated>
-            <flags>0</flags>
-            <properties/>
-            <relations/>
-            <accesscontrol/>
-        </file>
-        <file>
-            <destination>system/modules/com.alkacon.opencms.documentation.editortools/formatters</destination>
-            <type>folder</type>
-            <uuidstructure>d4a2c1fb-2d2a-11e4-93f4-d144f6bb3566</uuidstructure>
-            <datecreated>Tue, 26 Aug 2014 14:11:10 GMT</datecreated>
-            <flags>0</flags>
-            <properties/>
-            <relations/>
-            <accesscontrol/>
-        </file>
-        <file>
-            <source>system/modules/com.alkacon.opencms.documentation.editortools/formatters/auto-correct-xml-formatter-config.xml</source>
-            <destination>system/modules/com.alkacon.opencms.documentation.editortools/formatters/auto-correct-xml-formatter-config.xml</destination>
-            <type>formatter_config</type>
-            <uuidstructure>734f7666-0746-11e4-9ef6-1305b26fecac</uuidstructure>
-            <uuidresource>734f7667-0746-11e4-9ef6-1305b26fecac</uuidresource>
-            <datecreated>Wed, 09 Jul 2014 08:53:09 GMT</datecreated>
-            <flags>0</flags>
-            <properties>
-                <property>
-                    <name>Title</name>
-                    <value><![CDATA[Sample formatter for Auto-Correct XML Contents]]></value>
-                </property>
-                <property>
-                    <name>locale</name>
-                    <value><![CDATA[en]]></value>
-                </property>
-                <property>
-                    <name>locale-available</name>
-                    <value><![CDATA[en]]></value>
-                </property>
-                <property>
-                    <name>search.exclude</name>
-                    <value><![CDATA[all]]></value>
-                </property>
-            </properties>
-            <relations/>
-            <accesscontrol/>
-        </file>
-        <file>
-            <source>system/modules/com.alkacon.opencms.documentation.editortools/formatters/auto-correct-xml-formatter.jsp</source>
-            <destination>system/modules/com.alkacon.opencms.documentation.editortools/formatters/auto-correct-xml-formatter.jsp</destination>
-            <type>jsp</type>
-            <uuidstructure>734982f3-0746-11e4-9ef6-1305b26fecac</uuidstructure>
-            <uuidresource>734982f4-0746-11e4-9ef6-1305b26fecac</uuidresource>
-            <datecreated>Wed, 09 Jul 2014 08:53:09 GMT</datecreated>
-            <flags>0</flags>
-            <properties>
-                <property>
-                    <name>cache</name>
-                    <value><![CDATA[container-element]]></value>
-                </property>
-                <property type="shared">
-                    <name>export</name>
-                    <value><![CDATA[false]]></value>
-                </property>
-            </properties>
-            <relations/>
-            <accesscontrol/>
-        </file>
-        <file>
-            <destination>system/modules/com.alkacon.opencms.documentation.editortools/formatters/dynamically-loaded</destination>
-            <type>folder</type>
-            <uuidstructure>95ebcf55-38b6-11e4-9abe-d144f6bb3566</uuidstructure>
-            <datecreated>Wed, 10 Sep 2014 06:49:17 GMT</datecreated>
-            <flags>0</flags>
-            <properties>
-                <property>
-                    <name>Title</name>
-                    <value><![CDATA[JSPs dynamically loaded by formatters]]></value>
-                </property>
-            </properties>
-            <relations/>
-            <accesscontrol/>
-        </file>
-        <file>
-            <source>system/modules/com.alkacon.opencms.documentation.editortools/formatters/dynamically-loaded/executeAutoCorrectContent.jsp</source>
-            <destination>system/modules/com.alkacon.opencms.documentation.editortools/formatters/dynamically-loaded/executeAutoCorrectContent.jsp</destination>
-            <type>jsp</type>
-            <uuidstructure>af826878-38b6-11e4-9abe-d144f6bb3566</uuidstructure>
-            <uuidresource>af826879-38b6-11e4-9abe-d144f6bb3566</uuidresource>
-            <datecreated>Wed, 10 Sep 2014 06:50:00 GMT</datecreated>
-            <flags>0</flags>
-            <properties>
-                <property>
-                    <name>Title</name>
-                    <value><![CDATA[Execute auto correction]]></value>
-                </property>
-                <property>
-                    <name>cache</name>
-                    <value><![CDATA[never]]></value>
-                </property>
-                <property type="shared">
-                    <name>export</name>
-                    <value><![CDATA[false]]></value>
-                </property>
-            </properties>
-            <relations/>
-            <accesscontrol/>
-        </file>
-        <file>
-            <source>system/modules/com.alkacon.opencms.documentation.editortools/formatters/dynamically-loaded/executeDeleteContent.jsp</source>
-            <destination>system/modules/com.alkacon.opencms.documentation.editortools/formatters/dynamically-loaded/executeDeleteContent.jsp</destination>
-            <type>jsp</type>
-            <uuidstructure>57b48ac6-4328-11e4-a380-6725b2578a6f</uuidstructure>
-            <uuidresource>57b48ac7-4328-11e4-a380-6725b2578a6f</uuidresource>
-            <datecreated>Tue, 23 Sep 2014 13:48:47 GMT</datecreated>
-            <flags>0</flags>
-            <properties>
-                <property>
-                    <name>Title</name>
-                    <value><![CDATA[Execute delete content]]></value>
-                </property>
-                <property>
-                    <name>cache</name>
-                    <value><![CDATA[never]]></value>
-                </property>
-                <property type="shared">
-                    <name>export</name>
-                    <value><![CDATA[false]]></value>
-                </property>
-            </properties>
-            <relations/>
-            <accesscontrol/>
-        </file>
-        <file>
-            <destination>system/modules/com.alkacon.opencms.documentation.editortools/functions</destination>
-            <type>folder</type>
-            <uuidstructure>cf6dc1fc-2db3-11e4-a7dc-d144f6bb3566</uuidstructure>
-            <datecreated>Wed, 27 Aug 2014 06:31:43 GMT</datecreated>
-            <flags>0</flags>
-            <properties/>
-            <relations/>
-            <accesscontrol/>
-        </file>
-        <file>
-            <source>system/modules/com.alkacon.opencms.documentation.editortools/functions/image-reviewer.jsp</source>
-            <destination>system/modules/com.alkacon.opencms.documentation.editortools/functions/image-reviewer.jsp</destination>
-            <type>jsp</type>
-            <uuidstructure>b99e4e87-31c7-11e4-8511-d144f6bb3566</uuidstructure>
-            <uuidresource>b99e4e88-31c7-11e4-8511-d144f6bb3566</uuidresource>
-            <datecreated>Mon, 01 Sep 2014 11:04:21 GMT</datecreated>
-            <flags>0</flags>
-            <properties>
-                <property>
-                    <name>Title</name>
-                    <value><![CDATA[Function provider for checking if images are correct for the current OpenCms version.]]></value>
-                </property>
-                <property>
-                    <name>cache</name>
-                    <value><![CDATA[never]]></value>
-                </property>
-                <property type="shared">
-                    <name>export</name>
-                    <value><![CDATA[false]]></value>
-                </property>
-            </properties>
-            <relations/>
-            <accesscontrol/>
-        </file>
-        <file>
-            <source>system/modules/com.alkacon.opencms.documentation.editortools/functions/image-reviewer.xml</source>
-            <destination>system/modules/com.alkacon.opencms.documentation.editortools/functions/image-reviewer.xml</destination>
-            <type>function</type>
-            <uuidstructure>9d388fd4-31c7-11e4-8511-d144f6bb3566</uuidstructure>
-            <uuidresource>9d388fd5-31c7-11e4-8511-d144f6bb3566</uuidresource>
-            <datecreated>Mon, 01 Sep 2014 11:03:33 GMT</datecreated>
-            <flags>0</flags>
-            <properties>
-                <property>
-                    <name>Description</name>
-                    <value><![CDATA[Collect all images that are not marked up-to-date for an OpenCms version.]]></value>
-                </property>
-                <property>
-                    <name>Title</name>
-                    <value><![CDATA[Image review]]></value>
-                </property>
-            </properties>
-            <relations/>
-            <accesscontrol/>
-        </file>
-        <file>
-            <source>system/modules/com.alkacon.opencms.documentation.editortools/functions/todo-grabber.jsp</source>
-            <destination>system/modules/com.alkacon.opencms.documentation.editortools/functions/todo-grabber.jsp</destination>
-            <type>jsp</type>
-            <uuidstructure>ea1f8f1e-2db3-11e4-a7dc-d144f6bb3566</uuidstructure>
-            <uuidresource>ea1f8f1f-2db3-11e4-a7dc-d144f6bb3566</uuidresource>
-            <datecreated>Wed, 27 Aug 2014 06:32:27 GMT</datecreated>
-            <flags>0</flags>
-            <properties>
-                <property>
-                    <name>Title</name>
-                    <value><![CDATA[Grab Todos of Topics and Sections]]></value>
-                </property>
-                <property>
-                    <name>cache</name>
-                    <value><![CDATA[never]]></value>
-                </property>
-                <property type="shared">
-                    <name>export</name>
-                    <value><![CDATA[false]]></value>
-                </property>
-            </properties>
-            <relations/>
-            <accesscontrol/>
-        </file>
-        <file>
-            <source>system/modules/com.alkacon.opencms.documentation.editortools/functions/todo-grabber.xml</source>
-            <destination>system/modules/com.alkacon.opencms.documentation.editortools/functions/todo-grabber.xml</destination>
-            <type>function</type>
-            <uuidstructure>06e19ea2-2db4-11e4-a7dc-d144f6bb3566</uuidstructure>
-            <uuidresource>06e19ea3-2db4-11e4-a7dc-d144f6bb3566</uuidresource>
-            <datecreated>Wed, 27 Aug 2014 06:33:16 GMT</datecreated>
-            <flags>0</flags>
-            <properties>
-                <property>
-                    <name>Description</name>
-                    <value><![CDATA[Grab Todos of Topics and Sections]]></value>
-                </property>
-                <property>
-                    <name>Title</name>
-                    <value><![CDATA[Todo Grabber]]></value>
-                </property>
-            </properties>
-            <relations/>
-            <accesscontrol/>
-        </file>
-        <file>
-            <destination>system/modules/com.alkacon.opencms.documentation.editortools/functions/dynamically-loaded</destination>
-            <type>folder</type>
-            <uuidstructure>c0e3f3fd-31df-11e4-8511-d144f6bb3566</uuidstructure>
-            <datecreated>Mon, 01 Sep 2014 13:56:21 GMT</datecreated>
-            <flags>0</flags>
-            <properties>
-                <property>
-                    <name>Title</name>
-                    <value><![CDATA[JSPs that provide functionalities dynamically loaded from functions via AJAX]]></value>
-                </property>
-            </properties>
-            <relations/>
-            <accesscontrol/>
-        </file>
-        <file>
-            <source>system/modules/com.alkacon.opencms.documentation.editortools/functions/dynamically-loaded/update-version.jsp</source>
-            <destination>system/modules/com.alkacon.opencms.documentation.editortools/functions/dynamically-loaded/update-version.jsp</destination>
-            <type>jsp</type>
-            <uuidstructure>e070e350-31df-11e4-8511-d144f6bb3566</uuidstructure>
-            <uuidresource>e070e351-31df-11e4-8511-d144f6bb3566</uuidresource>
-            <datecreated>Mon, 01 Sep 2014 13:57:14 GMT</datecreated>
-            <flags>0</flags>
-            <properties>
-                <property>
-                    <name>Title</name>
-                    <value><![CDATA[Updates the OpenCmsVersion element of a documentation-figure]]></value>
-                </property>
-                <property type="shared">
-                    <name>export</name>
-                    <value><![CDATA[false]]></value>
-                </property>
-            </properties>
-            <relations/>
-            <accesscontrol/>
-        </file>
-        <file>
-            <destination>system/modules/com.alkacon.opencms.documentation.editortools/i18n</destination>
-            <type>folder</type>
-            <uuidstructure>3c21712f-3824-11e4-825e-d144f6bb3566</uuidstructure>
-            <datecreated>Tue, 09 Sep 2014 13:21:40 GMT</datecreated>
-            <flags>0</flags>
-            <properties/>
-            <relations/>
-            <accesscontrol/>
-        </file>
-        <file>
-            <source>system/modules/com.alkacon.opencms.documentation.editortools/i18n/com.alkacon.opencms.documentation.editortools.workplace</source>
-            <destination>system/modules/com.alkacon.opencms.documentation.editortools/i18n/com.alkacon.opencms.documentation.editortools.workplace</destination>
-            <type>xmlvfsbundle</type>
-            <uuidstructure>7344a0f0-0746-11e4-9ef6-1305b26fecac</uuidstructure>
-            <uuidresource>7344a0f1-0746-11e4-9ef6-1305b26fecac</uuidresource>
-            <datecreated>Wed, 09 Jul 2014 08:53:09 GMT</datecreated>
-            <flags>0</flags>
-            <properties>
-                <property>
-                    <name>search.exclude</name>
-                    <value><![CDATA[all]]></value>
-                </property>
-            </properties>
-            <relations/>
-            <accesscontrol/>
-        </file>
-        <file>
-            <destination>system/modules/com.alkacon.opencms.documentation.editortools/schemas</destination>
-            <type>folder</type>
-            <uuidstructure>d4a3fa7d-2d2a-11e4-93f4-d144f6bb3566</uuidstructure>
-            <datecreated>Tue, 26 Aug 2014 14:11:10 GMT</datecreated>
-            <flags>0</flags>
-            <properties/>
-            <relations/>
-            <accesscontrol/>
-        </file>
-        <file>
-            <source>system/modules/com.alkacon.opencms.documentation.editortools/schemas/auto-correct-xml.xsd</source>
-            <destination>system/modules/com.alkacon.opencms.documentation.editortools/schemas/auto-correct-xml.xsd</destination>
-            <type>plain</type>
-            <uuidstructure>733bc743-0746-11e4-9ef6-1305b26fecac</uuidstructure>
-            <uuidresource>733bc744-0746-11e4-9ef6-1305b26fecac</uuidresource>
-            <datecreated>Wed, 09 Jul 2014 08:53:09 GMT</datecreated>
-            <flags>0</flags>
-            <properties>
-                <property>
-                    <name>Title</name>
-                    <value><![CDATA[Sample resource type schema]]></value>
-                </property>
-            </properties>
-            <relations/>
-            <accesscontrol/>
-        </file>
-        <file>
-            <destination>system/workplace</destination>
-            <type>folder</type>
-            <properties/>
-        </file>
-        <file>
-            <destination>system/workplace/resources</destination>
-            <type>folder</type>
-            <properties/>
-        </file>
-        <file>
-            <destination>system/workplace/resources/filetypes</destination>
-            <type>folder</type>
-            <properties/>
-        </file>
-        <file>
-            <source>system/workplace/resources/filetypes/auto-correct-xml.png</source>
-            <destination>system/workplace/resources/filetypes/auto-correct-xml.png</destination>
-            <type>image</type>
-            <uuidstructure>733e8666-0746-11e4-9ef6-1305b26fecac</uuidstructure>
-            <uuidresource>733e8667-0746-11e4-9ef6-1305b26fecac</uuidresource>
-            <datecreated>Wed, 09 Jul 2014 08:53:09 GMT</datecreated>
-            <flags>0</flags>
-            <properties>
-                <property>
-                    <name>Title</name>
-                    <value><![CDATA[sample-icon]]></value>
-                </property>
-                <property type="shared">
-                    <name>image.size</name>
-                    <value><![CDATA[w:16,h:16]]></value>
-                </property>
-            </properties>
-            <relations/>
-            <accesscontrol/>
-        </file>
-        <file>
-            <source>system/workplace/resources/filetypes/auto-correct-xml_big.png</source>
-            <destination>system/workplace/resources/filetypes/auto-correct-xml_big.png</destination>
-            <type>image</type>
-            <uuidstructure>7340a94a-0746-11e4-9ef6-1305b26fecac</uuidstructure>
-            <uuidresource>7340a94b-0746-11e4-9ef6-1305b26fecac</uuidresource>
-            <datecreated>Wed, 09 Jul 2014 08:53:09 GMT</datecreated>
-            <flags>0</flags>
-            <properties>
-                <property>
-                    <name>Title</name>
-                    <value><![CDATA[sample-icon_big]]></value>
-                </property>
-                <property type="shared">
-                    <name>image.size</name>
-                    <value><![CDATA[w:24,h:24]]></value>
-                </property>
-            </properties>
-            <relations/>
-            <accesscontrol/>
-        </file>
-    </files>
+	<info>
+		<infoproject>Offline</infoproject>
+		<export_version>10</export_version>
+	</info>
+	<module>
+		<name>com.alkacon.opencms.documentation.editortools</name>
+		<nicename><![CDATA[OpenCms Documenation Administration]]></nicename>
+		<group>OpenCms Documentation</group>
+		<class/>
+		<site>/sites/default</site>
+		<export-mode name="reduced"/>
+		<description><![CDATA[Provides tools and extra contents to be used by editors]]></description>
+		<version>12.0.0</version>
+		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
+		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
+		<datecreated/>
+		<userinstalled/>
+		<dateinstalled/>
+		<dependencies>
+			<dependency name="com.alkacon.opencms.documentation" version="12.0.0"/>
+		</dependencies>
+		<exportpoints/>
+		<resources>
+			<resource uri="/system/modules/com.alkacon.opencms.documentation.editortools/"/>
+			<resource uri="/system/workplace/resources/filetypes/auto-correct-xml.png"/>
+			<resource uri="/system/workplace/resources/filetypes/auto-correct-xml_big.png"/>
+		</resources>
+		<excluderesources/>
+		<parameters/>
+		<resourcetypes>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="auto-correct-xml" id="20297">
+				<param name="schema">/system/modules/com.alkacon.opencms.documentation.editortools/schemas/auto-correct-xml.xsd</param>
+			</type>
+		</resourcetypes>
+		<explorertypes>
+			<explorertype name="auto-correct-xml" key="fileicon.auto-correct-xml" icon="auto-correct-xml.png" bigicon="auto-correct-xml_big.png" reference="xmlcontent">
+				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="desc.auto-correct-xml" key="title.auto-correct-xml"/>
+			</explorertype>
+		</explorertypes>
+	</module>
+	<files>
+		<file>
+			<destination>system</destination>
+			<type>folder</type>
+			<properties/>
+		</file>
+		<file>
+			<destination>system/modules</destination>
+			<type>folder</type>
+			<properties/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation.editortools</destination>
+			<type>folder</type>
+			<uuidstructure>d49f3f87-2d2a-11e4-93f4-d144f6bb3566</uuidstructure>
+			<datecreated>Tue, 26 Aug 2014 14:11:10 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation.editortools/formatters</destination>
+			<type>folder</type>
+			<uuidstructure>d4a2c1fb-2d2a-11e4-93f4-d144f6bb3566</uuidstructure>
+			<datecreated>Tue, 26 Aug 2014 14:11:10 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation.editortools/formatters/auto-correct-xml-formatter-config.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation.editortools/formatters/auto-correct-xml-formatter-config.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>734f7666-0746-11e4-9ef6-1305b26fecac</uuidstructure>
+			<uuidresource>734f7667-0746-11e4-9ef6-1305b26fecac</uuidresource>
+			<datecreated>Wed, 09 Jul 2014 08:53:09 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Sample formatter for Auto-Correct XML Contents]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation.editortools/formatters/auto-correct-xml-formatter.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation.editortools/formatters/auto-correct-xml-formatter.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>734982f3-0746-11e4-9ef6-1305b26fecac</uuidstructure>
+			<uuidresource>734982f4-0746-11e4-9ef6-1305b26fecac</uuidresource>
+			<datecreated>Wed, 09 Jul 2014 08:53:09 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation.editortools/formatters/dynamically-loaded</destination>
+			<type>folder</type>
+			<uuidstructure>95ebcf55-38b6-11e4-9abe-d144f6bb3566</uuidstructure>
+			<datecreated>Wed, 10 Sep 2014 06:49:17 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[JSPs dynamically loaded by formatters]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation.editortools/formatters/dynamically-loaded/executeAutoCorrectContent.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation.editortools/formatters/dynamically-loaded/executeAutoCorrectContent.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>af826878-38b6-11e4-9abe-d144f6bb3566</uuidstructure>
+			<uuidresource>af826879-38b6-11e4-9abe-d144f6bb3566</uuidresource>
+			<datecreated>Wed, 10 Sep 2014 06:50:00 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Execute auto correction]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[never]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation.editortools/formatters/dynamically-loaded/executeDeleteContent.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation.editortools/formatters/dynamically-loaded/executeDeleteContent.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>57b48ac6-4328-11e4-a380-6725b2578a6f</uuidstructure>
+			<uuidresource>57b48ac7-4328-11e4-a380-6725b2578a6f</uuidresource>
+			<datecreated>Tue, 23 Sep 2014 13:48:47 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Execute delete content]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[never]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation.editortools/functions</destination>
+			<type>folder</type>
+			<uuidstructure>cf6dc1fc-2db3-11e4-a7dc-d144f6bb3566</uuidstructure>
+			<datecreated>Wed, 27 Aug 2014 06:31:43 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation.editortools/functions/image-reviewer.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation.editortools/functions/image-reviewer.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>b99e4e87-31c7-11e4-8511-d144f6bb3566</uuidstructure>
+			<uuidresource>b99e4e88-31c7-11e4-8511-d144f6bb3566</uuidresource>
+			<datecreated>Mon, 01 Sep 2014 11:04:21 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Function provider for checking if images are correct for the current OpenCms version.]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[never]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation.editortools/functions/image-reviewer.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation.editortools/functions/image-reviewer.xml</destination>
+			<type>function</type>
+			<uuidstructure>9d388fd4-31c7-11e4-8511-d144f6bb3566</uuidstructure>
+			<uuidresource>9d388fd5-31c7-11e4-8511-d144f6bb3566</uuidresource>
+			<datecreated>Mon, 01 Sep 2014 11:03:33 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Collect all images that are not marked up-to-date for an OpenCms version.]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Image review]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation.editortools/functions/todo-grabber.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation.editortools/functions/todo-grabber.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>ea1f8f1e-2db3-11e4-a7dc-d144f6bb3566</uuidstructure>
+			<uuidresource>ea1f8f1f-2db3-11e4-a7dc-d144f6bb3566</uuidresource>
+			<datecreated>Wed, 27 Aug 2014 06:32:27 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Grab Todos of Topics and Sections]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[never]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation.editortools/functions/todo-grabber.xml</source>
+			<destination>system/modules/com.alkacon.opencms.documentation.editortools/functions/todo-grabber.xml</destination>
+			<type>function</type>
+			<uuidstructure>06e19ea2-2db4-11e4-a7dc-d144f6bb3566</uuidstructure>
+			<uuidresource>06e19ea3-2db4-11e4-a7dc-d144f6bb3566</uuidresource>
+			<datecreated>Wed, 27 Aug 2014 06:33:16 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Grab Todos of Topics and Sections]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Todo Grabber]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation.editortools/functions/dynamically-loaded</destination>
+			<type>folder</type>
+			<uuidstructure>c0e3f3fd-31df-11e4-8511-d144f6bb3566</uuidstructure>
+			<datecreated>Mon, 01 Sep 2014 13:56:21 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[JSPs that provide functionalities dynamically loaded from functions via AJAX]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation.editortools/functions/dynamically-loaded/update-version.jsp</source>
+			<destination>system/modules/com.alkacon.opencms.documentation.editortools/functions/dynamically-loaded/update-version.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>e070e350-31df-11e4-8511-d144f6bb3566</uuidstructure>
+			<uuidresource>e070e351-31df-11e4-8511-d144f6bb3566</uuidresource>
+			<datecreated>Mon, 01 Sep 2014 13:57:14 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Updates the OpenCmsVersion element of a documentation-figure]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation.editortools/i18n</destination>
+			<type>folder</type>
+			<uuidstructure>3c21712f-3824-11e4-825e-d144f6bb3566</uuidstructure>
+			<datecreated>Tue, 09 Sep 2014 13:21:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation.editortools/i18n/com.alkacon.opencms.documentation.editortools.workplace</source>
+			<destination>system/modules/com.alkacon.opencms.documentation.editortools/i18n/com.alkacon.opencms.documentation.editortools.workplace</destination>
+			<type>xmlvfsbundle</type>
+			<uuidstructure>7344a0f0-0746-11e4-9ef6-1305b26fecac</uuidstructure>
+			<uuidresource>7344a0f1-0746-11e4-9ef6-1305b26fecac</uuidresource>
+			<datecreated>Wed, 09 Jul 2014 08:53:09 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.alkacon.opencms.documentation.editortools/schemas</destination>
+			<type>folder</type>
+			<uuidstructure>d4a3fa7d-2d2a-11e4-93f4-d144f6bb3566</uuidstructure>
+			<datecreated>Tue, 26 Aug 2014 14:11:10 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.alkacon.opencms.documentation.editortools/schemas/auto-correct-xml.xsd</source>
+			<destination>system/modules/com.alkacon.opencms.documentation.editortools/schemas/auto-correct-xml.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>733bc743-0746-11e4-9ef6-1305b26fecac</uuidstructure>
+			<uuidresource>733bc744-0746-11e4-9ef6-1305b26fecac</uuidresource>
+			<datecreated>Wed, 09 Jul 2014 08:53:09 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Sample resource type schema]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/workplace</destination>
+			<type>folder</type>
+			<properties/>
+		</file>
+		<file>
+			<destination>system/workplace/resources</destination>
+			<type>folder</type>
+			<properties/>
+		</file>
+		<file>
+			<destination>system/workplace/resources/filetypes</destination>
+			<type>folder</type>
+			<properties/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/auto-correct-xml.png</source>
+			<destination>system/workplace/resources/filetypes/auto-correct-xml.png</destination>
+			<type>image</type>
+			<uuidstructure>733e8666-0746-11e4-9ef6-1305b26fecac</uuidstructure>
+			<uuidresource>733e8667-0746-11e4-9ef6-1305b26fecac</uuidresource>
+			<datecreated>Wed, 09 Jul 2014 08:53:09 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[sample-icon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/workplace/resources/filetypes/auto-correct-xml_big.png</source>
+			<destination>system/workplace/resources/filetypes/auto-correct-xml_big.png</destination>
+			<type>image</type>
+			<uuidstructure>7340a94a-0746-11e4-9ef6-1305b26fecac</uuidstructure>
+			<uuidresource>7340a94b-0746-11e4-9ef6-1305b26fecac</uuidresource>
+			<datecreated>Wed, 09 Jul 2014 08:53:09 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[sample-icon_big]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+	</files>
 </export>

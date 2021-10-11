@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
+  <DocumentationCodeBlock language="en">
+    <Code><![CDATA[{
+  "Category": "",
+  "CategoryFolderFilter": [],
+  "CategoryMode": "OR",
+  "SearchFolder": [
+    {
+      "link": "https://my-def-demo.alkacon.com/mercury-demo/.content/article-m/",
+      "path": "/sites/default/mercury-demo/.content/article-m/" 
+    }
+  ],
+  "ShowExpired": true,
+  "SortOrder": "DATE_DESC",
+  "Title": "Basic Blog List (with elaborate teasers)",
+  "TypesToCollect": [
+    "m-article:m/display/article-elaborate" 
+  ],
+  "linkedContents": {},
+  "list": [
+    {
+      [Resource Wrapper]
+      [Content]
+    },
+    {
+      [Resource Wrapper]
+      [Content]
+    }
+  ],
+  "listInfo": {
+    "numFound": 76
+  }
+}]]></Code>
+  </DocumentationCodeBlock>
+</DocumentationCodeBlocks>

@@ -16,11 +16,11 @@
         <ContainerType><![CDATA[demo-content]]></ContainerType>
       </Types>
     </Match>
-    <Preview>false</Preview>
-    <SearchContent>true</SearchContent>
     <AutoEnabled>true</AutoEnabled>
+    <SearchContent>true</SearchContent>
+    <StrictContainers>true</StrictContainers>
     <Detail>false</Detail>
-    <NestedContainers>true</NestedContainers>
+    <Preview>false</Preview>
     <HeadIncludeCss>
       <CssInline><![CDATA[div.big-colored-border {
     border-style: solid;

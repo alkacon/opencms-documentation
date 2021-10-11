@@ -16,14 +16,14 @@
         <ContainerType><![CDATA[documentation-section]]></ContainerType>
       </Types>
     </Match>
-    <Preview>false</Preview>
-    <SearchContent>true</SearchContent>
     <AutoEnabled>true</AutoEnabled>
+    <SearchContent>true</SearchContent>
+    <StrictContainers>true</StrictContainers>
     <Detail>true</Detail>
-    <NestedContainers>false</NestedContainers>
+    <Preview>false</Preview>
     <HeadIncludeCss>
       <CssLink>
-        <link type="WEAK">
+        <link internal="true" type="WEAK">
           <target><![CDATA[/system/modules/com.alkacon.opencms.documentation/resources/stylesheets/definition-list-table.css]]></target>
           <uuid>f0e05043-26c6-11e4-be78-49dbf0abad32</uuid>
         </link>

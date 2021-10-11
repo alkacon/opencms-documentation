@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<table style="border-collapse: collapse; width: 100%; height: 471px; border-color: gray;" border="1">
+<tbody>
+<tr style="height: 28px;">
+<th style="height: 28px; width: 119.672px;">Parameter</th>
+<th style="height: 28px; width: 344.047px;">Description</th>
+<th style="height: 28px; width: 397.266px;">Default</th>
+</tr>
+<tr style="height: 53px;">
+<td style="height: 53px; width: 119.672px;">include</td>
+<td style="height: 53px; width: 344.047px;">Access is granted only for resources matching the given regular expression.</td>
+<td style="height: 53px; width: 397.266px;">Access is granted for all resources if&nbsp;<em>include</em>&nbsp;is not present.</td>
+</tr>
+<tr style="height: 53px;">
+<td style="height: 53px; width: 119.672px;">exclude</td>
+<td style="height: 53px; width: 344.047px;">Access is denied for resources matching the given regular expression.</td>
+<td style="height: 53px; width: 397.266px;">Access is granted for all resources if&nbsp;<em>exclude</em>&nbsp;is not present.</td>
+</tr>
+<tr style="height: 103px;">
+<td style="height: 103px; width: 119.672px;">property-filter</td>
+<td style="height: 103px; width: 344.047px;">Property access is denied for properties matching the given regular expression.</td>
+<td style="height: 103px; width: 397.266px;">Access is granted for all properties except for property names containing "secret", "api", "password", and "key" if&nbsp;<em>property-filter</em>&nbsp;is not present</td>
+</tr>
+<tr style="height: 78px;">
+<td style="height: 78px; width: 119.672px;">cors/allow-origin</td>
+<td style="height: 78px; width: 344.047px;">For each JSON response, the HTTP response header&nbsp;<em>Access-Control-Allow-Origin</em>&nbsp;with the given value is set.</td>
+<td style="height: 78px; width: 397.266px;">The HTTP response header is * if&nbsp;<em>allow-origin</em>&nbsp;is not present.</td>
+</tr>
+<tr style="height: 78px;">
+<td style="height: 78px; width: 119.672px;">cors/allow-methods</td>
+<td style="height: 78px; width: 344.047px;">For each JSON response, the HTTP response header&nbsp;<em>Access-Control-Allow-Methods</em>&nbsp;with the given value is set.</td>
+<td style="height: 78px; width: 397.266px;">The HTTP response header is * if&nbsp;<em>allow-methods</em>&nbsp;is not present.</td>
+</tr>
+<tr style="height: 78px;">
+<td style="height: 78px; width: 119.672px;">cors/allow-headers</td>
+<td style="height: 78px; width: 344.047px;">For each JSON response, the HTTP response header&nbsp;<em>Access-Control-Allow-Headers</em>&nbsp;with the given value is set.</td>
+<td style="height: 78px; width: 397.266px;">The HTTP response header is * if&nbsp;<em>allow-headers</em>&nbsp;is not present.</td>
+</tr>
+</tbody>
+</table>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

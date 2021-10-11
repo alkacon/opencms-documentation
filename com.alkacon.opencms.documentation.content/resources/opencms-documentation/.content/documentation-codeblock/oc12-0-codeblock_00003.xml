@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
+  <DocumentationCodeBlock language="en">
+    <Code><![CDATA[<json-access>
+    <include>/path1.*</include>
+    <include>/path2.*</include>
+    <exclude>/path1.*</exclude>
+    <exclude>/path2.*</exclude>
+    <property-filter>(?i)^(?!.*(?:secret|api|password|key)).*$</property-filter>
+    <cors>
+        <allow-origin>*</allow-origin>
+        <allow-methods>*</allow-methods>
+        <allow-headers>*</allow-headers>
+    </cors>
+</json-access>]]></Code>
+  </DocumentationCodeBlock>
+</DocumentationCodeBlocks>

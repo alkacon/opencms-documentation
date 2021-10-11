@@ -16,11 +16,11 @@
         <ContainerType><![CDATA[documentation-content]]></ContainerType>
       </Types>
     </Match>
-    <Preview>false</Preview>
-    <SearchContent>true</SearchContent>
     <AutoEnabled>true</AutoEnabled>
+    <SearchContent>true</SearchContent>
+    <StrictContainers>true</StrictContainers>
     <Detail>true</Detail>
-    <NestedContainers>true</NestedContainers>
+    <Preview>false</Preview>
     <Setting>
       <PropertyName><![CDATA[level]]></PropertyName>
       <DisplayName><![CDATA[Nesting level of the section]]></DisplayName>

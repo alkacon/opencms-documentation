@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<th>Parameters</th>
+<th>Default Value</th>
+<th>Description</th>
+<th>Dependency</th>
+</tr>
+<tr>
+<td>[none]</td>
+<td>&nbsp;</td>
+<td>Returns a directory&nbsp;<em>listing</em>&nbsp;with all child directories and child files contained in {folder}.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>?levels={number}</td>
+<td>1</td>
+<td>For a given number of&nbsp;<em>levels</em>, returns a nested directory&nbsp;<em>tree</em>&nbsp;with all child directories and child files contained in {folder}.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>?content={boolean}</td>
+<td>false</td>
+<td>If set to true, embeds all XML contents inside the folder listing or the folder tree.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>?locale={locale}</td>
+<td>[not set]</td>
+<td>If set, embeds all XML contents but only the localized parts of the contents selected by {locale}.</td>
+<td><em>content</em></td>
+</tr>
+<tr>
+<td>?fallbackLocale={boolean}</td>
+<td>false</td>
+<td>If set to true, falls back to another locale if the selected locale does not exist.</td>
+<td><em>locale</em></td>
+</tr>
+<tr>
+<td>?wrapper={boolean}</td>
+<td>false if locale or path is set, true otherwise</td>
+<td>If set, overwrites the default value.</td>
+</tr>
+</tbody>
+</table>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

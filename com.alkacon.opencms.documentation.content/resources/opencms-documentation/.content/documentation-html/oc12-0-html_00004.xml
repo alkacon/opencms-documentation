@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>OpenCms stores binary data such as gallery images in its database tables. MySQL's and MariaDB's default <code>max_allowed_packet</code> setting is chosen too conservatively for OpenCms. You MUST increase this value so that images and other binary files can be saved.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

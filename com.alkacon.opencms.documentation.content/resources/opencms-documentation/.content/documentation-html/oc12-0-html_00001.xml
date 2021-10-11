@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>The following settings are only relevant when using MySQL/MariaDB with InnoDB as the storage engine for the OpenCms tables. Prior to OpenCms 12, the tables would be automatically created with MyISAM as the storage engine, but from OpenCms 12 onward, no storage engine is specified, so the default storage engine is used, which is usually InnoDB.</p>
+<p>For more detailed information about these settings, refer to the MySQL or MariaDB documentation.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>
