@@ -1,4 +1,4 @@
-function addClickHandlers() {
+function addClickHandlers($) {
     var docButton = $('a.documentation-change-view')
     docButton.click(function(){
         $.get(docButton.data('documentation-change-view-url'), function() {
@@ -7,7 +7,7 @@ function addClickHandlers() {
     });
 }
 
-mercury.ready(function() {
+mercury.ready(function($) {
     $(".scroll-left").scrollLeft();
-    addClickHandlers();
+    addClickHandlers($);
 });
