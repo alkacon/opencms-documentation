@@ -8,7 +8,8 @@
           <target><![CDATA[https://logging.apache.org/log4j/2.x/download.html]]></target>
         </link>
       </links>
-      <content><![CDATA[<p>In your <code>{TOMCAT_HOME}/WEB-INF/lib/</code> folder, replace the currently used Log4j libraries</p>
+      <content><![CDATA[<p>Stop OpenCms.</p>
+<p>In your <code>{TOMCAT_HOME}/WEB-INF/lib/</code> folder, replace the currently used Log4j libraries</p>
 <pre>log4j-api-2.x.x.jar
 log4j-core-2.x.x.jar
 log4j-jcl-2.x.x.jar
@@ -18,7 +19,9 @@ log4j-slf4j-impl-2.x.x.jar
 <pre>log4j-api-2.16.0.jar
 log4j-core-2.16.0.jar
 log4j-jcl-2.16.0.jar
-log4j-slf4j-impl-2.16.0.jar</pre>]]></content>
+log4j-slf4j-impl-2.16.0.jar</pre>
+<p>(At least Log4j version 2.16 is required.)</p>
+<p>Start OpenCms.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>

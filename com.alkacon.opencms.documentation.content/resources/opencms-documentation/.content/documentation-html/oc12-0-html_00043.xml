@@ -4,10 +4,11 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>Almost all Log4j 2 versions were affected, starting with version 2.0 through 2.14.1.</p>
-<p>Log4j of version 1 does not have the issue.</p>
-<p>As a result, OpenCms versions &lt;= 10.5.x are not affected since they integrate a Log4j library of version 1.</p>
-<p class="alert alert-warning"><strong>For OpenCms versions &gt; 10.5.x it is absolutely necessary to replace the Log4j Java libraries with a newer version.</strong></p>]]></content>
+      <content><![CDATA[<p>Almost all Log4j versions are affected.</p>
+<p>Log4j of <strong>version 2</strong> is vulnerable starting with version 2.0 through 2.14.1.</p>
+<p>Log4j of <strong>version 1</strong> is not vulnerable by default but is if a JMS appender is configured.</p>
+<p>OpenCms 11 and newer integrates Log4j 2 and is thus vulnerable.</p>
+<p>OpenCms 10.5.x and older integrates Log4j 1 and is thus not vulnerable by default.</p>]]></content>
     </Html>
   </DocumentationHtml>
 </DocumentationHtmls>
