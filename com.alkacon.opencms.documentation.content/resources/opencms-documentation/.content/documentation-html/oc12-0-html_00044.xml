@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[https://logging.apache.org/log4j/2.x/download.html]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>In your <code>{TOMCAT_HOME}/WEB-INF/lib/</code> folder, replace the currently used Log4j libraries</p>
+<pre>log4j-api-2.x.x.jar
+log4j-core-2.x.x.jar
+log4j-jcl-2.x.x.jar
+log4j-slf4j-impl-2.x.x.jar
+</pre>
+<p>with the most recent ones from <a href="%(link0)">https://logging.apache.org/log4j/2.x/download.html</a></p>
+<pre>log4j-api-2.16.0.jar
+log4j-core-2.16.0.jar
+log4j-jcl-2.16.0.jar
+log4j-slf4j-impl-2.16.0.jar</pre>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Almost all Log4j 2 versions were affected, starting with version 2.0 through 2.14.1.</p>
+<p>Log4j of version 1 does not have the issue.</p>
+<p>As a result, OpenCms versions &lt;= 10.5.x are not affected since they integrate a Log4j library of version 1.</p>
+<p class="alert alert-warning"><strong>For OpenCms versions &gt; 10.5.x it is absolutely necessary to replace the Log4j Java libraries with a newer version.</strong></p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>
