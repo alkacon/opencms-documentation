@@ -152,11 +152,12 @@
                     <cms:container name="documentation-${containerName}-container" type="documentation-${containerName}" width="1350" detailview="true">
                             <div class="container-box box-special"><h2>${isOverview ? 'Put overview rows here.' : 'Put section contents here.'}</h2></div>
                     </cms:container>
+					<%--
                     <c:if test="${wikilink == 'true'}">
                     	<!-- Link to wiki for comments and suggestions plus hint to mailing list -->
                     	<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/wiki-link.jsp:74887459-814e-11e5-93bb-0242ac11002b)" />
 					</c:if>
-
+					--%>
                 </div>
             </div>
         </c:otherwise>

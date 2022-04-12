@@ -38,5 +38,19 @@
 <div class="alert alert-info">Usually, instancedate and instancedatecurrenttill may be the same, but you may have events where instancedate holds the start time and instancedatecurrenttill the end time of the event. The reason: You may have a list, showing the next 10 events and you want to show "running" events in it as well.</div>]]></content>
       </Description>
     </Entry>
+    <Entry>
+      <Term><![CDATA[instancedaterange_{locale}_dr]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Alternative field for <code>instancedate_{locale}_dt</code>, which was introduced especially for longer lasting events that span more than one day. If you search for all events that take place at a certain day, it is sometimes interesting to retrieve all events <strong>starting</strong> at this certain day; in other situations you want to retrieve all events starting or <strong>still running</strong> at a day. With <code>instancedaterange_{locale}_dr</code> filtering and also facetting by date ranges is possible.</p>]]></content>
+      </Description>
+    </Entry>
+    <Entry>
+      <Term><![CDATA[geocoords_loc]]></Term>
+      <Description name="Description0">
+        <links/>
+        <content><![CDATA[<p>Default field used for distance searching. If a content has no Geo coordinates set, the default coordinates <code>0.000000,0.000000</code> are used.</p>]]></content>
+      </Description>
+    </Entry>
   </DocumentationDefinitionList>
 </DocumentationDefinitionLists>

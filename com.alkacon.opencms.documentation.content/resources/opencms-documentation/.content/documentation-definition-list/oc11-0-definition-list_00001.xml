@@ -103,10 +103,7 @@
       <Term><![CDATA[Search]]></Term>
       <Description name="Description0">
         <links>
-          <link name="link0" internal="false" type="A">
-            <target><![CDATA[https://github.com/alkacon/opencms-core/blob/branch_11_0_x/src/org/opencms/xml/content/simple-searchsetting-configs.st]]></target>
-          </link>
-          <link name="link1" internal="true" type="A">
+          <link name="link0" internal="true" type="A">
             <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/search-settings/]]></target>
             <uuid>bb7a2160-65a5-11e4-9296-005056b61161</uuid>
           </link>
@@ -115,9 +112,9 @@
 <ul>
 <li><code>true</code> The field should be included in the content fields of the indexed document. This is default.</li>
 <li><code>false</code> The field should not be included in the content fields of the indexed document.</li>
-<li><code>listdate</code>, <code>listorder</code>, <code>listtitle</code> Shortcuts for some specialized search setting configurations. See <a href="%(link0)">src/org/opencms/xml/content/simple-searchsetting-configs.st</a> in the opencms-core project for the standard search setting configuration.</li>
+<li><code>listdate</code>, <code>listorder</code>, <code>listtitle</code>, <code>listgeocoords</code> Shortcuts for some specialized search setting configurations.</li>
 </ul>
-<p>This option covers most use cases, but not all the options available via the <code>&lt;searchsettings&gt;</code> configuration. For more details about this options and the <code>&lt;searchsettings&gt;</code> node, see <a href="%(link1)">here</a>.</p>]]></content>
+<p>This option covers most use cases, but not all the options available via the <code>&lt;searchsettings&gt;</code> configuration. For more details about this options and the <code>&lt;searchsettings&gt;</code> node, see <a href="%(link0)">here</a>.</p>]]></content>
       </Description>
     </Entry>
     <Entry>

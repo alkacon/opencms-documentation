@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/element-settings/common-element-settings/]]></target>
+          <uuid>0164bac7-f8a9-11e8-9605-0242ac11002b</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>Regarding template variants, <em>Element setting defaults</em>&nbsp;are the equivalent of <em>Sitemap master configurations</em> on the level of formatters:</p>
+<ul>
+<li>you define the configurable aspects of a whole template with a <em>Sitemap master configuration</em> and you can reuse master configurations in sites</li>
+<li><strong>you define the configurable aspects of content formatters with <em>Element setting defaults</em>&nbsp;and you can share <em>Element setting defaults</em>&nbsp;between content formatters</strong></li>
+</ul>
+<p><em>Element setting defaults</em> are a helpful tool. Although different contents such as sections, FAQs, events, or contact information express different structures and semantics, they all follow a uniform design when displayed on a page. <em>Element setting defaults</em> help to reach a unique display for diverse content types.</p>
+<p>Read more about the technical background of <em>Shared element settings</em>&nbsp;<a href="%(link0)">here</a>.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

@@ -53,5 +53,18 @@
         <content><![CDATA[<p>Use this setting for elements holding (title) strings. The elements value is indexed in the field <code>disptitle_{locale}_sort</code>, which is a special field supporting alphabetical sorting. It is used for sorting by title when using the <a href="%(link0)">integrated list</a>. Moreover, the elements value is added to the content fields.</p>]]></content>
       </Description>
     </Entry>
+    <Entry>
+      <Term><![CDATA[listgeocoords]]></Term>
+      <Description name="Description0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/defining-a-content-type/defining-the-contents-behavior/adjusting-the-contents-appearance-in-the-content-editor/widget-configuration/]]></target>
+            <uuid>a8badf1f-489a-11e4-8008-336f7b60f7b1</uuid>
+            <anchor><![CDATA[location-picker-widget]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Use this setting for elements holding Geo coordinates. The element's value must be either in the form <code>{latitude},{longitude}</code> or it must be the JSON value of the <a href="%(link0)">Location picker widget</a>. The value is indexed in the field <code>geocoords_loc</code>, which is a special field for Geo queries.</p>]]></content>
+      </Description>
+    </Entry>
   </DocumentationDefinitionList>
 </DocumentationDefinitionLists>

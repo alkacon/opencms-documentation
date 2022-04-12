@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>In order to restrict the contents provided in the <em><strong>Add content dialog</strong></em> for a site, proceed as follows:</p>
+<ul>
+<li>open your <em><strong>Sitemap master configuration</strong></em> in the editor and go to the <em><strong>Restrictions</strong></em> tab</li>
+<li>add a new <em style="font-size: 1.4rem;"><strong>Restriction</strong></em><span style="font-size: 1.4rem;"> to the list by at first selecting a content type</span></li>
+<li><span style="font-size: 1.4rem;">select a content by entering the VFS path of the content that should appear in the <em><strong>Add content dialog</strong></em> for this content type</span></li>
+<li><span style="font-size: 1.4rem;">optionally: enter a new name for the selected content</span></li>
+</ul>
+<div class="alert alert-info"><span style="font-size: 1.4rem;">As soon as one restriction is added to the list, <strong>all contents of a specific content type that would normally appear in the <em>Add content dialog</em> are disabled</strong>. <strong>Only the manually selected contents from the restriction list are still available</strong>.</span></div>
+<p>The figure below shows a Mercury Sitemap master configuration where the list of available layout rows is restricted to <code>Row 1 column (12 - full)</code>. Since no other layout row is available any more, the title of the row is changed to <code>Full row</code>.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links/>
+      <content><![CDATA[<p>Please note the difference between <em>Setup connection</em> and <em>OpenCms connection:</em></p>
+<p>The setup connection, as the name suggests, is only used during setup, or more precicely, to initially create the database tables and the database schema for OpenCms. The setup connection needs full permissions for the database. The credentials are not persisted anywhere but discarded after setup completion.</p>
+<p>The <em>OpenCms connection</em> is used for all database operations during livetime of your OpenCms installation, e.g., to read and write content data or to import modules. This connection does not need full permissions for the configured database but only read and write permissions.</p>
+<p>The <em>OpenCms connection</em> is persisted in the <code>opencms.properties</code> file to be found in the Tomcat directory <code>{CATALINA_HOME}/webapps/&lt;OPENCMS&gt;/config/</code>.</p>
+<p>If you later want to change your database connection settings, you can do this in the <code>opencms.properties</code> file.</p>
+<p>The database setting options in the dialog slightly differs depending on which database product is selected.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>

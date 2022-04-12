@@ -15,6 +15,7 @@
 <li><strong>String fields</strong>: String fields are different than text fields. For string fields, the original values are not processed and you will match the field only if you exactly match the original string. In the OpenCms schema, we have the field <code>parent-folders</code> of type string. This specific field holds all parent folders of a resource. You typically filter by the fields value with <code>fq=parent-folders:"/sites/default/sub-folder/"</code>. Note that for string fields you need really exact values and quotes around them.</li>
 <li><strong>Date fields</strong>: Here you can store dates and have special query options - for example a range query like <code>fq=lastmodified:[NOW-1DAY TO NOW]</code>.</li>
 <li><strong>Numeric fields</strong>: Here you can store numbers. For different types of numbers, different fields types are declared. On numeric fields you can do range queries as well, or have specific sort behavior.</li>
+<li><strong>Spatial fields</strong>: Here you can store Geo coordinates to realize distance searches like returning all point of interest contents that are within a radius of 10 kilometers of a reference point.</li>
 </ul>
 <p>Except of indexing behavior and field type, you specify how many values a field can hold:</p>
 <ul>

@@ -4,10 +4,10 @@
   <DocumentationHtml language="en">
     <Html name="Html0">
       <links/>
-      <content><![CDATA[<p>This following&nbsp; assumes that in your JSPs, you include the penCms tag library as follows:</p>
+      <content><![CDATA[<p>This following&nbsp; assumes that in your JSPs, you include the OpenCms tag library as follows:</p>
 <p><code>&lt;%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms"%&gt;</code></p>
 <p>&nbsp;</p>
-<p>When the URL of an incoming request contains the request parameter "<code>__json=true</code>", JSON conversion is activated for this request. This means that instead of rendering the page normally, OpenCms produces JSON output that contains selected sections of the page's HTML as JSON values.</p>
+<p>When the URL of an incoming request contains the request parameter "<code>__json=true</code>", JSON conversion is activated for this request. This means that instead of rendering the page by default, OpenCms produces JSON output that contains selected sections of the page's HTML as JSON values.</p>
 <p>The <code>&lt;cms;jsonpart&gt;</code> tag can be used to control which parts of the JSP output should be used as JSON values, and the <code>element</code> attribute of the tag is used to control the JSON key for the value produced from the tag's body.</p>
 <p><br />For example, the output of the JSP code:</p>
 <p>&nbsp;</p>

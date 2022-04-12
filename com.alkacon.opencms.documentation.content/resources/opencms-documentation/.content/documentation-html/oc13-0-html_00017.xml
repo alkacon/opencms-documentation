@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationHtmls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd">
+  <DocumentationHtml language="en">
+    <Html name="Html0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/]]></target>
+          <uuid>c0625fc8-1bcf-11e4-bfa5-b7bfd6088c56</uuid>
+        </link>
+        <link name="link1" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/content-in-opencms/formatters-and-their-configuration/element-settings/]]></target>
+          <uuid>9b6e3354-4007-11e9-9d3e-0242ac11002b</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p><strong>Element settings define the configurable aspects of a <a href="%(link0)">content formatter</a></strong>.</p>
+<p>An HTML section formatter, for example, might sometimes display an image left of the text and sometimes on the right.</p>
+<p>The option to display an image on the left or on the right is a typical element setting.</p>
+<p>Note that element settings are stored per content ocurrence on a page. This means, even if one and the same content occurs multiple times on one page, each content on this page can store its own element settings.</p>
+<p>Element settings are explained in more detail <a href="%(link1)">here</a>.</p>
+<p>The following figure shows the element settings as available for Mercury's <em>Text and image</em> formatter that renders a Mercury <em>section content</em>.</p>]]></content>
+    </Html>
+  </DocumentationHtml>
+</DocumentationHtmls>
