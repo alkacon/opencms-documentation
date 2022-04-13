@@ -4,11 +4,20 @@
   <AlkaconDocumentationTopicFrame language="en">
     <Overview name="Overview0">
       <links/>
-      <content><![CDATA[<p>Please edit this overview. And do not forget to adjust the meta-data.</p>]]></content>
+      <content><![CDATA[<p>With <em>Site plugins,</em> it is possible to extend a template with site-specific frontend functionality.</p>
+<p>Typical examples of frontend functionality that you might want to add with a plugin are:</p>
+<ul>
+<li>Screen readers for content accessibility</li>
+<li>Embed codes for analytics services</li>
+<li>Cookie consent management widgets</li>
+<li>...</li>
+</ul>
+<p>Typically, such frontend functionality needs some JavaScript resources, CSS resources, and sometimes an additional HTML fragment.</p>
+<p><em>Site plugins</em> are an elegant way to add such frontend resources.</p>]]></content>
     </Overview>
     <Teaser name="Teaser0">
       <links/>
-      <content><![CDATA[<p>Add individual JavaScript and CSS resources to sites.</p>]]></content>
+      <content><![CDATA[<p>Extend a template with site-specific frontend functionality.</p>]]></content>
     </Teaser>
     <Keywords/>
     <InterestingFor><![CDATA[b_opencmsAdmin,c_developer]]></InterestingFor>

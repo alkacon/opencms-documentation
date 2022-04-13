@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
+  <DocumentationCodeBlock language="en">
+    <Code><![CDATA[<c:set var="plugins" value="${cms.plugins['jsp']}" />
+<c:forEach var="plugin" items="${plugins}">
+    <cms:include file="${plugin.path}" />
+</c:forEach>
+<c:set var="plugins" value="${cms.plugins['css']}" />
+<c:forEach var="plugin" items="${plugins}">
+    <link href="${plugin.link}" rel="stylesheet">
+</c:forEach>
+<c:set var="plugins" value="${cms.plugins['js-defer']}" />
+<c:forEach var="plugin" items="${plugins}">
+    <script defer src="${plugin.link}"></script>
+</c:forEach>
+<c:set var="plugins" value="${cms.plugins['js-async']}" />
+<c:forEach var="plugin" items="${plugins}">
+    <script async src="${plugin.link}"></script>
+</c:forEach>]]></Code>
+  </DocumentationCodeBlock>
+</DocumentationCodeBlocks>
