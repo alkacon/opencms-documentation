@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/section.xsd">
+  <ContentSection language="en">
+    <Title><![CDATA[Interesting EL Expressions]]></Title>
+    <Text name="Text0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/typical-tasks/writing-jsps/the-opencms-taglib-cms/]]></target>
+          <uuid>8a0dd6e2-579e-11e5-ac6d-0242ac11002b</uuid>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspStandardContextBean.html]]></target>
+        </link>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspStandardContextBean.html]]></target>
+        </link>
+        <link name="link3" internal="true" type="A">
+          <target><![CDATA[/sites/default/opencms-documentation/typical-tasks/writing-jsps/overview-java-beans-for-el/]]></target>
+          <uuid>b4420486-57c4-11e5-ac6d-0242ac11002b</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>OpenCms comes with several Java beans to provide access to OpenCms-specific functionality in JSPs. In general, if required, an object of each bean could be made available separately in a JSP. Also several tags of the <a href="%(link0)"><code>&lt;cms:&gt;</code>-taglib</a> initialize and expose objects of such beans.</p>
+<p>Since OpenCms 9.0.1 the variable <code>cms</code> is present in the page scope for each JSP. It makes an object of type&nbsp;<a href="%(link1)"><code>org.opencms.jsp.util.CmsJspStandardContextBean</code></a> available. The object provides a convenient way to access the most important OpenCms functions via JSTL/EL. Thus, in most cases no bean at all has to be included and initialized manually, and also formerly required use of scriptlet code becomes obsolete.</p>
+<p>The standard context bean has a very rich interface. In particular, access to several other Java beans shipped with OpenCms is granted. A complete overview of the functionality exposed via the standard context bean can be looked up in the JavaDoc. Look up the documentation of the class <a href="%(link2)"><code>CmsJspStandardContextBean</code></a>. Starting there, you can easily explore the interfaces of all other beans accessible via the standard context bean as well. If you are aware of the naming conventions for Java Beans, you can obtain an overview of the properties available in EL.</p>
+<p>Another starting point to get an overview is <a href="%(link3)">this documentation page</a>, only listing interesting beans and how to obtain an object of that bean.</p>
+<p>Here, we describe only the most important Java beans shipped with OpenCms. We do not aim for completeness when describing the properties of the beans. We also do not cover all beans. In particular, we exclude beans for content access, since they are handled when formatters are explained.</p>]]></content>
+    </Text>
+  </ContentSection>
+</ContentSectionData>
