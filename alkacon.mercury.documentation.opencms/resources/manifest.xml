@@ -2663,10 +2663,102 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>system/modules/alkacon.mercury.documentation.opencms/plugins</destination>
+			<type>folder</type>
+			<uuidstructure>3d9f34fd-c567-11ec-a595-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 26 Apr 2022 13:46:14 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/alkacon.mercury.documentation.opencms/plugins/highlightjs.jsp</source>
+			<destination>system/modules/alkacon.mercury.documentation.opencms/plugins/highlightjs.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>e054d79e-c568-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>e054d79f-c568-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 13:57:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/alkacon.mercury.documentation.opencms/plugins/highlightjs.xml</source>
+			<destination>system/modules/alkacon.mercury.documentation.opencms/plugins/highlightjs.xml</destination>
+			<type>site_plugin</type>
+			<uuidstructure>52f53e40-c567-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>52f53e41-c567-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 13:46:50 GMT</datecreated>
+			<flags>512</flags>
+			<properties>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>system/modules/alkacon.mercury.documentation.opencms/resources</destination>
 			<type>folder</type>
 			<uuidstructure>9128a1a3-c48b-11ec-a595-0242ac11002b</uuidstructure>
 			<datecreated>Mon, 25 Apr 2022 11:33:45 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/alkacon.mercury.documentation.opencms/resources/highlight-js</destination>
+			<type>folder</type>
+			<uuidstructure>65ee881f-c566-11ec-a595-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 26 Apr 2022 13:40:12 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/alkacon.mercury.documentation.opencms/resources/highlight-js/highlight.pack.js</source>
+			<destination>system/modules/alkacon.mercury.documentation.opencms/resources/highlight-js/highlight.pack.js</destination>
+			<type>plain</type>
+			<uuidstructure>66b35ec6-c566-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>66b35ec7-c566-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 13:40:14 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/alkacon.mercury.documentation.opencms/resources/highlight-js/styles</destination>
+			<type>folder</type>
+			<uuidstructure>66128ae2-c566-11ec-a595-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 26 Apr 2022 13:40:13 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/alkacon.mercury.documentation.opencms/resources/highlight-js/styles/default.css</source>
+			<destination>system/modules/alkacon.mercury.documentation.opencms/resources/highlight-js/styles/default.css</destination>
+			<type>plain</type>
+			<uuidstructure>66cbc8c9-c566-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>66cbc8ca-c566-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 13:40:14 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>

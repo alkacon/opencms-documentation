@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SitePlugins xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/site_plugin.xsd">
+  <SitePlugin language="en">
+    <NiceName><![CDATA[Highlight.js Plugin]]></NiceName>
+    <Description><![CDATA[Plugin adding all highlight.js CSS and JavaScript resources to a Mercury site.]]></Description>
+    <Plugin>
+      <Group><![CDATA[css]]></Group>
+      <Target>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/system/modules/com.alkacon.opencms.documentation/resources/highlight-js/styles/default.css]]></target>
+          <uuid>3d6be70e-00f0-11e4-aa3f-1305b26fecac</uuid>
+        </link>
+      </Target>
+    </Plugin>
+    <Plugin>
+      <Group><![CDATA[js-async]]></Group>
+      <Target>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/system/modules/com.alkacon.opencms.documentation/resources/highlight-js/highlight.pack.js]]></target>
+          <uuid>29b86a38-00f0-11e4-aa3f-1305b26fecac</uuid>
+        </link>
+      </Target>
+    </Plugin>
+    <Plugin>
+      <Group><![CDATA[template-head-includes]]></Group>
+      <Target>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/system/modules/alkacon.mercury.documentation.opencms/plugins/highlightjs.jsp]]></target>
+          <uuid>e054d79e-c568-11ec-a595-0242ac11002b</uuid>
+        </link>
+      </Target>
+    </Plugin>
+  </SitePlugin>
+</SitePlugins>

@@ -40,5 +40,13 @@
         </link>
       </AddFormatter>
     </AddFormatters>
+    <AddPlugins>
+      <Plugin>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/alkacon.mercury.documentation.opencms/plugins/highlightjs.xml]]></target>
+          <uuid>52f53e40-c567-11ec-a595-0242ac11002b</uuid>
+        </link>
+      </Plugin>
+    </AddPlugins>
   </SitemapMasterConfiguration>
 </SitemapMasterConfigurations>
