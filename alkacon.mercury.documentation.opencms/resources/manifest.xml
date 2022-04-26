@@ -183,6 +183,16 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>sites/mercury-opencms-documentation/.content/imageseries-m</destination>
+			<type>folder</type>
+			<uuidstructure>e515a971-c545-11ec-a595-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 26 Apr 2022 09:47:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>sites/mercury-opencms-documentation/.content/linksequence-m</destination>
 			<type>folder</type>
 			<uuidstructure>18f2f848-c48a-11ec-a595-0242ac11002b</uuidstructure>
@@ -221,23 +231,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[The Page Editor: Related Links]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/mercury-opencms-documentation/.content/linksequence-m/ls_00003.xml</source>
-			<destination>sites/mercury-opencms-documentation/.content/linksequence-m/ls_00003.xml</destination>
-			<type>m-linksequence</type>
-			<uuidstructure>96c4485c-c4a0-11ec-a595-0242ac11002b</uuidstructure>
-			<uuidresource>96c4485d-c4a0-11ec-a595-0242ac11002b</uuidresource>
-			<datecreated>Mon, 25 Apr 2022 14:04:14 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[The Page Editor: Available Options]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -304,6 +297,31 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Footer for the OpenCms Documentation]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.content/modelgroup/modelgroup-00003.html</source>
+			<destination>sites/mercury-opencms-documentation/.content/modelgroup/modelgroup-00003.html</destination>
+			<type>modelgroup</type>
+			<uuidstructure>f778cfe7-c553-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>f778cfe8-c553-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 11:28:16 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[The  side navi]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Side Navigation]]></value>
 				</property>
 				<property>
 					<name>search.exclude</name>
@@ -448,7 +466,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[The Page Editor: The editor's toolbar options]]></value>
+					<value><![CDATA[The Page Editor: The toolbar icons]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -489,12 +507,1460 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>sites/mercury-opencms-documentation/.content/section-m/cs_00009.xml</source>
+			<destination>sites/mercury-opencms-documentation/.content/section-m/cs_00009.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>2b483e14-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>2b483e15-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:49:30 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The Page Editor: Publish]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.content/section-m/cs_00010.xml</source>
+			<destination>sites/mercury-opencms-documentation/.content/section-m/cs_00010.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>88f557f0-c548-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>88f557f1-c548-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 10:06:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The Page Editor: Clipboard]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.content/section-m/cs_00012.xml</source>
+			<destination>sites/mercury-opencms-documentation/.content/section-m/cs_00012.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>05f9969d-c563-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>05f9969e-c563-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 13:16:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The Page Editor: Add Content]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.content/section-m/cs_00013.xml</source>
+			<destination>sites/mercury-opencms-documentation/.content/section-m/cs_00013.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>35d52d9b-c563-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>35d52d9c-c563-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 13:17:23 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The Page Editor: Galleries]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>sites/mercury-opencms-documentation/.galleries</destination>
 			<type>folder</type>
 			<uuidstructure>eb4a9b4d-c49c-11ec-a595-0242ac11002b</uuidstructure>
 			<datecreated>Mon, 25 Apr 2022 13:37:58 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big</destination>
+			<type>imagegallery</type>
+			<uuidstructure>94054a78-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Documentation: Icons (big)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/addBigIconActive.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/addBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>9406f82b-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>9406f82c-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[addBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/addBigIconDeactivated.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/addBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>94087ecf-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>94087ed0-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[addBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/backBigIconDeactivated.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/backBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>940a0573-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>940a0574-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[backBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/brokenLinkBigIcon.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/brokenLinkBigIcon.png</destination>
+			<type>image</type>
+			<uuidstructure>940bb327-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>940bb328-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[brokenLinkBigIcon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/checkmark.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/checkmark.png</destination>
+			<type>image</type>
+			<uuidstructure>940d60db-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>940d60dc-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[checkmark]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/clipboardBigIconActive.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/clipboardBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>940f359f-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>940f35a0-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[clipboardBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/clipboardBigIconDeactivated.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/clipboardBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>94110a63-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>94110a64-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[clipboardBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/copyLocaleBigIconActive.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/copyLocaleBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>9412b817-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>9412b818-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[copyLocaleBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/copyLocaleBigIconDeactivated.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/copyLocaleBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>941465cb-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>941465cc-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[copyLocaleBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/deleteBigIconActive.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/deleteBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>9415ec6f-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>9415ec70-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[deleteBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/deleteBigIconDeactivated.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/deleteBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>94177313-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>94177314-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[deleteBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/deleteLocaleBigIconActive.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/deleteLocaleBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>941920c7-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>941920c8-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[deleteLocaleBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/editBigIconActive.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/editBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>941ace7b-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>941ace7c-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[editBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/editBigIconDeactivated.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/editBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>941ca33f-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>941ca340-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[editBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/elementsBigIcon.svg</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/elementsBigIcon.svg</destination>
+			<type>image</type>
+			<uuidstructure>941e7803-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>941e7804-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[elementsBigIcon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/elementsBigIconChanged.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/elementsBigIconChanged.png</destination>
+			<type>image</type>
+			<uuidstructure>942025b7-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>942025b8-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[elementsBigIconChanged]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/filetypeNavlevel.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/filetypeNavlevel.png</destination>
+			<type>image</type>
+			<uuidstructure>9421ac5b-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>9421ac5c-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[filetypeNavlevel]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/galleryBigIcon.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/galleryBigIcon.png</destination>
+			<type>image</type>
+			<uuidstructure>94235a0f-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>94235a10-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[galleryBigIcon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/gotoBigIconDeactivated.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/gotoBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>9424e0b3-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>9424e0b4-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[gotoBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/gotoPageBigIconActive.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/gotoPageBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>94268e67-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>94268e68-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[gotoPageBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/gotoParentBigIconActive.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/gotoParentBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>94283c1b-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>94283c1c-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[gotoParentBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/gotoParentBigIconDeactivated.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/gotoParentBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>9429c2bf-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>9429c2c0-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[gotoParentBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/gotoSubSitemapBigIconActive.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/gotoSubSitemapBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>942b9783-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>942b9784-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[gotoSubSitemapBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/invPropertyBigIconActive.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/invPropertyBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>942cf717-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>942cf718-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[invPropertyBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/invPropertyBigIconDeactivated.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/invPropertyBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>942ef2eb-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>942ef2ec-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[invPropertyBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/menuBigIconActive.svg</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/menuBigIconActive.svg</destination>
+			<type>image</type>
+			<uuidstructure>94302b6f-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>94302b70-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[menuBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/menuBigIconDeactivated.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/menuBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>9431d923-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>9431d924-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[menuBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/moveBigIconActive.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/moveBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>94335fc7-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>94335fc8-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[moveBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/moveBigIconDeactivated.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/moveBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>94350d7b-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>94350d7c-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[moveBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/pinboard.svg</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/pinboard.svg</destination>
+			<type>image</type>
+			<uuidstructure>9436941f-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>94369420-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[pinboard]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/propertyBigIconActive.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/propertyBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>943841d3-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>943841d4-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[propertyBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/propertyBigIconDeactivated.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/propertyBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>943a1697-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>943a1698-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[propertyBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/publishBigIconActive.svg</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/publishBigIconActive.svg</destination>
+			<type>image</type>
+			<uuidstructure>943bc44b-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>943bc44c-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[publishBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/publishBigIconDeactivated.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/publishBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>943d71ff-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>943d7200-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[publishBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/QuickLaunch.svg</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/QuickLaunch.svg</destination>
+			<type>image</type>
+			<uuidstructure>943f1fb3-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>943f1fb4-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Quick Launch]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/redoBigIconActive.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/redoBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>9440cd67-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>9440cd68-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[redoBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/redoBigIconDeactivated.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/redoBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>9442540b-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>9442540c-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[redoBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/removeBigIconActive.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/removeBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>9443daaf-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>9443dab0-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[removeBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/removeBigIconDeactivated.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/removeBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>94456153-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>94456154-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[removeBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/resetBigIconActive.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/resetBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>94470f07-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>94470f08-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[resetBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/resetBigIconDeactivated.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/resetBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>9448bcbb-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>9448bcbc-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[resetBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/saveBigIconActive.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/saveBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>944a6a6f-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>944a6a70-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[saveBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/saveBigIconDeactivated.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/saveBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>944bca03-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>944bca04-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[saveBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/saveExitBigIconActive.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/saveExitBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>944d77b7-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>944d77b8-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[saveExitBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/saveExitBigIconDeactivated.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/saveExitBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>944efe5b-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>944efe5c-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[saveExitBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/searchBigIconActive.svg</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/searchBigIconActive.svg</destination>
+			<type>image</type>
+			<uuidstructure>945084ff-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>94508500-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[searchBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/searchBigIconDeactivated.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/searchBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>94520ba3-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>94520ba4-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[searchBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/selectionBigIconActive.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/selectionBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>9453b957-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>9453b958-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[selectionBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/selectionBigIconDeactivated.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/selectionBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>94558e1b-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>94558e1c-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[selectionBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/showSmallElementsBigIconActive.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/showSmallElementsBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>94573bcf-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>94573bd0-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[showSmallElementsBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/showSmallElementsBigIconDeactivated.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/showSmallElementsBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>9458c173-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>9458c174-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[showSmallElementsBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/sitemapBigIconActive.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/sitemapBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>945a4817-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>945a4818-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[sitemapBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/sitemapBigIconDeactivated.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/sitemapBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>945bf5cb-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>945bf5cc-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[sitemapBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/stateExportBigIcon.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/stateExportBigIcon.png</destination>
+			<type>image</type>
+			<uuidstructure>945d7c6f-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>945d7c70-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[stateExportBigIcon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/stateHiddenBigIcon.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/stateHiddenBigIcon.png</destination>
+			<type>image</type>
+			<uuidstructure>945f2a23-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>945f2a24-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[stateHiddenBigIcon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/stateNormalBigIcon.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/stateNormalBigIcon.png</destination>
+			<type>image</type>
+			<uuidstructure>9460b0c7-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>9460b0c8-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[stateNormalBigIcon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/stateRedirectBigIcon.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/stateRedirectBigIcon.png</destination>
+			<type>image</type>
+			<uuidstructure>9462858b-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>9462858c-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[stateRedirectBigIcon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/stateSecureBigIcon.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/stateSecureBigIcon.png</destination>
+			<type>image</type>
+			<uuidstructure>9464333f-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>94643340-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[stateSecureBigIcon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/toggleHelpBigIconActive.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/toggleHelpBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>9465b9e3-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>9465b9e4-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[toggleHelpBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/toggleHelpBigIconDeactivated.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/toggleHelpBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>94676797-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>94676798-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[toggleHelpBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/undoBigIconActive.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/undoBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>9469154b-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>9469154c-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[undoBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/undoBigIconDeactivated.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/undoBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>946ac2ff-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>946ac300-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:27 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[undoBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/upload.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/upload.png</destination>
+			<type>image</type>
+			<uuidstructure>946c49a3-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>946c49a4-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:27 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[upload]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/upload.svg</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/upload.svg</destination>
+			<type>image</type>
+			<uuidstructure>946e4577-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>946e4578-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:27 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[upload]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/mercury-opencms-documentation/.galleries/icons_big/UserIcon.png</source>
+			<destination>sites/mercury-opencms-documentation/.galleries/icons_big/UserIcon.png</destination>
+			<type>image</type>
+			<uuidstructure>946fcc1b-c546-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>946fcc1c-c546-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 09:52:27 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[UserIcon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:41,h:41]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -1076,6 +2542,56 @@
 			<uuidstructure>30dca8a5-c4a8-11ec-a595-0242ac11002b</uuidstructure>
 			<uuidresource>30dca8a6-c4a8-11ec-a595-0242ac11002b</uuidresource>
 			<datecreated>Mon, 25 Apr 2022 14:58:39 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/alkacon.mercury.documentation.opencms/formatters/definitionlist-icon.xml</source>
+			<destination>system/modules/alkacon.mercury.documentation.opencms/formatters/definitionlist-icon.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>867ddb8d-c560-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>867ddb8e-c560-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 12:58:10 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/alkacon.mercury.documentation.opencms/formatters/figure.xml</source>
+			<destination>system/modules/alkacon.mercury.documentation.opencms/formatters/figure.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>1feade3b-c564-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>1feade3c-c564-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Tue, 26 Apr 2022 13:23:56 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
