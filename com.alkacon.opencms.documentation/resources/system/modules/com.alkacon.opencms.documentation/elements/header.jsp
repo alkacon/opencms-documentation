@@ -14,17 +14,6 @@
         <header class="area-header logo-left"><%----%>
             <mercury:nl />
 
-            <input type="checkbox" id="nav-toggle-check"><%-- Must be here so it works even when JavaScript is disabled --%>
-            <div id="nav-toggle-group"><%----%>
-                <label for="nav-toggle-check" id="nav-toggle-label"><%----%>
-                    <span class="nav-toggle"><%----%>
-                        <span><fmt:message key="msg.page.navigation.toggle" /></span><%----%>
-                    </span><%----%>
-                </label><%----%>
-                <div class="head-overlay"></div><%----%>
-            </div><%----%>
-            <mercury:nl />
-
             <div class="header-group sticky csssetting"><%----%>
                 <div class="head notfixed"><%----%>
 

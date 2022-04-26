@@ -82,7 +82,7 @@
 
     <cms:headincludes type="css" />
 
-    <c:set var="cssTheme"><cms:property name="template.theme" file="search" default="%(link.weak:/system/modules/com.alkacon.opencms.documentation/resources/css/theme-documentation-default.min.css:bcc84b17-4fc7-11e9-8a3e-0242ac11002b)" /></c:set>
+    <c:set var="cssTheme"><cms:property name="template.theme" file="search" default="%(link.weak:/system/modules/com.alkacon.opencms.documentation/resources/css/legacy.min.css:fcf78965-c571-11ec-a595-0242ac11002b)" /></c:set>
     <c:set var="cssCommonRes" value="${cms.vfs.readResource['%(link.weak:/system/modules/alkacon.mercury.theme/css/base.min.css:bf8f6ace-feab-11e8-aee0-0242ac11002b)']}" />
     <c:set var="cssThemeRes" value="${cms.vfs.readResource[cssTheme]}" />
     <link rel="stylesheet" href="<cms:link>${cssCommonRes.sitePath}?ver=${cssCommonRes.dateLastModified}</cms:link>">
@@ -152,12 +152,12 @@
                     <cms:container name="documentation-${containerName}-container" type="documentation-${containerName}" width="1350" detailview="true">
                             <div class="container-box box-special"><h2>${isOverview ? 'Put overview rows here.' : 'Put section contents here.'}</h2></div>
                     </cms:container>
-					<%--
+                    <%--
                     <c:if test="${wikilink == 'true'}">
-                    	<!-- Link to wiki for comments and suggestions plus hint to mailing list -->
-                    	<cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/wiki-link.jsp:74887459-814e-11e5-93bb-0242ac11002b)" />
-					</c:if>
-					--%>
+                        <!-- Link to wiki for comments and suggestions plus hint to mailing list -->
+                        <cms:include file="%(link.weak:/system/modules/com.alkacon.opencms.documentation/elements/wiki-link.jsp:74887459-814e-11e5-93bb-0242ac11002b)" />
+                    </c:if>
+                    --%>
                 </div>
             </div>
         </c:otherwise>
