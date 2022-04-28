@@ -6,6 +6,10 @@
       <TypeName><![CDATA[documentation-codeblock]]></TypeName>
       <Disabled><![CDATA[false]]></Disabled>
     </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[m-section-extended]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
     <RemoveFormatters>
       <RemoveFormatter>
         <link type="WEAK">
@@ -19,6 +23,24 @@
         <link type="WEAK">
           <target><![CDATA[/system/modules/alkacon.mercury.documentation.opencms/formatters/codeblock.xml]]></target>
           <uuid>30dca8a5-c4a8-11ec-a595-0242ac11002b</uuid>
+        </link>
+      </AddFormatter>
+      <AddFormatter>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/alkacon.mercury.documentation.opencms/formatters/datasheet/definitionlist.xml]]></target>
+          <uuid>4cf75b3a-c6d7-11ec-a595-0242ac11002b</uuid>
+        </link>
+      </AddFormatter>
+      <AddFormatter>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/alkacon.mercury.documentation.opencms/formatters/datasheet/section.xml]]></target>
+          <uuid>4b747df7-c6d2-11ec-a595-0242ac11002b</uuid>
+        </link>
+      </AddFormatter>
+      <AddFormatter>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/alkacon.mercury.documentation.opencms/formatters/datasheet/table.xml]]></target>
+          <uuid>149a7e22-c6d7-11ec-a595-0242ac11002b</uuid>
         </link>
       </AddFormatter>
       <AddFormatter>
