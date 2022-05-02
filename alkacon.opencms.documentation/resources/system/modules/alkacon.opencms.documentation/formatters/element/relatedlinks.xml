@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[OpenCms Documentation: Related Links]]></NiceName>
+    <Type><![CDATA[m-linksequence]]></Type>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/alkacon.mercury.template/formatters/element/linksequence.jsp]]></target>
+        <uuid>8970f120-10a0-40c9-8796-4a3f5df368ac</uuid>
+      </link>
+    </Jsp>
+    <Rank><![CDATA[1001]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[element]]></ContainerType>
+        <ContainerType><![CDATA[linksequence]]></ContainerType>
+      </Types>
+    </Match>
+    <AutoEnabled>false</AutoEnabled>
+    <SearchContent>true</SearchContent>
+    <StrictContainers>true</StrictContainers>
+    <IncludeSettings>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/alkacon.mercury.template/configuration/shared-settings.xml]]></target>
+        <uuid>77009936-87a5-42b3-86ff-90252ede0593</uuid>
+      </link>
+    </IncludeSettings>
+    <Setting>
+      <PropertyName><![CDATA[hsize]]></PropertyName>
+      <Widget><![CDATA[hidden]]></Widget>
+      <Default><![CDATA[4]]></Default>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[cssWrapper]]></PropertyName>
+      <Widget><![CDATA[hidden]]></Widget>
+      <Default><![CDATA[box box-grey-light]]></Default>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[linksequenceType]]></PropertyName>
+      <Widget><![CDATA[hidden]]></Widget>
+      <Default><![CDATA[ls-bullets]]></Default>
+    </Setting>
+    <Setting>
+      <PropertyName><![CDATA[iconClass]]></PropertyName>
+      <Widget><![CDATA[hidden]]></Widget>
+      <Default><![CDATA[link]]></Default>
+    </Setting>
+  </NewFormatter>
+</NewFormatters>

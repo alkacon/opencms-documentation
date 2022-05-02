@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<DecorationConfigurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/config/decoration/decorationconfiguration.xsd">
+  <DecorationConfiguration language="en">
+    <uselocale>false</uselocale>
+    <decoration>
+      <name><![CDATA[OpenCms]]></name>
+      <markfirst>false</markfirst>
+      <pretext><![CDATA[<abbr title="${decoration}">]]></pretext>
+      <posttext><![CDATA[</abbr>]]></posttext>
+      <pretextfirst/>
+      <posttextfirst/>
+      <filename>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/alkacon.opencms.documentation/decoration/decorations.csv]]></target>
+          <uuid>e30e21b1-c9f4-11ec-a595-0242ac11002b</uuid>
+        </link>
+      </filename>
+    </decoration>
+    <exclude><![CDATA[a]]></exclude>
+    <exclude><![CDATA[h1]]></exclude>
+    <exclude><![CDATA[h2]]></exclude>
+    <exclude><![CDATA[h3]]></exclude>
+    <exclude><![CDATA[h4]]></exclude>
+    <exclude><![CDATA[h5]]></exclude>
+    <exclude><![CDATA[span]]></exclude>
+  </DecorationConfiguration>
+</DecorationConfigurations>

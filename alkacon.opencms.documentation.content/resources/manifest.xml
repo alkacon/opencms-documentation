@@ -1,0 +1,2300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<export>
+	<info>
+		<infoproject>Offline</infoproject>
+		<export_version>10</export_version>
+	</info>
+	<module>
+		<name>alkacon.opencms.documentation.content</name>
+		<nicename><![CDATA[Alkacon OpenCms Documentation Content]]></nicename>
+		<group>OpenCms Documentation</group>
+		<class/>
+		<import-site>/</import-site>
+		<export-mode name="reduced"/>
+		<description><![CDATA[The contents of the Alkacon OpenCms documentation.]]></description>
+		<version>14.0.2</version>
+		<autoincrement>true</autoincrement>
+		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
+		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
+		<datecreated/>
+		<userinstalled/>
+		<dateinstalled/>
+		<dependencies/>
+		<exportpoints/>
+		<resources>
+			<resource uri="/sites/documentation/"/>
+		</resources>
+		<excluderesources/>
+		<parameters/>
+	</module>
+	<files>
+		<file>
+			<destination>sites</destination>
+			<type>folder</type>
+			<properties/>
+		</file>
+		<file>
+			<destination>sites/documentation</destination>
+			<type>subsitemap</type>
+			<uuidstructure>182e4723-c9f1-11ec-a595-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 02 May 2022 08:23:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms Documentation [RELAUNCH]]]></value>
+				</property>
+				<property type="shared">
+					<name>Title</name>
+					<value><![CDATA[OpenCms Documentation [RELAUNCH]]]></value>
+				</property>
+				<property>
+					<name>mercury.theme</name>
+					<value><![CDATA[/system/modules/alkacon.opencms.documentation/resources/css/docu.min.css]]></value>
+				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[/system/modules/alkacon.mercury.template/templates/mercury.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/index.html</source>
+			<destination>sites/documentation/index.html</destination>
+			<type>htmlredirect</type>
+			<uuidstructure>87e35a77-c9ff-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>87e35a78-c9ff-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 10:06:27 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Redirect to first page in navigation]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/.content</destination>
+			<type>content_folder</type>
+			<uuidstructure>183042f7-c9f1-11ec-a595-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 02 May 2022 08:23:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.content/.config</source>
+			<destination>sites/documentation/.content/.config</destination>
+			<type>sitemap_config</type>
+			<uuidstructure>378f92b9-c9f1-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>378f92ba-c9f1-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 08:23:59 GMT</datecreated>
+			<flags>512</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Sitemap configuration file]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/.content/.templates</destination>
+			<type>folder</type>
+			<uuidstructure>1836366f-c9f1-11ec-a595-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 02 May 2022 08:23:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.content/.templates/default.html</source>
+			<destination>sites/documentation/.content/.templates/default.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>46cddb1f-c9f1-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>46cddb20-c9f1-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 08:24:25 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Empty container page model for site "OpenCms Documentation (Mercury)"]]></value>
+				</property>
+				<property type="shared">
+					<name>Description</name>
+					<value><![CDATA[Empty container page model for site "OpenCms Documentation (Mercury)"]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Default Model for site "OpenCms Documentation (Mercury)"]]></value>
+				</property>
+				<property type="shared">
+					<name>Title</name>
+					<value><![CDATA[Default Model for site "OpenCms Documentation (Mercury)"]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/.content/linksequence-m</destination>
+			<type>folder</type>
+			<uuidstructure>8118e7b8-c9fb-11ec-a595-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 02 May 2022 09:37:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.content/linksequence-m/ls_00001.xml</source>
+			<destination>sites/documentation/.content/linksequence-m/ls_00001.xml</destination>
+			<type>m-linksequence</type>
+			<uuidstructure>18f430ca-c48a-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>18f430cb-c48a-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 25 Apr 2022 11:23:14 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Header for the OpenCms Documentation: New link sequence]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.content/linksequence-m/ls_00002.xml</source>
+			<destination>sites/documentation/.content/linksequence-m/ls_00002.xml</destination>
+			<type>m-linksequence</type>
+			<uuidstructure>3afee048-ca02-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>3afee049-ca02-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 10:25:47 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Introduction: Related links]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/.content/modelgroup</destination>
+			<type>folder</type>
+			<uuidstructure>fc459bc9-c9fa-11ec-a595-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 02 May 2022 09:33:55 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.content/modelgroup/modelgroup-00001.html</source>
+			<destination>sites/documentation/.content/modelgroup/modelgroup-00001.html</destination>
+			<type>modelgroup</type>
+			<uuidstructure>fc47226b-c9fa-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>fc47226c-c9fa-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:33:55 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Header for the OpenCms Documentation]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Header for the OpenCms Documentation]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.content/modelgroup/modelgroup-00002.html</source>
+			<destination>sites/documentation/.content/modelgroup/modelgroup-00002.html</destination>
+			<type>modelgroup</type>
+			<uuidstructure>fc4d8b10-c9fa-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>fc4d8b11-c9fa-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:33:55 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[Footer for the OpenCms Documentation]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Footer for the OpenCms Documentation]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.content/modelgroup/modelgroup-00003.html</source>
+			<destination>sites/documentation/.content/modelgroup/modelgroup-00003.html</destination>
+			<type>modelgroup</type>
+			<uuidstructure>fc4fd505-c9fa-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>fc4fd506-c9fa-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:33:55 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Description</name>
+					<value><![CDATA[The  side navi]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Side Navigation]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/.content/navigation-m</destination>
+			<type>folder</type>
+			<uuidstructure>eb700cb9-c48b-11ec-a595-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 25 Apr 2022 11:36:17 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.content/navigation-m/nav_00001.xml</source>
+			<destination>sites/documentation/.content/navigation-m/nav_00001.xml</destination>
+			<type>m-navigation</type>
+			<uuidstructure>eb71935b-c48b-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>eb71935c-c48b-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 25 Apr 2022 11:36:17 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Breadcrumb navigation]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.content/navigation-m/nav_00002.xml</source>
+			<destination>sites/documentation/.content/navigation-m/nav_00002.xml</destination>
+			<type>m-navigation</type>
+			<uuidstructure>558a0a9d-c48f-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>558a0a9e-c48f-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 25 Apr 2022 12:00:43 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Side navigation]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.content/navigation-m/nav_00003.xml</source>
+			<destination>sites/documentation/.content/navigation-m/nav_00003.xml</destination>
+			<type>m-navigation</type>
+			<uuidstructure>9014efda-c78d-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>9014efdb-c78d-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Fri, 29 Apr 2022 07:25:36 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Main navigation]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/.content/section-ext-m</destination>
+			<type>folder</type>
+			<uuidstructure>a2355a97-ca07-11ec-a595-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 02 May 2022 11:04:27 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.content/section-ext-m/ecs_00001.xml</source>
+			<destination>sites/documentation/.content/section-ext-m/ecs_00001.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>a2369319-ca07-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>a236931a-ca07-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 11:04:27 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Introduction: The Setup Wizard]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/.content/section-m</destination>
+			<type>folder</type>
+			<uuidstructure>72ce4e23-c9fb-11ec-a595-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 02 May 2022 09:37:14 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.content/section-m/cs_00001.xml</source>
+			<destination>sites/documentation/.content/section-m/cs_00001.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>18756e68-c48b-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>18756e69-c48b-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 25 Apr 2022 11:30:23 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.content/section-m/cs_00002.xml</source>
+			<destination>sites/documentation/.content/section-m/cs_00002.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>f19158e9-c48d-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>f19158ea-c48d-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 25 Apr 2022 11:50:46 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Footer Section]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.content/section-m/cs_00003.xml</source>
+			<destination>sites/documentation/.content/section-m/cs_00003.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>2c3c05be-c9fe-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>2c3c05bf-c9fe-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:56:44 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Introduction: Welcome text]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/.galleries</destination>
+			<type>folder</type>
+			<uuidstructure>c7f90cce-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 02 May 2022 09:25:18 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/.galleries/icons_big</destination>
+			<type>imagegallery</type>
+			<uuidstructure>df5f3164-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Documentation: Icons (big)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/addBigIconActive.png</source>
+			<destination>sites/documentation/.galleries/icons_big/addBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>df60df17-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df60df18-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[addBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/addBigIconDeactivated.png</source>
+			<destination>sites/documentation/.galleries/icons_big/addBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>df6265bb-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df6265bc-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[addBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/backBigIconDeactivated.png</source>
+			<destination>sites/documentation/.galleries/icons_big/backBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>df63ec5f-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df63ec60-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[backBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/brokenLinkBigIcon.png</source>
+			<destination>sites/documentation/.galleries/icons_big/brokenLinkBigIcon.png</destination>
+			<type>image</type>
+			<uuidstructure>df657303-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df657304-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[brokenLinkBigIcon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/checkmark.png</source>
+			<destination>sites/documentation/.galleries/icons_big/checkmark.png</destination>
+			<type>image</type>
+			<uuidstructure>df66d297-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df66d298-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[checkmark]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/clipboardBigIconActive.png</source>
+			<destination>sites/documentation/.galleries/icons_big/clipboardBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>df68804b-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df68804c-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[clipboardBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/clipboardBigIconDeactivated.png</source>
+			<destination>sites/documentation/.galleries/icons_big/clipboardBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>df6a06ef-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df6a06f0-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[clipboardBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/copyLocaleBigIconActive.png</source>
+			<destination>sites/documentation/.galleries/icons_big/copyLocaleBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>df6b6683-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df6b6684-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[copyLocaleBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/copyLocaleBigIconDeactivated.png</source>
+			<destination>sites/documentation/.galleries/icons_big/copyLocaleBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>df6ced27-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df6ced28-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[copyLocaleBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/deleteBigIconActive.png</source>
+			<destination>sites/documentation/.galleries/icons_big/deleteBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>df6e73cb-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df6e73cc-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[deleteBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/deleteBigIconDeactivated.png</source>
+			<destination>sites/documentation/.galleries/icons_big/deleteBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>df6fd35f-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df6fd360-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[deleteBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/deleteLocaleBigIconActive.png</source>
+			<destination>sites/documentation/.galleries/icons_big/deleteLocaleBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>df7132f3-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df7132f4-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[deleteLocaleBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/editBigIconActive.png</source>
+			<destination>sites/documentation/.galleries/icons_big/editBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>df72b997-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df72b998-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[editBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/editBigIconDeactivated.png</source>
+			<destination>sites/documentation/.galleries/icons_big/editBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>df74192b-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df74192c-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[editBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/elementsBigIcon.svg</source>
+			<destination>sites/documentation/.galleries/icons_big/elementsBigIcon.svg</destination>
+			<type>image</type>
+			<uuidstructure>df759fcf-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df759fd0-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[elementsBigIcon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/elementsBigIconChanged.png</source>
+			<destination>sites/documentation/.galleries/icons_big/elementsBigIconChanged.png</destination>
+			<type>image</type>
+			<uuidstructure>df76ff63-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df76ff64-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[elementsBigIconChanged]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/filetypeNavlevel.png</source>
+			<destination>sites/documentation/.galleries/icons_big/filetypeNavlevel.png</destination>
+			<type>image</type>
+			<uuidstructure>df785ef7-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df785ef8-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[filetypeNavlevel]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/galleryBigIcon.png</source>
+			<destination>sites/documentation/.galleries/icons_big/galleryBigIcon.png</destination>
+			<type>image</type>
+			<uuidstructure>df79be8b-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df79be8c-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[galleryBigIcon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/gotoBigIconDeactivated.png</source>
+			<destination>sites/documentation/.galleries/icons_big/gotoBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>df7b1e1f-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df7b1e20-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[gotoBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/gotoPageBigIconActive.png</source>
+			<destination>sites/documentation/.galleries/icons_big/gotoPageBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>df7c56a3-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df7c56a4-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[gotoPageBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/gotoParentBigIconActive.png</source>
+			<destination>sites/documentation/.galleries/icons_big/gotoParentBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>df7db637-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df7db638-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[gotoParentBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/gotoParentBigIconDeactivated.png</source>
+			<destination>sites/documentation/.galleries/icons_big/gotoParentBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>df7eeebb-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df7eeebc-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[gotoParentBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/gotoSubSitemapBigIconActive.png</source>
+			<destination>sites/documentation/.galleries/icons_big/gotoSubSitemapBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>df804e4f-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df804e50-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[gotoSubSitemapBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/invPropertyBigIconActive.png</source>
+			<destination>sites/documentation/.galleries/icons_big/invPropertyBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>df81ace3-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df81ace4-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[invPropertyBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/invPropertyBigIconDeactivated.png</source>
+			<destination>sites/documentation/.galleries/icons_big/invPropertyBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>df835a97-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df835a98-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[invPropertyBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/menuBigIconActive.svg</source>
+			<destination>sites/documentation/.galleries/icons_big/menuBigIconActive.svg</destination>
+			<type>image</type>
+			<uuidstructure>df84e13b-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df84e13c-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[menuBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/menuBigIconDeactivated.png</source>
+			<destination>sites/documentation/.galleries/icons_big/menuBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>df8619bf-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df8619c0-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[menuBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/moveBigIconActive.png</source>
+			<destination>sites/documentation/.galleries/icons_big/moveBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>df87a063-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df87a064-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[moveBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/moveBigIconDeactivated.png</source>
+			<destination>sites/documentation/.galleries/icons_big/moveBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>df88fff7-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df88fff8-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[moveBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/pinboard.svg</source>
+			<destination>sites/documentation/.galleries/icons_big/pinboard.svg</destination>
+			<type>image</type>
+			<uuidstructure>df8a869b-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df8a869c-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[pinboard]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/propertyBigIconActive.png</source>
+			<destination>sites/documentation/.galleries/icons_big/propertyBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>df8c0d3f-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df8c0d40-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[propertyBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/propertyBigIconDeactivated.png</source>
+			<destination>sites/documentation/.galleries/icons_big/propertyBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>df8d93e3-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df8d93e4-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[propertyBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/publishBigIconActive.svg</source>
+			<destination>sites/documentation/.galleries/icons_big/publishBigIconActive.svg</destination>
+			<type>image</type>
+			<uuidstructure>df8ef377-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df8ef378-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[publishBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/publishBigIconDeactivated.png</source>
+			<destination>sites/documentation/.galleries/icons_big/publishBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>df907a1b-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df907a1c-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[publishBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/QuickLaunch.svg</source>
+			<destination>sites/documentation/.galleries/icons_big/QuickLaunch.svg</destination>
+			<type>image</type>
+			<uuidstructure>df91d9af-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df91d9b0-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Quick Launch]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/redoBigIconActive.png</source>
+			<destination>sites/documentation/.galleries/icons_big/redoBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>df93ae73-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df93ae74-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[redoBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/redoBigIconDeactivated.png</source>
+			<destination>sites/documentation/.galleries/icons_big/redoBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>df94e6f7-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df94e6f8-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[redoBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/removeBigIconActive.png</source>
+			<destination>sites/documentation/.galleries/icons_big/removeBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>df961f7b-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df961f7c-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[removeBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/removeBigIconDeactivated.png</source>
+			<destination>sites/documentation/.galleries/icons_big/removeBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>df97a61f-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df97a620-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[removeBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/resetBigIconActive.png</source>
+			<destination>sites/documentation/.galleries/icons_big/resetBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>df992cc3-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df992cc4-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[resetBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/resetBigIconDeactivated.png</source>
+			<destination>sites/documentation/.galleries/icons_big/resetBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>df9a6547-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df9a6548-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[resetBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/saveBigIconActive.png</source>
+			<destination>sites/documentation/.galleries/icons_big/saveBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>df9c12fb-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df9c12fc-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[saveBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/saveBigIconDeactivated.png</source>
+			<destination>sites/documentation/.galleries/icons_big/saveBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>df9d4b7f-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df9d4b80-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[saveBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/saveExitBigIconActive.png</source>
+			<destination>sites/documentation/.galleries/icons_big/saveExitBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>df9ed223-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>df9ed224-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[saveExitBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/saveExitBigIconDeactivated.png</source>
+			<destination>sites/documentation/.galleries/icons_big/saveExitBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>dfa058c7-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfa058c8-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[saveExitBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/searchBigIconActive.svg</source>
+			<destination>sites/documentation/.galleries/icons_big/searchBigIconActive.svg</destination>
+			<type>image</type>
+			<uuidstructure>dfa1df6b-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfa1df6c-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[searchBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/searchBigIconDeactivated.png</source>
+			<destination>sites/documentation/.galleries/icons_big/searchBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>dfa3660f-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfa36610-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[searchBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/selectionBigIconActive.png</source>
+			<destination>sites/documentation/.galleries/icons_big/selectionBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>dfa4c5a3-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfa4c5a4-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[selectionBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/selectionBigIconDeactivated.png</source>
+			<destination>sites/documentation/.galleries/icons_big/selectionBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>dfa5fe27-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfa5fe28-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[selectionBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/showSmallElementsBigIconActive.png</source>
+			<destination>sites/documentation/.galleries/icons_big/showSmallElementsBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>dfa736ab-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfa736ac-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[showSmallElementsBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/showSmallElementsBigIconDeactivated.png</source>
+			<destination>sites/documentation/.galleries/icons_big/showSmallElementsBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>dfa8e45f-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfa8e460-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[showSmallElementsBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/sitemapBigIconActive.png</source>
+			<destination>sites/documentation/.galleries/icons_big/sitemapBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>dfaa43f3-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfaa43f4-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[sitemapBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/sitemapBigIconDeactivated.png</source>
+			<destination>sites/documentation/.galleries/icons_big/sitemapBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>dfabca97-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfabca98-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[sitemapBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/stateExportBigIcon.png</source>
+			<destination>sites/documentation/.galleries/icons_big/stateExportBigIcon.png</destination>
+			<type>image</type>
+			<uuidstructure>dfad2a2b-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfad2a2c-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[stateExportBigIcon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/stateHiddenBigIcon.png</source>
+			<destination>sites/documentation/.galleries/icons_big/stateHiddenBigIcon.png</destination>
+			<type>image</type>
+			<uuidstructure>dfae89bf-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfae89c0-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[stateHiddenBigIcon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/stateNormalBigIcon.png</source>
+			<destination>sites/documentation/.galleries/icons_big/stateNormalBigIcon.png</destination>
+			<type>image</type>
+			<uuidstructure>dfafe953-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfafe954-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[stateNormalBigIcon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/stateRedirectBigIcon.png</source>
+			<destination>sites/documentation/.galleries/icons_big/stateRedirectBigIcon.png</destination>
+			<type>image</type>
+			<uuidstructure>dfb148e7-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfb148e8-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[stateRedirectBigIcon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/stateSecureBigIcon.png</source>
+			<destination>sites/documentation/.galleries/icons_big/stateSecureBigIcon.png</destination>
+			<type>image</type>
+			<uuidstructure>dfb25a5b-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfb25a5c-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[stateSecureBigIcon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/toggleHelpBigIconActive.png</source>
+			<destination>sites/documentation/.galleries/icons_big/toggleHelpBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>dfb3b9ef-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfb3b9f0-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[toggleHelpBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/toggleHelpBigIconDeactivated.png</source>
+			<destination>sites/documentation/.galleries/icons_big/toggleHelpBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>dfb51983-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfb51984-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[toggleHelpBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/undoBigIconActive.png</source>
+			<destination>sites/documentation/.galleries/icons_big/undoBigIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>dfb6c737-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfb6c738-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[undoBigIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/undoBigIconDeactivated.png</source>
+			<destination>sites/documentation/.galleries/icons_big/undoBigIconDeactivated.png</destination>
+			<type>image</type>
+			<uuidstructure>dfb826cb-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfb826cc-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[undoBigIconDeactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/upload.png</source>
+			<destination>sites/documentation/.galleries/icons_big/upload.png</destination>
+			<type>image</type>
+			<uuidstructure>dfb9865f-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfb98660-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[upload]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/upload.svg</source>
+			<destination>sites/documentation/.galleries/icons_big/upload.svg</destination>
+			<type>image</type>
+			<uuidstructure>dfbae5f3-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfbae5f4-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[upload]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons_big/UserIcon.png</source>
+			<destination>sites/documentation/.galleries/icons_big/UserIcon.png</destination>
+			<type>image</type>
+			<uuidstructure>dfbc4587-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfbc4588-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[UserIcon]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:41,h:41]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/.galleries/logos</destination>
+			<type>folder</type>
+			<uuidstructure>e7237f26-c9fb-11ec-a595-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 02 May 2022 09:40:29 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Documentation: Logos]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/logos/alkacon-logo.svg</source>
+			<destination>sites/documentation/.galleries/logos/alkacon-logo.svg</destination>
+			<type>image</type>
+			<uuidstructure>41154b9f-c48d-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>41154ba0-c48d-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 25 Apr 2022 11:45:50 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Alkacon logo]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:129,h:42]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/logos/opencms_logo.svg</source>
+			<destination>sites/documentation/.galleries/logos/opencms_logo.svg</destination>
+			<type>image</type>
+			<uuidstructure>a93abdc5-c48b-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>a93abdc6-c48b-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 25 Apr 2022 11:34:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms logo]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:170,h:42]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/.galleries/pics-setup</destination>
+			<type>imagegallery</type>
+			<uuidstructure>dfbda51b-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Documentation: Screenshots Setup Wizard]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/pics-setup/install-wizard-database-settings.png</source>
+			<destination>sites/documentation/.galleries/pics-setup/install-wizard-database-settings.png</destination>
+			<type>image</type>
+			<uuidstructure>dfbedd9e-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfbedd9f-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Database Settings of the Setup Wizard]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:809,h:645]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/pics-setup/install-wizard-final-notes.png</source>
+			<destination>sites/documentation/.galleries/pics-setup/install-wizard-final-notes.png</destination>
+			<type>image</type>
+			<uuidstructure>dfc0d972-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfc0d973-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Final Notes of the Setup Wizard]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:808,h:614]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/pics-setup/install-wizard-license-agreement.png</source>
+			<destination>sites/documentation/.galleries/pics-setup/install-wizard-license-agreement.png</destination>
+			<type>image</type>
+			<uuidstructure>dfc2ae36-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfc2ae37-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[License Agreement of the Setup Wizard]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:809,h:649]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/pics-setup/install-wizard-module-import.png</source>
+			<destination>sites/documentation/.galleries/pics-setup/install-wizard-module-import.png</destination>
+			<type>image</type>
+			<uuidstructure>dfc4f82a-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfc4f82b-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Module Import of the Setup Wizard]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:809,h:545]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/pics-setup/install-wizard-module-selection.png</source>
+			<destination>sites/documentation/.galleries/pics-setup/install-wizard-module-selection.png</destination>
+			<type>image</type>
+			<uuidstructure>dfc7b74e-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfc7b74f-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:58 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Module Selection of the Setup Wizard]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:808,h:596]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/pics-setup/install-wizard-server-settings.png</source>
+			<destination>sites/documentation/.galleries/pics-setup/install-wizard-server-settings.png</destination>
+			<type>image</type>
+			<uuidstructure>dfca2852-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfca2853-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:58 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Server Settings of the Setup Wizard]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:808,h:272]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/pics-setup/install-wizard-system-check.png</source>
+			<destination>sites/documentation/.galleries/pics-setup/install-wizard-system-check.png</destination>
+			<type>image</type>
+			<uuidstructure>dfcb87e6-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfcb87e7-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:58 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[System Check of the Setup Wizard]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:807,h:575]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/pics-setup/setup-wizard-final-notes.png</source>
+			<destination>sites/documentation/.galleries/pics-setup/setup-wizard-final-notes.png</destination>
+			<type>image</type>
+			<uuidstructure>dfcd83ba-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfcd83bb-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:58 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Final Notes of the Setup Wizard]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:808,h:614]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/pics-setup/setup-wizard-licence-agreement.png</source>
+			<destination>sites/documentation/.galleries/pics-setup/setup-wizard-licence-agreement.png</destination>
+			<type>image</type>
+			<uuidstructure>dfcfa69e-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfcfa69f-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:58 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Licence Agreement of the Setup Wizard]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:809,h:649]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/.galleries/screenshots</destination>
+			<type>imagegallery</type>
+			<uuidstructure>dfd217a2-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 02 May 2022 09:25:58 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Documentation: Screenshots]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/screenshots/PublishDialog.png</source>
+			<destination>sites/documentation/.galleries/screenshots/PublishDialog.png</destination>
+			<type>image</type>
+			<uuidstructure>dfd30205-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfd30206-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:58 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[PublishDialog]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:810,h:398]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/screenshots/PublishProblems.png</source>
+			<destination>sites/documentation/.galleries/screenshots/PublishProblems.png</destination>
+			<type>image</type>
+			<uuidstructure>dfd4d6c9-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfd4d6ca-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:58 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[PublishProblems]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1010,h:229]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/screenshots/toolbar-options.png</source>
+			<destination>sites/documentation/.galleries/screenshots/toolbar-options.png</destination>
+			<type>image</type>
+			<uuidstructure>dfd6847d-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfd6847e-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:58 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Toolbar options]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1994,h:340]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/screenshots/ToolbarPageEditor_HighlightToolbarToggle.png</source>
+			<destination>sites/documentation/.galleries/screenshots/ToolbarPageEditor_HighlightToolbarToggle.png</destination>
+			<type>image</type>
+			<uuidstructure>dfd8ce72-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfd8ce73-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:58 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[ToolbarPageEditor]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1978,h:104]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/screenshots/UserPreferencesDialogBasicPreferences.png</source>
+			<destination>sites/documentation/.galleries/screenshots/UserPreferencesDialogBasicPreferences.png</destination>
+			<type>image</type>
+			<uuidstructure>dfda5516-c9f9-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>dfda5517-c9f9-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:25:58 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[UserPreferencesDialogBasicPreferences]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:940,h:270]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/core</destination>
+			<type>folder</type>
+			<uuidstructure>db9d8dfd-c9fc-11ec-a595-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 02 May 2022 09:47:19 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[10.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[The OpenCms documentation]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The OpenCms documentation]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/core/index.html</source>
+			<destination>sites/documentation/core/index.html</destination>
+			<type>htmlredirect</type>
+			<uuidstructure>0a1336aa-c9fe-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>0a1336ab-c9fe-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:55:46 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Redirect to first page in navigation]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/core/introduction</destination>
+			<type>folder</type>
+			<uuidstructure>8f486d01-c9fd-11ec-a595-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 02 May 2022 09:52:20 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Introduction]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Introduction]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/core/introduction/index.html</source>
+			<destination>sites/documentation/core/introduction/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>8f4f71e6-c9fd-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>8f4f71e7-c9fd-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:52:20 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Introduction]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+	</files>
+</export>

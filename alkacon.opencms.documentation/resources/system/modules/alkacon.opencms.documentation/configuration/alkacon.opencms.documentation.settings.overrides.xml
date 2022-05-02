@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SettingsConfigs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/settings_config.xsd">
+  <SettingsConfig language="en">
+    <Setting>
+      <IncludeName><![CDATA[hsize.element.2]]></IncludeName>
+      <PropertyName><![CDATA[hsize]]></PropertyName>
+      <DisplayName><![CDATA[%(key.msg.setting.hsize.element)]]></DisplayName>
+      <Description><![CDATA[%(key.msg.setting.hsize.element.help)]]></Description>
+      <Visibility><![CDATA[element]]></Visibility>
+      <Widget><![CDATA[%(attribute:selectOrCombo:selectcombo)]]></Widget>
+      <Default><![CDATA[3]]></Default>
+      <WidgetConfig><![CDATA[
+            2:  %(key.msg.setting.hsize.2)|
+            3:  %(key.msg.setting.hsize.3)|
+            4:  %(key.msg.setting.hsize.4)|
+            0:  %(key.msg.setting.hsize.hidden)
+        ]]></WidgetConfig>
+    </Setting>
+    <Setting>
+      <IncludeName><![CDATA[pieceLayout.all]]></IncludeName>
+      <PropertyName><![CDATA[pieceLayout]]></PropertyName>
+      <DisplayName><![CDATA[%(key.msg.setting.pieceLayout)]]></DisplayName>
+      <Description><![CDATA[%(key.msg.setting.pieceLayout.help)]]></Description>
+      <Visibility><![CDATA[element]]></Visibility>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[3]]></Default>
+      <WidgetConfig><![CDATA[
+            0:      %(key.msg.setting.pieceLayout.0)|
+           10:      %(key.msg.setting.pieceLayout.10)|
+            1:      %(key.msg.setting.pieceLayout.1)|
+            2:      %(key.msg.setting.pieceLayout.2)|
+            3:      %(key.msg.setting.pieceLayout.3)|
+            4:      %(key.msg.setting.pieceLayout.4)|
+            5:      %(key.msg.setting.pieceLayout.5)|
+            6:      %(key.msg.setting.pieceLayout.6)|
+            7:      %(key.msg.setting.pieceLayout.7)|
+            8:      %(key.msg.setting.pieceLayout.8)|
+            9:      %(key.msg.setting.pieceLayout.9)
+        ]]></WidgetConfig>
+    </Setting>
+  </SettingsConfig>
+</SettingsConfigs>

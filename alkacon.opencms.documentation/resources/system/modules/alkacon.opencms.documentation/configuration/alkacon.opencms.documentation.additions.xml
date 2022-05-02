@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SitemapMasterConfigurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/sitemap_master_config.xsd">
+  <SitemapMasterConfiguration language="en">
+    <DiscardTypes>true</DiscardTypes>
+    <ResourceType>
+      <TypeName><![CDATA[m-section]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[m-section-ext]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[m-decoy]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[m-linksequence]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[m-flexible]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+      <ElementView/>
+    </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[m-navigation]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[modelgroup]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[function_config]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[m-layout-row-simple]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[m-layout-group-simple]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+    <ResourceType>
+      <TypeName><![CDATA[m-layout-area-simple]]></TypeName>
+      <Disabled><![CDATA[false]]></Disabled>
+    </ResourceType>
+    <SharedSettingOverride>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/alkacon.opencms.documentation/configuration/alkacon.opencms.documentation.settings.overrides.xml]]></target>
+        <uuid>6aa0c42e-c9e4-11ec-a595-0242ac11002b</uuid>
+      </link>
+    </SharedSettingOverride>
+    <RemoveFormatters>
+      <RemoveFormatter>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/com.alkacon.opencms.documentation/formatters/documentation-codeblock-formatter-config.xml]]></target>
+          <uuid>f301d65e-fd33-11e3-8938-fb93821e3720</uuid>
+        </link>
+      </RemoveFormatter>
+      <RemoveFormatter>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/alkacon.mercury.template/formatters/layout/row-simple.xml]]></target>
+          <uuid>62ec330f-9e9d-48e4-a0a8-48e3152593a4</uuid>
+        </link>
+      </RemoveFormatter>
+    </RemoveFormatters>
+    <AddFormatters>
+      <AddFormatter>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/alkacon.mercury.extension.section_ext/formatters/definition-list-text-only.xml]]></target>
+          <uuid>f5750f71-c849-11ec-894e-0242ac11002b</uuid>
+        </link>
+      </AddFormatter>
+      <AddFormatter>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/alkacon.mercury.extension.section_ext/formatters/definition-list-with-image.xml]]></target>
+          <uuid>ee1c8d71-c845-11ec-894e-0242ac11002b</uuid>
+        </link>
+      </AddFormatter>
+      <AddFormatter>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/alkacon.mercury.extension.section_ext/formatters/text-image-ext.xml]]></target>
+          <uuid>601dabf6-c6ff-11ec-a595-0242ac11002b</uuid>
+        </link>
+      </AddFormatter>
+      <AddFormatter>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/alkacon.opencms.documentation/formatters/element/relatedlinks.xml]]></target>
+          <uuid>f094800b-c542-11ec-a595-0242ac11002b</uuid>
+        </link>
+      </AddFormatter>
+      <AddFormatter>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/alkacon.opencms.documentation/formatters/layout/row-simple.xml]]></target>
+          <uuid>7322513a-c9f2-11ec-a595-0242ac11002b</uuid>
+        </link>
+      </AddFormatter>
+    </AddFormatters>
+    <AddPlugins>
+      <Plugin>
+        <link type="WEAK">
+          <target><![CDATA[/system/modules/alkacon.opencms.documentation/plugins/highlightjs.xml]]></target>
+          <uuid>52f53e40-c567-11ec-a595-0242ac11002b</uuid>
+        </link>
+      </Plugin>
+    </AddPlugins>
+    <Attribute>
+      <Key><![CDATA[template.section.add.heading.id]]></Key>
+      <Value><![CDATA[true]]></Value>
+    </Attribute>
+    <Attribute>
+      <Key><![CDATA[cssWrapperWidget]]></Key>
+      <Value><![CDATA[selectcombo]]></Value>
+    </Attribute>
+    <Attribute>
+      <Key><![CDATA[cssWrapperWidgetConfig]]></Key>
+      <Value><![CDATA[box box-blue:Blue box|box box-blue-light:Light blue box|box box-grey:Grey box|box box-grey-light:Light grey box|box box-orange:Orange box|box box-red:Red box]]></Value>
+    </Attribute>
+  </SitemapMasterConfiguration>
+</SitemapMasterConfigurations>

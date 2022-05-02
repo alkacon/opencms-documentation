@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[%(key.type.m-layout-row-simple.formatter.default)]]></NiceName>
+    <Type><![CDATA[m-layout-row-simple]]></Type>
+    <Key><![CDATA[m/layout/row-simple]]></Key>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/alkacon.opencms.documentation/formatters/layout/simple.jsp]]></target>
+        <uuid>73295620-c9f2-11ec-a595-0242ac11002b</uuid>
+      </link>
+    </Jsp>
+    <Rank><![CDATA[1000]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[row]]></ContainerType>
+      </Types>
+    </Match>
+    <AutoEnabled>false</AutoEnabled>
+    <SearchContent>false</SearchContent>
+    <StrictContainers>true</StrictContainers>
+    <IncludeSettings>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/alkacon.mercury.template/configuration/shared-settings.xml]]></target>
+        <uuid>77009936-87a5-42b3-86ff-90252ede0593</uuid>
+      </link>
+    </IncludeSettings>
+    <Setting>
+      <IncludeName><![CDATA[cssWrapper.default]]></IncludeName>
+      <Widget><![CDATA[%(stringtemplate:showCssWrapper)]]></Widget>
+    </Setting>
+    <Setting>
+      <IncludeName><![CDATA[detailContainer.layout]]></IncludeName>
+    </Setting>
+    <Setting>
+      <IncludeName><![CDATA[containerOrder.layout]]></IncludeName>
+    </Setting>
+    <Setting>
+      <IncludeName><![CDATA[useFlex.layout]]></IncludeName>
+    </Setting>
+    <Setting>
+      <IncludeName><![CDATA[colWidth.layout]]></IncludeName>
+    </Setting>
+    <Setting>
+      <IncludeName><![CDATA[tileCss.layout]]></IncludeName>
+    </Setting>
+    <Setting>
+      <IncludeName><![CDATA[tileMargin.layout]]></IncludeName>
+    </Setting>
+    <Attribute>
+      <Key><![CDATA[showCssWrapper]]></Key>
+      <Value><![CDATA[%!
+            !%%if (fn.(content.value.("Variant")).isEqual.("12")
+                || fn.(content.value.("Variant")).isEqual.("adjust"))%%!
+                !%${attribute:cssWrapperWidget:selectcombo}%!
+            !%%else%%!
+                !%${attribute:cssWrapperWidgetOptional:string}%!
+            !%%endif%%!
+        !%]]></Value>
+    </Attribute>
+    <Attribute>
+      <Key><![CDATA[showContainerOrder]]></Key>
+      <Value><![CDATA[%!
+            !%%if (fn.(content.value.("Variant")).isEqual.("12")
+                || fn.(content.value.("Variant")).isEqual.("6-6")
+                || fn.(content.value.("Variant")).isEqual.("adjust")
+                || fn.(content.value.("Variant")).isEqual.("tile-row"))%%!
+                !%hidden%!
+            !%%else%%!
+                !%select%!
+            !%%endif%%!
+        !%]]></Value>
+    </Attribute>
+    <Attribute>
+      <Key><![CDATA[useFlex]]></Key>
+      <Value><![CDATA[%!
+            !%%if (fn.(content.value.("Variant")).isEqual.("12")
+                || fn.(content.value.("Variant")).isEqual.("adjust")
+                || fn.(content.value.("Variant")).isEqual.("tile-row"))%%!
+                !%hidden%!
+            !%%else%%!
+                !%checkbox%!
+            !%%endif%%!
+        !%]]></Value>
+    </Attribute>
+    <Attribute>
+      <Key><![CDATA[isTile]]></Key>
+      <Value><![CDATA[%!
+            !%%if (fn.(content.value.("Variant")).isEqual.("tile-row"))%%!
+                !%${attribute:selectOrCombo:selectcombo}%!
+            !%%else%%!
+                !%hidden%!
+            !%%endif%%!
+        !%]]></Value>
+    </Attribute>
+    <Attribute>
+      <Key><![CDATA[showColWidth]]></Key>
+      <Value><![CDATA[%!
+            !%%if (fn.(content.value.("Variant")).isEqual.("adjust"))%%!
+                !%select%!
+            !%%else%%!
+                !%hidden%!
+            !%%endif%%!
+        !%]]></Value>
+    </Attribute>
+  </NewFormatter>
+</NewFormatters>
