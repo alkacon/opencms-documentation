@@ -38,7 +38,8 @@
   },
   "scripts": {
     "css:legacy": "npm run            --silent cssg:all    --xsrcdir=template-src/scss/themes/legacy              --xbuilddir=build/npm/legacy              --xdeploydir=/system/modules/com.alkacon.opencms.documentation/resources/css/",
-    "//0": "",
+    "css:docu":   "npm run            --silent cssg:all    --xsrcdir=template-src/scss/themes/opencms             --xbuilddir=build/npm/opencms             --xdeploydir=/system/modules/alkacon.opencms.documentation/resources/css/",
+	"//0": "",
     "watch:legacy": "npm run          --silent wat:all     --xgenscript=css:legacy",
     "//1": "",
     "js:dummy": "",

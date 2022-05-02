@@ -1,0 +1,150 @@
+/**
+ * This program is part of the OpenCms Mercury Template.
+ *
+ * Copyright (c) Alkacon Software GmbH & Co. KG (http://www.alkacon.com)
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/**********
+ * Theme file: neutral-rot .scss
+ */
+
+$feature-use-burger-header:         false; // use the burger header
+
+$main-theme:                    #7e008e; // purple
+$main-theme-hover:              #bb29bb; // lighter purple
+
+$use-dotted-line:                   false;
+$fh-meta-bg-color:                  #222; // same as $foot-sub-bg-color
+$fh-title-bg-color:                 $main-theme; // same as $main-theme
+
+$nav-toggle-border-width:           2px !default;
+$nav-mobile-box-border-radius:      4px !default;
+
+// Main theme colors
+
+@import "mercury-bistuemer/template-src/scss/generator/imports-bistuemer-before";
+
+$opencms-red:                   #b31b34;
+$alkacon-blue:                  #144382;
+
+$light-red:                     #ff264a;
+$light-blue:                    #2197db;
+
+$white:                         #fff !default;
+$grey-light:                    #ddd !default;
+$grey-lighter:                  #f7f7f7 !default;
+
+$default-border-radius:         4px;
+$btn-border-radius:             2px;
+
+$font-family-base:              "Fira Sans" !default;
+$font-family-headings:          "Merriweather" !default;
+
+$font-weight-normal:            300 !default;
+$font-weight-bold:              500 !default;
+$font-weight-headings:          400 !default;
+$btn-font-weight:               400 !default;
+$font-weight-intro-headings:    700 !default;
+
+$font-size-base:                1.7rem !default;
+$font-size-headings:            2.2rem !default;
+$line-height-base:              1.4 !default;
+$line-height-headings:          1.35 !default;
+
+$text-dark:                     #444 !default;
+$headings-color:                #222 !default;
+$headings-margin-bottom:        1.5rem !default;
+$linked-headings-color:         $main-theme-hover !default;
+
+$nav-side-boxed:                false !default;
+$nav-side-left-padding-start:   2px !default;
+$nav-header-font-size:          17px !default;
+$nav-header-font-weight:        $font-weight-normal !default;
+$fh-title-bg-color:             $main-theme-hover !default;
+$bh-title-font-size-mobile:     20px !default;
+
+$nav-toggle-size:               38px !default;
+$nav-mobile-smaller-xs-toggle:  false !default;
+$nav-mobile-line-target-height: 46px !default; // these 3 lines make the boxes and the burger the same size in all screens
+$nav-bg-hover:                  $grey-lighter !default;
+$nav-bg-active-mobile:          transparent !default;
+$nav-text-active-mobile:        $main-theme !default;
+$nav-text-hover-mobile:         $text-dark !default;
+$nav-mobile-box-color:          $text-dark !default;
+$nav-mobile-box-bg-color:       $nav-bg-hover !default;
+$nav-mobile-font-weight:        $font-weight-normal !default;
+$nav-mobile-font-weight-final:  $font-weight-bold !default;
+$nav-mobile-header-font-weight: $nav-mobile-font-weight !default;
+$nav-mobile-border-color:       $nav-bg-hover !default;
+
+// $fh-logo-image-bg:              $main-theme !default;
+
+// Footer colors
+$foot-top-bg-color:             $main-theme-hover !default;
+$foot-top-text-color:           #fff !default;
+$foot-top-link-color:           #fff !default;
+$foot-top-link-hover-color:     #e4e4e4 !default;
+
+$foot-sub-bg-color:             #222 !default;
+$foot-sub-text-color:           $foot-top-text-color !default;
+$foot-sub-link-color:           $foot-top-link-color !default;
+$foot-sub-link-hover-color:     $foot-top-link-hover-color !default;
+
+// Akzent colors
+$color-akzent1:                 $grey-light !default;
+$color-akzent2:                 $color-ebk-gold !default;
+$color-akzent3:                 $color-alkacon-crimson !default;
+
+$feature-use-burger-header:      false !default; // use the wrapping menu
+
+// Import the other files
+
+$sq-margins:    (0, 1, 2, 20);
+
+@import "mercury-bistuemer/template-src/scss/generator/imports-bistuemer-agency-after";
+@import "mercury-customers/template-src/scss/features/_section-ext";
+
+#icon-list {
+    .fa-hover a {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        display: block;
+        color: $text-dark;
+        line-height: 32px;
+        height: 32px;
+        padding-left: 10px;
+        border-radius: $btn-border-radius;
+
+        &:hover {
+            background-color: $main-theme;
+            color: $text-light;
+            text-decoration: none;
+        }
+
+        .fa {
+            width: 32px;
+            font-size: 14px;
+            display: inline-block;
+            text-align: right;
+            margin-right: 10px;
+        }
+    }
+
+    .icon-header {
+        margin-top: $default-margin;
+    }
+}
