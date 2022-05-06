@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[Configurations, formatters and localizations for the Alkacon OpenCms documentation.]]></description>
-		<version>14.0.2</version>
+		<version>14.0.3</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
@@ -241,6 +241,60 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/alkacon.opencms.documentation/formatters/element/flexible-code.jsp</source>
+			<destination>system/modules/alkacon.opencms.documentation/formatters/element/flexible-code.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>2981bd3d-cd0d-11ec-be3f-0242ac11002b</uuidstructure>
+			<uuidresource>2981bd3e-cd0d-11ec-be3f-0242ac11002b</uuidresource>
+			<datecreated>Fri, 06 May 2022 07:21:35 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[JSP for flexible element format source code]]></value>
+				</property>
+				<property>
+					<name>cache</name>
+					<value><![CDATA[container-element;uri]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/alkacon.opencms.documentation/formatters/element/flexible-code.xml</source>
+			<destination>system/modules/alkacon.opencms.documentation/formatters/element/flexible-code.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>882f9031-cd0d-11ec-be3f-0242ac11002b</uuidstructure>
+			<uuidresource>882f9032-cd0d-11ec-be3f-0242ac11002b</uuidresource>
+			<datecreated>Fri, 06 May 2022 07:24:14 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Flexible element format source code]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/alkacon.opencms.documentation/formatters/element/relatedlinks.xml</source>
 			<destination>system/modules/alkacon.opencms.documentation/formatters/element/relatedlinks.xml</destination>
 			<type>formatter_config</type>
@@ -435,24 +489,24 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[highlight.js syntax highlighter (version 8)]]></value>
+					<value><![CDATA[highlight.js syntax highlighter (version 11.5.1)]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/alkacon.opencms.documentation/resources/highlight-js/highlight.pack.js</source>
-			<destination>system/modules/alkacon.opencms.documentation/resources/highlight-js/highlight.pack.js</destination>
+			<source>system/modules/alkacon.opencms.documentation/resources/highlight-js/highlight.min.js</source>
+			<destination>system/modules/alkacon.opencms.documentation/resources/highlight-js/highlight.min.js</destination>
 			<type>plain</type>
-			<uuidstructure>8acf5066-ca1c-11ec-a595-0242ac11002b</uuidstructure>
-			<uuidresource>8acf5067-ca1c-11ec-a595-0242ac11002b</uuidresource>
-			<datecreated>Mon, 02 May 2022 13:34:07 GMT</datecreated>
+			<uuidstructure>3e1ebd58-cd12-11ec-be3f-0242ac11002b</uuidstructure>
+			<uuidresource>3e1ebd59-cd12-11ec-be3f-0242ac11002b</uuidresource>
+			<datecreated>Fri, 06 May 2022 07:57:57 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[highlight.pack]]></value>
+					<value><![CDATA[highlight.min]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -469,17 +523,17 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/alkacon.opencms.documentation/resources/highlight-js/styles/default.css</source>
-			<destination>system/modules/alkacon.opencms.documentation/resources/highlight-js/styles/default.css</destination>
+			<source>system/modules/alkacon.opencms.documentation/resources/highlight-js/styles/default.min.css</source>
+			<destination>system/modules/alkacon.opencms.documentation/resources/highlight-js/styles/default.min.css</destination>
 			<type>plain</type>
-			<uuidstructure>8acdf0d3-ca1c-11ec-a595-0242ac11002b</uuidstructure>
-			<uuidresource>8acdf0d4-ca1c-11ec-a595-0242ac11002b</uuidresource>
-			<datecreated>Mon, 02 May 2022 13:34:07 GMT</datecreated>
+			<uuidstructure>4e97cfb7-cd12-11ec-be3f-0242ac11002b</uuidstructure>
+			<uuidresource>4e97cfb8-cd12-11ec-be3f-0242ac11002b</uuidresource>
+			<datecreated>Fri, 06 May 2022 07:58:25 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[default]]></value>
+					<value><![CDATA[default.min]]></value>
 				</property>
 			</properties>
 			<relations/>

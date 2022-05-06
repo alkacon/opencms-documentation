@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The contents of the Alkacon OpenCms documentation.]]></description>
-		<version>14.0.2</version>
+		<version>14.0.4</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
@@ -159,6 +159,67 @@
 				<property type="shared">
 					<name>Title</name>
 					<value><![CDATA[Default Model for site "OpenCms Documentation (Mercury)"]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/.content/flexible-m</destination>
+			<type>folder</type>
+			<uuidstructure>d973e4ac-cd0e-11ec-be3f-0242ac11002b</uuidstructure>
+			<datecreated>Fri, 06 May 2022 07:33:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.content/flexible-m/fc_00001.xml</source>
+			<destination>sites/documentation/.content/flexible-m/fc_00001.xml</destination>
+			<type>m-flexible</type>
+			<uuidstructure>d975443e-cd0e-11ec-be3f-0242ac11002b</uuidstructure>
+			<uuidresource>d975443f-cd0e-11ec-be3f-0242ac11002b</uuidresource>
+			<datecreated>Fri, 06 May 2022 07:33:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Introduction: Test Code HTML]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.content/flexible-m/fc_00002.xml</source>
+			<destination>sites/documentation/.content/flexible-m/fc_00002.xml</destination>
+			<type>m-flexible</type>
+			<uuidstructure>2a1548c4-cd23-11ec-be3f-0242ac11002b</uuidstructure>
+			<uuidresource>2a1548c5-cd23-11ec-be3f-0242ac11002b</uuidresource>
+			<datecreated>Fri, 06 May 2022 09:59:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Introduction: Test  Code 2]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.content/flexible-m/fc_00003.xml</source>
+			<destination>sites/documentation/.content/flexible-m/fc_00003.xml</destination>
+			<type>m-flexible</type>
+			<uuidstructure>e3d3ed93-cd2a-11ec-be3f-0242ac11002b</uuidstructure>
+			<uuidresource>e3d3ed94-cd2a-11ec-be3f-0242ac11002b</uuidresource>
+			<datecreated>Fri, 06 May 2022 10:54:23 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Introduction: Code 3]]></value>
 				</property>
 			</properties>
 			<relations/>

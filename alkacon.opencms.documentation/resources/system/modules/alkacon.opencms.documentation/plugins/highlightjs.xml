@@ -8,17 +8,17 @@
       <Group><![CDATA[css]]></Group>
       <Target>
         <link internal="true" type="WEAK">
-          <target><![CDATA[/system/modules/alkacon.opencms.documentation/resources/highlight-js/styles/default.css]]></target>
-          <uuid>8acdf0d3-ca1c-11ec-a595-0242ac11002b</uuid>
+          <target><![CDATA[/system/modules/alkacon.opencms.documentation/resources/highlight-js/styles/default.min.css]]></target>
+          <uuid>4e97cfb7-cd12-11ec-be3f-0242ac11002b</uuid>
         </link>
       </Target>
     </Plugin>
     <Plugin>
-      <Group><![CDATA[js-async]]></Group>
+      <Group><![CDATA[js-defer]]></Group>
       <Target>
         <link internal="true" type="WEAK">
-          <target><![CDATA[/system/modules/alkacon.opencms.documentation/resources/highlight-js/highlight.pack.js]]></target>
-          <uuid>8acf5066-ca1c-11ec-a595-0242ac11002b</uuid>
+          <target><![CDATA[/system/modules/alkacon.opencms.documentation/resources/highlight-js/highlight.min.js]]></target>
+          <uuid>3e1ebd58-cd12-11ec-be3f-0242ac11002b</uuid>
         </link>
       </Target>
     </Plugin>
