@@ -39,8 +39,9 @@
   "scripts": {
     "css:legacy": "npm run            --silent cssg:all    --xsrcdir=template-src/scss/themes/legacy              --xbuilddir=build/npm/legacy              --xdeploydir=/system/modules/com.alkacon.opencms.documentation/resources/css/",
     "css:docu":   "npm run            --silent cssg:all    --xsrcdir=template-src/scss/themes/opencms             --xbuilddir=build/npm/opencms             --xdeploydir=/system/modules/alkacon.opencms.documentation/resources/css/",
-	"//0": "",
+    "//0": "",
     "watch:legacy": "npm run          --silent wat:all     --xgenscript=css:legacy",
+    "watch:docu": "npm run            --silent wat:all     --xgenscript=css:docu",
     "//1": "",
     "js:dummy": "",
     "//2": "",
@@ -62,6 +63,6 @@
     "jsg:mkdir": "mkdirp $npm_config_xbuilddir",
     "jsg:minify": "uglifyjs $npm_config_xsrcdir/$npm_config_xsrcfile.js --verbose --compress --mangle --source-map includeSources,url=$npm_config_xsrcfile.js.map --output $npm_config_xbuilddir/$npm_config_xsrcfile.js",
     "jsg:deploy": "copyfiles -f -V $npm_config_xbuilddir/$npm_config_xsrcfile.* ${OCMOUNT}/$npm_config_xdeploydir",
-    "wat:all": "nodemon --watch template-src --watch $npm_package_config_basedir/template-src --ext scss --exec \"npm run --silent $npm_config_xgenscript\""
+    "wat:all": "nodemon --watch template-src --watch ../mercury-customers/template-src --watch $npm_package_config_basedir/template-src --ext scss --exec \"npm run --silent $npm_config_xgenscript\""
   }
 }

@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The contents of the Alkacon OpenCms documentation.]]></description>
-		<version>14.0.2</version>
+		<version>14.0.3</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
@@ -48,6 +48,10 @@
 				<property type="shared">
 					<name>Title</name>
 					<value><![CDATA[OpenCms Documentation [RELAUNCH]]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en, de]]></value>
 				</property>
 				<property>
 					<name>mercury.theme</name>
@@ -185,7 +189,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Header for the OpenCms Documentation: New link sequence]]></value>
+					<value><![CDATA[Header for the OpenCms Documentation: Wichtige Seiten]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -382,6 +386,23 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>sites/documentation/.content/section-ext-m/ecs_00002.xml</source>
+			<destination>sites/documentation/.content/section-ext-m/ecs_00002.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>900048a9-cd2e-11ec-9bc3-0242ac11002b</uuidstructure>
+			<uuidresource>900048aa-cd2e-11ec-9bc3-0242ac11002b</uuidresource>
+			<datecreated>Fri, 06 May 2022 11:20:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Extended Section: Extended content section demo]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>sites/documentation/.content/section-m</destination>
 			<type>folder</type>
 			<uuidstructure>72ce4e23-c9fb-11ec-a595-0242ac11002b</uuidstructure>
@@ -399,7 +420,12 @@
 			<uuidresource>18756e69-c48b-11ec-a595-0242ac11002b</uuidresource>
 			<datecreated>Mon, 25 Apr 2022 11:30:23 GMT</datecreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Header for the OpenCms Documentation: ]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -414,7 +440,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Footer Section]]></value>
+					<value><![CDATA[Footer for the OpenCms Documentation: Footer Section]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -1829,7 +1855,7 @@
 		</file>
 		<file>
 			<destination>sites/documentation/.galleries/logos</destination>
-			<type>folder</type>
+			<type>imagegallery</type>
 			<uuidstructure>e7237f26-c9fb-11ec-a595-0242ac11002b</uuidstructure>
 			<datecreated>Mon, 02 May 2022 09:40:29 GMT</datecreated>
 			<flags>0</flags>
@@ -2251,6 +2277,102 @@
 				<property>
 					<name>search.exclude</name>
 					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/core/formatter-test</destination>
+			<type>folder</type>
+			<uuidstructure>fb976225-cd2c-11ec-9bc3-0242ac11002b</uuidstructure>
+			<datecreated>Fri, 06 May 2022 11:09:22 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.5]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Formatter Test]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter Test]]></value>
+				</property>
+				<property>
+					<name>default-file</name>
+					<value><![CDATA[##navigation_level_folder##]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/core/formatter-test/index.html</source>
+			<destination>sites/documentation/core/formatter-test/index.html</destination>
+			<type>htmlredirect</type>
+			<uuidstructure>fb98e8cb-cd2c-11ec-9bc3-0242ac11002b</uuidstructure>
+			<uuidresource>fb98e8cc-cd2c-11ec-9bc3-0242ac11002b</uuidresource>
+			<datecreated>Fri, 06 May 2022 11:09:22 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+				<property type="shared">
+					<name>template-elements</name>
+					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/core/formatter-test/section-ext</destination>
+			<type>folder</type>
+			<uuidstructure>0846e970-cd2d-11ec-9bc3-0242ac11002b</uuidstructure>
+			<datecreated>Fri, 06 May 2022 11:09:43 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Extended Section]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Extended Section]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/core/formatter-test/section-ext/index.html</source>
+			<destination>sites/documentation/core/formatter-test/section-ext/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>084a92f5-cd2d-11ec-9bc3-0242ac11002b</uuidstructure>
+			<uuidresource>084a92f6-cd2d-11ec-9bc3-0242ac11002b</uuidresource>
+			<datecreated>Fri, 06 May 2022 11:09:43 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Extended Section]]></value>
 				</property>
 			</properties>
 			<relations/>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Extended content section demo]]></Title>
+    <Section>
+      <Caption><![CDATA[This is the first caption]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p class="p1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/documentation/.galleries/logos/alkacon-logo.svg]]></target>
+            <uuid>41154b9f-c48d-11ec-a595-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Alkacon logo]]></Title>
+      </Image>
+      <Link>
+        <Text><![CDATA[Alkacon website]]></Text>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[https://www.alkacon.com]]></target>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Pneumonoultramicroscopicsilicovolcanoconiosiscaptiontwo]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/documentation/core/]]></target>
+            <uuid>db9d8dfd-c9fc-11ec-a595-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Pneumonoultramicroscopicsilicovolcanoconiosis antidisestablishmentarianism consanguineous embourgeoisement <a href="%(link0)">xenotransplantation</a> supercalifragilisticexpialidocious incomprehensibilities.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/documentation/.galleries/logos/opencms_logo.svg]]></target>
+            <uuid>a93abdc5-c48b-11ec-a595-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[OpenCms logo]]></Title>
+      </Image>
+      <Link>
+        <Text><![CDATA[OpenCms website]]></Text>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[http://www.opencms.org]]></target>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Caption three without text ]]></Caption>
+    </Section>
+    <Section>
+      <Caption><![CDATA[The forth caption]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Text without caption. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

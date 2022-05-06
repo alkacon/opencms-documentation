@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <LinkSequenceData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/linksequence.xsd">
+  <LinkSequence language="de">
+    <Title><![CDATA[Wichtige Seiten]]></Title>
+    <LinkEntry>
+      <Text/>
+      <URI/>
+    </LinkEntry>
+  </LinkSequence>
   <LinkSequence language="en">
-    <Title><![CDATA[New link sequence]]></Title>
+    <Title><![CDATA[Service links]]></Title>
     <LinkEntry>
       <Text><![CDATA[opencms.org]]></Text>
       <URI>
@@ -20,25 +27,6 @@
         </link>
       </URI>
       <NewWindow>true</NewWindow>
-    </LinkEntry>
-    <LinkEntry>
-      <Text><![CDATA[Impressum]]></Text>
-      <URI>
-        <link internal="true" type="WEAK">
-          <target><![CDATA[/sites/default/central/impressum/]]></target>
-          <uuid>aeacde4e-56b3-11e9-bbec-0242ac11002b</uuid>
-        </link>
-      </URI>
-      <NewWindow>false</NewWindow>
-    </LinkEntry>
-    <LinkEntry>
-      <Text><![CDATA[Privacy policy]]></Text>
-      <URI>
-        <link internal="true" type="WEAK">
-          <target><![CDATA[/sites/default/central/privacy-policy/]]></target>
-          <uuid>bba6b4f8-56b3-11e9-bbec-0242ac11002b</uuid>
-        </link>
-      </URI>
     </LinkEntry>
   </LinkSequence>
 </LinkSequenceData>

@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[Configurations, formatters and localizations for the Alkacon OpenCms documentation.]]></description>
-		<version>14.0.2</version>
+		<version>14.0.3</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
@@ -81,31 +81,6 @@
 			<datecreated>Mon, 25 Apr 2022 14:45:27 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/alkacon.opencms.documentation/configuration/alkacon.opencms.documentation.additions.xml</source>
-			<destination>system/modules/alkacon.opencms.documentation/configuration/alkacon.opencms.documentation.additions.xml</destination>
-			<type>sitemap_master_config</type>
-			<uuidstructure>ad77892b-c4a6-11ec-a595-0242ac11002b</uuidstructure>
-			<uuidresource>ad77892c-c4a6-11ec-a595-0242ac11002b</uuidresource>
-			<datecreated>Mon, 25 Apr 2022 14:47:49 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>locale</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>locale-available</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>search.exclude</name>
-					<value><![CDATA[true]]></value>
-				</property>
-			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
