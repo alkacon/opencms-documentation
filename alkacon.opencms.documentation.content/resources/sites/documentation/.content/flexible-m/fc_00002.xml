@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Test  Code 2]]></Title>
+    <Code name="Code0">
+      <links/>
+      <content><![CDATA[GET /json/sites/?wrapper=false&levels=3
+{
+  "alkacon": {
+    "children": {
+      ".content": {},
+      "web": {
+        "children": {
+          ".content": {},
+          "index.html": {}
+        }
+      },
+      "intranet": {
+        "children": {
+          ".content": {},
+          "index.html": {}
+        }
+      },
+      "opencms": {
+        "children": {
+          ".content": {},
+          "index.html": {}
+        }
+      }
+    }
+  }
+}]]></content>
+    </Code>
+  </Flexible>
+</FlexibleData>

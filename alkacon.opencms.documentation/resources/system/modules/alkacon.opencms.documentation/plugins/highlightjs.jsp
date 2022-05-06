@@ -6,9 +6,11 @@
 
 <script>
 mercury.ready(function() {
-    hljs.configure({
-           languages: ['jsp', 'java', 'html', 'javascript', 'css', 'bash']
-        });
-    hljs.initHighlightingOnLoad();
+    try {
+        hljs.highlightAll();
+    } catch (e) {
+        // highlight JS was not completely loaded, try again
+        setTimeout(function(){ hljs.highlightAll(); }, 500);
+    }
 });
 </script>
