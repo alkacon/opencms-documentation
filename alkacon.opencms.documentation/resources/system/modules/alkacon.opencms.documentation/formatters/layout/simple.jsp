@@ -11,7 +11,6 @@
 <%@ taglib prefix="mercury" tagdir="/WEB-INF/tags/mercury" %>
 
 <cms:formatter var="content" val="value">
-<cms:decorate file="%(link.strong:/system/modules/alkacon.opencms.documentation/decoration/configuration.xml:e30520f6-c9f4-11ec-a595-0242ac11002b)">
 
 <c:set var="variant"            value="${value.Variant}" />
 <c:set var="setting"            value="${cms.element.setting}" />
@@ -34,7 +33,9 @@
         <c:set target="${valueMap}" property="Name"             value="maincol"/>
         <c:set target="${valueMap}" property="Css"              value="row-12${cssWrapper}" />
         <c:set target="${valueMap}" property="Parameters"       value="${{'cssgrid': 'col-xs-12'}}" />
-        <mercury:container value="${valueMap}" title="${value.Title}" detailView="${isMainDetail}" />
+        <cms:decorate file="%(link.strong:/system/modules/alkacon.opencms.documentation/decoration/configuration.xml:e30520f6-c9f4-11ec-a595-0242ac11002b)">
+            <mercury:container value="${valueMap}" title="${value.Title}" detailView="${isMainDetail}" />
+        </cms:decorate>
     </c:when>
     <c:when test="${variant eq 'adjust'}">
         <%-- lr_00013 --%>
@@ -339,5 +340,4 @@
 <mercury:nl />
 
 <mercury:container-box label="${value.Title}" boxType="model-end" />
-</cms:decorate>
 </cms:formatter>

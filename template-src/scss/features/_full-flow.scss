@@ -1,0 +1,178 @@
+// This program is part of the OpenCms Mercury Template.
+//
+// Copyright (c) Alkacon Software GmbH & Co. KG (http://www.alkacon.com)
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+/**********
+ * Source file:_full-flow.scss
+ */
+
+// make text use the full available space but fix images at predefined sizes
+
+$full-flow-min:                         768px !default; // width from where to use the full flow layout
+$full-flow-breakpoints:                 (lg, xl) !default; // breakpoints that shouls use the full flow layout
+$full-flow-child-cols-in-split-area:    (3, 4, 6, 8, 9) !default; // supported child column sizes in an area that is not full-width
+$full-flow-support-area-one-row:        true; // activate support for full width area
+
+.container-full {
+    @include make-container();
+}
+
+@function get-col-flex-abs-size($breakpoint, $col-size, $parent-col-size, $grand-parent-col-size: $grid-columns, $reduce: 0) {
+    @return floor(
+        (map-get($container-max-widths, $breakpoint)
+            * divide($col-size, $grid-columns)
+            * divide($parent-col-size, $grid-columns)
+            * divide($grand-parent-col-size, $grid-columns)
+        ) - ((0.5 * $grid-gutter-width) + $reduce));
+}
+
+@function get-col-float-abs-size($breakpoint, $col-size, $parent-col-size, $grand-parent-col-size: $grid-columns, $reduce: 0) {
+    @return floor(
+        (map-get($container-max-widths, $breakpoint)
+            * divide($col-size, $grid-columns)
+            * divide($parent-col-size, $grid-columns)
+            * divide($grand-parent-col-size, $grid-columns)
+        ) - ($grid-gutter-width + $reduce));
+}
+
+@function get-col-abs-size($breakpoint, $col-size) {
+    @if ($col-size < 12) {
+        @return floor(map-get($container-max-widths, $breakpoint) * divide($col-size, $grid-columns));
+    } @else {
+        @return 100%;
+    }
+}
+
+@mixin make-col-abs-size($breakpoint, $own-col-size, $remaining: false) {
+    @if ($own-col-size < $grid-columns) {
+        @if ($remaining) {
+            $col-width: floor(map-get($container-max-widths, $breakpoint) * divide(($grid-columns - $own-col-size), $grid-columns));
+            flex: 0 0 calc(100% - #{$col-width + 1px});
+            max-width: calc(100% - #{$col-width + 1px});
+        } @else {
+            $col-width: floor(map-get($container-max-widths, $breakpoint) * divide($own-col-size, $grid-columns));
+            flex: 0 0 #{$col-width};
+            max-width: #{$col-width};
+        }
+    }
+}
+
+@mixin make-growing-pieces ($breakpoint, $parent-col-size: $grid-columns, $grand-parent-col-size: $grid-columns) {
+    @each $piece-col-size in $piece-cols {
+        .piece.flex.p-md-#{""+$piece-col-size} {
+            $visual-width: get-col-flex-abs-size($breakpoint, $piece-col-size, $parent-col-size, $grand-parent-col-size);
+            > .visual {
+                flex: 0 0 #{$visual-width};
+                // max-width: $visual-width;
+            }
+            > .body {
+                flex: 0 0 calc(100% - #{$visual-width});
+                // max-width: calc(100% - #{$visual-width});
+            }
+        }
+        .piece.float.p-md-#{""+$piece-col-size} {
+            > .visual {
+                max-width: get-col-float-abs-size($breakpoint, $piece-col-size, $parent-col-size, $grand-parent-col-size);
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(nth($full-flow-breakpoints, 1)) {
+    // header
+    header.bh,
+    header.fh {
+        .co-lg-xl,
+        .h-group {
+            max-width: none;
+        }
+    }
+
+    .container {
+        max-width: none;
+    }
+}
+
+@each $breakpoint in $full-flow-breakpoints {
+    @include media-breakpoint-up($breakpoint) {
+
+        .container {
+            > .row {
+                @each $parent-col-size in (3, 4) {
+                    > aside {
+                        &.col-lg-#{$parent-col-size} {
+                            max-width: get-col-abs-size($breakpoint, $parent-col-size);
+                        }
+                    }
+                }
+            }
+            > .row {
+                @each $parent-col-size in (8, 9) {
+                    > .col-lg-#{$parent-col-size} {
+                        @include make-col-abs-size($breakpoint, $parent-col-size, true);
+                        > .row-12 {
+                            @include make-growing-pieces($breakpoint, $parent-col-size);
+                        }
+                        @each $child-col-size in $full-flow-child-cols-in-split-area {
+                            > .row > .col-lg-#{$child-col-size} {
+                                @include make-growing-pieces($breakpoint, $child-col-size, $parent-col-size);
+                            }
+                        }
+                    }
+                }
+            }
+            > .row-12 {
+                @include make-growing-pieces($breakpoint, 12);
+            }
+        }
+
+        @if ($full-flow-support-area-one-row) {
+            .area-one-row {
+                > .container {
+                    > .row-12 {
+                        @include make-growing-pieces($breakpoint, 12);
+                    }
+                    @each $child-col-size in (3, 4,) {
+                        > .row > .col-lg-#{$child-col-size}.col-side {
+                            @include make-col-abs-size($breakpoint, $child-col-size, false);
+                        }
+                    }
+                    @each $child-col-size in (3, 4, 6) {
+                        > .row > .col-lg-#{$child-col-size}:not(.col-side) {
+                            @include make-growing-pieces($breakpoint, $child-col-size, 12);
+                        }
+                    }
+                    @each $child-col-size in (8, 9) {
+                        > .row > .col-lg-#{$child-col-size} {
+                            @include make-col-abs-size($breakpoint, $child-col-size, true);
+                            @include make-growing-pieces($breakpoint, $child-col-size, 12);
+                        }
+                    }
+                }
+            }
+        }
+
+        .area-header {
+            .col-lg-3 {
+                @include make-col-abs-size($breakpoint, 3);
+            }
+            .col-lg-9 {
+                @include make-col-abs-size($breakpoint, 9, true);
+            }
+        }
+    }
+}
+

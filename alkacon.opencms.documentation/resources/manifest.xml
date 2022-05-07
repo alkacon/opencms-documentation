@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[Configurations, formatters and localizations for the Alkacon OpenCms documentation.]]></description>
-		<version>14.0.4</version>
+		<version>14.0.7</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
@@ -308,6 +308,35 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Main layout (area, row, group) formatters]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/alkacon.opencms.documentation/formatters/layout/area-simple.xml</source>
+			<destination>system/modules/alkacon.opencms.documentation/formatters/layout/area-simple.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>492f3a13-cdd6-11ec-9bc3-0242ac11002b</uuidstructure>
+			<uuidresource>492f3a14-cdd6-11ec-9bc3-0242ac11002b</uuidresource>
+			<datecreated>Sat, 07 May 2022 07:21:17 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Simple area]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[de,en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[de,en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
 				</property>
 			</properties>
 			<relations/>

@@ -156,8 +156,11 @@ $match-text-bg-colors: (
 
 
 @import 'mercury-template/template-src/scss/imports';
-@import 'mercury-bistuemer/template-src/scss/features/intra-specials';
-@import "mercury-customers/template-src/scss/features/_section-ext";
+@import "mercury-customers/template-src/scss/features/section-ext";
+
+$full-flow-child-cols-in-split-area:    () !default;
+$full-flow-support-area-one-row:        false !default;
+@import '../../features/full-flow';
 
 @media (min-width: $full-page-max-width) {
     body {

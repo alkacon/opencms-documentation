@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[%(key.type.m-layout-area-simple.formatter.default)]]></NiceName>
+    <Type><![CDATA[m-layout-area-simple]]></Type>
+    <Key><![CDATA[m/layout/area-simple]]></Key>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/alkacon.opencms.documentation/formatters/layout/simple.jsp]]></target>
+        <uuid>73295620-c9f2-11ec-a595-0242ac11002b</uuid>
+      </link>
+    </Jsp>
+    <Rank><![CDATA[1000]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[area]]></ContainerType>
+      </Types>
+    </Match>
+    <AutoEnabled>false</AutoEnabled>
+    <SearchContent>false</SearchContent>
+    <StrictContainers>true</StrictContainers>
+    <IncludeSettings>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/alkacon.mercury.template/configuration/shared-settings.xml]]></target>
+        <uuid>77009936-87a5-42b3-86ff-90252ede0593</uuid>
+      </link>
+    </IncludeSettings>
+    <Setting>
+      <IncludeName><![CDATA[cssWrapper.optional]]></IncludeName>
+    </Setting>
+    <Setting>
+      <IncludeName><![CDATA[bgImage.layout]]></IncludeName>
+    </Setting>
+    <Setting>
+      <IncludeName><![CDATA[asideOnTop.layout]]></IncludeName>
+    </Setting>
+    <Setting>
+      <IncludeName><![CDATA[bgColor.layout]]></IncludeName>
+    </Setting>
+    <Setting>
+      <IncludeName><![CDATA[bgSpacing.layout]]></IncludeName>
+    </Setting>
+    <Attribute>
+      <Key><![CDATA[needBgImage]]></Key>
+      <Value><![CDATA[%!
+            !%%if (fn.(content.value.("Variant")).isEqual.("area-one-row"))%%!
+                !%gallery%!
+            !%%else%%!
+                !%hidden%!
+            !%%endif%%!
+        !%]]></Value>
+    </Attribute>
+    <Attribute>
+      <Key><![CDATA[needBgColor]]></Key>
+      <Value><![CDATA[%!
+            !%%if (fn.(content.value.("Variant")).isEqual.("area-one-row"))%%!
+                !%${attribute:selectOrCombo:selectcombo}%!
+            !%%else%%!
+                !%hidden%!
+            !%%endif%%!
+        !%]]></Value>
+    </Attribute>
+    <Attribute>
+      <Key><![CDATA[needAsideOnTop]]></Key>
+      <Value><![CDATA[%!
+            !%%if (fn.(content.value.("Variant")).isEqual.("area-side-main")
+                || fn.(content.value.("Variant")).isEqual.("area-main-side"))%%!
+                !%checkbox%!
+            !%%else%%!
+                !%hidden%!
+            !%%endif%%!
+        !%]]></Value>
+    </Attribute>
+  </NewFormatter>
+</NewFormatters>

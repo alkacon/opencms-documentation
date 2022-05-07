@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The contents of the Alkacon OpenCms documentation.]]></description>
-		<version>14.0.5</version>
+		<version>14.0.6</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
@@ -519,6 +519,23 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Introduction: Welcome text]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.content/section-m/cs_00004.xml</source>
+			<destination>sites/documentation/.content/section-m/cs_00004.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>e7385e82-cdd2-11ec-9bc3-0242ac11002b</uuidstructure>
+			<uuidresource>e7385e83-cdd2-11ec-9bc3-0242ac11002b</uuidresource>
+			<datecreated>Sat, 07 May 2022 06:57:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Full flow layout: Short sample text ]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -2176,6 +2193,191 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>sites/documentation/.galleries/samples</destination>
+			<type>imagegallery</type>
+			<uuidstructure>04e7831a-cdd2-11ec-9bc3-0242ac11002b</uuidstructure>
+			<datecreated>Sat, 07 May 2022 06:50:45 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Documentation: Sample images]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/samples/01.jpg</source>
+			<destination>sites/documentation/.galleries/samples/01.jpg</destination>
+			<type>image</type>
+			<uuidstructure>2c4777dd-cdd2-11ec-9bc3-0242ac11002b</uuidstructure>
+			<uuidresource>5c9c3ae2-f77b-11e7-80b7-0242ac11002b</uuidresource>
+			<datecreated>Fri, 12 Jan 2018 09:31:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[CC0 1.0 - Public Domain (from unsplash.com)]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Man reading a book on a bench]]></value>
+				</property>
+				<property type="shared">
+					<name>image.focalpoint</name>
+					<value><![CDATA[791,545]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1600,h:1200]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/samples/02.jpg</source>
+			<destination>sites/documentation/.galleries/samples/02.jpg</destination>
+			<type>image</type>
+			<uuidstructure>5464a1bf-cdd2-11ec-9bc3-0242ac11002b</uuidstructure>
+			<uuidresource>5ca0f5d6-f77b-11e7-80b7-0242ac11002b</uuidresource>
+			<datecreated>Fri, 12 Jan 2018 09:31:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[CC0 1.0 - Public Domain (from unsplash.com)]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Laughing boy with book]]></value>
+				</property>
+				<property type="shared">
+					<name>image.focalpoint</name>
+					<value><![CDATA[515,361]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1600,h:1200]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/samples/03.jpg</source>
+			<destination>sites/documentation/.galleries/samples/03.jpg</destination>
+			<type>image</type>
+			<uuidstructure>b691fde4-cdd2-11ec-9bc3-0242ac11002b</uuidstructure>
+			<uuidresource>5dd026fe-f77b-11e7-80b7-0242ac11002b</uuidresource>
+			<datecreated>Fri, 12 Jan 2018 09:31:28 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[CC0 1.0 - Public Domain (from unsplash.com)]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Sax players in ambient light]]></value>
+				</property>
+				<property type="shared">
+					<name>image.focalpoint</name>
+					<value><![CDATA[602,565]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1600,h:1200]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/samples/04.jpg</source>
+			<destination>sites/documentation/.galleries/samples/04.jpg</destination>
+			<type>image</type>
+			<uuidstructure>3becbf70-cdd2-11ec-9bc3-0242ac11002b</uuidstructure>
+			<uuidresource>5dcb1dea-f77b-11e7-80b7-0242ac11002b</uuidresource>
+			<datecreated>Fri, 12 Jan 2018 09:31:28 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[CC0 1.0 - Public Domain (from unsplash.com)]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Man sitting on a rock above clouds]]></value>
+				</property>
+				<property type="shared">
+					<name>image.focalpoint</name>
+					<value><![CDATA[638,542]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1600,h:1200]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/samples/05.jpg</source>
+			<destination>sites/documentation/.galleries/samples/05.jpg</destination>
+			<type>image</type>
+			<uuidstructure>463a13b3-cdd2-11ec-9bc3-0242ac11002b</uuidstructure>
+			<uuidresource>11f6e6e1-107e-11ec-b3ed-0242ac11002b</uuidresource>
+			<datecreated>Wed, 08 Sep 2021 08:23:39 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Photo by Mitch Boehm on Unsplash]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Street musicians]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1600,h:1200]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/samples/06.jpg</source>
+			<destination>sites/documentation/.galleries/samples/06.jpg</destination>
+			<type>image</type>
+			<uuidstructure>81ededdf-cdd3-11ec-9bc3-0242ac11002b</uuidstructure>
+			<uuidresource>5d2a237e-f77b-11e7-80b7-0242ac11002b</uuidresource>
+			<datecreated>Fri, 12 Jan 2018 09:31:27 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[CC0 1.0 - Public Domain (from unsplash.com)]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Raised hands in a concert]]></value>
+				</property>
+				<property type="shared">
+					<name>image.focalpoint</name>
+					<value><![CDATA[797,686]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1600,h:1200]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>sites/documentation/.galleries/screenshots</destination>
 			<type>imagegallery</type>
 			<uuidstructure>dfd217a2-c9f9-11ec-a595-0242ac11002b</uuidstructure>
@@ -2344,142 +2546,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/documentation/core/formatter-test</destination>
-			<type>folder</type>
-			<uuidstructure>fb976225-cd2c-11ec-9bc3-0242ac11002b</uuidstructure>
-			<datecreated>Fri, 06 May 2022 11:09:22 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[0.5]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[Formatter Test]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Formatter Test]]></value>
-				</property>
-				<property>
-					<name>default-file</name>
-					<value><![CDATA[##navigation_level_folder##]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/documentation/core/formatter-test/index.html</source>
-			<destination>sites/documentation/core/formatter-test/index.html</destination>
-			<type>htmlredirect</type>
-			<uuidstructure>fb98e8cb-cd2c-11ec-9bc3-0242ac11002b</uuidstructure>
-			<uuidresource>fb98e8cc-cd2c-11ec-9bc3-0242ac11002b</uuidresource>
-			<datecreated>Fri, 06 May 2022 11:09:22 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[page]]></value>
-				</property>
-				<property>
-					<name>locale-available</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>search.exclude</name>
-					<value><![CDATA[all]]></value>
-				</property>
-				<property type="shared">
-					<name>template-elements</name>
-					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>sites/documentation/core/formatter-test/section-ext</destination>
-			<type>folder</type>
-			<uuidstructure>0846e970-cd2d-11ec-9bc3-0242ac11002b</uuidstructure>
-			<datecreated>Fri, 06 May 2022 11:09:43 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[1.0]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[Extended Section]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Extended Section]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/documentation/core/formatter-test/section-ext/index.html</source>
-			<destination>sites/documentation/core/formatter-test/section-ext/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>084a92f5-cd2d-11ec-9bc3-0242ac11002b</uuidstructure>
-			<uuidresource>084a92f6-cd2d-11ec-9bc3-0242ac11002b</uuidresource>
-			<datecreated>Fri, 06 May 2022 11:09:43 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Extended Section]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>sites/documentation/core/formatter-test/source-code</destination>
-			<type>folder</type>
-			<uuidstructure>29d4c86d-cd49-11ec-9bc3-0242ac11002b</uuidstructure>
-			<datecreated>Fri, 06 May 2022 14:31:05 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[2.0]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[Source code]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Source code]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/documentation/core/formatter-test/source-code/index.html</source>
-			<destination>sites/documentation/core/formatter-test/source-code/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>29d6eb52-cd49-11ec-9bc3-0242ac11002b</uuidstructure>
-			<uuidresource>29d6eb53-cd49-11ec-9bc3-0242ac11002b</uuidresource>
-			<datecreated>Fri, 06 May 2022 14:31:05 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Source code]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<destination>sites/documentation/core/introduction</destination>
 			<type>folder</type>
 			<uuidstructure>8f486d01-c9fd-11ec-a595-0242ac11002b</uuidstructure>
@@ -2514,6 +2580,222 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Introduction]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/core/test</destination>
+			<type>folder</type>
+			<uuidstructure>fb976225-cd2c-11ec-9bc3-0242ac11002b</uuidstructure>
+			<datecreated>Fri, 06 May 2022 11:09:22 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.5]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Formatter Test]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatter Test]]></value>
+				</property>
+				<property>
+					<name>default-file</name>
+					<value><![CDATA[##navigation_level_folder##]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/core/test/index.html</source>
+			<destination>sites/documentation/core/test/index.html</destination>
+			<type>htmlredirect</type>
+			<uuidstructure>fb98e8cb-cd2c-11ec-9bc3-0242ac11002b</uuidstructure>
+			<uuidresource>fb98e8cc-cd2c-11ec-9bc3-0242ac11002b</uuidresource>
+			<datecreated>Fri, 06 May 2022 11:09:22 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+				<property type="shared">
+					<name>template-elements</name>
+					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/core/test/full-flow</destination>
+			<type>folder</type>
+			<uuidstructure>c171c3f6-cdd1-11ec-9bc3-0242ac11002b</uuidstructure>
+			<datecreated>Sat, 07 May 2022 06:48:51 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.5]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Full flow layout]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Full flow layout]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/core/test/full-flow/index.html</source>
+			<destination>sites/documentation/core/test/full-flow/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>c177694b-cdd1-11ec-9bc3-0242ac11002b</uuidstructure>
+			<uuidresource>c177694c-cdd1-11ec-9bc3-0242ac11002b</uuidresource>
+			<datecreated>Sat, 07 May 2022 06:48:51 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Full flow layout]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/core/test/page</destination>
+			<type>folder</type>
+			<uuidstructure>9169f0b2-cdd5-11ec-9bc3-0242ac11002b</uuidstructure>
+			<datecreated>Sat, 07 May 2022 07:16:09 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.5]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[page]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/core/test/page/index.html</source>
+			<destination>sites/documentation/core/test/page/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>916ed2b7-cdd5-11ec-9bc3-0242ac11002b</uuidstructure>
+			<uuidresource>916ed2b8-cdd5-11ec-9bc3-0242ac11002b</uuidresource>
+			<datecreated>Sat, 07 May 2022 07:16:09 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/core/test/section-ext</destination>
+			<type>folder</type>
+			<uuidstructure>0846e970-cd2d-11ec-9bc3-0242ac11002b</uuidstructure>
+			<datecreated>Fri, 06 May 2022 11:09:43 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Extended Section]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Extended Section]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/core/test/section-ext/index.html</source>
+			<destination>sites/documentation/core/test/section-ext/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>084a92f5-cd2d-11ec-9bc3-0242ac11002b</uuidstructure>
+			<uuidresource>084a92f6-cd2d-11ec-9bc3-0242ac11002b</uuidresource>
+			<datecreated>Fri, 06 May 2022 11:09:43 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Extended Section]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/core/test/source-code</destination>
+			<type>folder</type>
+			<uuidstructure>29d4c86d-cd49-11ec-9bc3-0242ac11002b</uuidstructure>
+			<datecreated>Fri, 06 May 2022 14:31:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[2.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Source code]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Source code]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/core/test/source-code/index.html</source>
+			<destination>sites/documentation/core/test/source-code/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>29d6eb52-cd49-11ec-9bc3-0242ac11002b</uuidstructure>
+			<uuidresource>29d6eb53-cd49-11ec-9bc3-0242ac11002b</uuidresource>
+			<datecreated>Fri, 06 May 2022 14:31:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Source code]]></value>
 				</property>
 			</properties>
 			<relations/>

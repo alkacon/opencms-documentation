@@ -80,14 +80,20 @@
       </AddFormatter>
       <AddFormatter>
         <link type="WEAK">
+          <target><![CDATA[/system/modules/alkacon.opencms.documentation/formatters/element/flexible-code.xml]]></target>
+          <uuid>882f9031-cd0d-11ec-be3f-0242ac11002b</uuid>
+        </link>
+      </AddFormatter>
+      <AddFormatter>
+        <link type="WEAK">
           <target><![CDATA[/system/modules/alkacon.opencms.documentation/formatters/layout/row-simple.xml]]></target>
           <uuid>7322513a-c9f2-11ec-a595-0242ac11002b</uuid>
         </link>
       </AddFormatter>
       <AddFormatter>
         <link type="WEAK">
-          <target><![CDATA[/system/modules/alkacon.opencms.documentation/formatters/element/flexible-code.xml]]></target>
-          <uuid>882f9031-cd0d-11ec-be3f-0242ac11002b</uuid>
+          <target><![CDATA[/system/modules/alkacon.opencms.documentation/formatters/layout/area-simple.xml]]></target>
+          <uuid>492f3a13-cdd6-11ec-9bc3-0242ac11002b</uuid>
         </link>
       </AddFormatter>
     </AddFormatters>
