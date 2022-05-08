@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The contents of the Alkacon OpenCms documentation.]]></description>
-		<version>14.0.6</version>
+		<version>14.0.7</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
 		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
@@ -536,6 +536,40 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Full flow layout: Short sample text ]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.content/section-m/cs_00005.xml</source>
+			<destination>sites/documentation/.content/section-m/cs_00005.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>a3266d77-ce9b-11ec-9bc3-0242ac11002b</uuidstructure>
+			<uuidresource>a3266d78-ce9b-11ec-9bc3-0242ac11002b</uuidresource>
+			<datecreated>Sun, 08 May 2022 06:53:59 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Full flow layout: Lomger sample text]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.content/section-m/cs_00006.xml</source>
+			<destination>sites/documentation/.content/section-m/cs_00006.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>294cedc7-ce9c-11ec-9bc3-0242ac11002b</uuidstructure>
+			<uuidresource>294cedc8-ce9c-11ec-9bc3-0242ac11002b</uuidresource>
+			<datecreated>Sun, 08 May 2022 06:57:44 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Full flow layout: Fixed image size]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -2554,7 +2588,7 @@
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[1.0]]></value>
+					<value><![CDATA[0.25]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
@@ -2676,46 +2710,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Full flow layout]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>sites/documentation/core/test/page</destination>
-			<type>folder</type>
-			<uuidstructure>9169f0b2-cdd5-11ec-9bc3-0242ac11002b</uuidstructure>
-			<datecreated>Sat, 07 May 2022 07:16:09 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[1.5]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[page]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[page]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/documentation/core/test/page/index.html</source>
-			<destination>sites/documentation/core/test/page/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>916ed2b7-cdd5-11ec-9bc3-0242ac11002b</uuidstructure>
-			<uuidresource>916ed2b8-cdd5-11ec-9bc3-0242ac11002b</uuidresource>
-			<datecreated>Sat, 07 May 2022 07:16:09 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[page]]></value>
 				</property>
 			</properties>
 			<relations/>

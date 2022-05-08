@@ -1,0 +1,163 @@
+// This program is part of the OpenCms Mercury Template.
+//
+// Copyright (c) Alkacon Software GmbH & Co. KG (http://www.alkacon.com)
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+/**********
+ * Source file:_docu-grid.scss
+ */
+
+// make text use the full available space but fix images at predefined sizes
+
+$full-flow-assumed-width:               map-get($container-max-widths, xl) !default; // assumed width of the full flow container for image size calculation
+
+.container-full {
+    @include make-container();
+}
+
+@function get-col-flex-abs-size($col-size, $parent-col-size, $grand-parent-col-size: $grid-columns, $reduce: 0) {
+    @return floor(
+        ($full-flow-assumed-width
+            * divide($col-size, $grid-columns)
+            * divide($parent-col-size, $grid-columns)
+            * divide($grand-parent-col-size, $grid-columns)
+        ) - ((0.5 * $grid-gutter-width) + $reduce));
+}
+
+@function get-col-float-abs-size($col-size, $parent-col-size, $grand-parent-col-size: $grid-columns, $reduce: 0) {
+    @return floor(
+        ($full-flow-assumed-width
+            * divide($col-size, $grid-columns)
+            * divide($parent-col-size, $grid-columns)
+            * divide($grand-parent-col-size, $grid-columns)
+        ) - ($grid-gutter-width + $reduce));
+}
+
+@function get-col-abs-size($col-size) {
+    @if ($col-size < 12) {
+        @return floor($full-flow-assumed-width * divide($col-size, $grid-columns));
+    } @else {
+        @return 100%;
+    }
+}
+
+@mixin make-col-abs-size($own-col-size, $remaining: false) {
+    @if ($own-col-size < $grid-columns) {
+        @if ($remaining) {
+            $col-width: floor($full-flow-assumed-width * divide(($grid-columns - $own-col-size), $grid-columns));
+            flex: 0 0 calc(100% - #{$col-width + 1px});
+            max-width: calc(100% - #{$col-width + 1px});
+        } @else {
+            $col-width: floor($full-flow-assumed-width * divide($own-col-size, $grid-columns));
+            flex: 0 0 #{$col-width};
+            max-width: #{$col-width};
+        }
+    }
+}
+
+@mixin make-growing-pieces ($parent-col-size: $grid-columns, $grand-parent-col-size: $grid-columns) {
+    @each $piece-col-size in $piece-cols {
+        .piece.flex.p-md-#{""+$piece-col-size} {
+            $visual-width: get-col-flex-abs-size($piece-col-size, $parent-col-size, $grand-parent-col-size);
+            > .visual {
+                flex: 0 0 #{$visual-width};
+                // max-width: $visual-width;
+            }
+            > .body {
+                flex: 0 0 calc(100% - #{$visual-width});
+                // max-width: calc(100% - #{$visual-width});
+            }
+        }
+        .piece.float.p-md-#{""+$piece-col-size} {
+            > .visual {
+                max-width: get-col-float-abs-size($piece-col-size, $parent-col-size, $grand-parent-col-size);
+            }
+        }
+    }
+}
+
+
+@media (min-width: $full-page-max-width) {
+    body {
+        background-color: $full-page-bg;
+    }
+
+    #mercury-page {
+        max-width: $full-page-max-width;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: $body-bg;
+    }
+
+    .area-header .sticky > .isfixed {
+        width: $full-page-max-width !important;
+    }
+
+    #topcontrol {
+        right: calc((100vw - $full-page-max-width) * 0.5 + $nav-mobile-toggle-side);
+    }
+}
+
+
+@include media-breakpoint-up(md) {
+    .container {
+        max-width: none; // remove the width contraint from the container, making it 100% in size
+    }
+
+    .row-12 {
+        @include make-growing-pieces(12);
+    }
+
+    @each $parent-col-size in (8, 9) {
+        .col-lg-#{$parent-col-size} {
+            flex-grow: 1;
+            max-width: none;
+            .row-12 {
+                @include make-growing-pieces($parent-col-size);
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+
+    header.bh,
+    header.fh {
+        .co-lg-xl,
+        .h-group {
+            max-width: none;
+        }
+    }
+
+    @each $parent-col-size in (3, 4) {
+        aside {
+            &.col-lg-#{$parent-col-size} {
+                max-width: get-col-abs-size($parent-col-size);
+                flex-grow: 1;
+            }
+        }
+    }
+
+    .area-header {
+        .col-lg-3 {
+            @include make-col-abs-size(3);
+        }
+        .col-lg-9 {
+            @include make-col-abs-size(9, true);
+        }
+    }
+}
+
+

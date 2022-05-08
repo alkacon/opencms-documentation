@@ -11,7 +11,7 @@
         <uuid>2981bd3d-cd0d-11ec-be3f-0242ac11002b</uuid>
       </link>
     </Jsp>
-    <Rank><![CDATA[1001]]></Rank>
+    <Rank><![CDATA[1100]]></Rank>
     <Match>
       <Types>
         <ContainerType><![CDATA[element]]></ContainerType>
@@ -22,6 +22,33 @@
     <SearchContent>false</SearchContent>
     <StrictContainers>true</StrictContainers>
     <Detail>true</Detail>
+    <Plugin>
+      <Group><![CDATA[css]]></Group>
+      <Target>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/system/modules/alkacon.opencms.documentation/resources/highlight-js/styles/default.min.css]]></target>
+          <uuid>4e97cfb7-cd12-11ec-be3f-0242ac11002b</uuid>
+        </link>
+      </Target>
+    </Plugin>
+    <Plugin>
+      <Group><![CDATA[js-async]]></Group>
+      <Target>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/system/modules/alkacon.opencms.documentation/resources/highlight-js/highlight.min.js]]></target>
+          <uuid>3e1ebd58-cd12-11ec-be3f-0242ac11002b</uuid>
+        </link>
+      </Target>
+    </Plugin>
+    <Plugin>
+      <Group><![CDATA[template-head-includes]]></Group>
+      <Target>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/system/modules/alkacon.opencms.documentation/plugins/highlightjs.jsp]]></target>
+          <uuid>e054d79e-c568-11ec-a595-0242ac11002b</uuid>
+        </link>
+      </Target>
+    </Plugin>
     <IncludeSettings>
       <link type="WEAK">
         <target><![CDATA[/system/modules/alkacon.mercury.template/configuration/shared-settings.xml]]></target>

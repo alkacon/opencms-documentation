@@ -5,12 +5,18 @@
     session="false" %>
 
 <script>
-mercury.ready(function() {
-    try {
-        hljs.highlightAll();
-    } catch (e) {
-        // highlight JS was not completely loaded, try again
-        setTimeout(function(){ hljs.highlightAll(); }, 500);
+mercury.ready(function(jQ, DEBUG) {
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
     }
+
+    async function waitForHljs() {
+        while(typeof hljs === "undefined") {
+            await sleep(50);
+        }
+        hljs.highlightAll();
+    }
+
+    waitForHljs();
 });
 </script>
