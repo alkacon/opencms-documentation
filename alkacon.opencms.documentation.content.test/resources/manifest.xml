@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The purpose of this module is to provide test pages that demonstrate the usage of the documentation specific functions. These are not to be installed with the final documentation.]]></description>
-		<version>13.0.5</version>
+		<version>13.0.6</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -251,6 +251,23 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Extended Section: Extended content section demo]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/core/test/.content/section-ext-m/ecs_00002.xml</source>
+			<destination>sites/documentation/core/test/.content/section-ext-m/ecs_00002.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>c2c94848-cfa4-11ec-844e-0242ac11002b</uuidstructure>
+			<uuidresource>c2c94849-cfa4-11ec-844e-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 14:31:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Extended Section: Explorer shortcuts]]></value>
 				</property>
 			</properties>
 			<relations/>
