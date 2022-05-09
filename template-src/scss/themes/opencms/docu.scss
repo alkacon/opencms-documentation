@@ -37,8 +37,6 @@ $color-cyan-light:                  #ace3da !default;
 $text-dark:                         #444 !default;
 
 $color-blue-light:                  #becbdc;
-$color-table-highlight:             $color-blue-light;
-$intra-btn-color:                   $color-blue-light;
 
 $main-theme:                        $color-oc-blue; // dark blue
 $main-theme-hover:                  $color-oc-red-light; // opencms red
@@ -122,11 +120,12 @@ $nav-head-border:                   none !default;
 $nav-breadcrumb-bg-color:           $grey-light !default;
 $nav-breadcrumb-separator:          '/' !default;
 $nav-breadcrumb-separator-font:     $font-family-base !default;
+$nav-breadcrumb-colored-padding:    0.5rem !default;
 
 $fh-meta-bg-color:                  $color-oc-blue !default;
 
-$btn-default:                       $grey-light !default;
-$btn-default-hover:                 $grey !default;
+$btn-default:                       $grey-lighter !default;
+$btn-default-hover:                 $grey-light !default;
 
 $policy-banner-accept-button-color: $color-cyan !default;
 $policy-banner-accept-hover-color:  $color-oc-blue !default;
@@ -168,5 +167,6 @@ pre code {
     display: block;
     overflow-x: auto;
     padding: 1em;
-    background: #f3f3f3;
+    tab-size: 2em;
+    border: 1px solid $text-dark;
 }

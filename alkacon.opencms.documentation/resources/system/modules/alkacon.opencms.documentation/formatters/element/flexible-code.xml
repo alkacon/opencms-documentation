@@ -3,7 +3,7 @@
 <NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
   <NewFormatter language="en">
     <NiceName><![CDATA[Flexible content - format source code]]></NiceName>
-    <Type><![CDATA[m-flexible]]></Type>
+    <Type><![CDATA[m-flexible-up]]></Type>
     <Key><![CDATA[m/element/flexible-code]]></Key>
     <Jsp>
       <link type="WEAK">
@@ -26,8 +26,8 @@
       <Group><![CDATA[css]]></Group>
       <Target>
         <link internal="true" type="WEAK">
-          <target><![CDATA[/system/modules/alkacon.opencms.documentation/resources/highlight-js/styles/default.min.css]]></target>
-          <uuid>4e97cfb7-cd12-11ec-be3f-0242ac11002b</uuid>
+          <target><![CDATA[/system/modules/alkacon.opencms.documentation/resources/highlight-js/styles/a11y-light.min.css]]></target>
+          <uuid>176f400c-cf9b-11ec-8701-0242ac11002b</uuid>
         </link>
       </Target>
     </Plugin>

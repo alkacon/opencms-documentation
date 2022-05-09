@@ -3,21 +3,6 @@
 <SettingsConfigs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/settings_config.xsd">
   <SettingsConfig language="en">
     <Setting>
-      <IncludeName><![CDATA[hsize.element.2]]></IncludeName>
-      <PropertyName><![CDATA[hsize]]></PropertyName>
-      <DisplayName><![CDATA[%(key.msg.setting.hsize.element)]]></DisplayName>
-      <Description><![CDATA[%(key.msg.setting.hsize.element.help)]]></Description>
-      <Visibility><![CDATA[element]]></Visibility>
-      <Widget><![CDATA[%(attribute:selectOrCombo:selectcombo)]]></Widget>
-      <Default><![CDATA[3]]></Default>
-      <WidgetConfig><![CDATA[
-            2:  %(key.msg.setting.hsize.2)|
-            3:  %(key.msg.setting.hsize.3)|
-            4:  %(key.msg.setting.hsize.4)|
-            0:  %(key.msg.setting.hsize.hidden)
-        ]]></WidgetConfig>
-    </Setting>
-    <Setting>
       <IncludeName><![CDATA[pieceLayout.all]]></IncludeName>
       <PropertyName><![CDATA[pieceLayout]]></PropertyName>
       <DisplayName><![CDATA[%(key.msg.setting.pieceLayout)]]></DisplayName>
@@ -38,6 +23,77 @@
             8:      %(key.msg.setting.pieceLayout.8)|
             9:      %(key.msg.setting.pieceLayout.9)
         ]]></WidgetConfig>
+    </Setting>
+    <Setting>
+      <IncludeName><![CDATA[showImageCopyright.default]]></IncludeName>
+      <PropertyName><![CDATA[showImageCopyright]]></PropertyName>
+      <DisplayName><![CDATA[%(key.msg.setting.showImageCopyright)]]></DisplayName>
+      <Description><![CDATA[%(key.msg.setting.showImageCopyright.help)]]></Description>
+      <Visibility><![CDATA[elementAndParentShared]]></Visibility>
+      <Widget><![CDATA[checkbox]]></Widget>
+      <Default><![CDATA[false]]></Default>
+      <Comment><![CDATA[We do NOT want the image copyright overlay by default.]]></Comment>
+    </Setting>
+    <Setting>
+      <IncludeName><![CDATA[showImageSubtitle.true]]></IncludeName>
+      <PropertyName><![CDATA[showImageSubtitle]]></PropertyName>
+      <DisplayName><![CDATA[%(key.msg.setting.showImageSubtitle)]]></DisplayName>
+      <Description><![CDATA[%(key.msg.setting.showImageSubtitle.help)]]></Description>
+      <Widget><![CDATA[checkbox]]></Widget>
+      <Default><![CDATA[false]]></Default>
+      <Comment><![CDATA[We do not NOT want the image subtitle by default.]]></Comment>
+    </Setting>
+    <Setting>
+      <IncludeName><![CDATA[effect.default]]></IncludeName>
+      <PropertyName><![CDATA[effect]]></PropertyName>
+      <Visibility><![CDATA[elementAndParentShared]]></Visibility>
+      <Widget><![CDATA[hidden]]></Widget>
+      <Default><![CDATA[none]]></Default>
+      <Comment><![CDATA[We do not NOT want any effects.]]></Comment>
+    </Setting>
+    <Setting>
+      <IncludeName><![CDATA[effect.section.text-image]]></IncludeName>
+      <PropertyName><![CDATA[effect]]></PropertyName>
+      <Visibility><![CDATA[elementAndParentShared]]></Visibility>
+      <Widget><![CDATA[hidden]]></Widget>
+      <Default><![CDATA[none]]></Default>
+      <Comment><![CDATA[We do not NOT want any effects.]]></Comment>
+    </Setting>
+    <Setting>
+      <IncludeName><![CDATA[effect.section.image-only]]></IncludeName>
+      <PropertyName><![CDATA[effect]]></PropertyName>
+      <Visibility><![CDATA[elementAndParentShared]]></Visibility>
+      <Widget><![CDATA[hidden]]></Widget>
+      <Default><![CDATA[none]]></Default>
+      <Comment><![CDATA[We do not NOT want any effects.]]></Comment>
+    </Setting>
+    <Setting>
+      <IncludeName><![CDATA[effect.section.text-only]]></IncludeName>
+      <PropertyName><![CDATA[effect]]></PropertyName>
+      <Visibility><![CDATA[elementAndParentShared]]></Visibility>
+      <Widget><![CDATA[hidden]]></Widget>
+      <Default><![CDATA[none]]></Default>
+      <Comment><![CDATA[We do not NOT want any effects.]]></Comment>
+    </Setting>
+    <Setting>
+      <FormatterKey><![CDATA[m/element/linksequence]]></FormatterKey>
+      <IncludeName><![CDATA[hsize.element.0]]></IncludeName>
+      <Default><![CDATA[2]]></Default>
+    </Setting>
+    <Setting>
+      <FormatterKey><![CDATA[m/element/linksequence]]></FormatterKey>
+      <IncludeName><![CDATA[cssWrapper.default]]></IncludeName>
+      <Default><![CDATA[box box-default]]></Default>
+    </Setting>
+    <Setting>
+      <FormatterKey><![CDATA[m/element/linksequence]]></FormatterKey>
+      <IncludeName><![CDATA[linksequenceType.linksequence]]></IncludeName>
+      <Default><![CDATA[ls-bullets]]></Default>
+    </Setting>
+    <Setting>
+      <FormatterKey><![CDATA[m/element/linksequence]]></FormatterKey>
+      <IncludeName><![CDATA[iconClass.linksequence]]></IncludeName>
+      <Default><![CDATA[link]]></Default>
     </Setting>
   </SettingsConfig>
 </SettingsConfigs>

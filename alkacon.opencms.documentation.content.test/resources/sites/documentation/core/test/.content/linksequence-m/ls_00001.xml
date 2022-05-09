@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinkSequenceData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/linksequence.xsd">
+  <LinkSequence language="en">
+    <Title><![CDATA[Link sequence test]]></Title>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<p>This is the text of the link sequence.</p>]]></content>
+    </Text>
+    <LinkEntry>
+      <Text><![CDATA[Test 1]]></Text>
+      <URI>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/documentation/core/test/]]></target>
+          <uuid>fb976225-cd2c-11ec-9bc3-0242ac11002b</uuid>
+        </link>
+      </URI>
+    </LinkEntry>
+    <LinkEntry>
+      <Text><![CDATA[Item 2]]></Text>
+      <URI>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/documentation/core/test/]]></target>
+          <uuid>fb976225-cd2c-11ec-9bc3-0242ac11002b</uuid>
+        </link>
+      </URI>
+    </LinkEntry>
+  </LinkSequence>
+</LinkSequenceData>

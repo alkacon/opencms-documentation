@@ -7,20 +7,24 @@
 	</info>
 	<module>
 		<name>alkacon.opencms.documentation</name>
-		<nicename><![CDATA[Alkacon OpenCms Documentation]]></nicename>
+		<nicename><![CDATA[Alkacon OpenCms documentation]]></nicename>
 		<group>OpenCms Documentation</group>
 		<class/>
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[Configurations, formatters and localizations for the Alkacon OpenCms documentation.]]></description>
-		<version>14.0.8</version>
+		<version>13.0.11</version>
 		<autoincrement>true</autoincrement>
-		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
-		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
+		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
+		<authoremail/>
 		<datecreated/>
 		<userinstalled/>
 		<dateinstalled/>
-		<dependencies/>
+		<dependencies>
+			<dependency name="alkacon.mercury.template" version="13.0.0"/>
+			<dependency name="alkacon.mercury.variant.burger" version="13.0.0"/>
+			<dependency name="alkacon.mercury.extension.section_ext" version="13.0.0"/>
+		</dependencies>
 		<exportpoints/>
 		<resources>
 			<resource uri="/system/modules/alkacon.opencms.documentation/"/>
@@ -270,35 +274,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/alkacon.opencms.documentation/formatters/element/relatedlinks.xml</source>
-			<destination>system/modules/alkacon.opencms.documentation/formatters/element/relatedlinks.xml</destination>
-			<type>formatter_config</type>
-			<uuidstructure>f094800b-c542-11ec-a595-0242ac11002b</uuidstructure>
-			<uuidresource>f094800c-c542-11ec-a595-0242ac11002b</uuidresource>
-			<datecreated>Tue, 26 Apr 2022 09:26:23 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Related Links (Linksequence)]]></value>
-				</property>
-				<property>
-					<name>locale</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>locale-available</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>search.exclude</name>
-					<value><![CDATA[all]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<destination>system/modules/alkacon.opencms.documentation/formatters/layout</destination>
 			<type>folder</type>
 			<uuidstructure>51cab402-c9f2-11ec-a595-0242ac11002b</uuidstructure>
@@ -523,6 +498,40 @@
 			<datecreated>Mon, 02 May 2022 13:34:07 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/alkacon.opencms.documentation/resources/highlight-js/styles/a11y-dark.min.css</source>
+			<destination>system/modules/alkacon.opencms.documentation/resources/highlight-js/styles/a11y-dark.min.css</destination>
+			<type>plain</type>
+			<uuidstructure>176e55a9-cf9b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>176e55aa-cf9b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 13:22:36 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[a11y-dark.min]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/alkacon.opencms.documentation/resources/highlight-js/styles/a11y-light.min.css</source>
+			<destination>system/modules/alkacon.opencms.documentation/resources/highlight-js/styles/a11y-light.min.css</destination>
+			<type>plain</type>
+			<uuidstructure>176f400c-cf9b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>176f400d-cf9b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 13:22:36 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[a11y-light.min]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>

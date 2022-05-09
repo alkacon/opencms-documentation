@@ -34,7 +34,7 @@
       <Disabled><![CDATA[false]]></Disabled>
     </ResourceType>
     <ResourceType>
-      <TypeName><![CDATA[m-flexible]]></TypeName>
+      <TypeName><![CDATA[m-flexible-up]]></TypeName>
       <Disabled><![CDATA[false]]></Disabled>
       <ElementView/>
     </ResourceType>
@@ -72,12 +72,6 @@
       </link>
     </SharedSettingOverride>
     <AddFormatters>
-      <AddFormatter>
-        <link type="WEAK">
-          <target><![CDATA[/system/modules/alkacon.opencms.documentation/formatters/element/relatedlinks.xml]]></target>
-          <uuid>f094800b-c542-11ec-a595-0242ac11002b</uuid>
-        </link>
-      </AddFormatter>
       <AddFormatter>
         <link type="WEAK">
           <target><![CDATA[/system/modules/alkacon.opencms.documentation/formatters/element/flexible-code.xml]]></target>

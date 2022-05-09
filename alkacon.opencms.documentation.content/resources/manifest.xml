@@ -7,25 +7,29 @@
 	</info>
 	<module>
 		<name>alkacon.opencms.documentation.content</name>
-		<nicename><![CDATA[Alkacon OpenCms Documentation Content]]></nicename>
+		<nicename><![CDATA[Alkacon OpenCms documentation content]]></nicename>
 		<group>OpenCms Documentation</group>
 		<class/>
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The contents of the Alkacon OpenCms documentation.]]></description>
-		<version>14.0.7</version>
+		<version>13.0.11</version>
 		<autoincrement>true</autoincrement>
-		<authorname><![CDATA[Alkacon Software GmbH]]></authorname>
-		<authoremail><![CDATA[sales@alkacon.com]]></authoremail>
+		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
+		<authoremail/>
 		<datecreated/>
 		<userinstalled/>
 		<dateinstalled/>
-		<dependencies/>
+		<dependencies>
+			<dependency name="alkacon.opencms.documentation" version="13.0.0"/>
+		</dependencies>
 		<exportpoints/>
 		<resources>
 			<resource uri="/sites/documentation/"/>
 		</resources>
-		<excluderesources/>
+		<excluderesources>
+			<resource uri="/sites/documentation/core/test/"/>
+		</excluderesources>
 		<parameters/>
 	</module>
 	<files>
@@ -42,8 +46,12 @@
 			<flags>0</flags>
 			<properties>
 				<property>
+					<name>NavText</name>
+					<value><![CDATA[OpenCms Documentation]]></value>
+				</property>
+				<property>
 					<name>Title</name>
-					<value><![CDATA[OpenCms Documentation [RELAUNCH]]]></value>
+					<value><![CDATA[OpenCms Documentation]]></value>
 				</property>
 				<property type="shared">
 					<name>Title</name>
@@ -60,31 +68,6 @@
 				<property>
 					<name>template</name>
 					<value><![CDATA[/system/modules/alkacon.mercury.template/templates/mercury.jsp]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/documentation/index.html</source>
-			<destination>sites/documentation/index.html</destination>
-			<type>htmlredirect</type>
-			<uuidstructure>87e35a77-c9ff-11ec-a595-0242ac11002b</uuidstructure>
-			<uuidresource>87e35a78-c9ff-11ec-a595-0242ac11002b</uuidresource>
-			<datecreated>Mon, 02 May 2022 10:06:27 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Redirect to first page in navigation]]></value>
-				</property>
-				<property>
-					<name>locale-available</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>search.exclude</name>
-					<value><![CDATA[all]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -169,67 +152,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/documentation/.content/flexible-m</destination>
-			<type>folder</type>
-			<uuidstructure>d973e4ac-cd0e-11ec-be3f-0242ac11002b</uuidstructure>
-			<datecreated>Fri, 06 May 2022 07:33:40 GMT</datecreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/documentation/.content/flexible-m/fc_00001.xml</source>
-			<destination>sites/documentation/.content/flexible-m/fc_00001.xml</destination>
-			<type>m-flexible</type>
-			<uuidstructure>d975443e-cd0e-11ec-be3f-0242ac11002b</uuidstructure>
-			<uuidresource>d975443f-cd0e-11ec-be3f-0242ac11002b</uuidresource>
-			<datecreated>Fri, 06 May 2022 07:33:40 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Introduction: Test Code HTML]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/documentation/.content/flexible-m/fc_00002.xml</source>
-			<destination>sites/documentation/.content/flexible-m/fc_00002.xml</destination>
-			<type>m-flexible</type>
-			<uuidstructure>2a1548c4-cd23-11ec-be3f-0242ac11002b</uuidstructure>
-			<uuidresource>2a1548c5-cd23-11ec-be3f-0242ac11002b</uuidresource>
-			<datecreated>Fri, 06 May 2022 09:59:05 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Introduction: Test  Code 2]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/documentation/.content/flexible-m/fc_00003.xml</source>
-			<destination>sites/documentation/.content/flexible-m/fc_00003.xml</destination>
-			<type>m-flexible</type>
-			<uuidstructure>e3d3ed93-cd2a-11ec-be3f-0242ac11002b</uuidstructure>
-			<uuidresource>e3d3ed94-cd2a-11ec-be3f-0242ac11002b</uuidresource>
-			<datecreated>Fri, 06 May 2022 10:54:23 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Introduction: Code 3]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<destination>sites/documentation/.content/linksequence-m</destination>
 			<type>folder</type>
 			<uuidstructure>8118e7b8-c9fb-11ec-a595-0242ac11002b</uuidstructure>
@@ -250,24 +172,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Header for the OpenCms Documentation: Wichtige Seiten]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/documentation/.content/linksequence-m/ls_00002.xml</source>
-			<destination>sites/documentation/.content/linksequence-m/ls_00002.xml</destination>
-			<type>m-linksequence</type>
-			<uuidstructure>3afee048-ca02-11ec-a595-0242ac11002b</uuidstructure>
-			<uuidresource>3afee049-ca02-11ec-a595-0242ac11002b</uuidresource>
-			<datecreated>Mon, 02 May 2022 10:25:47 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Introduction: Related links]]></value>
+					<value><![CDATA[Header for the OpenCms Documentation: Service links]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -422,8 +327,8 @@
 		<file>
 			<destination>sites/documentation/.content/section-ext-m</destination>
 			<type>folder</type>
-			<uuidstructure>a2355a97-ca07-11ec-a595-0242ac11002b</uuidstructure>
-			<datecreated>Mon, 02 May 2022 11:04:27 GMT</datecreated>
+			<uuidstructure>656e4308-cf79-11ec-8701-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 09 May 2022 09:21:24 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -441,23 +346,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Introduction: The Setup Wizard]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/documentation/.content/section-ext-m/ecs_00002.xml</source>
-			<destination>sites/documentation/.content/section-ext-m/ecs_00002.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>900048a9-cd2e-11ec-9bc3-0242ac11002b</uuidstructure>
-			<uuidresource>900048aa-cd2e-11ec-9bc3-0242ac11002b</uuidresource>
-			<datecreated>Fri, 06 May 2022 11:20:40 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Extended Section: Extended content section demo]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -484,7 +372,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Header for the OpenCms Documentation:]]></value>
+					<value><![CDATA[Title for head group]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -525,63 +413,4228 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/documentation/.content/section-m/cs_00004.xml</source>
-			<destination>sites/documentation/.content/section-m/cs_00004.xml</destination>
-			<type>m-section</type>
-			<uuidstructure>e7385e82-cdd2-11ec-9bc3-0242ac11002b</uuidstructure>
-			<uuidresource>e7385e83-cdd2-11ec-9bc3-0242ac11002b</uuidresource>
-			<datecreated>Sat, 07 May 2022 06:57:04 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Full flow layout: Short sample text ]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/documentation/.content/section-m/cs_00005.xml</source>
-			<destination>sites/documentation/.content/section-m/cs_00005.xml</destination>
-			<type>m-section</type>
-			<uuidstructure>a3266d77-ce9b-11ec-9bc3-0242ac11002b</uuidstructure>
-			<uuidresource>a3266d78-ce9b-11ec-9bc3-0242ac11002b</uuidresource>
-			<datecreated>Sun, 08 May 2022 06:53:59 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Full flow layout: Lomger sample text]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/documentation/.content/section-m/cs_00006.xml</source>
-			<destination>sites/documentation/.content/section-m/cs_00006.xml</destination>
-			<type>m-section</type>
-			<uuidstructure>294cedc7-ce9c-11ec-9bc3-0242ac11002b</uuidstructure>
-			<uuidresource>294cedc8-ce9c-11ec-9bc3-0242ac11002b</uuidresource>
-			<datecreated>Sun, 08 May 2022 06:57:44 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Full flow layout: Fixed image size]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<destination>sites/documentation/.galleries</destination>
 			<type>folder</type>
 			<uuidstructure>c7f90cce-c9f9-11ec-a595-0242ac11002b</uuidstructure>
 			<datecreated>Mon, 02 May 2022 09:25:18 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/.galleries/icons-svg</destination>
+			<type>imagegallery</type>
+			<uuidstructure>c682194b-cf79-11ec-8701-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 09 May 2022 09:24:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Documentation: SVG icons]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/.galleries/icons-svg/font-20</destination>
+			<type>folder</type>
+			<uuidstructure>d1358d18-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 09 May 2022 09:31:34 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-20/add-20.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-20/add-20.svg</destination>
+			<type>image</type>
+			<uuidstructure>d9b637ad-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>d9b637ae-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:31:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[add-20]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-20/check-20.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-20/check-20.svg</destination>
+			<type>image</type>
+			<uuidstructure>d9b74921-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>d9b74922-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:31:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[check-20]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-20/cut-20.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-20/cut-20.svg</destination>
+			<type>image</type>
+			<uuidstructure>d9b8f6d9-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>d9b8f6da-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:31:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[cut-20]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-20/delete-20.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-20/delete-20.svg</destination>
+			<type>image</type>
+			<uuidstructure>d9b9ba2d-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>d9b9ba2e-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:31:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[delete-20]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-20/edit-down-20.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-20/edit-down-20.svg</destination>
+			<type>image</type>
+			<uuidstructure>d9ba7d81-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>d9ba7d82-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:31:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[edit-down-20]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-20/edit-point-20.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-20/edit-point-20.svg</destination>
+			<type>image</type>
+			<uuidstructure>d9bb67e5-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>d9bb67e6-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:31:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[edit-point-20]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-20/edit-up-20.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-20/edit-up-20.svg</destination>
+			<type>image</type>
+			<uuidstructure>d9bc2b39-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>d9bc2b3a-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:31:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[edit-up-20]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-20/favorite-20.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-20/favorite-20.svg</destination>
+			<type>image</type>
+			<uuidstructure>d9bd159d-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>d9bd159e-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:31:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[favorite-20]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-20/function-20.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-20/function-20.svg</destination>
+			<type>image</type>
+			<uuidstructure>d9be0001-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>d9be0002-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:31:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[function-20]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-20/info-20.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-20/info-20.svg</destination>
+			<type>image</type>
+			<uuidstructure>d9bf86a9-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>d9bf86aa-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:31:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[info-20]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-20/list-20.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-20/list-20.svg</destination>
+			<type>image</type>
+			<uuidstructure>d9c0710d-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>d9c0710e-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:31:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[list-20]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-20/lock-20.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-20/lock-20.svg</destination>
+			<type>image</type>
+			<uuidstructure>d9c13461-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>d9c13462-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:31:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[lock-20]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-20/move-20.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-20/move-20.svg</destination>
+			<type>image</type>
+			<uuidstructure>d9c1f7b5-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>d9c1f7b6-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:31:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[move-20]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-20/pen-20.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-20/pen-20.svg</destination>
+			<type>image</type>
+			<uuidstructure>d9c2bb09-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>d9c2bb0a-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:31:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[pen-20]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-20/preview-20.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-20/preview-20.svg</destination>
+			<type>image</type>
+			<uuidstructure>d9c37e5d-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>d9c37e5e-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:31:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[preview-20]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-20/search-20.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-20/search-20.svg</destination>
+			<type>image</type>
+			<uuidstructure>d9c468c1-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>d9c468c2-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:31:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[search-20]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-20/settings-20.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-20/settings-20.svg</destination>
+			<type>image</type>
+			<uuidstructure>d9c52c15-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>d9c52c16-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:31:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[settings-20]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-20/trash-20.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-20/trash-20.svg</destination>
+			<type>image</type>
+			<uuidstructure>d9c6d9cd-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>d9c6d9ce-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:31:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[trash-20]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-20/upload-20.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-20/upload-20.svg</destination>
+			<type>image</type>
+			<uuidstructure>d9c79c21-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>d9c79c22-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:31:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[upload-20]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/.galleries/icons-svg/font-32</destination>
+			<type>folder</type>
+			<uuidstructure>8349200f-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 09 May 2022 09:29:23 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/bookmarks.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/bookmarks.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d5acae4-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d5acae5-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[bookmarks]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/brackets.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/brackets.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d5bdc58-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d5bdc59-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[brackets]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/broadcast.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/broadcast.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d5c789c-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d5c789d-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[broadcast]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/cache2.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/cache2.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d5d14e0-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d5d14e1-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[cache2]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/circle-help.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/circle-help.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d5f5edc-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d5f5edd-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[circle-help]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/circle-inv-cancel.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/circle-inv-cancel.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d610c94-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d610c95-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[circle-inv-cancel]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/circle-inv-check.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/circle-inv-check.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d61cfe8-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d61cfe9-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[circle-inv-check]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/circle-inv-plus.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/circle-inv-plus.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d648f18-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d648f19-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[circle-inv-plus]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/clipboard.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/clipboard.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d694a24-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d694a25-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[clipboard]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/context-menu-dots.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/context-menu-dots.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d6a0d78-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d6a0d79-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[context-menu-dots]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/context-menu.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/context-menu.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d6aa9bc-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d6aa9bd-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[context-menu]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/copy-locale.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/copy-locale.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d6b6d10-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d6b6d11-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[copy-locale]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/crop-remove.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/crop-remove.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d6c0954-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d6c0955-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[crop-remove]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/crop.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/crop.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d6ca598-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d6ca599-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[crop]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/database2.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/database2.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d6d1acc-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d6d1acd-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[database2]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/download.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/download.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d6dde20-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d6dde21-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[download]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/edit-point-deactivated.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/edit-point-deactivated.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d6e7a64-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d6e7a65-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[edit-point-deactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/edit-point.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/edit-point.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d6f16a8-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d6f16a9-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[edit-point]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/error.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/error.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d6fb2ec-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d6fb2ed-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[error]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/exit.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/exit.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d704e30-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d704e31-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[exit]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/explorer.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/explorer.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d711184-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d711185-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[explorer]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/file-inv.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/file-inv.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d71adc8-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d71adc9-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[file-inv]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/file.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/file.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d72711c-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d72711d-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[file]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/filter.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/filter.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d72e650-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d72e651-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[filter]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/folder2.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/folder2.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d738294-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d738295-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[folder2]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/git.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/git.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d741ed8-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d741ed9-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[git]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/help-deactivated.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/help-deactivated.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d74e22c-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d74e22d-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[help-deactivated]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/help.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/help.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d757e70-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d757e71-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[help]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/hide.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/hide.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d75f3a4-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d75f3a5-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[hide]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/highlight.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/highlight.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d768fe8-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d768fe9-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[highlight]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/history.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/history.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d772c2c-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d772c2d-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[history]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/image2.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/image2.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d77c870-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d77c871-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[image2]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/info.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/info.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d7864b4-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d7864b5-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[info]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/invisible-chars.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/invisible-chars.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d78d9e8-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d78d9e9-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[invisible-chars]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/launchpad.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/launchpad.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d79762c-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d79762d-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[launchpad]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/link.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/link.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d7a1270-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d7a1271-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[link]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/list2.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/list2.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d7aaeb4-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d7aaeb5-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[list2]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/lock-closed.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/lock-closed.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d7b4af8-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d7b4af9-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[lock-closed]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/lock-open.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/lock-open.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d7bc02c-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d7bc02d-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[lock-open]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/log2.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/log2.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d7c5c70-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d7c5c71-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[log2]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/login-message.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/login-message.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d7cf8b4-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d7cf8b5-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[login-message]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/module2.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/module2.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d7d94f8-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d7d94f9-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[module2]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/pen.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/pen.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d7e0a2c-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d7e0a2d-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[pen]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/project2.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/project2.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d7ea670-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d7ea671-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[project2]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/publish2.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/publish2.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d7f42b4-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d7f42b5-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[publish2]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/quicklaunch-editor.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/quicklaunch-editor.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d800608-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d800609-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[quicklaunch-editor]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/redo.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/redo.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d80a24c-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d80a24d-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[redo]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/remove-locale.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/remove-locale.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d813e90-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d813e91-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[remove-locale]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/reset.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/reset.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d81dad4-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d81dad5-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[reset]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/save-exit.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/save-exit.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d829e28-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d829e29-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[save-exit]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/save.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/save.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d833a6c-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d833a6d-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[save]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/scheduler2.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/scheduler2.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d83d6b0-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d83d6b1-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[scheduler2]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/search-replace.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/search-replace.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d8472f4-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d8472f5-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[search-replace]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/search.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/search.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d853648-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d853649-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[search]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/session.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/session.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d85d28c-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d85d28d-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[session]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/settings.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/settings.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d866ed0-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d866ed1-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[settings]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/show.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/show.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d870b14-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d870b15-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[show]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/site2.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/site2.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d87ce68-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d87ce69-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[site2]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/sitemap.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/sitemap.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d8891bc-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d8891bd-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[sitemap]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/sphere.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/sphere.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d895510-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d895511-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[sphere]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/undo.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/undo.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d8eac60-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d8eac61-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[undo]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/upload.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/upload.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d8f6fb4-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d8f6fb5-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[upload]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/users.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/users.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d900bf8-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d900bf9-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[users]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:36,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/wand.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/wand.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d90a83c-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d90a83d-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[wand]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/warning2.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/warning2.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d916b90-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d916b91-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[warning2]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/font-32/wrap-lines.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/font-32/wrap-lines.svg</destination>
+			<type>image</type>
+			<uuidstructure>8d9207d4-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>8d9207d5-cf7a-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:29:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[wrap-lines]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/.galleries/icons-svg/icons-16</destination>
+			<type>folder</type>
+			<uuidstructure>dbe779ae-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 09 May 2022 09:39:01 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-16/lock-other.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-16/lock-other.svg</destination>
+			<type>image</type>
+			<uuidstructure>01e40de3-cf7c-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>01e40de4-cf7c-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:40:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[lock-other]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-16/lock-own.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-16/lock-own.svg</destination>
+			<type>image</type>
+			<uuidstructure>01e4d137-cf7c-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>01e4d138-cf7c-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:40:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[lock-own]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-16/lock-publish.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-16/lock-publish.svg</destination>
+			<type>image</type>
+			<uuidstructure>01e5948b-cf7c-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>01e5948c-cf7c-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:40:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[lock-publish]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-16/lock-shared.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-16/lock-shared.svg</destination>
+			<type>image</type>
+			<uuidstructure>01e609bf-cf7c-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>01e609c0-cf7c-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:40:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[lock-shared]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-16/overlay-changed.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-16/overlay-changed.svg</destination>
+			<type>image</type>
+			<uuidstructure>01e6a603-cf7c-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>01e6a604-cf7c-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:40:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[overlay-changed]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-16/overlay-sibling.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-16/overlay-sibling.svg</destination>
+			<type>image</type>
+			<uuidstructure>01e71b37-cf7c-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>01e71b38-cf7c-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:40:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[overlay-sibling]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:16,h:16]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/.galleries/icons-svg/icons-20</destination>
+			<type>folder</type>
+			<uuidstructure>3141c1b2-cf7c-11ec-8701-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 09 May 2022 09:41:25 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-20/edit-cursor-20.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-20/edit-cursor-20.svg</destination>
+			<type>image</type>
+			<uuidstructure>3849d607-cf7c-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>3849d608-cf7c-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:41:36 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[edit-cursor-20]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-20/edit-point-white-20.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-20/edit-point-white-20.svg</destination>
+			<type>image</type>
+			<uuidstructure>384ae77b-cf7c-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>384ae77c-cf7c-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:41:36 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[edit-point-white-20]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-20/opencms-iconfont-20.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-20/opencms-iconfont-20.svg</destination>
+			<type>image</type>
+			<uuidstructure>384baacf-cf7c-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>384baad0-cf7c-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:41:36 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[opencms-iconfont-20]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24</destination>
+			<type>folder</type>
+			<uuidstructure>c423f2a6-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 09 May 2022 09:38:22 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/archive.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/archive.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdea63ab-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdea63ac-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[archive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/audio.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/audio.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdeb751f-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdeb7520-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[audio]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/binary.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/binary.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdec3873-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdec3874-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[binary]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/category.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/category.svg</destination>
+			<type>image</type>
+			<uuidstructure>cded980b-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cded980c-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[category]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/configfolder.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/configfolder.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdee344f-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdee3450-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[configfolder]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/containerpage.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/containerpage.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdeea983-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdeea984-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[containerpage]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/containerpage_template.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/containerpage_template.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdef1eb7-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdef1eb8-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[containerpage_template]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/css.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/css.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdefbafb-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdefbafc-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[css]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/default.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/default.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdf11a93-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdf11a94-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[default]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/downloadgallery.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/downloadgallery.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdf1dde7-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdf1dde8-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[downloadgallery]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/elementgroup.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/elementgroup.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdf3166f-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdf31670-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[elementgroup]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/excel.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/excel.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdf38ba3-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdf38ba4-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[excel]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/folder.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/folder.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdf400d7-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdf400d8-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[folder]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/font.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/font.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdf49d1b-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdf49d1c-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[font]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/formatter_config.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/formatter_config.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdf5395f-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdf53960-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[formatter_config]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/function.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/function.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdf5fcb3-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdf5fcb4-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[function]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/group.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/group.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdf6c007-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdf6c008-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[group]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/html.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/html.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdf7aa6b-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdf7aa6c-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[html]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/htmlgallery.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/htmlgallery.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdf86dbf-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdf86dc0-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[htmlgallery]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/htmlredirect.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/htmlredirect.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdf93113-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdf93114-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[htmlredirect]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/image.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/image.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdf9f467-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdf9f468-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[image]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/imagegallery.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/imagegallery.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdfab7bb-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdfab7bc-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[imagegallery]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/inheritancegroup.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/inheritancegroup.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdfb7b0f-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdfb7b10-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[inheritancegroup]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/java.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/java.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdfc3e63-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdfc3e64-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[java]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/js.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/js.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdfcdaa7-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdfcdaa8-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[js]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/jsp.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/jsp.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdfd4fdb-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdfd4fdc-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[jsp]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/jsp_search.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/jsp_search.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdfdec1f-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdfdec20-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[jsp_search]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/linkgallery.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/linkgallery.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdfe8863-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdfe8864-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[linkgallery]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/localization.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/localization.svg</destination>
+			<type>image</type>
+			<uuidstructure>cdff99db-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>cdff99dc-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[localization]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/localization_descriptor.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/localization_descriptor.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce00361f-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce003620-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[localization_descriptor]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/modelgroup_copy.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/modelgroup_copy.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce01bcc7-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce01bcc8-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[modelgroup_copy]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/modelgroup_reuse.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/modelgroup_reuse.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce02801b-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce02801c-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[modelgroup_reuse]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/modelpage.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/modelpage.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce03436f-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce034370-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[modelpage]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/module1.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/module1.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce03dfb3-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce03dfb4-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[module1]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/module_config.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/module_config.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce047bf7-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce047bf8-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[module_config]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/navlevel.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/navlevel.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce05183b-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce05183c-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[navlevel]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/opencms-filetypes-24.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/opencms-filetypes-24.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce05b47f-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce05b480-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[opencms-filetypes-24]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/orgunit.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/orgunit.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce0677d3-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce0677d4-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[orgunit]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/pdf.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/pdf.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce071417-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce071418-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[pdf]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/plain.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/plain.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce07b05b-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce07b05c-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[plain]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/pointer.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/pointer.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce084c9f-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce084ca0-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[pointer]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/powerpoint.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/powerpoint.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce08c1d3-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce08c1d4-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[powerpoint]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/principal-all.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/principal-all.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce095e17-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce095e18-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[principal-all]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/principal-overwrite.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/principal-overwrite.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce09fa5b-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce09fa5c-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[principal-overwrite]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/project1.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/project1.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce0abdaf-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce0abdb0-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[project1]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/project_red.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/project_red.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce0b59f3-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce0b59f4-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[project_red]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/project_yellow.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/project_yellow.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce0bf637-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce0bf638-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[project_yellow]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/publish.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/publish.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce0c927b-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce0c927c-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[publish]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/resource-types.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/resource-types.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce0d07af-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce0d07b0-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[resource-types]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/role.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/role.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce0da3f3-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce0da3f4-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[role]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/sitemap_config.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/sitemap_config.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce108a33-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce108a34-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[sitemap_config]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/subsitemap.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/subsitemap.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce112677-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce112678-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[subsitemap]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/tablegallery.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/tablegallery.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce119bab-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce119bac-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[tablegallery]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/text.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/text.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce1237ef-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce1237f0-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[text]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/unknown_file.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/unknown_file.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce154443-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce154444-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[unknown_file]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/unknown_folder.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/unknown_folder.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce160797-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce160798-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[unknown_folder]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/video.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/video.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce17672f-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce176730-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[video]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/warning.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/warning.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce180373-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce180374-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[warning]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/webuser.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/webuser.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce189fb7-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce189fb8-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[webuser]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/word.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/word.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce1914eb-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce1914ec-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[word]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/xml.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/xml.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce19b12f-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce19b130-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[xml]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-24/xmlcontent.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-24/xmlcontent.svg</destination>
+			<type>image</type>
+			<uuidstructure>ce1a4d73-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>ce1a4d74-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:38:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[xmlcontent]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:24,h:24]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/.galleries/icons-svg/icons-32</destination>
+			<type>folder</type>
+			<uuidstructure>fa4ea2ec-cf7a-11ec-8701-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 09 May 2022 09:32:43 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-32/cache.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-32/cache.svg</destination>
+			<type>image</type>
+			<uuidstructure>00dd4181-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>00dd4182-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:32:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[cache]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-32/database.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-32/database.svg</destination>
+			<type>image</type>
+			<uuidstructure>00de04d5-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>00de04d6-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:32:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[database]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-32/edit-point1.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-32/edit-point1.svg</destination>
+			<type>image</type>
+			<uuidstructure>00df3d59-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>00df3d5a-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:32:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[edit-point1]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-32/explorer1.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-32/explorer1.svg</destination>
+			<type>image</type>
+			<uuidstructure>00dfd99d-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>00dfd99e-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:32:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[explorer1]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-32/git1.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-32/git1.svg</destination>
+			<type>image</type>
+			<uuidstructure>00e04ed1-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>00e04ed2-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:32:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[git1]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-32/history1.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-32/history1.svg</destination>
+			<type>image</type>
+			<uuidstructure>00e0eb15-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>00e0eb16-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:32:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[history1]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-32/launchpad1.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-32/launchpad1.svg</destination>
+			<type>image</type>
+			<uuidstructure>00e18759-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>00e1875a-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:32:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[launchpad1]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-32/link1.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-32/link1.svg</destination>
+			<type>image</type>
+			<uuidstructure>00e2239d-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>00e2239e-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:32:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[link1]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-32/list.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-32/list.svg</destination>
+			<type>image</type>
+			<uuidstructure>00e298d1-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>00e298d2-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:32:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[list]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-32/log.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-32/log.svg</destination>
+			<type>image</type>
+			<uuidstructure>00e33515-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>00e33516-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:32:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[log]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-32/module.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-32/module.svg</destination>
+			<type>image</type>
+			<uuidstructure>00e3f869-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>00e3f86a-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:32:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[module]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-32/project.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-32/project.svg</destination>
+			<type>image</type>
+			<uuidstructure>00e494ad-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>00e494ae-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:32:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[project]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-32/quicklaunch-editor1.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-32/quicklaunch-editor1.svg</destination>
+			<type>image</type>
+			<uuidstructure>00e530f1-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>00e530f2-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:32:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[quicklaunch-editor1]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-32/scheduler.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-32/scheduler.svg</destination>
+			<type>image</type>
+			<uuidstructure>00e5cd35-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>00e5cd36-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:32:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[scheduler]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-32/search1.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-32/search1.svg</destination>
+			<type>image</type>
+			<uuidstructure>00e64269-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>00e6426a-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:32:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[search1]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-32/session1.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-32/session1.svg</destination>
+			<type>image</type>
+			<uuidstructure>00e6b79d-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>00e6b79e-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:32:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[session1]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-32/site.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-32/site.svg</destination>
+			<type>image</type>
+			<uuidstructure>00e753e1-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>00e753e2-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:32:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[site]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-32/sitemap1.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-32/sitemap1.svg</destination>
+			<type>image</type>
+			<uuidstructure>00e7f025-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>00e7f026-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:32:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[sitemap1]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-32/terminal.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-32/terminal.svg</destination>
+			<type>image</type>
+			<uuidstructure>00e88c69-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>00e88c6a-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:32:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[terminal]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-32/tool5.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-32/tool5.svg</destination>
+			<type>image</type>
+			<uuidstructure>00eb72ad-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>00eb72ae-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:32:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[tool5]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/.galleries/icons-svg/icons-32/user.svg</source>
+			<destination>sites/documentation/.galleries/icons-svg/icons-32/user.svg</destination>
+			<type>image</type>
+			<uuidstructure>00ec0ef1-cf7b-11ec-8701-0242ac11002b</uuidstructure>
+			<uuidresource>00ec0ef2-cf7b-11ec-8701-0242ac11002b</uuidresource>
+			<datecreated>Mon, 09 May 2022 09:32:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Copyright</name>
+					<value><![CDATA[Alkacon Software GmbH & Co. KG]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[user]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -2555,31 +6608,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/documentation/core/index.html</source>
-			<destination>sites/documentation/core/index.html</destination>
-			<type>htmlredirect</type>
-			<uuidstructure>0a1336aa-c9fe-11ec-a595-0242ac11002b</uuidstructure>
-			<uuidresource>0a1336ab-c9fe-11ec-a595-0242ac11002b</uuidresource>
-			<datecreated>Mon, 02 May 2022 09:55:46 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Redirect to first page in navigation]]></value>
-				</property>
-				<property>
-					<name>locale-available</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>search.exclude</name>
-					<value><![CDATA[all]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<destination>sites/documentation/core/introduction</destination>
 			<type>folder</type>
 			<uuidstructure>8f486d01-c9fd-11ec-a595-0242ac11002b</uuidstructure>
@@ -2620,44 +6648,17 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/documentation/core/test</destination>
-			<type>folder</type>
-			<uuidstructure>fb976225-cd2c-11ec-9bc3-0242ac11002b</uuidstructure>
-			<datecreated>Fri, 06 May 2022 11:09:22 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[0.5]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[Formatter Test]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Formatter Test]]></value>
-				</property>
-				<property>
-					<name>default-file</name>
-					<value><![CDATA[##navigation_level_folder##]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/documentation/core/test/index.html</source>
-			<destination>sites/documentation/core/test/index.html</destination>
+			<source>sites/documentation/core/index.html</source>
+			<destination>sites/documentation/core/index.html</destination>
 			<type>htmlredirect</type>
-			<uuidstructure>fb98e8cb-cd2c-11ec-9bc3-0242ac11002b</uuidstructure>
-			<uuidresource>fb98e8cc-cd2c-11ec-9bc3-0242ac11002b</uuidresource>
-			<datecreated>Fri, 06 May 2022 11:09:22 GMT</datecreated>
+			<uuidstructure>0a1336aa-c9fe-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>0a1336ab-c9fe-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 09:55:46 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[page]]></value>
+					<value><![CDATA[Redirect to first page in navigation]]></value>
 				</property>
 				<property>
 					<name>locale-available</name>
@@ -2667,129 +6668,30 @@
 					<name>search.exclude</name>
 					<value><![CDATA[all]]></value>
 				</property>
-				<property type="shared">
-					<name>template-elements</name>
-					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
-				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/documentation/core/test/full-flow</destination>
-			<type>folder</type>
-			<uuidstructure>c171c3f6-cdd1-11ec-9bc3-0242ac11002b</uuidstructure>
-			<datecreated>Sat, 07 May 2022 06:48:51 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[0.5]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[Full flow layout]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Full flow layout]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/documentation/core/test/full-flow/index.html</source>
-			<destination>sites/documentation/core/test/full-flow/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>c177694b-cdd1-11ec-9bc3-0242ac11002b</uuidstructure>
-			<uuidresource>c177694c-cdd1-11ec-9bc3-0242ac11002b</uuidresource>
-			<datecreated>Sat, 07 May 2022 06:48:51 GMT</datecreated>
+			<source>sites/documentation/index.html</source>
+			<destination>sites/documentation/index.html</destination>
+			<type>htmlredirect</type>
+			<uuidstructure>87e35a77-c9ff-11ec-a595-0242ac11002b</uuidstructure>
+			<uuidresource>87e35a78-c9ff-11ec-a595-0242ac11002b</uuidresource>
+			<datecreated>Mon, 02 May 2022 10:06:27 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Full flow layout]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>sites/documentation/core/test/section-ext</destination>
-			<type>folder</type>
-			<uuidstructure>0846e970-cd2d-11ec-9bc3-0242ac11002b</uuidstructure>
-			<datecreated>Fri, 06 May 2022 11:09:43 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[1.0]]></value>
+					<value><![CDATA[Redirect to first page in navigation]]></value>
 				</property>
 				<property>
-					<name>NavText</name>
-					<value><![CDATA[Extended Section]]></value>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
 				</property>
 				<property>
-					<name>Title</name>
-					<value><![CDATA[Extended Section]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/documentation/core/test/section-ext/index.html</source>
-			<destination>sites/documentation/core/test/section-ext/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>084a92f5-cd2d-11ec-9bc3-0242ac11002b</uuidstructure>
-			<uuidresource>084a92f6-cd2d-11ec-9bc3-0242ac11002b</uuidresource>
-			<datecreated>Fri, 06 May 2022 11:09:43 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Extended Section]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>sites/documentation/core/test/source-code</destination>
-			<type>folder</type>
-			<uuidstructure>29d4c86d-cd49-11ec-9bc3-0242ac11002b</uuidstructure>
-			<datecreated>Fri, 06 May 2022 14:31:05 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[2.0]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[Source code]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Source code]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/documentation/core/test/source-code/index.html</source>
-			<destination>sites/documentation/core/test/source-code/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>29d6eb52-cd49-11ec-9bc3-0242ac11002b</uuidstructure>
-			<uuidresource>29d6eb53-cd49-11ec-9bc3-0242ac11002b</uuidresource>
-			<datecreated>Fri, 06 May 2022 14:31:05 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Source code]]></value>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
 				</property>
 			</properties>
 			<relations/>

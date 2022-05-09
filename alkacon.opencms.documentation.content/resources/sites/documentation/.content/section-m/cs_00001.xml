@@ -2,7 +2,7 @@
 
 <ContentSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/section.xsd">
   <ContentSection language="en">
-    <Title/>
+    <Title><![CDATA[%(cms.subSiteTitle)]]></Title>
     <Image>
       <Image>
         <link type="WEAK">
@@ -12,5 +12,6 @@
       </Image>
       <Title><![CDATA[OpenCms logo]]></Title>
     </Image>
+    <GalleryTitle><![CDATA[Title for head group]]></GalleryTitle>
   </ContentSection>
 </ContentSectionData>

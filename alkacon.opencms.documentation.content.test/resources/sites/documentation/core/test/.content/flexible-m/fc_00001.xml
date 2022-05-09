@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Test code HTML]]></Title>
+    <Code><![CDATA[<!doctype html>
+<html lang="de">
+<head>
+ ...
+</head>
+
+<body>
+  <header>
+    <img src="/.content/flexible-m/logo.svg" alt="logo">
+    <p>Herzlich willkommen!</p>
+  </header>
+
+  <h1>Überschrift der Seite</h1>
+
+  <footer>
+     <a href="/.content/flexible-m/kontakt.html">Kontakt</a>
+     <p>© 2014 by selfHTML</p>
+  </footer>
+</body>
+</html>]]></Code>
+  </Flexible>
+</FlexibleData>

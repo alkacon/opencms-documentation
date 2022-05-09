@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/section.xsd">
+  <ContentSection language="en">
+    <Title><![CDATA[Short sample text]]></Title>
+    <Text name="Text0">
+      <links>
+        <link name="link0" internal="true" type="A">
+          <target><![CDATA[/sites/documentation/core/]]></target>
+          <uuid>db9d8dfd-c9fc-11ec-a595-0242ac11002b</uuid>
+        </link>
+      </links>
+      <content><![CDATA[<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a <a href="%(link0)">paradisematic country</a>, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. Today emojis like 😇😀😉👍🏻🐶🍎 or ⚽️ are also often used.</p>]]></content>
+    </Text>
+    <Image>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/documentation/.galleries/samples/06.jpg]]></target>
+          <uuid>81ededdf-cdd3-11ec-9bc3-0242ac11002b</uuid>
+        </link>
+      </Image>
+      <Title><![CDATA[Raised hands in a concert]]></Title>
+      <Copyright><![CDATA[CC0 1.0 - Public Domain (from unsplash.com)]]></Copyright>
+    </Image>
+    <Link>
+      <Text><![CDATA[This is the link]]></Text>
+      <URI>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/documentation/core/]]></target>
+          <uuid>db9d8dfd-c9fc-11ec-a595-0242ac11002b</uuid>
+        </link>
+      </URI>
+    </Link>
+  </ContentSection>
+</ContentSectionData>

@@ -133,31 +133,58 @@ $full-flow-assumed-width:               map-get($container-max-widths, xl) !defa
 
 @include media-breakpoint-up(lg) {
 
-    header.bh,
-    header.fh {
-        .co-lg-xl,
-        .h-group {
-            max-width: none;
-        }
-    }
-
-    @each $parent-col-size in (3, 4) {
+    @each $parent-col-size in (3) {
         aside {
             &.col-lg-#{$parent-col-size} {
                 max-width: get-col-abs-size($parent-col-size);
                 flex-grow: 1;
             }
         }
+        div.area-wide {
+            &.col-lg-#{12 - $parent-col-size} {
+                max-width: calc(100% - #{get-col-abs-size($parent-col-size)});
+                flex-grow: 1;
+            }
+        }
     }
 
-    .area-header {
+    main {
+        // add padding in columns instead of bottom-margin in header so that the background can be colored
+        // no-margin header is not used / required for documentation
+        div.area-wide,
+        aside {
+            padding-top: $default-margin;
+        }
+
+        aside {
+            background-color: $grey-lighter;
+        }
+    }
+
+    header.area-header {
+        margin-bottom: 0;
+
         .col-lg-3 {
             @include make-col-abs-size(3);
         }
         .col-lg-9 {
             @include make-col-abs-size(9, true);
         }
+
+        &.bh {
+            .co-lg-xl,
+            .h-group {
+                max-width: none;
+            }
+            .h-title-col {
+                max-width: none !important;
+                flex: auto !important;
+
+                .h-title {
+                    font-size: $h2-font-size;
+                    font-weight: $font-weight-headings;
+                }
+            }
+        }
     }
 }
-
-
