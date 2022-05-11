@@ -148,7 +148,31 @@ $full-flow-assumed-width:               map-get($container-max-widths, xl) !defa
         }
     }
 
+    #mercury-page {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+    }
+
+    html.opencms-page-editor {
+        // fix head below toolbar in edit mode
+        #mercury-page {
+            min-height: calc(100vh - $opencms-toolbar-height);
+        }
+    }
+
     main {
+        display: flex;
+        flex-grow: 1;
+
+        > .container {
+            display: flex;
+            flex-direction: column;
+            > .row {
+                flex-grow: 1;
+            }
+        }
+
         // add padding in columns instead of bottom-margin in header so that the background can be colored
         // no-margin header is not used / required for documentation
         div.area-wide,

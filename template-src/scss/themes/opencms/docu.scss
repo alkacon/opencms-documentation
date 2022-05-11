@@ -170,3 +170,22 @@ pre code {
     tab-size: 2em;
     border: 1px solid $text-dark;
 }
+
+code {
+    color: $black;
+}
+
+.alert {
+    position: relative;
+    padding: $default-margin-verysmall $default-margin-small;
+    margin-bottom: $piece-text-margin;
+    @include round-corners($default-border-radius);
+}
+
+.alert-info {
+    background-color: $grey-lighter;
+}
+
+.alert-danger {
+    background-color: #ffe3e7;
+}

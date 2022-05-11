@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[Configurations, formatters and localizations for the Alkacon OpenCms documentation.]]></description>
-		<version>13.0.12</version>
+		<version>13.0.15</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -89,14 +89,18 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/alkacon.opencms.documentation/configuration/alkacon.opencms.documentation.master.xml</source>
-			<destination>system/modules/alkacon.opencms.documentation/configuration/alkacon.opencms.documentation.master.xml</destination>
+			<source>system/modules/alkacon.opencms.documentation/configuration/documentation.master.xml</source>
+			<destination>system/modules/alkacon.opencms.documentation/configuration/documentation.master.xml</destination>
 			<type>sitemap_master_config</type>
 			<uuidstructure>693ad0e1-c4a6-11ec-a595-0242ac11002b</uuidstructure>
 			<uuidresource>693ad0e2-c4a6-11ec-a595-0242ac11002b</uuidresource>
 			<datecreated>Mon, 25 Apr 2022 14:45:55 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms documentation master configuration]]></value>
+				</property>
 				<property>
 					<name>locale</name>
 					<value><![CDATA[en]]></value>
@@ -114,14 +118,18 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>system/modules/alkacon.opencms.documentation/configuration/alkacon.opencms.documentation.settings.overrides.xml</source>
-			<destination>system/modules/alkacon.opencms.documentation/configuration/alkacon.opencms.documentation.settings.overrides.xml</destination>
+			<source>system/modules/alkacon.opencms.documentation/configuration/documentation.settings.overrides.xml</source>
+			<destination>system/modules/alkacon.opencms.documentation/configuration/documentation.settings.overrides.xml</destination>
 			<type>settings_config</type>
 			<uuidstructure>6aa0c42e-c9e4-11ec-a595-0242ac11002b</uuidstructure>
 			<uuidresource>6aa0c42f-c9e4-11ec-a595-0242ac11002b</uuidresource>
 			<datecreated>Mon, 02 May 2022 06:52:22 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms documentation formatter setting overrides]]></value>
+				</property>
 				<property>
 					<name>locale</name>
 					<value><![CDATA[en]]></value>

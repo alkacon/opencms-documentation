@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[List of icons]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>To display a list of icons, use the extended sections <strong>Text and Image</strong> formatter. Then set the following element settings:</p>
+<ul>
+<li><em>CSS selectors 2:</em> Format subsection headings like a description list</li>
+<li><em>Layout:</em> Image left, Heading and Text right (in separate column)&nbsp;</li>
+<li><em>Type of series:</em> As unorderd list ( ul )</li>
+<li><em>Link display:</em> Link the headline</li>
+<li><em>Image size (desktop):</em> About 8% (1/12) of the available width</li>
+<li><em>Show image zoom:</em> No (uncheck)</li>
+<li><em>Link image:</em> Yes (check)</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[The lauchpad]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/documentation/.galleries/icons-svg/icons-32/launchpad1.svg]]></target>
+            <uuid>00e18759-cf7b-11ec-8701-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[launchpad]]></Title>
+        <Copyright><![CDATA[Alkacon Software GmbH & Co. KG]]></Copyright>
+      </Image>
+      <Link>
+        <Text><![CDATA[Link 1]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/documentation/core/]]></target>
+            <uuid>db9d8dfd-c9fc-11ec-a595-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Module management]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/documentation/.galleries/icons-svg/icons-32/module.svg]]></target>
+            <uuid>00e3f869-cf7b-11ec-8701-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[module]]></Title>
+        <Copyright><![CDATA[Alkacon Software GmbH & Co. KG]]></Copyright>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Website management]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/documentation/.galleries/icons-svg/icons-32/site.svg]]></target>
+            <uuid>00e753e1-cf7b-11ec-8701-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[site]]></Title>
+        <Copyright><![CDATA[Alkacon Software GmbH & Co. KG]]></Copyright>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

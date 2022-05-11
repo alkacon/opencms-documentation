@@ -3,6 +3,19 @@
 <SettingsConfigs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/settings_config.xsd">
   <SettingsConfig language="en">
     <Setting>
+      <FormatterKey><![CDATA[m/section-ext/text-image]]></FormatterKey>
+      <IncludeName><![CDATA[cssWrapper2.default]]></IncludeName>
+      <PropertyName><![CDATA[cssWrapper2]]></PropertyName>
+      <DisplayName><![CDATA[%(key.msg.setting.cssWrapper) 2]]></DisplayName>
+      <Description><![CDATA[%(key.msg.setting.cssWrapper.help)]]></Description>
+      <Visibility><![CDATA[elementAndParentShared]]></Visibility>
+      <Widget><![CDATA[selectcombo]]></Widget>
+      <WidgetConfig><![CDATA[
+            dl-headings:        Format subsection headings like a description list
+      ]]></WidgetConfig>
+      <Comment><![CDATA[Add süecial option to format headers as regular fonts to extended section.]]></Comment>
+    </Setting>
+    <Setting>
       <IncludeName><![CDATA[pieceLayout.all]]></IncludeName>
       <PropertyName><![CDATA[pieceLayout]]></PropertyName>
       <DisplayName><![CDATA[%(key.msg.setting.pieceLayout)]]></DisplayName>
@@ -23,6 +36,24 @@
             8:      %(key.msg.setting.pieceLayout.8)|
             9:      %(key.msg.setting.pieceLayout.9)
         ]]></WidgetConfig>
+    </Setting>
+    <Setting>
+      <IncludeName><![CDATA[linkOption.default]]></IncludeName>
+      <PropertyName><![CDATA[linkOption]]></PropertyName>
+      <DisplayName><![CDATA[%(key.msg.setting.linkOption)]]></DisplayName>
+      <Description><![CDATA[%(key.msg.setting.linkOption.help)]]></Description>
+      <Visibility><![CDATA[element]]></Visibility>
+      <Widget><![CDATA[select]]></Widget>
+      <Default><![CDATA[heading]]></Default>
+      <WidgetConfig><![CDATA[
+            button:         %(key.msg.setting.linkOption.button)|
+            button-full:    %(key.msg.setting.linkOption.button-full)|
+            button-sm:      %(key.msg.setting.linkOption.button-sm)|
+            text:           %(key.msg.setting.linkOption.text)|
+            heading:        %(key.msg.setting.linkOption.heading)|
+            none:           %(key.msg.setting.linkOption.none)
+        ]]></WidgetConfig>
+      <Comment><![CDATA[Change the default linkOption to 'text'.]]></Comment>
     </Setting>
     <Setting>
       <IncludeName><![CDATA[showImageCopyright.default]]></IncludeName>

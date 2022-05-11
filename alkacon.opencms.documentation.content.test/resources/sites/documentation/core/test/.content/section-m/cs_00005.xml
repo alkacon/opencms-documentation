@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/section.xsd">
+  <ContentSection language="en">
+    <Title><![CDATA[Inline Formatting]]></Title>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<p>Use <strong>&lt;code&gt;</strong>my code<strong>&lt;/code&gt;</strong> to format code output.</p>
+<p>Example: The path to this file is <code>/core/test/.content/section-m/cs_00005.xml</code>.</p>
+<p>Use <strong>&lt;p class="alert alert-info"&gt;</strong>my text<strong>&lt;/p&gt;</strong> to add "info" highlighing.</p>
+<p class="alert alert-info">Example: This is highlighted as "info".</p>
+<p>Use <strong>&lt;p class="alert alert-danger"&gt;</strong>my text<strong>&lt;/p&gt;</strong> to add "danger" highlighing.</p>
+<p class="alert alert-danger">Example: This is highlighted as "danger".</p>]]></content>
+    </Text>
+  </ContentSection>
+</ContentSectionData>

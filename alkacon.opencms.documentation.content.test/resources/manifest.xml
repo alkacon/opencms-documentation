@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The purpose of this module is to provide test pages that demonstrate the usage of the documentation specific functions. These are not to be installed with the final documentation.]]></description>
-		<version>13.0.6</version>
+		<version>13.0.7</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -267,7 +267,24 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Extended Section: Explorer shortcuts]]></value>
+					<value><![CDATA[Formatting options: Keyboard shortcut formatting]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/core/test/.content/section-ext-m/ecs_00003.xml</source>
+			<destination>sites/documentation/core/test/.content/section-ext-m/ecs_00003.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>5bf6b0eb-d069-11ec-844e-0242ac11002b</uuidstructure>
+			<uuidresource>5bf6b0ec-d069-11ec-844e-0242ac11002b</uuidresource>
+			<datecreated>Tue, 10 May 2022 13:59:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatting options: List of icons]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -352,6 +369,23 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>sites/documentation/core/test/.content/section-m/cs_00005.xml</source>
+			<destination>sites/documentation/core/test/.content/section-m/cs_00005.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>051a4548-d063-11ec-844e-0242ac11002b</uuidstructure>
+			<uuidresource>051a4549-d063-11ec-844e-0242ac11002b</uuidresource>
+			<datecreated>Tue, 10 May 2022 13:13:44 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content section: Inline Formatting]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>sites/documentation/core/test/content-section</destination>
 			<type>folder</type>
 			<uuidstructure>5c7d5974-cf73-11ec-8701-0242ac11002b</uuidstructure>
@@ -386,6 +420,46 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Content section]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/documentation/core/test/formatting</destination>
+			<type>folder</type>
+			<uuidstructure>87dd3480-d068-11ec-844e-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 10 May 2022 13:53:11 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.25]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Formatting options]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatting options]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/documentation/core/test/formatting/index.html</source>
+			<destination>sites/documentation/core/test/formatting/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>87df7e75-d068-11ec-844e-0242ac11002b</uuidstructure>
+			<uuidresource>87df7e76-d068-11ec-844e-0242ac11002b</uuidresource>
+			<datecreated>Tue, 10 May 2022 13:53:11 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatting options]]></value>
 				</property>
 			</properties>
 			<relations/>
