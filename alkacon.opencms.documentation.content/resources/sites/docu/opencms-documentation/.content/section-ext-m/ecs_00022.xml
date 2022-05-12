@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Properties used to configure the static export]]></Title>
+    <Section>
+      <Caption><![CDATA[export]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The property inidcates if a resource should be exported (<code>export=true</code>) or not (<code>export=false</code>). The property is inherited from parent folders. If not set at all, a (configurable) default value is used. Typically <code>false</code>. Note that the property is ignored for files with a suffix, that matches one of the configured default suffixes.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[exportname]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Via <code>exportname</code> you can change the name of the exported resource when it is written to the RFS. The property applies for folders only and must be attached directly to the folder of interest.</p>
+<p>By default, the folder structure of the VFS is resembled on the RFS during export. By setting <code>exportname</code> at a folder, you alter this behavior for the single folder. The value of <code>exportname</code> should be the complete path, the VFS path translates to when exported.</p>
+<p>You may use the folder to export (static) resources stored in a VFS folder to a differently named folder on the VFS.</p>
+<div class="alert alert-info">Be careful to prevent the export of two different VFS folders to the same RFS folder. In that case, you may overwrite files with identical names that come from different folders.</div>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[exportsuffix]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The <code>exportsuffix</code> property specifies the suffix for the exported file. It applies to JSPs only. The default export suffix for JSPs is <code>.html</code>. Via <code>exportsuffix</code>, you can alter that suffix.</p>
+<p>E.g., if a CSS file is rendered by a JSP, set <code>exportsuffix=.css</code>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The Flex Cache]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The flex cache is used to improve performance of your website. In OpenCms pages are typically built on-the-fly when requested. This involves many costly steps, e.g., database queries. To obtain a performant web site, caching is essential.</p>
+<p>Not every resource's output HTML should be cached the same way. E.g., navigation content's HTML output used on many pages should be rendered and cached for each page separately, a function that outputs date and time should be rendered on every request, a completely static content item should be rendered only once, equally at which page it is used, etc. The flex cache is the tool to configure caching in a resource specific way.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

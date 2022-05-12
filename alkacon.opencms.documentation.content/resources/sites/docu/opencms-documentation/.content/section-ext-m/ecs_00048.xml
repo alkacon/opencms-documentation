@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Offline, online and publishing]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p><em>The VFS exists twice.</em> There is an "offline" and an "online" version. In the traditional workplace you can switch the version via the "Project" selector in the upper left corner. The version will not always be identical.</p>
+<p><em>The offline version is the version you work in.</em> Here you can change, move, add or delete resources or edit properties. The offline version is only accessible for users that are logged in. Guest users will never see the offline version. Your changes will thus never be visible directly in the web.</p>
+<p><em>The online version is the version visible for guest users. You cannot change anything online.</em> When someone opens a page of your OpenCms-made website, he sees what is in the online version of the VFS, or more precisely what is built from the resources in the online version. All resources used to build up the page are taken from the online version of the VFS. This version cannot be edited directly. If you switch to the project "Online" in the traditional workplace's explorer, you can view the resources and explore their properties and histories. But you cannot change anything. If you view a page in the online project, no page editor is shown, even if you are logged in as admin.</p>
+<p><em>Publishing resources copies them from the offline version to the online version of the VFS.</em> The only way to change the online version of the VFS is to publish resources from the offline version. Then they are copied to the online version and overwrite possibly existing older versions of the online version of a resource. Hence, after publishing, changes are visible to guests on your page.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

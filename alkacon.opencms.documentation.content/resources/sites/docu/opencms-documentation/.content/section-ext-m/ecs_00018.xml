@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[What is cached in which bucket?]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Which flex cache entry goes to which bucket(s) is determined by the cache directives set at the JSP whose output is cached. In particular, path information contained in the flex directive is explored. The scenario is as follows:</p>
+<ul>
+<li>If there are <strong>path information</strong> in the cache directives, the JSP output is cached in <strong>all buckets the path belongs to</strong> (i.e., buckets where the path itself or a root folder is configured for).</li>
+<li>If there is <strong>no path information</strong> in the cache directive, the JSP output is <strong>added to no bucket</strong> at all.</li>
+</ul>
+<p>Path information is contained in multiple flex cache directives, e.g., <code>uri</code> or <code>container-element</code>. But there are also directives that contain no path information, e.g. <code>always</code>. For such, the flex cache entries are added to no bucket at all and thus they are removed from the cache on each publish event.</p>
+<div class="alert alert-danger">You should keep in mind that the cache directives do not necessarily tell the dependencies of the JSPs output. Hence, be careful when using the flex cache buckets. Even if the assumptions made are kind of conservative, you should know your JSPs when configuring the buckets.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

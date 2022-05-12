@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinkSequenceData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/linksequence.xsd">
+  <LinkSequence language="en">
+    <Title><![CDATA[Header links]]></Title>
+    <LinkEntry>
+      <Text><![CDATA[OPENCMS.ORG]]></Text>
+      <URI>
+        <link internal="false" type="WEAK">
+          <target><![CDATA[http://www.opencms.org]]></target>
+        </link>
+      </URI>
+      <NewWindow>true</NewWindow>
+    </LinkEntry>
+    <LinkEntry>
+      <Text><![CDATA[ALKACON.COM]]></Text>
+      <URI>
+        <link internal="false" type="WEAK">
+          <target><![CDATA[http://www.alkacon.com]]></target>
+        </link>
+      </URI>
+      <NewWindow>true</NewWindow>
+    </LinkEntry>
+    <LinkEntry>
+      <Text><![CDATA[IMPRESSUM]]></Text>
+      <URI>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/docu/central/impressum/]]></target>
+          <uuid>1ceb5aad-d1d8-11ec-9238-0242ac11002b</uuid>
+        </link>
+      </URI>
+    </LinkEntry>
+    <LinkEntry>
+      <Text><![CDATA[PRIVACY POLICY]]></Text>
+      <URI>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/docu/central/privacy-policy/]]></target>
+          <uuid>1cf3bf2e-d1d8-11ec-9238-0242ac11002b</uuid>
+        </link>
+      </URI>
+    </LinkEntry>
+  </LinkSequence>
+</LinkSequenceData>

@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The purpose of this module is to provide test pages that demonstrate the usage of the documentation specific functions. These are not to be installed with the final documentation.]]></description>
-		<version>13.0.7</version>
+		<version>13.0.10</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -25,7 +25,7 @@
 		</dependencies>
 		<exportpoints/>
 		<resources>
-			<resource uri="/sites/documentation/core/test/"/>
+			<resource uri="/sites/docu/opencms-documentation/test/"/>
 		</resources>
 		<excluderesources/>
 		<parameters/>
@@ -37,17 +37,17 @@
 			<properties/>
 		</file>
 		<file>
-			<destination>sites/documentation</destination>
+			<destination>sites/docu</destination>
 			<type>subsitemap</type>
 			<properties/>
 		</file>
 		<file>
-			<destination>sites/documentation/core</destination>
-			<type>folder</type>
+			<destination>sites/docu/opencms-documentation</destination>
+			<type>subsitemap</type>
 			<properties/>
 		</file>
 		<file>
-			<destination>sites/documentation/core/test</destination>
+			<destination>sites/docu/opencms-documentation/test</destination>
 			<type>subsitemap</type>
 			<uuidstructure>fb976225-cd2c-11ec-9bc3-0242ac11002b</uuidstructure>
 			<datecreated>Fri, 06 May 2022 11:09:22 GMT</datecreated>
@@ -55,7 +55,7 @@
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[0.5]]></value>
+					<value><![CDATA[2.0]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
@@ -74,8 +74,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/documentation/core/test/index.html</source>
-			<destination>sites/documentation/core/test/index.html</destination>
+			<source>sites/docu/opencms-documentation/test/index.html</source>
+			<destination>sites/docu/opencms-documentation/test/index.html</destination>
 			<type>htmlredirect</type>
 			<uuidstructure>fb98e8cb-cd2c-11ec-9bc3-0242ac11002b</uuidstructure>
 			<uuidresource>fb98e8cc-cd2c-11ec-9bc3-0242ac11002b</uuidresource>
@@ -103,7 +103,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/documentation/core/test/.content</destination>
+			<destination>sites/docu/opencms-documentation/test/.content</destination>
 			<type>content_folder</type>
 			<uuidstructure>bbfe0227-cf72-11ec-8701-0242ac11002b</uuidstructure>
 			<datecreated>Mon, 09 May 2022 08:33:42 GMT</datecreated>
@@ -113,8 +113,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/documentation/core/test/.content/.config</source>
-			<destination>sites/documentation/core/test/.content/.config</destination>
+			<source>sites/docu/opencms-documentation/test/.content/.config</source>
+			<destination>sites/docu/opencms-documentation/test/.content/.config</destination>
 			<type>sitemap_config</type>
 			<uuidstructure>bbffd6e9-cf72-11ec-8701-0242ac11002b</uuidstructure>
 			<uuidresource>bbffd6ea-cf72-11ec-8701-0242ac11002b</uuidresource>
@@ -142,7 +142,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/documentation/core/test/.content/flexible-m</destination>
+			<destination>sites/docu/opencms-documentation/test/.content/flexible-m</destination>
 			<type>folder</type>
 			<uuidstructure>d973e4ac-cd0e-11ec-be3f-0242ac11002b</uuidstructure>
 			<datecreated>Fri, 06 May 2022 07:33:40 GMT</datecreated>
@@ -152,8 +152,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/documentation/core/test/.content/flexible-m/fc_00001.xml</source>
-			<destination>sites/documentation/core/test/.content/flexible-m/fc_00001.xml</destination>
+			<source>sites/docu/opencms-documentation/test/.content/flexible-m/fc_00001.xml</source>
+			<destination>sites/docu/opencms-documentation/test/.content/flexible-m/fc_00001.xml</destination>
 			<type>m-flexible-up</type>
 			<uuidstructure>d7518357-cf8b-11ec-8701-0242ac11002b</uuidstructure>
 			<uuidresource>d7518358-cf8b-11ec-8701-0242ac11002b</uuidresource>
@@ -169,8 +169,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/documentation/core/test/.content/flexible-m/fc_00002.xml</source>
-			<destination>sites/documentation/core/test/.content/flexible-m/fc_00002.xml</destination>
+			<source>sites/docu/opencms-documentation/test/.content/flexible-m/fc_00002.xml</source>
+			<destination>sites/docu/opencms-documentation/test/.content/flexible-m/fc_00002.xml</destination>
 			<type>m-flexible-up</type>
 			<uuidstructure>0dfb80e1-cf8c-11ec-8701-0242ac11002b</uuidstructure>
 			<uuidresource>0dfb80e2-cf8c-11ec-8701-0242ac11002b</uuidresource>
@@ -186,8 +186,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/documentation/core/test/.content/flexible-m/fc_00003.xml</source>
-			<destination>sites/documentation/core/test/.content/flexible-m/fc_00003.xml</destination>
+			<source>sites/docu/opencms-documentation/test/.content/flexible-m/fc_00003.xml</source>
+			<destination>sites/docu/opencms-documentation/test/.content/flexible-m/fc_00003.xml</destination>
 			<type>m-flexible-up</type>
 			<uuidstructure>344041ca-cf8c-11ec-8701-0242ac11002b</uuidstructure>
 			<uuidresource>344041cb-cf8c-11ec-8701-0242ac11002b</uuidresource>
@@ -203,7 +203,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/documentation/core/test/.content/linksequence-m</destination>
+			<destination>sites/docu/opencms-documentation/test/.content/linksequence-m</destination>
 			<type>folder</type>
 			<uuidstructure>df5e0ad0-cf78-11ec-8701-0242ac11002b</uuidstructure>
 			<datecreated>Mon, 09 May 2022 09:17:39 GMT</datecreated>
@@ -213,8 +213,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/documentation/core/test/.content/linksequence-m/ls_00001.xml</source>
-			<destination>sites/documentation/core/test/.content/linksequence-m/ls_00001.xml</destination>
+			<source>sites/docu/opencms-documentation/test/.content/linksequence-m/ls_00001.xml</source>
+			<destination>sites/docu/opencms-documentation/test/.content/linksequence-m/ls_00001.xml</destination>
 			<type>m-linksequence</type>
 			<uuidstructure>3afee048-ca02-11ec-a595-0242ac11002b</uuidstructure>
 			<uuidresource>3afee049-ca02-11ec-a595-0242ac11002b</uuidresource>
@@ -230,7 +230,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/documentation/core/test/.content/section-ext-m</destination>
+			<destination>sites/docu/opencms-documentation/test/.content/section-ext-m</destination>
 			<type>folder</type>
 			<uuidstructure>a2355a97-ca07-11ec-a595-0242ac11002b</uuidstructure>
 			<datecreated>Mon, 02 May 2022 11:04:27 GMT</datecreated>
@@ -240,8 +240,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/documentation/core/test/.content/section-ext-m/ecs_00001.xml</source>
-			<destination>sites/documentation/core/test/.content/section-ext-m/ecs_00001.xml</destination>
+			<source>sites/docu/opencms-documentation/test/.content/section-ext-m/ecs_00001.xml</source>
+			<destination>sites/docu/opencms-documentation/test/.content/section-ext-m/ecs_00001.xml</destination>
 			<type>m-section-ext</type>
 			<uuidstructure>900048a9-cd2e-11ec-9bc3-0242ac11002b</uuidstructure>
 			<uuidresource>900048aa-cd2e-11ec-9bc3-0242ac11002b</uuidresource>
@@ -257,8 +257,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/documentation/core/test/.content/section-ext-m/ecs_00002.xml</source>
-			<destination>sites/documentation/core/test/.content/section-ext-m/ecs_00002.xml</destination>
+			<source>sites/docu/opencms-documentation/test/.content/section-ext-m/ecs_00002.xml</source>
+			<destination>sites/docu/opencms-documentation/test/.content/section-ext-m/ecs_00002.xml</destination>
 			<type>m-section-ext</type>
 			<uuidstructure>c2c94848-cfa4-11ec-844e-0242ac11002b</uuidstructure>
 			<uuidresource>c2c94849-cfa4-11ec-844e-0242ac11002b</uuidresource>
@@ -274,8 +274,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/documentation/core/test/.content/section-ext-m/ecs_00003.xml</source>
-			<destination>sites/documentation/core/test/.content/section-ext-m/ecs_00003.xml</destination>
+			<source>sites/docu/opencms-documentation/test/.content/section-ext-m/ecs_00003.xml</source>
+			<destination>sites/docu/opencms-documentation/test/.content/section-ext-m/ecs_00003.xml</destination>
 			<type>m-section-ext</type>
 			<uuidstructure>5bf6b0eb-d069-11ec-844e-0242ac11002b</uuidstructure>
 			<uuidresource>5bf6b0ec-d069-11ec-844e-0242ac11002b</uuidresource>
@@ -291,7 +291,24 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/documentation/core/test/.content/section-m</destination>
+			<source>sites/docu/opencms-documentation/test/.content/section-ext-m/ecs_00004.xml</source>
+			<destination>sites/docu/opencms-documentation/test/.content/section-ext-m/ecs_00004.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>6fb549e8-d1cf-11ec-9238-0242ac11002b</uuidstructure>
+			<uuidresource>6fb549e9-d1cf-11ec-9238-0242ac11002b</uuidresource>
+			<datecreated>Thu, 12 May 2022 08:42:20 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatting options: Markup in the <title> of an extended section]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/docu/opencms-documentation/test/.content/section-m</destination>
 			<type>folder</type>
 			<uuidstructure>66f6c6ec-cf73-11ec-8701-0242ac11002b</uuidstructure>
 			<datecreated>Mon, 09 May 2022 08:38:29 GMT</datecreated>
@@ -301,8 +318,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/documentation/core/test/.content/section-m/cs_00001.xml</source>
-			<destination>sites/documentation/core/test/.content/section-m/cs_00001.xml</destination>
+			<source>sites/docu/opencms-documentation/test/.content/section-m/cs_00001.xml</source>
+			<destination>sites/docu/opencms-documentation/test/.content/section-m/cs_00001.xml</destination>
 			<type>m-section</type>
 			<uuidstructure>e7385e82-cdd2-11ec-9bc3-0242ac11002b</uuidstructure>
 			<uuidresource>e7385e83-cdd2-11ec-9bc3-0242ac11002b</uuidresource>
@@ -318,8 +335,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/documentation/core/test/.content/section-m/cs_00002.xml</source>
-			<destination>sites/documentation/core/test/.content/section-m/cs_00002.xml</destination>
+			<source>sites/docu/opencms-documentation/test/.content/section-m/cs_00002.xml</source>
+			<destination>sites/docu/opencms-documentation/test/.content/section-m/cs_00002.xml</destination>
 			<type>m-section</type>
 			<uuidstructure>a3266d77-ce9b-11ec-9bc3-0242ac11002b</uuidstructure>
 			<uuidresource>a3266d78-ce9b-11ec-9bc3-0242ac11002b</uuidresource>
@@ -335,8 +352,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/documentation/core/test/.content/section-m/cs_00003.xml</source>
-			<destination>sites/documentation/core/test/.content/section-m/cs_00003.xml</destination>
+			<source>sites/docu/opencms-documentation/test/.content/section-m/cs_00003.xml</source>
+			<destination>sites/docu/opencms-documentation/test/.content/section-m/cs_00003.xml</destination>
 			<type>m-section</type>
 			<uuidstructure>294cedc7-ce9c-11ec-9bc3-0242ac11002b</uuidstructure>
 			<uuidresource>294cedc8-ce9c-11ec-9bc3-0242ac11002b</uuidresource>
@@ -352,8 +369,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/documentation/core/test/.content/section-m/cs_00004.xml</source>
-			<destination>sites/documentation/core/test/.content/section-m/cs_00004.xml</destination>
+			<source>sites/docu/opencms-documentation/test/.content/section-m/cs_00004.xml</source>
+			<destination>sites/docu/opencms-documentation/test/.content/section-m/cs_00004.xml</destination>
 			<type>m-section</type>
 			<uuidstructure>aedfcd81-cf87-11ec-8701-0242ac11002b</uuidstructure>
 			<uuidresource>aedfcd82-cf87-11ec-8701-0242ac11002b</uuidresource>
@@ -369,8 +386,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/documentation/core/test/.content/section-m/cs_00005.xml</source>
-			<destination>sites/documentation/core/test/.content/section-m/cs_00005.xml</destination>
+			<source>sites/docu/opencms-documentation/test/.content/section-m/cs_00005.xml</source>
+			<destination>sites/docu/opencms-documentation/test/.content/section-m/cs_00005.xml</destination>
 			<type>m-section</type>
 			<uuidstructure>051a4548-d063-11ec-844e-0242ac11002b</uuidstructure>
 			<uuidresource>051a4549-d063-11ec-844e-0242ac11002b</uuidresource>
@@ -379,14 +396,31 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Content section: Inline Formatting]]></value>
+					<value><![CDATA[Formatting options: Inline Formatting]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/documentation/core/test/content-section</destination>
+			<source>sites/docu/opencms-documentation/test/.content/section-m/cs_00006.xml</source>
+			<destination>sites/docu/opencms-documentation/test/.content/section-m/cs_00006.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>0e6c0b62-d1cf-11ec-9238-0242ac11002b</uuidstructure>
+			<uuidresource>0e6c0b63-d1cf-11ec-9238-0242ac11002b</uuidresource>
+			<datecreated>Thu, 12 May 2022 08:39:37 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Formatting options: Markup in the <title> of a section]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/docu/opencms-documentation/test/content-section</destination>
 			<type>folder</type>
 			<uuidstructure>5c7d5974-cf73-11ec-8701-0242ac11002b</uuidstructure>
 			<datecreated>Mon, 09 May 2022 08:38:12 GMT</datecreated>
@@ -409,8 +443,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/documentation/core/test/content-section/index.html</source>
-			<destination>sites/documentation/core/test/content-section/index.html</destination>
+			<source>sites/docu/opencms-documentation/test/content-section/index.html</source>
+			<destination>sites/docu/opencms-documentation/test/content-section/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>5c843749-cf73-11ec-8701-0242ac11002b</uuidstructure>
 			<uuidresource>5c84374a-cf73-11ec-8701-0242ac11002b</uuidresource>
@@ -426,7 +460,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/documentation/core/test/formatting</destination>
+			<destination>sites/docu/opencms-documentation/test/formatting</destination>
 			<type>folder</type>
 			<uuidstructure>87dd3480-d068-11ec-844e-0242ac11002b</uuidstructure>
 			<datecreated>Tue, 10 May 2022 13:53:11 GMT</datecreated>
@@ -449,8 +483,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/documentation/core/test/formatting/index.html</source>
-			<destination>sites/documentation/core/test/formatting/index.html</destination>
+			<source>sites/docu/opencms-documentation/test/formatting/index.html</source>
+			<destination>sites/docu/opencms-documentation/test/formatting/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>87df7e75-d068-11ec-844e-0242ac11002b</uuidstructure>
 			<uuidresource>87df7e76-d068-11ec-844e-0242ac11002b</uuidresource>
@@ -466,7 +500,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/documentation/core/test/full-flow</destination>
+			<destination>sites/docu/opencms-documentation/test/full-flow</destination>
 			<type>folder</type>
 			<uuidstructure>c171c3f6-cdd1-11ec-9bc3-0242ac11002b</uuidstructure>
 			<datecreated>Sat, 07 May 2022 06:48:51 GMT</datecreated>
@@ -489,8 +523,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/documentation/core/test/full-flow/index.html</source>
-			<destination>sites/documentation/core/test/full-flow/index.html</destination>
+			<source>sites/docu/opencms-documentation/test/full-flow/index.html</source>
+			<destination>sites/docu/opencms-documentation/test/full-flow/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>c177694b-cdd1-11ec-9bc3-0242ac11002b</uuidstructure>
 			<uuidresource>c177694c-cdd1-11ec-9bc3-0242ac11002b</uuidresource>
@@ -506,7 +540,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/documentation/core/test/link-sequence</destination>
+			<destination>sites/docu/opencms-documentation/test/link-sequence</destination>
 			<type>folder</type>
 			<uuidstructure>da332c8e-cf76-11ec-8701-0242ac11002b</uuidstructure>
 			<datecreated>Mon, 09 May 2022 09:03:11 GMT</datecreated>
@@ -529,8 +563,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/documentation/core/test/link-sequence/index.html</source>
-			<destination>sites/documentation/core/test/link-sequence/index.html</destination>
+			<source>sites/docu/opencms-documentation/test/link-sequence/index.html</source>
+			<destination>sites/docu/opencms-documentation/test/link-sequence/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>da38aad3-cf76-11ec-8701-0242ac11002b</uuidstructure>
 			<uuidresource>da38aad4-cf76-11ec-8701-0242ac11002b</uuidresource>
@@ -546,7 +580,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/documentation/core/test/section-ext</destination>
+			<destination>sites/docu/opencms-documentation/test/section-ext</destination>
 			<type>folder</type>
 			<uuidstructure>0846e970-cd2d-11ec-9bc3-0242ac11002b</uuidstructure>
 			<datecreated>Fri, 06 May 2022 11:09:43 GMT</datecreated>
@@ -569,8 +603,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/documentation/core/test/section-ext/index.html</source>
-			<destination>sites/documentation/core/test/section-ext/index.html</destination>
+			<source>sites/docu/opencms-documentation/test/section-ext/index.html</source>
+			<destination>sites/docu/opencms-documentation/test/section-ext/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>084a92f5-cd2d-11ec-9bc3-0242ac11002b</uuidstructure>
 			<uuidresource>084a92f6-cd2d-11ec-9bc3-0242ac11002b</uuidresource>
@@ -586,7 +620,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/documentation/core/test/source-code</destination>
+			<destination>sites/docu/opencms-documentation/test/source-code</destination>
 			<type>folder</type>
 			<uuidstructure>29d4c86d-cd49-11ec-9bc3-0242ac11002b</uuidstructure>
 			<datecreated>Fri, 06 May 2022 14:31:05 GMT</datecreated>
@@ -609,8 +643,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/documentation/core/test/source-code/index.html</source>
-			<destination>sites/documentation/core/test/source-code/index.html</destination>
+			<source>sites/docu/opencms-documentation/test/source-code/index.html</source>
+			<destination>sites/docu/opencms-documentation/test/source-code/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>29d6eb52-cd49-11ec-9bc3-0242ac11002b</uuidstructure>
 			<uuidresource>29d6eb53-cd49-11ec-9bc3-0242ac11002b</uuidresource>

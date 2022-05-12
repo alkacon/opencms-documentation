@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Definition of a RFS rule (subnodes of the rfs-rule node)]]></Title>
+    <Section>
+      <Caption><![CDATA[name]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Name of the rule</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[description]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A precise description of the uses of this rule</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[source]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A regular expression that indicates the set of resources that apply this rule.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[rfs-prefix]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p><em>See the same option for the global render settings.</em></p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[exportpath]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p><em>See the same option for the global static export settings.</em></p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[exportworkpath (optional)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p><em>See the same option for the global static export settings. <br /></em></p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[exportbackups (optional)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p><em>See the same option for the global static export settings.</em></p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[userelativelinks (optional)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p><em>See the same option for the global render settings.</em></p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[related-system-res]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A list of regular expressions that should specify all resources in the <code>/system/</code> folder used by the source resource set. This resources will also be exported to the given export path.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

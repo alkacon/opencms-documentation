@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The short story]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p><em>A content item in OpenCms is an XML file with a special structure.</em> This structure is defined by the content's type definition, an XML Schema definition (XSD). You are free to define your own content types and add content of these types.</p>
+<p><em>Content items are rendered to HTML via so called "formatters".</em> A formatter is a Java Server Page (JSP) where you access the content and use its elements to produce the HTML output. For each type several formatters can exist. They are "glued" to the type by a formatter configuration that also describes in which situations (i.e., containers, see below) a formatter should be used.</p>
+<p><em>Web pages in OpenCms are typically container pages and containers are filled with content.</em> A container is a "hole" in the HTML page where content can be inserted. The container page keeps information about which content is placed in which container. Furthermore, for each content item, it stores the link to the formatter that is used to render it.</p>
+<p><em>The layout of the web page and the containers on the page are specified by container page templates.</em> These templates are JSPs that build the "frame" of the page and define at which position a container is placed. When a web page in OpenCms is loaded, i.e., a container page is requested, the template that is configured for the page is rendered and for each container in the template the content that should be placed in this hole is filled in. To fill content in, it is looked up in the container page which content is placed in the container and which formatter should be used for it. Then the content is rendered with the specified formatter and the produced HTML is inserted in the HTML structure produced by the template.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

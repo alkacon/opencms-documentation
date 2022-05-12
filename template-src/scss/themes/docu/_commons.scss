@@ -1,0 +1,106 @@
+// This program is part of the OpenCms Mercury Template.
+//
+// Copyright (c) Alkacon Software GmbH & Co. KG (http://www.alkacon.com)
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+/**********
+ * Source file:_commons.scss
+ */
+
+$color-oc-blue:                     #144382 !default;
+$color-blue-light:                  #2197db !default;
+$color-blue-lighter:                #e8f3f8 !default;
+$color-oc-red:                      #b31b34 !default;
+$color-red-light:                   #ff264a !default;
+$color-oc-orange:                   #ffa826 !default;
+$color-orange-light:                #ffe5bf !default;
+$white:                             #fff !default;
+$grey-lighter:                      #f4f4f4 !default;
+$grey-light:                        #ddd !default;
+$grey:                              #aaa !default;
+$grey-dark:                         #888 !default;
+$black:                             #000 !default;
+$color-cyan:                        #1bb39a !default;
+$color-cyan-light:                  #ace3da !default;
+
+$text-dark:                         #444 !default;
+
+$body-bg:                           $white !default;
+$link-color:                        $color-oc-red !default;
+$link-hover-color:                  $color-red-light !default;
+$headings-color:                    $text-dark !default;
+$linked-headings-color:             $link-color !default;
+$linked-headings-hover-color:       $link-hover-color !default;
+$linked-headings-decoration:        underline;
+$line-height-base:                  1.4 !default;
+$line-height-headings:              1.25 !default;
+
+$foot-top-bg-color:                 $grey !default;
+$foot-sub-bg-color:                 $grey-light !default;
+
+$font-size-base:                    1.6rem !default;
+$font-size-headings:                2.2rem !default;
+$font-rem-base-mobile-size:         11px !default;
+$font-family-monospace:             SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:                  -apple-system !default;
+$font-family-headings:              $font-family-base !default;
+$font-weight-base:                  300 !default;
+$font-weight-bold:                  600 !default;
+
+$form-text-color:                   $color-oc-blue !default;
+$form-text-color-input:             $text-dark !default;
+$form-background:                   $grey-lighter !default;
+$online-warn-color:                 $color-red-light !default;
+
+$default-border-radius:             3px !default;
+
+$nav-theme:                         $color-oc-red !default;
+
+$btn-default:                       $grey-lighter !default;
+$btn-default-hover:                 $grey-light !default;
+
+$policy-banner-accept-button-color: $color-cyan !default;
+$policy-banner-accept-hover-color:  $color-oc-blue !default;
+
+$zoomer-icon:                       "\f065" !default;
+
+$bg-colors: (
+    ("grey-light",     $grey-light,          $grey-lighter),
+    ("grey-lighter",   $grey-lighter,        $grey-light),
+    ("red",            $color-oc-red,        $color-oc-blue),
+    ("orange",         $color-oc-orange,     $color-oc-blue),
+    ("blue",           $color-oc-blue,       $color-red-light),
+    ("cyan",           $color-cyan,          $color-red-light),
+    ("default",        $grey-lighter,        $grey-light)
+) !default;
+
+$link-colors: (
+    ("ib-light",       $white,               $color-blue-lighter),
+    ("ib-dark",        $text-dark,           $color-oc-red)
+) !default;
+
+
+$match-text-bg-colors: (
+    $grey:              ($text-dark, $link-color,       $link-hover-color),
+    $grey-light:        ($text-dark, $link-color,       $link-hover-color),
+    $grey-lighter:      ($text-dark, $link-color,       $link-hover-color),
+    $color-cyan-light:  ($text-dark, $link-color,       $link-hover-color),
+    $color-cyan:        ($white,     $link-color,       $link-hover-color),
+    $color-oc-red:      ($white,     $color-oc-orange,  $grey-light),
+    $color-oc-orange:   ($white,     $link-color,       $link-hover-color),
+    $color-oc-blue:     ($white,     $color-oc-orange,  $link-hover-color),
+    $white:             ($text-dark, $link-color,       $link-hover-color)
+) !default;
+

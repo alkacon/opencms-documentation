@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Export rules examples 2]]></Title>
+    <Code><![CDATA[<export-rule>
+  <name>mysite-news</name>
+  <description>This rule will export the index.html file in folder /sites/mysite/,
+               if any resource under /sites/mysite/.content/news/ is modified
+  </description>
+  <modified-resources>
+    <regex>sites/mysite/modules/news/.*</regex>
+  </modified-resources>
+  <export-resources>
+    <uri>/sites/mysite/index.html</uri>
+  </export-resources>
+</export-rule>]]></Code>
+  </Flexible>
+</FlexibleData>

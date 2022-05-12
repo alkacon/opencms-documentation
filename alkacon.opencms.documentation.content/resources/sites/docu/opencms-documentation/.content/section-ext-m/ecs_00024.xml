@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Basic configuration]]></Title>
+    <Section>
+      <Caption><![CDATA[OpenCms configuration]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/opencms-core/blob/branch_11_0_x/src/org/opencms/configuration/opencms-importexport.dtd]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/opencms-core/blob/branch_11_0_x/webapp/WEB-INF/config/opencms-importexport.xml]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>The static export is configured in <code>${WEBAPP_HOME}/WEB-INF/config/opencms-importexport.xml</code>. It is the configuration file for all import/export related features. For more information on its structure, see a <a href="%(link0)" target="_blank" rel="noopener">full specification of this configuration file</a>, or a <a href="%(link1)" target="_blank" rel="noopener">default configuration file</a>.</p>
+<p>The static export feature is configured in the <code>&lt;staticexport&gt;</code> node in <code>opencms-importexport.xml</code>. Ensure that the attribute <code>enabled</code> of this node is set to <code>true</code>, if you want to use static export.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Export path configuration]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A basic setting for the static export feature is the folder, where RFS copies of files should be stored. In the default configuration, they are written to <code>${WEBAPP_HOME}/WEB-INF/export</code>.This can be configured modifying the <code>&lt;exportpath&gt;</code> node, which should contain an absolute path or a path relative to <code>${WEBAPP_HOME}</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Export handler configuration]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>OpenCms comes with several different static export handler classes, that determines how the static export feature takes care of publish operations, like adding a new file or modifying a existing one. You can configure the handler by editing the handler class in the <code>&lt;staticexporthandler&gt;</code> node.</p>
+<p>Here's an overview on the static export handlers shipped with OpenCms. Typically an "on demand"-handler is a good choice.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

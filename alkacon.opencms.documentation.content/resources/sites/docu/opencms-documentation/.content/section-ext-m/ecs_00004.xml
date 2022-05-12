@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The image cache ]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/demos/image-scaling/]]></target>
+            <uuid>6d9dc62a-d1cd-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/the-opencms-workplace/launchpad-and-other-apps/cache/]]></target>
+            <uuid>eb9ac077-d1c6-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Images that are uploaded to the VFS are stored there in the format in which they were uploaded. When an image is first requested, the image is scaled as requested (see <a href="%(link0)">the topic on image scaling</a>) and the scaled version is exported to the RFS of your server. Exported image versions are found in the folder <code>{webapp-home}/WEB-INF/imagecache/{VFS root path of the image}/</code>. The name of the image is extended by a unique identifier for the version of the image in the RFS.</p>
+<p>If the same image is requested a second time in the same version, i.e., scaled with the same parameters, the cached version is delivered. Neither the database request for the uploaded image nor the scaling procedure is repeated.</p>
+<p>If the image is requested with different scaling parameters, the original version of the image is loaded again from the VFS, is scaled, and then cached as a second version of the same image.</p>
+<p>You can view the state of the image cache and flush the cache via the <a href="%(link1)">caches apps</a>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

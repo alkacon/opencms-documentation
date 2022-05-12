@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Configuration options]]></Title>
+    <Code><![CDATA[<flexcache>
+	<cache-enabled>true</cache-enabled> 
+	<cache-offline>false</cache-offline>
+	<maxcachebytes>8000000</maxcachebytes> 
+	<avgcachebytes>6000000</avgcachebytes>
+	<maxentrybytes>400000</maxentrybytes> 
+	<maxkeys>2000</maxkeys>
+</flexcache>]]></Code>
+  </Flexible>
+</FlexibleData>

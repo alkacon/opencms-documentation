@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The core cache]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/the-opencms-workplace/launchpad-and-other-apps/cache/]]></target>
+            <uuid>eb9ac077-d1c6-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The core cache caches data used internally by OpenCms in the server's memory. It is a conglomeration of various internal caching mechanisms. For example, it caches user specific data or resource specific data like properties.</p>
+<p>The cache can be configured via the <code>opencms-system.xml</code>, but usually the default configuration is sufficient. The core cache can be flushed via the <a href="%(link0)">cache administration</a>. That may be necessary in some situations. Think of it if you experience unintended behavior when working with OpenCms.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

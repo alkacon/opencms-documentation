@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Example for the usage of RFS rules 2]]></Title>
+    <Code><![CDATA[<rfs-rules>
+  <rfs-rule>
+    <name>site-one</name>
+    <description>This is the rfs-rule for site one</description>
+    <source>/sites/site1/.*</source>
+    <rfs-prefix></rfs-prefix>
+    <exportpath>c:/apache/site1</exportpath>
+    <related-system-res>
+        <regex>/system/modules/master.template/.*</regex>
+    </related-system-res>
+  </rfs-rule>
+  <rfs-rule>
+    <name>site-two</name>
+    <description>This is the rfs-rule for site two</description>
+    <source>/sites/site2/.*</source>
+    <rfs-prefix></rfs-prefix>
+    <exportpath>c:/apache/site2</exportpath>
+    <userelativelinks>true</userelativelinks>            
+    <related-system-res>
+      <regex>/system/modules/master.template/.*</regex>
+      <regex>/system/modules/site2.template/.*</regex>
+    </related-system-res>
+  </rfs-rule>
+</rfs-rules>]]></Code>
+  </Flexible>
+</FlexibleData>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/section.xsd">
+  <ContentSection language="en">
+    <Title><![CDATA[Fixed image size]]></Title>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<p>This image size is fixed in screen sizes MD to XL (and beyond). Resizing the browser will only change the space available for the text.</p>]]></content>
+    </Text>
+    <Image>
+      <Image>
+        <link type="WEAK">
+          <target><![CDATA[/sites/docu/.galleries/icons_big/elementsBigIcon.svg]]></target>
+          <uuid>df759fcf-c9f9-11ec-a595-0242ac11002b</uuid>
+        </link>
+      </Image>
+      <Title><![CDATA[elementsBigIcon]]></Title>
+    </Image>
+  </ContentSection>
+</ContentSectionData>

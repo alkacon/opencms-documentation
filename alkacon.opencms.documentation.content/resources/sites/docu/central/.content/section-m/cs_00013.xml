@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/section.xsd">
+  <ContentSection language="en">
+    <Title><![CDATA[Impressum  (Editorial information)]]></Title>
+    <Text name="Text0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[http://www.alkacon.com/]]></target>
+        </link>
+        <link name="link1" internal="false" type="A">
+          <target><![CDATA[http://www.alkacon.com/contact/]]></target>
+        </link>
+        <link name="link2" internal="false" type="A">
+          <target><![CDATA[http://www.alkacon.com/en/terms.html]]></target>
+        </link>
+        <link name="link3" internal="false" type="A">
+          <target><![CDATA[http://www.alkacon.com/]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p><strong>Responsible for the content of this website is:&nbsp;</strong></p>
+<p><a href="%(link0)">Alkacon Software GmbH &amp; Co. KG</a> <br />An der Wachsfabrik 13 <br />50996 Köln (Cologne), Germany</p>
+<p>Amtsgericht Köln, HRA 32185<br />UID: DE259882372</p>
+<p>represented by:<br />Alkacon Verwaltungs GmbH<br />CEO: Alexander Kandzior<br />Amtsgericht Köln, HRB 88218</p>
+<p><a href="%(link1)">Contact us here</a></p>
+<p>Alkacon Software GmbH &amp; Co. KG makes no representations whatsoever about any other website that you may access through this Website or through a link from this Website. When you access another website, even one that may contain this Website's name or mark, please understand that it is independent, and that Alkacon Software GmbH &amp; Co. KG has no control over the content on other websites and that such link does not mean that Alkacon Software endorses or accept any responsibility for the content on, or the use of, such website.</p>
+<p>By accessing, browsing or using this website, and/or downloading any of its software, content or information, you acknowledge that you have read, understood and agree to be bound by our <a href="%(link2)">Terms of use</a>. If you do not agree to all of these terms, do not use this website.</p>
+<p><em>Alkacon OpenCms and the OpenCms logo are registered trademarks of Alkacon Software GmbH &amp; Co. KG in Germany, the USA and other countries.&nbsp;Other&nbsp;product names mentioned herein and throughout the entire web site are trademarks of their respective owners.</em></p>
+<p>© <a href="%(link3)">Alkacon Software GmbH &amp; Co. KG - The OpenCms Experts</a></p>]]></content>
+    </Text>
+  </ContentSection>
+</ContentSectionData>

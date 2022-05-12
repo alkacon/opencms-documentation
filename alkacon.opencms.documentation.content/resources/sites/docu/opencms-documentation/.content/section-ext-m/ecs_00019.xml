@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Static export]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The static export allows to gain an important performance improvement by mirroring pages and other resources into the real file system of the server.</p>
+<p>This can be used to</p>
+<ul>
+<li><em>improve the performance of a dynamic site</em>: By exporting all images to the document root of the web server, the performance can be improved, since the web server can serve these images directly, i.e. without calling the JSP container.</li>
+<li><em>create a full static copy of a side</em> that can be run completely without OpenCms or that can be stored on an USB stick or CD-Rom.</li>
+</ul>
+<p>The static export comes in two flavours:</p>
+<ul>
+<li><em>the static export on demand</em> creates a copy of a resource in the RFS (Real File System) the first time this resource is requested while browsing the online project. So the following requests will be resolved faster by just displaying the previously created RFS-copy of the resource, instead of each time creating dynamically every resource - an operation that may involve complex logic and expensive database access.</li>
+<li><em>the after-publish static export</em> writes out all pages that should be exported after a content was published, so that the RFS contains a full copy of a site. This after-publish export can also be initiated by starting it in the database management in the administration view of the workplace.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Example for the usage of RFS rules]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Let's&nbsp;say we have two different sites. Both use the same base template with resources under <code><span style="font-family: monospace;">/system/modules/master.template/</span></code>:&nbsp;</p>
+<ul>
+<li><em>Site One</em>: This site is accessed at <em><span style="font-family: monospace;">http://www.site-one.com</span></em> and is configured in OpenCms as <code><span style="font-family: monospace;">/sites/site1/</span></code>. The site is served by an Apache server, serving from <code><span style="font-family: monospace;">/var/apache/site1/</span></code>.</li>
+<li><em>Site Two</em>: This site is accessed at <em><span style="font-family: monospace;">http://www.site-two.com</span></em> and is configured in OpenCms as <code><span style="font-family: monospace;">/sites/site2/</span></code>. The site is served by the same&nbsp;Apache server as <em>Site One</em>, but it's served from <code><span style="font-family: monospace;">/var/apache/site2/</span></code>. Futhermore, <em>Site Two</em> uses an additional template having resources under <code><span style="font-family: monospace;">/system/modules/site2.template/</span></code>. These resources have relative links between each other.</li>
+</ul>
+<p>The site configuration in <code><span style="font-family: courier new,courier,monospace;">${WEBAPP_HOME}/WEB-INF/config/opencms-system.xml</span></code> should look like:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

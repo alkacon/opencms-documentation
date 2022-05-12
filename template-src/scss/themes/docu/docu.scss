@@ -1,0 +1,118 @@
+/**
+ * This program is part of the OpenCms Mercury Template.
+ *
+ * Copyright (c) Alkacon Software GmbH & Co. KG (http://www.alkacon.com)
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/**********
+ * Theme file: docu.scss
+ */
+
+@import "commons";
+
+$main-theme:                        $color-oc-blue; // dark blue
+$main-theme-hover:                  $color-red-light; // opencms red
+
+
+$feature-use-burger-header:         true; // use the burger header
+$full-page-max-width:               1400px !default;
+$full-page-bg:                      $grey-dark !default;
+
+$social-links-bg:                   $white !default;
+$ls-margin-left:                    2rem !default;
+
+$nav-setting-fixheader:             true !default;
+$nav-head-fixed-opacity:            1 !default;
+$nav-font-size:                     16px !default; // font size of dropdown entries and side navigation
+$nav-line-height:                   24px !default; // line hight of dropdown entries and side navigation
+$nav-header-font-size:              18px !default;
+$nav-header-font-weight:            $font-weight-bold !default;
+$nav-header-show-arrows:            false !default;
+$nav-header-float:                  right !default;
+$nav-menu-entry-border-bottom:      none !default;
+
+$nav-bg-hover:                      $grey-lighter !default;
+$nav-bg-active-mobile:              transparent !default;
+$nav-text-active-mobile:            $main-theme !default;
+$nav-text-hover-mobile:             $text-dark !default;
+
+$nav-toggle-size:                   38px !default;
+$nav-mobile-smaller-xs-toggle:      false !default;
+$nav-mobile-line-target-height:     46px !default; // these 3 lines make the boxes and the burger the same size in all screens
+$nav-mobile-position:               right !default;
+$nav-toggle-stroke-height:          2px !default;
+
+$nav-mobile-toggle-side:            15px !default;
+
+$nav-mobile-font-size:              18px !default;
+$nav-mobile-toggle-side-xs:         10px !default;
+
+$nav-mobile-box-color:              $text-dark !default;
+$nav-mobile-box-bg-color:           $nav-bg-hover !default;
+
+$nav-mobile-line-padding:           13px  !default;
+$nav-mobile-box-offset-xs:          $nav-mobile-toggle-side-xs !default;
+$nav-mobile-box-height:             $nav-toggle-size !default;
+$nav-mobile-box-bg-color:           $grey-light !default;
+
+$nav-mobile-font-weight:            $font-weight-base !default;
+$nav-mobile-font-weight-final:      $font-weight-bold !default;
+$nav-mobile-header-font-weight:     $nav-mobile-font-weight !default;
+$nav-mobile-border-color:           $nav-bg-hover !default;
+
+$nav-head-border:                   none !default;
+$nav-breadcrumb-bg-color:           $grey-light !default;
+$nav-breadcrumb-separator:          '/' !default;
+$nav-breadcrumb-separator-font:     $font-family-base !default;
+$nav-breadcrumb-colored-padding:    0.5rem !default;
+
+$fh-meta-bg-color:                  $color-oc-blue !default;
+
+@import 'mercury-template/template-src/scss/imports';
+@import "mercury-customers/template-src/scss/features/section-ext";
+
+$full-flow-child-cols-in-split-area:    () !default;
+@import 'docu-grid';
+
+// hljs adjustments
+pre code {
+    display: block;
+    overflow-x: auto;
+    padding: 1em;
+    tab-size: 2em;
+    border: 1px solid $text-dark;
+    background-color: $body-bg;
+}
+
+code {
+    color: $black;
+    background-color: $grey-lighter;
+}
+
+.alert {
+    position: relative;
+    padding: $default-margin-verysmall $default-margin-small;
+    margin-bottom: $piece-text-margin;
+    @include round-corners($default-border-radius);
+}
+
+.alert-info {
+    background-color: $grey-lighter;
+}
+
+.alert-danger {
+    background-color: #ffe3e7;
+}

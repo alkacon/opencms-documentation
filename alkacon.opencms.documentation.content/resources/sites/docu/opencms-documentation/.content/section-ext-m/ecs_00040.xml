@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Settings for export rules (sub-nodes of export-rule node)]]></Title>
+    <Section>
+      <Caption><![CDATA[name]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The name of the rule.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[description]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A precise description of the uses of this rule.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[modified-resources]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>One or more regular expressions that specify a set of resources. If one of this resources becomes published, all resources specified by the <code>&lt;export-resources&gt;</code> node will be exported again.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[export-resources]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>One or more URIs (resources or folders), indicating a set of resources to be exported if any of the resources specified via the <code>&lt;modified-resources&gt;</code> node becomes published.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

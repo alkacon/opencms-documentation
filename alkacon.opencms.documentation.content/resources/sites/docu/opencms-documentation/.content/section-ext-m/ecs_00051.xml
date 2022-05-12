@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[What are properties?]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>In the VFS each resource can have properties attached. Properties are simple key-value pairs. For each resource a map with those key-value pairs is stored. The map contains only properties where values are set.</p>
+<p>Properties of resources can be read either such that only values directly set at the resource are read, or also values set at some parent folder (inherited value). Whenever a property is read you can decide if inherited values should be taken into account or not. So inherited or not is <em>not</em> specific for a property, but for a use case.</p>
+<p>OpenCms already uses a lot of properties internally. For example. <code>Title</code> and <code>NavPos</code> properties are used very prominently to show information on a resource. But also the <code>template</code> property is used: It determines which template JSP is used by a container page.</p>
+<p>You can use properties for whatever you like. Just read them in a JSP or a Java class and act according to your needs. Properties are simply there. When they are not set somewhere, they will simply not be found. Whether a property is shown in the "Edit properties" dialog, for example, does not depend on some JSP or Java class trying to access the property, or a special "property registration". It simply depends on the fact that the property is set on some VFS resource.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Resource structure: What are siblings, shared and individual properties]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>When you open the properties dialog of a file, you may notice three tabs:</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/PropertiesDialogIndividualPropertiesTab.png]]></target>
+            <uuid>5f8b5943-d1bb-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[PropertiesDialogIndividualPropertiesTab]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The "Basic Properties" tab is a configurable set of properties available to content editors. Our interest is in the last two tabs: "Individual Properties" and "Shared Properties". In both tabs you can set every property you like. Existing ones or newly created ones. So why can everything be done twice?</p>
+<p><em>Files can have siblings.</em> Siblings are a kind of link. i.e., the same content is reachable from two different places in the VFS. If you set a property as a shared property, it will be set on all siblings. Individual properties are only set on the one sibling and not on the others. If a property is set as an individual and shared property, the value set at the individual version of the property overwrites the shared value.</p>
+<p>The concept of siblings is implemented as follows in OpenCms. <em>Each resource of the VFS consists of two or three different database entries</em>: A structure entry, a resource entry and, if it is a file, a content entry. The different parts serve these purposes:</p>
+<ul>
+<li>The <em>structure part</em> mainly locates the resource in the VFS.</li>
+<li>The <em>resource part</em> captures metadata of the resource, e.g., its type, state (modified, added, deleted, ...), creation and "last modified" date, creating/modifying user, etc.</li>
+<li>The <em>content part</em>, that is only present for files, simply stores the file content as a blob.</li>
+</ul>
+<p><em>Siblings are resources with different structure parts, but identical resource and content parts.</em> Now, what makes the difference between shared and individual properties? The properties are attached to different parts of the resource:</p>
+<ul>
+<li><em>Shared properties</em> are attached to the <em>resource part</em> of a resource.</li>
+<li><em>Individual properties</em> are attached to the <em>structure part</em>.</li>
+</ul>
+<p>You get the difference? Ok. Now, you may notice that for folders there is no distinction between shared and individual properties. For folders, siblings are simply not allowed. Thus structure and resource parts for a folder are in a one-to-one relationship and it does not make a difference where the properties are attached.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Properties used for the static export]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/the-opencms-workplace/launchpad-and-other-apps/explorer/]]></target>
+            <uuid>71c1c77d-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Besides using the <code>export</code> property, <em>you can mark a resource as internal to prevent export</em>. Go to the workplace's <a href="%(link0)">explorer view</a>, right-click the resource, choose "Advanced -&gt; Secure/Export" in the context menu and check "Internal use only" in the appearing dialog. This setting is the strongest and will overwrite all other export settings. The option is not available for folders.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

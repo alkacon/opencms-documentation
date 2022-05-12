@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[How are content types known to the system? ]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Up to now, we hid a small but quite important detail. There is another reason for placing content type definitions in modules. An XSD makes up a content type definition, but not a type as used in OpenCms. The content type must be configured as a resource and explorer type to become visible in OpenCms. For example, a content type is only visible in the "Add wizard" that is used to add new content if it is configured as a resource and explorer type.</p>
+<p>The subtle distinction between content, resource and explorer type is necessary for two reasons mainly:</p>
+<ul>
+<li>First, not every content type definition should make up a new type that is exposed in OpenCms. Sometimes content type defintions are only used nested in other definitions.</li>
+<li>Second, the raw type defintion lacks some extra information that is necessary or at least useful. e.g., the type has no icon, no friendly name, etc. Resource and explorer type configurations add that information. At the moment it is not necessary to distinguish the two configurations.</li>
+</ul>
+<p>The most important information added by the type configurations are a unique type id and a unique name. These will be used by OpenCms to refer to a type.</p>
+<div class="alert alert-info">In most cases it is not necessary to distinguish between content, resource and explorer type. Thus, <em>we will simply say "<strong>type</strong>" and mean a content type that is configured as a resource and explorer type</em>. The type's name, id, etc. refer always to the values configured in the resource or explorer type configuration.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

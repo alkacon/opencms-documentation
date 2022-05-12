@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Flex cache buckets ]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Flex cache buckets were introduced in OpenCms 11 to improve the performance of the flex cache. The <strong>motivation</strong> is as follows: In the default scenario without buckets, the flex cache is completely flushed on each publish event. It does not matter if the published resources will change the cached JSP output or not. To reduce the need of rendering all JSPs again after a publish event, it would be great to selectively flush only parts of the flex cache, depending on the resources that are published.</p>
+<p>Unfortunately, it is not possible to calculate which change at which resource influences the output of which JSP in general. But, to some extend we can assume what changes cannot influence the output of what JSPs. In the bucket scenario, we explore the caching directives set at the JSPs for the assumptions.</p>
+<div class="alert alert-info">Buckets are in particular designed to omit complete flushing the flex cache if there are changes in only one or some sites.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

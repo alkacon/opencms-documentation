@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Export rules ]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/staticexport/CmsAfterPublishStaticExportHandler.html]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/staticexport/CmsAfterPublishStaticExportHandler.html]]></target>
+          </link>
+          <link name="link2" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/staticexport/CmsAfterPublishMultiLanguageStaticExportHandler.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<div class="alert alert-info">Export rules are a feature of the&nbsp;<a href="%(link0)">CmsAfterPublishStaticExportHandler</a>. So it will only take effect if you configure this handler. It is not a feature for export on demand (and also does not make sense for that scenario).</div>
+<p>So to be able to take advantage of export rules, you have to set your default static export handler to <a href="%(link1)">CmsAfterPublishStaticExportHandler</a> (or a subclass of this handler, as <a href="%(link2)">CmsAfterPublishMultiLanguageStaticExportHandler</a>). That is, your static export handler definition in the <code><span style="font-family: courier new,courier,monospace;">${WEBAPP_HOME}/WEB-INF/config/opencms-importexport.xml</span></code> configuration file should look like:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

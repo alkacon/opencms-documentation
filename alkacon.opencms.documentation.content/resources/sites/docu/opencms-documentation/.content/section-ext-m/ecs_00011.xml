@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Default FlexCache Settings]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The default settings of the FlexCache parameters after installing OpenCms are:</p>
+<ol>
+<li>The FlexCache is enabled</li>
+<li>The cache for offline projects is disabled</li>
+<li>The FlexCache uses 8mb memory for the cached pages or a maximum of 2000 cached page variations in total.</li>
+</ol>
+<div class="alert alert-info">The caching of offline resources is highly useful in the development process, because you can directly check how your application caching behaves after publishing. Make sure you know the FlexCache request parameters so that you can easily clear the cache after you change something in your offline project.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[How does content get rendered?]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/content-in-opencms/formatters-and-their-configuration/]]></target>
+            <uuid>8c2d82ed-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Content is rendered by so-called formatters. These are JSPs where the content is accessed to produce HTML snippets. Which formatter is used for which content and in which situation is specified by a formatter configuration. It links the formatter (JSP) and the type of content that should be rendered. Furthermore it specifies in which containers the formatter can be used. This is done by defining "Matches", either by the container's width or type attribute. Matching by types is preferrable.</p>
+<ul>
+<li><a href="%(link0)">Learn more about formatters and their configuration.</a></li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

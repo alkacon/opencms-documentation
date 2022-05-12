@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Where is content stored?]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/creating-a-website/ade-configuration/content-element-configuration/]]></target>
+            <uuid>51aa1d06-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Content items do not belong to a single web page. They may be placed on several pages and potentially on every single page of your site. Sometimes it is preferable to place them only on pages in a specific sub-site. Sometimes you may want to share them between different web sites. Sometimes you really want to use them only on one page.</p>
+<p><em>OpenCms stores content usually in a specific folder in the site.</em> The site's main folder contains a special sub-folder named <code>.content/</code>. Content of different types is typically placed in separate sub-folders of <code>.content/</code>. For example, if there exists a type "article", there might be a folder <code>.content/article/</code> where all the "article" contents are stored.</p>
+<p>You can also attach content to sub-sites of your main site. If you create a sub-sitemap for a sub-site in OpenCms, this sub-site's main folder will have a <code>.content/</code> sub-folder as well. Here, content that is somehow specific to the sub-site can be placed.</p>
+<p>If you run more than one web site with a single OpenCms installation and you want to share content between different sites, you can store content in the <code>shared/</code> folder in the root site.</p>
+<p>Last but not least, content can also be stored directly with a page. OpenCms will generate a <code>.elements/</code> folder in the web page's folder where the content will be placed.</p>
+<p>Where you store content on your site is configurable. Also which contents are accessible in which sub-site. Your content may be placed at several of the locations mentioned above.</p>
+<ul>
+<li><a href="%(link0)">See how to configure where content is stored.</a></li>
+</ul>
+<p>Independent of the folder where content is stored, the name given to a content file is an important issue. Content is usually created by dragging it onto a web page. Hence, the file where the content is stored has to be created and named automatically. OpenCms names content files by the following scheme: <code>{type name}_{number}.xml</code>. The number is chosen automatically, such that it is unique in the folder where the file is stored. Prefix and suffix can be configured, if wanted.</p>
+<div class="alert alert-info">If you look up a file that stores a content item, have a look at its type: the file has the type of content. Or, more precisely, the configured resource type.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

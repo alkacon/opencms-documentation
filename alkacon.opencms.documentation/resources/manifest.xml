@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[Configurations, formatters and localizations for the Alkacon OpenCms documentation.]]></description>
-		<version>13.0.16</version>
+		<version>13.0.19</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -438,6 +438,30 @@
 			<type>folder</type>
 			<uuidstructure>e7311b37-ca1d-11ec-a595-0242ac11002b</uuidstructure>
 			<datecreated>Mon, 02 May 2022 13:43:52 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/alkacon.opencms.documentation/resources/css/central.min.css</source>
+			<destination>system/modules/alkacon.opencms.documentation/resources/css/central.min.css</destination>
+			<type>plain</type>
+			<uuidstructure>eca00bc4-d1da-11ec-9238-0242ac11002b</uuidstructure>
+			<uuidresource>eca00bc5-d1da-11ec-9238-0242ac11002b</uuidresource>
+			<datecreated>Thu, 12 May 2022 10:04:34 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/alkacon.opencms.documentation/resources/css/central.min.css.map</source>
+			<destination>system/modules/alkacon.opencms.documentation/resources/css/central.min.css.map</destination>
+			<type>plain</type>
+			<uuidstructure>ecf30dc8-d1da-11ec-9238-0242ac11002b</uuidstructure>
+			<uuidresource>ecf30dc9-d1da-11ec-9238-0242ac11002b</uuidresource>
+			<datecreated>Thu, 12 May 2022 10:04:35 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>

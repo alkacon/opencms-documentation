@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Configuration options]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The FlexCache is enabled or disabled in the configuration file <code>/WEB-INF/config/opencms-system.xml</code> of your OpenCms web application. There are two options to set the FlexCache:</p>
+<ol>
+<li>Enable or disable the cache completely and</li>
+<li>enable or disable caching of resources in the offline projects (i.e. resources which are not yet published).</li>
+</ol>
+<p>Here's the default configuration in <code>/WEB-INF/config/opencms-system.xml</code>:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

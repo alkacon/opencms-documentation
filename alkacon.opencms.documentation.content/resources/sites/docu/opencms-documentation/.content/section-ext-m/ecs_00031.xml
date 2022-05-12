@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Proxy configuration 2]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/server-installation/traditional-with-apache-webserver/]]></target>
+            <uuid>4a9cf0c8-d1ce-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>To use the rewrite rules with the Apache webserver you need to have <code>mod_rewrite</code> installed. How to set up the Apache webserver is explained in detail <a href="%(link0)">here</a>. That's also where the configuration snippet shown above is taken from. Of course, using HaProxy, nginx, or some other proxy might be a good choice as well.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

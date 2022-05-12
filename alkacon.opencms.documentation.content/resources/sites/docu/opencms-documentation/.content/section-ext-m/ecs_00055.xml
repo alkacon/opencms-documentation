@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Why XML and typed content?]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>In OpenCms all content has a type. A type defines the structure of the content. Hence, for each content item this structure is known when accessing it. OpenCms uses XML to structure content and XSDs to define content types. This has various advantages:</p>
+<ul>
+<li>For each content item, it is very clear how to access it. XML is widely used and known.</li>
+<li>An editor for the content can be generated automatically based on the content's XML structure.</li>
+<li>Content of different types can be handled differently when loading or storing content of this type.</li>
+<li>Each content type you can think of naturally has a structure. XSDs provide an easy and powerful way to mirror that structure. Thus it is easy to define a type (exactly) mirroring structures.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

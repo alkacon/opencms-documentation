@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Example for the usage of RFS rules]]></Title>
+    <Code><![CDATA[<sites>
+  <workplace-server>http://www.workplace.com</workplace-server>
+  <default-uri>/sites/default/</default-uri>
+  <site server="http://www.default.com" uri="/sites/default/"/>
+  <site server="http://www.site-one.com" uri="/sites/site1/"/>
+  <site server="http://www.site-two.com" uri="/sites/site2/"/>
+</sites>]]></Code>
+  </Flexible>
+</FlexibleData>
