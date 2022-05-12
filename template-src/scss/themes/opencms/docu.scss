@@ -169,10 +169,12 @@ pre code {
     padding: 1em;
     tab-size: 2em;
     border: 1px solid $text-dark;
+    background-color: $body-bg;
 }
 
 code {
     color: $black;
+    background-color: $grey-lighter;
 }
 
 .alert {
