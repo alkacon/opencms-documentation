@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The interplay of permissions]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Permissions have three states. For each user, a permission at a resource can be</p>
+<ul>
+<li>explicitely or inherited (from a parent folder) set as allowed,</li>
+<li>explicitely or inherited denied, or</li>
+<li>unset.</li>
+</ul>
+<p>To unset inherited permissions they must be overwritten ("Overwrite inherited" in the permissions dialog). This can only be done for all permissions of a user or group at once.</p>
+<p>What happens now, if permissions for a user belonging to one or several groups has different permissions for accessing a resource?</p>
+<div class="alert alert-danger">In OpenCms denied is always stronger than allowed.</div>
+<p>That means, if, for a resource the access is denied for a user, because it is denied for a group, the user belongs to. It will stay denied for the user, even if he is member in another group that explicitely has access to the resource, or even if access is granted directly for the user.</p>
+<p>In such a setting it makes sense to have permissions <em>unset</em>. When a permission is not set for a user, directly or indirectly via a group or role, the user does not have the permission. If it is then set to allowed somehow, directly or indirectly, the permission is granted. Thus unset is like a "weak deny" that can be overwritten.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

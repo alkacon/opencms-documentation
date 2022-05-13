@@ -21,11 +21,12 @@
  * Theme file: central.scss
  */
 
-@import "commons";
+@import "constants";
 
 $main-theme:                    $color-oc-blue;
 $main-theme-hover:              $color-blue-light;
 
+@import "commons";
 
 $feature-use-burger-header:    false; // do NOT the burger header
 

@@ -19,24 +19,6 @@
  * Source file:_commons.scss
  */
 
-$color-oc-blue:                     #144382 !default;
-$color-blue-light:                  #2197db !default;
-$color-blue-lighter:                #e8f3f8 !default;
-$color-oc-red:                      #b31b34 !default;
-$color-red-light:                   #ff264a !default;
-$color-oc-orange:                   #ffa826 !default;
-$color-orange-light:                #ffe5bf !default;
-$white:                             #fff !default;
-$grey-lighter:                      #f4f4f4 !default;
-$grey-light:                        #ddd !default;
-$grey:                              #aaa !default;
-$grey-dark:                         #888 !default;
-$black:                             #000 !default;
-$color-cyan:                        #1bb39a !default;
-$color-cyan-light:                  #ace3da !default;
-
-$text-dark:                         #444 !default;
-
 $body-bg:                           $white !default;
 $link-color:                        $color-oc-red !default;
 $link-hover-color:                  $color-red-light !default;
@@ -67,6 +49,44 @@ $online-warn-color:                 $color-red-light !default;
 $default-border-radius:             3px !default;
 
 $nav-theme:                         $color-oc-red !default;
+$nav-bg-hover:                      $grey-lighter !default;
+$nav-bg-active-mobile:              transparent !default;
+$nav-text-active-mobile:            $main-theme !default;
+$nav-text-hover-mobile:             $text-dark !default;
+
+$nav-setting-fixheader:             true !default;
+$nav-head-fixed-opacity:            1 !default;
+$nav-font-size:                     16px !default; // font size of dropdown entries and side navigation
+$nav-line-height:                   24px !default; // line hight of dropdown entries and side navigation
+$nav-header-font-size:              18px !default;
+$nav-header-font-weight:            $font-weight-bold !default;
+$nav-header-show-arrows:            false !default;
+$nav-header-float:                  right !default;
+$nav-menu-entry-border-bottom:      none !default;
+
+
+$nav-toggle-size:                   38px !default;
+$nav-mobile-smaller-xs-toggle:      false !default;
+$nav-mobile-line-target-height:     46px !default; // these 3 lines make the boxes and the burger the same size in all screens
+$nav-mobile-position:               right !default;
+$nav-toggle-stroke-height:          2px !default;
+
+$nav-mobile-font-size:              18px !default;
+$nav-mobile-toggle-side-xs:         10px !default;
+
+$nav-mobile-box-color:              $text-dark !default;
+$nav-mobile-box-bg-color:           $nav-bg-hover !default;
+
+$nav-mobile-line-padding:           13px  !default;
+$nav-mobile-box-offset-xs:          $nav-mobile-toggle-side-xs !default;
+$nav-mobile-box-height:             $nav-toggle-size !default;
+$nav-mobile-box-bg-color:           $grey-light !default;
+
+$nav-mobile-font-weight:            $font-weight-base !default;
+$nav-mobile-font-weight-final:      $font-weight-bold !default;
+$nav-mobile-header-font-weight:     $nav-mobile-font-weight !default;
+$nav-mobile-border-color:           $nav-bg-hover !default;
+
 
 $btn-default:                       $grey-lighter !default;
 $btn-default-hover:                 $grey-light !default;

@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The contents of the Alkacon OpenCms documentation.]]></description>
-		<version>13.0.16</version>
+		<version>13.0.17</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -52,6 +52,176 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[OpenCms Documentation]]></value>
+				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[/system/modules/alkacon.mercury.template/templates/mercury.jsp]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/docu/.content</destination>
+			<type>folder</type>
+			<uuidstructure>a5ae1533-d2b7-11ec-ba99-0242ac11002b</uuidstructure>
+			<datecreated>Fri, 13 May 2022 12:24:34 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/docu/.content/linksequence-m</destination>
+			<type>folder</type>
+			<uuidstructure>ee0b51ed-d2b7-11ec-ba99-0242ac11002b</uuidstructure>
+			<datecreated>Fri, 13 May 2022 12:26:35 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.content/linksequence-m/ls_00001.xml</source>
+			<destination>sites/docu/.content/linksequence-m/ls_00001.xml</destination>
+			<type>m-linksequence</type>
+			<uuidstructure>ee0cb17f-d2b7-11ec-ba99-0242ac11002b</uuidstructure>
+			<uuidresource>ee0cb180-d2b7-11ec-ba99-0242ac11002b</uuidresource>
+			<datecreated>Fri, 13 May 2022 12:26:35 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Permissions on VFS resources: Related Links]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/docu/.content/section-ext-m</destination>
+			<type>folder</type>
+			<uuidstructure>a5af4db5-d2b7-11ec-ba99-0242ac11002b</uuidstructure>
+			<datecreated>Fri, 13 May 2022 12:24:34 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.content/section-ext-m/ecs_00001.xml</source>
+			<destination>sites/docu/.content/section-ext-m/ecs_00001.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>a5b03817-d2b7-11ec-ba99-0242ac11002b</uuidstructure>
+			<uuidresource>a5b03818-d2b7-11ec-ba99-0242ac11002b</uuidresource>
+			<datecreated>Fri, 13 May 2022 12:24:34 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Permissions on VFS resources: Permissions on VFS resources]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.content/section-ext-m/ecs_00002.xml</source>
+			<destination>sites/docu/.content/section-ext-m/ecs_00002.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>37901e67-d2b8-11ec-ba99-0242ac11002b</uuidstructure>
+			<uuidresource>37901e68-d2b8-11ec-ba99-0242ac11002b</uuidresource>
+			<datecreated>Fri, 13 May 2022 12:28:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Permissions on VFS resources: How are permissions handled in OpenCms?]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.content/section-ext-m/ecs_00003.xml</source>
+			<destination>sites/docu/.content/section-ext-m/ecs_00003.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>7e051ea4-d2b9-11ec-ba99-0242ac11002b</uuidstructure>
+			<uuidresource>7e051ea5-d2b9-11ec-ba99-0242ac11002b</uuidresource>
+			<datecreated>Fri, 13 May 2022 12:37:46 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Permissions on VFS resources: The available permissions]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.content/section-ext-m/ecs_00004.xml</source>
+			<destination>sites/docu/.content/section-ext-m/ecs_00004.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>95004c88-d2b9-11ec-ba99-0242ac11002b</uuidstructure>
+			<uuidresource>95004c89-d2b9-11ec-ba99-0242ac11002b</uuidresource>
+			<datecreated>Fri, 13 May 2022 12:38:25 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Permissions on VFS resources: The available permissions 2]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.content/section-ext-m/ecs_00005.xml</source>
+			<destination>sites/docu/.content/section-ext-m/ecs_00005.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>1de660ff-d2ba-11ec-ba99-0242ac11002b</uuidstructure>
+			<uuidresource>1de66100-d2ba-11ec-ba99-0242ac11002b</uuidresource>
+			<datecreated>Fri, 13 May 2022 12:42:14 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Permissions on VFS resources: The interplay of permissions]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.content/section-ext-m/ecs_00006.xml</source>
+			<destination>sites/docu/.content/section-ext-m/ecs_00006.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>3aac8f5a-d2ba-11ec-ba99-0242ac11002b</uuidstructure>
+			<uuidresource>3aac8f5b-d2ba-11ec-ba99-0242ac11002b</uuidresource>
+			<datecreated>Fri, 13 May 2022 12:43:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Permissions on VFS resources: Example for the interplay of permissions ]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.content/section-ext-m/ecs_00007.xml</source>
+			<destination>sites/docu/.content/section-ext-m/ecs_00007.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>c9b8208e-d2ba-11ec-ba99-0242ac11002b</uuidstructure>
+			<uuidresource>c9b8208f-d2ba-11ec-ba99-0242ac11002b</uuidresource>
+			<datecreated>Fri, 13 May 2022 12:47:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Permissions on VFS resources: Permissions for all others and protected areas]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -6016,6 +6186,84 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>sites/docu/.galleries/pictures</destination>
+			<type>imagegallery</type>
+			<uuidstructure>50d18871-d2b7-11ec-ba99-0242ac11002b</uuidstructure>
+			<datecreated>Fri, 13 May 2022 12:22:11 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Documentation: General pictures (no screenshots)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/pictures/AAndBUnset.png</source>
+			<destination>sites/docu/.galleries/pictures/AAndBUnset.png</destination>
+			<type>image</type>
+			<uuidstructure>936e737a-d2b7-11ec-ba99-0242ac11002b</uuidstructure>
+			<uuidresource>936e737b-d2b7-11ec-ba99-0242ac11002b</uuidresource>
+			<datecreated>Fri, 13 May 2022 12:24:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[AAndBUnset]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:406,h:231]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/pictures/AAndNotB.png</source>
+			<destination>sites/docu/.galleries/pictures/AAndNotB.png</destination>
+			<type>image</type>
+			<uuidstructure>936c2986-d2b7-11ec-ba99-0242ac11002b</uuidstructure>
+			<uuidresource>936c2987-d2b7-11ec-ba99-0242ac11002b</uuidresource>
+			<datecreated>Fri, 13 May 2022 12:24:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[AAndNotB]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:406,h:231]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/pictures/WherePermissionsAreAttached.png</source>
+			<destination>sites/docu/.galleries/pictures/WherePermissionsAreAttached.png</destination>
+			<type>image</type>
+			<uuidstructure>7bae47ee-d2b7-11ec-ba99-0242ac11002b</uuidstructure>
+			<uuidresource>7bae47ef-d2b7-11ec-ba99-0242ac11002b</uuidresource>
+			<datecreated>Fri, 13 May 2022 12:23:23 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[WherePermissionsAreAttached]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1164,h:344]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>sites/docu/.galleries/samples</destination>
 			<type>imagegallery</type>
 			<uuidstructure>04e7831a-cdd2-11ec-9bc3-0242ac11002b</uuidstructure>
@@ -6973,7 +7221,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Privacy policy: Privacy Policy (Datenschutzerklärung)]]></value>
+					<value><![CDATA[Privacy Policy (Datenschutzerklärung) - Main Text]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -7008,6 +7256,23 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Welcome to the OpenCms Documentation: Alkacon OCEE]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/central/.content/section-m/cs_00018.xml</source>
+			<destination>sites/docu/central/.content/section-m/cs_00018.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>6913fae7-d201-11ec-ba99-0242ac11002b</uuidstructure>
+			<uuidresource>6913fae8-d201-11ec-ba99-0242ac11002b</uuidresource>
+			<datecreated>Thu, 12 May 2022 14:40:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Privacy Policy (Datenschutzerklärung) - Initial Text]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -7177,6 +7442,10 @@
 				<property>
 					<name>mercury.theme</name>
 					<value><![CDATA[/system/modules/alkacon.opencms.documentation/resources/css/docu.min.css]]></value>
+				</property>
+				<property>
+					<name>template</name>
+					<value><![CDATA[/system/modules/alkacon.mercury.template/templates/mercury.jsp]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -7773,23 +8042,6 @@
 			<datecreated>Mon, 09 May 2022 09:21:24 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00001.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00001.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>a2369319-ca07-11ec-a595-0242ac11002b</uuidstructure>
-			<uuidresource>a236931a-ca07-11ec-a595-0242ac11002b</uuidresource>
-			<datecreated>Mon, 02 May 2022 11:04:27 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Introduction: The Setup Wizard]]></value>
-				</property>
-			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -8746,23 +8998,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00058.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00058.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>31472792-d1c2-11ec-9238-0242ac11002b</uuidstructure>
-			<uuidresource>31472793-d1c2-11ec-9238-0242ac11002b</uuidresource>
-			<datecreated>Thu, 12 May 2022 07:07:32 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[The concept of content: How are content types known to the system?]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00059.xml</source>
 			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00059.xml</destination>
 			<type>m-section-ext</type>
@@ -9429,6 +9664,46 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Introduction]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/docu/opencms-documentation/search</destination>
+			<type>folder</type>
+			<uuidstructure>0db390c7-d1cf-11ec-9238-0242ac11002b</uuidstructure>
+			<datecreated>Thu, 12 May 2022 08:39:35 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.5]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Search]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Search]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/search/index.html</source>
+			<destination>sites/docu/opencms-documentation/search/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>0db6c51c-d1cf-11ec-9238-0242ac11002b</uuidstructure>
+			<uuidresource>0db6c51d-d1cf-11ec-9238-0242ac11002b</uuidresource>
+			<datecreated>Thu, 12 May 2022 08:39:36 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Search]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -13705,46 +13980,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Spellchecking for the TinyMCE]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>sites/docu/opencms-documentation/todo/search</destination>
-			<type>folder</type>
-			<uuidstructure>0db390c7-d1cf-11ec-9238-0242ac11002b</uuidstructure>
-			<datecreated>Thu, 12 May 2022 08:39:35 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[10.0]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[Search]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Search]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/todo/search/index.html</source>
-			<destination>sites/docu/opencms-documentation/todo/search/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>0db6c51c-d1cf-11ec-9238-0242ac11002b</uuidstructure>
-			<uuidresource>0db6c51d-d1cf-11ec-9238-0242ac11002b</uuidresource>
-			<datecreated>Thu, 12 May 2022 08:39:36 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Search]]></value>
 				</property>
 			</properties>
 			<relations/>
