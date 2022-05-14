@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The contents of the Alkacon OpenCms documentation.]]></description>
-		<version>13.0.17</version>
+		<version>13.0.21</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -56,172 +56,6 @@
 				<property>
 					<name>template</name>
 					<value><![CDATA[/system/modules/alkacon.mercury.template/templates/mercury.jsp]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>sites/docu/.content</destination>
-			<type>folder</type>
-			<uuidstructure>a5ae1533-d2b7-11ec-ba99-0242ac11002b</uuidstructure>
-			<datecreated>Fri, 13 May 2022 12:24:34 GMT</datecreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>sites/docu/.content/linksequence-m</destination>
-			<type>folder</type>
-			<uuidstructure>ee0b51ed-d2b7-11ec-ba99-0242ac11002b</uuidstructure>
-			<datecreated>Fri, 13 May 2022 12:26:35 GMT</datecreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/.content/linksequence-m/ls_00001.xml</source>
-			<destination>sites/docu/.content/linksequence-m/ls_00001.xml</destination>
-			<type>m-linksequence</type>
-			<uuidstructure>ee0cb17f-d2b7-11ec-ba99-0242ac11002b</uuidstructure>
-			<uuidresource>ee0cb180-d2b7-11ec-ba99-0242ac11002b</uuidresource>
-			<datecreated>Fri, 13 May 2022 12:26:35 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Permissions on VFS resources: Related Links]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>sites/docu/.content/section-ext-m</destination>
-			<type>folder</type>
-			<uuidstructure>a5af4db5-d2b7-11ec-ba99-0242ac11002b</uuidstructure>
-			<datecreated>Fri, 13 May 2022 12:24:34 GMT</datecreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/.content/section-ext-m/ecs_00001.xml</source>
-			<destination>sites/docu/.content/section-ext-m/ecs_00001.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>a5b03817-d2b7-11ec-ba99-0242ac11002b</uuidstructure>
-			<uuidresource>a5b03818-d2b7-11ec-ba99-0242ac11002b</uuidresource>
-			<datecreated>Fri, 13 May 2022 12:24:34 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Permissions on VFS resources: Permissions on VFS resources]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/.content/section-ext-m/ecs_00002.xml</source>
-			<destination>sites/docu/.content/section-ext-m/ecs_00002.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>37901e67-d2b8-11ec-ba99-0242ac11002b</uuidstructure>
-			<uuidresource>37901e68-d2b8-11ec-ba99-0242ac11002b</uuidresource>
-			<datecreated>Fri, 13 May 2022 12:28:38 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Permissions on VFS resources: How are permissions handled in OpenCms?]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/.content/section-ext-m/ecs_00003.xml</source>
-			<destination>sites/docu/.content/section-ext-m/ecs_00003.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>7e051ea4-d2b9-11ec-ba99-0242ac11002b</uuidstructure>
-			<uuidresource>7e051ea5-d2b9-11ec-ba99-0242ac11002b</uuidresource>
-			<datecreated>Fri, 13 May 2022 12:37:46 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Permissions on VFS resources: The available permissions]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/.content/section-ext-m/ecs_00004.xml</source>
-			<destination>sites/docu/.content/section-ext-m/ecs_00004.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>95004c88-d2b9-11ec-ba99-0242ac11002b</uuidstructure>
-			<uuidresource>95004c89-d2b9-11ec-ba99-0242ac11002b</uuidresource>
-			<datecreated>Fri, 13 May 2022 12:38:25 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Permissions on VFS resources: The available permissions 2]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/.content/section-ext-m/ecs_00005.xml</source>
-			<destination>sites/docu/.content/section-ext-m/ecs_00005.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>1de660ff-d2ba-11ec-ba99-0242ac11002b</uuidstructure>
-			<uuidresource>1de66100-d2ba-11ec-ba99-0242ac11002b</uuidresource>
-			<datecreated>Fri, 13 May 2022 12:42:14 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Permissions on VFS resources: The interplay of permissions]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/.content/section-ext-m/ecs_00006.xml</source>
-			<destination>sites/docu/.content/section-ext-m/ecs_00006.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>3aac8f5a-d2ba-11ec-ba99-0242ac11002b</uuidstructure>
-			<uuidresource>3aac8f5b-d2ba-11ec-ba99-0242ac11002b</uuidresource>
-			<datecreated>Fri, 13 May 2022 12:43:03 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Permissions on VFS resources: Example for the interplay of permissions ]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/.content/section-ext-m/ecs_00007.xml</source>
-			<destination>sites/docu/.content/section-ext-m/ecs_00007.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>c9b8208e-d2ba-11ec-ba99-0242ac11002b</uuidstructure>
-			<uuidresource>c9b8208f-d2ba-11ec-ba99-0242ac11002b</uuidresource>
-			<datecreated>Fri, 13 May 2022 12:47:03 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Permissions on VFS resources: Permissions for all others and protected areas]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -6630,6 +6464,10 @@
 					<value><![CDATA[Welcome]]></value>
 				</property>
 				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
 					<name>mercury.theme</name>
 					<value><![CDATA[/system/modules/alkacon.opencms.documentation/resources/css/central.min.css]]></value>
 				</property>
@@ -7440,6 +7278,10 @@
 					<value><![CDATA[OpenCms documentation]]></value>
 				</property>
 				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
 					<name>mercury.theme</name>
 					<value><![CDATA[/system/modules/alkacon.opencms.documentation/resources/css/docu.min.css]]></value>
 				</property>
@@ -7884,6 +7726,23 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Permissions in OpenCms: Topics on permissions 4]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/linksequence-m/ls_00013.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/linksequence-m/ls_00013.xml</destination>
+			<type>m-linksequence</type>
+			<uuidstructure>ee0cb17f-d2b7-11ec-ba99-0242ac11002b</uuidstructure>
+			<uuidresource>ee0cb180-d2b7-11ec-ba99-0242ac11002b</uuidresource>
+			<datecreated>Fri, 13 May 2022 12:26:35 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Permissions on VFS resources: Related Links]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -9043,6 +8902,125 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Permissions in OpenCms: Permissions in OpenCms]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00062.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00062.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>a5b03817-d2b7-11ec-ba99-0242ac11002b</uuidstructure>
+			<uuidresource>a5b03818-d2b7-11ec-ba99-0242ac11002b</uuidresource>
+			<datecreated>Fri, 13 May 2022 12:24:34 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Permissions on VFS resources: Permissions on VFS resources]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00063.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00063.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>37901e67-d2b8-11ec-ba99-0242ac11002b</uuidstructure>
+			<uuidresource>37901e68-d2b8-11ec-ba99-0242ac11002b</uuidresource>
+			<datecreated>Fri, 13 May 2022 12:28:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Permissions on VFS resources: How are permissions handled in OpenCms?]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00064.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00064.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>c9b8208e-d2ba-11ec-ba99-0242ac11002b</uuidstructure>
+			<uuidresource>c9b8208f-d2ba-11ec-ba99-0242ac11002b</uuidresource>
+			<datecreated>Fri, 13 May 2022 12:47:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Permissions on VFS resources: Permissions for all others and protected areas]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00065.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00065.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>7e051ea4-d2b9-11ec-ba99-0242ac11002b</uuidstructure>
+			<uuidresource>7e051ea5-d2b9-11ec-ba99-0242ac11002b</uuidresource>
+			<datecreated>Fri, 13 May 2022 12:37:46 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Permissions on VFS resources: The available permissions]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00066.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00066.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>95004c88-d2b9-11ec-ba99-0242ac11002b</uuidstructure>
+			<uuidresource>95004c89-d2b9-11ec-ba99-0242ac11002b</uuidresource>
+			<datecreated>Fri, 13 May 2022 12:38:25 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Permissions on VFS resources: The available permissions 2]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00067.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00067.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>1de660ff-d2ba-11ec-ba99-0242ac11002b</uuidstructure>
+			<uuidresource>1de66100-d2ba-11ec-ba99-0242ac11002b</uuidresource>
+			<datecreated>Fri, 13 May 2022 12:42:14 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Permissions on VFS resources: The interplay of permissions]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00068.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00068.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>3aac8f5a-d2ba-11ec-ba99-0242ac11002b</uuidstructure>
+			<uuidresource>3aac8f5b-d2ba-11ec-ba99-0242ac11002b</uuidresource>
+			<datecreated>Fri, 13 May 2022 12:43:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Permissions on VFS resources: Example for the interplay of permissions ]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -15900,7 +15878,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Redirect to first page in navigation]]></value>
+					<value><![CDATA[Redirect zur ersten Seite in der Navigation]]></value>
 				</property>
 				<property>
 					<name>locale-available</name>
