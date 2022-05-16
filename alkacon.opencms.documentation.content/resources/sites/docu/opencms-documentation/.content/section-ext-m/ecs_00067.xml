@@ -2,21 +2,27 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[The interplay of permissions]]></Title>
+    <Title><![CDATA[What is a module?]]></Title>
     <Section>
       <Text name="Text0">
-        <links/>
-        <content><![CDATA[<p>Permissions have three states. For each user, a permission at a resource can be</p>
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/background/the-module-system/]]></target>
+            <uuid>8d7dcf6b-d1b9-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[what-should-i-package-as-a-module]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>A module is basically the collection of resources from the VFS attached with some configuration. Typically, resources that are required to make up some functionality are grouped as a module. The group can either be very fine-granular, e.g., contain only a new resource type and provide schema, formatter, maybe some Java library and configuration of it, or, it can be very coarse, containing all the resources you need to build up a website, i.e., template JSP, resource types (with schemas and formatters), images, JavaScript, CSS, jars, classes, .... What's the correct choice for you depends on your use case and is <a href="%(link0)">discussed later on</a>.</p>
+<p>Grouping resources into modules has several advantages, because the modules are more than the simple collections of resources. You can:</p>
 <ul>
-<li>explicitely or inherited (from a parent folder) set as allowed,</li>
-<li>explicitely or inherited denied, or</li>
-<li>unset.</li>
+<li>import and export modules</li>
+<li>define dependencies between modules</li>
+<li>use version numbers</li>
+<li>add module parameters to adjust a module's behavior for varying systems, e.g., configure data-base connections</li>
+<li>group related modules</li>
+<li>configure actions triggered when a module is imported, updated or removed.</li>
 </ul>
-<p>To unset inherited permissions they must be overwritten ("Overwrite inherited" in the permissions dialog). This can only be done for all permissions of a user or group at once.</p>
-<p>What happens now, if permissions for a user belonging to one or several groups has different permissions for accessing a resource?</p>
-<div class="alert alert-danger">In OpenCms denied is always stronger than allowed.</div>
-<p>That means, if, for a resource the access is denied for a user, because it is denied for a group, the user belongs to. It will stay denied for the user, even if he is member in another group that explicitely has access to the resource, or even if access is granted directly for the user.</p>
-<p>In such a setting it makes sense to have permissions <em>unset</em>. When a permission is not set for a user, directly or indirectly via a group or role, the user does not have the permission. If it is then set to allowed somehow, directly or indirectly, the permission is granted. Thus unset is like a "weak deny" that can be overwritten.</p>]]></content>
+<p>To avoid naming conflicts, modules are named like Java packages, e.g., <code>com.mydomain.mymodule</code>. This name is also called the module's package name.<span class="footnote">Your module may additionally also have a more human readable name, as well as a description etc.</span></p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[Configurations, formatters and localizations for the Alkacon OpenCms documentation.]]></description>
-		<version>13.0.20</version>
+		<version>13.0.21</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -429,7 +429,12 @@
 			<uuidstructure>d70f0d43-c9ee-11ec-a595-0242ac11002b</uuidstructure>
 			<datecreated>Mon, 02 May 2022 08:06:58 GMT</datecreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>export</name>
+					<value><![CDATA[true]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -581,6 +586,28 @@
 					<value><![CDATA[default.min]]></value>
 				</property>
 			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/alkacon.opencms.documentation/resources/tinymce</destination>
+			<type>folder</type>
+			<uuidstructure>9bd09554-d50a-11ec-b12a-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 16 May 2022 11:23:28 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/alkacon.opencms.documentation/resources/tinymce/styles.json</source>
+			<destination>system/modules/alkacon.opencms.documentation/resources/tinymce/styles.json</destination>
+			<type>plain</type>
+			<uuidstructure>9bd21bf6-d50a-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>9bd21bf7-d50a-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 11:23:28 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
 			<relations/>
 			<accesscontrol/>
 		</file>

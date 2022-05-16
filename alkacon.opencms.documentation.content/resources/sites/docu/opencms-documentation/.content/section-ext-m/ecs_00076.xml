@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Permissions on VFS resources]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/background/permissions-in-opencms/permissions-on-types/]]></target>
+            <uuid>b731c5aa-d1b9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>OpenCms allows to set permissions for users or groups at each resource in the VFS. Five different permissions are distinguished. Permissions can be inherited or overwritten. We provide you with an overview on the permission system in OpenCms. You should know the system's pecularities before assigning permissions.</p>
+<div class="alert alert-info">Note: We speak about permissions directly attached to VFS resources here. For permissions on resource and explorer types, see <a href="%(link0)">here</a>.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

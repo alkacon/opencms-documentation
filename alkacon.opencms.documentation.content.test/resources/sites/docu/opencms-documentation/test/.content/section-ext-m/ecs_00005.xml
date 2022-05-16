@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Using the extended content section for single sections]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If the extended content section is used like a regular content section, the output is identical to the regular content section. This is the case if</p>
+<ul>
+<li>There is only ONE subsection.</li>
+<li>The Heading of the first and only subsection is NOT set.</li>
+<li>The element setting <em>Type of list</em> is set to "As divisions".</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -2,12 +2,17 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Permissions for all others and protected areas]]></Title>
+    <Title><![CDATA[How do permissions interact? ]]></Title>
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>As you set permissions for single groups or users, you can set a kind of default permissions. These are used whenever permissions are not explicitely set for the user. As all other permissions, they can be inherited or overwritten.</p>
-<p>Setting these rights is inparticular useful, when you want to create password protected areas. If you overwrite the inherited permissions, users where rights are not explictely set, in particular guest users that are not logged in will get a login form when trying to access such a resource with overwritten permissions.</p>]]></content>
+        <content><![CDATA[<p>Permissions on explorer types interact differently than permissions on VFS resources. In particular:</p>
+<ul>
+<li>Permissions can only be set or not set - i.e., there are just two states.</li>
+<li>If a permission is not explicitly set for an explorer type, a default setting is used, specified in the <code>opencms-workplace.xml</code> in the node <code>&lt;defaultaccesscontrol&gt;</code>.</li>
+<li>If for one user different permissions are set, allowed wins over denied.</li>
+<li>You can set default permissions for explorer types. They overwrite the system defaults, but will be overwritten by permissions set for groups, roles or users.</li>
+</ul>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

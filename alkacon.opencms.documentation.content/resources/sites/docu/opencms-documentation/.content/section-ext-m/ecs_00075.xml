@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Configuration files]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>OpenCms is highly configurable. You replace many Java classes with your own implementation, you can adjust, reduce and extend OpenCms' features in many respects by just by changing the configuration.</p>
+<p>The configuration is placed in XML files on the RFS in the file <code>${WEBAPP_HOME}/WEB-INF/config/opencms.xml</code>, that includes some other configuration files placed in the same folder.</p>
+<p>We provide an overview on the different configuration files and their purposes, and explain, from a bird's eye view, when (and how) they should be altered.</p>
+<p>We do not provide a complete overview on all available configuration options. The topic will help you to get the general directions where you could search for special configuration options.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

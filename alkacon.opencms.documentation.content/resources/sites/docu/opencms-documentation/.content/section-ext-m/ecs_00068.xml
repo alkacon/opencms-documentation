@@ -2,59 +2,72 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Example for the interplay of permissions ]]></Title>
+    <Title><![CDATA[What should I package as a module?]]></Title>
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>To clarify how permissions work, an example is of great help. Assume, we have a group "A" and a group "B", and a folder</p>
+        <content><![CDATA[<p>Modules can be structured very fine-grained or very coarse. The structure of choice depends on your use case and personal preferences. So, it's only possible to provide guidelines on how to structure modules and on what to encapsulate in separate modules. Regarding the guidelines, there's not much difference from good code design. Some rules of thumb are:</p>
 <ul>
-<li><code>/main-folder/</code></li>
+<li>Capture things you want to reuse as separate modules.</li>
+<li>Encapsulate functionality, such that each module has strong dependencies in internally, but few (clear defined) dependencies to other modules.</li>
+<li>Let your module add real functionality to your system. So let it contain all it needs to add this functionality.</li>
+<li>Factor out common functionality used by several other modules.</li>
+<li>Never mix website content into a module containing resources to build up the website (such es templates, content type definitions, ...). You may have modules for a website's content - but separated from the modules exposing template JSPs, content types, scripts etc.</li>
 </ul>
-<p>with</p>
+<p>When you encapsulate resources used to build up your website, there are mainly three different approaches, all with pros and cons.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[One module for each functionality, resource type, etc.]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A very common approach is to package each functionality in a separate module. That means:</p>
 <ul>
-<li><code>/main-folder/sub-folder/</code></li>
+<li>One module containing the template JSP, and resources common for all pages (like some images and JavaScripts, maybe also some Java library). The module does typically not expose content types.</li>
+<li>One module for each content type (or dynamic function). Each such module contains the schema, the formatters and the formatter configurations as well as resources such as Java libraries, CSS, JavaScripts and message bundles, specific for the content type.</li>
 </ul>
-<p>as subfolder. Now we want all members of group A and B to have read access to <code>/main-folder/</code>, but only members of group A to have access to <code>/main-folder/sub-folder/</code>.</p>
-<p>We set read access explicitely to "Allowed" for groups A and B on <code>/main-folder/</code>. Hence, as expected user that are at least in one of the groups A or B have read access to the main folder, and, via inheritance, also to <code>/main-folder/sub-folder/</code>.</p>
-<p>Now we want to limit read access to the subfolder to members of group A, i.e., users only in group B and not in group A should not get access, but users that are members in both groups should.</p>]]></content>
+<p>The big advantage of this approach is that you can exchange (in particular update) and reuse each of the small modules independently. You can also easily add new functionality or remove existing functionality by adding or removing modules (given that all dependencies are still fulfilled).</p>]]></content>
       </Text>
     </Section>
     <Section>
+      <Caption><![CDATA[Separating schemas and formatters ]]></Caption>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>The first thought is to deny read access for <code>/main-folder/sub-folder/</code> for members of group B. But that will result in a wrong permission set: Users that are member of both groups will not be able to read resources in folder <code>/main-folder/sub-folder/</code>, as shown in the graphic below:</p>]]></content>
+        <content><![CDATA[<p>The main idea of the approach is to separate structure and layout. Basically, for a website, you build:</p>
+<ul>
+<li>One module containing the content type definitions, in particular providing all schemas and resource/explorer type configuration.</li>
+<li>One module providing formatters and formatter configurations, as well as the template JSP and all the things concerned with layout.</li>
+</ul>
+<p>Taking this approach, you can reuse the schema module and just exchange the layouts to build up new websites. This may also nicely interplay with module cloning and is for example the way the modules of the demo websites of OpenCms 9.0 and 9.5 are structured. But the approach is (not yet) as wide spread as the "one-module-one-functionality" approach.</p>]]></content>
       </Text>
-      <Image>
-        <Image>
-          <link type="WEAK">
-            <target><![CDATA[/sites/docu/.galleries/pictures/AAndNotB.png]]></target>
-            <uuid>936c2986-d2b7-11ec-ba99-0242ac11002b</uuid>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Everything needed for a website in one module]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>An, at the first glance, very simple approach is to place all the resources that are needed to build up your website in one single module. This is sufficient as long as you do not want to reuse parts of your resources and you can assure that things will not change frequently. Typically, at least for bigger projects, it's not the best choice. Why? In software developement the only constant is change.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Modules for the broad audience]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://www.alkacon.com/en/products/oamp/]]></target>
           </link>
-        </Image>
-        <Title><![CDATA[AAndNotB]]></Title>
-      </Image>
-    </Section>
-    <Section>
-      <Text name="Text0">
-        <links/>
-        <content><![CDATA[<p>A correct solution is reached by overwriting the inherited permissions on /main-folder/sub-folder/ for group B and leaving the read permission unset. Then members only in B cannot access the subfolder, but the users additionally in group A can.</p>]]></content>
-      </Text>
-    </Section>
-    <Section>
-      <Text name="Text0">
-        <links/>
-        <content><![CDATA[<p>A correct solution is reached by overwriting the inherited permissions on /main-folder/sub-folder/ for group B and leaving the read permission unset. Then members only in B cannot access the subfolder, but the users additionally in group A can.</p>
-<p>New text.</p>]]></content>
-      </Text>
-      <Image>
-        <Image>
-          <link type="WEAK">
-            <target><![CDATA[/sites/docu/.galleries/pictures/AAndBUnset.png]]></target>
-            <uuid>936e737a-d2b7-11ec-ba99-0242ac11002b</uuid>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[http://www.getbootstrap.com]]></target>
           </link>
-        </Image>
-        <Title><![CDATA[AAndBUnset]]></Title>
-      </Image>
+        </links>
+        <content><![CDATA[<p>Besides the modules specific for your website, there are modules that are intended for widely reuse. You may want to share your own modules, or use modules available by the community. These modules typically:</p>
+<ul>
+<li>Add a new feature to OpenCms commonly required for various websites</li>
+<li>Are adjustable easily, in particular concerning layout and server configuration</li>
+<li>Contain all the resources needed (or build on another "broad audience" module containing common resources).</li>
+</ul>
+<p>A collection of freely available modules that extend your OpenCms functionality and available for the "broad audience" are for example the <a href="%(link0)">OAMP modules provided by Alkacon</a>. Check them out to get a feeling for that sort of modules.</p>
+<p>Common modules could also be used to include frameworks. For example the demo website of OpenCms 9.0 and 9.5 encapsulates the&nbsp;<a href="%(link1)" target="_blank" rel="noopener">bootstrap</a> basics in a separate module. So this module can be used for each website styled based on the bootstrap framework.</p>]]></content>
+      </Text>
     </Section>
   </ExtendedSection>
 </ExtendedSectionData>

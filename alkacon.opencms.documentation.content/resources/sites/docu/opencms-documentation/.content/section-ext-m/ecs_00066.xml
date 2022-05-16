@@ -2,45 +2,16 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[The available permissions 2]]></Title>
+    <Title><![CDATA[The module system]]></Title>
     <Section>
-      <Caption><![CDATA[read (r)]]></Caption>
-      <Text name="Text0">
-        <links/>
-        <content><![CDATA[<p>Permission to read a resource</p>]]></content>
-      </Text>
-    </Section>
-    <Section>
-      <Caption><![CDATA[write (w)]]></Caption>
-      <Text name="Text0">
-        <links/>
-        <content><![CDATA[<p>Permission to write a resource or add new resources in a folder.</p>]]></content>
-      </Text>
-    </Section>
-    <Section>
-      <Caption><![CDATA[view (v)]]></Caption>
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/todo/more-opencms-features/mounting-the-vfs/]]></target>
-            <uuid>437bac38-d1ca-11ec-9238-0242ac11002b</uuid>
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/the-opencms-workplace/launchpad-and-other-apps/modules/]]></target>
+            <uuid>85b70871-d1c5-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>Permission to see a resource in the explorer (or when <a href="%(link0)">the VFS is mounted</a>).</p>]]></content>
-      </Text>
-    </Section>
-    <Section>
-      <Caption><![CDATA[control (c)]]></Caption>
-      <Text name="Text0">
-        <links/>
-        <content><![CDATA[<p>Permission to change permissions set on a resource.</p>]]></content>
-      </Text>
-    </Section>
-    <Section>
-      <Caption><![CDATA[direct publish (d)]]></Caption>
-      <Text name="Text0">
-        <links/>
-        <content><![CDATA[<p>Permission to publish a resource directly. Allows to publish a resource directly, even if the user has no publish permission on the project (this is typically a role-dependent permission)</p>]]></content>
+        <content><![CDATA[<p>The basic functionality of OpenCms is the core system. All additional features are packaged in modules. This provides the flexibility to adjust each OpenCms installation according to your needs and to easily move functionality or whole websites from one installation to another. In this background topic you learn about the typical structure of modules and get some guidelines on what to package as a module. The user interface for module management is discussed <a href="%(link0)">here</a>.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

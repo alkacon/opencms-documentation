@@ -2,29 +2,27 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[How are permissions handled in OpenCms?]]></Title>
+    <Title><![CDATA[Permissions on explorer types]]></Title>
     <Section>
+      <Caption><![CDATA[create (c)]]></Caption>
       <Text name="Text0">
-        <links>
-          <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/background/the-virtual-file-system/]]></target>
-            <uuid>711b44d5-d1b9-11ec-9238-0242ac11002b</uuid>
-          </link>
-        </links>
-        <content><![CDATA[<p>Permissions are handled as ACLs (Access Control Lists) in OpenCms. This allows for fine-grained access control. For each resource rights can be set for single users, for groups and for "others" that are not listed as user or belong to one of the listed groups.</p>
-<p>The ACLs are attached to the resource part of an VFS resource. Thus, for siblings there is just one permission set that can be set <em>explicitely</em>. Nevertheless, siblings can have different <em>inherited</em> permissions. See&nbsp;<a href="%(link0)">here</a> for the general resource concept in OpenCms.</p>]]></content>
+        <links/>
+        <content><![CDATA[<p>If the permission is set, new resources of this type can be created. You can move new resources of this type to a page via the page editor or use the "Add wizard" in the traditional workplace to add new resources of the specified type.</p>]]></content>
       </Text>
     </Section>
     <Section>
-      <Image>
-        <Image>
-          <link type="WEAK">
-            <target><![CDATA[/sites/docu/.galleries/pictures/WherePermissionsAreAttached.png]]></target>
-            <uuid>7bae47ee-d2b7-11ec-ba99-0242ac11002b</uuid>
-          </link>
-        </Image>
-        <Title><![CDATA[WherePermissionsAreAttached]]></Title>
-      </Image>
+      <Caption><![CDATA[write (w)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If the permission is set, resources of this type can be edited. That means, a context menu in the workplace's editor appears for such content and you can edit contents via the ADE views.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[view (v)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If the permission is set, resources of this type are visible in ADE dialogs and the edit buttons appear at elements of that type. Thus you can add, move or remove elements on a page. If the view permission is not set, content of the type never appears in the ADE views. The setting has no influence in the traditional workplace, thus from the workplace's explorer you can still edit or create resources of the type, if the according other permissions are set.</p>]]></content>
+      </Text>
     </Section>
   </ExtendedSection>
 </ExtendedSectionData>

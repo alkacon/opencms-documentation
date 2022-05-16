@@ -23,7 +23,7 @@
     <DiscardTypes>true</DiscardTypes>
     <ResourceType>
       <TypeName><![CDATA[m-section]]></TypeName>
-      <Disabled><![CDATA[false]]></Disabled>
+      <Disabled><![CDATA[create]]></Disabled>
     </ResourceType>
     <ResourceType>
       <TypeName><![CDATA[m-section-ext]]></TypeName>
@@ -94,6 +94,13 @@
     <Attribute>
       <Key><![CDATA[template.section.add.heading.id]]></Key>
       <Value><![CDATA[true]]></Value>
+    </Attribute>
+    <Attribute>
+      <Key><![CDATA[editorConfigFull]]></Key>
+      <Value><![CDATA[height:800px,
+      link,anchor,downloadgallery,specialchar,emotions,source,
+      hidebuttons:underline;strikethrough;alignleft;alignright;aligncenter;justify;indent;outdend;blockquote;hr;print,style,
+      stylesformat:/system/modules/alkacon.opencms.documentation/resources/tinymce/styles.json]]></Value>
     </Attribute>
     <Attribute>
       <Key><![CDATA[cssWrapperWidget]]></Key>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Predefined users in OpenCms]]></Title>
+    <Section>
+      <Caption><![CDATA[Admin]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The Admin user has the role "Root Administrator" assigned and has all rights inside OpenCms. This user's data can be altered but be sure to always have a root administrator in your system!</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Export]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The export user is used internally by OpenCms for static export (of JSP-output for example). This user is in the Guests group and does not have to log in. If you want to get files statically exported, the user needs read permissions on the files. By the separation of Export user and Guest user you can block access to files for visitors of your website that are not logged in, but still have files exported. This may for example be useful in an intranet.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Guest]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Users not logged in are treated as the Guest user.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

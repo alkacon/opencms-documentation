@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Roles - root OU rules]]></Title>
+    <Section>
+      <Caption><![CDATA[* Root administrator]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The root administrator has <strong>all permissions</strong> in OpenCms. This user automatically has all other roles, having the rights of these roles. The predefined user Admin is root administrator. The role is important and at least the Admin user should have this role.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Database manager]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Database managers can manage modules and import/export data from the database.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Workplace manager]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Workplace managers can manage scheduled jobs, search indices, property definitions, resource histories, and the workplace tools.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

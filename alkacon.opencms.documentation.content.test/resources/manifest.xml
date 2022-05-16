@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The purpose of this module is to provide test pages that demonstrate the usage of the documentation specific functions. These are not to be installed with the final documentation.]]></description>
-		<version>13.0.10</version>
+		<version>13.0.13</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -308,6 +308,23 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>sites/docu/opencms-documentation/test/.content/section-ext-m/ecs_00005.xml</source>
+			<destination>sites/docu/opencms-documentation/test/.content/section-ext-m/ecs_00005.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>3ffe52df-d504-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>3ffe52e0-d504-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 10:37:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Extended Section: Using the extended content section for single sections]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>sites/docu/opencms-documentation/test/.content/section-m</destination>
 			<type>folder</type>
 			<uuidstructure>66f6c6ec-cf73-11ec-8701-0242ac11002b</uuidstructure>
@@ -414,6 +431,23 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Formatting options: Markup in the <title> of a section]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/test/.content/section-m/cs_00007.xml</source>
+			<destination>sites/docu/opencms-documentation/test/.content/section-m/cs_00007.xml</destination>
+			<type>m-section</type>
+			<uuidstructure>c53c10be-d515-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>c53c10bf-d515-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 12:43:22 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content section: Do not use the content section for the documentation]]></value>
 				</property>
 			</properties>
 			<relations/>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Predefined groups in OpenCms]]></Title>
+    <Section>
+      <Caption><![CDATA[Administrators]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>All members of the Administrators group are automatically root administrators.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Users]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Whenever you assign a role to a user, that user is added to the Users group. If you remove the role, they will also lose their group membership (even if you explicitly added them to the group before). Typically, all users should be in the Users group. For example, the rights to read, view and write content in the default site is granted to members of the Users group. The same holds for the <code>/shared/</code> folder.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Guests]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Guest and Export user are in this group. It is used in particular for all users who do not log in.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

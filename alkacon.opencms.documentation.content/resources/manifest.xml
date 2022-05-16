@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The contents of the Alkacon OpenCms documentation.]]></description>
-		<version>13.0.21</version>
+		<version>13.0.23</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -6464,10 +6464,6 @@
 					<value><![CDATA[Welcome]]></value>
 				</property>
 				<property>
-					<name>locale</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
 					<name>mercury.theme</name>
 					<value><![CDATA[/system/modules/alkacon.opencms.documentation/resources/css/central.min.css]]></value>
 				</property>
@@ -7278,10 +7274,6 @@
 					<value><![CDATA[OpenCms documentation]]></value>
 				</property>
 				<property>
-					<name>locale</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
 					<name>mercury.theme</name>
 					<value><![CDATA[/system/modules/alkacon.opencms.documentation/resources/css/docu.min.css]]></value>
 				</property>
@@ -7518,6 +7510,23 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>sites/docu/opencms-documentation/.content/flexible-m/fc_00009.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/flexible-m/fc_00009.xml</destination>
+			<type>m-flexible-up</type>
+			<uuidstructure>a10eda49-d514-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>a10eda4a-d514-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 12:35:11 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The module system: Module config]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>sites/docu/opencms-documentation/.content/linksequence-m</destination>
 			<type>folder</type>
 			<uuidstructure>8118e7b8-c9fb-11ec-a595-0242ac11002b</uuidstructure>
@@ -7735,6 +7744,40 @@
 			<source>sites/docu/opencms-documentation/.content/linksequence-m/ls_00013.xml</source>
 			<destination>sites/docu/opencms-documentation/.content/linksequence-m/ls_00013.xml</destination>
 			<type>m-linksequence</type>
+			<uuidstructure>dacd4004-d510-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>dacd4005-d510-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 12:08:10 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The module system: Related links]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/linksequence-m/ls_00014.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/linksequence-m/ls_00014.xml</destination>
+			<type>m-linksequence</type>
+			<uuidstructure>859a9640-d4e6-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>859a9641-d4e6-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 07:05:09 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Roles in OpenCms: Related Links]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/linksequence-m/ls_00015.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/linksequence-m/ls_00015.xml</destination>
+			<type>m-linksequence</type>
 			<uuidstructure>ee0cb17f-d2b7-11ec-ba99-0242ac11002b</uuidstructure>
 			<uuidresource>ee0cb180-d2b7-11ec-ba99-0242ac11002b</uuidresource>
 			<datecreated>Fri, 13 May 2022 12:26:35 GMT</datecreated>
@@ -7901,6 +7944,23 @@
 			<datecreated>Mon, 09 May 2022 09:21:24 GMT</datecreated>
 			<flags>0</flags>
 			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00001.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00001.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>6fbc38b8-d50d-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>6fbc38b9-d50d-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 11:43:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Permissions on types: Permissions on types]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -8857,6 +8917,23 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00058.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00058.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>961b109b-d50d-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>961b109c-d50d-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 11:44:47 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Permissions on types: Why type specific permissions?]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00059.xml</source>
 			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00059.xml</destination>
 			<type>m-section-ext</type>
@@ -8911,6 +8988,244 @@
 			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00062.xml</source>
 			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00062.xml</destination>
 			<type>m-section-ext</type>
+			<uuidstructure>b35b9f1e-d50d-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>b35b9f1f-d50d-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 11:45:36 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Permissions on types:  Which permissions are available? ]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00063.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00063.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>c94e84c7-d50d-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>c94e84c8-d50d-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 11:46:13 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Permissions on types: Permissions on explorer types]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00064.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00064.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>7115cdd8-d510-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>7115cdd9-d510-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 12:05:13 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Permissions on types: How do permissions interact? ]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00065.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00065.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>8dcf792c-d510-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>8dcf792d-d510-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 12:06:01 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Permissions on types: To whom can I assign permissions?]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00066.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00066.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>a89590ef-d510-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>a89590f0-d510-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 12:06:46 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The module system: The module system]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00067.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00067.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>0d83e314-d511-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>0d83e315-d511-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 12:09:35 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The module system: What is a module?]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00068.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00068.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>4396a846-d511-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>4396a847-d511-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 12:11:06 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The module system: What should I package as a module?]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00069.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00069.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>97891136-d513-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>97891137-d513-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 12:27:46 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The module system: How to structure my module internally?]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00070.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00070.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>b85fbebc-d513-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>b85fbebd-d513-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 12:28:41 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The module system: Module folders and their purpose]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00071.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00071.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>7391a62a-d514-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>7391a62b-d514-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 12:33:55 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The module system: What happens when I import, export or delete a module? ]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00072.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00072.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>b89be818-d514-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>b89be819-d514-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 12:35:51 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The module system: Module config]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00073.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00073.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>e2efc7d1-d514-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>e2efc7d2-d514-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 12:37:02 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The module system: Common pitfalls]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00074.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00074.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>5a10c32d-d515-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>5a10c32e-d515-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 12:40:22 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Introduction: The revised OpenCms documentation]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00075.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00075.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>b5c6dca7-d519-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>b5c6dca8-d519-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 13:11:34 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Configuration files: Configuration files]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00076.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00076.xml</destination>
+			<type>m-section-ext</type>
 			<uuidstructure>a5b03817-d2b7-11ec-ba99-0242ac11002b</uuidstructure>
 			<uuidresource>a5b03818-d2b7-11ec-ba99-0242ac11002b</uuidresource>
 			<datecreated>Fri, 13 May 2022 12:24:34 GMT</datecreated>
@@ -8925,8 +9240,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00063.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00063.xml</destination>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00077.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00077.xml</destination>
 			<type>m-section-ext</type>
 			<uuidstructure>37901e67-d2b8-11ec-ba99-0242ac11002b</uuidstructure>
 			<uuidresource>37901e68-d2b8-11ec-ba99-0242ac11002b</uuidresource>
@@ -8942,25 +9257,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00064.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00064.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>c9b8208e-d2ba-11ec-ba99-0242ac11002b</uuidstructure>
-			<uuidresource>c9b8208f-d2ba-11ec-ba99-0242ac11002b</uuidresource>
-			<datecreated>Fri, 13 May 2022 12:47:03 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Permissions on VFS resources: Permissions for all others and protected areas]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00065.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00065.xml</destination>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00078.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00078.xml</destination>
 			<type>m-section-ext</type>
 			<uuidstructure>7e051ea4-d2b9-11ec-ba99-0242ac11002b</uuidstructure>
 			<uuidresource>7e051ea5-d2b9-11ec-ba99-0242ac11002b</uuidresource>
@@ -8976,8 +9274,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00066.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00066.xml</destination>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00079.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00079.xml</destination>
 			<type>m-section-ext</type>
 			<uuidstructure>95004c88-d2b9-11ec-ba99-0242ac11002b</uuidstructure>
 			<uuidresource>95004c89-d2b9-11ec-ba99-0242ac11002b</uuidresource>
@@ -8993,8 +9291,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00067.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00067.xml</destination>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00080.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00080.xml</destination>
 			<type>m-section-ext</type>
 			<uuidstructure>1de660ff-d2ba-11ec-ba99-0242ac11002b</uuidstructure>
 			<uuidresource>1de66100-d2ba-11ec-ba99-0242ac11002b</uuidresource>
@@ -9010,8 +9308,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00068.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00068.xml</destination>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00081.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00081.xml</destination>
 			<type>m-section-ext</type>
 			<uuidstructure>3aac8f5a-d2ba-11ec-ba99-0242ac11002b</uuidstructure>
 			<uuidresource>3aac8f5b-d2ba-11ec-ba99-0242ac11002b</uuidresource>
@@ -9021,6 +9319,261 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Permissions on VFS resources: Example for the interplay of permissions ]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00082.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00082.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>c9b8208e-d2ba-11ec-ba99-0242ac11002b</uuidstructure>
+			<uuidresource>c9b8208f-d2ba-11ec-ba99-0242ac11002b</uuidresource>
+			<datecreated>Fri, 13 May 2022 12:47:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Permissions on VFS resources: Permissions for all others and protected areas]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00083.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00083.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>b7b5f9e1-d4dd-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>b7b5f9e2-d4dd-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 06:02:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Users, groups, roles and OUs: Users, groups, roles and OUs]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00084.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00084.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>dc3ae1d7-d4dd-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>dc3ae1d8-d4dd-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 06:03:08 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Users, groups, roles and OUs: Users in OpenCms ]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00085.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00085.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>f7f74151-d4dd-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>f7f74152-d4dd-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 06:03:55 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Users, groups, roles and OUs: Predefined users in OpenCms]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00086.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00086.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>3abb8aa5-d4de-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>3abb8aa6-d4de-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 06:05:47 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Users, groups, roles and OUs: Groups and roles ]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00087.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00087.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>605bf444-d4de-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>605bf445-d4de-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 06:06:50 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Users, groups, roles and OUs: Predefined groups in OpenCms]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00088.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00088.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>7a37acdc-d4de-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>7a37acdd-d4de-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 06:07:33 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Users, groups, roles and OUs: Predefined groups in OpenCms]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00089.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00089.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>cc4b7cc1-d4de-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>cc4b7cc2-d4de-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 06:09:51 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Users, groups, roles and OUs:  Organizational units for user management]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00090.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00090.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>5f98d23b-d4e6-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>5f98d23c-d4e6-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 07:04:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Roles in OpenCms: Roles in OpenCms]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00091.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00091.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>bc43a925-d4e6-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>bc43a926-d4e6-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 07:06:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Roles in OpenCms: What are roles for? ]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00092.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00092.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>d88f0231-d4e6-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>d88f0232-d4e6-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 07:07:28 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Roles in OpenCms: Which roles are available in OpenCms?]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00093.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00093.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>003db267-d4e7-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>003db268-d4e7-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 07:08:34 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Roles in OpenCms: Roles - root OU rules]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00094.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00094.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>4617a033-d4e7-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>4617a034-d4e7-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 07:10:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Roles in OpenCms: Roles available only in the root OU 2]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00095.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00095.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>66660aef-d4e7-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>66660af0-d4e7-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 07:11:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Roles in OpenCms: Roles available in all OUs]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00096.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00096.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>2bd652cb-d4e8-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>2bd652cc-d4e8-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Mon, 16 May 2022 07:16:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Roles in OpenCms: Roles and the Users group]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -9065,23 +9618,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Footer for the OpenCms Documentation: Footer Section]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/.content/section-m/cs_00003.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-m/cs_00003.xml</destination>
-			<type>m-section</type>
-			<uuidstructure>2c3c05be-c9fe-11ec-a595-0242ac11002b</uuidstructure>
-			<uuidresource>2c3c05bf-c9fe-11ec-a595-0242ac11002b</uuidresource>
-			<datecreated>Mon, 02 May 2022 09:56:44 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Introduction: Introduction]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -15878,7 +16414,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Redirect zur ersten Seite in der Navigation]]></value>
+					<value><![CDATA[Redirect to first page in navigation]]></value>
 				</property>
 				<property>
 					<name>locale-available</name>

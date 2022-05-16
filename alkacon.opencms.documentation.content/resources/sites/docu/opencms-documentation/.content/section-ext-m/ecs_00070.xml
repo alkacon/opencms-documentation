@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Module folders and their purpose]]></Title>
+    <Section>
+      <Caption><![CDATA[templates/]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Contains the containerpage template JSP(s), usually a single file <code>main.jsp</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[elements/]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Contains elements (JSPs) included by the template (<code>main.jsp</code>), for example a file <code>navigation.jsp</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[formatters/]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Contains formatters (JSPs) for content and the formatter configuration files, e.g., an <code>article-formatter.jsp</code> and an <code>article-formatter-configuration.xml</code></p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[resources/]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Contains static resources referenced by the template or by formatters, e.g. CSS files, JavaScript-files, images, etc. Typically the different kinds of resources are placed in several different subfolders, e.g., <code>styles/</code>, <code>scripts/</code>, <code>images/</code>, ....</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[schemas/]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Contains content type definitions (XSDs) that describe the structure of content types, e.g., an <code>article.xsd</code> that describes the structure of an article.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[lib/]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Contains Java libraries (jar files) that are contained in the module. The folder must be exported to <code>WEB-INF/lib/</code> folder of the RFS. The lib's package name is typically chosen identically to the module's package name.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[classes/]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Contains resources that must be exported to the <code>WEB-INF/classes/</code> folder of the RFS, e.g., Java classes or Java property files.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>
