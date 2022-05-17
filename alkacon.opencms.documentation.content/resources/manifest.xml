@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The contents of the Alkacon OpenCms documentation.]]></description>
-		<version>13.0.23</version>
+		<version>13.0.25</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -5795,8 +5795,8 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/docu/.galleries/logos/opencms_logo.svg</source>
-			<destination>sites/docu/.galleries/logos/opencms_logo.svg</destination>
+			<source>sites/docu/.galleries/logos/opencms-logo.svg</source>
+			<destination>sites/docu/.galleries/logos/opencms-logo.svg</destination>
 			<type>image</type>
 			<uuidstructure>a93abdc5-c48b-11ec-a595-0242ac11002b</uuidstructure>
 			<uuidresource>a93abdc6-c48b-11ec-a595-0242ac11002b</uuidresource>
@@ -5810,6 +5810,27 @@
 				<property type="shared">
 					<name>image.size</name>
 					<value><![CDATA[w:170,h:42]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/logos/opencms-point.svg</source>
+			<destination>sites/docu/.galleries/logos/opencms-point.svg</destination>
+			<type>image</type>
+			<uuidstructure>c8324229-d5b0-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>c832422a-d5b0-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Tue, 17 May 2022 07:12:59 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[OpenCms point]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:32,h:32]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -6494,11 +6515,11 @@
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[Documentation]]></value>
+					<value><![CDATA[OpenCms documentation]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Link to: /sites/default/opencms-documentation/introduction/]]></value>
+					<value><![CDATA[Link to: /opencms-documentation/introduction/]]></value>
 				</property>
 				<property>
 					<name>locale-available</name>
@@ -6527,7 +6548,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Welcome to the OpenCms Documentation]]></value>
+					<value><![CDATA[OpenCms Documentation]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -6544,52 +6565,15 @@
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[1.75]]></value>
+					<value><![CDATA[0.9375]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[OCEE]]></value>
+					<value><![CDATA[OCEE documentation]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Link to: https://ocee.opencms.org/]]></value>
-				</property>
-				<property>
-					<name>locale-available</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>search.exclude</name>
-					<value><![CDATA[all]]></value>
-				</property>
-				<property type="shared">
-					<name>template-elements</name>
-					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/central/wiki</source>
-			<destination>sites/docu/central/wiki</destination>
-			<type>htmlredirect</type>
-			<uuidstructure>1d012cca-d1d8-11ec-9238-0242ac11002b</uuidstructure>
-			<uuidresource>1d012ccb-d1d8-11ec-9238-0242ac11002b</uuidresource>
-			<datecreated>Thu, 12 May 2022 09:44:27 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[1.5]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[Wiki]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Link to: http://www.opencms-wiki.org]]></value>
+					<value><![CDATA[OCEE documentation]]></value>
 				</property>
 				<property>
 					<name>locale-available</name>
@@ -6797,6 +6781,33 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>sites/docu/central/.content/section-ext-m</destination>
+			<type>folder</type>
+			<uuidstructure>526cad6b-d5ba-11ec-b12a-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 17 May 2022 08:21:16 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/central/.content/section-ext-m/ecs_00001.xml</source>
+			<destination>sites/docu/central/.content/section-ext-m/ecs_00001.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>526de5ed-d5ba-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>526de5ee-d5ba-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Tue, 17 May 2022 08:21:16 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Javadocs: OpenCms online JavaDocs]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>sites/docu/central/.content/section-m</destination>
 			<type>folder</type>
 			<uuidstructure>1cbd939d-d1d8-11ec-9238-0242ac11002b</uuidstructure>
@@ -6868,7 +6879,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Welcome to the OpenCms Documentation: Documentation]]></value>
+					<value><![CDATA[OpenCms Documentation: Documentation]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -6994,23 +7005,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/docu/central/.content/section-m/cs_00012.xml</source>
-			<destination>sites/docu/central/.content/section-m/cs_00012.xml</destination>
-			<type>m-section</type>
-			<uuidstructure>1cd2a265-d1d8-11ec-9238-0242ac11002b</uuidstructure>
-			<uuidresource>1cd2a266-d1d8-11ec-9238-0242ac11002b</uuidresource>
-			<datecreated>Thu, 12 May 2022 09:44:26 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Javadocs: What OpenCms JavaDocs are you looking for?]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>sites/docu/central/.content/section-m/cs_00013.xml</source>
 			<destination>sites/docu/central/.content/section-m/cs_00013.xml</destination>
 			<type>m-section</type>
@@ -7089,7 +7083,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Welcome to the OpenCms Documentation: Alkacon OCEE]]></value>
+					<value><![CDATA[OpenCms Documentation: Alkacon OCEE]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -7786,6 +7780,40 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Permissions on VFS resources: Related Links]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/linksequence-m/ls_00016.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/linksequence-m/ls_00016.xml</destination>
+			<type>m-linksequence</type>
+			<uuidstructure>a2cfcf4e-d5a9-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>a2cfcf4f-d5a9-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Tue, 17 May 2022 06:21:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Configuration files: Related links]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/linksequence-m/ls_00017.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/linksequence-m/ls_00017.xml</destination>
+			<type>m-linksequence</type>
+			<uuidstructure>0d516f28-d5aa-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>0d516f29-d5aa-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Tue, 17 May 2022 06:24:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Configuration files: Realted link 2]]></value>
 				</property>
 			</properties>
 			<relations/>

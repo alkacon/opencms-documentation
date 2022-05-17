@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinkSequenceData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/linksequence.xsd">
+  <LinkSequence language="en">
+    <Title><![CDATA[Related links]]></Title>
+    <Text name="Text0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[https://github.com/alkacon/opencms-core/blob/branch_11_0_x/src/org/opencms/configuration/opencms-configuration.dtd]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>The main configuration file. Here all configuration classes are registered.</p>
+<ul>
+<li><a href="%(link0)">DTD for the opencms.xml</a></li>
+</ul>
+<p><strong>&nbsp;</strong></p>]]></content>
+    </Text>
+    <LinkEntry>
+      <Text><![CDATA[opencms.xml]]></Text>
+      <URI>
+        <link internal="false" type="WEAK">
+          <target><![CDATA[https://github.com/alkacon/opencms-core/blob/branch_11_0_x/webapp/WEB-INF/config/opencms.xml]]></target>
+        </link>
+      </URI>
+    </LinkEntry>
+  </LinkSequence>
+</LinkSequenceData>

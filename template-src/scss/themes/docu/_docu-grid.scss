@@ -175,13 +175,33 @@ $full-flow-assumed-width:               map-get($container-max-widths, xl) !defa
 
         // add padding in columns instead of bottom-margin in header so that the background can be colored
         // no-margin header is not used / required for documentation
-        div.area-wide,
         aside {
             padding-top: $default-margin;
+            border-right: 1px solid $nav-border;
         }
 
-        aside {
-            background-color: $grey-lighter;
+        div.area-wide {
+            position: relative;
+            padding-top: 75px;
+            overflow: hidden;
+            z-index: 1;
+            padding-right: $grid-gutter-width;
+            padding-left: $grid-gutter-width;
+
+            &::after {
+                position: absolute;
+                right: -90px;
+                top: -100px;
+                z-index: -1;
+                content: " ";
+                background-image: url(/.galleries/logos/opencms-point.svg);
+                background-repeat: no-repeat;
+                background-size: 200px 200px;
+                // opacity: .25;
+                width: 200px;
+                height: 200px;
+                display: block;
+            }
         }
     }
 
@@ -208,6 +228,10 @@ $full-flow-assumed-width:               map-get($container-max-widths, xl) !defa
                     font-size: $h2-font-size;
                     font-weight: $font-weight-headings;
                 }
+            }
+            .h-bc {
+                // border-top: 1px solid $nav-border;
+                // border-bottom: 1px solid $nav-border;
             }
         }
     }

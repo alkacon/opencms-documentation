@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[OpenCms online JavaDocs]]></Title>
+    <Section>
+      <Caption><![CDATA[OpenCms core API]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The main documentation for the OpenCms core API.</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Show Javadocs]]></Text>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/core/index.html]]></target>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[OpenCms Taglib Reference]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Documentation of the OpenCms &lt;cms:&gt; tag library used for JSP template development.</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Show Javadocs]]></Text>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/tld/index.html]]></target>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[OpenCms setup API]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The classes used by the OpenCms setup wizard and the upgrade wizard.</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Show Javadocs]]></Text>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/setup/index.html]]></target>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[OpenCms GWT components]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Documentation of the GWT components that make up the OpenCms page editor user interface.</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Show Javadocs]]></Text>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/gwt/index.html]]></target>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -22,6 +22,7 @@
 $body-bg:                           $white !default;
 $link-color:                        $color-oc-red !default;
 $link-hover-color:                  $color-red-light !default;
+$highlight-color:                   $grey-lighter !default;
 $headings-color:                    $text-dark !default;
 $linked-headings-color:             $link-color !default;
 $linked-headings-hover-color:       $link-hover-color !default;
@@ -50,6 +51,7 @@ $default-border-radius:             3px !default;
 
 $nav-theme:                         $color-oc-red !default;
 $nav-bg-hover:                      $grey-lighter !default;
+$nav-border:                        $grey-light !default;
 $nav-bg-active-mobile:              transparent !default;
 $nav-text-active-mobile:            $main-theme !default;
 $nav-text-hover-mobile:             $text-dark !default;
@@ -103,7 +105,7 @@ $bg-colors: (
     ("orange",         $color-oc-orange,     $color-oc-blue),
     ("blue",           $color-oc-blue,       $color-red-light),
     ("cyan",           $color-cyan,          $color-red-light),
-    ("default",        $grey-lighter,        $grey-light)
+    ("default",        $highlight-color,     $grey-light)
 ) !default;
 
 $link-colors: (

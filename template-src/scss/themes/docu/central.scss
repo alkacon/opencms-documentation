@@ -26,8 +26,11 @@
 $main-theme:                    $color-oc-blue;
 $main-theme-hover:              $color-blue-light;
 
+// $nav-header-font-size:          16px;
+
 @import "commons";
 
 $feature-use-burger-header:    false; // do NOT the burger header
 
 @import 'mercury-template/template-src/scss/imports';
+@import "mercury-customers/template-src/scss/features/section-ext";

@@ -26,11 +26,13 @@
 $main-theme:                        $color-oc-blue; // dark blue
 $main-theme-hover:                  $color-red-light; // opencms red
 
+$highlight-color:                   $color-blue-lighter !default;
+
 @import "commons";
 
 $feature-use-burger-header:         true; // use the burger header
 $full-page-max-width:               1400px !default;
-$full-page-bg:                      $grey-dark !default;
+$full-page-bg:                      #eee !default;
 
 $social-links-bg:                   $white !default;
 $ls-margin-left:                    2rem !default;
@@ -38,17 +40,20 @@ $ls-margin-left:                    2rem !default;
 $nav-mobile-toggle-side:            15px !default;
 
 $nav-head-border:                   none !default;
-$nav-breadcrumb-bg-color:           $grey-light !default;
+$nav-breadcrumb-bg-color:           $color-oc-blue;
 $nav-breadcrumb-separator:          '/' !default;
-$nav-breadcrumb-separator-font:     $font-family-base !default;
-$nav-breadcrumb-colored-padding:    0.5rem !default;
+$nav-breadcrumb-separator-font:     $font-family-base;
+$nav-breadcrumb-colored-padding:    4px !default;
 
-$fh-meta-bg-color:                  $color-oc-blue !default;
+$fh-meta-bg-color:                  $color-oc-blue;
+
+$form-border-color:                 $grey;
+$form-label-color:                  inherit;
 
 @import 'mercury-template/template-src/scss/imports';
 @import "mercury-customers/template-src/scss/features/section-ext";
 
-$full-flow-child-cols-in-split-area:    () !default;
+$full-flow-child-cols-in-split-area:    ();
 @import 'docu-grid';
 
 // hljs adjustments
@@ -74,9 +79,9 @@ code {
 }
 
 .alert-info {
-    background-color: $grey-lighter;
+    background-color: $highlight-color;
 }
 
 .alert-danger {
-    background-color: #ffe3e7;
+    background-color: $color-red-lightest;
 }
