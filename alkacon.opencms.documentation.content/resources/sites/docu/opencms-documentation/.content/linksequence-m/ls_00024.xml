@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinkSequenceData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/linksequence.xsd">
+  <LinkSequence language="en">
+    <Title><![CDATA[opencms-vfs.xml]]></Title>
+    <Text name="Text0">
+      <links>
+        <link name="link0" internal="false" type="A">
+          <target><![CDATA[https://github.com/alkacon/opencms-core/blob/branch_11_0_x/src/org/opencms/configuration/opencms-vfs.dtd]]></target>
+        </link>
+      </links>
+      <content><![CDATA[<p>The file contains settings concerned with the handling of VFS resources. For example, resource loaders can be configured here, but also widgets for the content editor can be registered.</p>
+<p>To get an overview on all available options, consult the</p>
+<ul>
+<li><a href="%(link0)">DTD for the opencms-vfs.xml</a></li>
+<li>&nbsp;</li>
+</ul>]]></content>
+    </Text>
+    <LinkEntry>
+      <Text><![CDATA[opencms-vfs.xml]]></Text>
+      <URI>
+        <link internal="false" type="WEAK">
+          <target><![CDATA[https://github.com/alkacon/opencms-core/blob/branch_11_0_x/webapp/WEB-INF/config/opencms-vfs.xml]]></target>
+        </link>
+      </URI>
+    </LinkEntry>
+  </LinkSequence>
+</LinkSequenceData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinkSequenceData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/linksequence.xsd">
+  <LinkSequence language="en">
+    <Title><![CDATA[opencms-variables.xml]]></Title>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<p>The file persists internal OpenCms information, as currently, for example, login messages set via the sessions app. It should not be edited manually.</p>]]></content>
+    </Text>
+    <LinkEntry>
+      <Text><![CDATA[opencms-variables.xml]]></Text>
+      <URI>
+        <link internal="false" type="WEAK">
+          <target><![CDATA[https://github.com/alkacon/opencms-core/blob/branch_11_0_x/webapp/WEB-INF/config/opencms-variables.xml]]></target>
+        </link>
+      </URI>
+    </LinkEntry>
+  </LinkSequence>
+</LinkSequenceData>

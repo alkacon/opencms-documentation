@@ -23,27 +23,31 @@
 
 @import "constants";
 
-$main-theme:                        $color-oc-blue; // dark blue
-$main-theme-hover:                  $color-red-light; // opencms red
+$main-theme:                        $color-oc-blue;
+$main-theme-hover:                  $color-red-light;
 
-$highlight-color:                   $color-blue-lighter !default;
+// $highlight-color:                   $color-blue-lighter;
 
 @import "commons";
 
 $feature-use-burger-header:         true; // use the burger header
-$full-page-max-width:               1400px !default;
-$full-page-bg:                      #eee !default;
 
-$social-links-bg:                   $white !default;
-$ls-margin-left:                    2rem !default;
+$default-margin:                    3.0rem;
+$line-height-base:                  1.5;
 
-$nav-mobile-toggle-side:            15px !default;
+$full-page-max-width:               1400px;
+$full-page-bg:                      $highlight-color;
 
-$nav-head-border:                   none !default;
+$social-links-bg:                   $white;
+$ls-margin-left:                    2rem;
+
+$nav-mobile-toggle-side:            15px;
+
+$nav-head-border:                   none;
 $nav-breadcrumb-bg-color:           $color-oc-blue;
-$nav-breadcrumb-separator:          '/' !default;
+$nav-breadcrumb-separator:          '/';
 $nav-breadcrumb-separator-font:     $font-family-base;
-$nav-breadcrumb-colored-padding:    4px !default;
+$nav-breadcrumb-colored-padding:    4px;
 
 $fh-meta-bg-color:                  $color-oc-blue;
 
@@ -62,26 +66,40 @@ pre code {
     overflow-x: auto;
     padding: 1em;
     tab-size: 2em;
-    border: 1px solid $text-dark;
+    border: 1px solid $form-border-color;
     background-color: $body-bg;
+    @include round-corners($default-border-radius);
+}
+
+ul, ol {
+    padding-inline-start: $default-margin;
 }
 
 code {
-    color: $black;
-    background-color: $grey-lighter;
+    color: $color-blue-light;
+    font-weight: 400;
+    hyphens: manual;
+    word-break: initial;
+    overflow-wrap: normal;
 }
 
 .alert {
     position: relative;
-    padding: $default-margin-verysmall $default-margin-small;
+    padding-top: $default-margin-small;
+    padding-bottom: $default-margin-small;
+    padding-right: $default-margin;
+    padding-left: calc($default-margin - 4px);
+    border-left: 4px solid;
     margin-bottom: $piece-text-margin;
     @include round-corners($default-border-radius);
 }
 
 .alert-info {
-    background-color: $highlight-color;
+    background-color: $color-blue-lighter;
+    border-left-color: $color-blue-light
 }
 
 .alert-danger {
     background-color: $color-red-lightest;
+    border-left-color: $color-oc-red
 }

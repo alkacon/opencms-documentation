@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[Configurations, formatters and localizations for the Alkacon OpenCms documentation.]]></description>
-		<version>13.0.22</version>
+		<version>13.0.25</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -567,6 +567,23 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[a11y-light.min]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/alkacon.opencms.documentation/resources/highlight-js/styles/color-brewer.min.css</source>
+			<destination>system/modules/alkacon.opencms.documentation/resources/highlight-js/styles/color-brewer.min.css</destination>
+			<type>plain</type>
+			<uuidstructure>485328bf-d5e1-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>485328c0-d5e1-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Tue, 17 May 2022 13:00:09 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[color-brewer.min]]></value>
 				</property>
 			</properties>
 			<relations/>
