@@ -94,6 +94,11 @@ code {
     @include round-corners($default-border-radius);
 }
 
+.box.box-pagehint {
+    padding-left: 16px;
+    border-left: 4px solid $color-oc-red;
+}
+
 .alert-info {
     background-color: $color-blue-lighter;
     border-left-color: $color-blue-light

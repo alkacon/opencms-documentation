@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The contents of the Alkacon OpenCms documentation.]]></description>
-		<version>13.0.26</version>
+		<version>13.0.27</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -7956,6 +7956,23 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>sites/docu/opencms-documentation/.content/linksequence-m/ls_00026.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/linksequence-m/ls_00026.xml</destination>
+			<type>m-linksequence</type>
+			<uuidstructure>47fa9c41-d665-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>47fa9c42-d665-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Wed, 18 May 2022 04:45:02 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Editing properties: Related links]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>sites/docu/opencms-documentation/.content/modelgroup</destination>
 			<type>folder</type>
 			<uuidstructure>fc459bc9-c9fa-11ec-a595-0242ac11002b</uuidstructure>
@@ -9772,6 +9789,193 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Writing JSPs: Typical tasks]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00099.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00099.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>29c7e64f-d665-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>29c7e650-d665-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Wed, 18 May 2022 04:44:12 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Editing properties: Editing properties]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00100.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00100.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>83378f88-d665-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>83378f89-d665-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Wed, 18 May 2022 04:46:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Editing properties:  How to open the "Edit properties" dialog]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00101.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00101.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>d78b8a85-d665-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>d78b8a86-d665-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Wed, 18 May 2022 04:49:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Editing properties: The "Edit properties" dialog]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00102.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00102.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>8f54b998-d668-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>8f54b999-d668-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Wed, 18 May 2022 05:08:31 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Writing JSPs: Writing JSPs]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00103.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00103.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>be4cce0d-d668-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>be4cce0e-d668-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Wed, 18 May 2022 05:09:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Writing JSPs: Using the EL]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00104.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00104.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>47dc4203-d669-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>47dc4204-d669-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Wed, 18 May 2022 05:13:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Writing JSPs: Using the EL 2]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00105.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00105.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>dd5c5af0-d669-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>dd5c5af1-d669-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Wed, 18 May 2022 05:17:51 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Writing JSPs: Using the <cms:>-taglib]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00106.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00106.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>a21e09eb-d6a8-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>a21e09ec-d6a8-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Wed, 18 May 2022 12:47:10 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Introduction: Improving this page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00107.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00107.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>2f9f86fe-d6ae-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>2f9f86ff-d6ae-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Wed, 18 May 2022 13:26:55 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Background: Improving this page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00108.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00108.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>cf6ca555-d6ae-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>cf6ca556-d6ae-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Wed, 18 May 2022 13:31:23 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The virtual file system: Improving this page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00109.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00109.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>1e04c55c-d6b0-11ec-b12a-0242ac11002b</uuidstructure>
+			<uuidresource>1e04c55d-d6b0-11ec-b12a-0242ac11002b</uuidresource>
+			<datecreated>Wed, 18 May 2022 13:40:44 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The concept of content: Improving this page]]></value>
 				</property>
 			</properties>
 			<relations/>

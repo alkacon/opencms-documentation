@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The "Edit properties" dialog]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/creating-a-website/ade-configuration/]]></target>
+            <uuid>cfc6289b-d1c7-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/background/the-virtual-file-system/]]></target>
+            <uuid>711b44d5-d1b9-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[resource-structure-what-are-siblings-shared-and-individual-properties]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>The "Edit properties" dialog allows you to edit properties of a resource. Depending on your permissions and the actual resource it may differ slightly. The dialog has the following tabs:</p>
+<ul>
+<li>The <em>"Basic properties"</em> tab is shown for all users that have access to the dialog. It is in particular intended for properties that should be changeable easily by content editors. Which properties are shown and how (friendly name, widget used, ...) can be configured as explained <a href="%(link0)">here</a>.</li>
+<li>The <em>"Complete properties"</em> tab shows all properties of a folder. Template developers are allowed to add further properties.</li>
+<li>The <em>"Individual&nbsp; properties"</em> and the <em>"Shared properties"</em> tabs show all individiual/shared properties of a file and template developers get an option to add properties. More information about the difference between individual and shared properties is found <a href="%(link1)">here</a>.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/PropertiesDialogIndividualPropertiesTab.png]]></target>
+            <uuid>5f8b5943-d1bb-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[PropertiesDialogIndividualPropertiesTab]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/invPropertyBigIconDeactivated.png]]></target>
+            <uuid>df835a97-c9f9-11ec-a595-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+        </links>
+        <content><![CDATA[<p>The edit properties dialog (see Figure [properties_dialog]) shows the values of properties</p>
+<ul>
+<li>in black if they are set directly on the resource for which the properties are shown in the dialog</li>
+<li>in italics and gray if the value is inherited.</li>
+</ul>
+<p>For inherited values of properties you get information on where these values are set by hovering over the little "info"-icons.</p>
+<p>Except for the "Basic Properties" tab, all properties shown are grouped into "Used Properties" and "Unused Properties". Open the "Unused Properties" group to set the value of a property that has not yet any directly set nor inherited value.</p>
+<p>The dialog also allows you to add new properties<span class="footnote">That means, properties that are not set on any other resource in the VFS</span>. To do this, click the gear wheel <img style="width: 14px;" title="invPropertyBigIconDeactivated" src="%(link0)" alt="" /> in the lower left corner of the dialog.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

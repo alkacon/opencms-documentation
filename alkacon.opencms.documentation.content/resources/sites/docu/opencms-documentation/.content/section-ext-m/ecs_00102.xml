@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Writing JSPs]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>JSPs (Java Server Pages) provide a powerful way to build web pages dynamically. They are <em>the</em> way, web pages are generated in OpenCms. In essence a JSP is a Java program that looks like HTML code and, if executed, creates a HTML page. The particular advantage of a JSP is that arbitrary Java code can be executed to produce HTML output. There are three ways to accomplish dynamic HTML creation by executing Java code:</p>
+<ul>
+<li>Special tags provided via taglibs</li>
+<li>The expression language (EL)</li>
+<li>Writing scriptlet code</li>
+</ul>
+<p>In order to keep your JSPs simple and maintainable, it is good style to avoid scriptlet code and use tags and the EL. For more details about JSPs in general, in particular the JSTL (the standard tag libraries) and the EL, please consult the very good books or tutorials around.</p>
+<p>When writing JSPs in OpenCms, you should be aware of the following:</p>
+<ul>
+<li>JSPs are managed/added via the OpenCms workplace and have the resource type “jsp”</li>
+<li>Each JSP exists in an “offline” and an “online” version</li>
+<li>JSPs can't be exported statically, but there rendered output can be cached</li>
+<li>To increase performance you might have to alter FlexCache settings</li>
+</ul>
+<p>In OpenCms JSPs are used for several purposes:</p>
+<ul>
+<li>Templates that provide for WYSIWYG editable pages</li>
+<li>Formatters for XML contents</li>
+<li>Pages with special functionality, e.g. login forms, search result pages, etc.</li>
+</ul>
+<p>To easily create JSPs for the purposes just described, OpenCms comes with a special API for JSPs that consists mainly of two parts:</p>
+<ul>
+<li>The OpenCms taglib</li>
+<li>A set of Java beans to make OpenCms functionality accessible via the EL</li>
+</ul>
+<p>This page forwards you to the relevant topics on writing JSPs in OpenCms.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

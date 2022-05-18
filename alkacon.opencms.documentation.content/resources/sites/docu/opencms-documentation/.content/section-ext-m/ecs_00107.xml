@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Improving this page]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<ul>
+<li>Do not tell the user what is NOT on this page.</li>
+<li>Remove this page completely, move the individual contents to places where they can server as reference.</li>
+<li>Link to these references on articles that explain little things "step by step".</li>
+</ul>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Show the legacy version of this page]]></Text>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[https://documentation.opencms.org/opencms-documentation/background]]></target>
+          </link>
+        </URI>
+        <NewWindow>true</NewWindow>
+      </Link>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Using the EL 2]]></Title>
+    <Section>
+      <Caption><![CDATA[Overview - Java beans for EL]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Get an overview on Java beans used in EL and their purpose. Follow direct links to the according JavaDoc of the beans.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/typical-tasks/writing-jsps/overview-java-beans-for-el/]]></target>
+            <uuid>8992d7d0-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Interesting EL expressions]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Get an overview on commonly used EL expressions.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/typical-tasks/writing-jsps/interesting-el-expressions/]]></target>
+            <uuid>96f20003-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Value wrappers]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Transform element settings, content values or any other object to the type you really need by calling just one method.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/typical-tasks/writing-jsps/value-wrappers/]]></target>
+            <uuid>b2a44d5e-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Image handling]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Use the image bean in your JSP: Easily link to scaled/transformed image versions and deal with source sets.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/typical-tasks/writing-jsps/image-handling/]]></target>
+            <uuid>bc83ebc1-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Demos]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Have a look at the demos where formatters or function providers are included. You will find a lot of examples on using the EL.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/demos/]]></target>
+            <uuid>d69efd33-d1cc-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[JavaDoc for the CmsJspStandardContextBean]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>An object of the CmsJspStandardContextBean is available in each JSP via the variable cms. In most cases (except access to contents, where special beans are exposed via tags) it is the starting point to access OpenCms functionality in a JSP.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspStandardContextBean.html]]></target>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>
