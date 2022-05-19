@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Tags exposed by the OpenCms taglib]]></Title>
+    <Section>
+      <Caption><![CDATA[cms:bundle]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Loads a resource bundle to be used by its tag body. The tag is similar to <code>&lt;fmt:bundle&gt;</code>, but able to handle OpenCms XML-bundles.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:container]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Enables the template mechanism for container pages.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:contentaccess]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Provides access to the content for the JSP EL.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:contentcheck]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Provides conditional logic for checking the element of a XML content.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:contentinfo]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Provides access to the result set of a contentload.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:contentload]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Loads XML content items from the OpenCms VFS.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:contentloop]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Allows looping through XML content node element values.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:contentshow]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Provides access to individual XML content node element values.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:decorate]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Provides decoration of HTML content.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:device]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Provides different HTML output for various device types.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:editable]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Enables direct editing within a template.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:elementsetting]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Provides access to the settings of an ADE container element.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:enable-ade]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Enables advanced direct editing within a template.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:export]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Writes JSP code from a JSP to files in the static export.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:formatter]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Loads single XML content items for ADE formatters.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:headincludes]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Includes required CSS or Javascript resources, placed in html/head.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:img]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Supports image scaling using the OpenCms native image scaling mechanism.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:include]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Includes other JSP elements dynamically at runtime.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:info]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Enables access to some system information like OpenCms version etc.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:jquery]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Allows inclusion of jQuery, some jQuery plugins code and stylesheets.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:label]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Reads localized values from resource bundles (Java property files like <code>workplace.properties</code>) that hold user messages.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:link]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Builds a valid OpenCms URL for a given resource.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:navigation]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Provides access to the navigation information.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:nocache]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Sends no-cache headers to the browser.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:param]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Adds a parameter to the outer tag (if supported).</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:parse]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Decorates HTML with custom <code>A_CmsConfiguredHtmlParser</code> implementations given in the <code>parserClass</code> attribute.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:pdf]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>This tag is used to generate a link to a PDF generated from XML content given the path of the XML content.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:pdfthumbnail]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>This tag is used to generate a link to a thumbnail for a PDF.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:property]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Enables read access to the current VFS file's properties.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:resourceaccess]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Provides access to the resources for the JSP EL.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:resourceload]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Loads resources from the OpenCms VFS.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:secureparams]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Enables automatic parameter escaping for the current flex request.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:template]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Splits a JSP page into elements to be included by the <code>&lt;cms:include&gt;</code>-tag.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:user]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Enables access to the properties of the currently logged in user.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cms:usertracking]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Performs user tracking actions like visit resources or subscribe/unsubscribe.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

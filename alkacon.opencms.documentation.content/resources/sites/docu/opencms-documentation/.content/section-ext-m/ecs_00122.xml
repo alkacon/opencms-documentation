@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[List of useful properties for formatting elements]]></Title>
+    <Section>
+      <Caption><![CDATA[edited]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns <code>true</code> if the element was re-rendered without reloading the whole page, e.g., after editing the element’s content or moving the element on the page. This state might lead to limited functionality of javascript. Therefore, you might display just a “please reload” message.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[enableReload]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Placing <code>${cms.enableReload}</code> somewhere in your formatter will result in an automatically page reload when content is edited (or moved to a different container).</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[element]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns the currently rendered element.<br />Return type: <code>org.opencms.xml.containerpage.CmsContainerElementBean</code></p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[container]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns the container the currently rendered element is part of.<br />Return type: <code>org.opencms.xml.containerpage.CmsContainerBean</code></p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[detailContent]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[sec_resource_bean]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Returns the current detail content, or null if no detail content is requested.<br />Return type: <code>org.opencms.file.CmsResource</code> (see <a href="%(link0)">here</a>)</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[detailPageAvailable]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns <code>true</code> if a detail page is available for the current element.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[detailRequest]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns <code>true</code> if this is a request to a detail page.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

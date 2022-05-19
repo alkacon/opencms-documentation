@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[ Useful properties to explore resources in the VFS ]]></Title>
+    <Code><![CDATA[<%@page taglibs="c" %>
+
+<c:set var="uri" value="${cms.requestContext.uri}" />
+
+<p> The "NavText" property value of the current URI (file
+    ${cms.vfs.resource[uri].name}) is 
+    "${cms.vfs.property[uri]['NavText']}".
+</p>
+<p> The Text value of a selected Jumbotron XML content is
+    "${cms.vfs.xml['/demo/.content/jumbotrons/jt_00001.xml'].value.Text}".
+</p>]]></Code>
+  </Flexible>
+</FlexibleData>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Useful properties]]></Title>
+    <Section>
+      <Caption><![CDATA[name]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns the name of the project.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[description]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns the description of the project.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[dateCreated]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns the creation date of the project.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[uuid]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns the id of the project.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

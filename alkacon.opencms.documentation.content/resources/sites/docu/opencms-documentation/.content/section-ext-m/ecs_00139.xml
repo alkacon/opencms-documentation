@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Useful properties ]]></Title>
+    <Section>
+      <Caption><![CDATA[guestUser]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns <code>true</code> if the user is not logged in.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[fullName]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns “firstname lastname (username)”.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[firstname]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns the firstname of the user.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[lastname]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns the lastname of the user.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[email]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns the email of the user.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[address]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns the address of the user.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[institution]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns the institution information of the user.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

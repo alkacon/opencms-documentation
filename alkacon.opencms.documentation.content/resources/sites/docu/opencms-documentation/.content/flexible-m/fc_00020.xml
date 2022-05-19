@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[The benefit of value wrappers by example]]></Title>
+    <Code><![CDATA[<%-- Import taglibs etc. --%>
+
+<cms:formatter var="content">
+<div>
+  <%-- some HTML --%>
+
+  <%-- conditionally output an image --%>
+  <c:if test="${cms.element.settings.showImage eq 'true'}">
+    <img src="<cms:link>${content.value.Image}</cms:link>" width="400" />
+  </c:if>
+
+  <%-- some more HTML --%>
+</div>
+</cms:formatter>]]></Code>
+  </Flexible>
+</FlexibleData>

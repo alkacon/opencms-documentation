@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Provider and availability]]></Title>
+    <Section>
+      <Caption><![CDATA[Provider class]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p><code>org.opencms.file.CmsUser</code></p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Access via]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p><code>cms.requestContext.currentUser</code></p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Availability]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>In each JSP, initialized according to the current request.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

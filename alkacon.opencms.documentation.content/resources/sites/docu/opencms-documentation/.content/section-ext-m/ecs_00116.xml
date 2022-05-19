@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Properties useful in a template]]></Title>
+    <Section>
+      <Caption><![CDATA[title]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Get the title property of the currently requested page. Note, that the property has a special behavior for detail pages: Instead of using the title property of the displayed page, the title property of the resource providing the detail content is chosen.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[isOnlineProject]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns <code>true</code> if the request is performed in the “online” project. Otherwise returns <code>false</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[isEditMode]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns <code>true</code> if edit mode is enabled. Otherwise returns <code>false</code>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

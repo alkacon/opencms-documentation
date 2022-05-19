@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[List of properties useful in a template]]></Title>
+    <Code><![CDATA[<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<html>
+ <head>
+  <title><c:out value="${cms.title}"/></title>
+  <meta charset="${cms.requestContext.encoding}">
+  <!-- meta info etc. -->
+  <cms:enable-ade/>
+  <c:choice>
+   <c:when test="${cms.isOnlineProject}">
+    <cms:headincludes type="javascript" 
+                      defaults="%(link.weak:/.../jquery-1.10.2.min.js)" />
+   </c:when>
+   <c:otherwise>
+    <cms:headincludes type="javascript" 
+                      defaults="%(link.weak:/.../jquery-1.10.2.js)" />
+   </c:otherwise>
+  </c:choice>
+ </head>
+ <body>
+  <c:if test="${cms.isEditMode}">
+   <!--=== Placeholder for OpenCms toolbar ===-->
+   <div style="background: lightgray; height: 35px">&nbsp;</div>
+  </c:if>
+  <!-- Further code for creating the template -->
+ </body>
+</html>]]></Code>
+  </Flexible>
+</FlexibleData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Image handling]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>OpenCms supports image scaling on demand, i.e., editors upload one (big) image, but the server delivers scaled versions of the image to the client. The images are scaled when the image is requested for the first time. How images should be scaled can be selected by the editor and by the template developer, when scaling the image in the JSP.</p>
+<p>This topic explains how to use scaling in JSPs. A special focus is on the case of providing source sets of images is discussed.</p>
+<div class="alert alert-info">We use the <strong>image bean</strong> for scaling images, introduced in OpenCms 11, which is far more flexible and powerful than the <code>&lt;cms:img&gt;</code> tag used before.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Value wrappers]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Writing a formatter you access content values, properties and element settings. The values of element settings and properties are by default available as String, the values of content elements as CmsJspContentValueAccessWrapper. But you might know that you deal with a more specific kind of value, e.g., a link to a VFS resource, an image, a boolean value, ....</p>
+<p>Since OpenCms 11, you can directly transform the properties, element settings and content values into the thing they really are. This is handled by so called value wrappers and the topic explains how to use them.</p>
+<p>More over, for resources a specific wrapper is provided and returned by EL expressions. It let's you get the correct link, check the type of the resource, and many more things the plain resource object would not support.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Useful properties for localization]]></Title>
+    <Section>
+      <Caption><![CDATA[locale]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns the locale that is specific for the request context. The same locale is returned by <code>cms.requestContext.locale</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[workplaceLocale]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns the locale configured in the workplace of the current user.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

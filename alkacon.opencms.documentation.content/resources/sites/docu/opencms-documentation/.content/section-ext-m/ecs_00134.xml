@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Useful properties to explore resources in the VFS]]></Title>
+    <Section>
+      <Caption><![CDATA[exists]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns true if a resource, whose URI is given as key, exists.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[existsXML]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns <code>true</code> if a resource, whose URI is given as key, exists and is an XML content or XML page.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[property]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Given an URI as key, a lazy map with property names as keys and their values as values is returned.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[propertySearch]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Like <code>property</code>, but the returned map also contains inherited values for properties.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

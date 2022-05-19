@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Useful properties]]></Title>
+    <Section>
+      <Caption><![CDATA[dateCreated]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns the date of the creation of this resource.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[dateReleased]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns the release date of this resource.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[dateExpired]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns the expiration date of this resource.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[dateLastModified]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns the date of the last modification of this resource.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[dateContent]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns the date of the last modification of the content of this resource.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[name]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns the file name of this resource without parent folders, for example “index.html”.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

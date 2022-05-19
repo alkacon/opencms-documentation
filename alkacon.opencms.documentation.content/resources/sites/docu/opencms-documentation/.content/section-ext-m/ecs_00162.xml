@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Overview on the available value wrappers]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/A_CmsJspValueWrapper.html]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspObjectValueWrapper.html]]></target>
+          </link>
+          <link name="link2" internal="false" type="A">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspContentAccessValueWrapper.html]]></target>
+          </link>
+          <link name="link3" internal="false" type="A">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspElementSettingValueWrapper.html]]></target>
+          </link>
+          <link name="link4" internal="false" type="A">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/jsp/CmsJspResourceWrapper.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>To get a complete overview on the transformation methods of value wrappers lookup the JavaDoc for</p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li><a href="%(link0)">A_CmsJspValueWrapper</a> - the base class of all wrappers except the CmsJspResourceWrapper.</li>
+<li><a href="%(link1)">CmsJspObjectValueWrapper</a> - the wrapper returned by <code>${cms.wrap[{object to wrap}]}</code>where <code>{object to wrap}</code> is the object you want to wrap, e.g., you could write <code>${cms.wrap[param.pagesize].toLong}</code> to wrap the <code>String</code> value of the parameter pagesize and the convert it to a <code>Long</code>.<br />The expression ${cms.wrap[{object to wrap}]} will always return a CmsJspObjectValueWrapper unless fed with an object that already has one of the other wrapper types (then it will return the object unchanged), or if it is of type CmsResource (then it will return an object of type CmsJspResourceWrapper.</li>
+<li><a href="%(link2)">CmsJspContentAccessValueWrapper</a> - the wrapper for values of XML contents, e.g., by <code>${content.value.{my value}}</code> in a formatter where <code>{my value}</code> is the name of the schema element you want to get the value from.</li>
+<li><a href="%(link3)">CmsJspElementSettingValueWrapper</a> - the wrapper returned by <code>${cms.element.setting.{setting name}</code> where <code>{setting name}</code> is the name of your specific setting.</li>
+<li><a href="%(link4)">CmsJspResourceWrapper</a> - the wrapper for resources. It is a context-aware extension of CmsResource and provides additional methods, e.g., to get the site path or the link URL directly, check if the resource is an image ....</li>
+</ul>
+</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>
