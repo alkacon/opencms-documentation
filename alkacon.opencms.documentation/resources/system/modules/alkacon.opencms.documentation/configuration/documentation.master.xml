@@ -96,11 +96,14 @@
       <Value><![CDATA[true]]></Value>
     </Attribute>
     <Attribute>
+      <Key><![CDATA[template.editor.css]]></Key>
+      <Value><![CDATA[/system/modules/alkacon.opencms.documentation/resources/css/editor.min.css]]></Value>
+    </Attribute>
+    <Attribute>
       <Key><![CDATA[editorConfigFull]]></Key>
-      <Value><![CDATA[height:800px,
-      link,anchor,downloadgallery,specialchar,emotions,source,
-      hidebuttons:underline;strikethrough;alignleft;alignright;aligncenter;justify;indent;outdend;blockquote;hr;print,style,
-      stylesformat:/system/modules/alkacon.opencms.documentation/resources/tinymce/styles.json]]></Value>
+      <Value><![CDATA[height:800px,link,anchor,downloadgallery,specialchar,emotions,source,
+hidebuttons:underline;strikethrough;alignleft;alignright;aligncenter;justify;indent;outdend;blockquote;hr;print,style,
+stylesformat:/system/modules/alkacon.opencms.documentation/resources/tinymce/styles.json]]></Value>
     </Attribute>
     <Attribute>
       <Key><![CDATA[cssWrapperWidget]]></Key>

@@ -1,0 +1,71 @@
+/**
+ * This program is part of the OpenCms Mercury Template.
+ *
+ * Copyright (c) Alkacon Software GmbH & Co. KG (http://www.alkacon.com)
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/**********
+ * Theme file: _formats.scss
+ */
+
+// hljs adjustments
+pre code {
+    display: block;
+    overflow-x: auto;
+    padding: 1em;
+    tab-size: 2em;
+    border: 1px solid $form-border-color;
+    background-color: $body-bg;
+    @include round-corners($default-border-radius);
+}
+
+ul, ol {
+    padding-inline-start: $default-margin;
+}
+
+code {
+    color: $color-blue-light;
+    font-weight: 400;
+    hyphens: manual;
+    word-break: initial;
+    overflow-wrap: normal;
+}
+
+.alert {
+    position: relative;
+    padding-top: $default-margin-small;
+    padding-bottom: $default-margin-small;
+    padding-right: $default-margin;
+    padding-left: calc($default-margin - 4px);
+    border-left: 4px solid;
+    margin-bottom: $piece-text-margin;
+    @include round-corners($default-border-radius);
+}
+
+.box.box-pagehint {
+    padding-left: 16px;
+    border-left: 4px solid $color-oc-red;
+}
+
+.alert-info {
+    background-color: $color-blue-lighter;
+    border-left-color: $color-blue-light
+}
+
+.alert-danger {
+    background-color: $color-red-lightest;
+    border-left-color: $color-oc-red
+}
