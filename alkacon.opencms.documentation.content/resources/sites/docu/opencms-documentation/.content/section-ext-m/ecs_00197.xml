@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Preferences]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/administration/user-management/user-preferences/]]></target>
+            <uuid>c90ae24f-d1cc-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Here you can adjust several OpenCms settings according to your needs. Usually it is sufficient to adjust settings in the "Basic preferences" tab and to use the "Account" tab to change your password.</p>
+<p>The "Extended preferences" allow many more configurations - but most of them you may not need.&nbsp;<a href="%(link0)">Here</a> you can get more information on how to configure the available preferences.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/UserPreferencesDialogBasicPreferences.png]]></target>
+            <uuid>dfda5516-c9f9-11ec-a595-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[UserPreferencesDialogBasicPreferences]]></Title>
+      </Image>
+    </Section>
+    <GalleryTitle><![CDATA[%(page_title)%(no_prefix:: )%(value:Title)]]></GalleryTitle>
+  </ExtendedSection>
+</ExtendedSectionData>

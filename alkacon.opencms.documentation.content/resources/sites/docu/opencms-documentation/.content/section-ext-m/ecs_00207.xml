@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Core development configuration]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Once you have got the OpenCms source and have it present in a Gradle project, you can configure:</p>
+<ul>
+<li>the path where builds are placed: Therefore edit <code>gradle.properties</code> in the project's main folder and edit the <code>entry build_directory</code>.</li>
+</ul>
+<p>Once configuration is done, you can build your project with Gradle. Therefore:</p>
+<ul>
+<li>Choose "Run as" -&gt; "External tools configurations ..."</li>
+<li>Choose "Gradle Build" -&gt; "{project name}"</li>
+<li>Choose appropriate targets</li>
+<li>Click "Run"</li>
+</ul>
+<p>You will have a lot of targets to choose from for building OpenCms. Here are the interesting ones.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

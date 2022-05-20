@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[MVN dependencies]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://mvnrepository.com/]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>Note that the core does not provide all modules usually provided by OpenCms. If you require further dependencies, search for them at the&nbsp;<a href="%(link0)" target="_blank" rel="noopener">MVNrepository</a> and copy the dependency string into your <code>gradle.build</code> file.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

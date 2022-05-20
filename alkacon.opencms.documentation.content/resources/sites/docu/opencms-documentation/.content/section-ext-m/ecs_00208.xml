@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Interesting build targets]]></Title>
+    <Section>
+      <Caption><![CDATA[bindist]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The target builds the <code>.zip</code>-archive as it is downloaded when getting the OpenCms release for installation.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[updater]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The target builds the OpenCms updater.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[war]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The target builds the <code>opencms.war</code> file as deployed to the servlet container.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[dist_{module name}]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The target builds the <code>.zip</code> file for the respective module, as you use it for module import.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[jar_{module name}]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The target builds the Java library (<code>.jar</code>) for the specified module.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[clean]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The target removes all build results, i.e., cleans up.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

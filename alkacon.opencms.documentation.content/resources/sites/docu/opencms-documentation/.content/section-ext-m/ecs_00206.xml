@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Scenario: Working at the OpenCms core]]></Title>
+    <Section>
+      <Caption><![CDATA[Get the source for a release]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/opencms-core/releases]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>To get the latest release, go to</p>
+<ul>
+<li><a href="%(link0)">https://github.com/alkacon/opencms-core/releases</a></li>
+</ul>
+<p>and choose the release you want to manipulate. Then:</p>
+<ul>
+<li>Download the source code</li>
+<li>Extract the source code archive to the Eclipse workspace</li>
+<li>Open Eclipse and add a new Java project where you use the name of the downloaded release as the project name</li>
+<li>Right-click on the project and select "Configure" -&gt; "Convert to Gradle"</li>
+<li>Refresh Gradle dependencies (dependency errors may remain, but are unproblematic)</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Get the latest source ]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>To check out the latest OpenCms version from GitHub via Eclipse, open Eclipse and:</p>
+<ul>
+<li>Choose "File" -&gt; "Import ..." -&gt; "Git" -&gt; "Projects from Git"</li>
+<li>Click "Next" and select "Clone URI"</li>
+<li>Set "https://github.com/alkacon/opencms-core.git" as the URI and click "Next"</li>
+<li>Select a branch and click "Next"</li>
+<li>Select "Use the New Project wizard"</li>
+<li>Uncheck "Use default location" and enter the repository's path as the location</li>
+<li>Click "Finish"</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

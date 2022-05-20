@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Creating a project for your extensions ]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>We recommend you create a Gradle project. This is done choosing "File" -&gt; "New" -&gt; "Project" -&gt; "Gradle project". Doing so, you'll get the following dialog:</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/NewGradleProject.png]]></target>
+            <uuid>09ce3244-d83f-11ec-8fb9-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Dialog for creating a new Gradle project]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>When the project is created, adjust it as follows:</p>
+<ul>
+<li>Delete the folders in the build path</li>
+<li>Add folder <code>src/</code> to the build path</li>
+<li>Replace the content of build.gradle by (a variation of) the code shown below.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

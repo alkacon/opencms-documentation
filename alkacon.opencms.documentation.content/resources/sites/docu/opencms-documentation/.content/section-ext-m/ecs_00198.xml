@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Scenario: Adding your own Java code to your modules]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://www.opencms.org/en/development/documentation.html]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[http://www.eclipse.org]]></target>
+          </link>
+          <link name="link2" internal="false" type="A">
+            <target><![CDATA[http://www.gradle.org]]></target>
+          </link>
+          <link name="link3" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/extending-opencms/development-setups/installing-eclipse-and-gradle/]]></target>
+            <uuid>e69eaeda-d1ce-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Your Java code will typically use the <a href="%(link0)">OpenCms Java API</a>. For development, we recommend the&nbsp;<a href="%(link1)">Eclipse IDE</a> with&nbsp;<a href="%(link2)">Gradle</a> for build automation. If configured correctly, gradle will automatically handle all dependencies of your code to the OpenCms core.</p>
+<p>In the remainder of the section, we describe how to set up your own Eclipse project.</p>
+<p class="alert alert-info">We assume you already have installed Eclipse and Gradle as described <a href="%(link3)">here</a>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

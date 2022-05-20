@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Launchpad and other apps]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Besides the page, sitemap and content editors, OpenCms provides more apps for various different development and administration tasks. Users with according roles get access to the launchpad, which is the central place to switch between apps.</p>
+<p>A very important app is the explorer, which allows to access the whole VFS.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Launchpad]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>OpenCms provides much more apps than page and <a style="color: inherit;" tabindex="0" role="button" data-container="body" data-toggle="popover" data-placement="bottom" data-content="&lt;p&gt;The sitemap editor is an (ADE) view. It is used to browse the sitemap, add, move, remove pages or edit a page's properties. Several sub-views also allow editing model pages and galleries.&nbsp;&lt;a href=&quot;/opencms-documentation/the-opencms-workplace/editors/the-sitemap-editor/&quot;&gt;Here&lt;/a&gt; is an overview of the sitemap editor.&lt;/p&gt;" data-trigger="focus"><abbr title="Click to see description">sitemap editor</abbr></a>. The launchpad is the central place to navigate between apps.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/launchpad/]]></target>
+            <uuid>6bf9fb4c-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Explorer]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The <a style="color: inherit;" tabindex="0" role="button" data-container="body" data-toggle="popover" data-placement="bottom" data-content="&lt;p&gt;The explorer app allows you to browse the VFS as you can do in a normal explorer. See&nbsp;&lt;a href=&quot;/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/explorer/&quot;&gt;here&lt;/a&gt; for more details.&lt;/p&gt;" data-trigger="focus"><abbr title="Click to see description">explorer view</abbr></a> allows you to access and manipulate resources in the <a style="color: inherit;" tabindex="0" role="button" data-container="body" data-toggle="popover" data-placement="bottom" data-content="&lt;p&gt;OpenCms stores all resources in a database. The part of the database structure resembles a virtual file system, VFS. This system is visible via the explorer view, or it can be mounted. The VFS exists in two versions: online and offline. The VFS is not part of the server's real file system (RFS). So you'll find only exported resources in the RFS on your server. More information about the VFS can be found &lt;a href=&quot;/opencms-documentation/background/the-virtual-file-system/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;" data-trigger="focus"><abbr title="Click to see description">VFS</abbr></a>, in much the same way as you are used to when browsing other file systems. Learn about the non-standard resource manipulation and access options the <a style="color: inherit;" tabindex="0" role="button" data-container="body" data-toggle="popover" data-placement="bottom" data-content="&lt;p&gt;The explorer app allows you to browse the VFS as you can do in a normal explorer. See&nbsp;&lt;a href=&quot;/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/explorer/&quot;&gt;here&lt;/a&gt; for more details.&lt;/p&gt;" data-trigger="focus"><abbr title="Click to see description">explorer view</abbr></a> provides.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/explorer/]]></target>
+            <uuid>71c1c77d-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

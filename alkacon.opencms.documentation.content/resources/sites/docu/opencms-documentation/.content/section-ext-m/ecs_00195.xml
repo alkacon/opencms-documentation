@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Options]]></Title>
+    <Section>
+      <Caption><![CDATA[Upload user image]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Upload a personal image that is shown for the user in the toolbar</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Change password]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Change the password for the current user.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Preferences]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Opens a dialog to edit the user's preferences, e.g., workplace language, startup folder and more.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/common-toolbar-options/]]></target>
+            <uuid>d955b2fe-d1c4-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[preferences]]></anchor>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Edit user]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Edit the user information</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Logout]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Logout the user.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

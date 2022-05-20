@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[OpenCms Development Gradle config]]></Title>
+    <Code><![CDATA[apply plugin: 'java'
+
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets{
+    main {
+        java.srcDir 'src'
+        resources.srcDir 'src'
+    }
+}
+
+dependencies {
+    compile group: 'org.opencms', name: 'opencms-core', version: '9.0.1'
+}
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'OpenCms module', 'Implementation-Version': version
+    }
+}]]></Code>
+  </Flexible>
+</FlexibleData>
