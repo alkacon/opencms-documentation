@@ -7,28 +7,28 @@
       <Caption><![CDATA[cache-enabled]]></Caption>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>Enables or disables the FlexCache. If you disable the FlexCache, you do not need to bother about the settings of the other Flex cache values.<br />The following values are possible:<br /><code>true</code> (default): The FlexCache is enabled.<br /><code>false</code>: The FlexCache is disabled.</p>]]></content>
+        <content><![CDATA[<p>Enables or disables the Flex cache. If you disable the Flex cache, you do not need to bother about the settings of the other Flex cache values.<br />The following values are possible:<br /><code>true</code> (default): The Flex cache is enabled.<br /><code>false</code>: The Flex cache is disabled.</p>]]></content>
       </Text>
     </Section>
     <Section>
       <Caption><![CDATA[cache-offline]]></Caption>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>In a development environment, we recommend to set the value of the <code>cache-offline</code> node to <code>true</code> so that you can test out the caching behaviour of the application without publishing. In a production environment you should set <code>cache-offline</code> node to <code>false</code>. The following values are supported:<br /><code>true</code>: The FlexCache for offline projects is enabled.<br /><code>false</code> (default): The FlexCache for offline projects is disabled.</p>]]></content>
+        <content><![CDATA[<p>In a development environment, we recommend to set the value of the <code>cache-offline</code> node to <code>true</code> so that you can test out the caching behaviour of the application without publishing. In a production environment you should set <code>cache-offline</code> node to <code>false</code>. The following values are supported:<br /><code>true</code>: The Flex cache for offline projects is enabled.<br /><code>false</code> (default): The Flex cache for offline projects is disabled.</p>]]></content>
       </Text>
     </Section>
     <Section>
       <Caption><![CDATA[maxcachebytes]]></Caption>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>The maximum amount of server memory used by the FlexCache in bytes. The amount of available server memory is the critical factor here and has to be considered carefully.</p>]]></content>
+        <content><![CDATA[<p>The maximum amount of server memory used by the Flex cache in bytes. The amount of available server memory is the critical factor here and has to be considered carefully.</p>]]></content>
       </Text>
     </Section>
     <Section>
       <Caption><![CDATA[avgcachebytes]]></Caption>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>The average amount of server memory used by the FlexCache in bytes.</p>]]></content>
+        <content><![CDATA[<p>The average amount of server memory used by the Flex cache in bytes.</p>]]></content>
       </Text>
     </Section>
     <Section>
@@ -42,7 +42,7 @@
       <Caption><![CDATA[maxkeys]]></Caption>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>The maximum number of cached page variations in the FlexCache.</p>]]></content>
+        <content><![CDATA[<p>The maximum number of cached page variations in the Flex cache.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

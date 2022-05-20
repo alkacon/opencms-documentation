@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Interesting methods of the bean]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspImageBean.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>The image bean has many options to adjust the scaling parameters for an image. Furthermore, it provides methods to easily output links in the <code>src</code> and <code>srcset</code> attribute of the <code>&lt;img&gt;</code> tag. Below, we introduce only the most interesting methods. Have a look at the <a href="%(link0)">JavaDoc</a> for more methods.</p>
+<div class="alert alert-info">We always talk about images in combination with the<code> &lt;img&gt;</code> HTML tag, but of course the bean is equivalently useful in combination with the HTML tag <code>&lt;picture&gt;</code>.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -11,8 +11,8 @@
 <li>If there are <strong>path information</strong> in the cache directives, the JSP output is cached in <strong>all buckets the path belongs to</strong> (i.e., buckets where the path itself or a root folder is configured for).</li>
 <li>If there is <strong>no path information</strong> in the cache directive, the JSP output is <strong>added to no bucket</strong> at all.</li>
 </ul>
-<p>Path information is contained in multiple flex cache directives, e.g., <code>uri</code> or <code>container-element</code>. But there are also directives that contain no path information, e.g. <code>always</code>. For such, the flex cache entries are added to no bucket at all and thus they are removed from the cache on each publish event.</p>
-<div class="alert alert-danger">You should keep in mind that the cache directives do not necessarily tell the dependencies of the JSPs output. Hence, be careful when using the flex cache buckets. Even if the assumptions made are kind of conservative, you should know your JSPs when configuring the buckets.</div>]]></content>
+<p>Path information is contained in multiple flex cache directives, e.g., <code>uri</code> or <code>container-element</code>. But there are also directives that contain no path information, e.g. <code>always</code>. For such, the Flex cache entries are added to no bucket at all and thus they are removed from the cache on each publish event.</p>
+<div class="alert alert-danger">You should keep in mind that the cache directives do not necessarily tell the dependencies of the JSPs output. Hence, be careful when using the Flex cache buckets. Even if the assumptions made are kind of conservative, you should know your JSPs when configuring the buckets.</div>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

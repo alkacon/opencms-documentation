@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Accessing meta information of the wrapped image (incomplete)]]></Title>
+    <Section>
+      <Caption><![CDATA[ib.height]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns the original height of the (possibly scaled) image.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[ib.width]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns the original width of the (possibly scaled) image.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[ib.scaled]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns a flag, indicating if the image is scaled.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[ib.image]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns a flag, indicating if an image is wrapped at all. If this is false, the bean has not been initialized correctly.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

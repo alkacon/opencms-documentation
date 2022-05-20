@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[How to publish something]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/publishBigIconActive.svg]]></target>
+            <uuid>df8ef377-c9f9-11ec-a595-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/the-opencms-workplace/editors/]]></target>
+            <uuid>e3d33f11-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/the-opencms-workplace/launchpad-and-other-apps/explorer/]]></target>
+            <uuid>71c1c77d-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link3" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/the-opencms-workplace/launchpad-and-other-apps/explorer/]]></target>
+            <uuid>71c1c77d-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link4" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[scheduled_publishing]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>The workplace toolbar provides the <img style="width: 14px;" title="publishBigIconActive" src="%(link0)" alt="" /> symbol in some apps, in particular for all <a href="%(link1)">editors</a> and the <a href="%(link2)">explorer</a>. When you click the icon, the publish dialog appears. Here you can choose which resources you want to publish. In the <a href="%(link3)">explorer</a>, the dialog can also be opened from the "Publish directly" option in the context menu of each resource.</p>
+<div class="alert alert-info">What you should note is, pressing the publish icon when editing content (via inline or form-based editor) will automatically result in storing the content - whether you cancel publishing or not.</div>
+<p>In addition to a direct publish,&nbsp;<a href="%(link4)">scheduled publishing</a> is also available.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

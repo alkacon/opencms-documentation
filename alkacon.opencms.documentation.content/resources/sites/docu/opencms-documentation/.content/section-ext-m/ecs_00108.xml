@@ -2,28 +2,12 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Improving this page]]></Title>
+    <Title><![CDATA[Glossary]]></Title>
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<ul>
-<li>Do not write headlines as questions like "What are permissions".<br />
-<ul>
-<li>Instead use headlines like "Permissions explained".</li>
-</ul>
-</li>
-<li>Introduce projects after properties&nbsp;</li>
-</ul>]]></content>
+        <content><![CDATA[<p>In the documentation we use special terminology and abbreviations. Here you can find an overview of commonly used terms.</p>]]></content>
       </Text>
-      <Link>
-        <Text><![CDATA[Show the legacy version of this page]]></Text>
-        <URI>
-          <link internal="false" type="WEAK">
-            <target><![CDATA[https://documentation.opencms.org/opencms-documentation/background/the-virtual-file-system/]]></target>
-          </link>
-        </URI>
-        <NewWindow>true</NewWindow>
-      </Link>
     </Section>
   </ExtendedSection>
 </ExtendedSectionData>

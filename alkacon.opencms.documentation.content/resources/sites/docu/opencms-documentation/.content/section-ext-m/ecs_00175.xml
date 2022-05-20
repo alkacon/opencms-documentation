@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Methods for rendering the image urls and extra information (incomplete)]]></Title>
+    <Section>
+      <Caption><![CDATA[ib.srcUrl]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns the link to the image as to put it in the <code>src</code> attribute of the <code>&lt;img&gt;</code> tag. Identically to <code>${ib}</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[ib.imgSrc]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns the attributes for the &lt;img&gt; tag specific for the wrapped image, i.e., the string <code>src="{image url}" width="{real width of the (scaled) image}" height="{real height of the (scaled) image}"</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[ib.srcSetEntry]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The correct source set entry for the currently wrapped image as string, i.e., "{image url} {image width}w".</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[ib.srcSet]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The source set wrapped by the image bean as string in the format required by the&nbsp;<code>srcset</code>&nbsp;attribute of the&nbsp;<code>&lt;img&gt;</code>&nbsp;tag.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

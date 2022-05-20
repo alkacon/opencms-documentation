@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The image bean]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/typical-tasks/writing-jsps/value-wrappers/]]></target>
+            <uuid>b2a44d5e-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Since version 11, OpenCms supports multiple <a href="%(link0)">value wrappers</a>. If you know, your content's value holds the link to an image, you can call <code>toImage</code> and get a <code>CmsJspImageBean</code>. It provides a whole bunch of methods to scale your image and to output links for the various scaled version.</p>
+<div class="alert alert-info alert-danger">Note that scaling/cropping is not supported for SVG images.</div>
+<p>Here's a short overview on the bean, how to get it in a JSP and where you find the JavaDoc. Below you, we introduce some interesting methods.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

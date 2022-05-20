@@ -6,7 +6,7 @@
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>When a publish event occurs, the flex cache entries are flushed depending on the buckets they belong to. In particular, an entry is deleted if:</p>
+        <content><![CDATA[<p>When a publish event occurs, the Flex cache entries are flushed depending on the buckets they belong to. In particular, an entry is deleted if:</p>
 <ul>
 <li>a resource is published that is in one of the configured root paths of a bucket assigned to the entry.</li>
 <li>a resource under one of the VFS root paths configured as <code>clearAll</code> is published.</li>

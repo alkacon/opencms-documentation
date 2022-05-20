@@ -2,14 +2,11 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Improving this page]]></Title>
+    <Title><![CDATA[Getting the URLs into the HTML code]]></Title>
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>Wording issue:</p>
-<ul>
-<li>Should "flex cache" be written in capital letters, ie ."Flex Cache" as we use it as a name?</li>
-</ul>]]></content>
+        <content><![CDATA[<p>In general, all you would need is to get the URL to the scaled image, but the bean provides some more convenience methods.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Selection options]]></Title>
+    <Section>
+      <Caption><![CDATA[This page]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>This option is available when you open the publish dialog from the page editor or in a content editor. The dialog shows the changed resources that are placed on the currently requested page (URL) - or placed in a container on the container page available at this URI</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[My changes]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Shows all changes done by the logged-in user. Changes are grouped in sessions, as shown in the publish dialog.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Project]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Shows all changed resources belonging to the selected project.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Direct publish]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>This option is only available if you click on "Publish directly" in a resource's context menu in the workplace's explorer view. If chosen, all resources published with the resource you want to publish directly are shown.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

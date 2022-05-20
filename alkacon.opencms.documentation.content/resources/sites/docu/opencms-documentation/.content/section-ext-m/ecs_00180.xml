@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Selection options 2]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The <em>Workflow selector</em> is only enabled if the workflow option is enabled. If so, you can choose between publishing or releasing changes. Release does not mean publish. It means that the changes are placed in a separate project and someone is asked to publish your released changes.</p>
+<p>The resources shown dependent on the selection can be checked or unchecked for publishing. Only checked resources will be published. Furthermore, for each resource, some more options are available, described in the next subsection. Below the resource selection, you can toggle two more options:</p>
+<ul>
+<li><em>Include related resources</em>: If checked, changed resources of elements placed on a page will also be published, if the page is published. Also changed parent folders of a resource will be included on publishing. It is recommended to use this option. It usually helps to publish all related changes in one run. If you check the option, resources with related resources are preceded by a little plus sign. Click this sign to see the related resources.</li>
+<li><em>Include siblings</em>: If checked, and a resource with siblings is published, all siblings are published as well. Otherwise, only the directly chosen siblings are published.</li>
+</ul>
+<p>When you click <em>Publish</em>, your selection is checked and potential problems are displayed (i.e., if relations will be broken in the online project when you publish the chosen selection). If no problems are found, publishing is started directly. Otherwise you have to confirm, having been made aware of these problems first.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

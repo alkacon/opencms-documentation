@@ -2,27 +2,210 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Improving this page]]></Title>
+    <Title><![CDATA[Glossary terms]]></Title>
     <Section>
+      <Caption><![CDATA[basic schema type]]></Caption>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<ul>
-<li>Do not write headlines as questions like "What are permissions".<br />
-<ul>
-<li>Instead use headlines like "Permissions explained".</li>
-</ul>
-</li>
-</ul>]]></content>
+        <content><![CDATA[<p>A basic schema type is a schema type supplied by OpenCms. Such basic schema types are, e.g., OpenCmsString, OpenCmsVfsFile, etc. In all schemas that are used to define content types, the part defining the content's structure must have schema elements with basic schema types as leaves<span class="footnote">Leaves are nodes that do not have subnodes - or more precisely in our context, do not have the schema type of a nested content.</span>.</p>]]></content>
       </Text>
-      <Link>
-        <Text><![CDATA[Show the legacy version of this page]]></Text>
-        <URI>
-          <link internal="false" type="WEAK">
-            <target><![CDATA[https://documentation.opencms.org/opencms-documentation/background/the-concept-of-content]]></target>
+    </Section>
+    <Section>
+      <Caption><![CDATA[bundle descriptor]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/localization/message-bundles/]]></target>
+            <uuid>2563f789-d1ca-11ec-9238-0242ac11002b</uuid>
           </link>
-        </URI>
-        <NewWindow>true</NewWindow>
-      </Link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-bundle-editor/]]></target>
+            <uuid>209ceb93-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p><a href="%(link0)">Bundle descriptors</a> are XML contents that define the key set of a message bundle and provide at most two bits of extra information for each key. The descriptor influences the <a href="%(link1)">bundle editor</a>, not the bundle mechanism itself.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[bundle editor]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-bundle-editor/]]></target>
+            <uuid>209ceb93-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>An editor for message bundles added in OpenCms 10.5. See <a href="%(link0)">here</a> for a description.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[content editor]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/content-editors/the-form-based-editor/]]></target>
+            <uuid>2c5345c7-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/content-editors/the-inline-editor/]]></target>
+            <uuid>3936391b-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>OpenCms provides two content editors, the&nbsp;<a href="%(link0)">form-based editor</a> and the <a href="%(link1)">inline editor</a>. 'Content editor' is a generic term for both of them.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[content type]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>'Content type' is usually used as a synonym for resource type in OpenCms. When the structure of a content item is defined via an XML schema definition, the type is typically configured as a resource type where it gets a type name that we call 'resource' or 'content type'.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[display formatter]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/content-in-opencms/lists-and-detail-pages/building-lists/lists-since-opencms-11/]]></target>
+            <uuid>a57fcb55-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Besides being a normal formatter, a display formatter is used to render contents in lists using the <code>&lt;cms:display&gt;</code> tag. The tag uses the formatter marked as display formatter to render a content, moreover specific such formatters (if more than one is present for a content type) can be provided to the tag. To select them, the special "DisplayTypeSelectWidget" is available. Read about <a href="%(link0)">lists since OpenCms 11</a> to get a good impression on display formatters.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[edit point]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons-svg/icons-20/edit-point-white-20.svg]]></target>
+            <uuid>384ae77b-cf7c-11ec-8701-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The edit point symbol <img style="width: 14px;" title="gotoPageIcon" src="%(link0)" alt="" /> is shown on elements of a page in the page editor. If you hover over the edit points, you see the options for that element. Furthermore, the symbol is used in the page editor's toolbar to show the toolbar and show or hide edit points. It may appear in even more places - usually indicating "here you can edit something".</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[editor field]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>In the content editors, a field where content is shown is called an 'editor field'. Typically, an editor field corresponds to a schema element of the displayed content.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[element view]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/creating-a-website/ade-configuration/content-element-configuration/configuration-of-element-views/]]></target>
+            <uuid>a9f10e61-d1d1-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Since OpenCms 10, elements can be placed in different views. For each resource type you can configure an element view. In the page editor, you can switch between the element views. Edit points are only shown for elements of the currently selected view. Moreover, only elements of the selected view can be added. The use of different element view is in particular helpful, when building templates with nested containers, where first layout elements are dropped on a page and afterward the "real" contents are added. Read moer about element views starting <a href="%(link0)">here</a>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[explorer]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/explorer/]]></target>
+            <uuid>71c1c77d-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The explorer app allows you to browse the VFS as you can do in a normal explorer. See <a href="%(link0)">here</a> for more details.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[explorer type]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Content types in OpenCms are configured as explorer types to make them visible in the explorer view and in the add wizard of the page editor. We use 'explorer type' only in the context of that configuration. In all other contexts we assume that the term 'content' or 'resource type' already implies that an explorer type configuration is set up for the type.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[form-based editor]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/content-editors/the-form-based-editor/]]></target>
+            <uuid>2c5345c7-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The form-based editor, or form-based content editor, is a content editor integrated in OpenCms. It allows you to edit content via a form assembled from highly configurable widgets. See&nbsp;<a href="%(link0)">here</a> for more details.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[formatter]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/content-in-opencms/formatters-and-their-configuration/]]></target>
+            <uuid>8c2d82ed-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>In OpenCms contents are rendered by formatters. These consist of a formatter JSP and a formatter configuration - or are defined as macro formatters. Read more about formatters <a href="%(link0)">here</a>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[index field]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>'Index field' describes a field of a search index. Depending on the search engine used, it refers to a Solr field or a Lucene field.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[inline editor]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/content-editors/the-inline-editor/]]></target>
+            <uuid>3936391b-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The inline editor, or inline content editor, is a content editor integrated into OpenCms, that allows you to edit content directly on the webpage. See&nbsp;<a href="%(link0)">here</a> for more information.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Lucene field]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Lucene (index) field describes a field in a Lucene search index.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[page editor]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-page-editor/]]></target>
+            <uuid>0597a70a-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The page editor is the (ADE) view in OpenCms where you edit pages, i.e., add, move or remove content. It is the normal view when you open a page offline. See&nbsp;<a href="%(link0)">here</a> for a description of the editor.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[page element]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Page elements are contents that are added to a webpage via drag &amp; drop.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[publishing]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/typical-tasks/publishing-changes/]]></target>
+            <uuid>795017a9-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>OpenCms has two versions of the virtual file system: online and offline. Resources are edited offline. Guests visiting your website see only the online version. Copying the offline version of a resource to the online version of the virtual file system, thus making the resource available to guests visiting your website, is called 'publishing'. See&nbsp;<a href="%(link0)">here</a> for more information on publishing.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[resource selection dialog]]></Caption>
     </Section>
   </ExtendedSection>
 </ExtendedSectionData>
