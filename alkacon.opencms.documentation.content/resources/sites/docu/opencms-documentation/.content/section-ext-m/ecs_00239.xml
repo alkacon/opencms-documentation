@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Creating a page]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>With the <strong>Add pages</strong> option from the sitemap editor's toolbar you can add a new page via drag &amp; drop. You can create three different kinds of pages: <strong>Container pages</strong>, <strong>Type pages</strong>, <strong>Function pages</strong>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/SitemapEditor_AddPage.png]]></target>
+            <uuid>0e8d217b-db1c-11ec-8fb9-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[SitemapEditor_AddPage]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Creating a container page]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/creating-a-website/creating-template-models/]]></target>
+            <uuid>b69ca905-d1c7-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Depending on the<a href="%(link0)"> configured template models</a> provided by the template developer, you can select from different pages meeting your requirements. You can drop a new container page to wherever you need it in the sitemap.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/SitemapEditor_DropContainerPage.png]]></target>
+            <uuid>1f49304f-db1c-11ec-8fb9-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[SitemapEditor_DropContainerPage]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A page can be&nbsp;dropped right below another existing page or as a child page of an existing page. If you want to place the page 2 as child page of page 1, hover over the icon of page 1. Then page 2 will become a child page of it - if&nbsp;dragged right below. A child page can also be created via the "Create child page" context menu entry on an existing page.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Creating detail pages]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/content-in-opencms/lists-and-detail-pages/]]></target>
+            <uuid>98418d80-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/demos/list-and-detail-pages/]]></target>
+            <uuid>b5df653e-d1cd-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/creating-a-website/ade-configuration/]]></target>
+            <uuid>cfc6289b-d1c7-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Via the tab <strong>Detail pages</strong> from the <strong>Add pages</strong> dialog allows to create a new sitemap entry that is used as detail page for a certain content type or function, e.g., for news articles. Detail pages are used to link from lists of contents to detailed views on these entries or to e.g., search results. Read more about the detail pages here:</p>
+<ul>
+<li><a href="%(link0)">A general description on lists and detail pages</a></li>
+<li><a href="%(link1)">A demo of lists and detail pages</a></li>
+<li><a href="%(link2)">Configuration of detail pages</a></li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Creating a function page]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Selecting the <strong>Function pages</strong> option from the <strong>Add pages</strong> dialog offers a selection of pages for special purpose.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/SitemapEditor_AddFunctionPage.png]]></target>
+            <uuid>320ecac4-db1c-11ec-8fb9-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[SitemapEditor_AddFunctionPage]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

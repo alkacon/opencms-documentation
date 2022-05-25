@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Element view]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-page-editor/]]></target>
+            <uuid>0597a70a-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/creating-a-website/ade-configuration/content-element-configuration/configuration-of-element-views/]]></target>
+            <uuid>a9f10e61-d1d1-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Container page elements can be grouped in views by their type. If elements are not in the view you currently work in, edit points on the elements are hidden and also the <strong>Add content</strong> does not provide the option to add such elements.</p>
+<p>The context menu option "Element view" is only shown if more than one such view is available (and non-empty with respect to the available content types). Each user can also choose his default element view via the <a href="%(link0)">user preferences</a>.</p>
+<p>Besides via the context menu, the element view can also be switched in the <strong>Add content</strong> dialog. In that dialog an additional element view "System elements" is shown. By default it holds all the content types exposed by the OpenCms core.</p>
+<p><a href="%(link1)">Here</a>&nbsp;you can learn more about element views, in particular how to configure them.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

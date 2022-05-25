@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Overview on the form-based editor]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/editBigIconActive.png]]></target>
+            <uuid>df72b997-c9f9-11ec-a595-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+          <link name="link1" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/addBigIconActive.png]]></target>
+            <uuid>df60df17-c9f9-11ec-a595-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+          <link name="link2" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/removeBigIconActive.png]]></target>
+            <uuid>df961f7b-c9f9-11ec-a595-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+        </links>
+        <content><![CDATA[<p>The form-based editor is the standard editor for XML content. It opens when you click the pencil <img style="width: 14px;" title="editIconActive" src="%(link0)" alt="" /> at a content element in the page editor, or when you edit XML content from the workplace. The editor shows all content fields in an intuitively editable way. Depending on the type of the content field, special editor widgets are used.</p>
+<p>The screenshot shows some content opened in the form-based editor. In the example you see:</p>
+<ul>
+<li>The structure of the content is reflected in the editor's appearance. The order of the editor fields reflects the order of the schema elements and nested schema elements are displayed as nested editor fields, e.g., Text is nested inside of Paragraph.</li>
+<li>Content fields are grouped into several tabs.</li>
+<li>Content values of different types are edited via different widgets - compare for example the editor fields for Title, Text and Image values</li>
+<li>Optional fields (such as Teaser) are shown in gray if not provided</li>
+<li>If fields can appear more often than already present, a <img style="width: 14px;" title="addIconActive" src="%(link1)" alt="" /> is shown to add more fields</li>
+<li>If fields are not mandatory they can be cut, clicking the <img style="width: 14px;" title="removeIconActive" src="%(link2)" alt="" /> symbol.</li>
+<li>The editor shows the content in one language. The language can be switched via the language selector in the toolbar.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/ContentEditor_Example.png]]></target>
+            <uuid>715097e4-db26-11ec-8fb9-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[ContentEditor_Example]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

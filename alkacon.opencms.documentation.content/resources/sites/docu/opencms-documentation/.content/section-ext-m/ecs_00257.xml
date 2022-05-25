@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Edit content inline]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>When the cursor is hovering text which can be edited inline, an edit cursor appears:</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/InlineEditor_Open.png]]></target>
+            <uuid>4dfcff3e-db2d-11ec-8fb9-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[InlineEditor_Open]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Clicking the inline editable field, the text is highlighted and optionally a format toolbar comes up:</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/InlineEditor_Edit.png]]></target>
+            <uuid>4df9079a-db2d-11ec-8fb9-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[InlineEditor_Edit]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/demos/inline-editing/]]></target>
+            <uuid>47728191-d1cd-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>If configured, the inline editor also shows edit points on the content which allow alteration of additional content fields. Via the inline editor's toolbar you can open the form-based content editor to get access to all content fields.</p>
+<p><a href="%(link0)">Here</a> is a demo of the inline editor.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

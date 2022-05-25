@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[SEO options]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/creating-a-website/search-engine-optimization-seo/]]></target>
+            <uuid>d7d54cbc-d1c7-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>This dialog offers a mask that enables the content manager to set the most relevant properties for SEO of a container page, meaning: Title, Description and Keywords. Additionally it is possible to define aliases for the page. As for rewrite rules you can choose between sending a temporary redirect (302 returned) or sending a permanent redirect (301) or just show the page (200). Already set aliases are displayed below. Learn more on SEO options <a href="%(link0)">here</a>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

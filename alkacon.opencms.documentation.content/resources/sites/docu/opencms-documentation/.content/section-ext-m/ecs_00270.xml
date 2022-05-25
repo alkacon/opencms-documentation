@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Restrictions of the bundle editor]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The editor assumes that <strong>all resources of a bundle</strong>, except the descriptor, are placed <strong>in the same folder</strong>. That is, for the bundle <em>my.bundle</em> which is stored as property resource bundle, all localizations, i.e., the resources <em>my.bundle_en</em>, <em>my.bundle_de</em>, etc. must be placed in one folder. Only the descriptor <em>my.bundle_desc</em> can be placed somewhere else.</p>
+<p>The editor handles only XML resource bundles, property resource bundles and bundle descriptors. It can't be used to edit default Java property files.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

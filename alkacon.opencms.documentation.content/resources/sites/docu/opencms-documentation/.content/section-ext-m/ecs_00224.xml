@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Remove]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/removeBigIconActive.png]]></target>
+            <uuid>df961f7b-c9f9-11ec-a595-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+        </links>
+        <content><![CDATA[<p>To remove an element from the page, click on the remove&nbsp;<img style="width: 14px;" title="removeIconActive" src="%(link0)" alt="" />&nbsp;option. A dialog will be shown asking you to confirm this action.</p>
+<p>This will not delete the element content but will only remove the reference to it from this page.</p>
+<p>In case there are no other pages referencing this content element, the remove dialog will offer to completley delete the element.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/remove-dialog.png]]></target>
+            <uuid>edee3478-da51-11ec-8fb9-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[remove-dialog]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>This dialog&nbsp;can be configured to</p>
+<ul>
+<li>offer the delete option preselected (default)</li>
+<li>offer the delete option not preselected</li>
+<li>not to offer the delete option</li>
+<li>always delete without asking</li>
+</ul>
+<p>This is done by editing the configuration file '/WEB-INF/config/opencms-workplace.xml' in the RFS. Add the element <code>&lt;element-delete-mode&gt;</code>&nbsp;as last element with one of the following values: [askDelete,askKeep,alwaysKeep,alwaysDelete].</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

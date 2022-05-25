@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Configuration of the bundle editor]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>When using a bundle descriptor, the column headings of the bundle editor can be adjusted. The bundle descriptor essencially adds up to two pieces of (unilingual) extra information for each key. By default these are "Description" and "Default Value". But you may want to provide different information instead. To do so, simply rename the "Description" and "Default Value" column headers in the bundle editor.</p>
+<p>Add an extra message bundle containing the adjusted names of the column headers and set the bundle's base name as value for the property <code>bundle.descriptor.messages</code> at the bundle descriptor. The extra bundle should contain the following keys, or at least the one's for which you want to overwrite the default messages:</p>
+<ul>
+<li><code>GUI_COLUMN_HEADER_DEFAULT_0</code>,</li>
+<li><code>GUI_COLUMN_HEADER_DESCRIPTION_0</code>,</li>
+<li><code>GUI_COLUMN_HEADER_KEY_0</code>,</li>
+<li><code>GUI_COLUMN_HEADER_TRANSLATION_0</code>.</li>
+</ul>
+<p>Renaming may for example be interesting, if you use bundles to store technical values. If these are numbers, you could provide a lower and an upper bound via the extra information in the bundle descriptor.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

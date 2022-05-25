@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Editing bundles with descriptors]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/localization/message-bundles/]]></target>
+            <uuid>2563f789-d1ca-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<div class="alert alert-info">Read more about bundle descriptors <a href="%(link0)">here</a>.</div>
+<p>When a bundle descriptor is added, the <strong>editor shows and stores only keys specified in the descriptor</strong>. Additionally to the options that are available for bundles without a descriptor, the editor has two extra options:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[How to use the bundle editor]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The bundle editor shows the messages of a bundle for one translation. If you do not use a bundle descriptor, it always <strong>shows every key that is used in at least one translation</strong>. Here's how the editor looks like for a bundle without descriptor.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/bundle-editor-usage-1.png]]></target>
+            <uuid>e09eb0a0-dbe6-11ec-8fb9-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[bundle-editor-usage-1]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The editor has default editor options <em>Publish, Save</em>, <em>Save &amp; Exit</em> and <em>Exit</em> in the toolbar. Additionally, it provides the following options.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

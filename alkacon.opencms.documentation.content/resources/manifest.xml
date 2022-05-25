@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The contents of the Alkacon OpenCms documentation.]]></description>
-		<version>13.0.31</version>
+		<version>13.0.32</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -5759,6 +5759,42 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>sites/docu/.galleries/icons_normalsize</destination>
+			<type>imagegallery</type>
+			<uuidstructure>b7dd9f92-da56-11ec-8fb9-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 23 May 2022 05:10:52 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Documentation: Icons (small)]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/icons_normalsize/favoriteIconActive.png</source>
+			<destination>sites/docu/.galleries/icons_normalsize/favoriteIconActive.png</destination>
+			<type>image</type>
+			<uuidstructure>ca96b6da-da56-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>ca96b6db-da56-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 05:11:24 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[favoriteIconActive]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:20,h:20]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>sites/docu/.galleries/logos</destination>
 			<type>imagegallery</type>
 			<uuidstructure>e7237f26-c9fb-11ec-a595-0242ac11002b</uuidstructure>
@@ -6319,6 +6355,279 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>sites/docu/.galleries/screenshots/AddingNewContent1.png</source>
+			<destination>sites/docu/.galleries/screenshots/AddingNewContent1.png</destination>
+			<type>image</type>
+			<uuidstructure>aef5722b-da51-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>aef5722c-da51-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 04:34:50 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[AddingNewContent]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1975,h:538]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/screenshots/AddToFavorites.png</source>
+			<destination>sites/docu/.galleries/screenshots/AddToFavorites.png</destination>
+			<type>image</type>
+			<uuidstructure>136d8281-da52-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>136d8282-da52-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 04:37:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[AddToFavorites]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:639,h:265]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/screenshots/bundle-editor-convert-bundle.png</source>
+			<destination>sites/docu/.galleries/screenshots/bundle-editor-convert-bundle.png</destination>
+			<type>image</type>
+			<uuidstructure>e09a91e8-dbe6-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>e09a91e9-dbe6-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 04:55:19 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[bundle-editor-convert-bundle]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:990,h:52]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/screenshots/bundle-editor-copy-from.png</source>
+			<destination>sites/docu/.galleries/screenshots/bundle-editor-copy-from.png</destination>
+			<type>image</type>
+			<uuidstructure>e09cdbdc-dbe6-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>e09cdbdd-dbe6-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 04:55:19 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[bundle-editor-copy-from]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:970,h:206]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/screenshots/bundle-editor-usage-1.png</source>
+			<destination>sites/docu/.galleries/screenshots/bundle-editor-usage-1.png</destination>
+			<type>image</type>
+			<uuidstructure>e09eb0a0-dbe6-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>e09eb0a1-dbe6-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 04:55:19 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[bundle-editor-usage-1]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:989,h:348]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/screenshots/bundle-editor-usage-descriptor-translate.png</source>
+			<destination>sites/docu/.galleries/screenshots/bundle-editor-usage-descriptor-translate.png</destination>
+			<type>image</type>
+			<uuidstructure>e0a0d384-dbe6-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>e0a0d385-dbe6-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 04:55:19 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[bundle-editor-usage-descriptor-translate]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:990,h:312]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/screenshots/bundle-editor-usage-descriptor.png</source>
+			<destination>sites/docu/.galleries/screenshots/bundle-editor-usage-descriptor.png</destination>
+			<type>image</type>
+			<uuidstructure>e0a28138-dbe6-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>e0a28139-dbe6-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 04:55:19 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[bundle-editor-usage-descriptor]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:990,h:344]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/screenshots/ClipboardRecent.png</source>
+			<destination>sites/docu/.galleries/screenshots/ClipboardRecent.png</destination>
+			<type>image</type>
+			<uuidstructure>fe458e0c-da51-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>fe458e0d-da51-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 04:37:03 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[ClipboardRecent]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:809,h:235]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/screenshots/ContentEditor_Error.png</source>
+			<destination>sites/docu/.galleries/screenshots/ContentEditor_Error.png</destination>
+			<type>image</type>
+			<uuidstructure>9b1334ee-db26-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>9b1334ef-db26-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 05:58:59 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[ContentEditor_Error]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:898,h:108]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/screenshots/ContentEditor_Example.png</source>
+			<destination>sites/docu/.galleries/screenshots/ContentEditor_Example.png</destination>
+			<type>image</type>
+			<uuidstructure>715097e4-db26-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>715097e5-db26-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 05:57:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[ContentEditor_Example]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1259,h:1068]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/screenshots/ContentEditor_Warning.png</source>
+			<destination>sites/docu/.galleries/screenshots/ContentEditor_Warning.png</destination>
+			<type>image</type>
+			<uuidstructure>83fb575a-db26-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>83fb575b-db26-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 05:58:21 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[ContentEditor_Warning]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:898,h:100]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/screenshots/DroppingContent.png</source>
+			<destination>sites/docu/.galleries/screenshots/DroppingContent.png</destination>
+			<type>image</type>
+			<uuidstructure>c1b95eef-da51-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>c1b95ef0-da51-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 04:35:21 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[DroppingContent]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1038,h:892]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/screenshots/element-optionbar.png</source>
+			<destination>sites/docu/.galleries/screenshots/element-optionbar.png</destination>
+			<type>image</type>
+			<uuidstructure>dce5da65-da51-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>dce5da66-da51-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 04:36:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[element-optionbar]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:381,h:411]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>sites/docu/.galleries/screenshots/ExplorerViewSitesDefault.png</source>
 			<destination>sites/docu/.galleries/screenshots/ExplorerViewSitesDefault.png</destination>
 			<type>image</type>
@@ -6334,6 +6643,90 @@
 				<property type="shared">
 					<name>image.size</name>
 					<value><![CDATA[w:990,h:495]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/screenshots/InlineEditor_Edit.png</source>
+			<destination>sites/docu/.galleries/screenshots/InlineEditor_Edit.png</destination>
+			<type>image</type>
+			<uuidstructure>4df9079a-db2d-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>4df9079b-db2d-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 06:46:56 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[InlineEditor_Edit]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1514,h:816]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/screenshots/InlineEditor_Open.png</source>
+			<destination>sites/docu/.galleries/screenshots/InlineEditor_Open.png</destination>
+			<type>image</type>
+			<uuidstructure>4dfcff3e-db2d-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>4dfcff3f-db2d-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 06:46:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[InlineEditor_Open]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1156,h:292]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/screenshots/Launchpad.png</source>
+			<destination>sites/docu/.galleries/screenshots/Launchpad.png</destination>
+			<type>image</type>
+			<uuidstructure>29e30013-dbec-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>29e30014-dbec-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 05:33:10 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Launchpad]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:980,h:617]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/screenshots/LaunchpadOpen.png</source>
+			<destination>sites/docu/.galleries/screenshots/LaunchpadOpen.png</destination>
+			<type>image</type>
+			<uuidstructure>29e59827-dbec-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>29e59828-dbec-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 05:33:10 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[LaunchpadOpen]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:366,h:351]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -6424,6 +6817,132 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>sites/docu/.galleries/screenshots/remove-dialog.png</source>
+			<destination>sites/docu/.galleries/screenshots/remove-dialog.png</destination>
+			<type>image</type>
+			<uuidstructure>edee3478-da51-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>edee3479-da51-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 04:36:36 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[remove-dialog]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:624,h:273]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/screenshots/SitemapEditor_AddFunctionPage.png</source>
+			<destination>sites/docu/.galleries/screenshots/SitemapEditor_AddFunctionPage.png</destination>
+			<type>image</type>
+			<uuidstructure>320ecac4-db1c-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>320ecac5-db1c-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 04:44:28 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[SitemapEditor_AddFunctionPage]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1033,h:202]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/screenshots/SitemapEditor_AddPage.png</source>
+			<destination>sites/docu/.galleries/screenshots/SitemapEditor_AddPage.png</destination>
+			<type>image</type>
+			<uuidstructure>0e8d217b-db1c-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>0e8d217c-db1c-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 04:43:29 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[SitemapEditor_AddPage]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1034,h:333]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/screenshots/SitemapEditor_DropContainerPage.png</source>
+			<destination>sites/docu/.galleries/screenshots/SitemapEditor_DropContainerPage.png</destination>
+			<type>image</type>
+			<uuidstructure>1f49304f-db1c-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>1f493050-db1c-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 04:43:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[SitemapEditor_DropContainerPage]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1024,h:483]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/screenshots/SitemapEditor_OpenIt.png</source>
+			<destination>sites/docu/.galleries/screenshots/SitemapEditor_OpenIt.png</destination>
+			<type>image</type>
+			<uuidstructure>f0204803-db1b-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>f0204804-db1b-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 04:42:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[SitemapEditor_OpenIt]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:2118,h:712]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/screenshots/SitemapEditor_Overview.png</source>
+			<destination>sites/docu/.galleries/screenshots/SitemapEditor_Overview.png</destination>
+			<type>image</type>
+			<uuidstructure>001eac28-db1c-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>001eac29-db1c-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 04:43:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[SitemapEditor_Overview]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1066,h:928]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>sites/docu/.galleries/screenshots/toolbar-options.png</source>
 			<destination>sites/docu/.galleries/screenshots/toolbar-options.png</destination>
 			<type>image</type>
@@ -6504,6 +7023,14 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Welcome]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
 				</property>
 				<property>
 					<name>mercury.theme</name>
@@ -7287,6 +7814,14 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[OpenCms documentation]]></value>
+				</property>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
 				</property>
 				<property>
 					<name>mercury.theme</name>
@@ -8396,6 +8931,125 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Installing Eclipse and Gradle: Related links]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/linksequence-m/ls_00037.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/linksequence-m/ls_00037.xml</destination>
+			<type>m-linksequence</type>
+			<uuidstructure>fe6c1dec-da50-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>fe6c1ded-da50-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 04:29:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Related Links]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/linksequence-m/ls_00038.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/linksequence-m/ls_00038.xml</destination>
+			<type>m-linksequence</type>
+			<uuidstructure>35c49066-db25-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>35c49067-db25-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 05:49:00 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content editors: Using the content editors]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/linksequence-m/ls_00039.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/linksequence-m/ls_00039.xml</destination>
+			<type>m-linksequence</type>
+			<uuidstructure>81600828-db25-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>81600829-db25-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 05:51:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content editors: Using the content editors 2]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/linksequence-m/ls_00040.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/linksequence-m/ls_00040.xml</destination>
+			<type>m-linksequence</type>
+			<uuidstructure>b954fc3d-db25-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>b954fc3e-db25-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 05:52:41 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content editors: Configuring the content editors]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/linksequence-m/ls_00041.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/linksequence-m/ls_00041.xml</destination>
+			<type>m-linksequence</type>
+			<uuidstructure>18f40d08-db26-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>18f40d09-db26-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 05:55:21 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The form-based editor: Related Links]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/linksequence-m/ls_00042.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/linksequence-m/ls_00042.xml</destination>
+			<type>m-linksequence</type>
+			<uuidstructure>73ad2192-db2d-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>73ad2193-db2d-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 06:48:00 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The inline editor: Related Links]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/linksequence-m/ls_00043.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/linksequence-m/ls_00043.xml</destination>
+			<type>m-linksequence</type>
+			<uuidstructure>6627ad76-dbe6-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>6627ad77-dbe6-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 04:51:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The bundle editor: Related Links]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -10394,6 +11048,23 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00109.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00109.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>a8865b56-db1b-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>a8865b57-db1b-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 04:40:37 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The sitemap editor: The sitemap editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00110.xml</source>
 			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00110.xml</destination>
 			<type>m-section-ext</type>
@@ -12156,6 +12827,1060 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Installing Eclipse and Gradle: Adding the Gradle plugin]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00214.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00214.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>077317a8-da4e-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>077317a9-da4e-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 04:08:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Editors: Editors]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00215.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00215.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>4c9f38b5-da4e-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>4c9f38b6-da4e-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 04:10:36 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Editors: Page and sitemap editing]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00216.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00216.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>a00b92af-da4e-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>a00b92b0-da4e-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 04:12:56 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Editors: Content editing]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00217.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00217.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>3938ad5e-da4f-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>3938ad5f-da4f-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 04:17:13 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The page editor: The page editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00218.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00218.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>2d5b58cb-da51-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>2d5b58cc-da51-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 04:31:12 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The page editor: How to open the page editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00219.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00219.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>4e1b4a10-da51-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>4e1b4a11-da51-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 04:32:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The page editor: The editor's toolbar options]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00220.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00220.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>a82e6979-da52-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>a82e697a-da52-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 04:41:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The page editor: Available Options]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00221.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00221.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>6805a07d-da54-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>6805a07e-da54-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 04:54:19 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The page editor: Creating new content]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00222.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00222.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>f0cff054-da54-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>f0cff055-da54-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 04:58:09 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The page editor: Element options]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00223.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00223.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>addd2849-da55-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>addd284a-da55-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 05:03:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The page editor: Available options]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00224.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00224.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>138f48cc-da57-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>138f48cd-da57-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 05:13:26 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The page editor: Remove]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00225.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00225.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>e2520a22-da57-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>e2520a23-da57-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 05:19:13 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The page editor: The Clipboard]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00226.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00226.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>3b1bafe9-da58-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>3b1bafea-da58-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 05:21:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The page editor: Context Menu]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00227.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00227.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>56347b66-da58-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>56347b67-da58-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 05:22:27 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The page editor: Available Options]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00228.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00228.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>f2874b5b-da59-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>f2874b5c-da59-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 05:33:59 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The page editor: Page info]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00229.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00229.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>0ae31abb-da5a-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>0ae31abc-da5a-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 05:34:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The page editor: Element view]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00230.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00230.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>49721dd5-da5a-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>49721dd6-da5a-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 05:36:25 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The page editor: Availability]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00231.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00231.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>64d3b32e-da5a-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>64d3b32f-da5a-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 05:37:11 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The page editor: Available Options]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00232.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00232.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>933b4752-da5a-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>933b4753-da5a-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 05:38:29 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The page editor: Available Options 2]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00233.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00233.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>aecd1461-da5a-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>aecd1462-da5a-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 05:39:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The page editor: Lock report]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00234.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00234.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>c1c9ea8f-da5a-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>c1c9ea90-da5a-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Mon, 23 May 2022 05:39:47 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The page editor: SEO options]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00235.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00235.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>480cfb0a-db1c-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>480cfb0b-db1c-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 04:45:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The sitemap editor: How to open the sitemap editor ]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00236.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00236.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>7a51a189-db1c-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>7a51a18a-db1c-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 04:46:29 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The sitemap editor: Overview on the sitemap editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00237.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00237.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>239a9322-db1d-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>239a9323-db1d-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 04:51:13 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The sitemap editor: Sitemap editor toolbar]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00238.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00238.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>323b6322-db1d-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>323b6323-db1d-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 04:51:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The sitemap editor: Available options]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00239.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00239.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>e2357041-db1d-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>e2357042-db1d-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 04:56:33 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The sitemap editor: Creating a page]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00240.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00240.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>b4dda948-db1e-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>b4dda949-db1e-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 05:02:27 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The sitemap editor: Function pages available]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00241.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00241.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>5e3f0819-db23-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>5e3f081a-db23-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 05:35:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The sitemap editor: Using the clipboard]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00242.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00242.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>7f51d449-db23-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>7f51d44a-db23-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 05:36:44 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The sitemap editor: Tabs of the clipboard]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00243.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00243.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>a5ca0054-db23-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>a5ca0055-db23-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 05:37:49 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The sitemap editor: Changing the sitemap editors view]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00244.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00244.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>c7e45188-db23-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>c7e45189-db23-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 05:38:46 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The sitemap editor: The sitemap editors views]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00245.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00245.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>2e881b9d-db24-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>2e881b9e-db24-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 05:41:38 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The sitemap editor: Context menu ]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00246.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00246.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>10b98885-db25-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>10b98886-db25-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 05:47:58 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Content editors: Content editors]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00247.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00247.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>00fd410b-db26-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>00fd410c-db26-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 05:54:41 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The form-based editor: The form-based content editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00248.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00248.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>af0fc8d4-db26-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>af0fc8d5-db26-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 05:59:33 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The form-based editor: Overview on the form-based editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00249.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00249.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>984be196-db27-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>984be197-db27-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 06:06:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The form-based editor: Working with the form-based editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00250.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00250.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>593457c7-db28-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>593457c8-db28-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 06:11:28 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The form-based editor: Toolbar options]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00251.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00251.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>7807945e-db28-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>7807945f-db28-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 06:12:20 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The form-based editor: Toolbar options of the form-based editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00252.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00252.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>fbf274a4-db2b-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>fbf274a5-db2b-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 06:37:29 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The form-based editor: What you should be aware of]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00253.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00253.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>290a7d54-db2c-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>290a7d55-db2c-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 06:38:45 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The form-based editor: Dealing with warnings and errors]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00254.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00254.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>97be2e3a-db2c-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>97be2e3b-db2c-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 06:41:51 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The form-based editor: Handling multiple languages]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00255.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00255.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>fa2e60fa-db2c-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>fa2e60fb-db2c-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 06:44:36 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The form-based editor: Dealing with synchronized values]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00256.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00256.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>5c5ad2ea-db2d-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>5c5ad2eb-db2d-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 06:47:21 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The inline editor: The inline content editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00257.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00257.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>5e93dd62-db2e-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>5e93dd63-db2e-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 06:54:34 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The inline editor: Edit content inline]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00258.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00258.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>e256f1bc-db2e-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>e256f1bd-db2e-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 06:58:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The inline editor: Fields supporting inline editing]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00259.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00259.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>2560bb24-dbe6-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>2560bb25-dbe6-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 04:50:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The bundle editor: The bundle editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00260.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00260.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>a5a50934-dbe6-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>a5a50935-dbe6-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 04:53:40 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The bundle editor: How to open the bundle editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00261.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00261.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>f841de97-dbe6-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>f841de98-dbe6-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 04:55:59 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The bundle editor: How to use the bundle editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00262.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00262.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>9151d405-dbe7-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>9151d406-dbe7-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 05:00:16 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The bundle editor: How to use the bundle editor 2]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00263.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00263.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>0a3e4041-dbe8-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>0a3e4042-dbe8-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 05:03:39 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The bundle editor: How to use the bundle editor 3]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00264.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00264.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>49a41b85-dbe8-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>49a41b86-dbe8-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 05:05:25 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The bundle editor: Editing bundles with descriptors]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00265.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00265.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>79417084-dbe8-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>79417085-dbe8-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 05:06:45 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The bundle editor: Editing bundles with descriptors 2]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00266.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00266.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>a2008051-dbe8-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>a2008052-dbe8-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 05:07:53 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The bundle editor: Editing bundles with descriptors 3]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00267.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00267.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>023715eb-dbe9-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>023715ec-dbe9-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 05:10:35 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The bundle editor: Configuration of the bundle editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00268.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00268.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>1d1f5c90-dbe9-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>1d1f5c91-dbe9-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 05:11:20 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The bundle editor: Additional features of the bundle editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00269.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00269.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>74462676-dbe9-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>74462677-dbe9-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 05:13:46 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The bundle editor: Behavior on publish]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00270.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00270.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>b3485ef0-dbe9-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>b3485ef1-dbe9-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 05:15:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[The bundle editor: Restrictions of the bundle editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00271.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00271.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>d76e36a6-dbe9-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>d76e36a7-dbe9-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 05:16:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Launchpad: Launchpad]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00272.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00272.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>3f6ebf9d-dbec-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>3f6ebf9e-dbec-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 05:33:46 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Launchpad: Opening the launch pad]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00273.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00273.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>b5cc42f0-dbec-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>b5cc42f1-dbec-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 05:37:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Launchpad: Using the launchpad]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00274.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00274.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>01f94c33-dbed-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>01f94c34-dbed-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 05:39:12 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Launchpad: Apps overview]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00275.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00275.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>18e07d08-dbed-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>18e07d09-dbed-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Wed, 25 May 2022 05:39:51 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Launchpad: Apps available in the default installation]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -14356,6 +16081,206 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Appearance in the content editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/docu/opencms-documentation/todo/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/dependent-fields</destination>
+			<type>folder</type>
+			<uuidstructure>1f03a57a-db28-11ec-8fb9-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 24 May 2022 06:09:50 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[6.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Dependent fields]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Dependent fields]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/todo/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/dependent-fields/index.html</source>
+			<destination>sites/docu/opencms-documentation/todo/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/dependent-fields/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>1f0a834f-db28-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>1f0a8350-db28-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 06:09:50 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Dependent fields]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/docu/opencms-documentation/todo/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/hiding-schema-elements</destination>
+			<type>folder</type>
+			<uuidstructure>0aa876d5-db28-11ec-8fb9-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 24 May 2022 06:09:16 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[2.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Hiding schema elements]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Hiding schema elements]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/todo/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/hiding-schema-elements/index.html</source>
+			<destination>sites/docu/opencms-documentation/todo/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/hiding-schema-elements/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>0aaf2d9a-db28-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>0aaf2d9b-db28-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 06:09:16 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Hiding schema elements]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/docu/opencms-documentation/todo/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/language-independend-valuese</destination>
+			<type>folder</type>
+			<uuidstructure>28d97fdd-db28-11ec-8fb9-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 24 May 2022 06:10:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[5.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Language independend valuese]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Language independend valuese]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/todo/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/language-independend-valuese/index.html</source>
+			<destination>sites/docu/opencms-documentation/todo/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/language-independend-valuese/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>28e036a2-db28-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>28e036a3-db28-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 06:10:07 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Language independend valuese]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/docu/opencms-documentation/todo/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/tab-configuration</destination>
+			<type>folder</type>
+			<uuidstructure>143190c7-db28-11ec-8fb9-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 24 May 2022 06:09:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[3.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Tab configuration]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Tab configuration]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/todo/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/tab-configuration/index.html</source>
+			<destination>sites/docu/opencms-documentation/todo/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/tab-configuration/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>1438207c-db28-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>1438207d-db28-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 06:09:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Tab configuration]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>sites/docu/opencms-documentation/todo/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/widget-configuration</destination>
+			<type>folder</type>
+			<uuidstructure>01d93703-db28-11ec-8fb9-0242ac11002b</uuidstructure>
+			<datecreated>Tue, 24 May 2022 06:09:01 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[1.0]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Widget configuration]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Widget configuration]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/todo/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/widget-configuration/index.html</source>
+			<destination>sites/docu/opencms-documentation/todo/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/widget-configuration/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>01dfedc8-db28-11ec-8fb9-0242ac11002b</uuidstructure>
+			<uuidresource>01dfedc9-db28-11ec-8fb9-0242ac11002b</uuidresource>
+			<datecreated>Tue, 24 May 2022 06:09:01 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Widget configuration]]></value>
 				</property>
 			</properties>
 			<relations/>

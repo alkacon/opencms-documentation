@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Available Options]]></Title>
+    <Section>
+      <Caption><![CDATA[Publish scheduled date]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Using the publish scheduled function, this page will be published automatically on the set date/time.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Date released]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>By setting the release date, this page will be visible online from the chosen date/time onwards (if published).</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Date expired]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>By setting the expiration date, this page will be online (if published) until this date/time and then will disappear from the public website but will still remain as a resource in OpenCms.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

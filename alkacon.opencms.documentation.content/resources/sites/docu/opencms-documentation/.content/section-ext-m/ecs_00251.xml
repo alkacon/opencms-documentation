@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Toolbar options of the form-based editor]]></Title>
+    <Section>
+      <Caption><![CDATA[Publish]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Save and publish the content.</p>
+<div class="alert alert-danger">Be aware that: changes are first stored - even if publishing then fails, <strong>all languages</strong> are published.</div>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/publishBigIconActive.svg]]></target>
+            <uuid>df8ef377-c9f9-11ec-a595-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[publishBigIconActive]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Save & exit]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Save changes (for all languages) and close the editor.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/saveExitBigIconActive.png]]></target>
+            <uuid>df9ed223-c9f9-11ec-a595-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[saveExitBigIconActive]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Save]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Save changes (for all languages).</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/saveBigIconActive.png]]></target>
+            <uuid>df9c12fb-c9f9-11ec-a595-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[saveBigIconActive]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Undo latest change]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Undo the latest change in whatever editor field you edited last.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/undoBigIconActive.png]]></target>
+            <uuid>dfb6c737-c9f9-11ec-a595-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[undoBigIconActive]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Redo latest change]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Redo the lastest change in whatever editor field you edited last.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/redoBigIconActive.png]]></target>
+            <uuid>df93ae73-c9f9-11ec-a595-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[redoBigIconActive]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Language selector]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Choose the language you want to edit.</p>
+<div class="alert alert-info">The editor itself, i.e., help, name of editor fields, ..., is displayed always in the language specified in the user preferences. This does not change when you change the language. You only change the language of the values you edit.</div>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Delete locale]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Delete the content in the currently displayed language.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/deleteLocaleBigIconActive.png]]></target>
+            <uuid>df7132f3-c9f9-11ec-a595-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[deleteLocaleBigIconActive]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Copy locale]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Copy the content values of the currently displayed language (or locale) to another language. A dialog pops up, where you can select to which language you want to copy the values.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/copyLocaleBigIconActive.png]]></target>
+            <uuid>df6b6683-c9f9-11ec-a595-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[copyLocaleBigIconActive]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Show/hide help]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If the option is activated, help is shown whenever you click in an editor field to edit content. If the option is deactiviated, you still can get help by hovering over the names of the editor fields.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/toggleHelpBigIconActive.png]]></target>
+            <uuid>dfb3b9ef-c9f9-11ec-a595-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[toggleHelpBigIconActive]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Cancel]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Close the editor without saving changes.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/resetBigIconActive.png]]></target>
+            <uuid>df992cc3-c9f9-11ec-a595-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[resetBigIconActive]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[User info]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The icons shows a user specific configurable picture. It provides access to user information, preferences and the logout button.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/UserIcon.png]]></target>
+            <uuid>dfbc4587-c9f9-11ec-a595-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[UserIcon]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

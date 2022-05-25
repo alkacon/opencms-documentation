@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Available Options]]></Title>
+    <Section>
+      <Caption><![CDATA[Properties]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Display and edit the OpenCms properties of the current container page.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/typical-tasks/editing-properties/]]></target>
+            <uuid>6a49a907-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Page info]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Show the elements used on the page, page attributes, like date created, date last modified, etc. and links to the page.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-page-editor/]]></target>
+            <uuid>0597a70a-d1c5-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[page-info]]></anchor>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Show in device]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/creating-a-website/creating-a-template-jsp/advanced-template-features/]]></target>
+            <uuid>f18ab896-d1c7-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Allows to get previews of your page for different devices. The option is only available if a&nbsp;<a href="%(link0)">template context provider</a> is used.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Element view]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Shows the available&nbsp;element views and allows to switch the element view.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-page-editor/]]></target>
+            <uuid>0597a70a-d1c5-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[element-view]]></anchor>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Undo changes]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Recovers the last published version of the container page.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Edit small elements]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If elements that do not have a certain height edit points for these elements are only shown when this option is checked.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Advanced > Availability]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Opens the availability dialog.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-page-editor/]]></target>
+            <uuid>0597a70a-d1c5-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[availability]]></anchor>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Advanced > Lock report]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Lock state report of current container page.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-page-editor/]]></target>
+            <uuid>0597a70a-d1c5-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[lock-report]]></anchor>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Advanced > Assign categories]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Opens a dialog to assign categories to the current container page.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Advanced > SEO options]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Tweak Search Engine Optimization options.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-page-editor/]]></target>
+            <uuid>0597a70a-d1c5-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[seo-options]]></anchor>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Publish queue]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Switch to the workplace app "Publish Queue".</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[About]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Display information about your OpenCms installation.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

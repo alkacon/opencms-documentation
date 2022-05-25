@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Dealing with warnings and errors]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>When you edit content values, fields you edit may get highlighted yellow or red. If so, the entered value does not comply with the intended format. Usually, you also get a warning or error message shown.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/ContentEditor_Warning.png]]></target>
+            <uuid>83fb575a-db26-11ec-8fb9-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[ContentEditor_Warning]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/ContentEditor_Error.png]]></target>
+            <uuid>9b1334ee-db26-11ec-8fb9-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[ContentEditor_Error]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>When errors or warnings appear in tabs, the tab is highlighted accordingly - either yellow or red. Errors or warnings in other languages you cannot see directly.</p>
+<p>But, what's the difference between errors and warnings? Warnings you can simply ignore, but errors will prevent saving changes. The save buttons will be deactivated when an error is present and pressing publish will result in an error message.</p>
+<div class="alert alert-info">Contents with errors (equal in which language) can not be saved. Contents with warnings can.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

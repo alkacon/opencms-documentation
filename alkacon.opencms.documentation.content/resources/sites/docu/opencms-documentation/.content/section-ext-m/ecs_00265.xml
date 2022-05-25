@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Editing bundles with descriptors 2]]></Title>
+    <Section>
+      <Caption><![CDATA[View switch]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If you have write access to the bundle descriptor, you can switch between "Adjust bundle" and "Translate" mode. In the "Adjust bundle" mode you can edit all information. In particular, you can add new keys or remove entries. In the "Translate" mode, you can only edit translations. The key set and all other information stored in the bundle descriptor is not editable.</p>
+<p>The editor opens in "Translate" mode.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Adjust visible columns]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>You can show or hide the columns of the extra information stored in the bundle editor (by default "Description" and "Default Value". When you open the editor for a bundle with descriptor only the non-empty of these columns are shown initially.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

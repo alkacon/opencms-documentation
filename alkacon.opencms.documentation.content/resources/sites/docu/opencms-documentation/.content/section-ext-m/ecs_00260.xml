@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[How to open the bundle editor]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The bundle editor opens, when you open a resource of type</p>
+<ul>
+<li>XML resource bundle (<code>xmlvfsbundle</code>)</li>
+<li>Property resource bundle (<code>propertyvfsbundle</code>)</li>
+<li>Bundle descriptor (<code>bundledescriptor</code>)</li>
+</ul>
+<p>by clicking it in the explorer or choosing <em>Edit</em> in the resource's context menu.</p>
+<div class="alert alert-info"><strong>We recommend using property resource bundles</strong> instead of XML resource bundles. XML bundles lost there benefit with the bundle editor and are deprecated by now.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

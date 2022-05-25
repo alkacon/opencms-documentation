@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The Clipboard]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/clipboardBigIconActive.png]]></target>
+            <uuid>df68804b-c9f9-11ec-a595-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+        </links>
+        <content><![CDATA[<p>By clicking on the on the <strong>Clipboard</strong> icon&nbsp;<img style="width: 14px;" title="clipboardBigIconActive" src="%(link0)" alt="" /> in the toolbar you can access your personal favorites and a list of elements you have recently used. You can directly add content from the clipboard to your page by drag &amp; drop.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/ClipboardRecent.png]]></target>
+            <uuid>fe458e0c-da51-11ec-8fb9-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[ClipboardRecent]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_normalsize/favoriteIconActive.png]]></target>
+            <uuid>ca96b6da-da56-11ec-8fb9-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+        </links>
+        <content><![CDATA[<p>You can add a content element to your favorites by using the&nbsp;<img dir="ltr" style="width: 14px;" title="favoriteIconActive" src="%(link0)" alt="favoriteIconActive" /> <strong>Add to favorites</strong> option shown when hovering over the element's edit point.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/AddToFavorites.png]]></target>
+            <uuid>136d8281-da52-11ec-8fb9-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[AddToFavorites]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>
