@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The different project state indicators]]></Title>
+    <Section>
+      <Caption><![CDATA[Not changed]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>There is no symbol if the resource is not manipulated in any project</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Changed in this project]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The flag indicates that the resource has changed in the currently selected project.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/icons_normalsize/project_this.png]]></target>
+            <uuid>70d0a4dd-e006-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[project_this]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Changed in another project]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The flag indicates that the resource was changed in a project other than the currently selected.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/icons_normalsize/project_other.png]]></target>
+            <uuid>70ccfb55-e006-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[project_other]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[In the publish queue]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The resource is about to be published. It is already added to the publish queue, but publishing is not finished yet.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/icons_normalsize/project_publish.png]]></target>
+            <uuid>70cf1e39-e006-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[project_publish]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

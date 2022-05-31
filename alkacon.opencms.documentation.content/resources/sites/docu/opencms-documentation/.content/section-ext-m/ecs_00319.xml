@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Writing native editor widgets]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/opencms-documentation/tree/branch_10_5_x/com.alkacon.opencms.documentation.examples.contenteditor.nativewidget]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>Adding your own widget for the content editor is fairly easy. Each widget has server-side and client-side code. There are two ways to implement your own widget:</p>
+<ul>
+<li>Implementing <em>native widgets</em>: This means that you write the widget in Java for the server-side part and in plain Java Script for the client-side part.</li>
+<li>Implementing <em>GWT widgets</em>: This means that you write the widget using GWT and that way you implement all the code in Java.</li>
+</ul>
+<p>Here we show an <em>example for a native widget</em>.</p>
+<div class="alert alert-danger">In this topic, we only show the output of the example. To understand it, <a href="%(link0)" target="_blank" rel="noopener">view the source (with an additional explanation) on GitHub</a>.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

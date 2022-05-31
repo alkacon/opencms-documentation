@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Module configuration]]></Title>
+    <Section>
+      <Caption><![CDATA[Package name]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A name according to the Java package name syntax. It is the unique identifier for the module. Typically names like <code>com.mycompany.xxx</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Module name]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A human readable name for the module.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Module description]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A description for the module</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Module version]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Version of the module. Specified in format <code>xx.xx.xx.xx</code>, e.g., <code>1.0</code> or <code>1.0.0.12</code> etc.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Module group]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A human readable name for a group of modules. It has no programmatical influence, but helps to keep an overview on which modules belong together. E.g., you may have several modules making up you template then you might group them by providing the same group name for all of them.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Action class]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/module/I_CmsModuleAction.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>The fully qualified name of a Java class implementing <a href="%(link0)">I_CmsModuleAction</a>. You write and configure such module actions to perform special actions during the OpenCms lifecycle if the module is installed, e.g., on startup or shutdown.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Import script]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>An OpenCms shell script that is triggered during installation right after the module's resources are imported.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Site]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The site relative to which the module resources are handled. Typically the root folder should be used.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Fixed import site]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If checked, the module can only be imported to the site specified in "Site". Otherwise, you can choose to import the (of course, formerly exported) module into another site. Typically, it makes sence to fix the import site to the root folder.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Author name]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Name of the modules author.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Author email]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>E-mail of the modules author.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Export with reduced meta-data]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/extending-opencms/development-setups/]]></target>
+            <uuid>bd7370a8-d1ce-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Check this option, to reduce the meta-information exported for the resources. This makes typically sence. In particular, it will prevent merge conflicts when you use version control for your modules. See in the <a href="%(link0)">topic about developer tools</a> for more information.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Auto-increment version]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Since OpenCms 11 the auto-increment mechanism is enhanced. If you export a module, it is checked if either the module resources or the configuration has changed. The version number is only updated if at least one of the two conditions if fulfilled.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Create module folder]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A modules resources are typically located und <code>/system/modules/{module package name}/</code>. Check this option to create that folder automatically.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Create templates subfolder]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/creating-a-website/creating-a-template-jsp/]]></target>
+            <uuid>95522bfc-d1c7-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>If checked, the folder <code>/system/modules/{module package name}/templates</code> is created automatically. In this folder the <a href="%(link0)">template JSPs</a> are typically placed.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Create i18n subfolder]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/localization/message-bundles/]]></target>
+            <uuid>2563f789-d1ca-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>If checked, the folder <code>/system/modules/{module package name}/i18n</code> is created automatically. In this folder the <a href="%(link0)">message bundles</a> are typically placed.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Create formatters subfolder]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/content-in-opencms/formatters-and-their-configuration/]]></target>
+            <uuid>8c2d82ed-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>If checked, the folder <code>/system/modules/{module package name}/formatters</code> is created automatically. In this folder the <a href="%(link0)">formatter JSPs and the corresponding formatter configurations</a> are typically placed.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Create lib subfolder]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If checked, the folder <code>/system/modules/{module package name}/lib</code> is created automatically. In this folder Java libraries shipped with the module are typically placed. The folder is then configured as export point to the webapp's lib folder on the RFS. Hence, after module installation and restart of the servlet container the library is automatically present.</p>
+<div class="alert alert-danger">Be careful shipping the libraries as part of the module and using the export point mechanism. In particular when replacing or deleting a module, your servlet container may crash, since - depending on the servlet containers configuration - it will miss the exported jar that is removed in module deletion. You might simply deploy your libraries separately to prevent such issues.</div>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Create resources subfolder]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If checked, the folder <code>/system/modules/{module package name}/resources</code> is created automatically. In this folder statically served contents are typically placed, e.g., images, css, javascript.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Module resources]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Specify which VFS resources belong to the module. If you specify a folder under "Included resources" the folder and the resources below will be added to the module resources, except the ones excluded via "Excluded resources"</p>
+<div class="alert alert-danger">Avoid overlapping of resources of different modules.</div>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Module parameters]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Module parameters are key-value pairs written as <code>key=value</code> that can be accessed in JSPs/Java classes. These parameters are typically used to configure options that are related to the specific OpenCms instance the module is installed on. E.g., if your module's code needs to connect to a database that might vary from installation to installation, you can provide the connection string as parameter.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Export points]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Via export points, you specify that a resource in the VFS - or a specific folder and all resources in it - should be exported to a specific place at the RFS. This is in particular used to export Java libraries or classes to the place where your servlet container expects them.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Dependencies]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A module can depend on other modules. Here you can specify this dependency. You can also specify the minimal version of the required module. Dependencies are checked when modules are imported or deleted. You are not allowed to break dependencies on import or deletion of a module.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

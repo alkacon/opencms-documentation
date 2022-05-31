@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Lock options]]></Title>
+    <Section>
+      <Caption><![CDATA[Lock / Unlock]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Lock or unlock the resource. Available for all resources.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Locked resources (folders only)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Shows resources in the folder that are locked by other users.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Steal lock]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If the resource is locked by another user, you can steal it.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

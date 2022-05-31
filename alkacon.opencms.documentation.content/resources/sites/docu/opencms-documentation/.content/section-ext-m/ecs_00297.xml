@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Current folder's content]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The current folder's content is displayed with several details. The details shown can be adjusted via the little gear-wheel that appears in the upper-right corner of the "Current folder's content" view (see "Adjust shown columns" in the screenshot). Interesting and not self-explanatory are</p>
+<ul>
+<li>the state highlighting</li>
+<li>the context menu options for a resource.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Default action]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Klicking on the name of a resource triggers the default action. The action depends on the type (and name suffix) of the resource. It typically is <strong>Display</strong> or <strong>Edit</strong> (in the most suitable editor). In the context menu, the default action is displayed in bold.</p>
+<p>The only exception are folders. Here, the default action is to open the folder. It is not listed in the context menu.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Sitemap status]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Since OpenCms 10.5 the explorer reflects if a page is shown in the sitemap (in the navigation). Title and Navigation properties are printed <strong>bold</strong> if the page is shown in the navigation.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Resource status information]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[the-folder-tree-78ba2a24]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>The state of a resource wrt. the online and offline versions is displayed as in the <a href="%(link0)">folder tree</a>, but the view of the current folder's content provides more status information on the resources. In particular you get:</p>
+<ul>
+<li>State indicators (colors as in the folder tree, but also lock and project state, as described in the respective subsections)</li>
+<li>Resource type specific icons</li>
+<li>Much more meta-information (what is displayed is configurable via the little gear-wheel in the upper-right corner of the "current folder's content" view)</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Lock state]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If a resource is edited, its lock state is shown as a little lock at the resource's icon. The lock is opened or closed and can differ in its color, depending on the lock state.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

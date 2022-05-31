@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinkSequenceData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/linksequence.xsd">
+  <LinkSequence language="en">
+    <Title><![CDATA[Related links]]></Title>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<p>Install the module and the jar (put the jar to the webapps lib folder before installing the module) in your OpenCms instance and then restart the servlet container. Afterwards, you should see the new context menu item "Greet -&gt; "Say Hello" in the context menu of non-folder resources.</p>]]></content>
+    </Text>
+    <LinkEntry>
+      <Text><![CDATA[Sourcecode on GitHub with more information on the example]]></Text>
+      <URI>
+        <link internal="false" type="WEAK">
+          <target><![CDATA[https://github.com/alkacon/opencms-documentation/tree/branch_10_0_x/com.alkacon.opencms.documentation.examples.contextmenuitem]]></target>
+        </link>
+      </URI>
+      <NewWindow>true</NewWindow>
+    </LinkEntry>
+    <LinkEntry>
+      <Text><![CDATA[The Jar of the OpenCms module containing the example]]></Text>
+      <URI>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/docu/.galleries/Documentation-Documents-for-download/com.alkacon.opencms.documentation.examples.contextmenuitem.jar]]></target>
+          <uuid>7b3100d4-e005-11ec-8d31-0242ac11002b</uuid>
+        </link>
+      </URI>
+    </LinkEntry>
+    <LinkEntry>
+      <Text><![CDATA[OpenCms module containing the example]]></Text>
+      <URI>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/docu/.galleries/Documentation-Documents-for-download/com.alkacon.opencms.documentation.examples.contextmenuitem.zip]]></target>
+          <uuid>7b326067-e005-11ec-8d31-0242ac11002b</uuid>
+        </link>
+      </URI>
+    </LinkEntry>
+  </LinkSequence>
+</LinkSequenceData>

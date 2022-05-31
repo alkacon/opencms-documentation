@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[ Information on the resource (and it's relations) ]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The information is available via the <strong>Info</strong> context menu entry.New text.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Links from element]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Lists all resources, the resource links to (has an outgoing relation)</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Attributes]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Summary on the attributes of the resource</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Links to element]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Lists all resources, that link to the resource (all incoming relations of the resource).</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Siblings (only if siblings exist)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Lists all siblings of the resource.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

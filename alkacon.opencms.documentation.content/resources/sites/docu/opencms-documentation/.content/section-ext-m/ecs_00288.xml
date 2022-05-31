@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Module import from the git repository]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Besides checking in changes to your git repository, you can reimport modules directly from the repository. Choose the "Import"-tab in the settings panel shown in the git integration app and select the module you want to import. Moreover, you can choose if you want to fetch the remote state of the repository and reset to the remote head before you import the module, or if you just import the current local version.</p>
+<div class="alert alert-info">Import basically zips the module resources. It does not compile any Java code.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Other options]]></Title>
+    <Section>
+      <Caption><![CDATA[Filters]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>On the left-hand side the app shows filters for categories, folders and date. Click on a filter option to filter your list.</p>
+<p>The shown options correspond to the filters that are always calculated when using the list. Hence, they correspond to the ones you can display in your list formatter on the website as well.</p>
+<p>Note that the categories filter will not be shown if none of displayed resources has a category attached.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Search]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>In the upper right corner a search field is displayed. Here you can filter the list contents via full-text search. You can add the same option to your list formatter at the website.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Content locale]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The list will behave differently depending on the locale of the page it is displayed. For example, sort options will behave differently, title and order can differ. Here, you can simulate how the list behaves for different locales.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Sort option]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The list has different sort options configured. In the list's presentation on the website you can have a fixed preselected order and you can also provide a select box on the sort options as provided here in the app. Changing the order here, you can simulate the lists behavior in the website.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Title / Date special columns]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>In the resources list, the columns for "Title" and "Date" are special in this app. The shown values correspond to the titles and dates used for sorting.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Blacklisting]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>In the context menu of a resource a special option "Blacklist" is present. Clicking it, the resource will not be shown in your list on the website. In the app, the resources is displayed as blacklisted (as commented in the above figure).</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

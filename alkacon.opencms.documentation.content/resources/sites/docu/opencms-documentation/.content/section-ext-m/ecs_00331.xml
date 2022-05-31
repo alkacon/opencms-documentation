@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[App specific toolbar options]]></Title>
+    <Section>
+      <Caption><![CDATA[Publish]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/typical-tasks/publishing-changes/]]></target>
+            <uuid>795017a9-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Opens the <a href="%(link0)">publish dialog</a> for publishing your changes.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/publishBigIconActive.svg]]></target>
+            <uuid>df8ef377-c9f9-11ec-a595-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[publishBigIconActive]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[New module]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Opens a dialog for creating a new module</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/searchBigIconActive.svg]]></target>
+            <uuid>dfa1df6b-c9f9-11ec-a595-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[searchBigIconActive]]></Title>
+      </Image>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/modules/]]></target>
+            <uuid>85b70871-d1c5-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[adding-a-new-module-c0a1010d]]></anchor>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Import module]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Opens a dialog to import a module either via HTTP or directly from the server.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/upload.svg]]></target>
+            <uuid>dfbae5f3-c9f9-11ec-a595-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[upload]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Module statistics]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Shows how many modules are installed.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/elementsBigIcon.svg]]></target>
+            <uuid>df759fcf-c9f9-11ec-a595-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[elementsBigIcon]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

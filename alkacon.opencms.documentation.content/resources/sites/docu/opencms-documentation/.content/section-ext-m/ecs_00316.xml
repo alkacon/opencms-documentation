@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The workplace apps added by the example]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The example adds a new app category "Example Apps" with the apps "List" and "Form". While "Form" documents the main features for workplace apps in a very simple way without any "useful" functionality, the "List" app displays a list of resources in the same way the explorer does and you can operate on these resources the same way.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/example-apps-in-launchpad.png]]></target>
+            <uuid>bcf8cb82-e011-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[The example's module installs the app category "Example Apps" with the two apps "Form" and "List"]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/example-apps-form.png]]></target>
+            <uuid>bcf6a89e-e011-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[The main view of the "Form" app]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/example-apps-list.png]]></target>
+            <uuid>bcfb3c86-e011-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[ The "List" app]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

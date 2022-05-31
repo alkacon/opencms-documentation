@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Context menu options for a single module]]></Title>
+    <Section>
+      <Caption><![CDATA[Information]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Opens a dialog that shows the modules package name, name and description and lists all resource types declared in this module (with name and id).</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Edit]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/modules/]]></target>
+            <uuid>85b70871-d1c5-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[adding-a-new-module-c0a1010d]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Opens a dialog for editing the module. The dialog is similar to the one for <a href="%(link0)">adding a new module</a>, but hides settings that should not be changed.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Delete]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Removes the module and deletes all resources belonging to the module</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Export]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Exports the module, including all module resources. A zip file is produces that can be imported again. The module itself remains on the system unchanged.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Explorer]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/explorer/]]></target>
+            <uuid>71c1c77d-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Opens the module folder in the <a href="%(link0)">explorer</a>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

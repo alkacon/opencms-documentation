@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Performing module actions via the network share]]></Title>
+    <Section>
+      <Caption><![CDATA[ Export a module]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Go to the <code>/modules/export/</code> folder of the VFS mount and copy the module zip of the module you like to export to another location. The module will be exported on the fly during the copy action.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Import a module]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Go to the <code>/modules/import/</code> folder of the VFS mount and paste the module zip of the module you want to import. The module will be imported on the fly during the paste action. When the import is finished, the zip file will vanish from the&nbsp;<code>/modules/import/</code> folder.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[ Delete a module]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Go to the <code>/modules/export/</code> folder of the VFS mount and delete the module zip for the module you want to delete. The module will be deleted on the fly during the delete action.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

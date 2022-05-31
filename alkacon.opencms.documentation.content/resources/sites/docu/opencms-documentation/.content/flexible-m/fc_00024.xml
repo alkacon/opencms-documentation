@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[A typical XSLT file]]></Title>
+    <Code><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+
+    <!-- Parameter containing the current file name. This is set by OpenCms.  -->
+    <xsl:param name="file" />
+    
+    <!-- Mandatory. The @dtd@ string is a special macro used by OpenCms to insert the correct DTD reference. -->
+    <xsl:output doctype-system="@dtd@" indent="yes"  />
+
+    <!-- 'Copy' rule used to copy everything that isn't matched by the other rules. -->
+    <xsl:template match="@* | node()">
+        <xsl:copy>
+            <xsl:apply-templates select="@* | node()"/>
+        </xsl:copy>
+    </xsl:template>
+
+    <!-- Adjust the site configuration -->
+    <xsl:template match="/opencms/system/sites">
+        <sites>
+            <workplace-server>http://days-demo</workplace-server>
+            <!-- ... other required nodes -->
+        </sites>
+    </xsl:template>
+
+</xsl:stylesheet>
+]]></Code>
+  </Flexible>
+</FlexibleData>

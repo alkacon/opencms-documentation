@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Lock types and symbols]]></Title>
+    <Section>
+      <Caption><![CDATA[No lock]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>No lock is shown, if the resource is not locked at all.New text.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Exclusive lock]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>An exclusive lock on single files and folders. You locked the resource</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/icons_normalsize/lock_user.gif]]></target>
+            <uuid>625a35df-e005-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[lock_user]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Inherited lock]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>An inherited lock. If a folder is locked, all resources inside the folder are locked. Possibly exclusive locks on the resources are replaced by inherited locks. You locked the folder.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/icons_normalsize/lock_user.gif]]></target>
+            <uuid>625a35df-e005-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[lock_user]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Shared lock]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>For resources with siblings, the resource that is worked on gets an exclusive lock, all other siblings get a shared lock to prevent concurrent manipulation of the siblings.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/icons_normalsize/lock_shared.gif]]></target>
+            <uuid>6258af3b-e005-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[lock_shared]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Others lock]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The lock indicates that the resource is locked by another user.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/icons_normalsize/lock_other.gif]]></target>
+            <uuid>62572897-e005-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[lock_other]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

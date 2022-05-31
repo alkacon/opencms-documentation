@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Search types]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The source search provides several search types that are the combination of different collect types and different match types, as you will notice in the description below.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Plain text]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Collection is performed via a database query directly on the VFS (get all values of the specified type under the specified folder). If you are in the online project, collection is performed for the online resources, if you are offline, the offline resources are collected.</p>
+<p>From the collected resources all are matched by interpreting them as plain text. In particular, for XML contents, you can also match the XML-nodes, because the XML file is interpreted as plain text.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[XML content values only]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Collection is performed via a database query directly on the VFS (get all values of the specified type under the specified folder).&nbsp;If you are in the online project, collection is performed for the online resources, if you are offline, the offline resources are collected.</p>
+<p>Matching on collected XML resources will only be performed on values in the XML content, not the XML structure itself. You additionally get options to restrict the parts of the content where matching should be performed, i.e., a locale and an XPath restriction.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Property search]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Collects all resources where the selected property is set and where the value matches the search pattern. Optionally, the matching property values can be replaced.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Elements in pages]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Collects all container pages where the specified element (path to the underlying XML content) is placed on. Optionally, the element can be replaced. Settings remain identically.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Rename nested containers]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Similarly to the "Elements in page" mode, all container pages the provided content is placed on are collected. Now you can rename nested containers made up by the elements. This can be interesting if your formatter for the element has changed and now the nested container has a different name. Unless you rename the container in all exsisting container pages, the contents in that containers will not display anymore.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[SOLR]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Collection is performed using the Solr search engine. If you are in the online project, only online indexes can be used for collection (e.g. Solr Online), if you are offline, only offline indexes (e.g., Solr Offline) can be used for collection. You can specify a Solr query directly. Also the information you provided in "Search folder" and "Resource type" will be merged in your Solr query.</p>
+<p>From the collected resources all are matched by interpreting them as plain text. In particular, for XML contents, you can also match the XML-nodes, because the XML file is interpreted as plain text.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[SOLR content values only]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Collection is performed using the Solr search engine. If you are in the online project, only online indexes can be used for collection (e.g. Solr Online), if you are offline, only offline indexes (e.g., Solr Offline) can be used for collection. You can specify a Solr query directly. Also the information you provided in "Search folder" and "Resource type" will be merged in your Solr query.</p>
+<p>Matching on collected XML resources will only be performed on values in the XML content, not the XML structure itself. You additionally get options to restrict the parts of the content where matching should be performed, i.e., a locale and an XPath restriction.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

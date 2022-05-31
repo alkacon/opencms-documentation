@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Modules]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>In OpenCms functionality and also content is encapsulated in modules. The default installation contains the modules for the core functionality and modules including demo content and functionality. If you add new functionality or resources, provide your own XML content types or write your own templates and formatters we recommend encapsulating the new functionality in a well-structured set of modules. Also web pages can be encapsulated in modules to move them easily between different OpenCms installations. Modules can be created, imported, exported, and (re-)configured via “Modules” app. Only in some rare cases manually touching configuration files is necessary.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

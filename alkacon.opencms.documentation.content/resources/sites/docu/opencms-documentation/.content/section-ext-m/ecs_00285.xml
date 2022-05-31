@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[ Reduced Import/Export format ]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Since OpenCms 10 two export formats for modules are present: a reduced and a verbose one. The difference is the data that is stored in the <code>manifest.xml</code> in the exported module zip file. <em>We recommend using the reduced export format</em> as long as you do not have a serious reason for exporting more information. The reduced format is in particular recommended if you track your changes in a version control system. The format omits lots of meta information. This information, e.g., who has when created or edited a resource, is typically unnecessary since your version control system will take record of these information anyway. Moreover, keeping the extra information also in the manifest file likely causes merge conflicts.</p>
+<p>To set the export format, go to the module management, select your module and edit it. As shown below, you have to check the setting "Use reduced export format"</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/ModuleManagementReducedExportFormat.png]]></target>
+            <uuid>52eed4fb-dff8-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Using the reduced module export format]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

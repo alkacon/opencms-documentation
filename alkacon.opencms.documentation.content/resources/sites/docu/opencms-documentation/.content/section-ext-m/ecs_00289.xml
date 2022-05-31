@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Git configuration]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The backend of the Git integration app a is a shell script and a configuration file placed under <code>{webapp home}/WEB-INF/git-scripts/</code>. The script <code>module-checkin.sh</code> is used to perform the git operations and the configuration is read from <code>module-checkin.conf</code>. A good starting point for writing your configuration is to copy the <code>module-checkin.conf.demo</code> file and adjust it to your needs. In particular, you should correctly configure your repository home and structure. Descriptions are found in <code>module-checkin.conf.demo</code>.</p>
+<p>The options you set in&nbsp;<code>module-checkin.conf</code> can be overwritten in most cases. You can overwrite them by passing parameters to <code>module-checkin.sh</code>. That's what the Git integration app does. It reads the default options from <code>module-checkin.conf</code> and then passes the possibly changed options as parameters.</p>
+<div class="alert alert-danger">If you use environment variables in the <code>module-checkin.conf</code> file, make sure that the Git app (i.e., Tomcat or alike) has these variables set.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

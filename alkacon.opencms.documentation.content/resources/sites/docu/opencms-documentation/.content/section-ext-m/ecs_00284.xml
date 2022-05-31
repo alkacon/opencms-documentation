@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The typical OpenCms development cycle]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[git-integration-0694d28d]]></anchor>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[module-import-and-export-via-the-network-share-c00a7a58]]></anchor>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[reduced-import/export-format-87938c46]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>OpenCms development involves writing Java source code, writing JSPs, creating modules, designing resource types and so on. Changes take place in pure Java code that's later on added as a jar, but changes also take place on VFS resources. Additionally, actions like creating a new module or a new resource type are optimally performed directly in OpenCms.</p>
+<p>Thus, it is valuable if development can take place directly on an OpenCms instance - that is either locally installed or on a remote server. But working exclusively on that instance, in particular when editing JSPs, will slow you down because you can't work in your normal development environment and will miss the features of your preferred IDE. The combination of both, working in your normal environment and at the same time on the OpenCms instance directly, provides a good development environment and can be reached by mounting the VFS - optimally inside a project of your favorite IDE. Doing so, you can edit resources as you are used to and directly reflect the changes to the VFS.</p>
+<p>The benefit of mounting the VFS is already great, but there is still a problem remaining: Typically, you use a version control system to track changes in your code. That means, you have to check in changes to that system frequently. The usual way to structure your code in the version control system is via module specific subfolders. In these folders you place the extracted module export plus the Java sources of a library that belongs to the module. But how to get the changes into the repository and back to an OpenCms instance? Up to OpenCms 10 this was an error prone process of many manual steps: Use the OpenCms module management to export the module you want to check in, clean the folder with the module resources in the repository, extract the exported module zip to the just cleaned folder, check in the changes.</p>
+<p>OpenCms 10 provides, at least on Linux systems, <a href="%(link0)">support for the check in of modules to a git repository,</a> as well as for the automatic (re-)installation of modules via the OpenCms workplace. Moreover, even not using the Git integration, <a href="%(link1)">module import and export is simplified</a>: Modules can be installed, removed, updated via special folders in the network share.</p>
+<p>Another burden that is tackled in OpenCms 10 is the problem of merge conflicts. Up to OpenCms 9.5, the manifest files of modules were always very verbose, providing various meta information for each resource (creation date, creator, date last modified, user last modified, ...). These information necessarily lead to merge conflicts. For example, if two different developers edited the same JSP a merge conflict was very likely. Even if the JSP itself could be merged, the manifest caused problems. Moreover, meta information on parent folders, not belonging to the module itself change frequently. In particular <code>/system</code> and <code>/system/modules</code> have different meta information on each installation. Hence, that data changed frequently in commits, even if nothing interesting changed at all. Thus, we had unnecessary, irritating changes in the commits. In OpenCms 10 one can choose between the normal export format, that is similar to the verbose one from OpenCms 9.5, and a <a href="%(link2)">reduced export format</a> that omits the export of potentially conflicting meta information.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Edit options]]></Title>
+    <Section>
+      <Caption><![CDATA[Edit (XML contents)]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/content-editors/the-form-based-editor/]]></target>
+            <uuid>2c5345c7-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Edit the content in the <a href="%(link0)">form-based content editor</a>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Edit sourcecode (text files)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Edit the sourcecode of the files in the integrated editor.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Properties]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Opens the properties dialog to view and change properties of the resource.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

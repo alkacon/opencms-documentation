@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Resource operations]]></Title>
+    <Section>
+      <Caption><![CDATA[Copy]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Copy the resource. A dialog is shown where you select the folder, where the resource should be copied. Furthermore, you specify the copy behavior. Note that drag &amp; drop of resources is also possible to open the dialog.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Move]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Move the resource. A dialog is shown where you select the folder, where the resource should be moved. Note that drag &amp; drop of resources is also possible to open the dialog.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Rename]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Rename the resource</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Delete]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Delete the resource. Note that the resource is still availabe online until the deleted resource is published. Therefore, deleted resources are only struck out and not removed in the explorer view of the offline project until they are published.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Undo changes]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Reset the offline version of the resource to the online version, losing all unpublished changes.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Replace (binary files only)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Upload another file that replaces the current one.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Permissions]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>View and change permissions set for the resource</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Assign categories (files only)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Edit the categories assigned to the resource.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

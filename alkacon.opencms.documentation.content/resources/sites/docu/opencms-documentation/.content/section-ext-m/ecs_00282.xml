@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Highlighting that indicates the resource state]]></Title>
+    <Section>
+      <Caption><![CDATA[black]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The resource is the same online and offline.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[gray]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The resource does not belong to the project you are currently working in. The current state will not be highlighted for such resources.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[blue]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The resource is new and was never published, i.e., it is only present in the offline version of the VFS.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[red]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The resource has changed, i.e., it is present in the online and the offline project, but the versions differ.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[crossed out]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The resource was deleted in the offline version of the VFS, but it still exists online, i.e., it has not yet been published since it was deleted.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

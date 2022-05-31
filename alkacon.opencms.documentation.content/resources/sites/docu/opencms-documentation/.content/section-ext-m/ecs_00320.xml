@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Search types 2]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Using Solr for the content collection allows you to apply very advanced collection criteria, it may also speed up collection. But for many cases, the "Plain text" search might be sufficient.</p>
+<div class="alert alert-info">If using Solr, please not that it is only used in the collection phase, match (and replace) are performed in a separate phase, that just takes the resources you collected via Solr. Thus, having a "Search pattern" (used only in the match phase) and a "Solr query" used only in the Collection phase makes perfect sense.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

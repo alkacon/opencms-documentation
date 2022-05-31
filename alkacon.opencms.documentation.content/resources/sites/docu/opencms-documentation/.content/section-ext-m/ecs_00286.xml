@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Git integration]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[git-configuration-7b1bafc8]]></anchor>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[module-import-from-the-git-repository-390d7011]]></anchor>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[git-configuration-7b1bafc8]]></anchor>
+          </link>
+          <link name="link3" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[using-the-git-integration-via-the-command-line-9596b5ad]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Checking in changes made on modules in OpenCms to a version control system can be quite cumbersome. The OpenCms Git integration tackles that problem. You simply configure where your repository is and which modules you want to check in or check out and install from the repository. Then the workplace app "Git integration" provides an easy way to check in or check out and install modules.</p>
+<div class="alert alert-info">The tool only works on Linux systems, since it uses a shell script for the git actions. Furthermore, git must be installed independently from OpenCms.</div>
+<p>Via the Git integration you can perform<a href="%(link0)"> check in</a> and <a href="%(link1)">(re-)installation</a> of modules from within the OpenCms and in just a few clicks. The figure shows the dialog for the tool when configured correctly.</p>
+<div class="alert alert-danger">Since OpenCms 11, the tool is only shown if a <a href="%(link2)">valid configuration</a> is present. To get more control on the checked-in changes, we recommend to <a href="%(link3)">use the feature from the shell</a> for most scenarios.</div>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/GitIntegrationDialog.png]]></target>
+            <uuid>74b6c03d-dff8-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[The workplace app "Git integration"]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

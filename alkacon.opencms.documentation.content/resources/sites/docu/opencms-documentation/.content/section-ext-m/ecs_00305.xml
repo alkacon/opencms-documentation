@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Publish options]]></Title>
+    <Section>
+      <Caption><![CDATA[Publish directly]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Publish the resource directly. For folders, all resources inside the folder will be published as well.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Publish scheduled]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Publish the (file) resource or all resources in a folder at a chosen date, alter or remove the scheduled publish date.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>
