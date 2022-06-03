@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Setup]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/introduction/getting-started/]]></target>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/server-installation/installing-opencms/the-setup-script/]]></target>
+            <uuid>87123ca5-d1ce-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>When OpenCms is deployed, it has to be set up. For a typical local installation, the setup wizard is used. If you can reach this wizard on your web server, you can use it as well. Therefore, follow the&nbsp;<a href="%(link0)">instructions for the local installation</a> and adjust the database configuration accordingly.</p>
+<p>The more convienent way will be to use the setup script for setting up OpenCms. You provide a configuration and then run the script. <a href="%(link1)">Here you can learn about the details</a>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

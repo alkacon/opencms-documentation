@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Adding a site]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/searchBigIconActive.svg]]></target>
+            <uuid>dfa1df6b-c9f9-11ec-a595-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+        </links>
+        <content><![CDATA[<p>Via the "Add site" option (<img style="width: 14px;" title="searchBigIconActive" src="%(link0)" alt="" />) in the toolbar, you can add a new site. If you click the option, a dialog appears:</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/websites_add_dialog_1.png]]></target>
+            <uuid>3856254a-e16c-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[websites_add_dialog_1]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The dialog has several tabs with many settings. Typically, the "Basic setup" options suffice to create a new site from scratch. If you have a site template that you like to copy when creating a new site, the "Create site options are the interesting ones.</p>
+<p>Be aware that some inputs will auto-fill or manipulate other fields.</p>
+<p>When you click "OK" in the dialog after filling in appropriate values, the following happens:</p>
+<ul>
+<li>The site folder with some essential resources in is created (if not already present before).</li>
+<li>The template property is set at the site's root folder.</li>
+<li>The site is configured in the <code>opencms-sites.xml</code> configuration file (under <code>{webapp home}/WEB-INF/config/</code>)</li>
+</ul>
+<p>When you use the "Create site options" to copy an existing site (template) as your new site, the complete site structure will be copied.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

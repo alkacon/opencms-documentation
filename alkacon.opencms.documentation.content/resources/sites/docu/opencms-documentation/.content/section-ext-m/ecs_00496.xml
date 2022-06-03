@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Affected versions]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Almost all Log4j versions are affected.</p>
+<p>Log4j of <strong>version 2</strong> is vulnerable starting with version 2.0 through 2.14.1.</p>
+<p>Log4j of <strong>version 1</strong> is not vulnerable by default but is if a JMS appender is configured.</p>
+<p><strong>OpenCms 11</strong> and newer integrates <strong>Log4j 2</strong> and is thus vulnerable.</p>
+<p><strong>OpenCms 10.5.x</strong> and older integrate <strong>Log4j 1</strong> and is thus not vulnerable by default.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

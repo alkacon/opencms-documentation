@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Page editor shortcuts]]></Title>
+    <Section>
+      <Caption><![CDATA[CTRL + e]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Switch to the next element view</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[CTRL + SHIFT + e]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Iterate through the edit levels (show edit points only for contents in containers with a certain nesting level) - helpful to deal with overlapping edit points</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[ESCAPE]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Cancel a drag &amp; drop operation</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[CTRL]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Pressed, when dropping an existing element into the page the "Copy or Reuse" dialog is shown</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

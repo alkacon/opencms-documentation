@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Advantages of the auto-setup]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>You always have the choice between using the setup wizard or the auto-setup. While the wizard provides a convenient way to setup OpenCms using a graphical interface, the auto-setup allows automating the setup.</p>
+<p>Here are some situations when the auto-setup is preferable:</p>
+<ul>
+<li>OpenCms should be installed on a server where you cannot access the setup wizard via a browser.</li>
+<li>You want to use the same configuration more than once.</li>
+<li>The configuration is provided by a person other than the one installing OpenCms.</li>
+<li>You want to automate the complete server setup, integrating OpenCms installation in a larger script.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

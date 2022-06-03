@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[OpenCmsUrlServletFilter]]></Title>
+    <Code><![CDATA[<init-param>
+  <param-name>additionalExcludePrefixes</param-name>
+  <param-value>/my-servlet-1|/my-servlet-2</param-value>
+</init-param>]]></Code>
+  </Flexible>
+</FlexibleData>

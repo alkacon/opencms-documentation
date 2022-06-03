@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Apache module configuration]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>to enable them in the default Apache installation on Ubuntu.</p>
+<p>We also assume you already have a default installation of Tomcat running on your server and OpenCms installed on it, according to the requirements for using it on a server in the web. The Tomcat configuration doesn't have to be adjusted for use with Apache yet.</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Learn how to install OpenCms on Tomcat correctly for using it on a web server]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/server-installation/installing-opencms/]]></target>
+            <uuid>4178b326-d1ce-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

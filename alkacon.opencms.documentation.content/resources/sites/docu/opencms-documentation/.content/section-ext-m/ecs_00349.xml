@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Image cache]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The image cache app allows to search via a regex on the image paths to search for cached images. For each image, an overview on the cached variations is provided. Moreover, in the toolbar, you can get the statistics of the cache's memory consumption and access to the cache flushing options for all caches.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/caches_image_cache_app.png]]></target>
+            <uuid>6909dad6-e166-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Image cache app]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/typical-tasks/writing-jsps/image-handling/]]></target>
+            <uuid>bc83ebc1-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<div class="alert alert-info">Get some more information on image handling in OpenCms <a href="%(link0)">here</a>.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

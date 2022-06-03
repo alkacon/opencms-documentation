@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Context menu options for sites ]]></Title>
+    <Section>
+      <Caption><![CDATA[Edit]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Edit the site's configuration. A dialog very similar to the one for adding a new site appears where you can change the site configuration.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Delete]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Deletes the site. You can choose to only delete the configuration or also the resources.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Explorer]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Opens the explorer in the site.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Page editor]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Opens the page editor for the main page of the site.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

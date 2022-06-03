@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Configuration]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<div class="alert alert-info">This configuration can be used with and without additional webserver infront of OpenCms.</div>
+<p>Since OpenCms 10.5, OpenCms provides a special servlet filter, named&nbsp;OpenCmsUrlServletFilter and configured in the <code>WEB-INF/web.xml</code>. It will add the "<code>/opencms</code>" servlet name in URLs when necessary. It is already configured by default. Hence you don't have to alter your configuration. You may only need to adjust the filter configuration if for some URLs the opencms servlet should not be called. These are typically URL prefixed with names of additionally installed servlets. In that case, add the following <code>init-param</code> to the filter configuration.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

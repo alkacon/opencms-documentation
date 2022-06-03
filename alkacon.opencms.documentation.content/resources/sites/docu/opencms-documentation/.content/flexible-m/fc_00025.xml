@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Background on the job configurations]]></Title>
+    <Code><![CDATA[<opencms>
+  <scheduler>
+    <job>
+      <name>Search index</name>
+      <class>org.opencms.search.CmsSearchManager</class>
+      <reuseinstance>false</reuseinstance>
+      <active>true</active>
+      <cronexpression>0 15 1 * * ?</cronexpression>
+      <context>
+        <user>Guest</user>
+        <project>Online</project>
+        <siteroot>/sites/default/</siteroot>
+        <requesteduri>/</requesteduri>
+        <locale>en</locale>
+        <encoding>UTF-8</encoding>
+        <remoteaddr>127.0.0.1</remoteaddr>
+      </context>
+    </job>
+  </scheduler>
+</opencms>]]></Code>
+  </Flexible>
+</FlexibleData>

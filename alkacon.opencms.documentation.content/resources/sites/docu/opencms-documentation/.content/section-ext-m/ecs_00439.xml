@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Improving XML unmarshalling performance]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>When OpenCms is the only webapp in your servlet container, you can alter the SAX parser configuration by adding the optional configuration node <code>&lt;sax-impl-system-properties&gt;</code> with value <code>true</code>, below the sites configuration in the <code>opencms-system.xml</code>, as shown below.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

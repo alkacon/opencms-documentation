@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Context settings]]></Title>
+    <Section>
+      <Caption><![CDATA[User name]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Name of the user that is used to execute the job.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Project]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Project in which the job is executed</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Site root]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The site root to which URLs are relative. By default this is "<code>/</code>"</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Requested URI]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The requested URI set in the context used when the job is executed. By default it is "<code>/</code>".</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Locale]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The locale set in the context used when the job is executed. By default it is "<code>en</code>".</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Encoding]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The character encoding set in the request context used to execute the job. By default it is "<code>UTF-8</code>"</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Remote address]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The remote address set in the request context used to execute the job. By default it is "<code>127.0.0.1</code>".</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

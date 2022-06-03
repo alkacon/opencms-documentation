@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Step 6: Divide the prototype into separate elements 3]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/content-in-opencms/formatters-and-their-configuration/nested-containers/]]></target>
+            <uuid>50efff2f-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Save and close the <code>main.jsp</code> and create a new JSP file at: <code>/system/modules/my.template/elements/main-nav.jsp</code>. Paste the content cut before into the newly created JSP. Afterwards repeat these steps for all dynamic parts of the <code>main.jsp</code>, except the main textual content. When you have finished, you should be able to click on the <code>index.html</code> that uses your template within the explorer view and the template prototype should still be displayed properly.</p>
+<div class="alert alert-info">Note that, alternatively to using includes, you could make everything, for example also navigation elements, a content. This may allow you a more flexible design, in particular with <a href="%(link0)">nested containers</a>. But, it's typically also more work. For the tutorial, we stick to the traditional approach of using includes.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

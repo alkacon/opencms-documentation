@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Options]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>When multiple contents with meta information appear on the same site, for example in a list, the problem occurs, which meta mappings should be performed. To avoid the issue, a checkbox was added to prevent the meta mappings. Is this box unchecked, the meta mappings are applied only if that formatter is used on a detail page for the detail content.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/MetaMapping_FormatterCheckbox.png]]></target>
+            <uuid>68f16153-e2ff-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[MetaMapping_FormatterCheckbox]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

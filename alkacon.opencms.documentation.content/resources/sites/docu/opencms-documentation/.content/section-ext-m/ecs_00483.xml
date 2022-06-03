@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Working with the OpenCms shell - 3]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<div class="alert alert-info">Be careful with relative paths on your real file system used in OpenCms shell commands: When connecting <strong>via RMI, paths are relative to your servlet-containers</strong> (e.g., Tomcats) <strong>home folder</strong>. When running in stand-alone mode, they are relative to your current folder. To prevent confusion, absolute paths might be preferrable.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

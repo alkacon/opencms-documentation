@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The <cms:device> tag]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The <code>&lt;cms:device&gt;</code> tag is an easy way to render a JSP device specific. It takes a comma separated list of contexts as attribute and renders it's body only if in a specified context. To use the tag, no context provider needs to be specified. The available contexts are the same as for the default template context provider.</p>
+<p>Here's an example JSP that uses <code>&lt;cms:device&gt;</code>:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Flex cache]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The Flex cache app lists all cached entries and via the context menu you can show the single cached variations. Moreover, in the toolbar, you can get the statistics of the cache's memory consumption and access to the cache flushing options for all caches.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/caches_flex_cache_app.png]]></target>
+            <uuid>69101c72-e166-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Flex cache app]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/caching-in-opencms/the-flex-cache/]]></target>
+            <uuid>9717a5e0-d124-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<div class="alert alert-info">Get more information on the flex cache <a href="%(link0)">here</a>.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

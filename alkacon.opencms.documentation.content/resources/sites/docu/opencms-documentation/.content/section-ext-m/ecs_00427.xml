@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Tested software versions]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>To run OpenCms you need</p>
+<ul>
+<li>a Java SE Development Kit (JDK)</li>
+<li>a database management system (DBMS)</li>
+<li>a servlet container</li>
+</ul>
+<p>Here we give an overview of versions of these software components on which OpenCms 10.5 has been tested.</p>
+<div class="alert alert-danger">That does not mean that you are tied to these versions, but they are recommended.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[OpenCmsUrlServletFilter in web.xml]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>For OpenCms <strong>versions &gt;= 10.5</strong> a servlet filter (<code>OpenCmsUrlServletFilter</code>) is configured in the <code>WEB-INF/web.xml</code>. Remove the filter and the corresponding mapping. The job the filter does, is done by your Apache web server in the described configuration.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

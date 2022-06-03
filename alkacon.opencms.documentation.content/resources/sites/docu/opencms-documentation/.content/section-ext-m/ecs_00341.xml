@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Further resource type configuration ]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Once you've created a resource type, you can edit it's configuration. Here you can edit some options that where not present on adding the type. In particular, you could change the type's icon and get more control on the localizations.</p>
+<div class="alert alert-info">Note: Changes are written to the opencms-modules.xml. Contents in the system are not changed. In particular you might break things when changing the type name, id or schema. To make you aware of this, you need to check the warning message at the top of the dialog before saving (pressing "OK") is allowed.</div>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/edit_resource_type.png]]></target>
+            <uuid>abfb1066-e0db-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Edit resource type dialog]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Changing the icons]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/.galleries/Documentation-Documents-for-download/oc-icon-24-overview.html]]></target>
+            <uuid>7b410676-e005-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>For each resource type an icon of size 16x16 pixels and an icon of size 24x24 pixels is needed. Traditionally, you place the icons <code>&lt;name&gt;.png</code> and <code>&lt;name&gt;_big.png</code> in the folder <code>/system/workplace/resources/filetypes/</code>. Or re-use icons already there. To do so, choose "Icon" as "File in VFS" and put the filenames in respective input fields. Do not forget to add the icon files to your module's resources if you do so.</p>
+<p>Since OpenCms 11, icons can be provided via image sprites, i.e., you have two sprites with a set of SVG icons, one containing all your icons for size 16x16, one containing the icons in size 24x24, and the corresponding CSS file with classes for each of the icons. If you use this mechanism, add the CSS classes that will display the icons in the dialog.</p>
+<p>Before you create your own icon set, you may think about using the default icons shipped with OpenCms. <a href="%(link0)" target="_blank" rel="noopener">Here</a>'s an overview on the present icons and the classes for 24px. Of course the icons exist in the 16px version as well.</p>
+<p>If you created your own icons in a sprite, you need to:</p>
+<ul>
+<li>create a sprite for 16px</li>
+<li>create a sprite for 24px</li>
+<li>create a <code>my-workplace.css</code> file referencing the icons (and including the sprite files) in the sprite via CSS classes, e.g. <code>my-icon-16-xxx</code> and <code>my-icon-24-xxx</code>.</li>
+</ul>
+<p>Put all the three files you created to a folder in your module - we suggest a <code>workplace-css</code> subfolder of the module folder and export that folder to subfolder of <code>resources/</code> that is specific for your module.</p>
+<div class="alert alert-info">The OpenCms demo will add it's own icons in the way described above. You may check the configuration for it to get a concrete example.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

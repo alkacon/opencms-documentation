@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Adjusting caching behavior]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/caching-in-opencms/the-flex-cache/]]></target>
+            <uuid>9717a5e0-d124-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Whenever a JSP renders device specific, i.e., dependent on the provided context, for each context variant, an extra version of the rendered HTML has to be cached. That means, whenever rendering depends on <code>${cms.template.name}</code> or <code>&lt;cms:device&gt;</code>: use the caching directive <code>device</code> to configure the flex cache for your JSP. For more information, see the <a href="%(link0)">topic about the flex cache</a>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

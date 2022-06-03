@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Requirements]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>We assume you have installed an <em>Apache web server, version 2.2 or higher</em>. In particular, we assume <em>the modules <code>mod_rewrite</code>, <code>mod_proxy</code> and <code>mod_proxy_ajp</code> are present and loaded</em>. All the modules are shipped with Apache in version 2.2 and higher. But you may have to enable them, e.g., using</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

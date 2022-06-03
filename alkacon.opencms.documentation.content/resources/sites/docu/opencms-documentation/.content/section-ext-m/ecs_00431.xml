@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Installing OpenCms]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>To make OpenCms work as expected on your server you should follow the hints given on this page.</p>
+<p>In particular, we say how to</p>
+<ul>
+<li>get rid of the first "<code>/opencms</code>" in the "<code>/opencms/opencms/</code>" part in URLs of OpenCms webpages,</li>
+<li>configure OpenCms to work with the Apache web server</li>
+</ul>
+<p>We assume you have already installed Tomcat as the servlet container.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

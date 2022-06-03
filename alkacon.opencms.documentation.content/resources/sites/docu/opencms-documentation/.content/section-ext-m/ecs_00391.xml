@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Step 4: Insert containers and enable "Advanced Direct Edit" 3]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/demos/advanced-container-usage/]]></target>
+            <uuid>dcde6a65-d1cc-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/tld/cms/container.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>For all other containers do <em>not</em> set <code>detailview</code> to <code>true</code>.</p>
+<ul>
+<li><a href="%(link0)" target="_blank" rel="noopener">Detour to some advanced usage of the <code>&lt;cms:container&gt;</code>-tag.</a></li>
+<li><a href="%(link1)" target="_blank" rel="noopener">Checkout the TLD-doc of the <code>&lt;cms:container&gt;</code>-tag.</a></li>
+</ul>
+<div class="alert alert-info">When your JSP contains a <code>&lt;cms:container&gt;</code>-tag you cannot preview the JSP directly anymore. You must use a container page using the template to see a preview. (See the next step on how to create one.)</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

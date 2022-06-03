@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[ Step 3: Adjust links to referenced resources 2]]></Title>
+    <Code><![CDATA[href="<cms:link>%(link.weak:/system/modules/my.template/resources/css/screen.css)</cms:link>"
+
+src="<cms:link>%(link.weak:/system/modules/my.template/resources/js/page.js)</cms:link>"]]></Code>
+  </Flexible>
+</FlexibleData>

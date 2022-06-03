@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Configuration of the default template context provider]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The default context provider is configured via the file <code>templatecontexts.json</code> in the folder <code>/system/shared/</code>. In the file, you can configure the devices available for preview. The devices are grouped by contexts "desktop", "tablet" and "mobile". This groups are fix for the default context provider. Configuration for the groups can be adjusted, but typically the default configuration is sufficient. Here is an excerpt from the default configuration:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

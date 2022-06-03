@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Columns of the resource types list]]></Title>
+    <Section>
+      <Caption><![CDATA[Icon]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The icon that is shown for the type and for contents of the type in the explorer, the add wizard and other places.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Display name]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The localized name of the type (in the user's workplace locale), as for example appears in the add wizard or in the information dialog for resources of the type.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Name]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The programatical name of the resource type used internally by OpenCms and as stored, e.g., in the <code>type</code> index field in Solr indexes. Hence, if you want to search only for resources of the type add a filter query <code>fq=type:{type name}</code> to your Solr query. The name <strong>must be unique</strong> for your installation.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[ID]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Id of the resource type. It is used internally by OpenCms. The id <strong>must be unique</strong> for your installation.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Module]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/background/the-module-system/]]></target>
+            <uuid>8d7dcf6b-d1b9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The definition of a resource type is part of a <a href="%(link0)">module</a>. Here the module, the type is defined in is listed. If no module is displayed, the type belongs to the OpenCms core.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

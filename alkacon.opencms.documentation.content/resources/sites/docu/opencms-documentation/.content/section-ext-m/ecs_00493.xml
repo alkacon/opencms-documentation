@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Relevant InnoDB Settings]]></Title>
+    <Section>
+      <Caption><![CDATA[innodb_flush_log_at_trx_commit]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>This controls when the InnoDB redo logs are flushed. By default, this is set to 1, which flushes them after every transaction for safety and can cause bad write performance. Set it to 0 or 2 instead.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[innodb_buffer_pool_size]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Controls the size of the InnoDB buffer pool, which is used for caching data. The MySQL documentation recommends a size of 80% of available memory for a dedicated database server. This benefits both read and write operations.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[innodb_log_file_size]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Controls the size of the InnoDB redo log. If this is too small, it will slow the system down if there are a lot of write operations (e.g. during imports), so it should be adjusted upward.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

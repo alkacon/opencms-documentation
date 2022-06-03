@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Configuration of the default template context provider ]]></Title>
+    <Code><![CDATA[{
+	"desktop": {
+		"niceName": "Desktop",
+		"path": "%(template)",
+		"variants": {
+			"small": {
+				"niceName": "Small desktop (1024)" ,
+				"width": 1024,
+				"height": 768
+			},		
+			"big": {
+				"niceName": "Large desktop (1280)" ,
+				"width": 1280,
+				"height": 800
+			}				
+		}				
+	},	
+
+	"tablet": {
+		"niceName": "Tablet", 
+		"path": "%(template)",
+		"variants": {
+
+			...
+
+		}
+	},
+	
+	"mobile": {
+		"niceName": { 
+			"en": "Mobile",
+			"de": "Mobil"
+		},
+		"path": "%(template)",
+		"variants": {
+
+			...
+
+		}
+	}	
+}]]></Code>
+  </Flexible>
+</FlexibleData>

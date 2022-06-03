@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Template context providers]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Template context providers are called before a webpage is rendered and set the context for which the page is rendered. OpenCms ships with a default context provider, that sets the context either dependent on the user agent string of the requesting browser or a chosen preview. The provider distinguishes three different device contexts:</p>
+<ul>
+<li>Desktop</li>
+<li>Tablet</li>
+<li>Mobile</li>
+</ul>
+<p>The context set by the provider can be explored by the template or by formatters and thus the generated webpage can be adjusted according to the context.</p>
+<p>If a context provider is specified, two additional options are available in the page editor:</p>
+<ul>
+<li>The context menu has an entry "Show in device" that allows to preview the page in various devices</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/DevicePreview.png]]></target>
+            <uuid>1a768a4e-e275-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[DevicePreview]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p><span class="oc-inline-editable" data-oc-id="http://opencms.org/resources/en/4fffe5a1-3ec4-11e4-a200-578a14069906" data-oc-field="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-figure.xsd/OpenCmsDocumentationFigure/Description">The device preview shows the current page as it appears in the chosen device in an overlay. In the background you see the original view on the desktop.<br />Note that the slider is missing in the preview - that's done by an element setting on the slider element.</span></p>
+<ul>
+<li>Each content element has a new setting "Show in devices" where it can be chosen for which devices an element is delivered.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/DeviceSettings.png]]></target>
+            <uuid>1a7a81f2-e275-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[DeviceSettings]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

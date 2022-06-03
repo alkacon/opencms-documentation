@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[To do for OpenCms installations]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Starting with OpenCms 13 (available in 2022), the Log4j vulnerability is not present any more. There is nothing to do.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[OpenCms Versions 11 and newer]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://logging.apache.org/log4j/2.x/download.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>Stop OpenCms.</p>
+<p>In your <code>{TOMCAT_HOME}/WEB-INF/lib/</code> folder, replace the currently used Log4j libraries</p>
+<pre>log4j-api-2.x.x.jar
+log4j-core-2.x.x.jar
+log4j-jcl-2.x.x.jar
+log4j-slf4j-impl-2.x.x.jar
+</pre>
+<p>with the most recent ones from <a href="%(link0)">https://logging.apache.org/log4j/2.x/download.html</a></p>
+<pre>log4j-api-2.17.1.jar
+log4j-core-2.17.1.jar
+log4j-jcl-2.17.1.jar
+log4j-slf4j-impl-2.17.1.jar</pre>
+<p>(At least Log4j version 2.16 is required.)</p>
+<p>Start OpenCms.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[OpenCms Version 10.5.x and older]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If you did not change the OpenCms Log4j default configuration there is nothing to do.</p>
+<p>Otherwise, or to be absolutely sure:</p>
+<p>Stop OpenCms.</p>
+<p>Remove the JMS appender class from the Log4j JAR file:</p>
+<p><code>zip -q -d {TOMCAT_HOME}/WEB-INF/lib/log4j-1.x.x.jar org/apache/log4j/net/JMSAppender.class</code></p>
+<p>Start OpenCms.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Arguments for calling the shell in stand-alone mode]]></Title>
+    <Section>
+      <Caption><![CDATA[-base]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Set the absolute path to the OpenCms installation's base directory, i.e., <code>{absolute path to the webapp home}/WEB-INF</code>. If not provided, the path is read from the system property <code>user.dir</code>. The start scripts set this argument automatically.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[-script]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<dl>
+<dd id="gwt-uid-113" class="mce-content-body mce-edit-focus" tabindex="0" contenteditable="true" spellcheck="false" data-oc-id="http://opencms.org/resources/en/a6ce90c6-4482-11e4-bfb4-6725b2578a6f/Entry[2]" data-oc-field="/Entry:opencms://system/modules/com.alkacon.opencms.documentation/schemas/nested/definition-list-entry.xsd/OpenCmsDocumentationDefinitionListEntry/Description">
+<p>Provide the path to a OpenCms shell script file. Such a file lists a series of OpenCms shell commands. The commands are all executed when handing the script to the shell on startup.</p>
+<div class="alert alert-danger">The last command in your OpenCms shell script should be <code>quit</code> or <code>exit</code>, because mixing batch mode and interactive mode is not supported.</div>
+</dd>
+</dl>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[-servletMapping]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The servlet mapping defined in the <code>web.xml</code> of the OpenCms installation. If not given <code>/opencms/*</code> is used as the default.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[-defaultWebApp]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The webapp name of the default webapp as configured for your servlet container. The default value is <code>ROOT</code>, as it is in a standard Tomcat installation.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[-additional]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/main/I_CmsShellCommands.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>Add additional shell commands by providing the fully qualified name of a class that implements&nbsp;<code><a href="%(link0)" target="_blank" rel="noopener">I_CmsShellCommands</a></code> to make all commands defined in that class available in the shell.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

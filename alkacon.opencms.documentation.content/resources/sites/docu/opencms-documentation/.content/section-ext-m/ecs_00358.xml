@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Provided classes to perform jobs]]></Title>
+    <Section>
+      <Caption><![CDATA[org.opencms.relations.CmsInternalRelationsValidationJob]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Checks internal relations and sends the result via email.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/relations/CmsInternalRelationsValidationJob.html]]></target>
+          </link>
+        </URI>
+        <NewWindow>true</NewWindow>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[org.opencms.scheduler.jobs.CmsPublishJob]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Supports time based publishing of a project.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/scheduler/jobs/CmsPublishJob.html]]></target>
+          </link>
+        </URI>
+        <NewWindow>true</NewWindow>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[org.opencms.scheduler.jobs.CmsStaticExportJob]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Creates a complete static export of a site.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/scheduler/jobs/CmsStaticExportJob.html]]></target>
+          </link>
+        </URI>
+        <NewWindow>true</NewWindow>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[org.opencms.relations.CmsExternalLinksValidator]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Checks external links (resource type "pointer").</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/relations/CmsExternalLinksValidator.html]]></target>
+          </link>
+        </URI>
+        <NewWindow>true</NewWindow>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[org.opencms.monitor.CmsMemoryMonitor]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Writes information about the server's memory usage to the OpenCms log-file.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/monitor/CmsMemoryMonitor.html]]></target>
+          </link>
+        </URI>
+        <NewWindow>true</NewWindow>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[org.opencms.search.CmsSearchManager]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Rebuilds search indexes.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/search/CmsSearchManager.html]]></target>
+          </link>
+        </URI>
+        <NewWindow>true</NewWindow>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[org.opencms.notification.CmsContentNotificationJob]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Sends notification emails to responsible users if content has not changed in a certain time period or is released or expired.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/notification/CmsContentNotificationJob.html]]></target>
+          </link>
+        </URI>
+        <NewWindow>true</NewWindow>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[org.opencms.scheduler.jobs.CmsCreateImageSizeJob]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Checks the size of all images in the OpenCms VFS and downscales them if configured.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/scheduler/jobs/CmsCreateImageSizeJob.html]]></target>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[org.opencms.scheduler.jobs.CmsImageCacheCleanupJob]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Clears the image cache for scaled images that exceed a specified age.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/scheduler/jobs/CmsImageCacheCleanupJob.html]]></target>
+          </link>
+        </URI>
+        <NewWindow>true</NewWindow>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[org.opencms.scheduler.jobs.CmsHistoryClearJob]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Clears the file history.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/scheduler/jobs/CmsHistoryClearJob.html]]></target>
+          </link>
+        </URI>
+        <NewWindow>true</NewWindow>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[org.opencms.scheduler.jobs.CmsDeleteExpiredResourcesJob]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Deletes expired resources.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/scheduler/jobs/CmsDeleteExpiredResourcesJob.html]]></target>
+          </link>
+        </URI>
+        <NewWindow>true</NewWindow>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[org.opencms.scheduler.jobs.CmsUnsubscribeDeletedResourcesJob]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Unsubscribes deleted resources.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/scheduler/jobs/CmsUnsubscribeDeletedResourcesJob.html]]></target>
+          </link>
+        </URI>
+        <NewWindow>true</NewWindow>
+      </Link>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

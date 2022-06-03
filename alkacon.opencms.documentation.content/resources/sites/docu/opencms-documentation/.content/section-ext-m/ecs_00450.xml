@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Software requirements]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/server-installation/tested-software-versions/]]></target>
+            <uuid>3950fdf4-d1ce-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/server-installation/tested-software-versions/]]></target>
+            <uuid>3950fdf4-d1ce-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[jdk-e983719a]]></anchor>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/server-installation/tested-software-versions/]]></target>
+            <uuid>3950fdf4-d1ce-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[servlet-container-affc295e]]></anchor>
+          </link>
+          <link name="link3" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/server-installation/tested-software-versions/]]></target>
+            <uuid>3950fdf4-d1ce-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[dbms-8e1c2221]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>We only mention relevant components.</p>
+<ul>
+<li><a href="%(link0)">See here to get an overview on tested software versions.</a></li>
+</ul>
+<p>In essence, to run OpenCms you need:</p>
+<ul>
+<li>A <strong>Java Development Kit</strong>: OpenCms requires JDK 8 or higher.
+<ul>
+<li><a href="%(link1)">List of compatible JDKs</a></li>
+</ul>
+</li>
+<li>A <strong>servlet container</strong>: OpenCms runs as servlet in a servlet container. We recommend <strong>Apache Tomcat</strong>.
+<ul>
+<li><a href="%(link2)">List of compatible servlet containers</a></li>
+</ul>
+</li>
+<li>A <strong>database management system</strong>: OpenCms stores all content in a database. It is best tested with MySql/MariaDB. But also other databases are supported.
+<ul>
+<li><a href="%(link3)">List of compatible database management systems</a></li>
+</ul>
+</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

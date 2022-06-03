@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Autosetup properties example]]></Title>
+    <Code><![CDATA[setup.webapp.path=/var/lib/tomcat7/webapps/opencms
+setup.default.webapp=ROOT
+setup.install.components=workplace,releasenotes,template3,devdemo,bootstrap
+
+db.product=mysql
+db.provider=mysql
+db.create.user=root
+db.create.pwd=password
+db.worker.user=root
+db.worker.pwd=password
+db.connection.url=jdbc:mysql://localhost:3306/
+db.name=db_opencms
+db.create.db=true
+db.create.tables=true
+db.dropDb=true
+db.default.tablespace=
+db.index.tablespace=
+db.jdbc.driver=org.gjt.mm.mysql.Driver
+db.template.db=
+db.temporary.tablespace=
+
+server.url=http://ci-9-5-x
+server.name=CI-9-5-X
+server.ethernet.address=
+server.servlet.mapping=]]></Code>
+  </Flexible>
+</FlexibleData>

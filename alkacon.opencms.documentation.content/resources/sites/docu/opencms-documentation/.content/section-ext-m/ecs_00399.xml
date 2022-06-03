@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Step 10: Create the pages of your website ]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-sitemap-editor/]]></target>
+            <uuid>0d5f13cb-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-page-editor/]]></target>
+            <uuid>0597a70a-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Once you have your template models, use the&nbsp;<a href="%(link0)">sitemap editor</a> to add new pages to your website. Edit the pages via the <a href="%(link1)">page editor</a>. Drag&amp;drop content to them and edit this content. And that's it.</p>
+<div class="alert alert-info">Congratulations to your new website!</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[ Final remarks ]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/opencms-core/blob/branch_11_0_x/src/org/opencms/configuration/opencms-modules.dtd]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>The resource type app typically suffices for the configuration of resource types. OpenCms provides some more configuration options for resource types that you have to put yourself in the manifest of your module or the <code>opencms-modules.xml</code>. To get some insight on the additional options, look at <a href="%(link0)">the DTD for the <code>opencms-modules.xml</code></a> - in particular look for <code>resourcetypes</code> and <code>explorertypes</code> and the sub-nodes.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Working with the OpenCms shell]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>We describe how to work with the OpenCms shell in interactive mode, i.e., without passing a script to the shell. But most information is also useful for writing scripts, because in batch mode, the shell starts exactly as in interactive mode - it's just that the commands you would type in interactive mode are all read from the given script.</p>
+<p>When the shell starts it starts a new OpenCms instance and displays some information on the startup process plus help information. When startup is finished, you'll see a prompt where you can type commands.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/OpenCmsShellStartUp.png]]></target>
+            <uuid>d283de27-e332-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[The OpenCms shell on startup]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The most important information is the help option on commands. You can get the signature of all available methods that make up commands, grouped by the classes that provide the methods, using <code>help *</code>. You can also search for signatures of methods whose name contains a special substring by typing <code>help {string}</code>. This search is <em>not</em> case-sensitive.</p>
+<p>Signatures are shown as <code>methodName(arg1,arg2,..,argn)</code>. To use the method as command type <code>methodName arg1 arg2 ... argn</code>.</p>
+<p>Let's see a very simple use case of the help function. You want to log in to OpenCms, but don't know exactly how. Thus, you search for login commands via <code>help login</code>. The shell will tell you:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

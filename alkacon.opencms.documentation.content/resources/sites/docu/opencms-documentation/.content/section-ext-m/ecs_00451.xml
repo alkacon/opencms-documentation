@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Running OpenCms in a Docker container]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>You can run OpenCms in a docker container without problems. Alkacon Software provides a docker image that can easily be adjusted to your needs. Have a look at:</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[https://hub.docker.com/r/alkacon/opencms-docker/]]></Text>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[https://hub.docker.com/r/alkacon/opencms-docker/]]></target>
+          </link>
+        </URI>
+        <NewWindow>true</NewWindow>
+      </Link>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

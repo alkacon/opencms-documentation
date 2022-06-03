@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[ Making a context provider available 2]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>When you set the template property via in the property dialog opened from sitemap or page editor, typically a select box appears where you can choose the available templates (listed with their <code>Title</code> properties as names). You can configure the value that is set if the template is chosen from this list. Set the <code>template.provider</code> property at your template to the appropriate value. For using the default provider (with the default configuration), set <code>template.provider</code> to:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

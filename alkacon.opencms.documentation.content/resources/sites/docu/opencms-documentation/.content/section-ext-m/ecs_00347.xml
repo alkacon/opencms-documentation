@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Flushing tools and options]]></Title>
+    <Section>
+      <Caption><![CDATA[Core Cache]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Core cache flushing always flushes the whole cache. No options are available. What exactly happens depends on your installation. Technically, an event is sent that can be handled in various places.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Flex Cache]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>For flushing, you can choose if you want to flush the cache for online resources and if you want to flush the whole cache (keys and variations), or only the stored variations of HTML output.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Image Cache]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The image cache flushing tool allows a date to be specified, such that only images (image variations) are removed that have not been requested after the given date.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Initialize the workplace]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Reinitializes workplace related options, e.g. the workplace message bundle. Additionally the core cache is flushed.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[JSP Repository]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The JSP repository can only be flushed completely. Afterwards, all JSPs that are requested must be exported to the server again, before they are executed.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

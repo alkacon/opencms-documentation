@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The interface to manage scheduled jobs]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>In the administration view, you'll find the "Scheduled Jobs" administraion. When you click it, the "Scheduled Jobs Management" opens.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/AdministrationScheduledJobs.png]]></target>
+            <uuid>264b9a60-e168-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[AdministrationScheduledJobs]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The "Scheduled Jobs Management"-view provides options to create a new job (magic wand in the toolbar) and to view the list of existing jobs.</p>
+<p>Via the context menu of a job you can</p>
+<ul>
+<li>Edit the job</li>
+<li>Activate/deactivate the job</li>
+<li>Copy the job</li>
+<li>Delete the job</li>
+<li>Run the job manually.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

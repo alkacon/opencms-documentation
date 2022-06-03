@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Arguments for calling the shell via RMI]]></Title>
+    <Section>
+      <Caption><![CDATA[-registryPort]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The port to connect via RMI. This must be provided. The value is the port specified in the opencms-system.xml. E.g., for the configuration as examplified above, you must add <code>-registryPort=1101</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[-script]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Takes an OpenCms shell script to execute. If provided the shell will run in batch mode. E.g., you could add the option <code>-script=myscript.ocsh</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[-additional]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Provide an additional class with shell commands, e.g., when having OCEE cluster installed, you could put the option <br /><code>-additional=org.opencms.ocee.cluster.CmsClusterShellCommands</code>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

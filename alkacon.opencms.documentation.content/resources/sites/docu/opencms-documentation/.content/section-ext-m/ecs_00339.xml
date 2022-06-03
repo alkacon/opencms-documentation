@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Fields of the "Add resource type" dialog]]></Title>
+    <Section>
+      <Caption><![CDATA[Name]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The <strong>unique</strong> name of the resource type. The resource type is made available in OpenCms under that name. If a resource type with the given name already exists in the OpenCms installation, you get an error message and are asked to change the name.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[ID]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A natural number that is used as <strong>unique</strong> id of the resource type. If a resource with the same id already exists in the OpenCms installation, you get an error message and are asked to change the id. You should use ids with at least 5 digest to not get into conflicts with OpenCms internal ids. Moreover, it is recommended to pre-define an id range for your project/template.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[XPath element name]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The name of the content type used in the XML Schema definition. Before OpenCms 11, the name had to be unique in your OpenCms installation. Since OpenCms it does not have to be unique.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Display name]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-page-editor/]]></target>
+            <uuid>0597a70a-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The localized resource type name that is used for example in the “Add content”-dialog in the page editor (see <a href="%(link0)">here</a>). The given name is set as the value for the language specified by your current workplace locale (or in the locale of te bundle file specified under "Message bundle") at keys <code>type.my-type.name</code> (e.g., used as name of the type in the "Add wizard") <code>type.my-type.title</code> (used as title in add dialogs) <code>type.my-type.formatter</code> (used as display name of the automatically generated formatter) in the module’s bundle specified under "Message bundle" in the dialog.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Description]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-page-editor/]]></target>
+            <uuid>0597a70a-d1c5-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[sec_creating_new_content]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>The localized resource type description that is used for example in the “Add content”-dialog in the page editor (see <a href="%(link0)">here</a>). It is set as the value for the language specified by your current workplace locale at the key <code>type.my-type.description</code> in the module’s bundle specified under "Message bundle" in the dialog.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Message bundle]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/localization/message-bundles/]]></target>
+            <uuid>2563f789-d1ca-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The message bundle where the values for the keys for display name, description, etc. are stored to. This should be workplace bundles. See <a href="%(link0)">here</a> for more information on bundles. Typically, the default value has not to be changed.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Module config]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/creating-a-website/ade-configuration/content-element-configuration/]]></target>
+            <uuid>51aa1d06-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The resource type is configured in the <a href="%(link0)">module configuration</a> provided here. Typically, the default values has not to be changed.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Parent folder of schema]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/content-in-opencms/defining-the-schema-of-a-content-type/]]></target>
+            <uuid>80637aaa-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The folder where a dummy <a href="%(link0)">schema definition (XSD)</a> for the type is added to. Typically, the default values has not to be changed.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Parent folder of formatter]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/content-in-opencms/formatters-and-their-configuration/]]></target>
+            <uuid>8c2d82ed-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The folder where a <a href="%(link0)">dummy formatter and formatter configuration</a> for the type is added to. Typically, the default values has not to be changed.&nbsp;</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

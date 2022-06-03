@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Setup automatization]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/server-installation/installing-opencms/the-setup-script/]]></target>
+            <uuid>87123ca5-d1ce-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/server-installation/opencms-shell/]]></target>
+            <uuid>5afc399c-d1ce-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The OpenCms setup can be completely automatized via the <a href="%(link0)">Auto-Setup</a> and the <a href="%(link1)">OpenCms shell</a>.</p>
+<p>Read the according topics, or have a look at the OpenCms docker to get an impression of a completely automatic setup.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

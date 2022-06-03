@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Step 7: Make the extracted elements dynamic]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/modules-v8/blob/branch_8_5_x/modules/com.alkacon.opencms.v8.template3/resources/system/modules/com.alkacon.opencms.v8.template3/elements/menu/nav_main.jsp]]></target>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/typical-tasks/writing-jsps/]]></target>
+            <uuid>715565e8-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/building-a-page-navigation/]]></target>
+            <uuid>a08c785f-d1c7-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>This part can also only be described in an abstract way because these steps depend on the specific project requirements. Anyway, the following description should be enough to get a picture of what needs to be done. Let’s make the main navigation shown above dynamic by copying and pasting the content of the file <code><a href="%(link0)" target="_blank" rel="noopener">nav_main.jsp</a></code> from the modules-v8 into the <code>main-nav.jsp</code> created one step before. Have a look at the section about the&nbsp;<a href="%(link1)">OpenCms JSP API</a> of this documentation in order to get an impression about how to use the OpenCms specific tag library. A good starting point is also to "copy" from the current demo template shipped with OpenCms.</p>
+<ul>
+<li><a href="%(link2)">Here's more information on building a navigation.</a></li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

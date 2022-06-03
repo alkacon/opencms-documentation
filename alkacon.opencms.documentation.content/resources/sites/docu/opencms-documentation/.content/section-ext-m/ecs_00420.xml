@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Meta mappings]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/demos/meta-mappings/]]></target>
+            <uuid>63e8e147-d1cd-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Meta mappings, introduced in OpenCms 11, allow you to map information, specified in the content editor, to another element or the template of your site. Since the meta mappings are executed before the JSP is rendered, you can call the meta information of your content from any point of the same page. You simply define in your content editor which information should be mapped. This eases for example the adding of metadata to the head of your detail pages.&nbsp;Here, the required information for the meta-tags is automatically generated from the content and can be transferred to the header of the page.&nbsp;To gain a better understanding of this situation, see the demonstration <a title="A demonstration of meta mappings" href="%(link0)">here</a>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Step 4: Insert containers and enable "Advanced Direct Edit" 2]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Somewhere in the prototype there might be a sections with content that should be addable via drag&amp;drop. Remove the HTML of these sections and place <code>&lt;cms:container&gt;</code>-tags instead. This will enable the content manager to place elements easily via “drag &amp; drop”. For the main content part you could choose the tag like</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

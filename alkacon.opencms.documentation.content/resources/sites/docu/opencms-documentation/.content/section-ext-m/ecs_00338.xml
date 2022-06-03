@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Adding a new resource type]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/searchBigIconActive.svg]]></target>
+            <uuid>dfa1df6b-c9f9-11ec-a595-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+        </links>
+        <content><![CDATA[<p>To add a new resource type, click the add wizard in the toolbar (<img style="width: 14px;" title="searchBigIconActive" src="%(link0)" alt="" />). A dialog pops up, where you can configure the new type.</p>
+<p>In a first step, you choose the module, the type should be part of. Therefor, you get a list of the currently installed modules. Select the one, you want to add the resource type to and click "OK".</p>
+<p>Next, a dialog is shown where you can configure the type:</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/add_resource_type_1.png]]></target>
+            <uuid>abf7b502-e0db-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Add resource type dialog]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A dialog appears where you can configure the new resource type. The following properties can be set:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

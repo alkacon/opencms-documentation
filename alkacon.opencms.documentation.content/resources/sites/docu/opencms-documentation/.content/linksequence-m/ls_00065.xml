@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinkSequenceData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/linksequence.xsd">
+  <LinkSequence language="en">
+    <Title><![CDATA[Related links]]></Title>
+    <LinkEntry>
+      <Text><![CDATA[CVE-2021-44228 in the National Vulnerability Database]]></Text>
+      <URI>
+        <link internal="false" type="WEAK">
+          <target><![CDATA[https://www.lunasec.io/docs/blog/log4j-zero-day/]]></target>
+        </link>
+      </URI>
+    </LinkEntry>
+    <LinkEntry>
+      <Text><![CDATA[Original post by the IT security service provider]]></Text>
+      <URI>
+        <link internal="false" type="WEAK">
+          <target><![CDATA[https://nvd.nist.gov/vuln/detail/CVE-2021-44228]]></target>
+        </link>
+      </URI>
+    </LinkEntry>
+  </LinkSequence>
+</LinkSequenceData>

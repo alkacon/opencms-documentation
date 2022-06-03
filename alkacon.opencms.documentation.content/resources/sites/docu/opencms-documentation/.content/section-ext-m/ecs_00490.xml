@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Relevant Query Cache Settings]]></Title>
+    <Section>
+      <Caption><![CDATA[query_cache_type]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Set to <code>1</code> to enable the query cache.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[query_cache_limit]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Maximum size in bytes to one query result stored in the query cache. <code>131072</code> is a suitable value for an OpenCms installation.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[query_cache_size]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Size in bytes available to the query cache.&nbsp;<code>67108864</code> is a suitable value for an OpenCms installation.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

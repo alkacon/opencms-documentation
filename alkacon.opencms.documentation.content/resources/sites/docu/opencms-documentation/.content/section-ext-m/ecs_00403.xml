@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Attributes supported by <cms:headincludes>]]></Title>
+    <Section>
+      <Caption><![CDATA[type (required)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Type of the allowed includes. Allowed values are <code>css</code> and <code>javascript</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[defaults (optional)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>List of CSS / javascript files that should be included by default. The files are given as “|”-separated list.<br />Example: <code>defaults="%(link.weak:/path/to/my/default.css)</code><code>|%(link.weak:/path/to/my/alternative.css)"</code></p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[closetags (optional)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If set to <code>true</code>, the HTML-tags produced by <code>&lt;cms:headincludes&gt;</code> are all closed according to the XHTML standard. Otherwise they are not explicitly closed if not necessary - as common practice.<br />Default: <code>false</code></p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[detailtype (optional)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Set the value to the type of the container that has the attribute <code>detailview</code> set to <code>true</code>. This may increase performance.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[detailwidth (optional)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Set the value to the width of the container that has the attribute <code>detailview</code> set to <code>true</code>. This may increase performance.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

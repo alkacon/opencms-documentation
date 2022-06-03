@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Blob Size Setting - 2]]></Title>
+    <Section>
+      <Caption><![CDATA[max_allowed_packet]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Set as as large as the largest BLOB in the database. A suitable value for OpenCms is <code>256M</code>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>
