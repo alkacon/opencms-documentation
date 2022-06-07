@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[An example of navigation 2]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspNavigationBean.html]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/jsp/CmsJspNavElement.html]]></target>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/building-a-page-navigation/changing-the-navigation-behaviour/]]></target>
+            <uuid>0301b2fb-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link3" internal="false" type="A">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/jsp/CmsJspNavElement.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>The interesting spots of this JSP are the use of the <code>&lt;cms:navigation&gt;</code> tag and the iteration through the <code>&lt;c:forEach&gt;</code> loop. The <code>&lt;cms:navigation&gt;</code> tag exposes the attribute <code>nav</code> to the page scope. It is of type&nbsp;<code><a href="%(link0)">org.opencms.jsp.util.CmsJspNavigationBean</a></code>. Its main property is items, that returns a list of <code><a href="%(link1)">org.opencms.jsp.CmsJspNavElement</a></code>s, but it also has some other properties, e.g., <code>isActive</code> as used also in the example. The list depends on the other attributes specified in the <code>&lt;cms:navigation&gt;</code> tag. In our example, we specify that:</p>
+<ul>
+<li>we get only entries between the navigation levels 1 and (including) 4 by settings <code>startLevel</code> and <code>endLevel</code> accordingly.</li>
+<li>we get the navigation of type <code>treeForFolder</code>, that means, all resources from the startLevel of the navigation, i.e., from level one in the example, plus all resource on the path of the currently requested page plus its direct subpages. But, all the subfolders only up to the specified <code>endLevel</code>.</li>
+</ul>
+<p>By setting the <code>type</code> attribute differently, different lists of navigation elements are returned and these lists can also be adjusted by additional attributes such as <code>startLevel</code> and <code>endLevel</code>. In our example, we could set, for example, additionally the attribute <code>resource</code> and provide a VFS path to a resource. Then the navigation would not be built relative to the currently requested resource, but to the one specified via the attribute.</p>
+<p>In the <code>&lt;c:forEach&gt;</code> loop we render each item from the list of navigation entries. The entries provide various useful information on the entry. See the JavaDoc for an overview. In the example, we use the properties</p>
+<ul>
+<li><code>navTreeLevel</code>, to get the navigation level of the entry</li>
+<li><code>navigationLevel</code>, to check if the entry is a <a href="%(link2)">navigation level</a></li>
+<li><code>resourceName</code>, to get the link for the navigation</li>
+<li><code>navText</code>, to get the navText property of the resource where the element links to.</li>
+</ul>
+<p>Furthermore, we check if the currently rendered navigation entry links to the requested page. Therefore, we use the property <code>isActive</code> of the <code>CmsJspNavigationBean</code> (that is exposed by <code>&lt;cms:navigation&gt;</code>) to check if the navigation element's resource matches the currently requested page.</p>
+<p><code>CmsJspNavElement</code> exposes more properties to build up navigation. Check the&nbsp;<a href="%(link3)">JavaDoc</a> for details.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

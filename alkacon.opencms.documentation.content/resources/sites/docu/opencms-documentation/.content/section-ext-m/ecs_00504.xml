@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Changing the navigational behavior of pages]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[navigation-level-d25a315a]]></anchor>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[hidden-entries-4cd6b328]]></anchor>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[pages-ignored-by-navigation-ab817904]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>The internal structure of your site need not always be identical to the navigational structure. Here we describe features of OpenCms that allow you to differentiate the navigational structure from the internal folder structure.</p>
+<p>These features are:</p>
+<ul>
+<li><a href="%(link0)">Navigation levels</a></li>
+<li><a href="%(link1)">Hidden entries</a></li>
+<li><a href="%(link2)">Pages ignored by navigation</a>.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

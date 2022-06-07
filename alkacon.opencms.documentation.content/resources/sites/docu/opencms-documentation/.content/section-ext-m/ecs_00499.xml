@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[ Requirements for dynamic site navigation]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p><em>Site navigation must adjust itself if the site structure changes.</em> In OpenCms you can add or remove pages from your website dynamically. These changes should be mirrored automatically in the site navigation. If a page is removed, it should not appear anymore. If a page is added, it should be reachable via navigation. In OpenCms you can write such dynamic navigation using the <code>&lt;cms:navigation&gt;</code> tag.</p>
+<p><em>One navigation item must be usable on several pages.</em> Typically, you write a navigation item (of one type) and display it on various pages of your website. The entries in the navigation fit to the very page on which it is placed.</p>
+<p><em>There are differents types of navigation.</em> A webpage can often provide various approaches to navigation: there could be top navigation, bringing you to the main pages of your website, there may be side navigation that displays where the current page is placed in the navigation tree and that is used to navigate relative to that page. And last, there are breadcrumbs that tell you the way from the home page of your site to the current page. OpenCms provides support for all three of these navigational types.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

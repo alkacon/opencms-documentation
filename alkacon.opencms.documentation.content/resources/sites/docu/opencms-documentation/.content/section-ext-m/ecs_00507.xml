@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Hidden entries]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/building-a-page-navigation/]]></target>
+            <uuid>a08c785f-d1c7-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Hidden entries are container pages or other pages which are not visible in a navigation menu built with <code>CmsJspNavBuilder</code>, and hence in all <a href="%(link0)">navigation built with the <code>&lt;cms:navigation&gt;</code> tag</a>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Description]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Since OpenCms 8.5, resources which should not be included in the navigation menu on the website can be directly hidden by using the sitemap editor. The hidden pages are still visible in the sitemap editor and can also be edited.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/NavigationHiddenEntry.png]]></target>
+            <uuid>7672f8d8-e624-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[NavigationHiddenEntry]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>This feature is supposed to be useful for pages, which are hidden in navigation but</p>
+<ul>
+<li>appear directly under predefined urls like contacts, search, location pages etc.</li>
+<li>detail pages for resources.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Usage]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<ul>
+<li>Open the sitemap editor.</li>
+<li>Open the context menu and select "Hide in navigation".</li>
+<li>Use context menu item "Show in navigation" to enable the navigation properties for the page again.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/NavigationHiddenEntryMakeVisible.png]]></target>
+            <uuid>767569dc-e624-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[NavigationHiddenEntryMakeVisible]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

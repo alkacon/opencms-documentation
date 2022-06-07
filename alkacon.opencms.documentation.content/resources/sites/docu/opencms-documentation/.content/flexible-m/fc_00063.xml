@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Handling navigation implementation]]></Title>
+    <Code><![CDATA[<cms:navigation type="treeForFolder" startLevel="1" endLevel="4" var="nav"/>
+<c:forEach items="${nav.items}" var="elem">
+    <%-- ... --%>
+    <a href="<cms:link>${elem.resourceName}</cms:link>"
+        <c:if test="${nav.isActive[elem.resourceName] and !elem.navigationLevel }">class="current"</c:if>
+        ${elem.navText}
+    </a>
+    <%-- ... --%>
+</c:forEach>]]></Code>
+  </Flexible>
+</FlexibleData>

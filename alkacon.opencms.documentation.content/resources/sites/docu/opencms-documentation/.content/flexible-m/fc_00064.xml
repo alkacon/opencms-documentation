@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[The content's schema]]></Title>
+    <Code><![CDATA[<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+
+	<xsd:element name="DemoContentData" type="OpenCmsDemoContentData"/>
+
+	<xsd:complexType name="OpenCmsDemoContentData">
+		<xsd:sequence>
+			<xsd:element name="DemoContent" type="OpenCmsDemoContent" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsDemoContent">
+		<xsd:sequence>
+			<xsd:element name="Title" type="OpenCmsString" />
+			<xsd:element name="Text" type="OpenCmsHtml" />
+			<xsd:element name="Image" type="OpenCmsVfsFile" />
+            <xsd:element name="LinkURI" type="OpenCmsVarLink" />
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+		    <resourcebundles>
+                <propertybundle name="my.template.messages" />
+            </resourcebundles>
+			<FieldSettings>
+                <Setting>
+                    <PropertyName>Title</PropertyName>
+                    <Widget>string</Widget>
+                    <Default>%(key.type.demo-content.title)</Default>
+                </Setting>
+                <Setting>
+                    <PropertyName>Text</PropertyName>
+                    <Widget>html</Widget>
+                    <WidgetConfig>height:400px,link,anchor,source,downloadgallery,formatselect</WidgetConfig>
+                </Setting>
+                <Setting>
+                    <PropertyName>Image</PropertyName>
+                    <Widget>imagegallery</Widget>
+                    <WidgetConfig>{useformat:true}</WidgetConfig>
+                    <Search>false</Search>
+                </Setting>
+                <Setting>
+                    <PropertyName>LinkURI</PropertyName>
+                    <Widget>file</Widget>
+                    <Search>false</Search>
+                    <Display>singleline</Display>
+                </Setting>
+            </FieldSettings>
+		</xsd:appinfo>
+	</xsd:annotation>
+
+</xsd:schema>]]></Code>
+  </Flexible>
+</FlexibleData>

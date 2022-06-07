@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Pages ignored by navigation]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/building-a-page-navigation/]]></target>
+            <uuid>a08c785f-d1c7-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Pages that are ignored in navigation are neither visible in the (default view) of the sitemap editor, nor in any <a href="%(link0)">navigation build with the <code>&lt;cms:navigation&gt;</code> tag</a>. The difference compared to hidden entries is that they are completely hidden in the sitemap editor's default view.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Description]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>In the folder structure of a website in OpenCms there are various resources that should not be displayed in the sitemap. For example, these are:</p>
+<ul>
+<li><code>.content/</code> folders</li>
+<li>configuration files</li>
+</ul>
+<p>These resources should typically not be shown in the sitemap view of the sitemap editor either. Hence, ignoring them is what you should do.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Usage]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>To ignore a page/resource in the sitemap:</p>
+<ul>
+<li>Open the sitemap editor</li>
+<li>Open the context menu of the page you want to ignore</li>
+<li>Choose "Remove from sitemap"</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/RemoveFromSitemap.png]]></target>
+            <uuid>877ed557-e624-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[RemoveFromSitemap]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>To add a removed page/resource to the sitemap:</p>
+<ul>
+<li>Open the sitemap editor</li>
+<li>Switch to the "Resources" view</li>
+<li>Choose "Add to sitemap" on the context menu of the respective resource</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/AddToSitemap.png]]></target>
+            <uuid>878209ab-e624-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[AddToSitemap]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>
