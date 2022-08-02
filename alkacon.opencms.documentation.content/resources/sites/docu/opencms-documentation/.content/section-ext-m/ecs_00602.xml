@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Tabs of the preferences dialog]]></Title>
+    <Section>
+      <Caption><![CDATA[Basic preferences]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Holds the most important user preferences.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Extended preferences]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Holds preferences that solely affect the traditional workplace. For content editors this workplace is more and more redundant and thus the settings are not important for most users. Furthermore, they can typically also be set via the preferences dialog of the traditional workplace.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Account]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Shows account information and allows users to change their password.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

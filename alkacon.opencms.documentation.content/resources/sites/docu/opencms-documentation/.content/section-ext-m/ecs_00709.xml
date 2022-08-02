@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[OpenCms support of Solr features]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>OpenCms supports most Solr features and in most cases behaves exactly like a plain Solr server. But, due to the permission checks, you will experience the following restrictions:</p>
+<ul>
+<li>The number of results to return is by default restricted to 400. You can change this as described here.</li>
+<li>Features that could cheat the current permission check are disabled:
+<ul>
+<li>Grouping</li>
+<li>Expanding of results</li>
+</ul>
+</li>
+</ul>
+<p>For most use cases, this restrictions should not cause a problem. If you really need more flexibility, you could configure your own special index on an external Solr server and request it directly.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

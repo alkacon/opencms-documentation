@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Localization widget]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The localization widget provides a standard HTML form input field for overwriting localized values of a resource bundle. The resource bundle is configured with the widget configuration attribute. An optional key name to look up in the bundle can be given, too, in case it is different from the element name: <code>key=mykey</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/ContentEditor_LocalizationWidget.png]]></target>
+            <uuid>2e4e7b92-eadd-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Layout of the localization widget]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The locale to get the value for can be configured, by adding a configuration directive: <code>locale=en</code>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

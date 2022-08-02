@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[New features in OpenCms 10.0]]></Title>
+    <Section>
+      <Caption><![CDATA[A completely reworked workplace]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>OpenCms 10 features a completely reworked workplace with a modernized look &amp; feel.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/]]></target>
+            <uuid>cd282cfa-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Features that ease the development process]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>OpenCms 10 adds several features to improve the development experience. In particular</p>
+<ul>
+<li>Git version control is integrated</li>
+<li>Module management can be performed via the network share</li>
+<li>The module export format has been adjusted to prevent merge conflicts in version control systems</li>
+<li>OpenCms configuration can be adjusted dynamically on start-up via XSLT</li>
+</ul>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/extending-opencms/development-setups/developer-tools/]]></target>
+            <uuid>f1777a4f-d1ce-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Support for the implementation full text searches]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>With the <code>&lt;cms:search&gt;</code> tag OpenCms 10 provides an easy way to implement a feature-rich full text search.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/more-opencms-features/solr-search-integration/full-text-search-with-solr/]]></target>
+            <uuid>a544c884-d1ca-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Building lists via <cms:search>]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Up to OpenCms 9.5 lists were build using &lt;cms:contentload&gt;. Since OpenCms 10 <code>&lt;cms:search&gt;</code>, <code>&lt;cms:display&gt;</code> and <code>&lt;cms:edit&gt;</code> provide a much more powerful way to build list.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/demos/list-and-detail-pages-ii/]]></target>
+            <uuid>bd98530f-d1cd-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Drag'n'drop images into contents]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>OpenCms 10 allows to drag'n'drop images directly from galleries into contents. The new feature makes image handling much more intuitive for content editors. Moreover, it is very easy to add to existing contents.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/demos/image-dragndrop/]]></target>
+            <uuid>51220f43-d1cd-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Model groups]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>For headers and footers, it is valuable to manage their content in a central place and just render them on all web pages. Model groups, in particular reuse groups, enable the implementation of that scenario. Moreover, the experimental copy groups allow to arrange several container page elements and drag'n'drop them as a whole to a container page.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/groups-of-content/]]></target>
+            <uuid>c7803d09-d1c7-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Macro formatters]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>With the introduction of nested containers in OpenCms 9.5 it became possible to build up a website from layout elements and "real" content element, that render text or images. In particular in combination with responsive design frameworks this technique proved to be very powerful. But to wrap the full flexibility of a responsive design framework in your template, you either had to write very complex formatters, or dissect your contents into very tiny snippets and loose semantical relations, or force the editor to place the same content several times but rendered with different formatters on the same page.</p>
+<p>Macro formatters takle this problem.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/formatters-and-their-configuration/macro-formatters/]]></target>
+            <uuid>627614a2-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

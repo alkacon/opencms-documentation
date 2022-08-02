@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Accessing values in JSPs]]></Title>
+    <Code><![CDATA[<c:if test="${value.FurtherInfo.value.Link.exists 
+            && (value.FurtherInfo.value.Link.value.VariableLink.isSet 
+            || value.FurtherInfo.value.Link.value.LinkGallery.isSet 
+            || value.FurtherInfo.value.Link.value.DownloadGallery.isSet)}">
+   <c:choose>
+       <c:when test="${value.FurtherInfo.value.Link.value.VariableLink.isSet}">
+	    <c:set var="infolink">
+               ${value.FurtherInfo.value.Link.value.VariableLink}
+           </c:set>
+	</c:when>
+	<c:when test="${value.FurtherInfo.value.Link.value.LinkGallery.isSet}">
+	    <c:set var="infolink">
+               ${value.FurtherInfo.value.Link.value.LinkGallery}
+           </c:set>
+	</c:when>
+       <c:when test="${value.FurtherInfo.value.Link.value.DownloadGallery.isSet}">
+	    <c:set var="infolink">
+                ${value.FurtherInfo.value.Link.value.DownloadGallery}
+           </c:set>
+	</c:when>
+   </c:choose>
+   <c:set var="infotext">${infolink}</c:set> ...
+   <div class="boxbody_listentry">
+       <c:set var="link"><cms:link>${infolink}</cms:link></c:set>
+       <a href="${link}">${infotext}</a><br/>
+   </div>
+</c:if>]]></Code>
+  </Flexible>
+</FlexibleData>

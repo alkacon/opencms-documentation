@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Lists with the integrated list type]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Since version 11, OpenCms ships with an integrated list type that supports the collection of list entries via Solr and features:</p>
+<ul>
+<li>Full text search</li>
+<li>Sorting by title, date or order</li>
+<li>Blacklisting of contents</li>
+<li>Various time range constraints</li>
+<li>Pagination, even with different page sizes</li>
+<li>Filter facets for categories</li>
+<li>Filter facet for folders</li>
+<li>Range facet for time ranges (year and month, as useful for archives)</li>
+</ul>
+<p>Lists of that type even have a dedicated workplace app for managing the list.</p>
+<p>The integrated list is designed to ease list creation. OpenCms 10 introduced the <code>&lt;cms:search&gt;</code> tag and propagated it's use for building lists. Since for most use cases the tag is far too powerful and hence unnecessarily complicated to configure, the integrated list type with all its related features (e.g., a new tag <code>&lt;cms:simplesearch&gt;</code>) is the easy to configure way of building lists that are sufficient for most use cases.</p>
+<p>Using the integrated list, all you need to do is writing a formatter for it.</p>
+<p>This topic explains the integrated list type and directs you to other topics that describe features that are relevant for building lists as well.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

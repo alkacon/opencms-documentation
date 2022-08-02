@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Rebuild the category tree for the categories assigned to a content]]></Title>
+    <Code><![CDATA[<c:set var="categories" value="${content.readCategories}" />
+<c:if test="${not content.readCategories.isEmpty}">
+  <ul>
+    <c:forEach var="category" items="${categories.topItems}">
+      <li>${category.title}
+        <c:set var="subCategories" value="${categories.subCategories[category.path]}" />
+        <c:if test="${not content.readCategories.isEmpty}">
+          <ul>
+            <c:forEach var="subCategory" items="subCategories.topItems">
+              <li>{subCategory.title}</li>
+            </c:forEach>
+          </ul>
+        </c:if>
+      </li>
+    </c:forEach>
+  </ul>
+</c:if>]]></Code>
+  </Flexible>
+</FlexibleData>

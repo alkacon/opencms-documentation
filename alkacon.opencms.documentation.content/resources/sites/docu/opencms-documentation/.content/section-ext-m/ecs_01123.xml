@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Settings for file uploads]]></Title>
+    <Section>
+      <Caption><![CDATA[Upload folder]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Specifies the folder to which files are uploaded.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Max. upload size]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If set, the size (in bytes) of each file that can be uploaded is limited to the set value.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Valid extensions]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A list of file extensions separated by “;”. If set, only files with listed extensions can be uploaded. Otherwise, there is no restriction on file extensions.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

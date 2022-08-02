@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Creating and editing model groups]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Model groups can be viewed as part of the template. They are managed via the "Templates" view of the Sitemap editor. Each model group is a complete container page with one element marked as root element of the group. I.e., it consists of the group content itself and the surrounding structure. That means, creating a model group is creating a container page and marking what element is the root of the group. When the group is used, only the marked element (and all elements nested in it) are used.</p>
+<div class="alert alert-info">In OpenCms 10.0 you created and edited multiple model groups on one page. This is not possible anymore. Model groups created with version 10.0 can still be used, but not edited anymore.</div>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/TemplateView_ModelGroupPages.png]]></target>
+            <uuid>4e8fcb11-e663-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Model group pages in the sitemap editors template view]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/creating-template-models/]]></target>
+            <uuid>b69ca905-d1c7-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The model groups should use your template and you build up (part of) the site structure exactly as for your normal container pages. The special features are: An element can be marked as a reuse or copy group. Furthermore, for copy groups the copy behavior of each element in the group (except the root element that is always reused) can be adjusted as well - similar to the "Copy this element" setting in <a href="%(link0)">template models</a>. For elements in copy groups the "Copy this element" setting is available as well, but has no influence, since everything is reused.</p>]]></content>
+      </Text>
+      <Image>
+        <Image/>
+        <Title><![CDATA[The special element settings available when editing model group]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/ModelGroupOptions.png]]></target>
+            <uuid>4e896265-e663-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[ModelGroupOptions]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>&nbsp;</p>
+<p>You mark an element as copy or reuse group via a specific element setting, shown in the screenshot.</p>
+<div class="alert alert-info">You can copy a template to create a model group by using it's context menu option "Copy for model group".</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Further configuration for template models]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>When you add a new template model, the container page is created (in the current sitemap's subfolder <code>.content/.templates/</code>) and configured as a model in the sitemap configuration. In this configuration file (<code>.content/.config</code> under the sitemap's main folder) you have further configuration options, found under the tab "Templates". You can:</p>
+<ul>
+<li>disable all template models configured in parent sitemaps.</li>
+<li>set a model that is used as the default if a page is created without explicitly choosing a model</li>
+<li>select a single template model as disabled (which makes sense in particular if the model is enabled in a parent sitemap)</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/TemplateModels_SitemapConfigurationFile.png]]></target>
+            <uuid>727508ac-e62a-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Configuring template models in the sitemap configuration]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

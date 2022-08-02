@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Module configuration 2]]></Title>
+    <Section>
+      <Caption><![CDATA[Content elements]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Defines a content type‘s name and name pattern, default folder, formatter and more.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/ade-configuration/content-element-configuration/]]></target>
+            <uuid>51aa1d06-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Property configuration]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Defines which properties get displayed under the "Basic Properties" tab for the property dialog in the ADE.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Functions]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/content-in-opencms/special-predefined-content-types/dynamic-functions/function-detail-pages/]]></target>
+            <uuid>f8388cdc-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-sitemap-editor/]]></target>
+            <uuid>0d5f13cb-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Define named functions that are shipped with the module. For named functions, <a href="%(link0)">function detail pages</a> can be added in the <a href="%(link1)">sitemap editor</a>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

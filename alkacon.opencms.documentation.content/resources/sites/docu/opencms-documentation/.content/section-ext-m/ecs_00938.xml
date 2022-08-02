@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Writing the JSP for PDF rendering]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>For PDF generation you need a special JSP that renders to strict XHTML 1.0 and that is styled with CSS 2.1 suitable for printable, paged media. That's what Flying Saucer, the library for PDF generation, expects as input.</p>
+<p>In the JSP you can</p>
+<ul>
+<li>use the <code>&lt;cms:formatter&gt;</code> tag to access the content you provided via the content attribute of the <code>&lt;cms:pdf&gt;</code> tag.</li>
+<li>use <code>&lt;cms:contentload&gt;</code> to access any other contents</li>
+<li>use all other features as in a normal formatter JSP</li>
+</ul>
+<p>But one thing you should take into account:</p>
+<div class="alert alert-danger">You should make sure to generate valid, strict XHTML 1.0 and style mainly with CSS 2.1.</div>
+<p>The restriction is due to Flying Saucer, which expects such an input format. Here is a template for a JSP used for PDF generation. Note that the title in the HTML head section is used to generate the name of the PDF.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

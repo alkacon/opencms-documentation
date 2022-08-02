@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Lists and links to detail pages]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>When you collect your events in a list built with Solr, you will get each single event listed. The current event instances start date is stored in the Solr document's field <code>instancedate_{locale}_dt</code>. The date series bean provides access to the single instance via <code>${dates.instanceInfo[{start date}}</code>, where <code>{start date}</code> is what you get from <code>instancedate_{locale}_dt</code>. In combination. you could have a list formatter like this:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

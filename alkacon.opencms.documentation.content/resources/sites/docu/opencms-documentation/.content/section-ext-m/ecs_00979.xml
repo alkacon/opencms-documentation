@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Field "Include name"]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Sometimes, it is desired to have two slightly different element settings. But for reasons of consistency they shall have the same <code>Setting name</code>in the formatter configuration, with which you call them in your JSP. Applied to the example above, you can limit the number of date formats to select, and still call the shortened list with the same EL annotation. This is enabled by the field <code>Include name</code> in the formatter configuration.</p>
+<p>At first, the alternative element setting is added to the configuration file.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/CommonSettings_DateModConfiguration.png]]></target>
+            <uuid>d988bc10-f76f-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Configuration file with modified element setting added]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The modified element setting can now be included to the formatter configuration by setting its name to the field <code>Include name</code>.</p>
+<div class="alert alert-info">The setting name given in the formatter configuration determines how the element setting is called in your JSP. Note, that in this case, it is the same as the one above.</div>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/CommonSettings_DateModFomatterConfiguration.png]]></target>
+            <uuid>d98a90d4-f76f-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Include name to use modified element setting]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The dropdown menu for the date format in the window "Element settings" now shows less options to choose, but in both cases, in the JSP the element setting is called by the annotation <code>${cms.element.settings.dateFormat}</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/CommonSettings_ModElementSettings.png]]></target>
+            <uuid>d990ab60-f76f-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Element settings with a limited number of choices]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

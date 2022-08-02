@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Server-side preparation for a UGC session 3]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>In the formatter, only two lines are special: The use of the <code>&lt;cms:ugc&gt;</code> to initialize the session and the parameter at the <code>&lt;form&gt;</code> tag. Note that this serves equally well for editing existing content (when providing the UUID of the content to edit via the <code>fileId</code> parameter) or creating a new content (when not providing a <code>fileId</code> parameter).</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

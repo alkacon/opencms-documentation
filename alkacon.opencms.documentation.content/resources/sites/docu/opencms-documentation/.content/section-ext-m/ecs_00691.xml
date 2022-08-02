@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Solr search integration]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>After searching with plain Apache's Lucene for years, Apache Solr has grown and grown and can now be called an enterprise search platform that is based on Lucene. It’s a standalone enterprise search server with a REST-like API. You put documents in it (called "indexing"). You query it via HTTP GET and receive XML, JSON, or binary results. Additionally, you can connect via a special Java API (SolrJ).</p>
+<p>OpenCms ships with an embedded Solr Server and already indexes resources for you. Moreover, it provides various ways to search with Solr. These ways range from support for building lists of contents without any Solr knowledge to sending queries to Solr directly and using the power of all Solr features either on the server or on the client directly.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

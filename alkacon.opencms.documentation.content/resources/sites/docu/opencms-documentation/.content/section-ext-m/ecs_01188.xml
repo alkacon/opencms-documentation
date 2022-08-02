@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Adding a language switcher 3]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The most interesting bits of the language switch code are</p>
+<ul>
+<li><code>${cms.availableLocales}</code>, which provides you the available locales for the currently requested resource</li>
+<li><code>&lt;cms:link locale='${locale}'&gt;...&lt;/cms:link&gt;</code>, where the <code>locale</code> attribute determines the language for the generated link.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

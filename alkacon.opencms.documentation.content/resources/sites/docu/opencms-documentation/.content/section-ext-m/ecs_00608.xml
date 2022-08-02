@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Attributes of a preference node]]></Title>
+    <Section>
+      <Caption><![CDATA[name (required)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Name of the preference. The name is used internally as an identifier for the preference.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[value (optional)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Default value of the preference.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[nice-name (optional)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A nice name for the preference. It is displayed in the preference dialog. If not given, the <code>name</code> attribute is displayed</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[description (optional)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Additional information on the preference. It is displayed when hovering over the preference's (nice) name in the preference dialog.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[widget (optional)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The widget used for the preference in the preference dialog. If not configured, the String widget is used. (<em>There are some settings where special widgets are used, e.g. language, project, site and folder selection. These widgets are chosen dependent on the preference <code>name</code>.</em>)</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[widget-configuration (optional)]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/content-editors/the-form-based-editor/]]></target>
+            <uuid>2c5345c7-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Configuration of the used widget. See&nbsp;<a href="%(link0)">here</a> for information on widget configuration.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[rule-regex (optional)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A regular expression, that the value of the preference must match. If another value is chosen, the specified error message is shown.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[error (optional)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The message displayed if the value chosen for the preference is invalid.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

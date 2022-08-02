@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Accessing the VFS via WebDAV]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The OpenCms WebDAV servlet is available below the <code>/webdav</code> path of your OpenCms installation.</p>
+<p>WebDAV is enabled by default, there are no special configurations needed.</p>
+<p>In order to disable the WebDAV servlet, comment the servlet mapping in the <code>&lt;CATALINA_HOME&gt;/webapps/&lt;OPENCMS&gt;/</code><code>web.xml</code> file of your Tomcat installation:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Forcing synchronization for a schema element 2]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/field-settings/]]></target>
+            <uuid>069bfb76-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>In the above code snippet, value synchronization is enabled for the content element specified by the XPath <code>Paragraph/Image/Image</code>. If the value is edited in the content editor for one language, it is changed for all languages.</p>
+<div class="alert alert-info">Synchronizations must be specified in the root content. In nested contents the specification is ignored.</div>
+<p>Since OpenCms 11, the synchronization can also be configured with the preferable&nbsp;<a href="%(link0)">field settings</a>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

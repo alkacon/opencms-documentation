@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Configuring the formatter to use for the detail content]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Since the detail content is not dropped to the detail view manually, but inserted automatically, the formatter has to be chosen automatically as well.</p>
+<p>To chose the formatter used to render the detail content:</p>
+<ul>
+<li>Choose the option "Use as detail formatter" in the formatters configuration</li>
+</ul>
+<p>You can have more than one detail formatter for content of a certain type. Either, you choose to have detail containers with different type restrictions, such that the different formatters fit only for the different container types each, or you make use of a template detail content, as explained below.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Choosing detail formatter and settings via a template detail content]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>From OpenCms 11 onward, you can preset detail formatter and element settings used to render detail contents in detail views. Just place a dummy content of the detail content type directly into the detail container on the detail page. Choose the detail formatter and all the element settings to use at this dummy content. When a detail view for a "real" content is called, the dummy content will vanish, since the content in the detail container is replaced by the real content. But, the "real" content will use formatter and element settings as defined for the dummy content.</p>
+<div class="alert alert-info">A side-effect of using the detail page to preset formatter and settings is, that the page itself does not contain valueable content. It should hence be hidden in the navigation and the <code>search.exclude</code> property should be set to <code>true</code> to prevent searches from finding the page. For the "dummy" content the <code>search.exclude</code> property should be set to <code>true</code> as well, unless you use a content that should be findable.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Configurable post processor 3]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The specified class for the parameter <code>search.solr.postProcessor</code> must be an implementation of <code>org.opencms.search.solr.I_CmsSolrPostSearchProcessor</code>.</p>
+<div class="alert alert-info">The default indexes have a post-processor configured that add a "link" field to the documents. It contains the correct link to the search result. This is in particular required when using the Solr handler, but also for server-side search queries it can be useful: You get rid of a <code>&lt;cms:link&gt;</code> tag.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

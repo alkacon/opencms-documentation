@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Location picker widget]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://www.google.de]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[https://developers.google.com/maps/]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>The location picker widget allows to select a location via a map and to store information about the selected location and how it should be displayed in a map. The widget works for <a href="%(link0)">Google Maps</a>, displays a Google Maps map in the widget and stores the data relevant to display a map using the <a href="%(link1)">Google Maps API</a>. Be sure to meet the licence conditions when using Google Maps.</p>
+<p>If a location is chosen, the widget looks as in the screenshot below:</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/ContentEditor_LocationPickerWidget1.png]]></target>
+            <uuid>2e500236-eadd-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[The localization picker widget]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The next screen shows the dialog that opens when you alter the location via the widget. The dialog's appearance depends on the widget's configuration. The dialog below is displayed for the default configuration that allows all values stored by the widget to be changed. To change the values, you can edit them manually. But for changing the address and the coordinates, you can also move the placemark in the map.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/ContentEditor_LocationPickerWidget2.png]]></target>
+            <uuid>2e51fe0a-eadd-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Choosing a location via the location picker widget]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The location picker widget can be used for elements of type <code>OpenCmsString</code>. It is configured as shown in the example below.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

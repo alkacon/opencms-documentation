@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Server-side validation of values 2]]></Title>
+    <Code><![CDATA[function validateHandler(errors) {
+    // form validation handler that displays the results of the server side validation in a simple alert
+    if ($.isEmptyObject(errors)) {
+        alert("The values are valid!");
+    } else {
+        var out = "The following errors occurred:\n"
+        for ( var key in errors) {
+            out += "\n" + key + " : " + errors[key];
+        }
+        alert(out);
+    }
+}]]></Code>
+  </Flexible>
+</FlexibleData>

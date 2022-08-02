@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Creating template models]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/searchBigIconActive.svg]]></target>
+            <uuid>dfa1df6b-c9f9-11ec-a595-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+        </links>
+        <content><![CDATA[<p>Template models are container pages that you add to the sitemap via the sitemap editor. When you click on <img dir="ltr" style="width: 14px;" title="searchBigIconActive" src="%(link0)" alt="searchBigIconActive" /> <strong>Create page</strong>, the available template models are shown in the tab "Container pages".&nbsp;When dragging a template model into the sitemap, the model is copied to create a new page. Typically, the template developer creates and configures model pages once having finished the template JSP and content type implementation, but before editing the website’s contents.</p>
+<p>The concept of template models allows having some content already placed on new pages and you can even use them to decide if content should be copied to each new page or if the same content should be reused on each page.</p>
+<p>We explain how to add new template models for your site and how to edit them.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

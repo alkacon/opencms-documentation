@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Saving values from the form to the content 2]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The call to <code>ugc.uploadFiles(...)</code> does the job for you. Provide the list of field names that specifiy the form fields containing the files to be uploaded as the first argument and then a callback function that is called after a successful upload. If upload fails, <code>myErrorHandler</code> that is provided via the constuctor of the UGC object is called. If upload is successful the <code>afterUploadHandler</code> is called. It can update the mapping stored by the UGC object, such that it holds the values that should be saved and afterwards write the updated values to the XML content:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

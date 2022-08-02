@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Lists - the traditional way]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Up to OpenCms 10 content was collected via the <code>&lt;cms:contentload&gt;</code> tag.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[More information on building lists with <cms:contentload>]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Building lists of content items that are linked with its detail views is a common task when creating a website. OpenCms helps you to solve this task easily.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/lists-and-detail-pages/building-lists/traditional-lists/]]></target>
+            <uuid>9ec8e433-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Demo for lists with <cms:contentload>]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Learn by example how an editable list is created and links to detail pages are added.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/demos/list-and-detail-pages/]]></target>
+            <uuid>b5df653e-d1cd-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

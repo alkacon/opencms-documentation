@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The idea of grouping content]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/content-in-opencms/special-predefined-content-types/element-group-depricated/]]></target>
+            <uuid>e1b32b30-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/content-in-opencms/formatters-and-their-configuration/macro-formatters/]]></target>
+            <uuid>627614a2-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Grouping content has two purposes</p>
+<ul>
+<li>Reuse the same group of content in different places and be able to edit it in just one place</li>
+<li>Drag a whole set of contents to a page at a time, e.g., a pre-filled row in bootstrap template or a the collection of container page elements that format different parts of the same content or several different contents.</li>
+</ul>
+<p>The first use case was possible in OpenCms before version 10 by using <a href="%(link0)">element groups</a>. But these do not support nested containers and hence are not suitable anymore. Since OpenCms 10.5 elements groups are even not fully configured by default. They are considered deprecated. The adequat replacement for them are <em>reuse groups</em>, described here.</p>
+<p>The second use case is completely new and implemented by copy groups. These are just experimental at the moment and for the use case of placing various containerpage elements on a container page at the same time. A similar feature (but for adding the same content with a formatter combined of various "micro formatters") that can be used alternatively for some scenarios are <a href="%(link1)">macro formatters</a>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

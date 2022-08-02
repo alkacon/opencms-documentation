@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinkSequenceData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/linksequence.xsd">
+  <LinkSequence language="en">
+    <Title><![CDATA[Related links]]></Title>
+    <LinkEntry>
+      <Text><![CDATA[Example: The full text search for this documentation]]></Text>
+      <URI>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/docu/opencms-documentation/search/]]></target>
+          <uuid>0db390c7-d1cf-11ec-9238-0242ac11002b</uuid>
+        </link>
+      </URI>
+    </LinkEntry>
+    <LinkEntry>
+      <Text><![CDATA[Presentation of the tag on the OpenCms Days 2015]]></Text>
+      <URI>
+        <link internal="false" type="WEAK">
+          <target><![CDATA[http://de.slideshare.net/AlkaconOpenCms/opencms-days-2015-advanced-solr-searching-54157910]]></target>
+        </link>
+      </URI>
+      <NewWindow>true</NewWindow>
+    </LinkEntry>
+    <LinkEntry>
+      <Text><![CDATA[Taglib documentation for &lt;cms:search&gt;]]></Text>
+      <URI>
+        <link internal="false" type="WEAK">
+          <target><![CDATA[http://documentation.opencms.org/javadoc/tld/cms/search.html]]></target>
+        </link>
+      </URI>
+      <NewWindow>true</NewWindow>
+    </LinkEntry>
+    <LinkEntry>
+      <Text><![CDATA[Using &lt;cms:search&gt; to create editable lists]]></Text>
+      <URI>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/docu/opencms-documentation/todo/demos/list-and-detail-pages-ii/]]></target>
+          <uuid>bd98530f-d1cd-11ec-9238-0242ac11002b</uuid>
+        </link>
+      </URI>
+    </LinkEntry>
+    <LinkEntry>
+      <Text><![CDATA[General information on Apache Solr]]></Text>
+      <URI>
+        <link internal="false" type="WEAK">
+          <target><![CDATA[http://lucene.apache.org/solr/]]></target>
+        </link>
+      </URI>
+      <NewWindow>true</NewWindow>
+    </LinkEntry>
+    <LinkEntry>
+      <Text><![CDATA[General information on the integration of Solr in OpenCms]]></Text>
+      <URI>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/docu/opencms-documentation/more-opencms-features/solr-search-integration/]]></target>
+          <uuid>3afada83-d1ca-11ec-9238-0242ac11002b</uuid>
+        </link>
+      </URI>
+    </LinkEntry>
+  </LinkSequence>
+</LinkSequenceData>

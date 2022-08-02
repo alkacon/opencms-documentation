@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Macros for content-specific default values 2]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/opencms-core/blob/branch_10_5_x/src/org/opencms/util/CmsMacroResolver.java]]></target>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/field-settings/]]></target>
+            <uuid>069bfb76-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Note that there are more macros. In particular you can use the <code>%(key.{message key})</code> macro to provide localized, but not content specific default values.</p>
+<p>For more available macros, see the constants in the <a href="%(link0)">CmsMacroResolver</a>.</p>
+<div class="alert alert-info">The configuration of the mappings and the default values can also be done with the preferable&nbsp;<a href="%(link1)">field-centered syntax</a>, introduced in OpenCms 11, using the <code>&lt;FieldSettings&gt;</code>-node.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

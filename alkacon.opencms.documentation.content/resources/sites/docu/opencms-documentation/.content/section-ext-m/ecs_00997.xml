@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Creating new content items using collectors]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/ade-configuration/]]></target>
+            <uuid>cfc6289b-d1c7-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Typically a collector allows the creation of new content instances of the resource type it collects by clicking on the “plus” symbol of the flyout-menu a list entry. This functionality is available if the attribute <code>editable</code> is set to <code>true</code> in <code>&lt;cms:contentload&gt;</code> and the used collector is configured to allow for such editing. New resources are created inside a configured folder (see <a href="%(link0)">(sub-)sitemap configuration and module configuration</a>), typically below a <code>/.content/</code> folder.&nbsp;</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

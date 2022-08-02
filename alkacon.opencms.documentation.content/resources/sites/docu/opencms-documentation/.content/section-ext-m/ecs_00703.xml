@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Using the tag <cms:search> 3]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/more-opencms-features/solr-search-integration/full-text-search-with-solr/]]></target>
+            <uuid>a544c884-d1ca-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Basically, we feed our plain Solr query to the tag's configuration. The extra config value searchforemptyquery is necessary, since otherwise no search will be triggered as long as a string for a full-text search is provided.</p>
+<p>The big advantage of the tag is the structure of the search result. This becomes obvious in more complex search scenarios.</p>
+<div class="alert alert-info">Learn more about the tag and it's use for a full-text search <a href="%(link0)">here</a>.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

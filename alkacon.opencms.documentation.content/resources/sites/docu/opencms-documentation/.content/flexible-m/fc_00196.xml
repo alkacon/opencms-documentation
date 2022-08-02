@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[The attributes of <cms:contentload>]]></Title>
+    <Code><![CDATA[<%@page buffer="none" session="false" taglibs="c,cms" %> 
+<%-- The JSP HTML should be surrounded by block element --%>
+<div>	
+  <%-- Read collector paramter, e.g. from request --%>
+  <c:set var="folder" value="${param.folder}"/>
+  <c:set var="type" value="${param.type}"/>
+  <c:set var="count" value="${param.count}"/> 
+    <ul>
+    <%-- Use <cms:contentload> with new collector--%>
+    <cms:contentload collector="myCollector" param="${folder}|${type}|${count}">
+      <%-- Access the content --%>      
+      <cms:contentaccess var="content" />
+      <c:set var="link"><cms:link>${content.filename}</cms:link></c:set>
+      <li><a href="${link}">${content.value.Title}</a></li>			
+    </cms:contentload>
+  </ul>
+</div>]]></Code>
+  </Flexible>
+</FlexibleData>

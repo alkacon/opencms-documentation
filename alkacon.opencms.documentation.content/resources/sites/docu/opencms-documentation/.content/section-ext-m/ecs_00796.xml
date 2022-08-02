@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Macros for content-specific default values]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The following macros are available to set content-specific default values.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[%(page_title)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If the content is placed exactly at one page, the macro expands to the <code>Title</code> property of this page. Otherwise, it expands to the empty string.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[%(page_nav)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If the content is placed exactly at one page, the macro expands to the <code>NavPos</code> property of this page. Otherwise, it expands to the empty string.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[%(no_prefix:{string})]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If the macro is expanded at the beginning of a string, it expands to the empty string. Otherwise, it expands to the value given as <code>{string}</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[%(value:{XPath})]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The macro expands to the value of the current content element that is accessed via the given <code>{XPath}</code>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

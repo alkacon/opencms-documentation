@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Category widget]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The category widget provides a category selection in a comfortable way.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/ContentEditor_CategoryWidget.png]]></target>
+            <uuid>2e2cc28a-eadd-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[To show the category selection dialog shown in the figure, click on the box where the currently chosen categories are shown.]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The category widget is automatically assigned to elements of the type <code>OpenCmsCategory</code>&nbsp;and <code>OpenCmsDynamicCategory</code> which will enable storage of multiple selections.</p>
+<div class="alert alert-info">For legacy reasons it is still possible to layout elements of the type <code>OpenCmsVfsFile</code> with the category widget, but then you won’t be able to make a multi selection.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

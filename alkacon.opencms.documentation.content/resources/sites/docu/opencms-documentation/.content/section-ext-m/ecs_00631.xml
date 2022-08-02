@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Formatter Keys]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A particularly powerful chaining technique is <strong>variation by chaining</strong>, which depends on the concept of <strong>formatter keys</strong> introduced in OpenCms 12.</p>
+<p>Formatter keys are a replacement for the former formatter IDs and are activated by default since OpenCms 12.&nbsp;</p>
+<p>The idea behind is the following:</p>
+<p>There might be projects where a lot of contents already exist in sites and the <strong>requirements in respect to HTML Markup rendering are changing over time or diverge completely between sites</strong>. In this case it would be inefficient to introduce a new formatter and go through all pages of all sites to re-configure all existing contents using the new formatter.</p>
+<div class="alert alert-info">With <strong>formatter keys</strong> it is possible to introduce alternative HTML markup rendering for existing contents per site without content re-configuring.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[CMIS: Standard CMIS properties filled with resource attributes]]></Title>
+    <Section>
+      <Caption><![CDATA[cmis:objectId]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The internal OpenCms structure id of the resource.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cmis:path]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The root path of the resource.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cmis:lastModifiedBy]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The name of the user who last modified the resource.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cmis:lastModificationDate]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The date on which the resource was last modified.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cmis:createdBy]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The name of the user who created the resource.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[cmis:creationDate]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The date when the resource was created.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[opencms-special:resource-type]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Contains the OpenCms resource type name.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[opencms-dynamic:<propertyname>]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A dynamic property which is handled by a custom property provider class configured in <code>opencms-importexport.xml</code>, as described above.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

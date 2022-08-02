@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinkSequenceData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/linksequence.xsd">
+  <LinkSequence language="en">
+    <Title><![CDATA[Related Links 2]]></Title>
+    <LinkEntry>
+      <Text><![CDATA[The lists app]]></Text>
+      <URI>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/lists/]]></target>
+          <uuid>7fd26570-d1c5-11ec-9238-0242ac11002b</uuid>
+        </link>
+      </URI>
+    </LinkEntry>
+    <LinkEntry>
+      <Text><![CDATA[The schema of the integrated list type]]></Text>
+      <URI>
+        <link internal="false" type="WEAK">
+          <target><![CDATA[https://github.com/alkacon/opencms-core/blob/branch_11_0_x/src/org/opencms/xml/adeconfig/list_config.xsd]]></target>
+        </link>
+      </URI>
+    </LinkEntry>
+    <LinkEntry>
+      <Text><![CDATA[Element setting options for display formatters]]></Text>
+      <URI>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/formatters-and-their-configuration/element-settings/options-for-display-formatters/]]></target>
+          <uuid>6da8c03e-d1c9-11ec-9238-0242ac11002b</uuid>
+        </link>
+      </URI>
+    </LinkEntry>
+    <LinkEntry>
+      <Text><![CDATA[The OpenCms taglib (In particular, the tags &lt;cms:simplesearch&gt; and &lt;cms:display&gt; are interesting)]]></Text>
+      <URI>
+        <link internal="false" type="WEAK">
+          <target><![CDATA[https://documentation.opencms.org/javadoc/tld/]]></target>
+        </link>
+      </URI>
+    </LinkEntry>
+  </LinkSequence>
+</LinkSequenceData>

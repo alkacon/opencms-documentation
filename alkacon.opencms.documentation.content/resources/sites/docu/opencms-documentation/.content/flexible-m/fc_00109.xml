@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Using <cms:contentload> 2]]></Title>
+    <Code><![CDATA[<%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms"%>
+<cms:contentload collector="byQuery"
+                 param='&fq=type:m-article&fq=parent-folders:"/sites/default/"\
+                        &fq=lastmodified:[NOW-1YEAR TO NOW]&sort=disptitle_en_sort asc'>
+  <cms:contentaccess var="content" />
+  <%-- Title of the article --%>
+  <div>${content.value.Title}</div>
+</cms:contentload>]]></Code>
+  </Flexible>
+</FlexibleData>

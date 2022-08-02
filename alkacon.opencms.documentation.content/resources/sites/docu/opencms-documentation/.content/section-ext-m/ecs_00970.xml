@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Sections of the element settings dialog]]></Title>
+    <Section>
+      <Caption><![CDATA[Template model options]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Here you can choose what should happen to the element if the container page is copied. If the single option in this section is checked, the content will be copied with if the page is copied (in a respective copy mode for containerpages).</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/creating-template-models/]]></target>
+            <uuid>b69ca905-d1c7-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Formatters]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If more than one formatter is available for the content in the container it is placed in, here the formatter to use can be selected. Depending on the selected formatter, the "Settings" section provides different options, i.e., the one supported by the chosen formatter.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Settings]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Here the settings supported by the chosen formatter are displayed.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Show in device]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>This section only appears if a template context provider is configured. Here you can adjust for which devices the content should be displayed at all.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/device-dependent-design/]]></target>
+            <uuid>3d5416eb-e273-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

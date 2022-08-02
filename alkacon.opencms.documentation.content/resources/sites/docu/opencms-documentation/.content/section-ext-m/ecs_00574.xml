@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Using <xsd:choice> in an XSD]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The <code>&lt;xsd:choice&gt;</code>-node can be used in the same way as a <code>&lt;xsd:sequence&gt;</code> to describe an OpenCms type. It has to be defined in XML schema definition of a <strong>nested XML content</strong>. The element in the root schema has to be <strong>optional</strong>. Add attribute <code>minOccurs="0"</code> on the element to make it optional. <strong>Root XML Schema Definition:</strong></p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

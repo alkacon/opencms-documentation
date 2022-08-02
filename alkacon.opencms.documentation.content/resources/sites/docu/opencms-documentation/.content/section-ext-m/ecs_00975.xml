@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Common element settings]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Since OpenCms 11 it is not necessary to configure frequently used element settings in every formatter, which they are used in. Once described in one configuration file, all element settings are accessible by calling their setting names.</p>
+<p>Some element settings are needed in a number of formatters&nbsp;without any or little changes. To avoid the work to configure each time they are used, OpenCms allows you to define the element settings in one configuration file. Then, you can call the settings from your formatter in a few easy steps.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

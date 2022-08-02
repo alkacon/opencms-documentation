@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The idea of template models]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Web pages usually have a common layout that should be altered only up to a certain level. Typically you may identify different kinds of pages that have lots of things in common. Template model - till OpenCms 9.0 known as model pages - provide the "common parts" for pages of the same type. They contain all the content that should be present on all pages of a kind and can also contain elements an editor has to fill with specific content when creating a new page using the template model.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Template JSP vs. template model]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>It's worthwhile noting the relation between template JSPs and template models. In OpenCms the "frame" of each web page is provided by a template JSP. It is your design decision if you provide only the HTML head and a big container in the body of your template JSP, or if you already define a more specific structure of your web pages in the template JSP. Templates are changed by changing the <code>template</code> property for a web page. You should keep in mind: what's placed in the template JSP is common to all pages using the template. If you change the template JSP, all pages using the template will change.</p>
+<p>In contrast, a template model is just a container page with some content in it, that is used as a master for new pages. Putting the layout into template models makes your design more flexible in the sense that you can provide a set of layout elements and a template developer who can edit template models. Thus new page layouts can be generated as in a modular construction system, without ever touching a JSP again. In contrast to the template JSP, changes in a template model do not necessarily change existing pages created from that model. If you drop content from the template model, it will still be present on all pages created by that model. If you add new content, it will not appear on existing pages created from that model and also property changes in the template model will not propagate to existing pages. Altering content may influence the copies, if the content is reused on the generated pages and not copied.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

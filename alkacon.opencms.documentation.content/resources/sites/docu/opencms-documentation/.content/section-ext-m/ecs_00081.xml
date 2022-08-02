@@ -31,7 +31,7 @@
             <uuid>936c2986-d2b7-11ec-ba99-0242ac11002b</uuid>
           </link>
         </Image>
-        <Title><![CDATA[AAndNotB]]></Title>
+        <Title><![CDATA[Wrong solution: Denying access for group B will deny access also for users that are additionaly in group A.]]></Title>
       </Image>
     </Section>
     <Section>
@@ -53,7 +53,7 @@
             <uuid>936e737a-d2b7-11ec-ba99-0242ac11002b</uuid>
           </link>
         </Image>
-        <Title><![CDATA[AAndBUnset]]></Title>
+        <Title><![CDATA[Correct solution: Overwrite inherited permissions for group B - all members of A get access, but members only in B do not.]]></Title>
       </Image>
     </Section>
   </ExtendedSection>

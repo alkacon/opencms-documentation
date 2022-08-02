@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Configuration Changes in OpenCms 13.0]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/opencms-core/blob/build_13_0_0/webapp/WEB-INF/solr/configsets/default/conf/schema.xml]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>OpenCms 13.0 ships with an <a href="%(link0)" target="_blank" rel="noopener">updated Solr Schema</a>. If you manage your own Solr Schema for your OpenCms installation, make sure to add the <code>date_range</code> field type and the two dynamic fields <code>*_dr</code> and <code>*_drs</code>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

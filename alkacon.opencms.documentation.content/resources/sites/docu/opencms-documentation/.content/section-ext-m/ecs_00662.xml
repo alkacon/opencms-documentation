@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Available widgets]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Widgets are used to create a suitable content editor for XML content. The widgets to be used are defined in the XSD (schema definition) of the content type. Compared to the old XML content editor some configuration parameters have been added, changed or removed. The following sections will describe each widget and its parameters with a short example.</p>
+<div class="alert alert-danger">The widget configuration only tells the content editor which GUI component to use for value selection – not the data type to use. E.g., you can select a date with the date picker, but if you don’t tell OpenCms to use the type <code>OpenCmsDateTime</code> it won’t be handled as this type. The data type of an element defined in the XSD is responsible for the internal handling of the values. The usage of data types increases the data quality which affects not only content retrieval and performance but also the overall data integrity e.g. keeping internal links intact.</div>
+<p>In the following sections you will find code snippets showing how to use and configure the distributed widgets. If a specific data type makes sense for the usage of a special widget the code snippets will contain the <code>&lt;xsd:element&gt;</code>- node, otherwise the examples only show the widgets configuration made in the <code>&lt;layout&gt;</code>-node assuming that the corresponding element uses <code>OpenCmsString</code> as type attribute.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

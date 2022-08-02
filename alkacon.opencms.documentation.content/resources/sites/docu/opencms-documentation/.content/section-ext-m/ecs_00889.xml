@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Ways to adjust the search settings]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/field-settings/]]></target>
+            <uuid>069bfb76-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>You can adjust search settings by adding a <code>&lt;searchsettings&gt;</code> node under <code>xsd:annotation/xsd:appinfo</code> in a content type's schema definition, and for each schema element where special indexing behavior has to be configured, a <code>&lt;searchsetting&gt;</code> sub-node. Examples follow, as we explain the settings in detail.</p>
+<p>A trimmed-down version to ajust the search settings is via the <a href="%(link0)">field settings</a>, introduced in OpenCms 11. With field settings you don't have the full flexibility, but most use cases are covered.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

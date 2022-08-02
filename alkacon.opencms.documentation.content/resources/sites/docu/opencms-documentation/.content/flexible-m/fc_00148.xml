@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[The index sources 2]]></Title>
+    <Code><![CDATA[<indexsource>
+	<name>solr_source</name>
+	<indexer class="org.opencms.search.CmsVfsIndexer" />
+	<resources>
+		<resource>/sites/default/</resource>
+	</resources>
+	<documenttypes-indexed>
+		<name>xmlcontent-solr</name>
+		<name>containerpage</name>
+		<name>xmlpage</name>
+		<name>text</name>
+		<name>pdf</name>
+		<name>image</name>
+		<name>msoffice-ole2</name>
+		<name>msoffice-ooxml</name>
+		<name>openoffice</name>
+	</documenttypes-indexed>
+</indexsource>]]></Code>
+  </Flexible>
+</FlexibleData>

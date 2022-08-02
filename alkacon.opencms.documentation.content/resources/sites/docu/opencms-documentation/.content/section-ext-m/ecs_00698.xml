@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[A note on the Solr query syntax]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://lucene.apache.org/solr/guide/query-syntax-and-parsing.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>We showed a very simple Solr query, to get familiar with the query syntax, either look in the <a href="%(link0)" target="_blank" rel="noopener">Solr reference guide</a> or one of the many tutorials around. Solr is evolving very fast and query options become more and more. The OpenCms Solr handler supports most of the options and you can play with it. E.g., grouping and clustering is currently not supported because of permission check issues.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

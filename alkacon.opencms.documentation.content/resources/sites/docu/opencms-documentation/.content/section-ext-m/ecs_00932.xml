@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Use cases]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[technical-details-a1794e75]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>The main intention on PDF generation support is to allow rendering XML contents into PDF files. Hence use cases are:</p>
+<ul>
+<li>Newsletters in PDF format</li>
+<li>Printable contact information</li>
+<li>Job offers in PDF files</li>
+<li>Product information</li>
+<li>...</li>
+</ul>
+<p>For very native output support, it is assumed that the information you want to render in a PDF file is stored in a single XML content. But, you are not limited to that scenario. You may also grep information from various contents and, for example, make lists of content also available in PDF format (e.g., latest news). But be aware of the caching behavior as described <a href="%(link0)">below</a>. The options of placing context information, headers, footers and page numbers are also provided via CSS's page media support.</p>
+<p>In the end, you may not have to maintain information for your website and your PDF newsletters or maybe also small booklets twice. Just generate HTML and PDF from the same XML contents.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

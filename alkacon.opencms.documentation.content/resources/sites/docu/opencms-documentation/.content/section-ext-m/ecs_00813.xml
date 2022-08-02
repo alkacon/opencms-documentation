@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Migrating a Lucene index to a Solr index]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[the-field-configuration-a24ddc47]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>An existing Lucene field configuration can easily be transformed into a Solr index. To do so, create a new Solr field configuration. As template, you can use the snippet shown in section about&nbsp;<a href="%(link0)">the Solr default field configuration</a>. Just copy the list of fields from the Lucene index you want to convert into that skeleton.</p>
+<p>There exists a specific strategy to map the Lucene field names to Solr field names:</p>
+<ul>
+<li><strong>Exact name matching</strong>: OpenCms tries to determine an explicit Solr field that has the exact name like the value of the name-attribute. E.g., OpenCms tries to find an explicit Solr field definition named meta for <code>&lt;field name="meta"&gt; ... &lt;/field&gt;</code>. To make use of this strategy you have to edit the <code>schema.xml</code> of Solr manually and add an explicit field definition named according to the exact Lucene field names.</li>
+<li><strong>Type specific fields</strong>: In the existing Lucene configuration type specific field definitions are not designated, but the Solr <code>schema.xml</code> defines different data types for fields. If you are interested in making use of these type specific advantages (like language specific field analyzing/tokenizing) without manipulating the <code>schema.xml</code> of Solr, you have to define a type attribute for those fields at least. The value of the attribute type can be any name of each <code>&lt;dynamicField&gt;</code> configured in the <code>schema.xml</code> that starts with a <code>*_</code>. The resulting field inside the Solr document is then named <code>&lt;luceneFieldName&gt;_&lt;dynamicFieldSuffix&gt;</code>.</li>
+<li><strong>Fallback</strong>: If you don't have a type attribute defined and there does not exist an explicit field in the <code>schema.xml</code> named according to the Lucene field name, OpenCms uses <code>text_general</code> as a fallback. E.g. a Lucene field <code>&lt;field name="title" index="true"&gt; ... &lt;/field&gt;</code> will be stored as a dynamic field named <code>title_txt</code> in the Solr index.</li>
+</ul>
+<p>An original field configuration is as follows:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

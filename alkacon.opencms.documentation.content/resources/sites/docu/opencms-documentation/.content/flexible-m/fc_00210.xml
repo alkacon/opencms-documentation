@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Content schema URIs]]></Title>
+    <Code><![CDATA[GET /json/system/modules/alkacon.mercury.template/schemas/?wrapper=false
+{
+  "article.xsd": {},
+  "contact.xsd": {},
+  "decoy.xsd": {},
+  "event.xsd": {},
+  "faq.xsd": {},
+  "flexible.xsd": {},
+  ...
+}]]></Code>
+  </Flexible>
+</FlexibleData>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Writing your own editor change handlers]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/xml/content/I_CmsXmlContentEditorChangeHandler.html]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/xml/content/package-frame.html]]></target>
+          </link>
+          <link name="link2" internal="false" type="A">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/ade/contenteditor/A_CmsXmlContentEditorChangeHandler.html]]></target>
+          </link>
+          <link name="link3" internal="false" type="A">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/ade/contenteditor/package-frame.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>You are allowed to write your own editor change handlers. They have to implement the interface&nbsp;<code><a href="%(link0)">I_CmsXmlContentEditorChangeHandler</a></code> located in the package <code><a href="%(link1)">org.opencms.xml.content</a></code>. To simplify implementing new such handlers, the class&nbsp;<code><a href="%(link2)">A_CmsXmlContentEditorChangeHandler</a></code> from the package&nbsp;<code><a href="%(link3)">org.opencms.ade.contenteditor</a></code> can be used as base class.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

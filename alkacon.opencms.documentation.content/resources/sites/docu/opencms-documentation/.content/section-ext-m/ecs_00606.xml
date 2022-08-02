@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The different preference tabs]]></Title>
+    <Section>
+      <Caption><![CDATA[basic]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The preferences in the basic tab are shown in the "Basic preferences" tab of the preferences dialog. Here is the right place for preferences that are likely to be adjusted by a user.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[extended]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The preferences in the extended tab are shown in the "Extended preferences" tab of the preferences dialog. Here is the right place for preferences that should be adjustable by each user, but are needed only in rare circumstances.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[hidden]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Preferences configured in this tab are not shown in the preferences dialog. Here is the right place for preferences that should not be adjusted directly by a user. The preferences may be necessary to configure the default behaviour of the system. They may also be adjusted automatically for each user.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

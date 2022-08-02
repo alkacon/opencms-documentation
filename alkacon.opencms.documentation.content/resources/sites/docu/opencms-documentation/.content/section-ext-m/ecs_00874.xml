@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Example CMIS client program]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://chemistry.apache.org/java/developing/index.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>Thanks to CMIS, you can use any client library which correctly implements CMIS to write custom client applications that access the VFS. One such example application that uses the Apache Chemistry client libraries is appended below. This example application uploads documents from a folder in the local file system to the RFS. You can find more information about developing client applications with Apache Chemistry in Java at <a href="%(link0)" target="_blank" rel="noopener">http://chemistry.apache.org/java/developing/index.html</a>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

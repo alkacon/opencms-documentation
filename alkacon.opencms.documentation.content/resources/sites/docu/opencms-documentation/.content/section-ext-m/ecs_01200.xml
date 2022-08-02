@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Lists and links to detail pages 3]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/lists-and-detail-pages/building-lists/]]></target>
+            <uuid>95138a1e-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/more-opencms-features/solr-search-integration/full-text-search-with-solr/]]></target>
+            <uuid>a544c884-d1ca-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Note, that in the link to the detail page, we again add the parameter <code>?instancedate=${instancedate}</code>. Hence, we can use it in a detail formatter similarly as here in the display formatter.</p>
+<div class="alert alert-info">Note that here we use a structure for a list as described for <a href="%(link0)">building lists with OpenCms 11</a>. You do not have to use display formatters and could also use <code>&lt;cms:search&gt;</code> instead of <code>&lt;cms:simplesearch&gt;</code>. E.g., when searching events in a <a href="%(link1)">full-text search</a>.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

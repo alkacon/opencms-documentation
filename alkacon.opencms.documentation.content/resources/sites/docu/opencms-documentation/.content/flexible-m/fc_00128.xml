@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Display Type Select Widget]]></Title>
+    <Code><![CDATA[<!-- ... -->
+<xsd:sequence>
+	<xsd:element name="TypesToCollect" type="OpenCmsDisplayFormatter" maxOccurs="unbounded" />
+</xsd:sequence>
+<!-- ... -->
+<layouts>
+	<layout element="TypesToCollect" widget="DisplayTypeSelectWidget"
+                configuration="template.display.types|matchTypes" />
+</layouts>
+<!-- ... -->]]></Code>
+  </Flexible>
+</FlexibleData>

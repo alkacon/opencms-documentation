@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Response model]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<table style="border-collapse: collapse; width: 100%; border-color: #aaa;" border="1" cellpadding="12">
+<tbody>
+<tr>
+<th style="width: 20%; white-space: nowrap;">Property</th>
+<th style="width: 65%; white-space: nowrap;">Description</th>
+<th style="width: 15%; white-space: nowrap;">JSON Type</th>
+</tr>
+<tr>
+<td>[folder name], [file name]</td>
+<td>For a requested folder resource, all child folders and child files are returned in the form of a map with the [folder name] or [file name]<br />as the key of the map and at least with the [Resource Wrapper] as the value of the map. With the&nbsp;<em>content</em>&nbsp;parameter, also the [Content]<br />can be embedded in the folder response for child files of type content.</td>
+<td>Object</td>
+</tr>
+<tr>
+<td>children</td>
+<td>If a child resource of the requested folder is a folder itself there may be a&nbsp;<em>children</em>&nbsp;property that recursively embeds the children of a child folder<br />of the requested resource. The&nbsp;<em>children</em>&nbsp;property appears if a value greater than 1 is choosen for the&nbsp;<em>levels</em>&nbsp;request parameter.</td>
+</tr>
+</tbody>
+</table>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

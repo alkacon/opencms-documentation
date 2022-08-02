@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Enabling/Disabling the handler 4]]></Title>
+    <Code><![CDATA[<servlet>
+	<description>
+		The OpenCms Solr servlet.
+	</description>
+	<servlet-name>OpenCmsSolrServlet</servlet-name>
+	<servlet-class>org.opencms.main.OpenCmsSolrHandler</servlet-class>
+	<load-on-startup>1</load-on-startup>
+</servlet>
+[...]
+<servlet-mapping>
+	<servlet-name>OpenCmsSolrServlet</servlet-name>
+	<url-pattern>/solr/*</url-pattern>
+</servlet-mapping>]]></Code>
+  </Flexible>
+</FlexibleData>

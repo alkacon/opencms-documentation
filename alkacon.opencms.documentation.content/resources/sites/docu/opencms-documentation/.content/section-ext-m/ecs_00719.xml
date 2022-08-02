@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Special indexing for series contents]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/event-series/]]></target>
+            <uuid>bd4b366a-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Since OpenCms 11, you can define a series of events in one XML content. If the series is stored with the schema type <code>CmsXmlSerialDateValue</code>, the contents are indexed as follows:</p>
+<ul>
+<li>For each date in the series, the content is indexed once.</li>
+<li>The fields (also without <code>_{locale}</code>)
+<ul>
+<li><code>instancedate_{locale}_dt</code> (start time of the single event),</li>
+<li><code>instancedatecurrenttill_{locale}_dt</code> (start time or end time of the single event, depending on configuration)</li>
+<li><code>instancedateend_{locale}_dt</code> (end time of the single event)<br />are set accordingly for each single event instance.</li>
+</ul>
+</li>
+</ul>
+<p>Read more about <a href="%(link0)">series of events</a>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

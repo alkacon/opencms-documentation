@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Dependent select widget 2]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Then, the editor shows the following selection:</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/ContentEditor_DependentSelectWidget.png]]></target>
+            <uuid>2e34fffa-eadd-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[The dependent select widget (field "Favorite") in action - all given movies are listed in the selection.]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>In the above example, the widget configuration is only the XPath to the nodes that contain the select options. If you have a sequence of nested contents that you want to select, you have two more options. E.g., if you have a nested content for the <code>Movie</code> node, containing an <code>Id</code> and a <code>Title</code> node, then you can configure the widget as follows:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

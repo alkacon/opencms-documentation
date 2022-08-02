@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Short-cut syntax for the most relevant search settings]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/field-settings/]]></target>
+            <uuid>069bfb76-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Since OpenCms 11, the field settings syntax provides for a simple notification for the most relevant search settings. The basic field settings syntax is explained <a href="%(link0)">here</a>. In the <code>&lt;FieldSetting&gt;</code> sub-node <code>&lt;Search&gt;</code>, the following values are allowed:</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[true]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The field should be included in the content field of the indexed document. This is the same as adding <code>searchcontent="true"</code> to the <code>&lt;searchsetting&gt;</code> node.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[false]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The content of the field is not included in the content fields of the indexed document. This is the same as adding <code>searchcontent="false"</code> to the <code>&lt;searchsetting&gt;</code> node.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[listdate]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/special-predefined-content-types/list-configuration/]]></target>
+            <uuid>bc331ac0-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Use this setting for elements holding dates only. The elements value is indexed in field <code>instancedate_{locale}_dt</code>&nbsp;and <code>instancedatecurrenttill_{locale}_dt</code>.These contain the fields, the <a href="%(link0)">integrated list type</a> uses for sorting by date and also the recommended field to use for sorting by date in almost every Solr search. The elements value is not added to the content fields.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[listorder]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/special-predefined-content-types/list-configuration/]]></target>
+            <uuid>bc331ac0-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Use this setting for elements holding integer values only. The element's value is indexed in field <code>order_{locale}_i</code>. This field is used by the<a href="%(link0)"> integrated list type</a> to sort by order.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[listtitle]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/special-predefined-content-types/list-configuration/]]></target>
+            <uuid>bc331ac0-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Use this setting for elements holding (title) strings. The elements value is indexed in the field <code>disptitle_{locale}_sort</code>, which is a special field supporting alphabetical sorting. It is used for sorting by title when using the <a href="%(link0)">integrated list</a>. Moreover, the elements value is added to the content fields.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[listgeocoords]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/widget-configuration/]]></target>
+            <uuid>01d93703-db28-11ec-8fb9-0242ac11002b</uuid>
+            <anchor><![CDATA[location-picker-widget-c11068bb]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Use this setting for elements holding Geo coordinates. The element's value must be either in the form <code>{latitude},{longitude}</code> or it must be the JSON value of the <a href="%(link0)">Location picker widget</a>. The value is indexed in the field <code>geocoords_loc</code>, which is a special field for Geo queries.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

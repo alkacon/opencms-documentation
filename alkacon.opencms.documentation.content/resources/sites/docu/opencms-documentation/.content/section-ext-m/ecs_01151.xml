@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Getting the session object and the content’s values]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The function <code>getSession()</code> calls <code>OpenCmsUgc.initFormForSession()</code> to get a session object. The parameters are explained in the source code.</p>
+<p>When a session object is successfully returned, <code>onNewSession(s)</code> is called with the session object as the argument. We store the object in our scope-“global” variable session and store the content’s values, that are returned by <code>session.getValues()</code>, in content. The content’s values are given as a map with the XPaths to the content’s elements as keys and the respective values as values. For example, <code>content["Paragraph[1]/Text[1]"]</code> will yield the content’s value from the node “Paragraph/Text”.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

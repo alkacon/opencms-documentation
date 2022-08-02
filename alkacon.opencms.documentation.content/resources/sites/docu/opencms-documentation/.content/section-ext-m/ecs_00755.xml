@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Display Type Select Widget]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/demos/list-and-detail-pages-iii/]]></target>
+            <uuid>c5d47aa1-d1cd-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Since version 10.0 OpenCms features a display type select widget (DisplayTypeSelectWidget). It renders like a normal select widget, but the entries are automatically generated from all the formatters available in the current subsite and with "Use as display formatter" enabled.</p>
+<p>The widget can be used for the configuration of generic list contents. With the widget, the formatters that should be used for a special resource type can be selected. See the <a href="%(link0)">demo of list creation</a> for an example.</p>
+<p>The widget is automatically configured for schema elements with type <code>OpenCmsDisplayFormatter</code>. An extra <code>&lt;layout&gt;</code> node is not necessary unless additional configuration for restricting the set of displayed formatters is required.</p>
+<p>Here's the configuration of the widget for the element <code>TypesToCollect</code> - including all configuration options for the widget in the layout node and allowing a sequence of schema elements.</p>
+<div class="alert alert-info">The configuration options are available only since OpenCms 11.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

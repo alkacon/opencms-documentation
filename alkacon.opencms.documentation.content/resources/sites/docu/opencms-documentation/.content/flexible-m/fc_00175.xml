@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Resolving problems when mounting your locally installed OpenCms 2]]></Title>
+    <Code><![CDATA[#!/bin/bash
+socat TCP-LISTEN:445,fork TCP:localhost:1445 &
+mount -t cifs //localhost/OPENCMS ~/opencms/vfs -o credentials=~/.credentials/occredentials,rw,uid=1000,gid=1000
+# Set CIFS/SMBv1 explicitly if you get a `mount error(112): Host is down`:
+mount -t cifs //localhost/OPENCMS ~/opencms/vfs -o credentials=~/.credentials/occredentials,rw,uid=1000,gid=1000,vers=1.0]]></Code>
+  </Flexible>
+</FlexibleData>

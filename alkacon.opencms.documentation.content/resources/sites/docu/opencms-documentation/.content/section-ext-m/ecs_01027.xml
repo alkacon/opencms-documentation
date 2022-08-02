@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Access Policy 5]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<table style="border-collapse: collapse; width: 100%; border-color: #aaa;" border="1" cellpadding="12">
+<tbody>
+<tr>
+<th style="width: 20%; white-space: nowrap;">Parameter</th>
+<th style="width: 40%;">Description</th>
+<th style="width: 40%;">Default</th>
+</tr>
+<tr>
+<td>include</td>
+<td>Access is granted only for resources matching the given regular expression.</td>
+<td>Access is granted for all resources if&nbsp;<em>include</em>&nbsp;is not present.</td>
+</tr>
+<tr>
+<td>exclude</td>
+<td>Access is denied for resources matching the given regular expression.</td>
+<td>Access is granted for all resources if&nbsp;<em>exclude</em>&nbsp;is not present.</td>
+</tr>
+<tr>
+<td>property-filter</td>
+<td>Property access is denied for properties matching the given regular expression.</td>
+<td>Access is granted for all properties except for property names containing "secret", "api", "password", and "key" if&nbsp;<em>property-filter</em>&nbsp;is not present</td>
+</tr>
+<tr>
+<td>cors/allow-origin</td>
+<td>For each JSON response, the HTTP response header&nbsp;<em>Access-Control-Allow-Origin</em>&nbsp;with the given value is set.</td>
+<td>The HTTP response header is * if&nbsp;<em>allow-origin</em>&nbsp;is not present.</td>
+</tr>
+<tr>
+<td>cors/allow-methods</td>
+<td>For each JSON response, the HTTP response header&nbsp;<em>Access-Control-Allow-Methods</em>&nbsp;with the given value is set.</td>
+<td>The HTTP response header is * if&nbsp;<em>allow-methods</em>&nbsp;is not present.</td>
+</tr>
+<tr>
+<td>cors/allow-headers</td>
+<td>For each JSON response, the HTTP response header&nbsp;<em>Access-Control-Allow-Headers</em>&nbsp;with the given value is set.</td>
+<td>The HTTP response header is * if&nbsp;<em>allow-headers</em>&nbsp;is not present.</td>
+</tr>
+</tbody>
+</table>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Configurations related to detail pages]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Adding a detail page is simple, but some configuration is necessary upfront to get your detail pages working as expected. Below you learn about:</p>
+<ul>
+<li>Enabling/Disabling detail pages for a resource type</li>
+<li>Configuration of nice URLs</li>
+<li>Template requirements to make your contents show as expected (detailview and detailonly containers)</li>
+<li>Handling of multiple detail pages for one type</li>
+<li>The default detail page mechanism (one detail page for all types)</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Enabling or disabling detail pages for a content type]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/ade-configuration/]]></target>
+            <uuid>cfc6289b-d1c7-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>If detail pages can be added for a special content type or not can be configured in <a href="%(link0)">the module or the sitemap configuration</a>:</p>
+<ul>
+<li>In the <strong>module or sitemap configuration</strong>, open the tab "Content elements"</li>
+<li>Add or edit the "Content element configuration" for your content type</li>
+<li>Select or deselect the option "<strong>Detail pages disabled</strong>"</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Preferring local detail pages]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If you work with sub-sitemaps you may have a list of news in the main sitemap that collects news from the main sitemap and from the sub-sitemap. If you have a detail page for news in the main sitemap and in the sub-sitemap, where should the detail page link for a news from sub-sitemap go to?</p>
+<p>By default, the link will target the detail page configured in the main sitemap, i.e., in the <strong>sitemap where you</strong> currently<strong> are</strong>. But, if you check the option "<strong>Prefer local detail pages</strong>" in the <strong>sitemap configuration</strong> of the&nbsp; sub-sitemap A, the detail page of sub-sitemap will be targeted, i.e., the (sub-)sitemap where the content is located.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/detail-page-local.png]]></target>
+            <uuid>46d1e328-f8fc-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Local detail pages]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

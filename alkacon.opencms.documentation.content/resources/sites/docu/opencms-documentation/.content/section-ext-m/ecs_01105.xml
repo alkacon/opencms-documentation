@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Dynamic functions]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If you want to place (content) elements on your webpage via drag&amp;drop, you have to define a content type for the elements, provide a formatter and configure a resource type. What if your element has no real content, when it just renders a search, login or other form, or something else without using content specific values? This element should be a dynamic function! Dynamic functions add functionality to your webpage that does not rely on specific content values.</p>
+<div class="alert alert-info">In OpenCms 11 the function resource type was refactored. The former type is still present as "legacy" type to keep your old functions working. Here we deal with a function from OpenCms 11 onward.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Indexing more than schema elements]]></Title>
+    <Code><![CDATA[<searchsetting element="NewInVersion" searchcontent="false">
+	<solrfield targetfield="newInVersion" sourcefield="_l" addto="page,element">
+		<mapping type="dynamic" class="com.alkacon.opencms.documentation.search.CmsVersionNumberSearchFieldMapping">NewInVersion</mapping>
+	</solrfield>
+</searchsetting>
+]]></Code>
+  </Flexible>
+</FlexibleData>

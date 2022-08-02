@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Implementing a locale switcher 2]]></Title>
+    <Code><![CDATA[<c:set var="langlinks" value="" />
+<c:set var="showlang" value="false" />
+<c:forEach var="locentry" items="${cms.localeResource}">
+  <c:choose>
+    <c:when test="${empty locentry.value}"></c:when>
+    <c:when test="${locentry.key == cms.locale}">
+      <c:set var="langlinks">
+        ${langlinks}
+        <li class="active"><a href="#">${locentry.key}${' '}<i class="fa fa-check"></i></a></li>
+      </c:set>    
+    </c:when>
+    <c:otherwise>
+      <c:set var="showlang" value="true" />
+      <c:set var="langlinks">
+        ${langlinks}
+        <li><a href="${locentry.value.link}">${locentry.key}</a></li>
+      </c:set>
+    </c:otherwise>
+  </c:choose>
+</c:forEach>
+<c:if test="${showlang}">
+  <!-- output the language switch -->
+</c:if>]]></Code>
+  </Flexible>
+</FlexibleData>

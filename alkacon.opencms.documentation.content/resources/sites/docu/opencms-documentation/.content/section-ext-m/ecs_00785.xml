@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Attributes of <editorchangehandler>]]></Title>
+    <Section>
+      <Caption><![CDATA[class]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/ade/contenteditor/CmsEditorChangeHandlerProperty.html]]></target>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[writing-your-own-editor-change-handlers-3583034b]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>The class that handles the dependency. By default, OpenCms provides&nbsp;<code><a href="%(link0)">CmsEditorChangeHandlerProperty</a></code> as a concrete handler implementation, but you can <a href="%(link1)">write your own handlers</a>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[scope]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Define the editor fields that should be observed for changes. The fields have to be specified by an XPath, e.g., <code>"Paragraphs*/Headline"</code>. The path can contain <code>*</code> as wildcard to observe all elements in a sequence. Moreover, the path can also explicitly addess one element in a series and all fields of subcontent. For example, <code>"Paragraphs[2]"</code> would cause observation for all fields in the second paragraph.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[configuration]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/ade/contenteditor/CmsEditorChangeHandlerProperty.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>Configuration is handler specific, hence it depends on the class you specified in the <code>class</code> attribute. For example, the <code><a href="%(link0)">CmsEditorChangeHandlerProperty</a></code> takes a property name and the path to the field that should be updated with the property, where the two are separated by <code>|</code>. The path can be given relative to the observed field or absolute.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

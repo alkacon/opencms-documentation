@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[How to restrict contents]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>In order to restrict the contents provided in the <em><strong>Add content dialog</strong></em> for a site, proceed as follows:</p>
+<ul>
+<li>open your <em><strong>Sitemap master configuration</strong></em> in the editor and go to the <em><strong>Restrictions</strong></em> tab</li>
+<li>add a new <em><strong>Restriction</strong></em> to the list by at first selecting a content type</li>
+<li>select a content by entering the VFS path of the content that should appear in the <em><strong>Add content dialog</strong></em> for this content type</li>
+<li>optionally: enter a new name for the selected content</li>
+</ul>
+<div class="alert alert-info">As soon as one restriction is added to the list, <strong>all contents of a specific content type that would normally appear in the <em>Add content dialog</em> are disabled</strong>. <strong>Only the manually selected contents from the restriction list are still available</strong>.</div>
+<p>The figure below shows a Mercury Sitemap master configuration where the list of available layout rows is restricted to <code>Row 1 column (12 - full)</code>. Since no other layout row is available any more, the title of the row is changed to <code>Full row</code>.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/master-configuration-tab-restriction.png]]></target>
+            <uuid>6c3255a6-eb03-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Restriction tab of the Sitemap master configuration]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If configured in this way, the only content appearing in the <em><strong>Add content dialog</strong></em> is the <code>Full row</code> layout content as configured above.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/add-content-dialog-layout-rows-restricted.png]]></target>
+            <uuid>5ff195cf-eb03-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Add content dialog with restricted layout rows]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

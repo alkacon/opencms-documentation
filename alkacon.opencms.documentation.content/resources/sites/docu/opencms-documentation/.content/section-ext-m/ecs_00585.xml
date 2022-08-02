@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Content & Formatting]]></Title>
+    <Section>
+      <Caption><![CDATA[Element settings]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>See how element settings are specified and used.</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Element settings]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/demos/element-settings/]]></target>
+            <uuid>e49bec17-d1cc-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Common element settings]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>An example with two formatters using the same element settings, which are configured once.</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Common element settings]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/demos/common-element-settings/]]></target>
+            <uuid>edf2ab69-d1cc-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Pasting Scripts into contents]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>You need to add a script of a foreign provider, e.g., a Facebook Like-button? - Here's how to do it right.</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Pasting Scripts into contents]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/demos/pasting-scripts-into-contents/]]></target>
+            <uuid>0d7588d0-d1cd-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Head includes]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>See an example <a tabindex="0" role="button" data-container="body" data-toggle="popover" data-placement="bottom" data-content="&lt;p&gt;In OpenCms contents are rendered by formatters. These consist of a formatter JSP and a formatter configuration - or are defined as macro formatters. Read more about formatters &lt;a href=&quot;/opencms-documentation/content-in-opencms/formatters-and-their-configuration/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;" data-trigger="focus"><abbr title="Click to see description">formatter</abbr></a> that adds scripts and styles to a page.</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Head includes]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/demos/head-includes/]]></target>
+            <uuid>5b9ed706-d1cd-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Meta mappings]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>One <a tabindex="0" role="button" data-container="body" data-toggle="popover" data-placement="bottom" data-content="&lt;p&gt;In OpenCms contents are rendered by formatters. These consist of a formatter JSP and a formatter configuration - or are defined as macro formatters. Read more about formatters &lt;a href=&quot;/opencms-documentation/content-in-opencms/formatters-and-their-configuration/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;" data-trigger="focus"><abbr title="Click to see description">formatter</abbr></a> reads the meta-information of another</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Meta mappings]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/demos/meta-mappings/]]></target>
+            <uuid>63e8e147-d1cd-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Lists and detail pages]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Learn by example how an editable list is created and links to detail pages are added.</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Lists and detail pages]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/demos/list-and-detail-pages/]]></target>
+            <uuid>b5df653e-d1cd-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Inline editing]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Edit text directly in the <a tabindex="0" role="button" data-container="body" data-toggle="popover" data-placement="bottom" data-content="&lt;p&gt;The page editor is the (ADE) view in OpenCms where you edit pages, i.e., add, move or remove content. It is the normal view when you open a page offline. See&nbsp;&lt;a href=&quot;/opencms-documentation/the-opencms-workplace/editors/the-page-editor/&quot;&gt;here&lt;/a&gt; for a description of the editor.&lt;/p&gt;" data-trigger="focus"><abbr title="Click to see description">page editor</abbr></a> - learn how <a tabindex="0" role="button" data-container="body" data-toggle="popover" data-placement="bottom" data-content="&lt;p&gt;The inline editor, or inline content editor, is a content editor integrated into OpenCms, that allows you to edit content directly on the webpage. See&nbsp;&lt;a href=&quot;/opencms-documentation/the-opencms-workplace/editors/content-editors/the-inline-content-editor/&quot;&gt;here&lt;/a&gt; for more information.&lt;/p&gt;" data-trigger="focus"><abbr title="Click to see description">inline editing</abbr></a> is configured.</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Inline editing]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/demos/inline-editing/]]></target>
+            <uuid>47728191-d1cd-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Advanced container usage]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Design your page layout with nested containers.</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Advanced container usage]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/demos/advanced-container-usage/]]></target>
+            <uuid>dcde6a65-d1cc-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[PDF generation]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Get your content as PDF - see how it &nbsp;works for a demo article.</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[PDF generation]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/demos/pdf-generation/]]></target>
+            <uuid>95f9ce66-d1cd-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

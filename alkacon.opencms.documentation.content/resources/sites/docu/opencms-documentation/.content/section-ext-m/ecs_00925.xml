@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Categories and search facilities]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Categories are indexed by default. The category information is stored in the index fields <code>category</code> and <code>category_exact</code>. Both are multivalued and contain the category paths of the assigned categories as values. The main difference is that <code>category</code> is of type <code>text_general</code> and <code>category_exact</code> of type <code>string</code>.</p>
+<p>To&nbsp;enable facetting on categories, you can build a facet on the field <code>category_exact</code>. To easily render the facet itself in a JSP, you may use the above code example on displaying the path titles of a category.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

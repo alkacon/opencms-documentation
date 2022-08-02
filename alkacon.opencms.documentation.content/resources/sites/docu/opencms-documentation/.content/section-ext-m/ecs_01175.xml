@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Implementing a locale switcher 3]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[adjust-the-site-configuration-c3cd52a0]]></anchor>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspResourceWrapper.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>The most important bit in the code is <code>${cms.localeResource}</code> in line 3. It returns a map from locales (as <code>String</code>) to the respective locale variant of the currently rendered page. The map has an entry for each locale configured for the site (see <a href="%(link0)">here</a> for configuring locales). In our case for "en", "de" and "fr". If no locale variant of the currently rendered page exists for one of the configured locales, the map's entry contains an empty value. Otherwise, the value provides access to the locale variant of the page via a <a href="%(link1)" target="_blank" rel="noopener">CmsJspResourceWrapper</a>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Having added the language switch, you are done. <em>Congratulations to your multi-lingual website!</em></p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

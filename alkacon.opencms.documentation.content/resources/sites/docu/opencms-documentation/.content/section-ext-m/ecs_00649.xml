@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Improve your template to use plugins]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/typical-tasks/writing-jsps/overview-java-beans-for-el/]]></target>
+            <uuid>8992d7d0-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Part of the OpenCms plugin system are some <a href="%(link0)">EL expressions</a>, which you can use to get your template ready for <em>Site plugins</em>.</p>
+<p>Find below a JSP snippet where plugin resources of different groups are inserted depending on whether the resource is a JavaScript, CSS, or JSP file.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

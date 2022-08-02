@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Security settings preventing DoS-Attacks]]></Title>
+    <Section>
+      <Caption><![CDATA[Max. number of contents]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Specifies the maximum number of content items allowed in the configured “Content folder”. If not set, the number is not limited.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Queue wait time]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The delay time between generating new sessions (in milliseconds).</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Queue maximum length]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The maximum number of sessions that wait for creation. If more session requests are present at the same time, they are ignored.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

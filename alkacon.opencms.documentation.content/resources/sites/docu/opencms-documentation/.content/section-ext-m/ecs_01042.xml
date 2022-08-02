@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Response model]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<table style="border-collapse: collapse; width: 100%; border-color: #aaa;" border="1" cellpadding="12">
+<tbody>
+<tr>
+<th style="white-space: nowrap; width: 23%;">Property</th>
+<th style="white-space: nowrap; width: 60%;">Description</th>
+<th style="white-space: nowrap; width: 18%;">JSON Type</th>
+</tr>
+<tr>
+<td>attributes</td>
+<td>Technical metadata about the requested resource.</td>
+<td>Object</td>
+</tr>
+<tr>
+<td>attributes.lastModified</td>
+<td>Timestamp when the requested resource was last modified.</td>
+<td>Number</td>
+</tr>
+<tr>
+<td>attributes.type</td>
+<td>The internal type of the requested resource.</td>
+<td>String</td>
+</tr>
+<tr>
+<td>isFolder</td>
+<td>Whether the requested resource is a folder.</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>isXmlContent</td>
+<td>Whether the requested resource is a content.</td>
+<td>Boolean</td>
+</tr>
+<tr>
+<td>link</td>
+<td>The absolute path of the requested resource relative to the site root.</td>
+<td>String</td>
+</tr>
+<tr>
+<td>own_properties</td>
+<td>The properties directly attached to the requested resource.</td>
+<td>Object</td>
+</tr>
+<tr>
+<td>requestParams</td>
+<td>Just repeats the request parameters and informs which default value is used for each parameter.</td>
+<td>Object</td>
+</tr>
+<tr>
+<td>path</td>
+<td>The full absolute path of the requested resource including the path of the site.</td>
+<td>String</td>
+</tr>
+<tr>
+<td>properties</td>
+<td>The properties of the resource itself plus the properties inherited from the parent and descendant folders.</td>
+<td>Object</td>
+</tr>
+</tbody>
+</table>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Use case: Setting Title property and gallery name]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>To identify content in the "Add wizard" of the page editor or in the workplace, a meaningful gallery name (used in the "Add wizard") and a title property (shown in the workplace) are essential. To obtain suitable values, it is common to map a content element to the title property (and the gallery name. Note: We will say only title property below, but we also mean gallery name.).</p>
+<p>For example, in an article with a headline, the headline may be a good title property. But, sometimes the headline is not meaningful enough. For example, you may have a page named "My great experiment" and another page "My other great experiment". On both pages you place an article with the headline "Most suprising insights". Mapping only this headline to the title property is not satisfactory in this particular setting. Another solution is preferable: OpenCms allows you to place the page title in front of the heading. Here is an example XSD that demonstrates it:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

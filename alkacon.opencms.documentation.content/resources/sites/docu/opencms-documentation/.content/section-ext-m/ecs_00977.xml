@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Create a configuration file]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/explorer/]]></target>
+            <uuid>71c1c77d-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/searchBigIconActive.svg]]></target>
+            <uuid>dfa1df6b-c9f9-11ec-a595-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-page-editor/]]></target>
+            <uuid>0597a70a-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>First, you need to create a configuration file for the common element settings. This can be done in the <a href="%(link0)">explorer view</a>. There you can add via&nbsp;<strong><img style="width: 14px;" title="searchBigIconActive" src="%(link1)" alt="" /></strong>&nbsp;<a href="%(link2)">"Add-Wizard"</a> a new resource of the type "Predefined element settings" under the item "Configurations" in the dropdown list.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/CommonSettings_AddWizard.png]]></target>
+            <uuid>d97cae0c-f76f-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Add a new resource via Add Wizard]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/demos/element-settings/]]></target>
+            <uuid>e49bec17-d1cc-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>In this file you can add a new element setting as described <a title="How to configure element settings" href="%(link0)">here</a>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/CommonSettings_DateConfiguration.png]]></target>
+            <uuid>d9827a74-f76f-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Configuration file with one element setting (dateFormat)]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

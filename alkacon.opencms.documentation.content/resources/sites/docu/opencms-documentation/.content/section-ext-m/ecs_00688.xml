@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Available configuration options]]></Title>
+    <Section>
+      <Caption><![CDATA[category]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Configure&nbsp;the starting&nbsp;category by setting <code>category=category/path/</code>. Only the configured category and categories below that main category are displayed.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[onlyleafs]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If you configure&nbsp;<code>onlyleafs=true</code>, &nbsp;Only leaf-categories can be selected.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[property]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Configure&nbsp;the starting&nbsp;category via a property by setting <code>property=property-name</code>. The property is read from the edited content (or it's parent folders) and the value of the property is used as (category path of) starting category. Only the starting&nbsp;category and categories below that main category are displayed.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

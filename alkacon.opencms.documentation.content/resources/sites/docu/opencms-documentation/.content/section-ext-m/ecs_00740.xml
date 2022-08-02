@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Download gallery widget]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The download gallery widget provides a way to select VFS resources from galleries, or upload new resources into galleries.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/ContentEditor_DownloadGalleryWidget.png]]></target>
+            <uuid>2e383452-eadd-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Layout of the download gallery widget]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_normalsize/uploadSmallIconActive.png]]></target>
+            <uuid>8d1a6024-f126-11ec-9dd5-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+          <link name="link1" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_normalsize/popupIconActive.png]]></target>
+            <uuid>81019aae-f126-11ec-9dd5-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[image-gallery-widget-6322df65]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>The icons&nbsp;<img style="width: 14px;" title="uploadSmallIconActive (Locked by (Admin))" src="%(link0)" alt="" /> and&nbsp;<img style="width: 14px;" title="popupIconActive (Locked by (Admin))" src="%(link1)" alt="" /> provide similar functionality as in the image gallery widget, but in addition to image galleries, download galleries can also be browsed. To configure to which gallery files are uploaded, set the property <code>repositoryfolder_downloadgallery</code>. For more detailed information, see the <a href="%(link2)">description of the image gallery widget</a>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>To use the download gallery widget, the editor element should have type <code>OpenCmsVfsFile</code>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

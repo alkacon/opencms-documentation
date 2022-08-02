@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Display the path titles of a category as label]]></Title>
+    <Code><![CDATA[<!-- facetItem.name returns the category path, e.g., "location/europe/germany/" -->
+<c:set var="label"></c:set>
+<c:forEach var="category" items="${cms.readPathCategories[facetItem.name]}" varStatus="status">
+	<c:set var="label">${label}${category.title}</c:set>
+	<c:if test="${not status.last}"><c:set var="label">${label}&nbsp;/&nbsp;</c:set></c:if>
+</c:forEach>]]></Code>
+  </Flexible>
+</FlexibleData>

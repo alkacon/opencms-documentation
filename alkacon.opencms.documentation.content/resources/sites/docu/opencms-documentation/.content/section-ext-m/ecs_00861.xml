@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Step 2: Configure /etc/davfs2/davfs2.conf]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Set the <code>delay_upload</code> configuration parameter to a value of <code>1</code> or lesser, which means, <code>davfs2</code> will wait at most 1 second until changes in your local file system are propagated to the OpenCms VFS.</p>
+<p>/etc/davfs2/davfs2.conf</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

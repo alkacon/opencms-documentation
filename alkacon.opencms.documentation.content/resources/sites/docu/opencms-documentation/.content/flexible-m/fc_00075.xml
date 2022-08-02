@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Configuration of user preferences]]></Title>
+    <Code><![CDATA[<opencms>
+  <workplace>
+    <!-- ... -->
+    <default-preferences>
+      <preference-tab name="basic">
+        <preference name="locale" value="en"
+                    nice-name="%(key.GUI_LABEL_LANGUAGE_0)" />
+        <!-- ... -->
+      </preference-tab>
+      <preference-tab name="extended">
+        <preference name="allowBrokenRelations" value="false"
+                    widget="checkbox" />
+        <!-- ... -->
+      </preference-tab>
+      <preference-tab name="hidden">
+        <preference name="workplaceButtonStyle" value="textimage" />
+        <!-- ... -->
+      </preference-tab>
+    </default-preferences>
+    <!-- ... -->
+  </workplace>
+</opencms>]]></Code>
+  </Flexible>
+</FlexibleData>

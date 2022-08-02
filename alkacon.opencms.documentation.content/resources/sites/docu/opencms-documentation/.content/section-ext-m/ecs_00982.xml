@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Configuration of the element settings]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>To get element settings from display formatters to lists, three steps are required:</p>
+<ul>
+<li>The display formatters element settings have a suitable "Visibility" configured</li>
+<li>The list content uses a schema element of type OpenCmsDisplayFormatter to reference the display formatters.</li>
+<li>The list formatter that renders the list has the option "Include element settings from display formatters" enabled.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Configuration of the display formatters element settings]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/formatters-and-their-configuration/element-settings/]]></target>
+            <uuid>49061617-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>In the formatter configuration of the display formatter under the tab "Supported settings", element settings are configured. See <a href="%(link0)">here</a> for the configuration in general. The important option concerning display formatters is the "Visibility".</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinkSequenceData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/linksequence.xsd">
+  <LinkSequence language="en">
+    <Title><![CDATA[Related links]]></Title>
+    <LinkEntry>
+      <Text><![CDATA[JPedal: The library used for thumbnail generation]]></Text>
+      <URI>
+        <link internal="false" type="WEAK">
+          <target><![CDATA[http://sourceforge.net/projects/jpedal/]]></target>
+        </link>
+      </URI>
+      <NewWindow>true</NewWindow>
+    </LinkEntry>
+    <LinkEntry>
+      <Text><![CDATA[A demo for thumbnail generation]]></Text>
+      <URI>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/docu/opencms-documentation/todo/demos/pdf-thumbnail-generataion/]]></target>
+          <uuid>9d4ef158-d1cd-11ec-9238-0242ac11002b</uuid>
+        </link>
+      </URI>
+    </LinkEntry>
+    <LinkEntry>
+      <Text><![CDATA[TLDDoc for the tag <code>&lt;cms:pdfthumbnail&gt;</code>]]></Text>
+      <URI>
+        <link internal="false" type="WEAK">
+          <target><![CDATA[https://documentation.opencms.org/javadoc/tld/cms/pdfthumbnail.html]]></target>
+        </link>
+      </URI>
+      <NewWindow>true</NewWindow>
+    </LinkEntry>
+  </LinkSequence>
+</LinkSequenceData>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Features]]></Title>
+    <Section>
+      <Caption><![CDATA[Folder Handler]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A handler to explore and display all the contents available in an OpenCms installation. The folder handler allows to navigate the complete multi-site and multi-lingual tree of a website in any depth. On each level of the tree it informs about properties and attributes attached to a resource.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Content Handler]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A handler to create detail views for individual contents. The content handler provides utility features for locale handling and linked contents.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[List Handler]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Editors with OpenCms can create preconfigured content lists that collect items of a content type - or even mixed content types - taking into account various list options such as category filtering and sorting. The list handler allows to display such preconfigured lists with the possibility to dynamically change the configured list options by means of request parameters.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Page Handler]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A handler to present a web page in the arrangement and formatting intended by the editor when a page was created. The page handler provides information about the arrangement of the contents on a web page as well as formatting and styling options of contents and content parts.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Security]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A basic security mechanism is provided to exclude content folders and content files as well as content properties that are not intended for the public.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Formatter configuration]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Formatter configurations are XML content of type "Formatter configuration" (formatter_config). They connect resource types (typically content types) with formatters (JSPs that render the resources).</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Adding and editing a formatter configuration]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Use the traditional workplace's explorer view to add and edit a formatter configuration. Navigate to the folder where the configuration should be placed and click "New" -&gt; "Other options" -&gt; "Formatter configuration" to add a new formatter configuration.</p>
+<p>The typical name for a formatter configuration is similar to the configured formatter's name. The usual suffix is "<code>.xml</code>".</p>
+<p>To edit a formatter configuration right-click on it and choose "Edit". The form-based content editor opens.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Specification inside in a formatter configuration]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/creating-a-template-jsp/]]></target>
+            <uuid>95522bfc-d1c7-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/tld/cms/container.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>The main purpose of a formatter is to glue content, formatter and template together. Hence the main things to specify (with the formatter configuration's editor fields in braces) are</p>
+<ul>
+<li>The type of the resources for which the formatter should be applied ("Resource type")</li>
+<li>The formatter (JSP) that should be used for rendering ("JSP").</li>
+<li>The containers in which the formatter should be used ("Match" as "Container types" or "Container width")</li>
+</ul>
+<p>For specifying in which containers a formatter is used, we strongly recommend to match by "Container types". Containers (see <a href="%(link0)">here</a> and <a href="%(link1)">here</a>) have a <code>type</code> attribute where you can specify container types (just a comma-separated list of Strings, e.g. <code>"default,center,flexible"</code>). If the formatter configuration lists at least one of the types mentioned there (e.g. <code>default</code>), the formatter can be used for the container, i.e., the content is rendered with the formatter.</p>
+<p>Here is a formatter configuration:</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/FormatterConfiguration_BasicTab.png]]></target>
+            <uuid>02dbd64f-f5da-11ec-9ae6-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[A formatter configuration]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>In the tab "Basic configuration", you define the formatter and the type of the resources that are rendered with this formatter. Moreover, you provide a name for the particular formatter configuration, define when to use the formatter and say which head-includes have to be added to make the formatter work.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

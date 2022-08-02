@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Using <xsd:choice> in an XSD]]></Title>
+    <Code><![CDATA[...
+  <xsd:complexType name="OpenCmsDevDemoSettingsArticle">
+    <xsd:sequence>
+      ...
+      <xsd:element name="Options" type="OpenCmsDevDemoTextOption" minOccurs="0" />
+      ... 
+    </xsd:sequence>
+...]]></Code>
+  </Flexible>
+</FlexibleData>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Global locale configuration  3]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>When you are done with the changes, <strong>restart OpenCms</strong> (the servlet-container).</p>
+<p>To check if your changes worked, edit a content from some page of the site. The language selector should provide English, German and (that's new because of the adjuste configuration) French.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/language-switch.png]]></target>
+            <uuid>1198c128-fe8d-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[The language switcher with three languages]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Content Parameters 2]]></Title>
+    <Section>
+      <Caption><![CDATA[Name]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p><strong>Description</strong></p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[content]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>With the&nbsp;<em>content</em>&nbsp;parameter, additional contents can be embedded in a JSON response document. Depending on the actual handler, the content embedded can have different origins. For the&nbsp;<em>Folder Handler</em>, content is embedded for all children files of a folder in line with the already present resource wrappers. For the&nbsp;<em>List Handler</em>, the&nbsp;<em>content</em>&nbsp;parameter causes the JSON API to evaluate the list configuration and appends the resulting list contents at the end of the JSON document. For the&nbsp;<em>Content Handler</em>&nbsp;and the&nbsp;<em>Page Handler</em>, the&nbsp;<em>content</em>&nbsp;parameter searches for all contents that are linked to the requested content or the requested page and embeds the linked contents. The content parameter in the end means "show me as much content as possible". It is an utility parameter shifting the complexity of the various content relations (content as list result, linked contents, file contents, etc.) from the client to the API.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[wrapper]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Shows and hides the resource wrappers in a JSON document of the JSON response. This is especially useful to optimize the size of large JSON documents that contain a large number of content and resource files. The resource wrapper and the content are two independent parts of a JSON response document that can be turned on and off independently of each other depending on the actual requirements.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[locale]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A frontend usually is not interested in all the locales a content is available for but in the locale currently selected by the client. Thus, it is common practice to always select a single locale with the&nbsp;<em>locale</em>&nbsp;parameter. Just like the&nbsp;<em>wrapper</em>&nbsp;parameter, the&nbsp;<em>locale</em>&nbsp;parameter can significantly reduce the size of the response document.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[fallbackLocale]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>It is common practice to always use the&nbsp;<em>locale</em>&nbsp;parameter in combination with the&nbsp;<em>fallbackLocale</em>&nbsp;parameter to avoid empty results, i.e., to always have some default locale content available in the response document</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

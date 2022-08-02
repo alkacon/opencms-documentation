@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Technical details]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Nested containers are similar to normal containers managed by the container page. When content that exposes a nested container is added to a page, the container will be stored similar to a top-level container in the container page. The only additional information is the element id of the container's parent element, i.e., the id of the container page element that represents the content you just placed on the page. Have a look into a container page that holds information about a nested container to see the details.</p>
+<p>When an element that exposed a nested container is removed from a page, the information about the nested container is also removed from the container page.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

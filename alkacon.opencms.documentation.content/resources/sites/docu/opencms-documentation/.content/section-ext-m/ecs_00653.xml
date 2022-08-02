@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Comparison]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/modules/]]></target>
+            <uuid>85b70871-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/typical-tasks/editing-properties/]]></target>
+            <uuid>6a49a907-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>One could argue that site specific functionality could be realised with <a href="%(link0)">Modules</a> and <a href="%(link1)">Properties</a> in the same way as with plugins:</p>
+<ul>
+<li>if a specific property is set, activate a functionality implemented by a module for the current site context</li>
+<li>deactivate the functionality if the property is not set for the current site</li>
+</ul>
+<p>Plugins have two advantages over the module and properties approach, though:</p>
+<ul>
+<li>Plugins can be registered in <em>Sitemap master configurations</em>. In this way, plugin functionality can not only be activated for single sites but also for groups of sites.</li>
+<li>Plugins and templates are loosely coupled thanks to the group and ordering concept. The template provides just a frame where arbitrary resources can be inserted. In this way, a modular template is kept clean and free of site-specific requirements.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

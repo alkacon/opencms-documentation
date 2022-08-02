@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Search settings]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>OpenCms allows you to configure how your content is indexed by the integrated Solr search engine. In particular, you can add information about indexing in the content's schema definition and thereby, on the one hand, define if the content should only be found via the containerpage it resides on or also as content itself, and, on the other hand, you can tell which content elements are mapped to which index fields.</p>
+<p>Adjusting the search settings such that they fit to your needs requires some background on the Solr search engine. Whenever you implement your own search functionality it is an important task to adjust the search settings otherwise you will almost definitely get unintended search results.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Adjust the site configuration]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>To configure the multi-tree localization mode for the tutorial site, open the Launchpad and choose the Site Management. Choose the site were you placed the tuturial's&nbsp;content and edit it. Below, this site is&nbsp;named&nbsp;"Multi-Tree".</p>
+<p>You need to add two parameters:</p>
+<ul>
+<li><code>locale.main=en</code>: This means that English is the primary variant of your website. Pages are all first created in English and copied to other locales afterwards.</li>
+<li><code>locale.secondary=de,fr</code>: You specify German and French as secondary locales. These are the languages, you want to copy English pages to.</li>
+</ul>
+<p>Our configuration means, that we have a main version of the site in English and we want to (partly) translate pages to German and French.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/compare-locales-view.png]]></target>
+            <uuid>1c1bf27e-fe8d-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[The compare locales view]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

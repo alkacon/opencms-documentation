@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Localization for resource types]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>For each resource type in OpenCms, you basically need three different localized values:</p>
+<ul>
+<li>Title (shown in workplace and ADE add wizard)</li>
+<li>Description (shown in workplace and ADE add wizard)</li>
+<li>Title for the "New" dialog of the traditional workplace shown when adding a new content of the type</li>
+</ul>
+<p>The keys for these values have to be placed in <em>workplace message bundles</em>. Bundles ending with .workplace and property files name messages are treated special in OpenCms. They are called worplace message bundles. They conform to the following name scheme:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Lists and links to detail pages]]></Title>
+    <Code><![CDATA[<%-- ... --%>
+<cms:simplesearch var="search" ... />
+<c:forEach var="result items="${search.searchResults}">
+  <cms:display ...>
+     <cms:param name="instancedate">${result.dateFields[instancedatefield].time}</cms:param>
+  </cms:display>
+</c:forEach>
+<%-- ... --%>]]></Code>
+  </Flexible>
+</FlexibleData>

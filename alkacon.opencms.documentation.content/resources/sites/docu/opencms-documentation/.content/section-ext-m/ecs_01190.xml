@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Translating page titles and navigation properties]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/background/the-virtual-file-system/]]></target>
+            <uuid>711b44d5-d1b9-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[properties-explained-771b2fe4]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Up to now, we have translated contents. But, e.g., the navigation on the pages is build using page properties. In particular <code>NavText</code> and <code>Title</code> are used. <a href="%(link0)">Properties in OpenCms</a> are unilingual by nature. To read properties locale-specific, OpenCms 10.5 introduces a mechanism to simulate multilingual properties. Property names can be extended by a locale specific postfix and then be read locale specific.</p>
+<p>For example, besides the property <code>Title</code>, we can add the properties <code>Title_de</code> and <code>Title_fr</code>. If we request the <code>Title</code> property for German, we get the value of <code>Title_de</code>. If we request it for French, we get the value of <code>Title_fr</code>. If we request it in English we get <code>Title</code>, since <code>Title_en</code> is not provided.</p>
+<p>We use the multilingual properties to localize <code>Title</code> and <code>NavText</code> in the tutorial.</p>
+<p>First we need to add property configurations for <code>Title_de</code>, <code>Title_fr</code>, <code>NavText_de</code> and <code>NavText_fr</code> to the sitemap configuration. Open the Sitemap editor in the Sitemap view and select "Advanced" -&gt; "Sitemap configuration". Below, you see part of the configurations to add. Check the "Prefer folder" option for <code>NavText</code> properties. If checked, properties are added to the folder of a page instead of adding it to the index.html.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/multi-language-property-config.png]]></target>
+            <uuid>94c53a02-fe8d-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Property configuration for supporting multi-lingual titles and navigations]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>When the configuration is done, stay in the Sitemap editor's Sitemap view and choose "Properties" from the context menu of the "Philosophy" page. The just configured properties should appear and you can add values for them as shown in the next figure.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/multi-language-property-edit.png]]></target>
+            <uuid>94c82036-fe8d-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Editing the multi-language properties]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>After adding the different locale specific versions of the properties, we do not see the intended effect directly. We have to adjust the JSPs rendering the page title and the navigation. We need to tell that properties should be accessed locale specific.</p>
+<p>Open the formatter for the head navigation used in our template. It is located under <code>/system/modules/org.opencms.apollo/formatters/navigation-head.jsp</code>. Replace <code>${cms.title}</code> by&nbsp;<code>${cms.titleLocale[cms.locale]}</code> to read the page title locale specific. Perform the same adjustment in the template JSP <code>/system/modules/org.opencms.apollo/templates/apollo-page.jsp</code> to make&nbsp;the title in HTML meta data locale specific.</p>
+<p>The <code>navigation-head.jsp</code> formatter uses&nbsp;the tag&nbsp;<code>/system/modules/org.opencms.apollo/tags/nav-items.tag</code>. It uses the <code>&lt;cms:navigation&gt;</code> tag to generate the navigation. Have a look at the usage. The attribute <code>locale="${cms.locale}"</code>&nbsp;is provided. Doing so, the navigation properties are read locale specific.</p>
+<p>Now the page titles and the navigation are shown localized. Of course, reading properties locale specific is not restricted to navigation properties. The mechanism works for all properties.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

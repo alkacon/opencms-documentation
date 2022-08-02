@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Localizing the content editor: Naming schemes for the message keys]]></Title>
+    <Section>
+      <Caption><![CDATA[label.{schema type name}.{schema element name}]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The key for localizing the name of the schema element as shown in the content editor.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[label.{schema type name}.{schema element name}.help]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<header class="area-header logo-left header-notfixed">
+<div class="header-group sticky csssetting">
+<div class="head notfixed scrolled">
+<div class="container-fluid">
+<div class="row">
+<div class="col col-head-logo">
+<div class="image-src-box  presized">The key for adding a localized tooltip, shown when hovering over the schema element's name as shown in the content editor.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[label.{schema type name}.{tab's name attribute}]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The key for localizing the name shown in a tab.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

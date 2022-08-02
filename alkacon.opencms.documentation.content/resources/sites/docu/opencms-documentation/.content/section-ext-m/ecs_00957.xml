@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Enableing inline editing]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Inline editing has to be configured in a content's formatter. The value wrapper for each content field has the properties <code>rdfa</code> and <code>rdfaAttr</code>. The first returns the lazily initialized RDFA map for the nested sub-values, the second the RDFA annotation for the current value. These annotations are placed into HTML tags via the formatter. The page editor analysis this annotations and configures the inline editor accordingly.</p>
+<p>Dependent on the type of the content field that should be directly editable, the place where to put the annotation differs.</p>
+<ul>
+<li>For content fields of <code>OpenCmsString</code> or <code>OpenCmsHtml</code> the annotations must be placed at <em>a tag directly surrounding only the unmanipulated content value</em>.</li>
+<li>For fields of other types, the annotations can be placed at arbitrary tags. For these types values cannot be edited directly inline, but, at the tag where the annotation is placed, an edit button will appear, that allows to edit the content value.</li>
+<li>For content fields that are optional, or that can appear multiple times, also add and delete options are shown via RDFA annotations.</li>
+<li>For whole nested contents, the annotations can also be placed at arbitrary HTML tags.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

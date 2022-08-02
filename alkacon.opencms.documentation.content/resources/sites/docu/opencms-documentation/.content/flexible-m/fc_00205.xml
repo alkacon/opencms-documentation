@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Access Policy 4]]></Title>
+    <Code><![CDATA[<json-access>
+    <include>/path1.*</include>
+    <include>/path2.*</include>
+    <exclude>/path1.*</exclude>
+    <exclude>/path2.*</exclude>
+    <property-filter>(?i)^(?!.*(?:secret|api|password|key)).*$</property-filter>
+    <cors>
+        <allow-origin>*</allow-origin>
+        <allow-methods>*</allow-methods>
+        <allow-headers>*</allow-headers>
+    </cors>
+</json-access>]]></Code>
+  </Flexible>
+</FlexibleData>

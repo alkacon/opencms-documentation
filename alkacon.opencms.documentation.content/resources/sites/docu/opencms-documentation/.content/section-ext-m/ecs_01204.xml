@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Installing OpenCms]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>You can install OpenCms with Docker or manually.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Docker based Installation ]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://hub.docker.com/r/alkacon/opencms-docker/]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p><strong>The easiest way to install OpenCms is to use our official docker image</strong>. See&nbsp;<a href="%(link0)" target="_blank" rel="noopener" data-is-external-link="true">alkacon/opencms-docker</a> on Docker Hub for full information about running the OpenCms docker image.</p>
+<p>The docker setup already includes a pre-configured MariaDB database and a Tomcat server, which you need to run OpenCms.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Manual Installation]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/opencms-core/blob/master/INSTALL.md]]></target>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/server-installation/]]></target>
+            <uuid>3102d501-d1ce-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>You can <strong>install OpenCms "from scratch" manually</strong> on your local PC or on your server. See <a href="%(link0)" target="_blank" rel="noopener" data-is-external-link="true">the OpenCms installation guide</a>&nbsp;for full information about manually installing OpenCms.</p>
+<p>Part of the manual installation process is the setup wizard which is described in more detail below.</p>
+<p><a href="%(link1)">Chapter server installation</a> in this documentation offers additional hints about <strong>installing OpenCms on a production server</strong>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

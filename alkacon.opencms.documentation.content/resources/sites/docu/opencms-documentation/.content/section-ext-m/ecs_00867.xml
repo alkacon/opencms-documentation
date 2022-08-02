@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[CMIS integration]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>CMIS is a standard for accessing content repositories over web services. OpenCms provides a CMIS interface through which CMIS client software can access the OpenCms VFS. For that purpose, OpenCms comes with two additional servlets configured in the <code>WEB-INF/web.xml</code> file for the two possible binding types defined by the CMIS standard, AtomPub and SOAP. The servlets are mapped to the paths <code>/cmisatom</code> and <code>/services</code>, respectively.</p>
+<p>Additionally, some servlet context listeners are defined in the <code>web.xml</code> file. These servlets are provided by the Apache Chemistry server implementation framework. If you do not intend to use CMIS at all, you can just comment out the CMIS section in the <code>web.xml</code> file marked by "Start of/End of CMIS configuration", which will reduce the startup time of the OpenCms web application. These servlets provide access to any CMIS repositories which have been configured in <code>opencms-importexport.xml</code>. CMIS repositories, like WebDav repositories, are configured using the <code>&lt;repositories&gt;</code>-element. By default, this configuration has two configured repositories:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

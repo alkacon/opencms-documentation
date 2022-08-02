@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[About resource bundles 6]]></Title>
+    <Code><![CDATA[<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+
+<fmt:setLocale value="en" /> <%-- replace "en" with "de" for the German version --%>
+<fmt:bundle basename="my.demo.bundle.hello">
+  <fmt:message key="hello.world" />
+</fmt:bundle>]]></Code>
+  </Flexible>
+</FlexibleData>

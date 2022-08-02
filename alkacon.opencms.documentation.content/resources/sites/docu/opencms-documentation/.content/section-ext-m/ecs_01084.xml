@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Multilingual menus]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/localization/message-bundles/]]></target>
+            <uuid>2563f789-d1ca-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>This topic is concerned about the user interface localization for OpenCms users. The locale of these interfaces we call <em>workplace locale</em>. The topic tells you:</p>
+<ul>
+<li>How to localize the content editors</li>
+<li>How the localization of the traditional workplace and the ADE interfaces works</li>
+</ul>
+<p>To understand the topic fully, you have to know <a href="%(link0)">how message bundles work in OpenCms</a>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Lists and links to detail pages]]></Title>
+    <Code><![CDATA[<%-- ... --%>
+<c:set var="instancedate"           value="${param.instancedate}" />
+<c:set var="seriesInfo"             value="${content.value.Dates.toDateSeries}" />
+<c:set var="date"                   value="${seriesInfo.instanceInfo.get(instancedate)}" />
+<h3><a href="<cms:link>${content.filename}?instancedate=${instancedate}</cms:link></h3>
+<p>From ${date.formatShort}</p>
+<%-- ... --%>]]></Code>
+  </Flexible>
+</FlexibleData>

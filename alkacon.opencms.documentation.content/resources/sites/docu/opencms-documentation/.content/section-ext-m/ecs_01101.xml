@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Using properties files of type property resource bundle ]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/localization/message-bundles/]]></target>
+            <uuid>2563f789-d1ca-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[using-the-java-default-properties-files-59988be7]]></anchor>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/localization/message-bundles/]]></target>
+            <uuid>2563f789-d1ca-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[about-resource-bundles-7fa13a04]]></anchor>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/localization/message-bundles/]]></target>
+            <uuid>2563f789-d1ca-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[about-resource-bundles-7fa13a04]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Files of the type property resource bundle (<code>propertyvfsbundle</code>) contain key-value pairs exactly as the files from the approach in section "<a href="%(link0)">Using the default properties files</a>". The main difference is that they are loaded differently to overcome the problem of restarting the servlet container to promote changes in the files.</p>
+<p>Also where you put and how you name the property resource bundle files is different from where you put the properties files for the default Java mechanism. Using property resource bundles, the files are named as <em>bundle's base name + (optional) <code>_{locale}</code> extension</em>. By convention:</p>
+<ul>
+<li>The property resouce bundles are placed in the modules <code>i18n/</code>-subfolder.</li>
+<li>The basename is <code>{module name}.{bundle specific name}</code>.</li>
+</ul>
+<p>As example, consider that we want properties files as in section "<a href="%(link1)">About resource bundles</a>". We place them in the module <code>my.demo.bundle</code> and thus in the VFS folder <code>/system/modules/my.demo.bundle/i18n/</code>. The files are added via the workplace ("New" -&gt; "Configurations" -&gt; "Property resource bundle") and named</p>
+<ul>
+<li><code>my.demo.bundle.test_en</code></li>
+<li><code>my.demo.bundle.test_de</code></li>
+</ul>
+<p>They are used in a JSP as described in section "<a href="%(link2)">About resource bundles</a>", except that <strong>the tag <code>&lt;fmt:bundle&gt;</code> has to be replaced with <code>&lt;cms:bundle&gt;</code></strong>.</p>
+<div class="alert alert-info">The <strong>advantage</strong> of using property resource bundles is, that it suffices to <em>publish</em> the bundles files to make changes available. Restarting the servlet container is <em>not</em> required.</div>
+<div class="alert alert-info">We strongly recommend to <strong>place all files of one bundle in the same folder</strong>. Not doing so, the bundle editor will fail to correctly switch between the different translations.</div>
+<div class="alert alert-info alert-danger">The translation for the system's default locale (in the default installation "en") is automatically used as default translation. I.e., you do not need to add a file without locale postfix containing the default translation. Actually, you should not even do so. Because you should not, we also prohibit editing such file via the bundle editor.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

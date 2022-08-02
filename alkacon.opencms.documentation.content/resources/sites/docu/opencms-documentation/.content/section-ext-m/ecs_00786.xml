@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Available editor change handlers]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/ade/contenteditor/CmsEditorChangeHandlerProperty.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>By default, OpenCms provides&nbsp;<code><a href="%(link0)">CmsEditorChangeHandlerProperty</a></code> as a concrete handler implementation.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[org.opencms.ade.contenteditor.CmsEditorChangeHandlerProperty]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If in some observed editor field a new VFS link is inserted, the handler reads a specified property of the resource it is linked to and places this property as the value into another editor field.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/ade/contenteditor/CmsEditorChangeHandlerProperty.html]]></target>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

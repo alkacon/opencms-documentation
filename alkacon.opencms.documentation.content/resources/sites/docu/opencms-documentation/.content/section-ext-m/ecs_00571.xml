@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The basic schema types]]></Title>
+    <Section>
+      <Caption><![CDATA[OpenCmsBoolean]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Stores a Boolean value, i.e., <code>true</code> or <code>false</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[OpenCmsDynamicCategory]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Stores multiple categories</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[OpenCmsColor]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Stores a color value</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[OpenCmsHtml]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Stores strings with HTML markup. In particular, it extracts links in HTML and adjusts (internal) links with the link substitution manager, such that for example also exported VFS resources are found. Furthermore, for links to VFS resources the link relationship engine is used - thus they are also correctly found when they moved.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[OpenCmsLocale]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Stores the name of a locale, e.g., "en" or "de".</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[OpenCmsPlainTextString]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Stores arbitrary strings and stripes away HTML markup when indexing the value for search.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[OpenCmsString]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Stores arbitrary strings and does not further manipulate them.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[OpenCmsDateTime]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Stores a time stamp as <code>long int</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[OpenCmsVarLink]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Stores internal and external links.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[OpenCmsVfsFile]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Stores links to VFS resources, i.e., internal links.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[OpenCmsVfsImage]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/widget-configuration/]]></target>
+            <uuid>01d93703-db28-11ec-8fb9-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/widget-configuration/]]></target>
+            <uuid>01d93703-db28-11ec-8fb9-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Stores links to an image and serveral extra information on the image. It is not necessary to use this type for images - unless you want all the extra information. You can also use <code>OpenCmsVfsFile</code>. Check the description of the image widgets (<a href="%(link0)">VfsImageWidget</a> and <a href="%(link1)">ImageGalleryWidget</a>) for further information.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

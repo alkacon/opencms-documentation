@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[ Filling the form, validating and saving changes 3]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Note that there is a special treatment for file uploads. There you can’t just copy the form’s input to the content. You must upload the file before and then get back the link to the file from the server. See below for this.</p>
+<p>Note also: To delete an optional node from a content item, you must set its value explicitly to null. If the node is just not part of the result map, it remains unchanged. Thus to delete a node, add</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

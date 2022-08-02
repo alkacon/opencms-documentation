@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Referencing display formatters in the list content]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/lists-and-detail-pages/building-lists/]]></target>
+            <uuid>95138a1e-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<div class="alert alert-info">For most of your use cases the <a href="%(link0)">integrated list content</a> might be sufficient, so you do not have to set up your own list.</div>
+<p>In the schema definition (.xsd) of the list content, there must be a schema element to reference the display formatters that the list should use. This element must have type OpenCmsDisplayFormatter. It typically also uses the widget "DisplayTypeSelectWidget". Moreover, in the appinfo section, a node defining which schema elements hold display formatters, or in a more general speaking, nested formatters.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

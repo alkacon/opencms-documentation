@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Searching in OpenCms]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>We suggest to use the integrated list type for searches, or - if this is not enough - the &lt;cms:search&gt; tag for full-text searches. Partly for the first suggestion and necessarily for the second one, you should know how a Solr query is constructed in general.</p>
+<p>The best way to play with Solr on your OpenCms instance is the Solr handler. Here you can type plain Solr queries and get responses immediately.</p>
+<p>We explain a search with a concrete example (that you may vary a bit depending on your OpenCms installation):</p>
+<ul>
+<li><strong>Show articles in the default site that have been changed in the last 24 hours and sort them by the (english) title ascending.</strong></li>
+</ul>
+<p>Below, we show different solutions to perform that search.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

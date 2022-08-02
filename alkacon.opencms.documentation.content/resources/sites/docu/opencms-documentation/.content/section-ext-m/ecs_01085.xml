@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The difference between a multilingual website and the multilingual OpenCms GUI]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Localization has two facets: Multilingual websites and multilingual user interfaces. If, for example, you have a content editor that is natively English and thus prefers the English language. He may want to have all menus, infos, and so on, coming from OpenCms in English. However, if he edits a German website, the content he sees and modifies has to be German. The difference is noticed best by the figure below.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/multilingual_content_editor.png]]></target>
+            <uuid>c560c5d8-fb7d-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[The different localizations: GUI and content language]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The editor dialogs are all shown localized in English, which is set as user preference and called <em>workplace locale</em>. The language of the content, or more specific the language version that is edited, is German, as you see in the "Language" switcher at the top of the editor. The locale of the content, we usually refer to as <em>locale</em>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

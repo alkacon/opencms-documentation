@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Location picker widget 5]]></Title>
+    <Section>
+      <Caption><![CDATA[address]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Any string value that you will use to describe the location</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[lat]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Latitude coordinate of the location as used by Google Maps. Provided as a floating point number.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[lng]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Longitude coordinate of the location as used by Google Maps. Provided as a floating point number.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[height]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Height of the map that can be used when rendering the map. Given as an integer value specifying the number of pixels.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[width]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Width of the map that can be used when rendering the map. Given as an integer value specifying the number of pixels.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[mode]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The mode how the map should be rendered. Possible values are <code>"static"</code> or <code>"dynamic"</code>. The value should be used to indicate if a static or a dynamic map is shown.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[type]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Type of the map that should be shown. Valid values are the types available for Google Maps, i.e., "roadmap", "satellite", "hybrid" or "terrain".</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[zoom]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Specifies the zoom level that should be used to display the map. Valid values are the integers from 0 to 20.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

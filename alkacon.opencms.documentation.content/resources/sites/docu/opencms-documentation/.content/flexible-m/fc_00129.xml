@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Data view widget]]></Title>
+    <Code><![CDATA[<layout 
+  element="Item" 
+  widget="org.opencms.widgets.CmsDataViewWidget" 
+  configuration="{class: 'my.Class', multiselect: true, preview: true, config: 'myconfig'}"
+/>]]></Code>
+  </Flexible>
+</FlexibleData>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Defining an element view]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Element views are resources of type <code>elementview</code>. Typically element views are defined in modules that expose the resources types that should be shown in an element view. By convention, element views are stored in a subfolder <code>elementviews/</code> of the module folder. When an element view content is defined, it automatically makes up an element view, selectable in all resource type configurations and (if non-empty and accessible to the current user) selectable in the page editor.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Creating element view content ]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/explorer/]]></target>
+            <uuid>71c1c77d-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>To create a new element view:</p>
+<ul>
+<li>Open the&nbsp;<a href="%(link0)">explorer view</a> of the traditional workplace.</li>
+<li>Choose in which module the element view should be defined and (create and) move to the subfolder <code>elementviews/</code> of this module.</li>
+<li>Choose the "New wizard" and select "Other options" -&gt; "Element view".</li>
+<li>Choose a filename (typically with suffix <code>.xml</code>) and edit the metadata.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Editing the element view content]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The element view content stores mainly the name of the view used when the view is displayed in the page editor's context menu. Moreover you can alter the display order.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/elementviewContent.png]]></target>
+            <uuid>fd46733a-e6e3-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Element view content]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

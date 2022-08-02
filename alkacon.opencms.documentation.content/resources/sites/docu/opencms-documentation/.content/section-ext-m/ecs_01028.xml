@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The Content Model]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<ul>
+<li><strong>Resource</strong>. The resource type is the top level type of the JSON API. A resource can either be a file or a folder. For every resource requested, the JSON API responds with a resource wrapper containing metadata. See the section&nbsp;<em>Resource Handler</em>&nbsp;below for details about the JSON format.
+<ul>
+<li><strong>Folder</strong>. Folder is a container for any of the types below (<em>file</em>,&nbsp;<em>content</em>,&nbsp;<em>list</em>,&nbsp;<em>page</em>,&nbsp;<em>other</em>).</li>
+<li><strong>File</strong>. File is either a content file or a file of some other type.
+<ul>
+<li><strong>Content</strong>. The content type is the most relevant for the JSON API since it provides the actual website content. Whenever a content file is requested, a multi-lingual JSON wrapper with a defined inner content type is returned as described in section&nbsp;<em>Content Handler</em>&nbsp;below.
+<ul>
+<li><strong>List</strong>. The list type is a special content type with no multi-lingual wrapper. It is a content configuration file that collects contents of any type according to user-defined filter and sort criteria.</li>
+<li><strong>Page</strong>. The page type is also a special content type with no multilingual wrapper. It provides display information to be used when rendering contents on a page. See the section&nbsp;<em>Page Handler</em>&nbsp;below.</li>
+</ul>
+</li>
+<li><strong>Other</strong>. Files other than content files (images, audios, text files, binary files, etc.) can be streamed outside the JSON API. The JSON API in this case returns a resource wrapper only with metadata.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

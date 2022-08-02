@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Writing a formatter with nested containers]]></Title>
+    <Code><![CDATA[<%@page buffer="none" session="false" trimDirectiveWhitespaces="true" taglibs="c,cms" %>
+
+<cms:formatter var="content" val="value" rdfa="rdfa">
+
+<div class="margin-bottom-30">
+    <div class="tab-v1">
+        <ul class="nav nav-tabs">
+
+            <c:forEach var="label" items="${content.valueList.Label}" varStatus="status">
+                <li class="${status.first? 'active':''}">
+                    <a href="#${cms.element.instanceId}-tab-container${status.count}" 
+                       data-toggle="tab">
+                        ${label}
+                    </a>
+                </li>
+            </c:forEach>
+
+        </ul>
+
+        <div class="tab-content">
+
+            <c:forEach var="label" items="${content.valueList.Label}" varStatus="status">
+                <cms:container name="tab-container${status.count}" 
+                               type="content" tagClass="tab-pane ${status.first? 'active':''}">
+                </cms:container>
+            </c:forEach>
+
+        </div><!--/tab-content-->
+    </div><!--/tab-v1-->
+</div>
+
+</cms:formatter>]]></Code>
+  </Flexible>
+</FlexibleData>

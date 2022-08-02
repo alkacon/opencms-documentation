@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Unsorted list of ideas/suggestions]]></Title>
+    <Section>
+      <Caption><![CDATA[Glossary]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<ul>
+<li>Use list of FAQ entries for that</li>
+<li>New display formatter necessary</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[List type]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The pages about the internal list type are completely empty. They should be filled with at least a basic introduction to them</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Demos]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>We still need a good idea for the demos. There should be no interactive demo anymore, as they will not work in the online project at all.</p>
+<ul>
+<li>Host demo code on github inside a demo module? So it could be installed locally.</li>
+<li>Functional demos/examples could be integrated as part of the demo section. This will only work for for those demos that can be shown in the frontend without any offline actions</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Extended section enhancement]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>There are often paragraphs containing alternating text and source code elements. Maybe the extended section should provide optional source code sections.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

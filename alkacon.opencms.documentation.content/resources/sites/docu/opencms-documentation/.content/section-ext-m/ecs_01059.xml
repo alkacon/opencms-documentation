@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Editing multilingual content]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-page-editor/]]></target>
+            <uuid>0597a70a-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/content-editors/the-form-based-editor/]]></target>
+            <uuid>2c5345c7-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Whenever you open an XML content in the content editor, you can select the language version, you want to edit. By default, only the languages "German" and "English" can be chosen. The version which gets displayed first depends on the language of the page you are editing at. The language of the request context is chosen - or a default, if this language is not available for the content.</p>
+<ul>
+<li><a href="%(link0)">See here for more information on the page editor.</a></li>
+<li><a href="%(link1)">See here for details about editing content with the form-based content editor.</a></li>
+</ul>
+<p>A special hint is maybe necessary for the situation, you want to add a content to an, e.g., English page that exists, for example, only in German. Then you will not find the content unless you change the language for which you search content to German. This can be done as shown in the following screenshot form the page editor's "Add wizard".</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/pageeditor-add-content-for-language.png]]></target>
+            <uuid>0932a66d-f935-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Adding content to a page: Select the language for which you search existing content]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

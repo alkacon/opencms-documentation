@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Resource type specific message keys 2]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/resource-types/]]></target>
+            <uuid>dd59c3c2-d1c6-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[adding-a-new-resource-type-03ecfe43]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>If you add a new resource type to OpenCms, using the&nbsp;<a href="%(link0)">"Add resource type" wizard in the "Module Management"</a> in the administration view, the wizard does already all the configuration for the type in the <code>opencms-modules.xml</code> and adds the message keys just discussed to a suitable message bundle. This bundle is located under the <code>i18n/</code> subfolder of the module folder and named <code>{module name}.workplace</code>. The keys are entered for the current workplace locale. So you just need to add keys for the other locales.<span class="footnote">Note that via the content editor you can only edit the locales configure (for website contents) which are not necessarily identical to the workplace locales.</span> Localization as done by the wizard is the preferred way for localizing resource types.</p>
+<div class="alert alert-info">Note that, to make the keys work, their use must be configured correctly in the <code>opencms-modules.xml</code>. This is automatically done by the wizard as long as you do not leave the dialog fields empty where title etc. must be added.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

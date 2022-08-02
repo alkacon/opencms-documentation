@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Macro formatter by example]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>We assume a content with image, text and headline. Moreover, we have three basic formatters. One solely outputs the headline, one the image, one the text. All three formatters are disabled by default, such that they can not be used directly. The only formatters we want to use are macro formatters. These can combine one up to all three of the basic formatters.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Creating a macro formatter ]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A macro formatter is a content of type "Macro formatter". You can either place it in the module, or in a <code>.formatters</code> folder in the site. Add it via the explorers "Create resource" wizard. Macro formatters are found under "Configurations".</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Configuration of the macro formatter]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/formatters-and-their-configuration/]]></target>
+            <uuid>8c2d82ed-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/formatters-and-their-configuration/]]></target>
+            <uuid>8c2d82ed-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/formatters-and-their-configuration/element-settings/common-element-settings/]]></target>
+            <uuid>78d5c578-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link3" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/meta-mappings/]]></target>
+            <uuid>4c0f9acf-e273-11ec-8d31-0242ac11002b</uuid>
+          </link>
+          <link name="link4" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/formatters-and-their-configuration/]]></target>
+            <uuid>8c2d82ed-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The macro formatter combines formatter and configuration in one content. Editing the content you see three tabs:</p>
+<ul>
+<li><strong>Basic configuration</strong>: Configuration as known from <a href="%(link0)">formatter configurations</a></li>
+<li><strong>Macro</strong>: Writing the HTML snippet and linking to the formatters that are glued together</li>
+<li><strong>New Content</strong>: Set what should be rendered when a new element is added or set a default content</li>
+<li><strong>Supported settings</strong>: Configuration of additional settings of the macro formatter, similar to the settings configuration in <a href="%(link1)">formatter configurations</a>. And also similar to formatter configurations, since OpenCms 11 you can set a configuration file of frequently used element settings as described in <a href="%(link2)">common element settings</a>.</li>
+<li><strong>Meta mappings: </strong>Since OpenCms 11, you can set which values should be inherited to the page template. Read here about <a href="%(link3)">meta mappings</a>.</li>
+</ul>
+<p>For basic configuration and supported settings, refer to documentation of the <a href="%(link4)">formatter configuration</a>. The options from the macro tab, we discuss below.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Defining the macro]]></Caption>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/MacroFormatter_MacroTabCms11.png]]></target>
+            <uuid>c5d3e3a1-f6a4-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Defining the macro in the macro formatter]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>To define the macro, wee add the formatters that we want to use in the macro and declare a name for them - here it's one for headline, one for text and one for image. Then you write the macro HTML snippet with a <code>%(formatter_name)</code> used whereever the formatter with name <code>formatter_name</code> should be rendered. Additionally to <code>%(formatter_name)</code>, we can use <code>%(settings.settingname)</code> to read element settings defined in the "Supported settings" tab.</p>
+<div class="alert alert-danger">As normal formatters, the macro needs a surrounding <code>&lt;div&gt;</code><span class="footnote">or other block element</span> to be displayed correctly.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[How is Solr integrated in general? 2]]></Title>
+    <Code><![CDATA[<response>
+  <lst name="responseHeader">
+    <int name="status">0</int>
+    <int name="QTime">32</int>
+    <lst name="params">
+    <str name="q">*:*</str>
+    <int name="rows">2</int>
+    <long name="start">0</long>
+  </lst>
+  <result name="response" numFound="139" start="0">
+    <doc>...</doc>
+    <doc>...</doc>
+  </result>
+</response>]]></Code>
+  </Flexible>
+</FlexibleData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Some implementation details]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Actions performed via UGC are always performed in sessions. To add or edit content via UGC, a new session is created. This means a new project is created in OpenCms, and a new session object is created. The session object is exposed to the client via a session-id written somewhere in the HTML code. The id is used by the UGC JavaScript-API to get the session object. This object provides facilities to access and edit XML content in the newly created project.</p>
+<p>A project created for a session is removed when it is published. This can, depending on the configuration, either happen when the session object is destroyed or when a user with the according rights publishes the project.</p>
+<p>Note that UGC sessions are created on the server-side via a special JSP-Tag. Server-side code for session initialization is a matter of security: full control over which user can edit/add which content in which situation is preserved on the server-side.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

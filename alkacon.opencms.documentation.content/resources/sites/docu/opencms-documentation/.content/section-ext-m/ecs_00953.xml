@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Macro formatters]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>With the introduction of nested containers in OpenCms 9.5 it became possible to build up a website from layout elements and "real" content element, that render text or images. In particular in combination with responsive design frameworks this technique proved to be very powerful. But to wrap the full flexibility of a responsive design framework in your template, you either had to write very complex formatters, or dissect your contents into very tiny snippets and loose semantical relations, or force the editor to place the same content several times but rendered with different formatters on the same page. Macro formatters takle that problem. They allow to write several "normal" formatters that only render parts of a content and glue them together in the macro formatter.</p>
+<p>Macro formatters are a special content type introduced in OpenCms 10. They allow to build a new formatter from existing ones. Macro formatters basically glue "normal" formatters together by arranging their output in an HTML structure, referencing each individual formatter via a macro. Moreover, they accumulate all element settings of the individual formatters and support additional settings as well.</p>
+<p>&nbsp;</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

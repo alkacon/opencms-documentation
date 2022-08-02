@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Accessing a date series in a formatter]]></Title>
+    <Code><![CDATA[<c:set var="dates" value="${content.value.Dates.toDateSeries}" />]]></Code>
+  </Flexible>
+</FlexibleData>

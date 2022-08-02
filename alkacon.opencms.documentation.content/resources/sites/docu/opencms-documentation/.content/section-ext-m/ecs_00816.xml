@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Solr handler]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>When Solr runs stand-alone, you typically communicate with the Solr server via request handlers. OpenCms makes the select (for normal search queries) and the spellcheck handler of the embedded Solr server available. Hence you can query Solr as if it would by a stand-alone server.</p>
+<p>But, the special OpenCms Solr handler does more than just querying Solr. It also checks permissions for the search results that correspond to VFS resources where the current user has no read permission on.</p>
+<p>Since OpenCms 11, the extend to which you expose the Solr handler is very configurable.</p>
+<div class="alert alert-info">If you get along without a client-side search feature that directly contacts the Solr handler, you should disable it or use it for debugging only. This way you prevent that someone accesses information in an unintended way.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The index sources]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/search-settings/]]></target>
+            <uuid>355223d8-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Index sources for Solr can be configured in the file <code>opencms-search.xml</code> exactly the same way as you did for Lucene indexes. Basically, you say resources from which folders and which type should be added to an index. Each index then links to such an index source definition.</p>
+<p>For Solr indexes, in order to use the <a href="%(link0)">advanced XSD field mapping for XML contents</a>, you must add the new document type <code>xmlcontent-solr</code> to the list of document types that are indexed:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Writing a formatter]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A formatter is a normal JSP (type jsp). The special part is the use of the tag <code>&lt;cms:formatter&gt;</code> that exposes the content of the rendered resource.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Adding and editing a formatter]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Use the traditional workplace's explorer view to add and edit a formatter. Navigate to the folder where the configuration should be placed and click "New" -&gt; "JSP" to add a new formatter.</p>
+<p>The typical name for a formatter is somehow related to the name of the rendered resource's type. The usual suffix is "<code>.jsp</code>", but dependend on what the output of the formatter actually is, this can differ. For example, it could be "<code>.css</code>" or "<code>.pdf</code>".</p>
+<p>To edit a formatter right-click on it and choose "Edit sourcecode". The source code editor opens.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[A typical formatter ]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Here is an example of a typical formatter. It is kept simple but shows typical characteristics of a formatter.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

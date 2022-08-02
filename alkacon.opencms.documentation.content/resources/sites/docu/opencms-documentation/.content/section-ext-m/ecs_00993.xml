@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Creating lists with collectors]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>In the following subsections, we describe how to build a list with a collector. The first subsection, and the section about the available collectors, is all you need to get a list. The other subsections just describe extra features.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Using collectors in JSPs]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>OpenCms provides the tag <code>&lt;cms:contentload&gt;</code> to collect XML resources. The tag's body is rendered once for each collected content and <code>&lt;cms:contentaccess&gt;</code> is used to get access the content loaded in the current run:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

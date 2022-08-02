@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Exporting and importing aliases]]></Title>
+    <Code><![CDATA["/news-alias-1","/demo/about/index.html","redirect"
+"/news-alias-2","/demo/about/index.html"
+"/demo/([a-z]+).html","/demo/$1-old.html","permanentRedirect","rewrite"]]></Code>
+  </Flexible>
+</FlexibleData>

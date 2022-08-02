@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Sitemap configuration 2]]></Title>
+    <Section>
+      <Caption><![CDATA[Content elements]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Defines a content type‘s name and name pattern, default folder, formatter (optional) and more.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/search-engine-optimization-seo/]]></target>
+            <uuid>d7d54cbc-d1c7-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Formatters]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Configure which formatters should be available.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Dynamic functions]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Configure which dynamic functions should be available. (Since OpenCms 11)</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Property configuration]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Defines which properties get displayed under the "Basic Properties" tab for the property dialog in the ADE.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Templates]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/creating-template-models/]]></target>
+            <uuid>b69ca905-d1c7-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Defines template models to be used by the sitemap editor for generating new container pages. Most of the configuration is added when a new template model is added via the sitemap editor. Read more on template models <a href="%(link0)">here</a>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Detail pages]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-sitemap-editor/]]></target>
+            <uuid>0d5f13cb-d1c5-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[creating-detail-pages-e00d11fd]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Defines detail pages used for the specified content type in the sitemap. Most of the configuration is done automatically when a <a href="%(link0)">detail page is added via the sitemap editor</a>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

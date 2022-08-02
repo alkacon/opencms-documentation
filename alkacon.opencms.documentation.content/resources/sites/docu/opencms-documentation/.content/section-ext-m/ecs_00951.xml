@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Filter configuration]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The functionality described above relies on a special servlet filter, which is enabled by default on a freshly set up OpenCms instance.<br />If you are using an OpenCms instance which was updated from an earlier version and haven't replaced your web.xml file, you may need to configure this filter manually. &nbsp;<br /><br />Ensure that your <code>WEB-INF/web.xml</code> contains the following entries:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

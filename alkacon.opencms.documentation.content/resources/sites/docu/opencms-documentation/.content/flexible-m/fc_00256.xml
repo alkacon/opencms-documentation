@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Adding a language switcher 2]]></Title>
+    <Code><![CDATA[<c:forEach var="locale" items="${cms.availableLocales}">
+  <c:choose>
+    <c:when test="${locale == cms.locale}">
+      <c:set var="langlinks">
+        ${langlinks}
+        <li class="active"><a href="#">${locale}${' '}<i class="fa fa-check"></i></a></li>
+      </c:set>    
+    </c:when>
+    <c:otherwise>
+      <c:set var="showlinks" value="true" />
+      <c:set var="langlinks">
+        ${langlinks}
+        <li><a href="<cms:link locale='${locale}'>${cms.requestContext.uri}</cms:link>">${locale}</a></li>
+      </c:set>
+    </c:otherwise>
+  </c:choose>
+</c:forEach>]]></Code>
+  </Flexible>
+</FlexibleData>

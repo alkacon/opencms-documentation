@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Filling the form, validating and saving changes 4]]></Title>
+    <Code><![CDATA[function validate() {
+  var newValues = updateValues();
+  session.validate(newValues, validationReplyHandler)
+}
+
+function validationReplyHandler(errors) {
+  // handle the errors that are provided as 
+  // map “XPath of the element (String) -> error message (String)”
+}
+
+function save() { 
+  session.uploadFiles(["uploadfield"], saveContent, errorHandler);
+}
+
+function saveContent(uploadResult) {
+  var newValues = updateValues();
+  var pic = uploadResult["uploadfield"];
+  if (pic) { // file for upload is given
+    newValues["Paragraph[1]/Image[1]/Image[1]"] = pic;
+  } 
+  session.saveContent(
+      newValues
+    , function(s) { 
+       // handler called on successful upload, s is the empty string 
+      }     
+    , errorHandler
+  );      
+}]]></Code>
+  </Flexible>
+</FlexibleData>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[The structure of the XML schema for content types]]></Title>
+    <Code><![CDATA[<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <!-- Include schema definitions -->	
+    <xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+    <!-- Add includes for nested contents here -->
+
+    <!-- define the multi-language wrapper -->		
+    <xsd:element name="SimpleExampleData" type="OpenCmsSimpleExampleData"/>
+	
+    <xsd:complexType name="OpenCmsSimpleExampleData">
+        <xsd:sequence>
+            <xsd:element name="SimpleExample" type="OpenCmsSimpleExample" minOccurs="0" maxOccurs="unbounded" />
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <!-- define the structure of the content for a single language -->
+    <xsd:complexType name="OpenCmsSimpleExample">
+        <xsd:sequence>
+            <xsd:element name="Title" type="OpenCmsString" />
+            <!-- add more elements -->
+        </xsd:sequence>
+        <xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
+    </xsd:complexType>
+
+    <!-- configure the content's behavior (optional) -->
+    <xsd:annotation>
+        <xsd:appinfo>
+            <!-- place configuration here -->
+            <searchsettings containerPageOnly="true"/>
+        </xsd:appinfo>
+    </xsd:annotation> 
+
+</xsd:schema>]]></Code>
+  </Flexible>
+</FlexibleData>

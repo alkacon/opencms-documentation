@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Resource type specific message keys]]></Title>
+    <Section>
+      <Caption><![CDATA[fileicon.{resource type name}]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The key is used as title of the resource type in the ADE "Add wizard" of the page editor and the "New" wizard from the workplace.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[title.new{resource type name}]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The key is used as title of the dialog that appears when creating a new resource of the type via the "New" wizard from the workplace.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[desc.{resource type name}]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The key is used as description of the resource type in the ADE "Add wizard" of the page editor and the "New" wizard from the workplace.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Using the Java default properties files]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/localization/message-bundles/]]></target>
+            <uuid>2563f789-d1ca-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[about-resource-bundles-7fa13a04]]></anchor>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/localization/message-bundles/]]></target>
+            <uuid>2563f789-d1ca-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[about-resource-bundles-7fa13a04]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>You can use properties files to back up resource bundles as explained in section "<a href="%(link0)">About resource bundles</a>". If doing so, you typically place the properties files of the bundles in the <code>classes/</code> subfolder of your module's main folder and set an export point from that folder to <code>{webapp home}/WEB-INF/classes/</code>. As folder structure for the bundles, you typically use the module name, i.e., <code>/my/demo/bundles/</code> for the module <code>my.demo.bundles</code>. The properties files have just type "Text file" (plain) and the bundle name is build from the folder and file names as described in Section "<a href="%(link1)">About resource bundles</a>".</p>
+<div class="alert alert-info">The big <strong>drawback</strong> of using the default mechanism is that you always have to restart your servlet container until changes in the properties files are recognized.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

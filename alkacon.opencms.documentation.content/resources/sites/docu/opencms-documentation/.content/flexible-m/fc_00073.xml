@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Accessing values in JSPs]]></Title>
+    <Code><![CDATA[<c:if test="${value.Options.exists && value.Options.value.Text.isSet}">
+   <div>${value.Options.value.Text}</div>
+</c:if>]]></Code>
+  </Flexible>
+</FlexibleData>

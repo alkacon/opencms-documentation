@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Opening a detail page on click]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>To link to a detail page, you need to link to the VFS URL of the content whose detail view should be shown. In a formatter, where the content is available as object <code>content</code>, the code <code>&lt;a href="&lt;cms:link&gt;${content.filename}&lt;/cms:link&gt;"&gt;Link text&lt;/a&gt;</code> will create a link that points to the detail page of the content.</p>
+<div class="alert alert-danger">It is important, that the link to the detail page is sourrounded by the <code>&lt;cms:link&gt;</code>-tag. This tag will manage the redirect from the URL of the content to its detail page.</div>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Linking to a specific detail page]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Per sitemap only one detail page can be the "default" detail page for a content type. But, in some scenarios you might need more than one of these pages. OpenCms let's you define more than one detail page per type and sitemap. But how to link to a specific one?</p>
+<p>To not use the default detail page, just add the URL to the detail page you like to the link, e.g.:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

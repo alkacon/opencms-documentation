@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Use case: Setting Title property and gallery name 2]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>There are several interesting spots in the XSD:</p>
+<ul>
+<li>The optional <code>Title</code> element</li>
+<li>The two mapping entries</li>
+<li>The definition of the default value for the <code>Title</code> element</li>
+</ul>
+<p>The optional <code>Title</code> element is the one mapped to <code>property:Title</code> and <code>galleryName</code>. The important fact is, that the <code>&lt;mapping&gt;</code> node has set the attribute <code>useDefault="true"</code>. This setting forces the default value defined for <code>Title</code> to be mapped to the <code>Title</code> property even if the element itself is not present.</p>
+<p>To set default values for the <code>Title</code> element that fit for the actual content, special macros are used:</p>
+<ul>
+<li>The <code>%(page_title)</code> macro inserts the title of the page where the content is placed.</li>
+<li>The <code>%(no_prefix:)</code> macro places its body value, "<code>: </code>" in the example, only if a prefix exists, i.e., if the <code>%(page_title)</code> macro expands to a non-empty string in the example.</li>
+<li>The <code>%(value:)</code> macro takes an XPath to an element of the content and expands to the value of this content.</li>
+</ul>
+<p>The use of <code>resolveMacros="false"</code> in the <code>&lt;default&gt;</code> node is necessary to get the whole mapping working. If not set, the macros are resolved too early and will all expand to the empty string.</p>
+<p>In case the optional <code>Title</code> element is added to the content via the content editor, the default value with unresolved macros is displayed and can be adjusted. The content editor can also use the macros when editing the value.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

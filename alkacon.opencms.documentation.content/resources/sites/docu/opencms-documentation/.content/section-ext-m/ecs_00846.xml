@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Adjusting the dictionaries of the spellchecker 4]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[configuration-of-additional-languages-90dcde43]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Then the index for spellchecking is rebuild. This may take some time and you may not get any feedback. You can also use the parameter <code>check</code> instead of <code>rebuild</code>. This will only rebuild the index, if a dictionary has changed since the last build.</p>
+<div class="alert alert-info">The <code>check</code> and <code>rebuild</code> parameters only work, if you have role root administrator.&nbsp; Moreover, you'll always get an "error" or a timout as answer. Nonetheless, the indexes will be rebuilt.</div>
+<div class="alert alert-danger">To add dictionaries for an additional language,&nbsp;<a href="%(link0)">the language must be configured</a> before you add the dictionary.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

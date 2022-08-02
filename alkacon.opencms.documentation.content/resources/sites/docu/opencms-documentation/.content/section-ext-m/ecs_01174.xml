@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Implementing a locale switcher]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Our website already exists in three different locale variants. To let the user visiting the site switch from one locale to another, a language switcher is necessary. It should work as follows: For each page, you should be able to switch to all available translations. If no translation is available, you can either not switch or go to the home page in the target locale. Of course, these are suggestions and you can implement a different logic if you like.</p>
+<p>The Apollo-Template already contains a locale switcher. And you may have noticed, that it already appeared above the main navigation. It is rendered by a "Link Sequence" that resides in the "Header" model group used on all pages.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The link sequence is formatted by <code>/system/modules/org.opencms.apollo/formatters/linksequence-head.jsp</code>. It uses the tag <code>&lt;apollo:language-linklist /&gt;</code> to produce the language links. You find the tag under <code>/system/modules/org.opencms.apollo/tags/language-linklist.tag</code>. It is advanced in the way, that you are taken to the home page of a respective locale, if the current page is not translated and that you see the language names in the according language's translation. Check out the tag to see how this is done.</p>
+<p>Here's simpler version of a&nbsp;language switch that basically does the same thing, but just displays "DE", "EN" etc. instead of the localized Language names and simply does omit languages for which the current page is not translated (has no locale variant):</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

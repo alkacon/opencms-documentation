@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Field settings]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/demos/element-settings/]]></target>
+            <uuid>e49bec17-d1cc-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The structure of a content of specific type and its behaviour are specified in an XSD. Field settings, introduced in OpenCms 11, allow to adjust the behavior of a single editor field in one place. They unify the configuration syntax with the one for <a href="%(link0)">element settings in formatter configurations</a>. They provide simpler syntax for some configuration options and enhance reusability of configurations.</p>
+<p>Here we describe the syntax of field settings and briefly describe the different options. Most of the options are configurable in the former feature-centered configuration syntax. For details of the features, we link to the respective other topics.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

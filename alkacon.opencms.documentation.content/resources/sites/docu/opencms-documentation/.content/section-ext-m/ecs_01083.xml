@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[A variation: Different sites for each language]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/localization/multilingual-websites/]]></target>
+            <uuid>131d02e5-d1ca-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[language-specific-sub-sites-or-sub-folders-with-independent-pages-96acc3f1]]></anchor>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/localization/multilingual-websites/]]></target>
+            <uuid>131d02e5-d1ca-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[language-specific-sub-sites-or-sub-folders-with-siblings-as-pages-ff7ee95b]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>It's also possible to have different sites for each language. To share content between sites, it must be placed in the <code>/shared/</code> folder under the root site. With this option, it's possible to have similar approaches as described in sections <a href="%(link0)">"Independent subsites"</a> and&nbsp;<a href="%(link1)">"Sibling subsites"</a>. Just set the <code>locale</code> property accordingly at each site's root folder.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

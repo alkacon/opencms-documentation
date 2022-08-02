@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Request parameters]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<table style="border-collapse: collapse; width: 100%; border-color: #aaa;" border="1" cellpadding="12">
+<tbody>
+<tr>
+<th style="width: 20%; white-space: nowrap;">Parameters</th>
+<th style="width: 25%; white-space: nowrap;">Default Value</th>
+<th style="width: 40%; white-space: nowrap;">Description</th>
+<th style="width: 15%; white-space: nowrap;">Dependency</th>
+</tr>
+<tr>
+<td>[none]</td>
+<td>&nbsp;</td>
+<td>Returns a JSON representation of the of the page informing about the referenced contents and their structure.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>?content={boolean}</td>
+<td>false</td>
+<td>If set to true, expands all referenced contents and appends them at the end of the JSON document.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>?locale={locale}</td>
+<td>[not set]</td>
+<td>If set, appends all contents at the end of the JSON document, but only the localized parts of the contents selected by {locale}.</td>
+<td><em>content</em></td>
+</tr>
+<tr>
+<td>?fallbackLocale={boolean}</td>
+<td>false</td>
+<td>If set to true, falls back to another locale for the embedded contents if the selected locale does not exist for an embedded content.</td>
+<td><em>locale</em></td>
+</tr>
+<tr>
+<td>?wrapper={boolean}</td>
+<td>false if locale or path is set, true otherwise</td>
+<td>If set, shows the expanded contents with wrapper.</td>
+</tr>
+</tbody>
+</table>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

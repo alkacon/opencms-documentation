@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Demo Installation]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>In order to experiment with the JSON REST API, there is a preconfigured OpenCms docker image with some React demo applications available.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Install and run the OpenCms Demo Docker Image]]></Caption>
+      <Link>
+        <Text><![CDATA[https://github.com/alkacon/opencms-docker]]></Text>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[https://github.com/alkacon/opencms-docker]]></target>
+          </link>
+        </URI>
+        <NewWindow>true</NewWindow>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Download and run the Demo Applications]]></Caption>
+      <Link>
+        <Text><![CDATA[https://github.com/alkacon/mercury-json]]></Text>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[https://github.com/alkacon/mercury-json]]></target>
+          </link>
+        </URI>
+        <NewWindow>true</NewWindow>
+      </Link>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

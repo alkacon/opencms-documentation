@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Specially handled fields for spell fields / did you mean]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A "Did you mean?" feature can be implemented via the Solr spellcheck handler. To get good results, the field for spell checking should have specialized indexing behavior. Typically, special for the requested locale.</p>
+<p>By default, Solr is configured to have the fields <code>de_spell</code> and <code>en_spell</code> to support spellchecking in German and English. Each of this fields has special type <code>spell_de</code> vs. <code>spell_en</code> and we have configured a spellchecker <code>de</code> and a spellchecker <code>en</code>, using each one of the field<span class="footnote">The spellcheckers are of type DirectSolrSpellChecker, i.e., they work on a field in the index directly and do not need an extra index.</span>.</p>
+<p>The fields are filled with the localized extracted content of a file and the title property's value. And only for contents in sites or in the shared folder the spell fields are filled.</p>
+<p>To get further locales supported, configure similarly:</p>
+<ul>
+<li>A field type <code>spell_{locale}</code></li>
+<li>A field <code>{locale}_spell</code> of type <code>spell_{locale}</code></li>
+<li>A spellcheck component <code>{locale}</code> (in the <code>solrconfig.xml</code>, in the same folder as the <code>schema.xml</code>).</li>
+</ul>
+<p>To use the spellchecker, you can query it as follows (example for the Solr handler, log in before you use it and remove the comments starting with <code>//</code>):</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Getting the session object and the content’s values]]></Title>
+    <Code><![CDATA[// called to get a session for an existing content (specified by the session id)
+function getSession(sessionId) {
+  var elem = document.getElementById( formId );
+  OpenCmsUgc.initFormForSession( 
+      sessionId     // session id used to establish a session for an existing content
+                    // must be provided by the server somehow
+    , elem          // the form used to display/edit the content
+                    // can be null if no files are loaded up
+    , onNewSession  // callback handler on success (session as argument)
+    , errorHandler  // callback handler for server-side errors
+  );
+}
+
+// error handler, used as callback function to display server-side errors
+// argument types: String, String, Map
+function errorHandler(errorType, message, additionalData) { 
+  // …
+}
+    
+function onNewSession(s) {
+  session = s; // store the returned session as scope variable
+  content = session.getValues(); // get the content values
+  // … e.g., fill your form, show a picture from the content, …
+}]]></Code>
+  </Flexible>
+</FlexibleData>

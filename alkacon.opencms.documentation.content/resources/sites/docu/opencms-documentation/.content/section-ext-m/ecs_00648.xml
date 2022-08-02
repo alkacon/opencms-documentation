@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Creating a plugin]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A <em>Plugin</em> is an OpenCms internal content type introduced in OpenCms 13.</p>
+<p><em>Plugin</em> contents consist of</p>
+<ul>
+<li>a <strong>name</strong></li>
+<li>a <strong>description</strong></li>
+<li>a list of <strong>one or more plugin definitions</strong></li>
+</ul>
+<p>Each plugin definition has a <strong>group</strong>, a <strong>VFS resource</strong>, an <strong>ordering number</strong>, and optionally <strong>attributes</strong>.&nbsp;</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/plugin-content.png]]></target>
+            <uuid>dcf77b9f-eafb-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Screenshot of a Plugin Content]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p><strong>The group specifies, where a plugin resource will be inserted</strong> into a template. See the next section for the details.</p>
+<p>As a convention <em>Plugin</em> contents are placed in modules in a folder called <code>plugins/</code>.&nbsp;&nbsp;</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

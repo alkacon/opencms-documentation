@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Configurable post processor 2]]></Title>
+    <Code><![CDATA[<index class="org.opencms.search.solr.CmsSolrIndex">
+   <name>Solr Offline</name>
+   <rebuild>offline</rebuild>
+   <project>Offline</project>
+   <locale>all</locale>
+   <configuration>solr_fields</configuration>
+   <sources>
+     [...]
+   </sources>
+   <param name="search.solr.postProcessor">
+      my.package.MyPostProcessor
+  </param>
+</index>]]></Code>
+  </Flexible>
+</FlexibleData>

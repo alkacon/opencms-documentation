@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[New features in OpenCms 13.0]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-variants/]]></target>
+            <uuid>5edd2f01-d1cc-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>OpenCms 13 introduces a series of techniques to build <a href="%(link0)">Template variants</a>:</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Master Configuration Chaining]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A new technique to chain Sitemap master configurations. With chaining, one can combine, reduce, extend, or vary formatter and function definitions in sitemap master configurations.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-variants/master-configuration-chaining/]]></target>
+            <uuid>7646af18-d1cc-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Site Plugins]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A new technique to add individual CSS resources and JavaScript resources to sites built upon the same template. Site plugins are a more flexible replacement for the "headincludes" feature.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-variants/site-plugins/]]></target>
+            <uuid>8d7ee5fd-d1cc-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Element Setting Overrides]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A new technique to vary the display of content elements for sites that share a template.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-variants/element-setting-overrides/]]></target>
+            <uuid>81203dda-d1cc-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Add Content Restrictions]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A new technique to reduce the complexity of modular templates. With <em>Add content restrictions,</em> creation of new pages can be made uniform and easier.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-variants/add-content-restrictions/]]></target>
+            <uuid>9b250241-d1cc-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

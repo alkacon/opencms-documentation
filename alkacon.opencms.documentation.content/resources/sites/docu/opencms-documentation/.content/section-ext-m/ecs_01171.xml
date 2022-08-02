@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Adding translations 4]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Copy the "Home" page to target folder "/de/".</p>
+<p>When copying there's a "Copy mode" selection with the following options:</p>
+<ul>
+<li><strong>Automatic</strong>: The mode is equal to "Reuse elements" when copying to another locale, it is equal to "Copy elements" when copying to the same locale</li>
+<li><strong>Reuse elements</strong>: Only the container page is copied. None of the elements on the page are copied.</li>
+<li><strong>Copy elements</strong>: The container page and the elements with "Copy this element" checked are copied. These are typically the elements that contain visible content, but not layout elements that should be reused on each page.</li>
+</ul>
+<p>We can stick to the copy mode "Automatic" in our scenario. We have all contents directly below the site-root and share them in all locale specific sub-sitemaps.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/copy-page-dialog.png]]></target>
+            <uuid>5f58c701-fe8d-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[The "Copy page" dialog]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

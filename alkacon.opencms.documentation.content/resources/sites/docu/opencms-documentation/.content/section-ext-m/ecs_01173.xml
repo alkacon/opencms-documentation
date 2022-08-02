@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Adjusting URLs and navigation properties]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A big advantage of the multi-tree approach is that URLs can be different for the various locale variants. We want to adjust the properties and the URL for the "Philosophy" page. Go to the German sub-sitemap in the Sitemap editor. Stay in the Sitemap view and open the context menu of the "Philosophy" page. Choose the "Properties" option. Here you can edit "File name", "Title" and "Navigation Text". For the German page we replace "Philosophy" by "Philosophie" for all the mentioned properties.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/property-adjustments.png]]></target>
+            <uuid>7c40d526-fe8d-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[We change file name, title and navigation text for the german variant of the "Philosophy" page]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Go on and adjust URLs and properties for all other pages - in German and in French.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

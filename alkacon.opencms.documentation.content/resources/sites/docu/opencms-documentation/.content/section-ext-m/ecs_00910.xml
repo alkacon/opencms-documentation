@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Options set in the "Basic configuration" tab]]></Title>
+    <Section>
+      <Caption><![CDATA[Display name]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>When you select the formatter for a content item, or you add/remove formatters in the sitemap configuration, this name is presented in the select box to identify the formatter.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Resource type]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The type of the resources that should be formatted with the configured formatter.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[JSP]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The formatter to use.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Description]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Description of the formatter. It is shown in the element settings of a content when hovering over the question mark next to the chosen formatter.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Rank]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Formatters for resources of the same type are ordered by rank. If more than one formatter is available when you place a resource in a page, the formatter with the highest rank is chosen by default. (The choice can be altered manually via a setting that is automatically available for elements that can be formatted with different formatters.)</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Match]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Match defines in which containers a formatter can be applied. You can either specify containers via their <code>width</code> attribute or via their <code>type</code> attribute. If you choose width, the value specified as "Width" in the formatter configuration corresponds to the minimum width a container must have (set as <code>width</code> attribute), and the optional "Maximum width" specifies the maximum value of the width attribute that is allowed where the formatter is applicable.</p>
+<p><strong>We strongly recommend to match formatter to containers via the type.</strong></p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Display formatter type]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/widget-configuration/]]></target>
+            <uuid>01d93703-db28-11ec-8fb9-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/lists-and-detail-pages/building-lists/lists-since-opencms-11/]]></target>
+            <uuid>a57fcb55-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>If a non-empty value is provided, the formatter is used by the tag <code>&lt;cms:display&gt;</code> by default for resources of that type<span class="footnote">If more than one display formatter is present, the rank is used to select the formatter. Moreover, in the tag, a formatter might be specified explictly, overwriting the default.</span>. Moreover, the formatter is added as option in the <a href="%(link0)">DisplayTypeSelectWidget</a>. Via the widgets configuration option <code>matchTypes</code> the combination of display formatters can be restricted to the ones that have the same display type set here. This is for example used by the <a href="%(link1)">integrated list type</a> and allows you to guarantee mixing only compatible display formatters.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Enabled]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Check this option to make the formatter automatically available in the page editor. If the option is not checked, you can make it available via the sitemap configuration.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Search content in container page]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If a resource is added to a page, its content may or may not be indexed for the page. If this option is checked and the resource is searchable at all, the page where it is placed will be found when you search for content of that type.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Remove unused nested containers]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If checked, nested containers exposed by the formatter, but not rendered on a container page anymore, are deleted when the container page is stored.</p>
+<p>Example: You have a row formatter that is configured to have four columns, each exposes a nested container. Now you reconfigure the row to have only three columns and save the container page where the row is displayed on. Then the information on the container of the fourth column is removed in the container page exactly if the option is set.</p>
+<p>It is called "Use strict containers" before OpenCms 11.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Use as detail formatter]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If checked, the formatter can be used when the resource is rendered in detail view.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Always apply meta mappings]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/meta-mappings/]]></target>
+            <uuid>4c0f9acf-e273-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>If unchecked, the meta mappings are applied only if that formatter is used on a detail page. See <a href="%(link0)">here</a> for details.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Include element settings from display formatters]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/formatters-and-their-configuration/element-settings/options-for-display-formatters/]]></target>
+            <uuid>6da8c03e-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>If checked, element settings of referenced nested formatters are displayed with the settings of this formatter according to the settings configuration. See <a href="%(link0)">here</a> for a detailed description.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Show element settings in content editor]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If checked, an extra tab is added in the content editor, which allows you to edit the element settings there.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Use for preview]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Resources can be previewed in the "Add wizard" or in the workplace's explorer. Check this option if the formatter should be used for such previews.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[CSS includes]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/head-includes/]]></target>
+            <uuid>338b5be9-e273-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Add formatter-specific CSS styles here. See&nbsp;<a href="%(link0)">here</a> for details.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Javascript includes]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/head-includes/]]></target>
+            <uuid>338b5be9-e273-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Add formatter-specific JavaScript here. See&nbsp;<a href="%(link0)">here</a> for details.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Contains nested containers]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p><em>Check this option if the formatter introduces a nested container. Does not appear anymore since OpenCms 11.</em></p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Limitations for inline editing]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>There are some practical limitations when using inline editing. Edit points (or plus symbols) do not directly show to which content field they belong. Therefore, if you add to much of them, inline editing will not be useful anymore. Moreover, when it comes to choices of different field types, inline editing is still supported, but will be even more complicated to use (we omitted such a use case in the example above).</p>
+<p>Technically, inline editing is limited to content that is rendered with a formatter. That in particular means, that it is not supported for contents shown in lists.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

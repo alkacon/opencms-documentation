@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The SEO options dialog]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A "SEO options" context menu entry is available in the page editor's context menu and in the context menu for sitemap entries.</p>
+<p>When this item is selected from the Context menu, the SEO options dialog opens:</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/addBigIconActive.png]]></target>
+            <uuid>df60df17-c9f9-11ec-a595-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+        </links>
+        <content><![CDATA[<p>The SEO options dialog allows you to change the Title, Description and Keywords properties, and to edit the simple aliases for the resource. Note that changes will only be applied once you click the "Save" button.</p>
+<p>You can edit an existing alias by changing its path in the text box or changing the action using the action select box. The "Delete" button can be used to remove the alias. You can add a new alias by entering the alias path in the text box for new alias paths, selecting the action from the select box, and clicking the "Add" button (<img style="width: 14px;" title="addIconActive" src="%(link0)" alt="" />).</p>
+<p>New text.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/SEO_OptionsDialog.png]]></target>
+            <uuid>3cc261fb-e729-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[The SEO options dialog]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

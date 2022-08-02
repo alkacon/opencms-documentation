@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Available basic schema types]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>OpenCms provides a set of basic schema types that are exposed via the <code>opencms-xmlcontent.xsd</code>. All of your leave elements have to be of such a basic schema type. These schema types are used to store atomic data. Some of the basic types have an internal structure, but when using them in the system, they behave like an atomic unit. There are types for strings, booleans, dates, but also for links, images, categories, etc. Here's a list of the available basic schema types.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

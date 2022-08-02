@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Image gallery widget]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The image gallery widget provides a way to browse image galleries, select an image, change its title and description, scale it, or look up image metadata. Furthermore, new images can be uploaded.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/ContentEditor_ImageGalleryWidget1.png]]></target>
+            <uuid>2e40239e-eadd-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[ContentEditor_ImageGalleryWidget1]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_normalsize/uploadSmallIconActive.png]]></target>
+            <uuid>8d1a6024-f126-11ec-9dd5-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+          <link name="link1" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_normalsize/popupIconActive.png]]></target>
+            <uuid>81019aae-f126-11ec-9dd5-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+        </links>
+        <content><![CDATA[<p>Via the icon&nbsp;<img style="width: 14px;" title="uploadSmallIconActive (Locked by (Admin))" src="%(link0)" alt="" /> you can upload a new image. The picture is added to either</p>
+<ul>
+<li>the gallery, the replaced image belongs to, or, if no picture is already present,</li>
+<li>the gallery (folder) chosen via the property <code>repositoryfolder_imagegallery</code>. This property is read from the currently edited resource. It can be inherited and thus it is preferable to set it on a folder.</li>
+</ul>
+<p>If neither <code>repositoryfolder_imagegallery</code> is set, nor an image gets replaced, the upload button is deactivated.</p>
+<p>Via the icon <img style="width: 14px;" title="popupIconActive (Locked by (Admin))" src="%(link1)" alt="" />, different functions can be accessed:</p>
+<ul>
+<li>Adjust how the selected picture is shown (see Figure [Adjusting a selected image]). This is the default if an image was selected before.</li>
+<li>Set the focal point of the image (see Figure [Setting the focal point]). It is used as center of the image when it is cropped. Hence, the focal point should be on the most interesting part of the image.</li>
+<li>Browse an image gallery (see Figure [Browse an image gallery]). This is the default if a default gallery is configured in the widget’s configuration and no image is already selected.</li>
+<li>Select which image gallery to use (see Figure [Select an image gallery]). This is the default if no image is already selected and no default gallery is configured in the widget’s configuration.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/ContentEditor_ImageGalleryWidget_AdjustingASelectedImage.png]]></target>
+            <uuid>2e421f72-eadd-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Adjusting a selected image]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/widget_imagegallery_focal_point_selection.png]]></target>
+            <uuid>05c1858d-f127-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Image gallery widget: Focal point selection]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/ContentEditor_ImageGalleryWidget_BrowseAnImageGallery.png]]></target>
+            <uuid>2e466536-eadd-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Browse an image gallery]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/ContentEditor_ImageGalleryWidget_SelectAnImageGallery.png]]></target>
+            <uuid>2e4af91a-eadd-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Select an image gallery]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>To use the image gallery widget, the editor element should have type <code>OpenCmsVfsFile</code>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Parameters supported by CmsCmisRepository 2]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>OpenCms makes resources and relations available as CMIS objects. All files have the CMIS type <code>cmis:document</code>. All folders have the CMIS type <code>cmis:folder</code>. Relations have the CMIS type <code>opencms:&lt;relationtype&gt;</code>, where <code>&lt;relationtype&gt;</code> is the relation type name defined in OpenCms.</p>
+<p>Files and folders can be created, deleted and modified through CMIS, assuming the repository project is not the Online project and the current user has the permissions to perform the operation. Relations can only be created or deleted if the relation type is not marked as “defined in content” (See the method <code>org.opencms.relation.CmsRelationType.isDefinedInContent()</code>).</p>
+<p>For each OpenCms property <code>X</code>, there are two CMIS properties available on both <code>cmis:document</code> and <code>cmis:folder -</code> <code>opencms:X</code> and <code>opencms-inherited:X</code>. The <code>opencms:X</code> property for a CMIS document or folder will contain the property value for the resource which is directly set on the resource, while the <code>opencms-inherited:X</code> property will contain the value which was either directly set on the resource or inherited from a parent folder. The <code>opencms:X</code> property can be both read and written, while the <code>opencms-inherited:X</code> property is read-only. Writing to the <code>opencms:X</code> property with CMIS will set both the structure and the resource value of the property in OpenCms.</p>
+<p>Some standard CMIS properties are filled with resource attributes or other useful resource information from OpenCms:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

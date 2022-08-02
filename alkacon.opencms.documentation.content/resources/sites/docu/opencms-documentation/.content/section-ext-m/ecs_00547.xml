@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Actions available for simple aliases]]></Title>
+    <Section>
+      <Caption><![CDATA[Temporary redirect (302)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A temporary redirect will be sent to the browser, with the current link to the target resource as the new URL.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Permanent redirect (301)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A permanent redirect will be sent to the browser, with the current link to the target resource as the new URL.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Show page]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>OpenCms will try to load the target resource directly in the current request.</p>
+<div class="alert alert-info">Here the target resource has to be the page to deliver (index.html). For folder aliases this will not work.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

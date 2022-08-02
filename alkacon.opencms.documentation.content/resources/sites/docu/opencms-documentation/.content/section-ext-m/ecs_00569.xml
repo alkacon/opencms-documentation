@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Schemas for nested contents]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-structure/the-xsd-choice-element/]]></target>
+            <uuid>f8b023a2-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>In schemas that define the structure of nested contents, the part defining the nested content's structure can look very similar to that schema part for root contents. The only differences are:</p>
+<ul>
+<li>In the language attribute, <code>required</code> should be set to <code>optional</code>.</li>
+<li>Instead of <code>&lt;xsd:sequence&gt;</code> you can use <code>&lt;xsd:choice&gt;</code> to define alternative nodes. Read more about alternatives <a href="%(link0)">here</a>.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

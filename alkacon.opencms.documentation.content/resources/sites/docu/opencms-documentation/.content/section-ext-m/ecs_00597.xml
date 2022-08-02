@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Adjusting permissions]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>When you open the permissions dialog for a VFS resource, you can add, delete or alter permissions on the resource for</p>
+<ul>
+<li>single users</li>
+<li>groups of users</li>
+<li>roles (on some system folders only - normally you <em>do not</em> change these permissions and we ignore this setting here in the documentation).</li>
+</ul>
+<p>The options for each user, group or role are shown.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/PermissionOptions.png]]></target>
+            <uuid>f2856acf-e8bf-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Available permission options on resources]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/background/permissions-in-opencms/permissions-on-vfs-resources/]]></target>
+            <uuid>a123b6e6-d1b9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Each "real" permission can be allowed, denied, or kept unset. Read&nbsp;<a href="%(link0)">here</a> about the three states of permissions. Moreover the following options are available:</p>
+<ul>
+<li><em>Responsible:</em> If checked, the user or group is declared responsible for the resource (all resources in the folder).</li>
+<li><em>Overwrite inherited:</em> All inherited permissions that are set for the user/group on parent folders are overwritten. Note that these permissions are thus (by intention) unset again.</li>
+<li><em>Inherit on subfolders:</em> If checked, the set permissions are inherited by subfolders.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Access Policy 2]]></Title>
+    <Code><![CDATA[<resourceinit>
+    <resourceinithandler class="org.opencms.xml.xml2json.CmsJsonResourceHandler">
+        <param name="access-policy">/shared/json-access.xml</param>
+    </resourceinithandler>
+</resourceinit>]]></Code>
+  </Flexible>
+</FlexibleData>

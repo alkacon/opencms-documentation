@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Trying OpenCms]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>In order to try OpenCms, use your local installation or the live demo server.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Live Demo Server]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://demo.opencms.org/]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>If you want to try OpenCms with <em>Mercury</em>, the easiest option is to use the <a href="%(link0)" data-is-external-link="true">OpenCms Live Demo server</a>.</p>
+<p>The live demo provides a personal OpenCms installation exclusively for you. All you need to do is register with a valid email address.</p>
+<p>We will not use the data you provide for anything else than setting up your personal demo installation!</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Local Installation]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If you want to try OpenCms locally, be it with a Docker installation or a manual installation, make sure to <strong>install the demo component modules</strong>.</p>
+<p>The demo modules offer a tutorial about basic content editing features such as <strong>modifing pages</strong>, <strong>edit contents</strong>, <strong>work with the sitemap editor and the explorer</strong>, and <strong>publish changes</strong>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

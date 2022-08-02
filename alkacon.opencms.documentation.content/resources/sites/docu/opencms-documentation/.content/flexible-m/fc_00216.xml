@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[JSON format]]></Title>
+    <Code><![CDATA[{
+  "[folder name]": {
+    [Resource Wrapper]
+    "children": {
+      "[folder name]": {
+        [Resource Wrapper]
+      },
+      "[file name]": {
+        [Resource Wrapper]
+        [Content]
+      }
+    }
+  },
+  "[file name]": {
+    [Resource Wrapper]
+    [Content]
+  }
+}]]></Code>
+  </Flexible>
+</FlexibleData>

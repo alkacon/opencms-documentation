@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Using the element group]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<div class="alert alert-danger">Since OpenCms 10, element groups fit only in containers of type <code>group</code>.</div>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<ul>
+<li>Drop an element group to a container page like any other content from the <strong>Add content</strong> dialog.</li>
+<li>Open the element group editor by clicking on the edit symbol at the element group. The element group dialog opens in an overlay, where the title and the description of the element group can be edited.</li>
+<li>During the element group is edited the ADE toolbar is active and can be used as usual.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/EditingAnElementGroup1.png]]></target>
+            <uuid>4b7c6882-fb5c-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[View when editing an element group]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<ul>
+<li>While the element group editing window is still open:
+<ul>
+<li>drag and drop new elements from the <strong>Add content</strong> dialog to the element group.</li>
+<li>Edit or delete the existing elements of the element group.</li>
+<li>Reorder the elements inside the group.</li>
+<li>Save all changes by clicking the "Save" button of the element group editor.</li>
+</ul>
+</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/EditingAnElementGroup2.png]]></target>
+            <uuid>4b7feaf6-fb5c-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[EditingAnElementGroup2]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/EditingAnElementGroup3.png]]></target>
+            <uuid>4b8409aa-fb5c-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Reordering elements in an element group and saving changes]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/creating-template-models/]]></target>
+            <uuid>b69ca905-d1c7-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<div class="alert alert-danger">If an element group is placed on a <a href="%(link0)">template model</a>: All changes on the elements inside of the element group are populated to all pages using the template model. It does not matter if you edit the group on a "normal" container page or on the template model.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

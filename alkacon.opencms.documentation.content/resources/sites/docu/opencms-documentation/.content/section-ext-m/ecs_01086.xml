@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[ Configuring the available workplace locales]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The workplace locale is set per user and can be chosen via his preferences, either via the traditional workplace's "Preferences" option, or the "Preferences" option in context menu of the ADE toolbar in the page or sitemap editor. The locales you can choose are determined by the presence of special folders: If a folder <code>/system/workplace/locales/{locale}</code> exists, the according language can be chosen. Thus, to add a new locale, or to delete a locale it suffices to just add or remove such a folder. In a default installation, the folders shown in the figure below are present.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/available-workplace-locales.png]]></target>
+            <uuid>d422160f-fb7d-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[The available workplace locales]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If a folder with the locale's name is present, the according language can be set in the user preferences. If the messages are really localized accordingly depends on the message bundles located in the locale's folder. If keys are missing, English is chosen as default.</p>
+<p>In a default installation, the locales shown in the figure are present.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Of course, adding a single folder is not sufficient to have a new locale. In the new folder, all message bundles (Java property files) necessary for the GUI localization must be present. If whole bundles or keys are missing, English is used as default. To see how these messages are structured, browse the subtree for<code></code> <code>de</code>. In particular the <code>messages</code> subfolder is interesting. The structure is based on the different modules.</p>
+<div class="alert alert-info">English message bundles are directly shipped within the workplace modules libraries (jar files), so you will not find the <code>messages</code> subfolder under <code>en</code>.</div>
+<p>To put the message bundles you may add in your locale usable, you have to export your locale folder, say <code>pt</code> for Portugese, to <code>{webapp home}/WEB-INF/classes</code>. Therefore, put your localization in a module and set the export point via the module configuration.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

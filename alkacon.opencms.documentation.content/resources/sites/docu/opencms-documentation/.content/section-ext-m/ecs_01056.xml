@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Topics on localization]]></Title>
+    <Section>
+      <Caption><![CDATA[Multilingual websites]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>An important aspect in designing a website is localization. Whether the web presence should be just translated to each client's language or culturally fully adapted to the respective target market's locale - OpenCms provides the means necessary to do the job. Get an overview on the different aspects of website localization.</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Multilingual websites]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/localization/multilingual-websites/]]></target>
+            <uuid>131d02e5-d1ca-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Multilingual menus]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Localize the OpenCms GUIs for your users: <a tabindex="0" role="button" data-container="body" data-toggle="popover" data-placement="bottom" data-content="&lt;p&gt;If you are logged in to OpenCms, you are in the OpenCms workplace. Whenever you are in the workplace, you see a toolbar at the top of the window. Learn more about the workplace &lt;a href=&quot;/opencms-documentation/the-opencms-workplace/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;" data-trigger="focus"><abbr title="Click to see description">workplace</abbr></a>, ADE interfaces, content editors.</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Multilingual menus]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/localization/multilingual-menus/]]></target>
+            <uuid>1d188db8-d1ca-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Message bundles]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Message bundles are used to localize any kind of text snippets, labels, etc. They are the default localization mechanism for Java. Learn about how to use them in OpenCms - read this topic, even if you know the bundles in general.</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Message bundles]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/localization/message-bundles/]]></target>
+            <uuid>2563f789-d1ca-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Automatic robots.txt and XML sitemap generation]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>OpenCms provides automatic generation of XML sitemaps and <code>robots.txt</code> files which reference those sitemaps. Both of these are provided by the new <code>seo_file</code> resource type. When a resource of this type is requested from OpenCms, OpenCms will dynamically generate the sitemap or <code>robots.txt</code> data and send them to the client.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[XML sitemap generation ]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Create a new resource of the type "SEO file" in the folder for which you want to generate the XML sitemap (via the workplace's editor, the "SEO file" is found under "Structured content" in the "New"-dialog). Open this file with the content editor. Make sure the mode "XML sitemap" is selected.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/SEOXMLContent.png]]></target>
+            <uuid>67266f45-e729-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Editing a SEO XML content]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>By default, the XML sitemap will contain all navigation entries in and below the current folder, the URLs for all detail pages whose base container pages are in or below the current folder, and all aliases whose alias paths are below the current folder and whose action is defined as "Show page".</p>
+<p>"Include folder" entries allows you to define folders whose whole contents, including resources from subfolders, will be included in the XML sitemap.</p>
+<p>"Exclude folder" entries allow you to define folders whose whole contents, including resources from subfolders, will be excluded from the XML sitemap.</p>
+<p>If you check the "Container page dates" option, the last modification date of container pages will be computed from the last modification date of their contents.</p>
+<p>Note that the XML sitemap output will always correspond to the online project state of resources, and will only contain pages which are visible to the Guest user.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Generation of robots.txt]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>To use this feature, create a new file of type "SEO file" in the root folder of your site. Using this feature only makes sense if your host is set up so that the OpenCms site is mapped to the root of your domain, i.e., that <code>http://yourhost.com/robots.txt</code> will be retrieved from the OpenCms site's root folder.</p>
+<p>Edit the SEO file and set the mode to "<code>robots.txt</code>". By default, when the <code>robots.txt</code> file is requested from OpenCms, it will only contain references to the existing XML sitemaps of your site. To add additional entries, you need to add them to the "<code>robots.txt</code> content"-field of your SEO file.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

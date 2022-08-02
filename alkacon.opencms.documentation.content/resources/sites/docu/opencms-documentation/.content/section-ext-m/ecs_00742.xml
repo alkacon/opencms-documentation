@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Available configuration options]]></Title>
+    <Section>
+      <Caption><![CDATA[class]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Provide a class to configure the widget dynamically. The class must implement the interface <code>I_CmsImageWidgetDynamicConfiguration</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[startup]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The startup (gallery) folder, for the widget. Set the value to <code>dynamic</code> if it should be configured by class given via parameter <code>class</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[gallerytypes]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Set which types of galleries are considered by the widget. Suitable types are <code>downloadgallery</code> and <code>imagegallery</code>. The value has to be a comma separated list.</p>
+<p>Default:&nbsp; <code>imagegallery,downloadgallery</code></p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

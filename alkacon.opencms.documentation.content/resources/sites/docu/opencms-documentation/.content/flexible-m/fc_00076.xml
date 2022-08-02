@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Field settings configuration syntax]]></Title>
+    <Code><![CDATA[...
+    <FieldSettings>
+           <Setting>
+                <PropertyName>FieldName</PropertyName>
+                <Option1>...<Option1>
+                <Option2>...<Option2>
+                ...
+           </Setting>
+           <Setting>
+                ...
+           </Setting>
+           ... 
+    </FieldSettings>
+...]]></Code>
+  </Flexible>
+</FlexibleData>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[One site and special locale handling]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>In this approach you have just one folder tree where each page is by itself multilingual. To obtain the multi-lingual behavior, you have to use the <code>__locale</code> parameter to set the locale - as alternative to using the <code>locale</code> property. At the moment the approach is possible, but not yet completely supported. You have to take care for creating correct links by yourself: either by attaching the <code>__locale</code> parameter manually (in the formatters, etc.) to each link, or by substituting the default link substitution handler to a version that adds the parameter automatically.</p>
+<p>Advantages:</p>
+<ul>
+<li>You have to maintain only one site</li>
+<li>New pages are directly available in all languages when added</li>
+</ul>
+<p>Drawbacks:</p>
+<ul>
+<li>You have to take care of attaching the <code>__locale</code> parameter to links</li>
+<li>Your URLs are the same for each language version</li>
+<li>Properties are uni-lingual, which may cause you problems in particular with navigations.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

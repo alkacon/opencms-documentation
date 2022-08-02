@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Language-specific sub-sites or sub-folders with siblings as pages]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/localization/multilingual-websites/]]></target>
+            <uuid>131d02e5-d1ca-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[language-specific-sub-sites-or-sub-folders-with-independent-pages-96acc3f1]]></anchor>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/localization/multilingual-websites/]]></target>
+            <uuid>131d02e5-d1ca-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[language-specific-sub-sites-or-sub-folders-with-independent-pages-96acc3f1]]></anchor>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/localization/multilingual-websites/]]></target>
+            <uuid>131d02e5-d1ca-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[language-specific-sub-sites-or-sub-folders-with-independent-pages-96acc3f1]]></anchor>
+          </link>
+          <link name="link3" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/localization/multilingual-websites/]]></target>
+            <uuid>131d02e5-d1ca-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[language-specific-sub-sites-or-sub-folders-with-independent-pages-96acc3f1]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>The approach is similar to the one from section <a href="%(link0)">"Independent subsites"</a> concerning the folder structure, but you necessarily share content, i.e., put it under the root folder. For a bilingual site with German and English, the root folder will look exactly as shown in figure <a href="%(link1)">"top level locale folders"</a>. Except, that you may use normal folders instead of sub-sitemaps. The folder <code>en</code> will have set the locale property to <code>en</code> and the folder <code>de</code> will have set the locale property to <code>de</code>.</p>
+<p>The main difference to the approach from section <a href="%(link2)">"Independent subsites"</a> is that you do not add extra container pages as <code>index.html</code> files in each language specific subsite. You create one language version and for the other languages you add siblings of the "master"-version's <code>index.html</code> files. For example, if you have a container page <code>/en/about-us/index.html</code> and you want to have the same page in the German subsite, you create<code> /en/ueber-uns/index.html</code> as a sibling of the file <code>/en/about-us/index.html</code>. The consequence is that all content in one language version is also directly available at all other language versions. If you remove a content, it's removed in all language versions.</p>
+<p>Advantages:</p>
+<ul>
+<li>Freedom to define different page structures for each locale</li>
+<li>Language-specific URLs are possible</li>
+<li>Slightly better maintainability than the approach from section <a href="%(link3)">"Independent subsites"</a>.</li>
+</ul>
+<p>Drawbacks:</p>
+<ul>
+<li>Siblings must be created manually for each locale version</li>
+<li>Contents can only be published for all languages at once</li>
+<li>Each page's language specific versions automatically have the same contents on it</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

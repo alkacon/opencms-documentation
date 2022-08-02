@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Configuration of a widget]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/field-settings/]]></target>
+            <uuid>069bfb76-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>OpenCms chooses for each content element a suitable widget. The choice is made dependent on the element's type.</p>
+<p>Since OpenCms 11, <a href="%(link0)">field settings</a> are the preferred way to configure a widget&nbsp; syntax.</p>
+<p>But it is also possible to replace the default widget or configure this widget by adding a <code>&lt;layouts&gt;</code> node under <code>xsd:annotation/xsd:appinfo</code> in a content type's schema definition, and for each element where widget or widget behavior should change, a <code>&lt;layout&gt;</code> sub-node. Here is an example:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

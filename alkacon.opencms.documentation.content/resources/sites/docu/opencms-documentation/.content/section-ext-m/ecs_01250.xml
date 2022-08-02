@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Improved in OpenCms 9.5]]></Title>
+    <Section>
+      <Caption><![CDATA[New roles in OpenCms]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>OpenCms 9.5 introduced new roles with fewer rights than workplace users. The role system is adjusted to the improved ADE features. There are roles like "Element author" and "Editor" that do not have access to the traditional workplace at all.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/background/permissions-in-opencms/users-groups-roles-and-ous/roles-in-opencms/]]></target>
+            <uuid>bb362bf2-d1c3-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Template models: Simplified creation and an extra option]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Template models, formerly model pages, can now be added and edited via a special view in the sitemap editor. Moreover, for each content on a template model you can choose if it should be copied or reused on pages generated from the model.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/creating-template-models/]]></target>
+            <uuid>b69ca905-d1c7-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Galleries: Simplified creation and alteration]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Galleries can now be edited via a special view in the sitemap editor.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-sitemap-editor/]]></target>
+            <uuid>0d5f13cb-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Categories: Simplified creation and alteration]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Categories can now be edited via a special view in the sitemap editor.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-sitemap-editor/]]></target>
+            <uuid>0d5f13cb-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Containers: Attach permissions and placeholders for empty containers.]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>OpenCms 9.5 adds the attribute <code>editableby</code> to the <code>&lt;cms:container&gt;</code> tag. Using it, you can specify which users are able to add or remove elements in a container. Moreover the <code>&lt;cms:container&gt;</code> tag can have a body. The body's HTML is shown in the container whenever it is empty.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/demos/advanced-container-usage/]]></target>
+            <uuid>dcde6a65-d1cc-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

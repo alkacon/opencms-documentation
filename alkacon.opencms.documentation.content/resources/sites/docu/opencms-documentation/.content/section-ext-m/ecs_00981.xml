@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The idea of the additional element setting options]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Since OpenCms 10, display formatters are a feature of OpenCms. The idea is to have a list content and in the content, you specify not only which contents are displayed in the list, but also which formatters to use to display the content. This separates formatting of the list (frame) itself and the displayed elements in the list.</p>
+<p>However, display formatters can have element settings and be used as "normal" formatter as well when dropping a content to a page directly. These settings are of course available when the formatted element is dropped directly to the page, but not if the formatter is used indirectly by the list.</p>
+<p>To solve this problem, element settings of display formatters can be configured to be shown with the settings of the list, either appearing as a setting of the list itself, or in a separate section in the settings dialog.</p>
+<p>The following picture shows an example of the settings dialog for a list that renders the elements via display formatters that have settings shown with the list's settings.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/element_settings_list_and_display_formatters.png]]></target>
+            <uuid>0f1d6de5-f833-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Settings mixed from a list and the used display formatters]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Note that the settings starting at "Teaser text length" are already settings from display formatters, but they are shown like the above "normal" list settings. Additionally to the settings appearing as native list settings, there are settings in the extra section "Compact event teaser". These are clearly separated and it is visible to the editor that they apply to event teasers only. The different ways to integrate display formatter settings to the list settings become relevant mostly if lists collect elements of more than one type and the various display formatter might have settings that are shared between all of them - as for example configuration of the teaser length.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

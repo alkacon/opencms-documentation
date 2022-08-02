@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Sitemap Master Configurations vs. Sitemap Configurations]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<div class="oc-inline-editable" data-oc-id="http://opencms.org/resources/en/c026910a-ac40-11ec-a308-0242ac11002b" data-oc-field="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd/OpenCmsDocumentationHtml/Html">
+<p>Sitemap master configurations are very similar to standard sitemap configurations. They define which</p>
+<ul>
+<li><strong>content elements</strong></li>
+<li><strong>formatters</strong></li>
+<li><strong>dynamic functions</strong></li>
+<li><strong>property definitions</strong></li>
+<li><strong>attributes</strong></li>
+</ul>
+<p>are available on a site.</p>
+<p>The following figure shows a sitemap master configuration opened in the editor.</p>
+</div>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/sitemap-master-configuration.png]]></target>
+            <uuid>d05933c1-eae5-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Sitemap master configuration opened in the editor]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>While sitemap configurations are stored below the <code>/.content/.config</code> path of a site, sitemap master configurations typically are <strong>part of a template module</strong> and therein by convention are stored in a subfolder <code>configuration/</code>.</p>
+<p>The following overview shows the locations of sitemap configurations and sitemap master configurations in comparison.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

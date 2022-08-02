@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Initializing the UGC object 2]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>where the arguments of the constructor are:</p>
+<ul>
+<li>the <code>id</code> attribute of the <code>&lt;form&gt;</code> that should be connected to the content,</li>
+<li>a function that initializes the mapping between content elements and form fields,</li>
+<li>a handler for server-side errors,</li>
+<li>(optional) a handler called when the form is initialized (i.e., when content elements are written to the form)</li>
+<li>(optional) a wait handler, called when data are sent/received and when sending/receiving is completed.</li>
+</ul>
+<p>&nbsp;Initialization must be wrapped in the function <code>window.initUgc</code> that is called when the native API is ready:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

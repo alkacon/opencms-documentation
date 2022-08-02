@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Exploring and manipulating the mapping]]></Title>
+    <Section>
+      <Caption><![CDATA[getContent(name?)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Returns the value of the element of the local content specified by <code>name</code>. If no argument is provided the whole local content is returned.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[setContent(name?)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Reads the content value from the form field with name <code>name</code>. If name is not provided, it reads the values of the whole form into the local content.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[deleteContent(name)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Delete the content element with the given <code>name</code> (the field name used for setting up the mapping) when saving changes.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[contentHas(fieldname1,fieldname2,...)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Checks if all content elements assigned to the form fields listed as arguments have a non-empty value.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[contentHasNot(fieldname1,fieldname2,...)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Checks if all content elements assigned to the listed form fields are empty.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[contentHasOne(fieldname1,fieldname2,...)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Checks if at least one of the content elements assigned to the listed form fields is non-empty.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Image gallery widget 2]]></Title>
+    <Code><![CDATA[<layout element="ImageGallery" widget="ImageGalleryWidget" 
+        configuration="{ formatnames: 'portrait:Portrait|landscape:Landscape', 
+                         formatvalues: ['300x500','500x300'], 
+                         useformat: true, 
+                         startup: '/.galleries/samples/'}" />]]></Code>
+  </Flexible>
+</FlexibleData>

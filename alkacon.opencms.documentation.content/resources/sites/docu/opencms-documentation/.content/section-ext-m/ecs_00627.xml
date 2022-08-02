@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Sample master sitemap configuration 2]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<ul>
+<li><code>sitemap.master.content.common</code> defines a set of generic content elements as provided by <em>Mercury</em> and relevant for many sites (article, section, FAQ, etc.)</li>
+<li><code>sitemap.master.content.domain</code> and <code>sitemap.master.content.customer</code> define domain specific and customer specific content elements</li>
+</ul>
+<p>These three master configuration files provide basic content elements – generic elements as well as domain specific elements – but it is not yet specified how the defined content elements will be rendered.</p>
+<p>For this purpose, the sample shows three master configurations defining formatters</p>
+<ul>
+<li><code>sitemap.master.formatter.bootstrap</code></li>
+<li><code>sitemap.master.formatter.foundation</code></li>
+<li><code>sitemap.master.formatter.tailwind</code></li>
+</ul>
+<p>where each formatter uses its own CSS framework.</p>
+<p>The last three master configurations <code>sitemap.master.group1</code>, <code>sitemap.master.group2</code>, and <code>sitemap.master.all</code> of the sample do not define any formatters nor content elements but are grouping master configurations. They combine a set of content elements and formatters defined in other master configurations into one and provide the combination as a ready to use and reusable <strong>template variant for sites</strong>.</p>
+<p>The following figure shows, as an example, the <em>Group 1 Master Configuration</em> <code>sitemap.master.group1</code>, which combines common content elements and domain specific content elements with the bootstrap sample formatters.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/sample-master-configuration.png]]></target>
+            <uuid>f278b4e3-eae5-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Sample Master Configuration]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

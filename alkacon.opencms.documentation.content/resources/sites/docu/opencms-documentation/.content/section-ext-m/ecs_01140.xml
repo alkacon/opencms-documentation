@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Saving values from the form to the content 4]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>In the <code>updateValues(...)</code> function we first copy the current input form values to the mapping. Secondly, we adjust the values for files that are uploaded and insert the links to the uploaded files. The function could also manipulate the mapping further, e.g., if an optional nested content item has none of its elements non-empty, it can be deleted. To explore and manipulate the mapping, the UGC object provides various methods.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Motivation]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The original motivation behind the <em><strong>Add content restriction</strong></em>&nbsp;technique is to reduce the number of available page layouts in the Mercury template.</p>
+<p>The figure below shows the <em><strong>Add content dialog</strong></em> of OpenCms' page editor. In this special situation, the editor did navigate to the <strong>Template elements</strong> view in the dialog, and the editor is just about to add one new <em>Mercury</em> layout row to a page.</p>
+<p>As one can see, <em>Mercury</em> offers a large variety of responsive layout rows to the user. There are sites where this variety makes sense. For other sites a limited number is better—for example, if the site is intended for mobile devices mainly.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/add-content-dialog-layout-rows-full.png]]></target>
+            <uuid>5fee3a6b-eb03-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Add content dialog with all available Mercury layout rows]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

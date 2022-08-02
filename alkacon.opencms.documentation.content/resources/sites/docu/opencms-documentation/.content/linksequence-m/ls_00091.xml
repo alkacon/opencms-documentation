@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinkSequenceData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/linksequence.xsd">
+  <LinkSequence language="en">
+    <Title><![CDATA[Related links]]></Title>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<p>Technology for PDF generation</p>]]></content>
+    </Text>
+    <LinkEntry>
+      <Text><![CDATA[Flying Saucer: The library used for PDF generation]]></Text>
+      <URI>
+        <link internal="false" type="WEAK">
+          <target><![CDATA[https://code.google.com/p/flying-saucer/]]></target>
+        </link>
+      </URI>
+      <NewWindow>true</NewWindow>
+    </LinkEntry>
+    <LinkEntry>
+      <Text><![CDATA[The CSS 2.1 specification: CSS as flying saucer can handle it]]></Text>
+      <URI>
+        <link internal="false" type="WEAK">
+          <target><![CDATA[http://www.w3.org/TR/CSS21/]]></target>
+        </link>
+      </URI>
+      <NewWindow>true</NewWindow>
+    </LinkEntry>
+    <LinkEntry>
+      <Text><![CDATA[XHTML 1.0 (strict) specification: The HTML that flying saucer can handle]]></Text>
+      <URI>
+        <link internal="false" type="WEAK">
+          <target><![CDATA[http://www.w3.org/TR/xhtml1/]]></target>
+        </link>
+      </URI>
+      <NewWindow>true</NewWindow>
+    </LinkEntry>
+  </LinkSequence>
+</LinkSequenceData>

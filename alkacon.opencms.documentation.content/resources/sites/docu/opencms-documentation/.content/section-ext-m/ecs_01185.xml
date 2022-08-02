@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Configuration for the single-tree approach 9]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The handlers act exactly like&nbsp;the default handlers unless a site is configured to use the "singleTree" localization mode. So you can change the configurations, restart OpenCms and everything should work as before.</p>
+<p>To enable the adjusted locale handling and link substitution for the site with the tutorial content, go to the "Site Management" and edit the site with the tutorial contents. Add the parameter <code>localizationMode=singleTree</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>When all the configuration steps are performed, you should be able to open the URLs <code>localhost:8080/opencms/en/home/</code>, <code>localhost:8080/opencms/de/home/</code> and <code>localhost:8080/opencms/fr/home/</code>. All should show the same page (since no contents are translated yet).</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

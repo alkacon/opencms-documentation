@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Details on <cms:ugc> 3]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The only difference in creating a session for new content is: the file that should be accessed has to be specified. This is either done via the attribute <code>editId</code>, as in the example, or via the attribute <code>editName</code>. Using <code>editId</code>, you must provide the UUID of the content to access it. Using <code>editName</code>, you must provide the file name. The path is fixed via the UGC configuration content./p&gt;</p>
+<p><strong>Session creation might fail.</strong> In this case errors are exposed to the JSP. If you add the attribute <code>error="ugcError"</code> to the <code>&lt;cms:ugc&gt;</code>-tag, the error is exposed via the given variable <code>ugcError</code>. If the <code>error</code> attribute is not given, the error is exposed via the variable <code>formError</code>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

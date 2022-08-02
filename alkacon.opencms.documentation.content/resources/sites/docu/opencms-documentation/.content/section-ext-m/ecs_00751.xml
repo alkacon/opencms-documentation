@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Dependent select widget]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Since version 9.5.1, OpenCms features a dependent select widget. From it's appearance, the widget looks like the selector widget. The difference is, that the entries you can select, depend on the values of other editor fields. For example, you have a content listing a set of movies and an extra field to select your favorite movie out of the listed movies. The content's schema (XSD) could look as follows:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

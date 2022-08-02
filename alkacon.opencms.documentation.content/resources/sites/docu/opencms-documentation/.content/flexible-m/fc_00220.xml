@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[JSON format]]></Title>
+    <Code><![CDATA[{
+  [Resource Wrapper]
+  "containers": [
+    {
+      "elements": [
+        {
+          "containers": [],
+          "formatterKey": "m/layout/group",
+          "path": "/sites/default/.content/modelgroup/modelgroup-00001.html",
+          "settings": {
+            "addBottomMargin": "true",
+            "fixedheader": "fixed",
+            "showBreadcrumbs": "true" 
+          }
+        },
+        {
+          "containers": [
+            [more containers and elements]
+          ],
+          "formatterKey": "m/layout/area-simple",
+          "path": "/system/shared/mercury/template/layout-area/la_00001.xml",
+          "settings": {
+            "bgColor": "none",
+            "bgSpacing": "none" 
+          }
+        },
+      ],
+      "isDetailOnlyContainer": false,
+      "isNestedContainer": false,
+      "isRootContainer": true,
+      "name": "mercury-page",
+      "type": "area" 
+    }
+  ],
+  "linkedContents": {
+    "/system/shared/mercury/template/layout-area/la_00001.xml": {
+      [Content]
+    },
+    "/sites/default/.content/modelgroup/modelgroup-00001.html": {
+      [Modelgroup]
+    }
+  }
+}]]></Code>
+  </Flexible>
+</FlexibleData>

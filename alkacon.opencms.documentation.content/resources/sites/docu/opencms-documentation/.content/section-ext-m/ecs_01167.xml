@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Adjusting the website structure]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>At the moment, the English version of our website starts directly below the site root. If we have various language variants, it is beneficial to place each of them in separate sub-sitemaps directly below the site root. This is not mandatory, but, e.g., starting at the same folder level eases reusing navigations.</p>
+<p>So go to the Sitemap editor's "Sitemap" view and add Navigation levels "en", "de" and "fr" directly below the site root. Convert all of them to sub-sitemaps. Use the option "Create sub-sitemap" under "Advanced" in the context menu of the navigation levels. Furthermore, set the "locale" property to the folder's name on all of the sub-sitemaps. That causes pages inside the sub-sitemap to be rendered in the respective locale.</p>
+<p>To do so, switch to the sitemap editor's "Resources" view and for each of the just created subsitemaps, open the sitemap, click on the context menu of the subsitemap's root folder, choose "Properties", switch to the "Complete Properties" tab, open the "Unused Properties" where you find "locale" and set it accordingly.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/multi-tree-sitemap-adjustments-1.png]]></target>
+            <uuid>2879fe54-fe8d-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Site structure after you added the language specific sub-sitemaps]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Now open the explorer and move the folders of the already existing pages (home, philosophy, products, team, search) into the folder "en". Since we have used navigation levels and always redirect to the first sub-page everything will work out fine.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/explorer-moving-resources.png]]></target>
+            <uuid>32b8ac9a-fe8d-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Move the folders via drag &amp; drop in the explorer]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>You can copy or&nbsp;move resources via drag &amp; drop. <strong>Do not forget to select "Move resources"</strong> as copy mode in the dialog that pops up when you drop the folders. Also do not move the "index.html".</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/groups-of-content/]]></target>
+            <uuid>c7803d09-d1c7-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The last thing to do is to adjust the navigation content. It displays the navigation starting directly below the site root. Now that we have an extra folder level before the "real" pages start, we need to adjust the navigation.</p>
+<p>The tutorial site uses a <a href="%(link0)">reuse group</a> for the header that contains the navigation. Therefor, it suffices to adjust the navigation just once. Go to the Templates view of the sitemap editor and open the model group "Header". You are asked if you really want to edit the model group: Say yes! Then edit the navigation element in the "Header" model group. Set "Navigation Start Level" to "1 - First Level". That's it. For the English version of your website the navigation should work again as expected. Try it.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/edit-model-groups.png]]></target>
+            <uuid>3d000d70-fe8d-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[The "Template view" for the root sitemap of the tutorial site: Click "Header" to edit the model group]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

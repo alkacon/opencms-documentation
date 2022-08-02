@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Plugin JSP examples]]></Title>
+    <Code><![CDATA[<c:set var="plugins" value="${cms.plugins['jsp']}" />
+<c:forEach var="plugin" items="${plugins}">
+    <cms:include file="${plugin.path}" />
+</c:forEach>
+<c:set var="plugins" value="${cms.plugins['css']}" />
+<c:forEach var="plugin" items="${plugins}">
+    <link href="${plugin.link}" rel="stylesheet">
+</c:forEach>
+<c:set var="plugins" value="${cms.plugins['js-defer']}" />
+<c:forEach var="plugin" items="${plugins}">
+    <script defer src="${plugin.link}"></script>
+</c:forEach>
+<c:set var="plugins" value="${cms.plugins['js-async']}" />
+<c:forEach var="plugin" items="${plugins}">
+    <script async src="${plugin.link}"></script>
+</c:forEach>]]></Code>
+  </Flexible>
+</FlexibleData>

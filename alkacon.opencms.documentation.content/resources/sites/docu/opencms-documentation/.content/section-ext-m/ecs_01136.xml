@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Defining the mapping between form and content 2]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The <code>map</code> method takes the <code>name</code> attribute of the form field and the XPath to the content element it should be connected with. Additional parameters specify the mapping type:</p>
+<ul>
+<li>If no extra parameter is given, the mapping is really one-to-one: The value from the form is always mapped back to the content and the content value into the form.</li>
+<li>If it is <code>ugc.OPTIONAL</code>, the content element in the XML content will be removed if the corresponding form field is empty. This mapping type should be used for optional content elements.</li>
+<li>If it is <code>ugc.UPLOAD</code>, the mapping will upload a file provided via the form field and link to that file in the content. This type is required for form fields of type <code>&lt;input type="file"&gt;</code>.</li>
+</ul>
+<p>Note that you can provide <code>ugc.UPLOAD</code> and <code>ugc.OPTIONAL</code> both as parameters.</p>
+<p>The mapping is a central element of the UGC object. It is used internally for all communication between form and content. The mapping stores also the values read from the content and has to be updated before you save changes to the content.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

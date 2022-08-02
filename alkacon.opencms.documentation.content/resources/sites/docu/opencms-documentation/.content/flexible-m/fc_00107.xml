@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Using the tag <cms:search> 2]]></Title>
+    <Code><![CDATA[<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms"%>
+
+<c:set var="config">
+  {
+    "searchforemptyquery" : true,
+    "extrasolrparams"     : "&fq=type:m-article&fq=parent-folders:\"/sites/default/\"\
+                             &fq=lastmodified:[NOW-1YEAR TO NOW]&sort=disptitle_en_sort asc"
+  }
+</c:set>
+
+<cms:search var="search" configString="${config}" />
+
+<c:forEach var="result" items="${search.searchResults}">
+	<div>${result.fields['disptitle_en_sort']}</div>
+</c:forEach>]]></Code>
+  </Flexible>
+</FlexibleData>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Sitemap-specific resource type configuration options]]></Title>
+    <Section>
+      <Caption><![CDATA[Master configuration]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Select a master configuration to use as default. You can still override parts of it. Read more about the master configuration here.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Disable all]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Disables all resource types configured via module configurations or parent sitemaps. In consequence, only resource types explicitly configured in the sitemap will be available.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Local content elements]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If checked, a local <code>.content/</code> folder is created and, whenever as "Folder" in a resource type configuration only a name is chosen, the resources will be stored locally in a subfolder of the <code>.content/</code> folder. If the option is not checked, the <code>.content/</code> folder of a parent sitemap or the site will be used.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Prefer local detail pages]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If you link to content that is stored locally in the sitemap and your sitemap has a detail page for content of that type configured, then this detail page will be preferred over a detail page that might be configured for the calling (sub-)site, i.e., the (sub-)site where the link to the content is placed. If the option is not checked, the detail page from the "calling (sub)site" will be preferred.</p>
+<div class="alert alert-info">The feature only works for content that is stored locally in a folder under the (sub-)sitemaps main folder.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

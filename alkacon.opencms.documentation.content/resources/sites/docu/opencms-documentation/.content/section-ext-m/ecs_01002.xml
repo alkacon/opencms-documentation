@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Detail pages]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>When building lists of content, it's a typical requirement to link from a condensed view of the content to a more detailed view. For example, in a list of news, only title, teaser and maybe a date and author are displayed. You click on a news to get to a page showing the complete news article. Similarly, events, products or any other type of resource/content may be shown in a list with links to a detailed views added.</p>
+<p>In OpenCms it is sufficient to <em>create and configure one</em> page to automatically <em>get all pages</em> for the detailed views of each content of a type - each under a separate, nice and configurable URL and even editable. The configured page is called detail page and since OpenCms 11, it is even possible to configure only one detail page for the detail views of contents of all types.</p>
+<p>In this topic you learn how to configure a detail page, the special container tag attributes related to detail pages and how to link to a detail page.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

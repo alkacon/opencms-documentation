@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Using model groups]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Once a model group is created, it can be added to any page via the page editors "Add wizard". Choose the element view "System elements" and click on "Model group" to see the available groups. Of course, you can configure model groups to appear in another element view in your sitemap configuration. Reuse groups have a blue icon, copy groups a red one.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/Selecting_ModelGroup1.png]]></target>
+            <uuid>4e8bac59-e663-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[The "System elements" element view in the add wizard]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p><span class="oc-inline-editable" data-oc-id="http://opencms.org/resources/en/f051140b-eaba-11e5-8020-0242ac11002b" data-oc-field="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-figure.xsd/OpenCmsDocumentationFigure/Title">Add an existing model group in the "Add wizard". Reuse groups are blue, copy groups red.</span></p>
+<div class="alert alert-info">Model groups behave exactly like their root element when they are added, i.e., they fit only into containers where the root element fits in.</div>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/Selecting_ModelGroup2.png]]></target>
+            <uuid>4e8da82d-e663-11ec-8d31-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Add an existing model group in the "Add wizard". Reuse groups are blue, copy groups red.]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

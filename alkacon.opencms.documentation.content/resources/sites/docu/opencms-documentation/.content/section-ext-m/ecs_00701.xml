@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Using the integrated list type]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<div class="" data-oc-id="http://opencms.org/resources/en/1b51ff41-4674-11e9-832c-0242ac11002b" data-oc-field="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-html.xsd/OpenCmsDocumentationHtml/Html">
+<p>With the integated list type, you do not need any Solr experience to perform the query. We assume things are prepared like in the OpenCms 11 demo:</p>
+<ul>
+<li>We have a display formatter for articles</li>
+<li>We have a formatter for the integrated list (not even necessary, but helpful)</li>
+</ul>
+<p>Now add a new content of type "List". If configured as in the demo, you can drop a new list on the page. It's in the view "Advanced elements". Edit it as shown below (Only three intuitive steps are necessary!):</p>
+</div>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/search_integrated_list_simple_example.png]]></target>
+            <uuid>b462edae-f068-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[The search example with the integrated list]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/lists-and-detail-pages/building-lists/lists-since-opencms-11/]]></target>
+            <uuid>a57fcb55-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>You can have a look at the found results in the list app and you should find, that the results are identically to the ones found by the handler. Hence, <strong>you could do your Solr search without any Solr knowledge. Great, isn't it?</strong></p>
+<div class="alert alert-info">Learn more about the integrated list <a href="%(link0)">here</a>.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

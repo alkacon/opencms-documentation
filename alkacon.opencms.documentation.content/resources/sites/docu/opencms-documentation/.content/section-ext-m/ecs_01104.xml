@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Bundle descriptors]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-bundle-editor/]]></target>
+            <uuid>209ceb93-d1c5-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[editing-bundles-with-descriptors-47794c41]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Bundle descriptors are added in OpenCms 10.5. They are unilingual contents of type "Bundle descriptor" (<code>bundledescriptor</code>). They play together with the bundle editor. In a bundle descriptor you can:</p>
+<ul>
+<li>fix the key set of a bundle (shown in and stored by the bundle editor),</li>
+<li>add two pieces of extra information for each key (description and default value if not configured differently).</li>
+</ul>
+<p>Each bundle descriptor describes exactly one bundle and must be named</p>
+<ul>
+<li><code>{bundle name}_desc</code></li>
+</ul>
+<p>The descriptor does not necessarily have to reside in the same folder as the other bundle files. In general, it is beneficial to grant write access to the descriptor only for users that should change the key set of a bundle, e.g., for template developers. This way, the editors that translate messages can not change the key set when they edit a message bundle via the bundle editor.</p>
+<p>Have a look at the <a href="%(link0)">description of the bundle editor</a>, to see how it deals with bundle descriptors.</p>
+<div class="alert alert-info">Be aware the the bundle descriptor has only influence on the bundle editor. So it does not prevent users from making arbitrary changes to message bundles by editing the source code directly.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

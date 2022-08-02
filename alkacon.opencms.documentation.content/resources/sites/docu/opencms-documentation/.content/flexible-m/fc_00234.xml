@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Defining the mapping between form and content]]></Title>
+    <Code><![CDATA[function myMappings() {
+        ugc.map("title", "Title[1]", ugc.OPTIONAL);
+        ugc.map("text", "Paragraph[1]/Text[1]");
+        ugc.map("imagefile", "Paragraph[1]/Image[1]/Image[1]", ugc.UPLOAD);
+        /* ... more mappings ... */
+    }]]></Code>
+  </Flexible>
+</FlexibleData>

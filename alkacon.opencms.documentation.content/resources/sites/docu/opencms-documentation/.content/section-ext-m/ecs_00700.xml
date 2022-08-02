@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Notes on the response 3]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/more-opencms-features/solr-search-integration/solr-handler/]]></target>
+            <uuid>8c0ddb5d-d1ca-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Looking at the result, you see two sections:</p>
+<ul>
+<li><code>responseHeader</code> - that basically tells what you queried</li>
+<li><code>results</code> - the list of results with some extra information.</li>
+</ul>
+<p>Considering the <code>results</code> section:</p>
+<ul>
+<li>You see that we found 21 results at all, but you'll see only 10 <code>doc</code> nodes. The reason is, that by default only 10 results are returned. You can request more by adding <code>&amp;rows=30</code> to your query. Or you can just query the next 10 results by adding <code>&amp;start=10</code><span class="footnote">Looks like pagination, doesn't it?</span>.</li>
+<li>You see that each returned document has lots of fields returned. On nearly all of these fields (and some more) you can query. But typically, you do not need all the fields in the query response. Add <code>&amp;fl=disptitle_en_sort,en_excerpt,link</code> to your query to reduce the returned fields<span class="footnote">There are some additional fields returned that are always returned since they are typically useful. This is an OpenCms feature, not a Solr feature.</span>.</li>
+</ul>
+<div class="alert alert-info">You might think about all the information anyone can gain by correct queries to the handler? Since OpenCms 11 the handler refuses searches online by default and if you really need it, you can configure what results to return. Read more about this in the <a href="%(link0)">topic about the handler</a>.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

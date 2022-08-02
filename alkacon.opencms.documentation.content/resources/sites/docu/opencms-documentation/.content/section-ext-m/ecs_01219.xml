@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Improved in OpenCms 13.0]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://www.opencms.org/en/news/220413-opencms-1300-releasenotes.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p><span style="font-size: 1.4rem;">See the </span><a style="background-color: #ffffff; font-size: 1.4rem;" href="%(link0)">OpenCms 13 release notes</a><span style="font-size: 1.4rem;"> for the full list of improvements.</span></p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Solr Search Integration]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The Solr search integration has been extended with a <strong>Geo search feature</strong> in order to retrieve XML contents by geo coordinates.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/more-opencms-features/solr-search-integration/]]></target>
+            <uuid>3afada83-d1ca-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[OpenCms Workplace]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The <strong>OpenCms workplace</strong> has been improved in order to allow <strong>content edition and image upload on touch devices</strong>.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/]]></target>
+            <uuid>cd282cfa-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Tell the list formatter to show settings of display formatters]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A list content may have various formatters and only some of them may really shown contents with display formatters. For example, for lists of the integrated OpenCms list type, you may have a formatter only displaying filter options and another displaying the found resources. Hence, not for all list formatters the settings of display formatters should be shown in the lists settings dialog.</p>
+<p>To show the settings of display formatters with the lists settings for a specific list formatter check "Include element settings from display formatters" in that list formatters configuration.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/formatter_config_include_settings_of_display_formatters.png]]></target>
+            <uuid>4da947c1-f834-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[List formatter configuration: Include settings from display formatters]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

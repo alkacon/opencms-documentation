@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Rendering multilingual content 2]]></Title>
+    <Code><![CDATA[<cms:formatter var="content">
+    <!-- Get a value from the XML content in the selected locale -->
+    ${content.localeValue['de']['Title']}
+
+    <!--  Get a list of values from the XML content in the selected locale -->
+    ${content.localeValueList['de']['Teaser']}
+
+    <!--  Check if a value exists in the specified locale -->
+    ${content.hasLocaleValue['de']['Title']}
+</cms:formatter>]]></Code>
+  </Flexible>
+</FlexibleData>

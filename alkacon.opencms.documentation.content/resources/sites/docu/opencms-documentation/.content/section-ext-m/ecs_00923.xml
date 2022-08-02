@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Properties of the CmsJspCategoryAccessBean]]></Title>
+    <Section>
+      <Caption><![CDATA[categories.isEmpty]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Yields <code>true</code> if no category is assigned at all, otherwise <code>false</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[categories.subCategories["location/"]]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspCategoryAccessBean.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>Yields again a <code><a href="%(link0)" target="_blank" rel="noopener">CmsJspCategoryAccessBean</a></code>&nbsp;for all sub-categories of <code>"location/"</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[categories.allItems]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/relations/CmsCategory.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>The list of all categories as <a href="%(link0)" target="_blank" rel="noopener">CmsCategory</a>&nbsp;objects (sorted depth-first).</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[categories.leafItems]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/relations/CmsCategory.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>The list of all leaf categories (categories without sub-categories) as <code><a href="%(link0)" target="_blank" rel="noopener">CmsCategory</a></code>&nbsp;objects.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[categories.topItems]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/relations/CmsCategory.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>The list of all categories that are direct children of the current main category (as <code><a href="%(link0)" target="_blank" rel="noopener">CmsCategory</a></code>&nbsp;objects).</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Schema definition for a content type]]></Title>
+    <Section>
+      <Caption><![CDATA[Defining the schema of a content type]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>For each content type the structure and content specific behavior is specified in XML schema defintions. Find out how to write such a defintion.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/]]></target>
+            <uuid>80637aaa-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Defining the contents structure]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Define the structure of your content - here you learn how!</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-structure/]]></target>
+            <uuid>c9fda3de-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Defining the contents behavior]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>In the content type definition (the XSD) you can configure content's behavior with respect to various facets, e.g., search, appearance, defaults and much more. We survey the configuration options and point to topics exploring the various options in depth.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/]]></target>
+            <uuid>d7b80b71-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

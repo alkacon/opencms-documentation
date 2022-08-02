@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Preparing your template for detail pages]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>On detail pages the detail content shows directly "in the right place" and noone ever dropped it there. Hence, the place must be determined automatically. Moreover, you may add content to the detail page specific only for one content. But how should that work, since there is not a real page for each of the contents? Both has to be taken care of when developing the template.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Configuring the place where the detail content should show]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Add the attribute <code>detailview="true"</code> to the <code>&lt;cms:container&gt;</code>-tag in the template JSP, where the XML content should be displayed. Usually it is the container that contains the main content of a page, e.g:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

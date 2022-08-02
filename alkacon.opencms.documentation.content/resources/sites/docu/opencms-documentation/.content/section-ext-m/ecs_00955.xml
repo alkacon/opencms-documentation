@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Some hints]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p><strong>Macro formatters build a new layer of abstraction.</strong> The target is to reduce development complexity. Once suitable formatters for special content parts (text, image, headline, ...) are defined, they can easily be combined. Writing JSPs is only necessary for that basic formatters - and even these will become less complex. The combination of the basic formatters requires solely HTML and some macros. Hence it can be done by differently skilled persons as well. Thus, you are enabled to define the set of customer specific formatters easily from a set of basic formatters that may be reused.</p>
+<p><strong>Hiding basic formatters bears an advantage.</strong> Basic formatters do not need a surrounding &lt;div&gt; if not used directly. Hence, output is even more flexible. You may benefit from that flexibility when writing the macro formatters.</p>
+<p>Name element settings of the basic formatters suitable. All element settings of the basic formatters will also be available in the macro formatter. So name them suitably, e.g., prefixing them with "Headline", "Image", "Text" etc. </p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/MacroFormatterSettingsExample.png]]></target>
+            <uuid>c5cf9ddd-f6a4-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Provide suitable names for element settings from the basic formatters]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

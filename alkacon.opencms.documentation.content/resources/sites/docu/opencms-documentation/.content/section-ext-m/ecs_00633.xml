@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Chaining Techniques]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>With the technique of chaining, you can <strong>reduce</strong>, <strong>extend</strong>, or <strong>vary</strong> definitions provided in master configurations.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Reduction by Chaining]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Reduce the number of formatters provided by adding a formatter to the list of <strong><em>Formatters to be removed </em></strong>in the <em><strong>Formatters tab</strong>. The same works for dynamic functions and for plugins in the Dynamic functions tab.</em></p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/reduction-by-chaining.png]]></target>
+            <uuid>a8ff60a7-eaed-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Reduction by Chaining]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Extension by Chaining]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Extend the number of formatters provided by adding a formatter to the list of <strong><em>Formatters to be added </em></strong>in the <em><strong>Formatters Tab</strong>. The same works for dynamic functions and for plugins in the Dynamic functions tab.</em></p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/extension-by-chaining.png]]></target>
+            <uuid>a8fc0543-eaed-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Extension by Chaining]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Variation by Chaining]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/formatters-and-their-configuration/]]></target>
+            <uuid>8c2d82ed-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Provide an alternative HTML rendering for content elements and apply the rendering to already existing contents of individual sites.</p>
+<p>In order to overwrite the standard HTML rendering provided by a template, you have to</p>
+<ol>
+<li><a href="%(link0)">define and implement a new formatter</a> that realizes the alternative HTML rendering</li>
+<li>give the new formatter the same content type and <strong>the same formatter key</strong> as the formatter you want to overwrite</li>
+<li>in your <em>Sitemap master configuration</em>, add the new formatter to the list of <strong><em>Formatters to be added </em></strong>in the <em><strong>Formatters Tab</strong></em> as described above; this will overwrite the original formatter</li>
+<li>include the <em>Sitemap master configuration</em> in the <em>Site configuration</em> where you intend to have the alternative HTML rendering available</li>
+</ol>
+<p>The figures below show an already advanced example of variation by chaining from the <em>Mercury</em> template, the <strong><em>Burger Menu</em> variant</strong>.</p>
+<p>Whilst in Mercury's standard variant, the main menu is rendered in a traditional way with a horizontal bar and vertical drop-down menus, the <em>Burger Menu</em> variant shows the main menu in the form of a fold-out burger menu on the left.</p>
+<p>The following figure shows the original formatter of type <code>m-layout-group-simple</code> with key <code>m/layout/group</code> as defined in the master configuration of the Mercury standard variant.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/mercury-template-layout-group-formatter.png]]></target>
+            <uuid>b72b008d-eaed-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Standard Layout Group Formatter of the Mercury Template]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The next figure shows the Burger menu variant formatter. Note that the formatter of the variation has the same type and the same key, <code>m-layout-group-simple</code> and <code>m/layout/group</code> as the standard formatter.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/burger-variant-master-configuration.png]]></target>
+            <uuid>880b1915-eaed-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Master Configuration of the Burger Menu Variant]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The variation formatter is referenced in the master configuration of the <em>Burger menu</em> variant, see the figure below, and in that overwrites the corresponding standard formatter.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/burger-menu-variant-formatters-tab.png]]></target>
+            <uuid>8807e4c1-eaed-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Formatters Tab of the Burger Menu Variant]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-variants/site-plugins/]]></target>
+            <uuid>8d7ee5fd-d1cc-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>In order to make the <em>Burger menu</em> work, also a special dynamic function <code>header-config</code>&nbsp; is needed as one can see in the last figure. The dynamic function of the standard variant is explicitely removed and the dynamic function of the burger menu variant is added.</p>
+<p>The Burger menu variant finally needs some extra CSS and JavaScript, which is included with the help of plugins as shown below.&nbsp;Plugins are described in one of the <a href="%(link0)">next chapters</a>.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/burger-menu-variant-dynamic-functions-tab.png]]></target>
+            <uuid>8803c60d-eaed-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Dynamic Functions Tab of the Burger Variant]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

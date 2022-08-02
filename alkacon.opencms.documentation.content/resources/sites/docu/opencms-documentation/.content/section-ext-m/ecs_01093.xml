@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Message bundles]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Localization and internationalization is an important topic when maintaining multilingual websites. OpenCms has a variety of mechanisms to support multilingual websites, as well as the localization of the OpenCms grapical user interface. A central part of these mechanisms are so called message or resource bundles. They are the default Java mechanism for the internationalization. In the raw version of those bundles, one provides for each language a so called property file, containing key-value pairs with message identifiers as keys and localized messages as values. OpenCms supports the raw Java bundles, but also provides two slightly refined versions of that mechanism to ease the handling.</p>
+<p>In this topic we discuss for what purposes message bundles are used in OpenCms. Furthermore, we provide an overview on the three alternative ways of defining message bundles and discuss the special behavior of so called "workplace" bundles.</p>
+<p>Since version 10.5 OpenCms features a special editor for message bundles and a descriptor mechanism for bundles, that allows the fix the key set for a bundle and provide extra information for each key. We take a look at these features.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

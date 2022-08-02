@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Location of the formater and its configuration]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/modules/]]></target>
+            <uuid>85b70871-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Formatters and their configuration are usually shipped with modules and both placed in the formatters/ sub-folder of a module. Since a formatter and its configuration are closely related, they typically get identical names (except for the suffix).</p>
+<p>Whether formatters, configurations and content type definitions should be placed in the same module is a design decision where two options may be advantageous:</p>
+<ul>
+<li>You can place content type definition, formatters and configurations in one module and make up modules for particular content types. Then you can add and remove the individual content types easily.</li>
+<li>You can place content type definitions in a different module than the formatters and configurations. Then you can easily reuse the same content types with a different set of formatters.</li>
+</ul>
+<div class="alert alert-info">When you use&nbsp;<a href="%(link0)">the "Add resource type" wizard</a> of the module administration, an example formatter and formatter configuration are generated automatically. Using this wizard is the best option if you create a new content type that is exposed as a resource type.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

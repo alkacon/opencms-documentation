@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[ EL expressions 2]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/demos/head-includes/]]></target>
+            <uuid>5b9ed706-d1cd-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The group names such as <code>jsp</code>, <code>css</code>, <code>js-defer</code>, and <code>js-async</code> are template-specific. A plugin developer has to know which plugin groups are supported by a template and which specific plugin group to use in order to get a plugin functionality working.</p>
+<p>Also, plugins must coordinate their ordering numbers themselves. Choose the order of including plugin resources, JavaScript resources for example, carefully.</p>
+<p>For frontend functionality that is relevant for a whole site, the plugin EL expressions can be seen as a more flexible replacement for the former <a href="%(link0)"><em>Head includes</em></a> feature.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

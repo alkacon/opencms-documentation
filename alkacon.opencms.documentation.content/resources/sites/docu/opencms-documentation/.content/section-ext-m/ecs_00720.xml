@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[ Full text search with Solr]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Solr is a mighty tool to perform full text search with many of extra features, such as (various kinds of) facets, "Did you mean?" functionality and highlighting with suitable selection of text snippets for an extract.</p>
+<p>Implementing a fully featured Solr search can be involved and time consuming. Up to OpenCms 9.5 a client side Solr search was integrated in the demo template shipped with OpenCms. Even partly configurable, it was hard to adjust for the use in other web sites. In particular, a lot of GWT code that handled the state of the search form and rendered the output had to be touched.</p>
+<p>The complexity of implementing a client-side search function led to the decision to add support for a server side search. This will remove the complexity of writing client side code and might be sufficient for many purposes. With the tag <code>&lt;cms:search&gt;</code>, introduced in OpenCms 10, writing a full text search for a website is done within just a few minutes or hours. And this search already supports facets, highlighting, pagination, etc.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

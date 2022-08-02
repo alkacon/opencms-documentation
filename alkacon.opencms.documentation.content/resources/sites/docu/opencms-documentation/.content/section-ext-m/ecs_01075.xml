@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Usage]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<div class="alert alert-danger">Since OpenCms 10 inheritance groups fit only in containers of type <code>group</code>.</div>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Creating new inheritance groups]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-page-editor/]]></target>
+            <uuid>0597a70a-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/searchBigIconActive.svg]]></target>
+            <uuid>dfa1df6b-c9f9-11ec-a595-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+        </links>
+        <content><![CDATA[<p>You can create a new inheritance group in the&nbsp;<a href="%(link0)">page editor</a> by opening the <strong>Add wizard</strong> <img style="width: 14px;" title="searchBigIconActive" src="%(link1)" alt="" /> and dragging an "Inheritance group" from the "Types" tab onto your page. As with other resources, the inheritance group will only be created in the VFS once you edit it.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Using existing inheritance groups]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/searchBigIconActive.svg]]></target>
+            <uuid>dfa1df6b-c9f9-11ec-a595-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+        </links>
+        <content><![CDATA[<p>You can use an existing inheritance group on your container page by opening the <strong>Add wizard</strong> <img style="width: 14px;" title="searchBigIconActive" src="%(link0)" alt="" />, clicking the type "Inheritance group" from the "Types" tab and drop one of the now shown inheritance groups on your page.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Changing inheritance groups]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_normalsize/selectionIconDeactivated.png]]></target>
+            <uuid>ca046622-fb64-11ec-829b-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+          <link name="link1" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_normalsize/editIconActive.png]]></target>
+            <uuid>ded030c9-fb64-11ec-829b-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+        </links>
+        <content><![CDATA[<p>To edit an Inheritance group, first you need to open a container page that contains the inheritance group. Hover over the <strong>Edit point</strong> <img style="width: 14px;" title="selectionIconDeactivated" src="%(link0)" alt="" /> of the inheritance group and click the edit symbol <img style="width: 14px;" title="editIconActive" src="%(link1)" alt="" />. Now the Inheritance group editor will pop up where various actions can be performed.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Add a headline]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Using the text fields in the dialog, you can change the title and description of the inheritance group. The title and description are not displayed when rendering the inheritance group, but are mainly used for finding the inheritance group using the "Add content" dialog.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Adding content elements]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Analogously to element groups, new content elements can be added to inheritance groups by opening the “Add content” dialog by dragging them inside the inheritance group while the edit dialog is still open.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/InheritanceGroupEdit.png]]></target>
+            <uuid>7b5019df-fb5d-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Editing an inheritance group. Please note that the screenshot shows OpenCms 9.5, but functionality has not changed.]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Note that when adding new elements to inheritance groups on a page, those elements will be inherited by the same inheritance group on any descendant page. By default, new elements will appear on the bottom of the Inheritance group on descendant pages.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Removing content elements]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_normalsize/removeIconActive.png]]></target>
+            <uuid>71ca3aa1-fb65-11ec-829b-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+        </links>
+        <content><![CDATA[<p>Clicking on the remove symbol&nbsp;<img style="width: 14px;" title="removeIconActive" src="%(link0)" alt="" /> in the inheritance group editor will perform one of two actions, depending on where the content element was added to the Inheritance group:</p>
+<ul>
+<li>If the content element was added to the inheritance group of the currently edited page or a page in the current folder, the element will just be removed from the inheritance group, and will not appear in the inheritance group on any descendant pages.</li>
+<li>If the content element was added to the inheritance group in an ancestor folder, the element will be hidden, and will also be hidden in the inheritance group on descendant pages. The difference to normal deletion is that a hidden element can be set to "visible" again in a descendant page and is still present on anchestor pages.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Reordering content elements]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_normalsize/moveIconActive.png]]></target>
+            <uuid>f2b29092-fb65-11ec-829b-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+        </links>
+        <content><![CDATA[<p>Elements of inheritance groups can be reordered via drag &amp; drop. Just drag the elements by their move icons <img style="width: 14px;" title="moveIconActive" src="%(link0)" alt="" /> to rearrange them inside the inheritance group.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Inheritance status]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If an element of an Inheritance group was not added for the current folder, a tree-like "Inheritance info" icon will be available from the element's toggle menu. Hovering your mouse over this icon will tell you from which folder this element was added to the Inheritance group.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/InheritanceGroupStatus.png]]></target>
+            <uuid>7b587e57-fb5d-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Inheritance status. Please note that the screenshot shows OpenCms 9.5, but functionality has not changed.]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Showing previously hidden elements]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_normalsize/addIconActive.png]]></target>
+            <uuid>ff09e5a8-fb65-11ec-829b-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+        </links>
+        <content><![CDATA[<p>The inheritance group editor's "Show removed"/"Hide removed" button will toggle the display of elements which have been hidden from the inheritance group in an ancestor folder in the inheritance group editor. To show a hidden element in the current page, first click on the "Show removed" button that displays the hidden elements. They are displayed with diagonal stripes on top to distinguish them from the other elements. Now hover the <strong>Edit point</strong> of the element you want to show and click the "Add content" button <img style="width: 14px;" title="addIconActive" src="%(link0)" alt="" /> from the appearing menu.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/InheritanceGroupShowPreviouslyHiddenElements.png]]></target>
+            <uuid>7b537543-fb5d-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[InheritanceGroupShowPreviouslyHiddenElements]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Saving changes]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>All changes to an inheritance group will only take effect if you click on the "Save" button. The inheritance group editor will then be closed.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Breaking up the group]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/special-predefined-content-types/element-group-depricated/]]></target>
+            <uuid>e1b32b30-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>When using the "Break up" button, the inheritance group will be replaced by its current, individual content elements in the container page, just as with <a href="%(link0)">element groups</a>.</p>
+<div class="alert alert-info">Note that this action takes effect immediately, not just after pressing the "Save" button.</div>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Editing element settings]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Just like with other container page elements, the element settings of inheritance group elements can be edited. But note that element settings can only be changed for an element if that element was added to the Inheritance group in the current folder. If the element was added to the inheritance group in a different folder, the option for editing element settings will not appear.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Internals]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>There are two resource types used for the implementation of inheritance groups: <code>inheritance_group</code> and <code>inheritance_config</code>. <code>inheritance_group</code> is the type of the contents that are actually inserted into the container page when creating new inheritance groups or dragging existing inheritance groups into a page. They only contain the internal id of the inheritance group they represent.</p>
+<p>The resources of type <code>inheritance_config</code> contain the actual contents of the inheritance groups. The inheritance group changes for a folder will be stored in a file (of type <code>inheritance_config</code>) named <code>.inherited</code> which is contained in the same folder. Since only one file per folder is used, data for multiple Inheritance groups will be stored in the same file. The content of this config file should not be edited manually.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

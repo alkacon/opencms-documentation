@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[ Reduce element settings]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>As one can see in the figure above showing the element settings of the Mercury <em>Text image</em> formatter, the list of element settings available can be very long in modular templates.</p>
+<p>Depending on your project, you might want to create a template variant, where the number of choices is drastically reduced.</p>
+<p>You can disable an element setting with an <em>Element setting overrides</em> file by choosing the <code>hidden</code> value for a specific <em>Widget</em> field.</p>
+<p>An element setting can be disabled <strong>for all formatters at once or for selected formatters only</strong>. If the override shall apply for selected formatters only, select them with the <em>Formatter key</em> field in the <em>Shared element settings</em> file.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/element-setting-overrides-hidden-widget.png]]></target>
+            <uuid>eb32de3b-eaf1-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Hidden widget configuration in an Element setting overrides file]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

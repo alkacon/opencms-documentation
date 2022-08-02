@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Adding translations]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>At the moment, we have a sub-sitemap for each locale variant of the website. But only the English sub-sitemap contains pages. Open the sitemap editor in the English sub-sitemap and go to the "Compare locales" view. First we link the roots of our sitemaps: Click "Link locale" in the context menu of the site root "en". Link it to "de" as displayed in the following two figures. Link it also to "fr". To do so switch the "Compared to" locale to "French" first.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/link-locale-variant-menu.png]]></target>
+            <uuid>4eb4ad0b-fe8d-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Choose "Link locale" in the context menu of the sub-sitemap's root]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

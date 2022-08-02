@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Example with all variants of placing RDFA annotations 2]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The example formatter renders a content that has a field <code>Title</code> and a list of one or more <code>Paragraph</code>s as nested contents. Each <code>Paragraph</code> has an optional <code>Headline</code>, <code>Image</code> and <code>Link</code> (which is itself a nested content), and a mandatory <code>Text</code> field.</p>
+<p>Here are the parts of the formatter relevant for inline editing:</p>
+<ul>
+<li>Line 3: The attribute <code>rdfa="rdfa"</code> in the <code>&lt;cms:formatter&gt;</code> tag exposes a variable <code>rdfa</code> as abbreviation for <code>content.rdfa</code>. This is not mandatory, but a convenience feature, just as <code>val="value"</code> exposes <code>value</code> as abbreviation for <code>content.value</code>.</li>
+<li>Line 6: The <code>${rdfa.Title}</code> at the <code>&lt;h2&gt;</code> tag enables inline editing for the <code>Title</code>. It is mandatory that inside of the <code>&lt;h2&gt;</code> tag there is <em>only the unmanipulated value</em> of <code>Title</code>. Note that we use the <code>rdfa</code> variable when writing <code>rdfa.Title</code> exposed via the <code>&lt;cms:formatter&gt;</code> tag. We could have also written <code>content.rdfa.Title</code>.</li>
+<li>Line 8: We use <code>${paragraph.rdfaAttr}</code> to get the correct RDFA annotation for the paragraph. Here it is easier to use the property <code>rdfaAttr</code>, instead of <code>content.rdfa.Paragraph[status.index]</code>, where status would have to be exposed via <code>&lt;c:forEach ... statusVar="status"&gt;</code>.</li>
+<li>Line 10: Here we make the paragraph's headline editable directly. It's similar to line 6, where the title is made directly editable.</li>
+<li>Line 13: We set the RDFA annotations for <code>Link</code>, <code>Image</code> and, if the headline is not set and thus directly editable (see line 10), for <code>Headline</code> . At the annotated <code>&lt;div&gt;</code>, edit points for all two (or three) content fields will appear. Note that rdfaFields is set in line 12 to a pipe-separated list of content fields. Such a pipe separated list is the only way to add more than one RDFA annotation to an HTML tag. Writing <code>&lt;div ${paragraph.rdfa.Link} ${paragraph.rdfa.Image}&gt;</code> instead, does not work.<br />A further interesting point here is, that the RDFA annotation for the headline is set differently, depending on the existence of a headline.</li>
+<li>Line 16: Here the <code>Text</code> is printed in a <code>&lt;div&gt;</code> and made directly editable. Text is of type <code>OpenCmsHtml</code>. Here again, make sure that the value of <code>Text</code> is the only content of the annotated <code>&lt;div&gt;</code>.</li>
+</ul>
+<p>What is not directly present in the example, is the possibility to navigate through the content using the attribute value and when you are at the right place, use rdfa. For example, <code>content.value.NestedContent.rdfa.NestedTitle</code> is a valid expression.</p>
+<p>The following figure shows the resulting inline editor for (a slightly more complex variant of) the above formatter.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/ResultOfComplexExample.png]]></target>
+            <uuid>5fd1c617-f6a6-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[All texts rendered by the formatter can be edited inline. Moreover, a lot of edit points and plus symbols appear at the right-hand side of the editor. These are the shown because of RDFA annotations for content fields that are not directly editable. In particular, the edit point we hover over belongs to the first paragraph, the plus directly below to this paragraphs headline (that is not provided in the content). Furthermore, we get and edit point to edit or remove the image and a plus sign to add a link to the first paragraph.  For the second paragraph we again get an edit point for editing the paragraph and two pluses: one for adding an image and one for adding a link. Note that the headline of the second paragraph is directly editable and has no extra edit point - as it has in the first paragraph.]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

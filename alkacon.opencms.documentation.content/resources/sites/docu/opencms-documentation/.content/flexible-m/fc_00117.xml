@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[VFS image widget 2]]></Title>
+    <Code><![CDATA[<layout element="VfsImage" widget="VfsImageWidget" 
+        configuration="{ scaleparams: 'q:70,r:2,c:CCCC00', 
+  		type: 'gallery',
+  		startup: '/.galleries/samples/',
+  		usedescription: true,
+  		useformat: true,
+  		formatnames: 'imageleft:Image left|imageright:Image right|imagetop:Image top',
+  		formatvalues: ['150x?', '250x300', '?x250']
+	}" 
+/>]]></Code>
+  </Flexible>
+</FlexibleData>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[JLAN server configuration 3]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[share-configuration-fdaf42b2]]></anchor>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[http://svn.alfresco.com/repos/alfresco-open-mirror/alfresco/HEAD/root/projects/alfresco-jlan/guides/JLAN_Server_Installation_Guide.pdf]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>If no port is given, the standard SMB port (445) will be used. The reason to a port other than 445 is that in some operating systems, e.g., Linux, programs not running under the “root” user do not have the required&nbsp;permissions to listen on port numbers &lt; 1025 by default. This is why the port is set to 1445 in the example configuration <code>jlanConfig.xml.linux</code>.</p>
+<p>Using a&nbsp;non-standard port (such as 1445) for SMB is possible but may cause difficulties especially with Microsoft Windows and other&nbsp;clients expecting the standard port 445. We therefore recommend configuring&nbsp;your OpenCms server to allow the use of the standard port 445. There are several ways to do this, depending&nbsp;on your server configuration. For example, you may use tools like&nbsp;<code>socat</code> or <code>iptables</code> to forward port 445 to the port you are using. For a Debian/Ubuntu&nbsp;based Linux server running Tomcat 7 we recommend using <code>authbind</code> as described below.</p>
+<p>If you use a Debian based Linux distribution such as Ubuntu running Tomcat 7, setting up the required permissions for OpenCms to allow SMB acess using port 445 can be done easily with <code>authbind</code>. This is a package specifically designed to allow certain users access to otherwise restricted ports. To allow the user&nbsp;tomcat7 to bind to port 445 for SMB do this:</p>
+<p><code>1:# apt-get install authbind</code></p>
+<p><code>2:# touch /etc/authbind/byport/445</code></p>
+<p><code>3:# chown tomcat7:tomcat7 /etc/authbind/byport/445</code></p>
+<p><code>4:# chmod 755 /etc/authbind/byport/445</code></p>
+<p><code>5:# sed -i "s/#AUTHBIND=no/AUTHBIND=yes/" /etc/default/tomcat7</code></p>
+<p>Basically this first installs the <code>authbind</code> package (line 1), then creates an exception allowing the user tomcat7 to bind to port 445 (lines 2-4) , and finally configures Tomcat to run with authbind (line 5). After you have done this restart Tomcat and check the log file catalina.out. If you find a line&nbsp;<code>[SMB] Waiting for new connection ...</code> your network share configuration is working.</p>
+<p>It is possible to configure the OpenCms folders shared over SMB directly in <code>jlanConfig.xml</code>, but we recommend configuring these in <code>opencms-importexport.xml</code>, as described <a href="%(link0)">below</a>.</p>
+<p>To use SMB network shares on an OpenCms server running on Windows XP, using NetBIOS may be required. Please refer to the&nbsp;<a href="%(link1)" target="_blank" rel="noopener">JLAN server installation guide</a> for information about setting up NetBIOS in this case.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

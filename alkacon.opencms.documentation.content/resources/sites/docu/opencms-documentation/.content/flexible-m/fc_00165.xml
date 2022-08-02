@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Adjusting the solrconfig.xml of the spellcheck core 2]]></Title>
+    <Code><![CDATA[<!-- ... -->
+
+<searchComponent name="spellcheck" class="solr.SpellCheckComponent">
+	<str name="queryAnalyzerFieldType">spell</str>
+
+	<!-- ... some spellcheckers ...-->
+	<lst name="spellchecker">
+		<str name="classname">solr.IndexBasedSpellChecker</str>
+		<str name="spellcheckIndexDir">./spellchecker_it</str>
+		<str name="field">entry_it</str>
+		<str name="name">it</str>
+		<str name="buildOnCommit">true</str>
+	</lst>
+	<lst name="spellchecker">
+		<str name="classname">solr.IndexBasedSpellChecker</str>
+		<str name="spellcheckIndexDir">./spellchecker_cs</str>
+		<str name="field">entry_cs</str>
+		<str name="name">cs</str>
+		<str name="buildOnCommit">true</str>
+	</lst>
+</searchComponent>
+
+<!-- ... -->]]></Code>
+  </Flexible>
+</FlexibleData>

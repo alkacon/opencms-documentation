@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Configuring search index(es) 2]]></Title>
+    <Code><![CDATA[<index class="org.opencms.search.solr.CmsSolrIndex">
+	<name>Solr Online</name>
+	<rebuild>auto</rebuild>
+	<project>Online</project>
+	<locale>all</locale>
+	<configuration>solr_fields</configuration>
+	<sources>
+		<source>solr_source</source>
+	</sources>
+        <!-- optional parameters -->
+</index>]]></Code>
+  </Flexible>
+</FlexibleData>

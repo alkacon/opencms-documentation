@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Add or not add a schema element to the content_{locale} fields]]></Title>
+    <Code><![CDATA[<searchsettings>
+   <searchsetting element="Title" /> <!-- searchcontent is true by default -->
+   <searchsetting element="Text" searchcontent="true" />
+   <searchsetting element="Date" searchcontent="false" />
+   <!-- more search settings here -->
+</searchsettings>]]></Code>
+  </Flexible>
+</FlexibleData>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Dealing with element settings as editor]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-page-editor/]]></target>
+            <uuid>0597a70a-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_normalsize/selectionIconActive.png]]></target>
+            <uuid>3b553b68-f76d-11ec-829b-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+          <link name="link2" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_normalsize/propertyIconActive.png]]></target>
+            <uuid>3b57855c-f76d-11ec-829b-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+        </links>
+        <content><![CDATA[<p>In the <a href="%(link0)">page editor</a>, the element options (edit point&nbsp;<img style="width: 14px;" title="selectionIconActive" src="%(link1)" alt="" /> at the element) show a gear wheel (<img style="width: 14px;" title="propertyIconActive" src="%(link2)" alt="" />) that opens the element settings dialog.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/element_settings_dialog.png]]></target>
+            <uuid>46b04b8e-f76c-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[The element settings dialog]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The dialog has various sections, not all present every time. The settings we talk about here, are the ones in the "Settings" section. These are the ones configured for the formatter. As you see, the developer can configure various widgets for those settings to ease the editors task.</p>
+<p>Just for completeness, we provide an overview on the different sections of the settings dialog here:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

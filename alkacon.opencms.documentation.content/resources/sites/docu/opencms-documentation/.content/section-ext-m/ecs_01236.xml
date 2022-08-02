@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[New features in OpenCms 10.5]]></Title>
+    <Section>
+      <Caption><![CDATA[Localization: Many new features]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<ul>
+<li>Compare localized subsites side-by-side</li>
+<li>Copy pages from one language to another, including content</li>
+<li>Connect the same page in different languages using locale relations</li>
+<li>Support for localized properties</li>
+</ul>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/tutorials/building-a-multilingual-website/]]></target>
+            <uuid>46da4f2a-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[The bundle editor]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The feature-rich editor for message bundles.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-bundle-editor/]]></target>
+            <uuid>209ceb93-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Bundle descriptors]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A new content type to fix the key set for message bundles and add extra information for each message.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/localization/message-bundles/]]></target>
+            <uuid>2563f789-d1ca-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[bundle-descriptors-333d7202]]></anchor>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[JSON support]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Serve parts of your HTML code in a JSON array to use it for external tools.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/more-opencms-features/json-support/]]></target>
+            <uuid>5be70afe-d1ca-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Install OpenCms without additional webserver]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>OpenCms ships with a servlet filter that allows you to get rid of the "opencms" servlet name in URLs.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/server-installation/installing-opencms/]]></target>
+            <uuid>4178b326-d1ce-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Tag <cms:scaleImage>]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The tag is a more flexible version of &lt;cms:img&gt;. It in particular allows to use the HTML &lt;picture&gt; tag and provide different resolutions of a single image for different devices.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="false" type="WEAK">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/tld/cms/scaleImage.html]]></target>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Data view widget]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Data view widget API allows to natively integrate external assets in the content editor.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/widget-configuration/]]></target>
+            <uuid>01d93703-db28-11ec-8fb9-0242ac11002b</uuid>
+            <anchor><![CDATA[data-view-widget-aba13862]]></anchor>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

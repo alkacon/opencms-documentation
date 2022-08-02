@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Boolean parameters]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Boolean parameters evaluate to&nbsp;<em>true</em>&nbsp;if the parameter value is either "true", or empty, or not present:</p>
+<ul>
+<li>?{paramName}=true</li>
+<li>?{paramName}=</li>
+<li>?{paramName}</li>
+</ul>
+<p>Boolean parameters evaluate to&nbsp;<em>false</em>&nbsp;only if the parameter value is set to false</p>
+<ul>
+<li>?{paramName}=false</li>
+</ul>
+<p>If a boolean parameter is not present at all, an internal default value is assumed as described below.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

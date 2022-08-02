@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Server-side preparation for a UGC session 2]]></Title>
+    <Code><![CDATA[<%@page buffer="none" session="false" trimDirectiveWhitespaces="true" taglibs="c,cms" %>
+
+<cms:formatter var="content">
+<div>
+    <%-- add some case distinction to show something else for new or currently edited contents --%>
+
+    <%-- IMPORTANT: Here a UGC-session is initialized. The config path links to the UGC configuration file,
+      -- the editId to the XML content that should be connected with the form (the UUID must be given),
+      -- and var is used to expose the session-id of the established session
+      -- If no editId is given (empty string), a new content is created --%>
+    <cms:ugc var="ugcId" editId="${param.fileId}" configPath="${content.filename}" />
+
+    <%-- render the form --%>
+    <form 
+        id="ugcForm" 
+        ugc-id="${ugcId}" <%-- IMPORTANT: expose the session-id of the UGC session --%>
+        method="post" 
+        role="form">
+        
+        <%-- render the form fields and buttons to save and/or (server-side) validate the input and/or cancel --%>
+
+    </form>
+</div>
+</cms:formatter>]]></Code>
+  </Flexible>
+</FlexibleData>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Interesting details]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The default indexing mechanism has some interesting features. Typically, everything behaves as expected. But in corner cases the special behavior might cause trouble and it's good to know about.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Multilingual support]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://code.google.com/p/language-detection/]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>There is a default strategy implemented for the multi-language support within OpenCms Solr search index. For binary documents the language is determined automatically based on the extracted text. An exception are documents that follow the name scheme <code>{name}_{locale}.{suffix}</code>, e.g., <code>mydoc_en.pdf</code>. In this case the locale from the document name is used. That is, <code>mydoc_en.pdf</code> will be indexed for English, independent of the real content's locale. The default mechanism is implemented with: <a href="%(link0)" target="_blank" rel="noopener">http://code.google.com/p/language-detection/</a>.</p>
+<p>For XML contents we have the concrete language/locale information and the localized fields end with an underscore followed by the locale. E.g.: <code>content_en</code>, <code>content_de</code> or <code>text_en</code>, <code>text_de</code>. By default all the field mappings defined within the XSD of a resource type are extended by the <code>_&lt;locale&gt;</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Multilingual dependency resolving]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Based on the file name of a resource in OpenCms there exists a concept to index documents that are distributed over more than one resource in OpenCms. The standard implementation can be found at: <code>org.opencms.search.documents.CmsDocumentDependency</code></p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[The extraction result cache]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>For better index performance the extracted result is cached, see <code>org.opencms.search.extractors.I_CmsExtractionResult</code>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

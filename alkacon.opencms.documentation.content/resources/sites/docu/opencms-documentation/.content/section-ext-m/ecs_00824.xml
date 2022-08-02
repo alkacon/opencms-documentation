@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[General questions]]></Title>
+    <Section>
+      <Caption><![CDATA[Where to find general information about Solr?]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://wiki.apache.org/solr/]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>If you are interested in Solr in general the Solr wiki is a good starting point: <a href="%(link0)" target="_blank" rel="noopener">http://wiki.apache.org/solr/</a>. OpenCms specific topics are covered by this documentation.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

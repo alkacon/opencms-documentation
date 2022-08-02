@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Element Settings]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/formatters-and-their-configuration/]]></target>
+            <uuid>8c2d82ed-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/formatters-and-their-configuration/element-settings/]]></target>
+            <uuid>49061617-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p><strong>Element settings define the configurable aspects of a <a href="%(link0)">content formatter</a></strong>.</p>
+<p>An HTML section formatter, for example, might sometimes display an image left of the text and sometimes on the right.</p>
+<p>The option to display an image on the left or on the right is a typical element setting.</p>
+<p>Note that element settings are stored per content ocurrence on a page. This means, even if one and the same content occurs multiple times on one page, each content on this page can store its own element settings.</p>
+<p>Element settings are explained in more detail <a href="%(link1)">here</a>.</p>
+<p>The following figure shows the element settings as available for Mercury's <em>Text and image</em> formatter that renders a Mercury <em>section content</em>.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/element-settings-mercury-text-image.png]]></target>
+            <uuid>eb36399f-eaf1-11ec-9dd5-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Available Element Settings of Mercury's Text Image Formatter]]></Title>
+      </Image>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The idea of element settings]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>In OpenCms contents are rendered by formatters when dropped on a page. If you like to have different formats of a content, you can write and configure different formatters for the same type of content. But, if you want the editor to adjust the behavior of a single formatter, you can use element settings. This is useful for providing, for example, various facets of nearly the same format.</p>
+<p>Assume, you have some content type having a title. Now a setting could enable the editor to choose the level in which the headline is shown (h1, h2, h3 ...) - or if it should be shown at all.</p>
+<p>The editor can change the element setting directly at the content in the page editor. The chosen value can be evaluated in the content's formatter via special JSP API.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

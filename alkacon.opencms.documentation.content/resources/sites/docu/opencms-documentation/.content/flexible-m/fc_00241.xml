@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[ Error handling]]></Title>
+    <Code><![CDATA[function myErrorHandler(errorType, message, additionalData) {
+    // very simple error handler that just displays an alert box with the raw error text
+    var out = "Error of type: " + errorType + ": " + message;
+    if (!$.isEmptyObject(additionalData)) {
+        out += "\n\nAdditional information:\n";
+        for ( var key in additionalData) {
+            out += "\n" + key + ": " + additionalData[key];
+        }
+    }
+    window.alert(out);
+}    ]]></Code>
+  </Flexible>
+</FlexibleData>

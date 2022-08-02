@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[ Shortcut syntax options 7]]></Title>
+    <Code><![CDATA[1*|2|3|4|5|6|7
+1 default='true'|2|3|4|5|6|7
+value='1' default='true'|value='2'|value='3'
+value='1'|2*|value='3'
+1*:option text|2|3|4
+1* option='option text' help='some'|2|3|4]]></Code>
+  </Flexible>
+</FlexibleData>

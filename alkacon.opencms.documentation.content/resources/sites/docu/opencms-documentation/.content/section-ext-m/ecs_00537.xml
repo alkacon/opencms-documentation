@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Content type configuration options]]></Title>
+    <Section>
+      <Caption><![CDATA[Type name]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Select the resource type you want to configure.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Disabled]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>You can restrict the usage of contents of the type. These are the options for "Disabled":</p>
+<ul>
+<li><strong>False</strong>: Everything is enabled, i.e., adding new and existing content of that type to a page is possible.</li>
+<li><strong>Creation disabled</strong>: The type is shown in the "Add wizard" of the page editor, but only existing contents can be dropped to the page. No new contents can be created in the page editor.</li>
+<li><strong>Adding disabled</strong>: The type does not appear add all in the "Add wizard" of the page editor. Hence, contents of that type can't be dropped to the page. But already existing contents can be edited. If, for example, a content is placed on a model page and copied with each new page, editors can change this content.</li>
+<li><strong>True</strong>: The type does not appear in the "Add wizard" of the page editor. Everything is disabled. Even contents of that type already on the page cannot be edited.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Folder/Name]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Choose in which folder the content should be stored. In the module configuration you can only choose the name of the folder where the content is stored in.</p>
+<p>In the sitemap configuration you have more options:</p>
+<ul>
+<li>an absolute path</li>
+<li>just a folder name or</li>
+<li>the option "With page".</li>
+</ul>
+<p>If you choose the folder name, the content will be placed in a subfolder of <code>.content/</code>&nbsp; with the given name. If, in a sitemap configuration, you choose "Local contents", the sitemap's local <code>.content/</code> folder will be used, otherwise a <code>.content/</code> folder of an above sitemap. By default, the subfolder named <code>{resource type name}/</code> .</p>
+<p>If you use the option "With page", the content is stored in the <code>.elements/</code> subfolder of the folder the edited&nbsp;page is in.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Name pattern]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The name pattern to be used if new content of the specified resource type is added to a page. A typical pattern has the format <code>{prefix}_%(number).xml</code>. Be sure to use the <code>%(number)</code> macro to guarantee distinct names for all contents in a folder. The default name pattern is <code>{resource type name}_%(number).xml</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Display order (module configuration)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>In the "Add wizard", the content types are listed in a specific order. Via the "Display order", you can influence the order in which the types are listed. The higher the display order, the further down the type is listed.</p>
+<p>For sitemap configurations, the order in which the types are listed determines the order they are displayed. The types configured for the sitemap are also always shown before the ones only configured in modules.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Detail pages disabled]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The add wizard of the sitemap editor has a tab "Detail pages" where you can add detail pages for content types. If you check "Disable detail pages", a page for the content type will <em>not</em> appear.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Element view]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/ade-configuration/content-element-configuration/configuration-of-element-views/]]></target>
+            <uuid>a9f10e61-d1d1-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Resource types can be grouped in element views. Elements of a type can only be added, edited or removed from a page if the specific view is chosen. Otherwise, for all elements of the type, neither edit points are shown, nor are the types visible in the add wizard. Element views can be used to separate tasks or to control access to content types. Read more about them <a href="%(link0)">here</a>. By default, the "Default" element view is chosen.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Localization (module configuration)]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/localization/message-bundles/]]></target>
+            <uuid>2563f789-d1ca-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Link to a message bundle that holds the localizations for that type (e.g., title and description of the type in the "Add wizard") and must be treated as workplace bundle.</p>
+<div class="alert alert-info">Note that bundles with name <code>{module name}.messages</code> are automatically workplace bundles and you do not need to add an extra bundle here if you use them.</div>
+<ul>
+<li><a href="%(link0)">Read about workplace bundles here</a>.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Show in default view]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If checked, (edit points on the) elements of the content type are not only shown in the specified element view, but also in the default view.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Copy in templates]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Configure the default "Copy this element" value for elements of that type. I.e., specify if they are copied or reused when a container page (template) is copied. Default is copy.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Delete mode]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>When you remove an element of the type from the page - and it is it's last occurrence on a page - you might want to delete or keep it. Here you specify what should happen in this scenario. The options are:</p>
+<ul>
+<li><strong>Keep</strong>: The element is not deleted.</li>
+<li><strong>Ask user (default: Keep)</strong>: A dialog is shown to the user, where he can choose if the element should be deleted. Keep is preselected.</li>
+<li><strong>Ask user (default: Delete)</strong>: A dialog is shown to the user, where he can choose if the element should be deleted. Delete is preselected.</li>
+<li><strong>Delete</strong>: The element is deleted.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Server-side preparation for a UGC session]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>To use the JavaScript API minimal server-side preparation is necessary:</p>
+<ul>
+<li>Include the JavaScript file <code>ugc.nocache.js</code> via a headinclude into the formatter that renders the form. The JavaScript file is shipped with the module <code>org.opencms.ugc</code> and located in the module's jar. The file exposes the UGC JavaScript API.<br />Optionally, you can include the file <code>ugc-jquery.js</code>, found in the module's jar as well. It exposes an easy to use wrapper for the native JavaScript API.<br />Here is an example formatter configuration that includes both JavaScript files plus an extra file that contains the form-specific JavaScript, using the API:</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/UGCFormatterConfigExample.png]]></target>
+            <uuid>9015117c-fce6-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[Headincludes in a formatter configuration for a UGC connected form.]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<ul>
+<li>In the formatter that renders the form: Use the tag <code>&lt;cms:ugc&gt;</code> to create a UGC session and to expose the retrieved session-id in the HTML code by adding it as an attribute to the <code>&lt;form&gt;</code>-tag.<br />Here is an example formatter that does the preparation:</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

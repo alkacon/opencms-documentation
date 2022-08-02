@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Attributes of the <tab> node]]></Title>
+    <Section>
+      <Caption><![CDATA[element]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Name of the first <code>&lt;xsd:element&gt;</code> placed in the tab.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[collapse]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>If only one element (typically a nested content with sub-elements) should appear in one tab, the element's name can be hidden. Therefore, set <code>collapse="true"</code>. Otherwise, omit it, or set it to <code>false</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[name]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/localization/message-bundles/]]></target>
+            <uuid>2563f789-d1ca-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Define the name shown in the tab. If the attribute is not given, the element's name is used as the tab name. To localize the tab name, use the key macro, e.g., place&nbsp; <code>%(key.{name of the key})</code>. The key must reside in a <a href="%(link0)">workplace bundle</a>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

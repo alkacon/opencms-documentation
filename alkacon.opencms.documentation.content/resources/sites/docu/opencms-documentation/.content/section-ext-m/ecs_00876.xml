@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Accessing an OpenCms network share]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[setting-up-an-opencms-network-share-6c1e1811]]></anchor>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[]]></target>
+            <anchor><![CDATA[share-configuration-fdaf42b2]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Once the network share access has been <a href="%(link0)">set up</a>, network shares can be accessed via the path syntax <code>\\HOSTNAME\SHARENAME</code> (standard Windows syntax) or <code>smb://HOSTNAME/SHARENAME</code> (most other clients).</p>
+<div class="alert alert-info">When using one of the&nbsp;<a href="%(link1)">provided share configurations</a> on your local OpenCms installation, the network share is available at <code>\\localhost\OPENCMS</code> (or <code>smb://localhost/OPENCMS</code>).</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

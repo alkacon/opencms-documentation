@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Location picker widget 6]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/widgets/CmsLocationPickerWidgetValue.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>The default value reflects the structure of the strings that the location picker widget stores. To easily access the single values stored in the string the class <a href="%(link0)"><code>CmsLocationPickerWidgetValue</code></a> in the package <code>org.opencms.widgets</code>. To use the class in a JSP add the following lines to your JSP (possibly replacing <code>content.value.Map</code> by path to your content element storing map information):</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

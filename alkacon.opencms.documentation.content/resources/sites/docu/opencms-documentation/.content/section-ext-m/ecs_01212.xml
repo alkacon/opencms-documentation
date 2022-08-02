@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[JavaDoc]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/core/index.html]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/core/index.html]]></target>
+          </link>
+          <link name="link2" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/modules-workplace/index.html]]></target>
+          </link>
+          <link name="link3" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/gwt/index.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>The JavaDoc for the OpenCms source is available online. The documentation is split into four separate parts:</p>
+<ul>
+<li><a href="%(link0)" target="_blank" rel="noopener">JavaDoc for the OpenCms core API</a></li>
+<li><a href="%(link1)" target="_blank" rel="noopener">JavaDoc for the OpenCms setup API</a></li>
+<li><a href="%(link2)" target="_blank" rel="noopener">JavaDoc for the OpenCms workplace modules API</a></li>
+<li><a href="%(link3)" target="_blank" rel="noopener">JavaDoc for the OpenCms GWT Components API</a></li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <GalleryTitle><![CDATA[%(page_title)%(no_prefix:: )%(value:Title)]]></GalleryTitle>
+  </ExtendedSection>
+</ExtendedSectionData>

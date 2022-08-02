@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Specially handled fields for sorting and filtering]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/special-predefined-content-types/list-configuration/]]></target>
+            <uuid>bc331ac0-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/search-settings/]]></target>
+            <uuid>355223d8-d1c9-11ec-9238-0242ac11002b</uuid>
+            <anchor><![CDATA[short-cut-syntax-for-the-most-relevant-search-settings-20056784]]></anchor>
+          </link>
+        </links>
+        <content><![CDATA[<p>Since OpenCms 11, a set of default fields for sort options is provided that is used by the integrated list. We recommend to use these fields for sorting in other search functions as well, since:</p>
+<ul>
+<li>The fields are <strong>filled</strong> with values <strong>for all contents</strong> (even PDFs etc.)</li>
+<li>The indexed values are <strong>the ones you typically need</strong> for the sort options</li>
+<li>The field <strong>types are adjusted for sorting</strong> (specifically the one for the title sort option)</li>
+<li>The fields are also present <strong>without locale</strong>, e.g. <code>disptitle_sort</code> instead of <code>disptitle_{locale}_sort</code>, but also will be there <strong>localized for each locale the content should be available</strong> in.</li>
+</ul>
+<div class="alert alert-info">These fields are used by the <a href="%(link0)">list type integrated since OpenCms 11</a>.</div>
+<div class="alert alert-info">For search settings, there's a <a href="%(link1)">short-hand notation with field settings</a> to map correctly to the fields described here.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

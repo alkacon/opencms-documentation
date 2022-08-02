@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Interesting details on element views]]></Title>
+    <Section>
+      <Caption><![CDATA[Choosable elemnt views in the page editor]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Element views can be added by modules. Thus, many different element views may exist, but you may not want to show all of them to all users.</p>
+<p>Thus, element views can only be selected via the page editor if:</p>
+<ul>
+<li>The user has permissions to see the element view at all.</li>
+<li>The view is non-empty for the current page, i.e., at least one resource type is configured to be in the view via the sitemap or module configuration<span class="footnote">And the user has the rights to see resources of this type</span>.</li>
+</ul>
+<h2 id="interesting-details-on-element-views" class="headline anchored"><span class="oc-inline-editable" data-oc-id="http://opencms.org/resources/en/0b88e6c3-488c-11e4-8008-336f7b60f7b1" data-oc-field="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-section.xsd/OpenCmsDocumentationSection/Headline">&nbsp;</span></h2>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Identification of element views]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Element views are identified via the structure id of the element view content. Thus, element views with equal names imported via different modules will not conflict. The default view plays a special role. It has no content and is identified via the null id.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Default element view]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Element views are sorted by their display order. From the views that can be chosen, i.e., the non-empty views where the user has sufficient permissions to access them, a view with the smallest display order is chosen as default. Typically, if not empty, the default view is chosen by default.</p>
+<p>If a user once selects a view, this view is kept - at least as long as it can be chosen.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Programmatic access to the element view]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/xml/containerpage/CmsADESessionCache.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>The current view is stored in the session cache, i.e., in <a href="%(link0)">CmsADESessionCache</a>. The class provides the according getter and setter.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

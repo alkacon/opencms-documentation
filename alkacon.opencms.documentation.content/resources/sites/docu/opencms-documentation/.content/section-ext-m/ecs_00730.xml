@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Available configuration options]]></Title>
+    <Section>
+      <Caption><![CDATA[excludefiles]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Files are hidden in the popup tree.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[galleryselect]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The option is new in OpenCms 9.5.1. Use it for links to whole galleries, e.g., for a slide show. When the option is given, the file selector dialog opens in the galleries tab. Additionally it only shows the folder tab. The user can only select whole galleries or folders. It is not possible to select single files (or images).</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[hidesiteselector]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The site selector is hidden (default).</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[includefiles]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Files are shown in the popup tree (default).</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[notprojectaware]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Do not filter resources by project (default).</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[projectaware]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Show only resources of the current project.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[searchtypes]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Comma-separated list of resource types that are shown in the "Types" tab, i.e., you can add a search filter for. Types are specified by the type names, e.g., <code>bs-blog,bs-text</code>. It is still possible to find resources of other types, if you do not impose a type restriction at all. To restrict the selectable types, use the option <code>selectabletypes</code>.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[selectabletypes]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Comma-separated list of resource types you can select resources of, e.g., <code>bs-blog, bs-text</code>. If you specify this list, it is not possible to find and select content of other types.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[showsiteselector]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The site selector is shown.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[startfolder]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The folder the popup tree is opened with.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[startsite]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The site the popup tree is opened with.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

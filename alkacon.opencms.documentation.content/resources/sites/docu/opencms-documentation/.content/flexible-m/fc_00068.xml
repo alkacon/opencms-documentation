@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[General structure of schema type]]></Title>
+    <Code><![CDATA[<xsd:complexType name="OpenCmsBootstrapBlog">
+    <xsd:sequence>
+        <xsd:element name="Title" type="OpenCmsString" />
+        <xsd:element name="Date" type="OpenCmsDateTime" />
+        <xsd:element name="Teaser" type="OpenCmsString" minOccurs="0" />
+        <xsd:element name="Paragraph" type="OpenCmsBootstrapParagraph" maxOccurs="5" />
+        <xsd:element name="Category" type="OpenCmsDynamicCategory" minOccurs="0" />
+        <xsd:element name="Author" type="OpenCmsString" />
+        <xsd:element name="AuthorMail" type="OpenCmsString" minOccurs="0" />
+        <xsd:element name="Availability" type="OpenCmsBootstrapAvailability" minOccurs="0" />
+    </xsd:sequence>
+    <xsd:attribute name="language" type="OpenCmsLocale" use="required" />
+</xsd:complexType>]]></Code>
+  </Flexible>
+</FlexibleData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinkSequenceData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/linksequence.xsd">
+  <LinkSequence language="en">
+    <Title><![CDATA[Related links]]></Title>
+    <LinkEntry>
+      <Text><![CDATA[General information on the Solr search integration in OpenCms]]></Text>
+      <URI>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/docu/opencms-documentation/more-opencms-features/solr-search-integration/]]></target>
+          <uuid>3afada83-d1ca-11ec-9238-0242ac11002b</uuid>
+        </link>
+      </URI>
+    </LinkEntry>
+    <LinkEntry>
+      <Text><![CDATA[General information on Solr]]></Text>
+      <URI>
+        <link internal="false" type="WEAK">
+          <target><![CDATA[http://wiki.apache.org/solr/]]></target>
+        </link>
+      </URI>
+      <NewWindow>true</NewWindow>
+    </LinkEntry>
+  </LinkSequence>
+</LinkSequenceData>

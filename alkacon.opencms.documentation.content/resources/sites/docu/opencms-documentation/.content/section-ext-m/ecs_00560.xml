@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[More on content]]></Title>
+    <Section>
+      <Caption><![CDATA[Detail pages]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>You need to link from a condensed view of your contents, e.g., in a list, to a page showing all the content's details? With OpenCms' detail page mechanism you create and configure only one page to get pages for all your contents automatically.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/lists-and-detail-pages/]]></target>
+            <uuid>98418d80-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Special predefined content types]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>OpenCms ships with several predefined content types. We survey the content types shipped with OpenCms and possibly of interest when setting up a website.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/special-predefined-content-types/]]></target>
+            <uuid>a08667a2-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[User generated content (UGC)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>User generated content (UGC) allows editing of XML content via a web form from the online project. Content can be added or edited and you have fine-grained control on who can do it.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/user-generated-content-ugc/]]></target>
+            <uuid>af354156-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

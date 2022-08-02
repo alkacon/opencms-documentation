@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Groups of content elements]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Usually, content elements are added to container pages and each element is independed of others. Special predefined contents allow to group content elements on container pages. Groups of elements can be added to other pages, or moved at a page. If elements are added/removed from a group, this affects all instances of the group.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Model groups]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>OpenCms 10 adds group features that can deal with nested containers and are, for example, a great solution to implement headers and footers.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/special-predefined-content-types/model-group/]]></target>
+            <uuid>ece56148-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Element group (deprecated)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>(Deprecated) An element group is a content element, which references a group of other content elements. Find out, how to use it.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/special-predefined-content-types/element-group-depricated/]]></target>
+            <uuid>e1b32b30-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Inheritance group (deprecated)]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>(Deprecated) Inheritance groups are elements that group contents. In contrast to reuse model groups and element groups, the elements can change from page to page. We explain how to use inheritance groups.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/special-predefined-content-types/inheritance-grous-depricated/]]></target>
+            <uuid>cf646e67-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

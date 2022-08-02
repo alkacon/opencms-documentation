@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Specially handled fields for spell fields / did you mean 4]]></Title>
+    <Code><![CDATA[<lst name="spellcheck">
+  <lst name="suggestions">
+    <lst name="opencns">
+      <int name="numFound">1</int>
+      <int name="startOffset">1</int>
+      <int name="endOffset">8</int>
+      <arr name="suggestion">
+        <str>opencms</str>
+      </arr>
+    </lst>
+    <lst name="opencns roks">
+      <int name="numFound">1</int>
+      <int name="startOffset">1</int>
+      <int name="endOffset">13</int>
+      <arr name="suggestion">
+        <str>opencms rocks</str>
+      </arr>
+    </lst>
+  </lst>
+</lst>]]></Code>
+  </Flexible>
+</FlexibleData>

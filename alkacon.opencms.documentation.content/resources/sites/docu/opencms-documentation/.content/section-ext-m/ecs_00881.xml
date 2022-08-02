@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Share configuration 3]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The name given in the <code>name</code>-attribute will be used as the name of the share which you can connect to, e.g., <code>//servername/OPENCMS</code> for the configuration given above. The class attribute must be set to <code>org.opencms.jlan.CmsJlanRepository</code>.</p>
+<p>The behavior of the network share can be configured with the following parameters:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

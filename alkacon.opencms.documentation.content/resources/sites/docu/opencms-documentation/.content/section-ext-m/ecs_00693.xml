@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Solr OpenCms integration]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/lists-and-detail-pages/building-lists/]]></target>
+            <uuid>95138a1e-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/more-opencms-features/solr-search-integration/full-text-search-with-solr/]]></target>
+            <uuid>a544c884-d1ca-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/more-opencms-features/solr-search-integration/solr-handler/]]></target>
+            <uuid>8c0ddb5d-d1ca-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link3" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/search-settings/]]></target>
+            <uuid>355223d8-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Since version 8.5 OpenCms ships with an embedded Solr server that is used by OpenCms itself and can be used for searches on your website as well. You can use it to implement everything from a simple list to a fully-featured full text search on the website.</p>
+<p>OpenCms has already preconfigured most things, so you only have to search. In particular:</p>
+<ul>
+<li>There are <strong>preconfigured</strong> Solr <strong>indexes</strong> "Solr Offline" and "Solr Online", having the offline versions / online versions of the VFS resources indexed.</li>
+<li>There's a <strong>suitable schema</strong> (that is what tells which fields can be part of a document) for the indexes - it fits to the information of resources in the VFS.</li>
+<li>Resources in the VFS are <strong>indexed automatically</strong> - even for PDF or Excel files the content is extracted and indexed.</li>
+<li>We've also taken care to support <strong>multi-lingual</strong> setups properly.</li>
+<li><strong>Permission checks</strong> are performed before search results are returned.</li>
+<li>You can <strong>search with nearly no Solr knowledge</strong>:
+<ul>
+<li>Build <a href="%(link0)">lists with the integrated list type</a> that provides an intuitive configuration interface for basic searches.</li>
+</ul>
+</li>
+<li>You can <strong>easily build complex search pages</strong>:
+<ul>
+<li>Build powerful <a href="%(link1)">full-text searches using OpenCms' &lt;cms:search&gt; tag</a>.</li>
+</ul>
+</li>
+<li>You can<strong> query Solr from the client</strong> using the <a href="%(link2)">Solr handler</a> - this way you get a (close to) "native" Solr experience but still have permissions checked.</li>
+<li>You can <strong>configure indexing of XML contents very flexible</strong> via <a href="%(link3)">search settings</a> to allow for advanced search features when searching over your contents.</li>
+</ul>
+<p>If the default configuration is not sufficient for your purpose, you can manipulate it with <strong>many configuration options</strong>:</p>
+<ul>
+<li>Add other indexes</li>
+<li>Feed an external Solr server with data from OpenCms</li>
+<li>Change the document extractors for certain resource types to index the documents differently.</li>
+</ul>
+<div class="alert alert-info">The <strong>default configuration will be sufficient for most scenarios</strong>. So play with it before thinking about reconfiguration.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

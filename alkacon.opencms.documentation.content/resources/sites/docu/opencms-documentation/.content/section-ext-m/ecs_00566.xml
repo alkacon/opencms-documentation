@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Defining the contents structure]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The structure of content is defined in XML schema definitions. In this topic we discuss how you can structure your content. We are concerned only with the structure for one language. Information on the more general multi-language structure you find in the related links.</p>
+<p>In essence, the structure of the content is given by the elements of the schema type. Such elements themselves can:</p>
+<ul>
+<li>be optional</li>
+<li>appear more than once</li>
+<li>be of a complex type that makes up a nested content</li>
+<li>provide an alternative of several different elements.</li>
+</ul>
+<p>In the end, each "leave" in the content's structure must be of a basic schema type that is provided by OpenCms. In this topic you learn how to structure your content correctly.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

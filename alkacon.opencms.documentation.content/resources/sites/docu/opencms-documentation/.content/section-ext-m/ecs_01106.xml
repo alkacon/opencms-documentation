@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The dynamic function content type]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The dynamic function content's elements are a title, a description, a JSP to render the function, plus some optional configuration elements.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/DynamicFunctionContent.png]]></target>
+            <uuid>9434f6e9-fc1e-11ec-829b-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[A dynamic function content]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/formatters-and-their-configuration/]]></target>
+            <uuid>8c2d82ed-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The most interesting thing about a dynamic function is the <em>JSP</em>. It is used to render the dynamic function. So, it's comparable to a formatter for the other content types. Loosely spoken, each dynamic function content holds its own formatter. Via the <em>Matching containers (Container types)</em> you can choose in which containers the dynamic function can be placed - similar to the option in <a href="%(link0)">formatter configurations</a>. The element settings can be read by the function provider to alter it's behavior. Just like they are read in formatters for other content types.</p>
+<p>Besides element settings, also parameters can be defined in a dynamic function. These <em>parameters</em> are passed as request parameters to the function provider each time it is called. You can also pass parameters dynamically as for each other page, e.g., when rendering a form's result page. These parameters are not defined in the dynamic function.</p>
+<p><em>Title</em> and <em>description</em> should be chosen in a meaningful way. They are displayed in the add wizard of the page editor to identify the function.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

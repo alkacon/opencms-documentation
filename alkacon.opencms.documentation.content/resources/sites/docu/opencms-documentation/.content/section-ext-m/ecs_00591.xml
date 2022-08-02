@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[OpenCms JSP API]]></Title>
+    <Section>
+      <Caption><![CDATA[Accessing container-page information]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>See a <a tabindex="0" role="button" data-container="body" data-toggle="popover" data-placement="bottom" data-content="&lt;p&gt;In OpenCms contents are rendered by formatters. These consist of a formatter JSP and a formatter configuration - or are defined as macro formatters. Read more about formatters &lt;a href=&quot;/opencms-documentation/content-in-opencms/formatters-and-their-configuration/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;" data-trigger="focus"><abbr title="Click to see description">formatter</abbr></a> that collects information about the container page.</p>]]></content>
+      </Text>
+      <Link>
+        <Text><![CDATA[Accessing container-page information]]></Text>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/demos/accessing-container-page-information/]]></target>
+            <uuid>879fa462-d1cd-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

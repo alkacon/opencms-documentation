@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The Solr index schema (schema.xml)]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Have a look at the Solr <code>schema.xml</code> first. In the file <code>&lt;CATALINA_HOME&gt;/webapps/&lt;OPENCMS&gt;/WEB-INF/solr/configsets/default/conf/schema.xml</code> you will find the field definitions that will be used by OpenCms. During indexing, the fields will be filled with suitable information. Below we only mention some very interesting fields.</p>
+<div class="alert alert-danger">You may extend the <code>schema.xml</code>. But be careful when removing fields or changing the field or field type configuration. OpenCms assumes that most of the fields are present as in the default <code>schema.xml</code>.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

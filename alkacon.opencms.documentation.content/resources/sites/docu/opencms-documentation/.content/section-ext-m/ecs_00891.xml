@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Attributes of <searchsettings>]]></Title>
+    <Section>
+      <Caption><![CDATA[containerPageOnly (optional)]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/formatters-and-their-configuration/]]></target>
+            <uuid>8c2d82ed-d1c8-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>If set to <code>true</code>, the content of the schema's type are not findable themselves. But if you search for the content's text (or other values), you'll still find the container pages where the content is placed - unless the used <a href="%(link0)">formatter is configured to not index the content</a>. If the attribute is set to <code>false</code>, the contents can also be found as the contents themselves.<br />Default: <code>false</code></p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

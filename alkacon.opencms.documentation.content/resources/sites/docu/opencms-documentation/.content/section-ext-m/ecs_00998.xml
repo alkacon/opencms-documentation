@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Available collectors]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>OpenCms ships with a whole bunch of collectors. The most useful are the Solr collectors.</p>
+<ul>
+<li>All resources matching a user defined Solr query:
+<ul>
+<li><code>byQuery</code> (executes the exact query)</li>
+<li><code>byContext</code> (considers the request context automatically, in particular locale and site root)</li>
+</ul>
+</li>
+<li>All resources in a folder or sub-tree:
+<ul>
+<li><code>allInFolder</code></li>
+<li><code>allInSubTree</code></li>
+</ul>
+</li>
+<li>All resources in a folder or sub-tree, sorted by the value of the <code>NavPos</code> property:
+<ul>
+<li><code>allInFolderNavPos</code></li>
+<li><code>allInSubTreeNavPos</code></li>
+</ul>
+</li>
+<li>All resources in a folder or sub-tree, sorted by the value of the release date:
+<ul>
+<li><code>allInFolderDateReleasedDesc</code></li>
+<li><code>allInSubTreeDateReleasedDesc</code></li>
+</ul>
+</li>
+<li>All resources in a folder or sub-tree, sorted by <code>collector.priority</code> property and then by <code>Title</code> property:
+<ul>
+<li><code>allInFolderPriorityTitleDesc</code></li>
+<li><code>allInSubTreePriorityTitleDesc</code></li>
+</ul>
+</li>
+<li>All resources in a folder or sub-tree, sorted by <code>collector.priority</code> property and then by <code>collector.date</code> property:
+<ul>
+<li><code>allInFolderPriorityDateAsc</code></li>
+<li><code>allInSubTreePriorityDateAsc</code></li>
+<li><code>allInFolderPriorityDateDesc</code></li>
+<li><code>allInSubTreePriorityDateDesc</code></li>
+</ul>
+</li>
+<li>All resources in a folder or sub-tree, mapped to a given URI and sorted by the <code>collector.priority</code> property and then by the <code>collector.date</code> property:
+<ul>
+<li><code>allMappedToUriPriorityDateAsc</code></li>
+<li><code>allMappedToUriPriorityDateDesc</code></li>
+</ul>
+</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

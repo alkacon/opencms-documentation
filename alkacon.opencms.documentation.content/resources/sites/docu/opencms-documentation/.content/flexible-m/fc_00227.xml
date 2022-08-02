@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Creating function detail pages]]></Title>
+    <Code><![CDATA[<%@page buffer="none" session="false" taglibs="c,fn,cms" %>
+<div class="box box_schema1">
+   <form action="${cms.functionDetail['simplecalculator']}" method="post">
+        <%-- ... --%>
+   </form>
+</div>]]></Code>
+  </Flexible>
+</FlexibleData>

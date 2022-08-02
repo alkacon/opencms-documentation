@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Other ways to work with <cms:search>]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/demos/list-and-detail-pages-ii/]]></target>
+            <uuid>bd98530f-d1cd-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/opencms-core/blob/branch_11_0_x/test/org/opencms/jsp/search/config/parser/fullConfig.json]]></target>
+          </link>
+          <link name="link2" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/jsp/search/config/parser/CmsJSONSearchConfigurationParser.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>Besides the configuration via an XML content and the use of <code>&lt;cms:search&gt;</code> in the formatter of that content, the tag can be configured via a JSON configuration that can be provided either as file or as string. These configuration options are typically preferable not only for full-text serach, but also for <a href="%(link0)">implementing lists</a> of content.</p>
+<p>Using a JSON string is in particular&nbsp;valuable if you want to provide your own content type, or a dynamic function with element settings or parameters for rendering the search form. Then you can use the content elements, element settings and parameters to adjust the JSON string. The benefit is a fine-grained control on the configuration options that are exposed. Moreover, it becomes possible to change configuration depending on the seach state, e.g., you can make the search configurable by the end user.</p>
+<p>The JSON configuration provides the same options as the XML configuration content. An example is found <a href="%(link1)" target="_blank" rel="noopener">here</a>. To get an overview on all the configuration options, please look at the (JavaDoc and source code of the) configuration parser <a href="%(link2)" target="_blank" rel="noopener">org.opencms.jsp.search.config.parser.CmsJSONSearchConfigurationParser</a>.</p>
+<div class="alert alert-info">Note that since OpenCms version 11, you can also overwrite options from the configuration file by the configuration string.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

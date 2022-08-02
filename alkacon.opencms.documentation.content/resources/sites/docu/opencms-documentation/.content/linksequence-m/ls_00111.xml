@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinkSequenceData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/linksequence.xsd">
+  <LinkSequence language="en">
+    <Title><![CDATA[Related links]]></Title>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<p>Database export of the demo site used in the tutorial.</p>]]></content>
+    </Text>
+    <LinkEntry>
+      <Text><![CDATA[Demo content]]></Text>
+      <URI>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/docu/.galleries/Documentation-Documents-for-download/multilanguage-tutorial-content.zip]]></target>
+          <uuid>7b387af3-e005-11ec-8d31-0242ac11002b</uuid>
+        </link>
+      </URI>
+    </LinkEntry>
+  </LinkSequence>
+</LinkSequenceData>

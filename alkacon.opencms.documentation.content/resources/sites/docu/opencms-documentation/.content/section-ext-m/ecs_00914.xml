@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[More information on writing formatters]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/typical-tasks/writing-jsps/]]></target>
+            <uuid>715565e8-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/demos/element-settings/]]></target>
+            <uuid>e49bec17-d1cc-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Writing a formatter is like writing a normal JSP, but some of the special OpenCms JSP API is in particular useful in formatters. The topics listed below will be helpful in writing formatters.</p>
+<ul>
+<li><a href="%(link0)">Get some background about the OpenCms JSP API.</a></li>
+<li><a href="%(link1)">See a demo of a formatter that uses element settings.</a></li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

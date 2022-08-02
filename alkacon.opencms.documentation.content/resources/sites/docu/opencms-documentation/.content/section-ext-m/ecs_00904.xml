@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Indexing more than schema elements 2]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/search/fields/I_CmsSearchFieldMapping.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>In the example, a dynamic mapping is specified. The class <code>com.alkacon.opencms.documentation.search.CmsVersionNumberSearchFieldMapping</code>&nbsp; (that implements <code><a href="%(link0)">I_CmsSearchFieldMapping</a></code>) specifies how to convert version numbers to long integers. It takes a parameter string that is specified in the body of the <code>&lt;mapping&gt;</code> node (or alternatively given as <code>param</code> attribute). In general, this parameter is an arbitrary string that has to fit the requirements of your class that implements the dynamic mapping. Concerning the example, the class takes the schema element that contains the version number as string.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

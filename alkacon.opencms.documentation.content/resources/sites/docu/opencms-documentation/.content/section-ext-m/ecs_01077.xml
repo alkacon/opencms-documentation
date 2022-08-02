@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Rendering multilingual content]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[http://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspContentAccessBean.html]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>When rendering content using&nbsp;<code>&lt;cms:formatter&gt;</code> or <code>&lt;cms:contentload&gt;</code>, you typically use the properties <code>value</code>,&nbsp;<code>valueList</code>, etc. to access a content's values. When doing so, the content's values are automatically accessed in the language of the current request context, i.e., the language of the requested page, or, if this language does not exist, by the configured default(s). This is typically the intended behavior. But the <code><a href="%(link0)" target="_blank" rel="noopener">CmsJspContentAccessBean</a></code>&nbsp;(the type of the variable <code>&lt;cms:formatter&gt;</code> and <code>&lt;cms:contentload&gt;</code> expose) used to access the content&nbsp;also allows access to the values in a specific locale when using different properties. This is depicted in the JSP snippet below.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

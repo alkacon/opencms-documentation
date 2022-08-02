@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Saving values from the form to the content 3]]></Title>
+    <Code><![CDATA[function updateValues(uploadResults) {
+
+    ugc.setContent();
+
+    var uploads = (typeof uploadResults === "undefined") ? null : uploadResults;
+    if (uploads != null) {
+        var image = uploads["imagefile"];
+        if (image) {
+            // an image was uploaded
+            ugc.setContent("imagefile", image);
+        }
+    }
+
+    return ugc.getContent();
+}]]></Code>
+  </Flexible>
+</FlexibleData>

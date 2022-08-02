@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Lists as recommended in OpenCms 10 and 11]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>In OpenCms 10 the tag &lt;cms:search&gt; was introduced to collect content using the Solr index and thus having a universal, powerful tool for advanced query options. Moreover, the collection and iteration over search results was separated and display formatters for rendering the found contents where introduced.</p>
+<p>Due to the complexity of &lt;cms:search&gt; a simplified version &lt;cms:simpleSearch&gt; was introduced in OpenCms 11. It interacts with a "list" resource type where you can easily configure your list. Even a specific workplace app for list management is introduced.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Lists with the list content introduced in OpenCms 11]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Since version 11, OpenCms ships with an integrated list type that is powerful enough to build nearly all lists typically needed. It is supports management of lists by a special <a style="color: inherit;" tabindex="0" role="button" data-container="body" data-toggle="popover" data-placement="bottom" data-content="&lt;p&gt;If you are logged in to OpenCms, you are in the OpenCms workplace. Whenever you are in the workplace, you see a toolbar at the top of the window. Learn more about the workplace &lt;a href=&quot;/opencms-documentation/the-opencms-workplace/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;" data-trigger="focus"><abbr title="Click to see description">workplace</abbr></a> app and allows for simple configuration of lists.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/lists-and-detail-pages/building-lists/lists-since-opencms-11/]]></target>
+            <uuid>a57fcb55-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[An example using the integrated list content type]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Since OpenCms 11 (editable) lists can be build with an integrated list type that allows for simple configuration and covers the most relevant features that are of interest when building lists of contents, e.g., for news, blog articles or events.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/demos/list-and-detail-pages-iii/]]></target>
+            <uuid>c5d47aa1-d1cd-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+    <Section>
+      <Caption><![CDATA[An example using <cms:search> to create a list]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>OpenCms 10 introduces a new way to build (editable) lists in a simple and very flexible manner. Here's an example providing a first impression of the new technique.</p>]]></content>
+      </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/demos/list-and-detail-pages-ii/]]></target>
+            <uuid>bd98530f-d1cd-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

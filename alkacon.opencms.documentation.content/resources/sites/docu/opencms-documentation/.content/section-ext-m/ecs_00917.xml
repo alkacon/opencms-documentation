@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Managing categories]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Global categories must be managed via the explorer by adding/deleting/modifying the category folders under <code>/system/categories/</code>. For (sub-)site specific categories, the sitemap editor should be used. For all users with the role <em>Category editor</em> the <em>Categories</em> view is availabe in the sitemap editor.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/sitemap-editor-categories-view.png]]></target>
+            <uuid>5ad78305-f5ed-11ec-9ae6-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[The categories view in the sitemap editor]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The sitemap editor's categories view allows to edit local categories, i.e., the ones that are located in the currently opened (sub-)sitemap. Global categories, i.e., the ones defined system wide or in parent (sub-)sitemaps, are just displayed.</p>
+<p>Editing a category means to edit Title and folder name.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The JSON Endpoint URI 2]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>All JSON contents are available below the&nbsp;<em>json</em>&nbsp;endpoint. The JSON endpoint always returns the same three folders named&nbsp;<em>sites</em>,&nbsp;<em>shared</em>, and&nbsp;<em>system</em>.</p>
+<ul>
+<li><em>sites</em>&nbsp;contains all sites and sub-sites available in an OpenCms installation</li>
+<li><em>shared</em>&nbsp;is a folder for contents that can be shared by the&nbsp;<em>sites</em></li>
+<li><em>system</em>&nbsp;contains a lot of OpenCms internal files, where only the content Schema files are relevant for the JSON API</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

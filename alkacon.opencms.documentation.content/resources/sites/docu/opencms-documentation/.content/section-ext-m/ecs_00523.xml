@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Groups of content]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/content-in-opencms/special-predefined-content-types/element-group-depricated/]]></target>
+            <uuid>e1b32b30-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>OpenCms 10+ provides new ways to group content: <em>model groups</em>. These can, in contrast to <a href="%(link0)">element groups</a>, deal with nested containers. Basically, model groups are just container pages with an element marked as root of the group. This element, and all elements nested in it, can be placed on any container page as a whole.</p>
+<p>There are two kinds of model groups: reuse and copy groups. Reuse groups are only editable directly via a special view in the sitemap editor. They are a good solution for headers and footers, i.e., content that is the same everywhere and editable in a central place. Copy groups are an experimental feature at the moment. They allow to drag a group of elements to a page in one step. Contrary to reuse groups, the group itself disappears when dragged to a page.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>
