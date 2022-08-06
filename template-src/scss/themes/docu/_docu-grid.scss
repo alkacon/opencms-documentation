@@ -98,7 +98,7 @@ $full-flow-assumed-width:               map-get($container-max-widths, xl) !defa
         max-width: $full-page-max-width;
         margin-right: auto;
         margin-left: auto;
-        background-color: $body-bg;
+        background-color: var(--#{$prefix}body-bg);
     }
 
     .area-header .sticky > .isfixed {
@@ -176,7 +176,7 @@ $full-flow-assumed-width:               map-get($container-max-widths, xl) !defa
         // add padding in columns instead of bottom-margin in header so that the background can be colored
         // no-margin header is not used / required for documentation
         aside {
-            padding-top: $default-margin;
+            padding-top: var(--#{$prefix}element-margin);
             border-right: 1px solid $nav-border;
         }
 
