@@ -28,12 +28,12 @@ pre code {
     padding: 1em;
     tab-size: 2em;
     border: 1px solid $form-border-color;
-    background-color: $body-bg;
-    @include round-corners($default-border-radius);
+    background-color: var(--#{$prefix}body-bg);
+    @include round-corners(var(--#{$prefix}border-radius));
 }
 
 ul, ol {
-    padding-inline-start: $default-margin;
+    padding-inline-start: calc(3 * var(--#{$prefix}spacer));
 }
 
 code {
@@ -46,13 +46,13 @@ code {
 
 .alert {
     position: relative;
-    padding-top: $default-margin-small;
-    padding-bottom: $default-margin-small;
-    padding-right: $default-margin;
-    padding-left: calc($default-margin - 4px);
+    padding-top: var(--#{$prefix}margin);
+    padding-bottom: var(--#{$prefix}margin);
+    padding-right: var(--#{$prefix}margin-xl);
+    padding-left: calc(var(--#{$prefix}margin) - 4px);
     border-left: 4px solid;
-    margin-bottom: $piece-text-margin;
-    @include round-corners($default-border-radius);
+    margin-bottom: var(--#{$prefix}margin);
+    @include round-corners(var(--#{$prefix}border-radius));
 }
 
 .box.box-pagehint {
