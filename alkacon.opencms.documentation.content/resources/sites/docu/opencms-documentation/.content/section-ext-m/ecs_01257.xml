@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Template development]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>A guide to level up your OpenCms template development expertise.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Welcome to the OpenCms template development guide!]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://jakarta.ee/specifications/pages/3.0/]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon]]></target>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/introduction/getting-started/]]></target>
+            <uuid>ec02eecb-0269-11ed-8ebc-0242ac11002b</uuid>
+          </link>
+          <link name="link3" internal="true" type="A">
+            <target><![CDATA[/sites/docu/]]></target>
+            <uuid>182e4723-c9f1-11ec-a595-0242ac11002b</uuid>
+          </link>
+          <link name="link4" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/]]></target>
+            <uuid>cd282cfa-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link5" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/explorer/]]></target>
+            <uuid>71c1c77d-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link6" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/sitemap-editor/]]></target>
+            <uuid>0d5f13cb-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>This guide introduces the relevant concepts needed to build a OpenCms website template <strong>from scratch</strong>.</p>
+<p>A template contains all the things necessary to render a website nicely and to make it possible for editors to add new contents to a website in a user-friendly way.</p>
+<p>Since OpenCms is a Java servlet which uses <a href="%(link0)">Java Server Pages</a> (JSP) for template development, some basic knowledge of JSP, HTML and CSS is a prequisite to understand this guide.</p>
+<p>There are several possibilites to read this guide. You can read it like a book. Each chapter contains various examples. The full source code for each example is <a href="%(link1)">available on GitHub</a>.</p>
+<p>It is possible to install the examples accompanying each chapter. In this way, you can try out and modify the examples described in the chapters. If this is your aim, please make sure that you have <a href="%(link2)">installed OpenCms</a> locally running on&nbsp;<a href="%(link3)">http://localhost/</a> and you can log in to the <a href="%(link4)"><abbr title="An open-source content management system written in Java, distributed by Alkacon Software GmbH.">OpenCms</abbr> workplace</a>.</p>
+<p>It is also possible to actively reproduce the examples. There is no development environment needed. You can use OpenCms' built-in editing tools, mainly the OpenCms <a href="%(link5)">explorer</a> and the <a href="%(link6)">sitemap editor</a>.</p>
+<p>Topics overview:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

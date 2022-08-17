@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Template JSP with container]]></Title>
+    <Code><![CDATA[<cms:container name="main" type="element" maxElements="30">
+  <div class="notification is-info is-light">
+    <h3>Container <small>for element</small></h3>
+    <p>Drag and drop new elements here.</p>
+  </div>
+</cms:container>]]></Code>
+  </Flexible>
+</FlexibleData>

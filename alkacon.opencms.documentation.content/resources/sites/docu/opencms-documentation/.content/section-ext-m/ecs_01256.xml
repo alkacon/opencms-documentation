@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Template JSP with Container]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>So far, the template JSP had some dynamic aspects in printing context information for the page currently requested.</p>
+<p>The most important dynamic aspect of a website template is, of course, that editors can add new contents to a web page.</p>
+<p>An area on a page where editors can add new contents is called a <strong>Container</strong> in OpenCms. A container is like a parking place. Even if empty, it takes up a certain amount of space. The space can be occupied by one ore more elements of different types. There are rules that cause not every element type may occupy a certain container. And there is a maximum limit of available element slots.</p>
+<p>In the example below, the <code>&lt;cms:container&gt;</code> is named <code>main</code>. A template JSP may contain more than one container. The individual name should be unique within the whole template.</p>
+<p>The container is of type <code>element</code>, which means that, for now, any element may occupy this container. The type name <code>element</code> is freely choosen.</p>
+<p>The <code>maxElements</code> attribute restricts the size of the container to a maximum number of 30 elements.</p>
+<p>Inside the container, there is a DIV representing the drop area, where editors later can drag and drop new contents. Make sure that this DIV has a defined width and height, event if empty.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

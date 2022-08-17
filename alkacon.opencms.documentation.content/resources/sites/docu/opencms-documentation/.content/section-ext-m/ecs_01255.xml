@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Template JSP with context information]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>There is some magic going on if a web page is called that loads a template JSP in the background.</p>
+<p>The OpenCms servlet provides the template with many context information such as the title of the requested page, or the user requesting the page.</p>
+<p>This version of the template replaces the unordered number list with some more relevant context information.<code></code></p>
+<p>Open diffferent pages to see the result.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

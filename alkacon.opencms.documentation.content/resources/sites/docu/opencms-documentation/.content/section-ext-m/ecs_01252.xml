@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Basic Template JSP]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/template/foo/]]></target>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/template/foo/bar/]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>JSPs in OpenCms are not intended to be called directly, as in the example above. JSPs are used in the background as templates to render all the web pages of a site.</p>
+<p>For example, <a href="%(link0)">http://localhost/template/foo/</a>&nbsp;or <a href="%(link1)">http://localhost/template/foo/bar/</a>&nbsp;might be web pages providing different content but both are using the same template JSP in the background giving the pages a uniform layout.</p>
+<p>The next three steps show how to configure a web site that uses the above Hello JSP whenever a web page is called:</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Step 1: Create a new module]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/modules-app/]]></target>
+            <uuid>85b70871-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Open the <a href="%(link0)">Modules app</a> from the Quick launch menu.</p>
+<p>Use the wand icon to create a new module.</p>
+<p>Type in <code>org.opencms.examples.template</code> as the package name.</p>
+<p>If you like, type in a module name and a module description. Leave the rest as is for now.</p>
+<p>After the module is created, save the above Hello JSP in the newly created module under <code>/system/modules/org.opencms.examples.template/templates/basic.jsp</code></p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/create-a-new-module.png]]></target>
+            <uuid>c01bcd51-1d75-11ed-a6b6-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[New module dialog]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Step 2: Create a new web site]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/launchpad/]]></target>
+            <uuid>6bf9fb4c-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/websites-app/]]></target>
+            <uuid>0330a7bd-d1c7-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link2" internal="false" type="A">
+            <target><![CDATA[http://example/]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>Open the <a href="%(link0)">Launchpad</a> from the Quick launch menu, and in the launchpad select the <a href="%(link1)">Websites app</a>.</p>
+<p>Use the wand icon to create a new website.</p>
+<p>Type in the following data:</p>
+<p><strong>Title</strong>: Examples<br /><strong>Server URL</strong>: <a href="%(link2)">http://example/</a><br /><strong>Encryption</strong>: No SSL encryption<br /><strong>Template</strong>: <code>/system/modules/org.opencms.examples.template/templates/basic.jsp</code></p>
+<p>Leave the rest as is for now.</p>]]></content>
+      </Text>
+      <Image>
+        <Image>
+          <link type="WEAK">
+            <target><![CDATA[/sites/docu/.galleries/screenshots/new-website-dialog.png]]></target>
+            <uuid>778f6bde-1dfe-11ed-8700-0242ac11002b</uuid>
+          </link>
+        </Image>
+        <Title><![CDATA[New website dialog]]></Title>
+      </Image>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Step 3: Add some web pages]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/sitemap-editor/]]></target>
+            <uuid>0d5f13cb-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Open the <a href="%(link0)">Sitemap editor</a> from the Quick launch menu.</p>
+<p>Click on the Select view menu and choose the Templates view.</p>
+<p>In the templates view, create a new page template.</p>
+<p>Go back to the Sitemap view.</p>
+<p>Add some pages to your site by clicking on the wand icon an by dragging the newly created page template into the sitemap.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Result]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/template/foo/]]></target>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/template/foo/bar/]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>At this point, all configurations for a basic template is there.</p>
+<p>In order to check that the template is working as expected, open the follwing pages in the browser:</p>
+<ul>
+<li><a href="%(link0)">http://localhost/template/foo/</a></li>
+<li><a href="%(link1)">http://localhost/template/foo/bar/</a></li>
+</ul>
+<p>Which ever page is choosen, the output of the Hello JSP template is shown.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>
