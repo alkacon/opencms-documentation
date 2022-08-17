@@ -17,35 +17,38 @@
             <target><![CDATA[https://jakarta.ee/specifications/pages/3.0/]]></target>
           </link>
           <link name="link1" internal="false" type="A">
+            <target><![CDATA[https://www.w3.org/XML/Schema]]></target>
+          </link>
+          <link name="link2" internal="false" type="A">
             <target><![CDATA[https://github.com/alkacon]]></target>
           </link>
-          <link name="link2" internal="true" type="A">
+          <link name="link3" internal="true" type="A">
             <target><![CDATA[/sites/docu/opencms-documentation/introduction/getting-started/]]></target>
             <uuid>ec02eecb-0269-11ed-8ebc-0242ac11002b</uuid>
           </link>
-          <link name="link3" internal="true" type="A">
+          <link name="link4" internal="true" type="A">
             <target><![CDATA[/sites/docu/]]></target>
             <uuid>182e4723-c9f1-11ec-a595-0242ac11002b</uuid>
           </link>
-          <link name="link4" internal="true" type="A">
+          <link name="link5" internal="true" type="A">
             <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/]]></target>
             <uuid>cd282cfa-d1c4-11ec-9238-0242ac11002b</uuid>
           </link>
-          <link name="link5" internal="true" type="A">
+          <link name="link6" internal="true" type="A">
             <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/explorer/]]></target>
             <uuid>71c1c77d-d1c5-11ec-9238-0242ac11002b</uuid>
           </link>
-          <link name="link6" internal="true" type="A">
+          <link name="link7" internal="true" type="A">
             <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/sitemap-editor/]]></target>
             <uuid>0d5f13cb-d1c5-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>This guide introduces the relevant concepts needed to build a OpenCms website template <strong>from scratch</strong>.</p>
+        <content><![CDATA[<p>This guide introduces the relevant concepts needed to build an OpenCms website template <strong>from scratch</strong>.</p>
 <p>A template contains all the things necessary to render a website nicely and to make it possible for editors to add new contents to a website in a user-friendly way.</p>
-<p>Since OpenCms is a Java servlet which uses <a href="%(link0)">Java Server Pages</a> (JSP) for template development, some basic knowledge of JSP, HTML and CSS is a prequisite to understand this guide.</p>
-<p>There are several possibilites to read this guide. You can read it like a book. Each chapter contains various examples. The full source code for each example is <a href="%(link1)">available on GitHub</a>.</p>
-<p>It is possible to install the examples accompanying each chapter. In this way, you can try out and modify the examples described in the chapters. If this is your aim, please make sure that you have <a href="%(link2)">installed OpenCms</a> locally running on&nbsp;<a href="%(link3)">http://localhost/</a> and you can log in to the <a href="%(link4)"><abbr title="An open-source content management system written in Java, distributed by Alkacon Software GmbH.">OpenCms</abbr> workplace</a>.</p>
-<p>It is also possible to actively reproduce the examples. There is no development environment needed. You can use OpenCms' built-in editing tools, mainly the OpenCms <a href="%(link5)">explorer</a> and the <a href="%(link6)">sitemap editor</a>.</p>
+<p>Since OpenCms is a Java servlet which uses <a href="%(link0)">Java Server Pages</a> (JSP) for template development and the <a href="%(link1)" target="_blank" rel="noopener">XML Schema language</a> for content type definition, some basic knowledge of JSP, HTML, CSS, and XML is recommended to understand this guide.</p>
+<p>There are several possibilites to read this guide. If you are new to OpenCms, you should read it like a book from begin to end. Indeed, the chapters built upon each other. You cannot understand the details of developing a formatter without a basic understanding of what a content type and a template JSP is, and so on. If you are an already experienced OpenCms developer, it is also possible to read selected chapters only. Each chapter starts with simple examples about a specific topic but then gets more and more advanced. Thus, experienced developers will especially win from the back subchapters.</p>
+<p>Each chapter contains examples. The full source code for each example is <a href="%(link2)">available on GitHub</a>. It is also possible to install the examples into a <a href="%(link3)">local OpenCms installation</a>. In this way, you can try out and modify the examples while reading the guide. If this is your aim, please make sure that your local installation is running on <a href="%(link4)">http://localhost/</a> at the best and you can log in to the <a href="%(link5)"><abbr title="An open-source content management system written in Java, distributed by Alkacon Software GmbH.">OpenCms</abbr> workplace</a>.</p>
+<p>Some subchapters invite the reader to actively reproduce an example. There is no development environment needed for this puropse. One can use OpenCms' built-in editing tools. The reader is invited to make himself familiar with the editing features of the OpenCms <a href="%(link6)">explorer</a> and the <a href="%(link7)">sitemap editor</a> before reading this guide.</p>
 <p>Topics overview:</p>]]></content>
       </Text>
     </Section>
