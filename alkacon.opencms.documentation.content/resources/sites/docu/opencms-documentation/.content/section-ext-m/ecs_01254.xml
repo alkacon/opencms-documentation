@@ -13,8 +13,8 @@
         <content><![CDATA[<p>In a real world scenario, you typically are developing a template JSP by starting with a HTML prototype, e.g., provided by a design agency.</p>
 <p>It is straight forward to transform such an HTML prototype into a OpenCms template.</p>
 <p>As an example, download the CSS file of the <a href="%(link0)" target="_blank" rel="noopener">Bulma</a> framework and store it under <code>/system/modules/org.opencms.examples.template/resources/css/bulma.min.css</code>.</p>
-<p>Include the CSS file in the head section of your template JSP. Use a <code>&lt;cms:link&gt;</code> tag and the <code>%(link.weak:)</code> Macro for this.</p>
-<p>The example below renders a notification nicely styled by means of the included CSS.</p>]]></content>
+<p>Include the CSS file in the head section of your template JSP. Use a <code>&lt;cms:link&gt;</code> tag and the <code>%(link.weak:)</code> Macro for this. The macro has the purpose that if you once rename or move the CSS file, OpenCms will automatically adjust the link in the template JSP.</p>
+<p>The example below renders a nicely styled notification using some class names from the included CSS.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>
