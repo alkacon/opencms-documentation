@@ -2,11 +2,11 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Adding a content type]]></Title>
+    <Title><![CDATA[Defining a content type]]></Title>
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>This is a tutorial on how to define and configure a very simple content type. It is meant as a starting point for content definition and links to many more specific topics (in each of the sections).</p>]]></content>
+        <content><![CDATA[<p>Introducing new content types is a core requirement of template development. In OpenCms, a subset of the XML Schema language is used to define the structure and data fields of content types. Once created, a content type in OpenCms is automatically provided with a user-friendly form editor. There are numerous configuration options for fine-grained customization of the form editor, some of them showcased in this chapter.&nbsp;</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

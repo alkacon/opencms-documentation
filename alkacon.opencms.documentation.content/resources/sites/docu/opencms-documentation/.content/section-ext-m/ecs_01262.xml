@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Add rules for data integrity]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>As a next step, it makes sense to add rules for data integrity. Again create a new content type named <code>ExampleContentV3</code> (<code>example-content-v3</code>) as described above.</p>
+<p>The <code>&lt;FieldSettings&gt;</code> of version 3 of the example content illustrate typical data integrity improvements.</p>
+<p>At first, the schema definition gets a rule that prevents the content from being saved without a <code>Title</code>. To facilitate this, we provide a default value for the title field.</p>
+<p>In order to show the current date time as a default for the <code>DateTime</code> field and not the 1st of January, 1970, we use the <code>%(currenttime)</code> macro. Also, it seems desirable to synchronize the date value for the different locales. Whilst the textual content of the title field and the text field may be locale specific, the date field often is a locale independent field.</p>
+<p>As a further example, we make the LinkURI an optional field with the help of the <code>minOccurs</code> and <code>maxOccurs</code> attributes.&nbsp;&nbsp;</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>
