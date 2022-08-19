@@ -2,11 +2,19 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[The Demo template]]></Title>
+    <Title><![CDATA[Mercury demo server]]></Title>
     <Section>
       <Text name="Text0">
-        <links/>
-        <content><![CDATA[<p>OpenCms ships with a feature-rich demo template. It presents most of the OpenCms features in action. It is meant to give an impression of what is possible. Therefore, the demo website is already quite complex. Nevertheless, it provides an excellent source of information.</p>]]></content>
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://demo.opencms.org]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>OpenCms ships with a feature-rich standard template called Mercury. It presents most of the OpenCms features in action. There is a publicly available Mercury demo server providing a personal <abbr title="An open-source content management system written in Java, distributed by Alkacon Software GmbH.">OpenCms</abbr>&nbsp;installation exclusively for you. All you need to do is register with a valid email address.</p>
+<ul>
+<li><a href="%(link0)">https://demo.opencms.org</a></li>
+</ul>
+<p>We will not use the data you provide for anything else than setting up your personal demo installation!</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

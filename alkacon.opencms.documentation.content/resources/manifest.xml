@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The contents of the Alkacon OpenCms documentation.]]></description>
-		<version>13.0.43</version>
+		<version>13.0.44</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -27879,6 +27879,40 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00512.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00512.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>2ccd40c2-1fd4-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>2ccd40c3-1fd4-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Fri, 19 Aug 2022 15:32:46 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[About: About]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00513.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00513.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>4967ae81-1fd5-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>4967ae82-1fd5-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Fri, 19 Aug 2022 15:40:43 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[About: GitHub]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00519.xml</source>
 			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00519.xml</destination>
 			<type>m-section-ext</type>
@@ -39517,7 +39551,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Getting Started: Getting Started]]></value>
+					<value><![CDATA[Installation: Getting Started]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -39534,7 +39568,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Getting Started: Installing OpenCms]]></value>
+					<value><![CDATA[Installation: Installing OpenCms]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -39551,7 +39585,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Getting Started: Trying OpenCms]]></value>
+					<value><![CDATA[Installation: Trying OpenCms]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -39569,57 +39603,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Getting Started: The Setup Wizard]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01207.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01207.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>3a6bcc55-026c-11ed-8ebc-0242ac11002b</uuidstructure>
-			<uuidresource>3a6bcc56-026c-11ed-8ebc-0242ac11002b</uuidresource>
-			<datecreated>Wed, 13 Jul 2022 05:25:37 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[About this documentation: About this documentation]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01208.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01208.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>53e93868-026c-11ed-8ebc-0242ac11002b</uuidstructure>
-			<uuidresource>53e93869-026c-11ed-8ebc-0242ac11002b</uuidresource>
-			<datecreated>Wed, 13 Jul 2022 05:26:20 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[About this documentation: Aim of the documentation]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01209.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01209.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>6acce6bd-026c-11ed-8ebc-0242ac11002b</uuidstructure>
-			<uuidresource>6acce6be-026c-11ed-8ebc-0242ac11002b</uuidresource>
-			<datecreated>Wed, 13 Jul 2022 05:26:58 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[About this documentation: Using the documentation]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -39653,7 +39636,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Additional documentation: Additional documentation]]></value>
+					<value><![CDATA[About: Additional documentation]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -39704,7 +39687,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Additional documentation: The Demo template]]></value>
+					<value><![CDATA[About: Mercury demo server]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -39738,7 +39721,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Additional documentation: OpenCms homepage]]></value>
+					<value><![CDATA[About: OpenCms homepage]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -41696,47 +41679,7 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/docu/opencms-documentation/introduction/about-this-documentation</destination>
-			<type>folder</type>
-			<uuidstructure>2ca1fb49-026c-11ed-8ebc-0242ac11002b</uuidstructure>
-			<datecreated>Wed, 13 Jul 2022 05:25:14 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[2.0]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[About this documentation]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[About this documentation]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/introduction/about-this-documentation/index.html</source>
-			<destination>sites/docu/opencms-documentation/introduction/about-this-documentation/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>2ca8d91e-026c-11ed-8ebc-0242ac11002b</uuidstructure>
-			<uuidresource>2ca8d91f-026c-11ed-8ebc-0242ac11002b</uuidresource>
-			<datecreated>Wed, 13 Jul 2022 05:25:14 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[About this documentation]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<destination>sites/docu/opencms-documentation/introduction/additional-documentation</destination>
+			<destination>sites/docu/opencms-documentation/introduction/about</destination>
 			<type>folder</type>
 			<uuidstructure>dea01596-026c-11ed-8ebc-0242ac11002b</uuidstructure>
 			<datecreated>Wed, 13 Jul 2022 05:30:13 GMT</datecreated>
@@ -41748,19 +41691,19 @@
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[Additional documentation]]></value>
+					<value><![CDATA[About]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Additional documentation]]></value>
+					<value><![CDATA[About]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/docu/opencms-documentation/introduction/additional-documentation/index.html</source>
-			<destination>sites/docu/opencms-documentation/introduction/additional-documentation/index.html</destination>
+			<source>sites/docu/opencms-documentation/introduction/about/index.html</source>
+			<destination>sites/docu/opencms-documentation/introduction/about/index.html</destination>
 			<type>containerpage</type>
 			<uuidstructure>dea349eb-026c-11ed-8ebc-0242ac11002b</uuidstructure>
 			<uuidresource>dea349ec-026c-11ed-8ebc-0242ac11002b</uuidresource>
@@ -41769,7 +41712,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Additional documentation]]></value>
+					<value><![CDATA[About]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -41788,11 +41731,11 @@
 				</property>
 				<property>
 					<name>NavText</name>
-					<value><![CDATA[Getting Started]]></value>
+					<value><![CDATA[Installation]]></value>
 				</property>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Getting Started]]></value>
+					<value><![CDATA[Installation]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -41809,7 +41752,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Getting Started]]></value>
+					<value><![CDATA[Installation]]></value>
 				</property>
 			</properties>
 			<relations/>

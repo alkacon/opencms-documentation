@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[About]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>Welcome to the OpenCms documentation maintained by <a href="%(link0)" target="_blank" rel="noopener">Alkacon</a>. This documentation provides technical information about the features OpenCms offers. It is addressed to template developers and server administrators mainly. Editors and non-technical users of OpenCms may find the Mercury demo server an interesting starting point.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>
