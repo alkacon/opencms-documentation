@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Add detailed help texts for each field]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Example 5 describes the best practice to add labels and detailed help texts for the form editor, in such a way, that localization of the form editor gets possible.</p>
+<p>In the second example, the <code>&lt;resourcebundles&gt;</code> definition inside the <code>&lt;xsd:appinfo&gt; </code>element was dropped. Example 5 adds it again.</p>
+<p>The resource types app in example 1 added a basic application message properties file and stored it under <code>/system/modules/org.opencms.examples.content/i18n/org.opencms.examples.content.messages_en</code>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

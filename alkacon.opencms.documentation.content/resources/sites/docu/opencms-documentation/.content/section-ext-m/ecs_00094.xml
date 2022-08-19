@@ -11,27 +11,35 @@
             <uuid>dd59c3c2-d1c6-11ec-9238-0242ac11002b</uuid>
           </link>
           <link name="link1" internal="true" type="A">
-            <target><![CDATA[/system/module/org.opencms.examples.content/schemas/example-content-v1.xsd]]></target>
+            <target><![CDATA[/system/modules/org.opencms.examples.content/schemas/example-content-v1.xsd]]></target>
           </link>
         </links>
         <content><![CDATA[<p>The easiest way to add a new content type is by using the <a href="%(link0)">Resource types app</a>.</p>
-<p>Why is it called <em>resource types</em> app and not <em>content types</em> app? A content type alone is not enough to have a fully working content available that an editor can drag and drop to a web page. There is some more configuration needed in the background. The resource types app is an utility that does all the necessary initial configuration for a fully working content and in this way makes the creation of new content types easier.</p>
+<p>Why is it called <em>resource types</em> app and not <em>content types</em> app? A content type alone is not enough to have a fully working content available that an editor can drag and drop to a web page. There is some more configuration needed in the background. The resource types app is an utility that does all the necessary initial configuration for a fully working content.</p>
 <p>Create a new content type as follows:</p>
 <ul>
 <li>From the Quick launch menu, open the Launchpad</li>
 <li>In the Launchpad, click on the Resource type app</li>
 <li>Start creating a new resource type by clicking on the wand icon</li>
-<li>Type in the following data and click on save</li>
+<li>Type in the following data:<br />
+<ul>
+<li><strong>Name:</strong> <code>example-content-v1</code></li>
+<li><strong>XPath element-name:</strong> <code>ExampleContentV1</code></li>
+<li><strong>Display name:</strong> Example Content V1</li>
+<li><strong>Description:</strong> Version 1 of the example content.</li>
+</ul>
+</li>
+<li>Leave the rest as is and click on save</li>
 </ul>
 <p>To verify that the content type is available, call the newly created XML schema document:</p>
-<p><a href="%(link1)">http://localhost/system/module/org.opencms.examples.content/schemas/example-content-v1.xsd</a></p>
+<p><a href="%(link1)">http://localhost/system/modules/org.opencms.examples.content/schemas/example-content-v1.xsd</a></p>
 <p>The created XML Schema document consists of three parts mainly:</p>
 <ol>
 <li>A section defining the root element named <code>OpenCmsExampleContentV1Data</code>.</li>
 <li>Content types in OpenCms by definition are multilingual. Thus, the root element is a wrapper element for the original content element named <code>OpenCmsExampleContentV1</code> that holds the locale specific data and defines all the data fields.</li>
-<li>&nbsp;The third section holds an additional configuration element named <code>FieldSettings</code> for the fields&nbsp;defined in the <code>OpenCmsExampleContentV1</code> element that improves data integrity and usability for content authoring with the form editor.</li>
+<li>The third section holds an additional configuration element named <code>FieldSettings</code> for the fields&nbsp;defined in the <code>OpenCmsExampleContentV1</code> element. Field settings improve data integrity and usability for content authoring with the form editor.</li>
 </ol>
-<p>It is worth mentioning at this point that content type definitions do not support the full expressiveness of the XML Schema language. You cannot write just some XML schema document and cannot expect that the schema definitions are understood by OpenCms or even can be edited with the form editor. In fact, content type schemas themselfes have a predefined structure that is determined by an XML Schema.</p>]]></content>
+<p>It is worth mentioning at this point that XSD content type definitions do not support the full expressiveness of the XML Schema language. You cannot write just some XML schema document and cannot expect that the schema definitions are understood by OpenCms or even can be edited with the form editor. In fact, content type schemas themselfes have a predefined structure that is determined by an XML Schema. Only a subset of the XML Schema language is supported.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Add rules for data integrity]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/technical-reference/field-settings-reference/]]></target>
+            <uuid>069bfb76-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>As a next step, it makes sense to add rules for data integrity with the help of <a href="%(link0)">Field settings</a>. Again, create a new content type named <code>ExampleContentV3</code> (<code>example-content-v3</code>) as described above.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

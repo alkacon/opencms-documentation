@@ -5,12 +5,16 @@
     <Title><![CDATA[Add rules for data integrity]]></Title>
     <Section>
       <Text name="Text0">
-        <links/>
-        <content><![CDATA[<p>As a next step, it makes sense to add rules for data integrity. Again create a new content type named <code>ExampleContentV3</code> (<code>example-content-v3</code>) as described above.</p>
-<p>The <code>&lt;FieldSettings&gt;</code> of version 3 of the example content illustrate typical data integrity improvements.</p>
-<p>At first, the schema definition gets a rule that prevents the content from being saved without a <code>Title</code>. To facilitate this, we provide a default value for the title field.</p>
-<p>In order to show the current date time as a default for the <code>DateTime</code> field and not the 1st of January, 1970, we use the <code>%(currenttime)</code> macro. Also, it seems desirable to synchronize the date value for the different locales. Whilst the textual content of the title field and the text field may be locale specific, the date field often is a locale independent field.</p>
-<p>As a further example, we make the LinkURI an optional field with the help of the <code>minOccurs</code> and <code>maxOccurs</code> attributes.&nbsp;&nbsp;</p>]]></content>
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/technical-reference/content-type-definition-with-xml-schema/mappings-and-defaults-with-macros/]]></target>
+            <uuid>272cc671-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The <code>&lt;FieldSettings&gt;</code> element in example 3 contains data integrity definitions.</p>
+<p><code>&lt;PropertyName&gt;</code> references a field definition from above by name. <code>&lt;RuleRegex&gt;.*&lt;/RuleRegex&gt;</code> is a regular expression preventing the content from being saved without a <code>Title</code>. To facilitate this, we provide the user a default value for the title field with <code>&lt;Default&gt;<span class="hljs-symbol">&lt;</span>![CDATA[New title]]<span class="hljs-symbol">&gt;</span>&lt;/Default&gt;</code>. <code>&lt;RuleType&gt;</code> and <code>&lt;Error&gt;</code> are UI related settings that show the user a meaningful validation message in the case no title is given. <code>error</code> means that the content can't be saved at all if the title is empty.</p>
+<p>To show the current date time as a default for the <code>DateTime</code> field and not the 1st January 1970, we use the <code>%(currenttime)</code> <a href="%(link0)">Macro</a>. Also, it seems desirable for the <code>DateTime</code> field to synchronize the date values between different locales with <code>&lt;Synchronization&gt;true&lt;/Synchronization&gt;</code>. Whilst the textual content of the title field and the text field may be different between the locales, the date field often is a locale independent field.</p>
+<p>As a further example, we make the <code>LinkURI</code> an optional field with the combination of the <code>minOccurs=0</code> and <code>maxOccurs=1</code> attributes.&nbsp;&nbsp;</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

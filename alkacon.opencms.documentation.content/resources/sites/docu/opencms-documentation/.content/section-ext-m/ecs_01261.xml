@@ -10,14 +10,35 @@
             <target><![CDATA[/sites/docu/opencms-documentation/technical-reference/content-editor-configuration/widget-configuration/]]></target>
             <uuid>01d93703-db28-11ec-8fb9-0242ac11002b</uuid>
           </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/technical-reference/content-editor-configuration/widget-configuration/]]></target>
+            <uuid>01d93703-db28-11ec-8fb9-0242ac11002b</uuid>
+            <anchor><![CDATA[string-widget-b81137ff]]></anchor>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/technical-reference/content-editor-configuration/widget-configuration/]]></target>
+            <uuid>01d93703-db28-11ec-8fb9-0242ac11002b</uuid>
+            <anchor><![CDATA[date-picker-widget-c93df933]]></anchor>
+          </link>
+          <link name="link3" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/technical-reference/content-editor-configuration/widget-configuration/]]></target>
+            <uuid>01d93703-db28-11ec-8fb9-0242ac11002b</uuid>
+            <anchor><![CDATA[html-widget-4ec4dbd2]]></anchor>
+          </link>
+          <link name="link4" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/technical-reference/content-editor-configuration/widget-configuration/]]></target>
+            <uuid>01d93703-db28-11ec-8fb9-0242ac11002b</uuid>
+            <anchor><![CDATA[vfs-file-widget-8dc2769f]]></anchor>
+          </link>
         </links>
-        <content><![CDATA[<p>As we can see, the fields in the form editor appear in the order defined in the XSD sequence. The names of the fields are used as the labels of the form fields. And the field types obviously make the editor automatically choose an appropriate <a href="%(link0)">Widget</a> for data edition:</p>
+        <content><![CDATA[<p>The fields in the form editor appear in the order defined in the XSD sequence. The names of the fields are used as the labels of the form fields. And the field types make the editor automatically choose an appropriate <a href="%(link0)">Widget</a> for data edition:</p>
 <ul>
-<li>Title field: Input widget</li>
-<li>Date field: Calendar widget</li>
-<li>Text field: WYSIWYG widget</li>
-<li>LinkURI field: Link widget</li>
-</ul>]]></content>
+<li>Title field: <a href="%(link1)">String widget</a></li>
+<li>Date field: <a href="%(link2)">Date-picker widget</a></li>
+<li>Text field: <a href="%(link3)">Html widget</a></li>
+<li>LinkURI field: <a href="%(link4)">VFS file widget</a></li>
+</ul>
+<p>This works out of the box, even if no <code>&lt;FieldSettings&gt;</code> are defined.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

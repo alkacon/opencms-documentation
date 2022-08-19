@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The contents of the Alkacon OpenCms documentation.]]></description>
-		<version>13.0.42</version>
+		<version>13.0.43</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -9241,7 +9241,49 @@
 				</property>
 				<property type="shared">
 					<name>image.size</name>
-					<value><![CDATA[w:940,h:449]]></value>
+					<value><![CDATA[w:941,h:640]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/screenshots/form-editor-for-example-4.png</source>
+			<destination>sites/docu/.galleries/screenshots/form-editor-for-example-4.png</destination>
+			<type>image</type>
+			<uuidstructure>deeccd30-1fc6-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>deeccd31-1fc6-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Fri, 19 Aug 2022 13:57:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Form editor for example 4]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:936,h:399]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/.galleries/screenshots/form-editor-of-example-5.png</source>
+			<destination>sites/docu/.galleries/screenshots/form-editor-of-example-5.png</destination>
+			<type>image</type>
+			<uuidstructure>b1c5af72-1fce-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>b1c5af73-1fce-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Fri, 19 Aug 2022 14:53:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Form editor of example 5]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:937,h:495]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -13571,31 +13613,14 @@
 			<source>sites/docu/opencms-documentation/.content/flexible-m/fc_00064.xml</source>
 			<destination>sites/docu/opencms-documentation/.content/flexible-m/fc_00064.xml</destination>
 			<type>m-flexible-up</type>
-			<uuidstructure>c95da353-e628-11ec-8d31-0242ac11002b</uuidstructure>
-			<uuidresource>c95da354-e628-11ec-8d31-0242ac11002b</uuidresource>
-			<datecreated>Tue, 07 Jun 2022 06:12:19 GMT</datecreated>
+			<uuidstructure>dfefebe5-1fce-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>dfefebe6-1fce-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Fri, 19 Aug 2022 14:54:49 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Adding a content type: The content's schema]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/.content/flexible-m/fc_00065.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/flexible-m/fc_00065.xml</destination>
-			<type>m-flexible-up</type>
-			<uuidstructure>62b0bc7c-e629-11ec-8d31-0242ac11002b</uuidstructure>
-			<uuidresource>62b0bc7d-e629-11ec-8d31-0242ac11002b</uuidresource>
-			<datecreated>Tue, 07 Jun 2022 06:16:36 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Adding a content type: The formatter]]></value>
+					<value><![CDATA[Defining a content type: Add detailed help texts for each field]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -17053,6 +17078,40 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>sites/docu/opencms-documentation/.content/flexible-m/fc_00269.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/flexible-m/fc_00269.xml</destination>
+			<type>m-flexible-up</type>
+			<uuidstructure>4420b142-1f93-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>4420b143-1f93-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Fri, 19 Aug 2022 07:48:08 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Defining a content type: Add data integrity rules]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/flexible-m/fc_00270.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/flexible-m/fc_00270.xml</destination>
+			<type>m-flexible-up</type>
+			<uuidstructure>d21f2c36-1fc5-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>d21f2c37-1fc5-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Fri, 19 Aug 2022 13:50:01 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Defining a content type: Improve the layout of the form editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>sites/docu/opencms-documentation/.content/function_config</destination>
 			<type>folder</type>
 			<uuidstructure>8e50a273-e30a-11ec-8d31-0242ac11002b</uuidstructure>
@@ -18172,23 +18231,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Changing the navigation behaviour: Related Links]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/.content/linksequence-m/ls_00068.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/linksequence-m/ls_00068.xml</destination>
-			<type>m-linksequence</type>
-			<uuidstructure>ca306e7f-e626-11ec-8d31-0242ac11002b</uuidstructure>
-			<uuidresource>ca306e80-e626-11ec-8d31-0242ac11002b</uuidresource>
-			<datecreated>Tue, 07 Jun 2022 05:58:01 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Adding a content type: Related Links]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -27823,133 +27865,14 @@
 			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00511.xml</source>
 			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00511.xml</destination>
 			<type>m-section-ext</type>
-			<uuidstructure>71861bd4-e627-11ec-8d31-0242ac11002b</uuidstructure>
-			<uuidresource>71861bd5-e627-11ec-8d31-0242ac11002b</uuidresource>
-			<datecreated>Tue, 07 Jun 2022 06:02:42 GMT</datecreated>
+			<uuidstructure>98660112-1fca-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>98660113-1fca-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Fri, 19 Aug 2022 14:24:11 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Adding a content type: What we will do]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00512.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00512.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>caecc3e2-e627-11ec-8d31-0242ac11002b</uuidstructure>
-			<uuidresource>caecc3e3-e627-11ec-8d31-0242ac11002b</uuidresource>
-			<datecreated>Tue, 07 Jun 2022 06:05:12 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Adding a content type: Adding a content type]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00513.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00513.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>bbce9172-e628-11ec-8d31-0242ac11002b</uuidstructure>
-			<uuidresource>bbce9173-e628-11ec-8d31-0242ac11002b</uuidresource>
-			<datecreated>Tue, 07 Jun 2022 06:11:56 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Adding a content type: The content's schema]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00514.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00514.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>dee459c3-e628-11ec-8d31-0242ac11002b</uuidstructure>
-			<uuidresource>dee459c4-e628-11ec-8d31-0242ac11002b</uuidresource>
-			<datecreated>Tue, 07 Jun 2022 06:12:55 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Adding a content type: The content's schema 2]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00515.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00515.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>50de5b96-e629-11ec-8d31-0242ac11002b</uuidstructure>
-			<uuidresource>50de5b97-e629-11ec-8d31-0242ac11002b</uuidresource>
-			<datecreated>Tue, 07 Jun 2022 06:16:06 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Adding a content type: The formatter]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00516.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00516.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>76055094-e629-11ec-8d31-0242ac11002b</uuidstructure>
-			<uuidresource>76055095-e629-11ec-8d31-0242ac11002b</uuidresource>
-			<datecreated>Tue, 07 Jun 2022 06:17:08 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Adding a content type: The formatter 2]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00517.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00517.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>b0eb22c3-e629-11ec-8d31-0242ac11002b</uuidstructure>
-			<uuidresource>b0eb22c4-e629-11ec-8d31-0242ac11002b</uuidresource>
-			<datecreated>Tue, 07 Jun 2022 06:18:47 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Adding a content type: The formatter configuration]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00518.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00518.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>0797b376-e62a-11ec-8d31-0242ac11002b</uuidstructure>
-			<uuidresource>0797b377-e62a-11ec-8d31-0242ac11002b</uuidresource>
-			<datecreated>Tue, 07 Jun 2022 06:21:13 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Defining a content type: Further information]]></value>
+					<value><![CDATA[Defining a content type: Add detailed help texts for each field]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -40615,6 +40538,74 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Defining a content type: Improve the layout of the form editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01264.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01264.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>87e3c249-1f92-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>87e3c24a-1f92-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Fri, 19 Aug 2022 07:42:52 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Defining a content type: Add rules for data integrity]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01265.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01265.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>a4a4c66a-1fbf-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>a4a4c66b-1fbf-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Fri, 19 Aug 2022 13:05:47 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Defining a content type: Summary]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01266.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01266.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>74013a9c-1fc1-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>74013a9d-1fc1-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Fri, 19 Aug 2022 13:18:45 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Defining a content type: Improve the layout of the form editor]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01267.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01267.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>63b2a0db-1fc6-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>63b2a0dc-1fc6-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Fri, 19 Aug 2022 13:54:05 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Defining a content type: Add detailed help texts for each field]]></value>
 				</property>
 			</properties>
 			<relations/>
