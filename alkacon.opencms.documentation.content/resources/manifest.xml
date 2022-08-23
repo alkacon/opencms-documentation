@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The contents of the Alkacon OpenCms documentation.]]></description>
-		<version>13.0.45</version>
+		<version>13.0.46</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -17778,23 +17778,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/docu/opencms-documentation/.content/linksequence-m/ls_00037.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/linksequence-m/ls_00037.xml</destination>
-			<type>m-linksequence</type>
-			<uuidstructure>fe6c1dec-da50-11ec-8fb9-0242ac11002b</uuidstructure>
-			<uuidresource>fe6c1ded-da50-11ec-8fb9-0242ac11002b</uuidresource>
-			<datecreated>Mon, 23 May 2022 04:29:54 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Related Links]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>sites/docu/opencms-documentation/.content/linksequence-m/ls_00038.xml</source>
 			<destination>sites/docu/opencms-documentation/.content/linksequence-m/ls_00038.xml</destination>
 			<type>m-linksequence</type>
@@ -17856,7 +17839,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[The form-based editor: Related Links]]></value>
+					<value><![CDATA[Form-based content editor: Related Links]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -17890,24 +17873,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[The bundle editor: Related Links]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/.content/linksequence-m/ls_00044.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/linksequence-m/ls_00044.xml</destination>
-			<type>m-linksequence</type>
-			<uuidstructure>5fe4243e-dfee-11ec-8d31-0242ac11002b</uuidstructure>
-			<uuidresource>5fe4243f-dfee-11ec-8d31-0242ac11002b</uuidresource>
-			<datecreated>Mon, 30 May 2022 07:59:04 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Explorer: Related Links]]></value>
+					<value><![CDATA[Bundle editor: Related Links]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -18060,7 +18026,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Modules: Related Links]]></value>
+					<value><![CDATA[Modules app: Related Links]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -18078,23 +18044,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Resource types: Related Links]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/.content/linksequence-m/ls_00055.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/linksequence-m/ls_00055.xml</destination>
-			<type>m-linksequence</type>
-			<uuidstructure>04eb29e2-e0dc-11ec-8d31-0242ac11002b</uuidstructure>
-			<uuidresource>04eb29e3-e0dc-11ec-8d31-0242ac11002b</uuidresource>
-			<datecreated>Tue, 31 May 2022 12:20:12 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Resource types: Related Links 2]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -18417,7 +18366,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Setting permissions: Related links]]></value>
+					<value><![CDATA[Permissions dialog: Related links]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -20919,7 +20868,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Editing properties: Editing properties]]></value>
+					<value><![CDATA[Properties dialog: Properties dialog]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -20936,7 +20885,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Editing properties:  How to open the "Edit properties" dialog]]></value>
+					<value><![CDATA[Properties dialog: Opening the dialog]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -20953,7 +20902,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Editing properties: The "Edit properties" dialog]]></value>
+					<value><![CDATA[Properties dialog: The dialog]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -22228,7 +22177,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Publishing changes: Publishing changes]]></value>
+					<value><![CDATA[Publish dialog: Publish dialog]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -22245,7 +22194,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Publishing changes: How to publish something]]></value>
+					<value><![CDATA[Publish dialog: How to publish something]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -22432,7 +22381,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Common toolbar options: Common toolbar options]]></value>
+					<value><![CDATA[Main toolbar: Main toolbar]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -22449,7 +22398,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Common toolbar options: Design of the OpenCms toolbar]]></value>
+					<value><![CDATA[Main toolbar: Design of the OpenCms toolbar]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -22483,7 +22432,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Common toolbar options: Common toolbar options]]></value>
+					<value><![CDATA[Main toolbar: Application specific options]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -22500,24 +22449,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Common toolbar options: Common toolbar options]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00193.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00193.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>7db65aaf-d83d-11ec-8fb9-0242ac11002b</uuidstructure>
-			<uuidresource>7db65ab0-d83d-11ec-8fb9-0242ac11002b</uuidresource>
-			<datecreated>Fri, 20 May 2022 13:05:15 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Common toolbar options: User Info]]></value>
+					<value><![CDATA[Main toolbar: Common toolbar options]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -22541,23 +22473,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00195.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00195.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>ac0a6638-d83d-11ec-8fb9-0242ac11002b</uuidstructure>
-			<uuidresource>ac0a6639-d83d-11ec-8fb9-0242ac11002b</uuidresource>
-			<datecreated>Fri, 20 May 2022 13:06:33 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Common toolbar options: Options]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00196.xml</source>
 			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00196.xml</destination>
 			<type>m-section-ext</type>
@@ -22569,23 +22484,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Development setups: Scenario: Writing your own templates and formatters]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00197.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00197.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>1806233e-d83e-11ec-8fb9-0242ac11002b</uuidstructure>
-			<uuidresource>1806233f-d83e-11ec-8fb9-0242ac11002b</uuidresource>
-			<datecreated>Fri, 20 May 2022 13:09:34 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Common toolbar options: Preferences]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -22976,7 +22874,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[The page editor: Available Options]]></value>
+					<value><![CDATA[Page editor: Available Options]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -22993,7 +22891,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[The page editor: Creating new content]]></value>
+					<value><![CDATA[Page editor: Creating new content]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -23010,7 +22908,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[The page editor: Element options]]></value>
+					<value><![CDATA[Page editor: Element options]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -23299,7 +23197,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[The sitemap editor: Creating a page]]></value>
+					<value><![CDATA[Sitemap editor: Creating a page]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -23435,7 +23333,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[The form-based editor: The form-based content editor]]></value>
+					<value><![CDATA[Form-based content editor: Form-based content editor]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -23588,7 +23486,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[The inline editor: The inline content editor]]></value>
+					<value><![CDATA[Inline content editor: The inline content editor]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -23622,7 +23520,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[The inline editor: Fields supporting inline editing]]></value>
+					<value><![CDATA[Inline content editor: Fields supporting inline editing]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -23639,7 +23537,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[The bundle editor: The bundle editor]]></value>
+					<value><![CDATA[Bundle editor: The bundle editor]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -23656,7 +23554,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[The bundle editor: How to open the bundle editor]]></value>
+					<value><![CDATA[Bundle editor: How to open the bundle editor]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -23724,7 +23622,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[The bundle editor: Editing bundles with descriptors]]></value>
+					<value><![CDATA[Bundle editor: Editing bundles with descriptors]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -23860,7 +23758,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Launchpad: Opening the launch pad]]></value>
+					<value><![CDATA[Launchpad: Opening the launchpad]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -24574,7 +24472,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Source search: Source search]]></value>
+					<value><![CDATA[Source search app: Source search app]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -24591,7 +24489,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Source search: Opening the source search]]></value>
+					<value><![CDATA[Source search app: Opening the source search]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -24676,7 +24574,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Source search: Search types 2]]></value>
+					<value><![CDATA[Source search app: Search types 2]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -24727,7 +24625,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Lists: Lists]]></value>
+					<value><![CDATA[Lists app: Lists app]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -24829,7 +24727,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Modules: Modules]]></value>
+					<value><![CDATA[Modules app: Modules app]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -24931,7 +24829,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Resource types: Resource types]]></value>
+					<value><![CDATA[Resource types app: Resource types]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -24948,7 +24846,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Resource types: The resource types app]]></value>
+					<value><![CDATA[Resource types app: The resource types app]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -24982,7 +24880,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Resource types: Adding a new resource type]]></value>
+					<value><![CDATA[Resource types app: Adding a new resource type]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -25050,7 +24948,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Resource types:  Final remarks ]]></value>
+					<value><![CDATA[Resource types app:  Final remarks ]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -25067,7 +24965,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Cache: Caches]]></value>
+					<value><![CDATA[Cache app: Cache app]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -25152,7 +25050,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Cache: Flex cache]]></value>
+					<value><![CDATA[Cache app: Flex cache]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -25169,7 +25067,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Cache: Image cache]]></value>
+					<value><![CDATA[Cache app: Image cache]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -25186,7 +25084,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Scheduled jobs: Scheduled jobs]]></value>
+					<value><![CDATA[Scheduled jobs app: Scheduled jobs app]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -25237,7 +25135,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Scheduled jobs: Adding and editing jobs]]></value>
+					<value><![CDATA[Scheduled jobs app: Adding and editing jobs]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -25390,7 +25288,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Websites: Websites]]></value>
+					<value><![CDATA[Websites app: Websites app]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -28059,7 +27957,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Creating template models: Creating template models]]></value>
+					<value><![CDATA[Template model: Template models]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -29334,7 +29232,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Setting permissions: Setting permissions]]></value>
+					<value><![CDATA[Permissions dialog: Permissions dialog]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -29351,7 +29249,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Setting permissions: The permissions dialog]]></value>
+					<value><![CDATA[Permissions dialog: Open the dialog]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -29436,7 +29334,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[User preferences: User preferences]]></value>
+					<value><![CDATA[User preferences dialog: User preferences dialog]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -40793,6 +40691,23 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Enabling a content type]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01269.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01269.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>f3b97f74-22f7-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>f3b97f75-22f7-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Tue, 23 Aug 2022 15:26:25 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Main toolbar: Application name]]></value>
 				</property>
 			</properties>
 			<relations/>

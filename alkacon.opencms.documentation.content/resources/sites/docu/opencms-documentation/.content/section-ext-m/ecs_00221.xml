@@ -5,8 +5,14 @@
     <Title><![CDATA[Creating new content]]></Title>
     <Section>
       <Text name="Text0">
-        <links/>
-        <content><![CDATA[<p>Clicking the <strong>Add content</strong> opens the gallery dialog and shows a list of all possible content types that can be added to the current container page. Content types are grouped in element views, which can be changed via the dialog's drop-down menu.</p>]]></content>
+        <links>
+          <link name="link0" internal="true" type="IMG">
+            <target><![CDATA[/sites/docu/.galleries/icons_big/searchBigIconActive.svg]]></target>
+            <uuid>dfa1df6b-c9f9-11ec-a595-0242ac11002b</uuid>
+            <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
+          </link>
+        </links>
+        <content><![CDATA[<p>Clicking on the <strong>Add content</strong> icon <img style="width: 14px;" title="searchBigIconActive" src="%(link0)" alt="" /> opens the gallery dialog and shows a list of all possible content types that can be added to the current container page. Content types are grouped in element views, which can be changed via the dialog's drop-down menu.</p>]]></content>
       </Text>
     </Section>
     <Section>
@@ -39,7 +45,7 @@
       </Image>
     </Section>
     <Section>
-      <Caption><![CDATA[Searching Existing Content ]]></Caption>
+      <Caption><![CDATA[Searching existing content]]></Caption>
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="IMG">

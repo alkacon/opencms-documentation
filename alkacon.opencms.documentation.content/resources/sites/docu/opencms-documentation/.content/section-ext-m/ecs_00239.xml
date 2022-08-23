@@ -6,7 +6,7 @@
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>With the <strong>Add pages</strong> option from the sitemap editor's toolbar you can add a new page via drag &amp; drop. You can create three different kinds of pages: <strong>Container pages</strong>, <strong>Type pages</strong>, <strong>Function pages</strong>.</p>]]></content>
+        <content><![CDATA[<p>With the <strong>Add pages</strong> option from the sitemap editor's toolbar you can add a new page via drag &amp; drop. You can create three different kinds of pages: <strong>Container pages</strong>, <strong>Detail&nbsp;pages</strong>, and <strong>Function pages</strong>.</p>]]></content>
       </Text>
     </Section>
     <Section>
@@ -25,7 +25,7 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/creating-template-models/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/built-in-content-types/template-model/]]></target>
             <uuid>b69ca905-d1c7-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
@@ -54,7 +54,7 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/lists-and-detail-pages/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/background/lists-and-detail-pages/]]></target>
             <uuid>98418d80-d1c8-11ec-9238-0242ac11002b</uuid>
           </link>
           <link name="link1" internal="true" type="A">
@@ -62,11 +62,11 @@
             <uuid>b5df653e-d1cd-11ec-9238-0242ac11002b</uuid>
           </link>
           <link name="link2" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/ade-configuration/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/advanced-direct-editing/sitemap-and-module-configurations/]]></target>
             <uuid>cfc6289b-d1c7-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>Via the tab <strong>Detail pages</strong> from the <strong>Add pages</strong> dialog allows to create a new sitemap entry that is used as detail page for a certain content type or function, e.g., for news articles. Detail pages are used to link from lists of contents to detailed views on these entries or to e.g., search results. Read more about the detail pages here:</p>
+        <content><![CDATA[<p>Via the tab <strong>Detail pages</strong> from the <strong>Add pages</strong> dialog one can create a new sitemap entry that is used as detail page for a certain content type or function, e.g., for news articles. Detail pages are used to link from lists of contents to detailed views on these entries or to e.g., search results. Read more about the detail pages here:</p>
 <ul>
 <li><a href="%(link0)">A general description on lists and detail pages</a></li>
 <li><a href="%(link1)">A demo of lists and detail pages</a></li>

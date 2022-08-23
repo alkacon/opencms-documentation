@@ -24,11 +24,11 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/typical-tasks/writing-jsps/image-handling/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/jsp-development/image-handling/]]></target>
             <uuid>bc83ebc1-d1c4-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<div class="alert alert-info">Get some more information on image handling in OpenCms <a href="%(link0)">here</a>.</div>]]></content>
+        <content><![CDATA[<p>Get some more information on image handling in OpenCms <a href="%(link0)">here</a>.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>
