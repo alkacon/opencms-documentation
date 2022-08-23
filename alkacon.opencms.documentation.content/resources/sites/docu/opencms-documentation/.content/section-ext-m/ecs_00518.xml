@@ -6,13 +6,13 @@
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>Writing formatter JSPs is the part that renders content types and gives a website a nice design including aspects of responsive layouts and meta tags. Formatters are written in JSP and OpenCms provides a large variety of JSP utilities that should make presenation of user generated XML contents easy. Some of the JSP utilities are presented here.</p>]]></content>
+        <content><![CDATA[<p>Formatter JSPs fulfill a variety of tasks in OpenCms. Formatters are for rendering text, images and media as provided by contents in a nice design. An outstanding possibility that formatter JSP offer is the realization of responsive layouts with so called nested containers. Formatters are written in JSP and OpenCms provides a large variety of JSP utilities that should make the development of formatters easy.</p>]]></content>
       </Text>
       <Link>
         <Text/>
         <URI>
           <link internal="true" type="WEAK">
-            <target><![CDATA[/sites/docu/opencms-documentation/template-development/writing-a-formatter/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-examples/writing-a-formatter/]]></target>
             <uuid>bc0403ab-21ff-11ed-8700-0242ac11002b</uuid>
           </link>
         </URI>

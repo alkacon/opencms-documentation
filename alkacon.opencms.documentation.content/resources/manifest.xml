@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The contents of the Alkacon OpenCms documentation.]]></description>
-		<version>13.0.46</version>
+		<version>13.0.47</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -40503,7 +40503,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Overview: Template development]]></value>
+					<value><![CDATA[Overview: Template examples]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -40844,6 +40844,23 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Enabling a content type: Preparation 4: Connect the template with the website]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01278.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01278.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>d6a8329c-2301-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>d6a8329d-2301-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Tue, 23 Aug 2022 16:37:12 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Overview: Welcome to the template examples]]></value>
 				</property>
 			</properties>
 			<relations/>

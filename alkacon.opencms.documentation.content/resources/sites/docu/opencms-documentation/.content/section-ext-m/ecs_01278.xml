@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Welcome to the template examples]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/]]></target>
+            <uuid>30c1d17c-d1ca-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon]]></target>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/introduction/getting-started/]]></target>
+            <uuid>ec02eecb-0269-11ed-8ebc-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>This part of the documentation provides a collection of simple and reproducible examples to introduce to the basic skills of <a href="%(link0)">template development</a>.</p>
+<p>If you are new to OpenCms, it is better to go through the examples from begin to end since the chapters built upon each other. You cannot understand the details of developing a formatter without a basic understanding of what a content type and a template JSP is, and so on.</p>
+<p>If you are an already experienced OpenCms developer, it is also possible to read selected chapters only.</p>
+<p>The source code for each example is <a href="%(link1)">available on GitHub</a>. There are three possibilites what you can do with the sources:</p>
+<ul>
+<li>You can just read the sources while going through the examples.</li>
+<li>You can install the example modules into your <a href="%(link2)">local OpenCms installation</a>.</li>
+<li>You can reproduce the examples in an empty local installation. There is no development environment needed for this. You can use OpenCms' built-in editing tools.</li>
+</ul>
+<p>Topics overview:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>
