@@ -2,16 +2,18 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Summary]]></Title>
+    <Title><![CDATA[Docker Hub]]></Title>
     <Section>
       <Text name="Text0">
         <links>
           <link name="link0" internal="false" type="A">
-            <target><![CDATA[https://bitbucket.org/alkacon/opencms-examples/src/master/org.opencms.examples.content/resources/]]></target>
+            <target><![CDATA[https://hub.docker.com/r/alkacon/opencms-docker/]]></target>
           </link>
         </links>
-        <content><![CDATA[<p>This chapter explains the basic aspects of defining a content type including data integrity and UI configuration.</p>
-<p>The source code of the examples accompanying this chapter is available on <a href="%(link0)" target="_blank" rel="noopener">GitHub</a>.</p>]]></content>
+        <content><![CDATA[<p>The official docker image is available on Docker Hub:</p>
+<ul>
+<li><a href="%(link0)">https://hub.docker.com/r/alkacon/opencms-docker/</a></li>
+</ul>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

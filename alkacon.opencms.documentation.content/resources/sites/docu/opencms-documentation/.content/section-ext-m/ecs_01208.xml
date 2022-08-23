@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Image drag and drop]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Image drag'n'drop allows you to drag'n'drop images from galleries directly into contents. It eases content editing significantly. Just try the example below.</p>
+<p>In the above example, we formatted the demo article content. All the image drag'n'drop "magic" is enabled in the&nbsp;<a style="box-sizing: border-box; color: inherit; text-decoration: none; background-color: transparent;" tabindex="0" role="button" data-container="body" data-toggle="popover" data-placement="bottom" data-content="&lt;p&gt;In OpenCms contents are rendered by formatters. These consist of a formatter JSP and a formatter configuration - or are defined as macro formatters. Read more about formatters &lt;a href=&quot;/opencms-documentation/content-in-opencms/formatters-and-their-configuration/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;" data-trigger="focus"><abbr title="Click to see description">formatter</abbr></a>&nbsp;via the&nbsp;<code>content.imageDnd[content.value.Image.path]</code>&nbsp;annotations on the&nbsp;<code>&lt;div&gt;</code>&nbsp;that surrounds the&nbsp;<code>&lt;cms:img&gt;</code>&nbsp;tag.</p>
+<p>Below you see the&nbsp;<a style="box-sizing: border-box; color: inherit; text-decoration: none; background-color: transparent;" tabindex="0" role="button" data-container="body" data-toggle="popover" data-placement="bottom" data-content="&lt;p&gt;In OpenCms contents are rendered by formatters. These consist of a formatter JSP and a formatter configuration - or are defined as macro formatters. Read more about formatters &lt;a href=&quot;/opencms-documentation/content-in-opencms/formatters-and-their-configuration/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;" data-trigger="focus"><abbr title="Click to see description">formatter</abbr></a>&nbsp;used for the above example.</p>
+<p>The annotation must be placed at the &lt;img&gt; tag itself or a surrounding div. It has always the style&nbsp;<code>${content.imageDnd[&lt;XPath to the&nbsp;<a style="box-sizing: border-box; color: inherit; text-decoration: none; background-color: transparent;" tabindex="0" role="button" data-container="body" data-toggle="popover" data-placement="bottom" data-content="&lt;p&gt;In an XML schema definition, the elements of types are called 'schema elements'.&lt;/p&gt;" data-trigger="focus"><abbr title="Click to see description">schema element</abbr></a>&nbsp;of the image&gt;]}</code>. The path you get via&nbsp;<code>content.value.&lt;ImageElement&gt;.path</code>. Of course, images can also reside in a nested content.</p>
+<div class="alert alert-info">The drag'n'drop does not work if no image is present before. To use it efficiently, you should add placeholder pictures to your contents by default.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

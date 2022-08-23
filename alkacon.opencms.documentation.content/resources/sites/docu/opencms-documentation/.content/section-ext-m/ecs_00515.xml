@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Step 3: Create a resource type]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/resource-types-app/]]></target>
+            <uuid>dd59c3c2-d1c6-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/launchpad/]]></target>
+            <uuid>6bf9fb4c-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/main-toolbar/]]></target>
+            <uuid>d955b2fe-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link3" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/explorer/]]></target>
+            <uuid>71c1c77d-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Use the <a href="%(link0)">Resource types app</a> to crate a new resource type:</p>
+<ul>
+<li>From the Quick launch menu, open the&nbsp;<a href="%(link1)">Launchpad</a></li>
+<li>In the Launchpad, click on the resource types app</li>
+<li>Start creating a new resource type by clicking on the wand icon in the&nbsp;<a href="%(link2)">Main toolbar</a></li>
+<li>When asked for a module, choose the newly created module <code>org.opencms.examples.formatterconfig</code> from above</li>
+<li>In the <em>Add new resource type dialog</em><code></code>, type in the following data:<br />
+<ul>
+<li><strong>Name:</strong>&nbsp;<code>example-formatter-configuration</code></li>
+<li><strong>XPath element-name:</strong>&nbsp;<code>ExampleFormatterConfiguration</code></li>
+<li><strong>Display name:</strong> Example formatter configuration</li>
+<li><strong>Description:</strong> Example formatter configuration.</li>
+</ul>
+</li>
+<li>Leave the rest as is and click on save</li>
+</ul>
+<p>This creates our example content type that will be enabled for editing and publication on a webiste at the end of this chapter.</p>
+<p>It also creates a basic formatter configuration. To verify that the formatter configuration is available, use the <a href="%(link3)">Explorer</a> to open the newly created file at <code>/system/modules/org.opencms.examples.formatterconfig/formatters/example-formatter-configuration.xml</code>.</p>
+<p>The resource types app already prepared some important configurations:</p>
+<ul>
+<li><strong><em>Resource type</em></strong> links the formatter with the content type</li>
+<li><strong><em>JSP</em></strong> links the formatter JSP also created by the resource types app</li>
+</ul>
+<p>&nbsp;</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

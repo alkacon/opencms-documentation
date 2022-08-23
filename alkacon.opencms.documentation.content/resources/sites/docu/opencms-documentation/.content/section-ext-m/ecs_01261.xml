@@ -31,7 +31,7 @@
             <anchor><![CDATA[vfs-file-widget-8dc2769f]]></anchor>
           </link>
         </links>
-        <content><![CDATA[<p>The fields in the form editor appear in the order defined in the XSD sequence. The names of the fields are used as the labels of the form fields. And the field types make the editor automatically choose an appropriate <a href="%(link0)">Widget</a> for data edition:</p>
+        <content><![CDATA[<p>The fields in the form editor appear in the order defined in the XSD sequence. The names of the fields in the schema document are used as the labels of the form fields in the UI. And the field types make the editor automatically choose an appropriate <a href="%(link0)">Widget</a> for data edition:</p>
 <ul>
 <li>Title field: <a href="%(link1)">String widget</a></li>
 <li>Date field: <a href="%(link2)">Date-picker widget</a></li>

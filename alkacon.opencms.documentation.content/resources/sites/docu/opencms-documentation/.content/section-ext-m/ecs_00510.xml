@@ -6,8 +6,17 @@
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>Introducing new content types is a core requirement of template development. In OpenCms, a subset of the XML Schema language is used to define the structure and data fields of content types. Once created, a content type in OpenCms is automatically provided with a user-friendly form editor. There are numerous configuration options for fine-grained customization of the form editor, some of them showcased in this chapter.&nbsp;</p>]]></content>
+        <content><![CDATA[<p>Defining content types is a core requirement of template development. In OpenCms, a subset of the XML Schema language is used to define the structure and data fields of content types. Once created, a content type in OpenCms is automatically provided with a user-friendly form editor. There are numerous configuration options for fine-grained customization of the form editor, some of them showcased in this chapter.&nbsp;</p>]]></content>
       </Text>
+      <Link>
+        <Text/>
+        <URI>
+          <link internal="true" type="WEAK">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/defining-a-content-type/]]></target>
+            <uuid>ad3bfea2-d1c7-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </URI>
+      </Link>
     </Section>
   </ExtendedSection>
 </ExtendedSectionData>

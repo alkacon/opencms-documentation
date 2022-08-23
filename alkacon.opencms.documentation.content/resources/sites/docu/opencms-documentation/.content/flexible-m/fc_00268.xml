@@ -5,7 +5,7 @@
     <Title><![CDATA[Modified schema]]></Title>
     <Code><![CDATA[<xsd:sequence>
   <xsd:element name="Title" type="OpenCmsString" />
-  <xsd:element name="Date" type="OpenCmsDate" />
+  <xsd:element name="DateTime" type="OpenCmsDateTime" />
   <xsd:element name="Text" type="OpenCmsHtml" />
   <xsd:element name="LinkURI" type="OpenCmsVarLink" />
   <xsd:element name="Categories" type="OpenCmsDynamicCategory" />

@@ -9,6 +9,14 @@
           <link name="link0" internal="false" type="A">
             <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/jsp/util/CmsJspContentAccessBean.html]]></target>
           </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/technical-reference/jsp-development/]]></target>
+            <uuid>715565e8-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/todo/demos/element-settings/]]></target>
+            <uuid>e49bec17-d1cc-11ec-9238-0242ac11002b</uuid>
+          </link>
         </links>
         <content><![CDATA[<p>Here are the interesting spots of the formatter:</p>
 <ul>
@@ -17,6 +25,11 @@
 <li>The formatter tests if elements are present in the currently rendered content, e.g., via <code>value.Image.isSet</code> in the example, and inserts content values in the HTML, e.g., via <code>value.Title</code> in the example.</li>
 <li>The formatter is sensitive to element settings. In the example, the image is only rendered if the setting <code>showImage</code> is <code>true</code>, which is checked via <code>cms.element.settings["showImage"] eq "true"</code>.</li>
 <li>The formatter enables inline editing - here only for the Headline by adding <code>${rdfa.Title}</code> to the <code>&lt;h3&gt;</code> tag.</li>
+</ul>
+<p>Writing a formatter is like writing a normal JSP, but some of the special OpenCms JSP API is in particular useful in formatters. The topics listed below will be helpful in writing formatters.</p>
+<ul>
+<li><a href="%(link1)">Get some background about the OpenCms JSP API.</a></li>
+<li><a href="%(link2)">See a demo of a formatter that uses element settings.</a></li>
 </ul>]]></content>
       </Text>
     </Section>

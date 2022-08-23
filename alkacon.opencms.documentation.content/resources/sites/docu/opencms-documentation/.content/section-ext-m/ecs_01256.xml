@@ -12,7 +12,7 @@
 <p>In the example below, the <code>&lt;cms:container&gt;</code> is named <code>main</code>. A template JSP may contain more than one container. The individual name should be unique within the whole template.</p>
 <p>The container is of type <code>element</code>, which means that, for now, any element may occupy this container. The type name <code>element</code> is freely choosen.</p>
 <p>The <code>maxElements</code> attribute restricts the size of the container to a maximum number of 30 elements.</p>
-<p>Inside the container, there is a DIV representing the drop area, where editors later can drag and drop new contents. Make sure that this DIV has a defined width and height, event if empty.</p>]]></content>
+<p>Inside the container, there is a DIV representing the drop area, where editors can drag and drop new contents. Make sure that this DIV has a defined width and height, event if empty.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

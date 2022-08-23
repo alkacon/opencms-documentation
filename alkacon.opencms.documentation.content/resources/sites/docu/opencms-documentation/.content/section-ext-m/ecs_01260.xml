@@ -6,8 +6,8 @@
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>To learn defining a content type, create another content type named <code>ExampleContentV2</code> (<code>example-content-v2</code>) with the resource types app as explained above. Add another element named <code>Date</code> of type <code>OpenCmsDateTime</code> at the second position of the <code>&lt;xsd:sequence&gt;</code> and an element named <code>Categories</code> of type <code>OpenCmsDynamicCategory</code>&nbsp;at the end. Further, delete the field named <code>Image</code> from the sequence. As an experiment, completely delete the <code>&lt;resourcebundles&gt;</code> and the <code>&lt;FieldSettings&gt;</code> elements, the resource types app did insert into the <code>&lt;xsd:appinfo&gt;</code> element.</p>
-<p>Open the explorer, click on the wand icon, select "All" in the select box, and choose <code>Example content V2</code>&nbsp;from the list of contents shown. This will create a new example content in the folder currently opened in the editor.</p>
+        <content><![CDATA[<p>To learn defining a content type, create another content type named <code>ExampleContentV2</code> (<code>example-content-v2</code>) with the resource types app as explained above. Add another element named <code>DateTime</code> of type <code>OpenCmsDateTime</code> at the second position of the <code>&lt;xsd:sequence&gt;</code> and an element named <code>Categories</code> of type <code>OpenCmsDynamicCategory</code>&nbsp;at the end. Further, delete the field named <code>Image</code> from the sequence. As an experiment, completely delete the <code>&lt;resourcebundles&gt;</code> and the <code>&lt;FieldSettings&gt;</code> elements, the resource types app did insert into the <code>&lt;xsd:appinfo&gt;</code> element.</p>
+<p>Open the explorer, click on the wand icon, select "All" in the select box, and choose <code>Example content V2</code> from the list of contents shown. This will create a new example content in the folder currently opened in the explorer.</p>
 <p>Clicking on this file will open the form editor.</p>]]></content>
       </Text>
       <Image>
