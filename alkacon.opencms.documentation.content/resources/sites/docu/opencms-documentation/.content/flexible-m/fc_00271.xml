@@ -3,20 +3,20 @@
 <FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
   <Flexible language="en">
     <Title><![CDATA[Inline editing]]></Title>
-    <Code><![CDATA[<%@page buffer="none" session="false" taglibs="c,cms" %>
-<cms:formatter var="content" val="value" rdfa="rdfa" >
-<div style="margin-bottom:30px;" ${not value.Image.isSet?rdfa.Image:""} >
-    <div class="headline"><h3 ${rdfa.Title}>${value.Title}</h3></div>
-	<c:if test="${value.Image.isSet}">
-		<div style="float:left;" ${rdfa.Image}>
-			<cms:img src="${value.Image}" height="100" width="300" />
-		</div>
-	</c:if>
-    <div ${content.rdfa.Text}>
-        ${value.Text}
+    <Code><![CDATA[<%@page%>
+<cms:formatter var="content" val="value" rdfa="rdfa">
+  <div class="content block">
+    <div ${not value.Image.isSet ? rdfa.Image : ""}>
+      <c:if test="${value.Image.isSet}">
+        <img src="${value.Image.toImage}" ${rdfa.Image}/>
+      </c:if>
     </div>
-	<div style="clear:left;"></div>
-</div>
+    <div>
+      <h2 ${rdfa.Title}>${value.Title}</h2>
+      <div ${rdfa.Text}>${value.Text}</div>
+    </div>
+    <hr>
+  </div>
 </cms:formatter>]]></Code>
   </Flexible>
 </FlexibleData>

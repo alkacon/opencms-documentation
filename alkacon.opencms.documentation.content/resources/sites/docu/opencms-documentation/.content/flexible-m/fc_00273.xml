@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Basic formatter]]></Title>
+    <Code><![CDATA[<%@page buffer="none" session="false" trimDirectiveWhitespaces="true"%>
+<%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<cms:formatter var="content">
+  <div class="block">
+    <h3>${content.value.Title}</h3>
+    <c:if test="${content.value.Image.isSet)}">
+      <img src="${content.value.Image.toImage}">
+    </c:if>
+    <c:if test="${content.value.Text.isSet}">
+      <p>${content.value.Text}</p>
+    </c:if>
+  </div>
+</cms:formatter>]]></Code>
+  </Flexible>
+</FlexibleData>

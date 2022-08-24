@@ -18,15 +18,14 @@
             <uuid>ec02eecb-0269-11ed-8ebc-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>This part of the documentation provides a collection of simple and reproducible examples to introduce to the basic skills of <a href="%(link0)">template development</a>.</p>
-<p>If you are new to OpenCms, it is better to go through the examples from begin to end since the chapters built upon each other. You cannot understand the details of developing a formatter without a basic understanding of what a content type and a template JSP is, and so on.</p>
-<p>If you are an already experienced OpenCms developer, it is also possible to read selected chapters only.</p>
-<p>The source code for each example is <a href="%(link1)">available on GitHub</a>. There are three possibilites what you can do with the sources:</p>
-<ul>
-<li>You can just read the sources while going through the examples.</li>
-<li>You can install the example modules into your <a href="%(link2)">local OpenCms installation</a>.</li>
-<li>You can reproduce the examples in an empty local installation. There is no development environment needed for this. You can use OpenCms' built-in editing tools.</li>
-</ul>
+        <content><![CDATA[<p>This part of the documentation provides a collection of simple and reproducible examples to learn the basics of <a href="%(link0)">template development</a>.</p>
+<p>The source code for each example is <a href="%(link1)">available on GitHub</a>. There are three possibilites what you can do with the source code:</p>
+<ol>
+<li>You can just read the source code while going through the examples.</li>
+<li>You can install the example modules into your <a href="%(link2)">local OpenCms installation</a> and you can experiment with and modify the example source code.</li>
+<li>You can reproduce the examples from. You do this best starting with a fresh and empty local installation. There is no development environment needed for this. You can use OpenCms' built-in editing tools.</li>
+</ol>
+<p>The second option is recommended if you are new to OpenCms. Install the examples and go through the examples from begin to end. The former chapters cover simpler topics such as developing formatters and templates with JSP. The latter chapters explain advanced aspects of configuration, which can be challenging even for advanced OpenCms developers.</p>
 <p>Topics overview:</p>]]></content>
       </Text>
     </Section>

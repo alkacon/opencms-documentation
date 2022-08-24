@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Card formatter]]></Title>
+    <Code><![CDATA[<cms:formatter var="content" val="value">
+  <div class="card block">
+    <c:if test="${value.Image.isSet}">
+      <div class="card-image">
+        <figure class="image">
+          <img src="${value.Image.toImage}"/>
+        </figure>
+      </div>
+    </c:if>
+    <div class="card-content">
+      <div class="content">
+        <h2>${value.Title}</h2>
+        <p>${value.Text}</p>
+        <c:if test="${value.LinkURI.isSet}">
+          <div>
+            <a class="button" href="<cms:link>${value.LinkURI}</cms:link>">Read more...</a>
+          </div>
+        </c:if>
+      </div>
+    </div>
+  </div>
+</cms:formatter>]]></Code>
+  </Flexible>
+</FlexibleData>

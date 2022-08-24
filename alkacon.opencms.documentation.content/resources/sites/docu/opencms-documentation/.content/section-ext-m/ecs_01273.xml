@@ -7,11 +7,11 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/technical-reference/formatters-and-their-configuration/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/formatters-and-their-configuration/]]></target>
             <uuid>8c2d82ed-d1c8-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>It is often relatively easy for web developers new to OpenCms to create a temple JSP and to define a content type with the help of the XML schema langauge. What is often more difficult is the integration of a content type into a website: "I have developed a content type. How can I configure it now in such a way that it can be displayed in my website and dragged onto a webpage by editors".</p>
+        <content><![CDATA[<p>It is often relatively easy for OpenCms developers to create a temple JSP and to define a content type with the help of the XML schema langauge. What is often more difficult is the integration of a content type into a website: "I have developed a content type. How can I configure it now in such a way that it can be displayed in my website and dragged onto a webpage by editors".</p>
 <p>This chapter shows how to configure a website with a first content type from scratch with special remark on the <a href="%(link0)">Formatter configuration</a>. Formatter configurations control the interplay between several technical parts of a website: the <strong>XSD content definition</strong>, its visual presentation with a <strong>formatter JSP</strong>, its usage in a specific <strong>template</strong>, and its integration into the <strong>editing environment</strong>. In order to understand a formatter configuration in the context of these four technical parts, the chapter proceeds in several steps:</p>
 <ul>
 <li>create a module where the content type to be enabled and the formatter configuration will be stored&nbsp;<br />
