@@ -3,7 +3,7 @@
 <FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
   <Flexible language="en">
     <Title><![CDATA[Auto setup command]]></Title>
-    <Code><![CDATA[java -classpath "$OPENCMS/WEB-INF/lib/*:$OPENCMS/WEB-INF/classes:/usr/share/tomcat7/lib/*"\
+    <Code><![CDATA[java -classpath "$OPENCMS/WEB-INF/lib/*:$OPENCMS/WEB-INF/classes:/usr/share/tomcat9/lib/*"\
 org.opencms.setup.CmsAutoSetup\
 -path $CONFIG_FILE]]></Code>
   </Flexible>

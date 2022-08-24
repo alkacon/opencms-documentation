@@ -2,11 +2,11 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Apache web server configuration]]></Title>
+    <Title><![CDATA[Apache proxy configuration]]></Title>
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>We recommend using the Apache web server and the Tomcat servlet container for running OpenCms. Here is how to configure Apache to communicate with Tomcat via AJP (Apache JServ Protocol) using the module proxy_ajp, that is shipped with Apache by default (from version 2.2 onwards).</p>]]></content>
+        <content><![CDATA[<p>Here we provide some hints on how to run Tomcat behind an Apache proxy server viaTomcat's&nbsp; AJP (Apache JServ Protocol) and using the module proxy_ajp, that is shipped with Apache by default (from version 2.2 onwards).</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

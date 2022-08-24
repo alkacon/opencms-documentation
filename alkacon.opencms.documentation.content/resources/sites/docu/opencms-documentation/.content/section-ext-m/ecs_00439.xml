@@ -6,7 +6,8 @@
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>When OpenCms is the only webapp in your servlet container, you can alter the SAX parser configuration by adding the optional configuration node <code>&lt;sax-impl-system-properties&gt;</code> with value <code>true</code>, below the sites configuration in the <code>opencms-system.xml</code>, as shown below.</p>]]></content>
+        <content><![CDATA[<p>Some less OpenCms users have reported poor XML unmarshalling performance. When OpenCms is the only web application in your servlet container, there is the possibility to improve this.</p>
+<p>To do so, alter the SAX parser configuration by adding the optional configuration node <code>&lt;sax-impl-system-properties&gt;</code> with value <code>true</code>, below the sites configuration in the <code>opencms-system.xml</code>, as shown below.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

@@ -2,11 +2,11 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[The setup script]]></Title>
+    <Title><![CDATA[Headless installation]]></Title>
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>OpenCms can be installed automatically. Parameters used in the installation are provided via a config file and then a Java program shipped with OpenCms sets up OpenCms. Here you'll learn how to set up OpenCms using the auto-setup.</p>]]></content>
+        <content><![CDATA[<p>OpenCms can be installed headless instead of using the installtion wizard. Parameters used in the installation are provided via a config file and then a Java program sets up OpenCms. Here you'll learn how to set up OpenCms using the auto-setup.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>
