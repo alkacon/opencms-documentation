@@ -12,9 +12,6 @@ module.exports = {
          imports:  true,
          properties: ['src', 'background', 'background-image'],
          rules: [{
-             from: '../photoswipe/',
-             to: npmConfig.resourcePath('photoswipe/')
-         },{
              from: '../fonts/',
              to: npmConfig.resourcePath('fonts/')
          }]
