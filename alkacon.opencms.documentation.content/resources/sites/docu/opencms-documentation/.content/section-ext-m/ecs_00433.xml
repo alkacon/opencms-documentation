@@ -14,8 +14,12 @@
             <target><![CDATA[/sites/docu/opencms-documentation/server-administration/headless-installation/]]></target>
             <uuid>87123ca5-d1ce-11ec-9238-0242ac11002b</uuid>
           </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/server-administration/database-settings/]]></target>
+            <uuid>63025d0e-d1ce-11ec-9238-0242ac11002b</uuid>
+          </link>
         </links>
-        <content><![CDATA[<p>After OpenCms war file is deployed, there are two ways to set up OpenCms: manual installation via the <a href="%(link0)">install wizard</a> or the <a href="%(link1)">headless installation</a>.</p>]]></content>
+        <content><![CDATA[<p>After the OpenCms war file is deployed, there are two ways to set up OpenCms: manual installation via the <a href="%(link0)">install wizard</a> or the <a href="%(link1)">headless installation</a>. Do not forget to find your optimal <a href="%(link2)">database settings</a> before running the setup.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

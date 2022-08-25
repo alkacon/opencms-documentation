@@ -10,7 +10,7 @@
             <target><![CDATA[http://chemistry.apache.org/java/download.html]]></target>
           </link>
         </links>
-        <content><![CDATA[<p>OpenCms version 8.5 and later comes with CMIS connectivity out of the box. So no configuration is required on the OpenCms side. We assume that an OpenCms instance is running locally under <code>http://localhost:8080/opencms</code>, where <code>opencms</code> is the web application name.</p>
+        <content><![CDATA[<p>CMIS connectivity is activated out of the box and no configuration is required on the OpenCms side. We assume that an OpenCms instance is running locally under <code>http://localhost:8080/opencms</code>, where <code>opencms</code> is the web application name.</p>
 <p>We use the Apache Chemistry Workbench for this example. This is a Java GUI client application for accessing arbitrary CMIS repositories. You can download it from <a href="%(link0)" target="_blank" rel="noopener">here</a>.</p>
 <p>Start the Apache Chemistry Workbench and click the "Connection" button. The following dialog will open:</p>]]></content>
       </Text>

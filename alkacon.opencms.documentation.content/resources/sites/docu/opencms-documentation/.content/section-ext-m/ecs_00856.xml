@@ -7,15 +7,19 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/more-opencms-features/mounting-the-vfs/cmis/]]></target>
-            <uuid>ca97af72-d1ca-11ec-9238-0242ac11002b</uuid>
+            <target><![CDATA[/sites/docu/opencms-documentation/background/the-virtual-file-system/]]></target>
+            <uuid>711b44d5-d1b9-11ec-9238-0242ac11002b</uuid>
           </link>
           <link name="link1" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/more-opencms-features/mounting-the-vfs/network-share-access/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/interfaces/cmis/]]></target>
+            <uuid>ca97af72-d1ca-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/interfaces/network-share-access/]]></target>
             <uuid>bc92aa4a-d1ca-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>On this page we explain how to access the OpenCms virtual file system (VFS) via WebDAV. WebDAV was introduced in OpenCms 12 and is the recommended way replacing the older <a href="%(link0)">CMIS</a> and <a href="%(link1)">Network share access</a> mounting interfaces.</p>]]></content>
+        <content><![CDATA[<p>This page explains how to access the <a href="%(link0)">virtual file system</a> (VFS) via WebDAV. WebDAV is the recommended way of mounting the VFS, replacing the older <a href="%(link1)">CMIS</a> and <a href="%(link2)">Network share access </a>interfaces.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

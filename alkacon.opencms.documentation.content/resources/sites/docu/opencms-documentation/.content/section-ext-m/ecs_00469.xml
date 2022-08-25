@@ -5,8 +5,13 @@
     <Title><![CDATA[Configuring an AJP connector]]></Title>
     <Section>
       <Text name="Text0">
-        <links/>
-        <content><![CDATA[<p>In order to run Tomcat behind an Apache proxy, configure an AJP connector.</p>
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/server-administration/apache-proxy-configuration/]]></target>
+            <uuid>95239d1b-d1ce-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>In order to <a href="%(link0)">run Tomcat behind an Apache proxy</a>, configure an AJP connector.</p>
 <p>Edit the file <code>conf/server.xml</code> in Tomcat's home directory and, if not already there, add an AJP connector as shown in the line below:</p>]]></content>
       </Text>
     </Section>

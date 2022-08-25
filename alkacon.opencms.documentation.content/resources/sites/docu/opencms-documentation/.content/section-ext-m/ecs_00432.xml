@@ -7,8 +7,9 @@
       <Text name="Text0">
         <links/>
         <content><![CDATA[<p>OpenCms can be deployed by copy and pasting the <code>opencms.war</code> file into Tomcat's <code>webapps/</code> directory.</p>
-<p>If you copy it with the standard name opencms.war, OpenCms will be reachable under the <code>/opencms/</code> context path, e.g., on <code>http://localhost:8080/opencms/</code>.</p>
-<p>To get rid of the <code>/opencms/</code> context path, rename the <code>opencms.war</code> file into <code>ROOT.war</code> before copying the war file into Tomcat's <code>webapps/</code> directory. In this way, OpenCms will be reachable as the root application, e.g., at <code>http://localhost:8080/</code>.</p>]]></content>
+<p>If you copy it with the standard name <code>opencms.war</code>, OpenCms will be reachable under the <code>/opencms/</code> context path, e.g., on <code>http://localhost:8080/opencms/</code>.</p>
+<p>To get rid of the <code>/opencms/</code> context path, rename the <code>opencms.war</code> file into <code>ROOT.war</code> before copying the war file into Tomcat's <code>webapps/</code> directory. In this way, OpenCms will be reachable as the root application, e.g., at <code>http://localhost:8080/</code>.</p>
+<p>It is possible to change to port in Tomcat's <code>conf/server.xml</code> configuration file.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

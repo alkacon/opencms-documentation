@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The contents of the Alkacon OpenCms documentation.]]></description>
-		<version>13.0.49</version>
+		<version>13.0.50</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -27039,7 +27039,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Configuring an AJP connector]]></value>
+					<value><![CDATA[Tomcat configuration: Configuring an AJP connector]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -42711,6 +42711,10 @@
 					<name>Title</name>
 					<value><![CDATA[Server administration]]></value>
 				</property>
+				<property>
+					<name>default-file</name>
+					<value><![CDATA[##navigation_level_folder##]]></value>
+				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
@@ -42718,15 +42722,27 @@
 		<file>
 			<source>sites/docu/opencms-documentation/server-administration/index.html</source>
 			<destination>sites/docu/opencms-documentation/server-administration/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>3109d9e6-d1ce-11ec-9238-0242ac11002b</uuidstructure>
-			<uuidresource>3109d9e7-d1ce-11ec-9238-0242ac11002b</uuidresource>
-			<datecreated>Thu, 12 May 2022 08:33:25 GMT</datecreated>
+			<type>htmlredirect</type>
+			<uuidstructure>06d72728-243a-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>06d72729-243a-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Thu, 25 Aug 2022 05:51:55 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Server administration]]></value>
+					<value><![CDATA[Redirect to first page in navigation]]></value>
+				</property>
+				<property>
+					<name>default-file</name>
+					<value><![CDATA[##navigation_level_folder##]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -42741,7 +42757,7 @@
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[2.5]]></value>
+					<value><![CDATA[10.0]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
@@ -42781,7 +42797,7 @@
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[0.5]]></value>
+					<value><![CDATA[6.0]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
@@ -42821,7 +42837,7 @@
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[7.0]]></value>
+					<value><![CDATA[2.625]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
@@ -42981,7 +42997,7 @@
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[2.0]]></value>
+					<value><![CDATA[9.0]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
