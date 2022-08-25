@@ -3,8 +3,11 @@
 <FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
   <Flexible language="en">
     <Title><![CDATA[Forcing synchronization for a schema element]]></Title>
-    <Code><![CDATA[<synchronizations> 
-    <synchronization element="Paragraph/Image/Image" /> 
-</synchronizations>]]></Code>
+    <Code><![CDATA[<FieldSettings>
+    <Setting>
+        <PropertyName>Id</PropertyName>
+        <Synchronization>true</Synchronization>
+	</Setting>
+</FieldSettings>]]></Code>
   </Flexible>
 </FlexibleData>

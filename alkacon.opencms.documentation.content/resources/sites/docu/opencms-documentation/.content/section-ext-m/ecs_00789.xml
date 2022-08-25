@@ -6,9 +6,9 @@
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>OpenCms supports multiple languages. By nature, each content is multi-lingual. It contains several language specific versions for each element. Typically these versions should differ. For example, text elements should contain text in the respective language.</p>
-<p>For some content elements the values should be the same in every language. For example, images might be identical for different languages. Moreover, if you use content items for configuration, the values usually ought to be identical for each language - not language specific.</p>
-<p>To keep values identical - independent of the language - you can configure that an element's values should be synchronized. That means, if you change the value for one language, it is changed for all languages.</p>]]></content>
+        <content><![CDATA[<p>OpenCms supports multi-lingual contents and stores language specific values for each content element. For textual values, it is intended in most cases that the values differ for each language.</p>
+<p>In some situations, though, it is desirable that content element values are the same for every language. For example, you might use the same image or the same date for each language of an event content.</p>
+<p>To keep values identical—independent of the language—one can configure that an element's values should be synchronized. This means, if you change the value for one language in the editor, it is changed for all languages.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

@@ -5,8 +5,13 @@
     <Title><![CDATA[Defining the visibility of a schema element]]></Title>
     <Section>
       <Text name="Text0">
-        <links/>
-        <content><![CDATA[<p>Which schema element should be visible to which users is defined in the schema definition (XSD) in the section <code>xsd:annotation/xsd:appinfo</code>. Using the <code>&lt;visibility&gt;</code> node, you can define when a content element should be shown in the content editor. A possible configuration could look like:</p>]]></content>
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/field-settings-reference/]]></target>
+            <uuid>069bfb76-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Which schema element is visible to which users can be defined with a <code>&lt;Visibility&gt;</code> <a href="%(link0)">field setting</a> in the schema definition (XSD) in the section <code>xsd:annotation/xsd:appinfo</code>. A possible configuration could look like this:</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

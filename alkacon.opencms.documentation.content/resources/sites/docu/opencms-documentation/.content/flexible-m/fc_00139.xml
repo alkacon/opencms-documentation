@@ -18,6 +18,7 @@
     <xsd:complexType name="OpenCmsHideExample">
         <xsd:sequence>
             <xsd:element name="NotForEveryOne" type="OpenCmsString" />
+            <xsd:element name="ForNobody" type="OpenCmsHtml" />
             <xsd:element name="ForEveryOne" type="OpenCmsHtml" />
         </xsd:sequence>
         <xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
@@ -25,9 +26,16 @@
 
     <xsd:annotation>
         <xsd:appinfo>
-            <visibilities>
-                <visibility element="Title" params="Administrators|Projectmanagers|ROLE.GALLERY_EDITOR" />
-            </visibilities>
+            <FieldSettings>
+                <Setting>
+                    <PropertyName>NotForEveryOne</PropertyName>
+                    <Visibility>Administrators|Projectmanagers|ROLE.GALLERY_EDITOR</Visibility>
+                </Setting>
+                <Setting>
+                    <PropertyName>ForNobody</PropertyName>
+                    <Visibility>hidden</Visibility>
+                </Setting>
+            </FieldSettings>
         </xsd:appinfo>
     </xsd:annotation>
 

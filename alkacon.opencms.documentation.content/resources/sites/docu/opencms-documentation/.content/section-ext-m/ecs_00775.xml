@@ -2,16 +2,20 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Defining your own visibility handler]]></Title>
+    <Title><![CDATA[Defining a custom visibility handler]]></Title>
     <Section>
       <Text name="Text0">
         <links>
-          <link name="link0" internal="false" type="A">
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/field-settings-reference/]]></target>
+            <uuid>069bfb76-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="false" type="A">
             <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/xml/content/I_CmsXmlContentVisibilityHandler.html]]></target>
           </link>
         </links>
-        <content><![CDATA[<p>To implement your own visibility handler, you have to implement the interface&nbsp;<code><a href="%(link0)">I_CmsXmlContentVisibilityHandler</a></code> found in the package <code>org.opencms.xml.content</code>. The only method to implement is <code>isValueVisible(..)</code>. The method return a Boolean value, indicating if the element should be shown or not. The method's arguments provide various contextual information to decide about the visibility. Additionally a configuration string is provided and you are completely free about how to parse and use it.</p>
-<p>To use the self-defined handler, provide its qualified name as the <code>class</code> attribute in the <code>&lt;visibility&gt;</code> node.</p>]]></content>
+        <content><![CDATA[<p>If you want to use a custom visibility handler, you have to choose a <code>&lt;FieldVisibility&gt;</code> <a href="%(link0)">field setting</a> which has two child elements <code>&lt;Class&gt;</code> and <code>&lt;Params&gt;</code> where <code>&lt;Class&gt;</code> defines the handler class and <code>&lt;Params&gt;</code> an arbitrary configuration string.</p>
+<p>To implement a custom visibility handler, implement the <code><a href="%(link1)">I_CmsXmlContentVisibilityHandler</a></code> interface and in that the method <code>isValueVisible(..)</code>. The method returns a boolean value indicating whether the element should be shown or not. The method's arguments provide various contextual information. Additionally, a configuration string is provided and you are completely free about how to parse and use it.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

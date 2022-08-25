@@ -2,11 +2,16 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Forcing synchronization for a schema element]]></Title>
+    <Title><![CDATA[Configuration syntax]]></Title>
     <Section>
       <Text name="Text0">
-        <links/>
-        <content><![CDATA[<p>To force synchronization for specific values of a content element, add the following configuration (under <code>xsd:schema/xsd:annotation/xsd:appinfo</code>) to the content type definition:</p>]]></content>
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/field-settings-reference/]]></target>
+            <uuid>069bfb76-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>To force synchronization of content element values, use the <code>&lt;Synchronization&gt;</code> <a href="%(link0)">field setting</a>. The content element to be synchronized is selected with an XPath expression such as <code>Paragraph/Image/Image</code> as shown in the example below:</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

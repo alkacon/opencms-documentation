@@ -5,10 +5,17 @@
     <Title><![CDATA[Widget configuration]]></Title>
     <Section>
       <Text name="Text0">
-        <links/>
-        <content><![CDATA[<p>The form-based and also the inline content editor are based on widgets. For each input field in the editor a special widget is configured that defines how the value can be set. The available widgets reach from check and select boxes up to very advanced image selection or location picker widgets.</p>
-<p>Here you get an overview on the available widgets and learn how you configure the widgets.</p>
-<p>Note that, if the provided widgets do not satisfy your needs, you can also write own widgets.</p>]]></content>
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/form-based-editor/]]></target>
+            <uuid>2c5345c7-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/inline-content-editor/]]></target>
+            <uuid>3936391b-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The <a href="%(link0)">Form-based content editor</a> and also the <a href="%(link1)">Inline content editor</a> are based on widgets. For each input field in the editor, a special widget is configured that defines how a value can be set. The available widgets reach from check boxes and select boxes up to very advanced image selection or location picker widgets. Here you get an overview on the available widgets and learn how to configure them.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

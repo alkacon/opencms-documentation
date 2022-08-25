@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Example of a custom field visibility handler configuration]]></Title>
+    <Code><![CDATA[<xsd:annotation>
+    <xsd:appinfo>
+        <FieldSettings>
+            <Setting>
+                <PropertyName>SomeField</PropertyName>
+                <FieldVisibility>
+                    <Class>org.example.my.handler.VisibilityHandler</Class>
+                    <Params>param1,param2,param3</Params>
+                </FieldVisibility>
+            </Setting>
+        </FieldSettings>
+    </xsd:appinfo>
+</xsd:annotation>]]></Code>
+  </Flexible>
+</FlexibleData>

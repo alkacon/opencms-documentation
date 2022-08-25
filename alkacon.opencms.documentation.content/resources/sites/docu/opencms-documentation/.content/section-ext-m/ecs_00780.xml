@@ -7,12 +7,12 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/todo/localization/message-bundles/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/localization/message-bundles/]]></target>
             <uuid>2563f789-d1ca-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>The last tab element has the optional sub-node <code>&lt;description&gt;</code>. If provided, the text inside this node is displayed as extra information at the very top of the tab content. Use the <code>%(key.)</code> macro for localized descriptions and provide a key from a <a href="%(link0)">workplace bundle</a>.</p>
-<div class="alert alert-info">When configuring tabs explicitly, the first tab should always start with the first schema element of your content. Otherwise OpenCms will add an additional first tab automatically.</div>]]></content>
+        <content><![CDATA[<div class="alert alert-info">When configuring tabs explicitly, the first tab should always start with the first schema element of your content. Otherwise OpenCms will add an additional first tab automatically.</div>
+<p><code>&lt;tab&gt;</code> elements may contain an optional sub-node <code>&lt;description&gt;</code>. If provided, the text inside this node is displayed as extra information at the very top of a tab. Use the <code>%(key.)</code> macro for localized descriptions in combination with a key from a <a href="%(link0)">workplace bundle</a>.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>
