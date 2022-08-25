@@ -7,7 +7,7 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/content-type-definition-with-xml-schema/structure-of-a-content-xsd/]]></target>
             <uuid>80637aaa-d1c8-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
@@ -22,7 +22,7 @@
 <li><em>Schema types provided by OpenCms</em> and included in the XSD via <code>&lt;xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/&gt;</code> in your XSD (see <a href="%(link0)">here</a>). These types are so-called <strong>basic schema types</strong>. They store content like HTML, Strings, Links, Images or Boolean values and for these types (several) special editor widgets exist.</li>
 <li><em>Schema types for nested contents</em> defined in other XSDs that satisfy the special structure required to specify content types. These types define sub-structures of the main content, also called nested contents. The schemas for nested contents must be included into your XSD if you want to use them.</li>
 </ul>
-<p>In the above example, the schema defines that each content that that complies to the schema has:</p>
+<p>In the above example, the schema defines that each content complying to the schema has:</p>
 <ul>
 <li>A <code>Title</code> node with a value of type <code>OpenCmsString</code> followed by,</li>
 <li>a <code>Date</code> node with a value of type <code>OpenCmsTimeDate</code> followed by,</li>
@@ -32,7 +32,28 @@
 <li>and more</li>
 </ul>
 <p>Here's how a content that complies to the above structure can look like:</p>
-<pre><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;<br /><br />&lt;BootstrapBlogs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" <br />                xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/blog.xsd"&gt;<br />&nbsp; &lt;BootstrapBlog language="en"&gt;<br />&nbsp;&nbsp;&nbsp; &lt;Title&gt;&lt;![CDATA[OpenCms is intuitive]]&gt;&lt;/Title&gt;<br />&nbsp;&nbsp;&nbsp; &lt;Date&gt;1400763600000&lt;/Date&gt;<br />&nbsp;&nbsp;&nbsp; &lt;Paragraph&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Text name="Text0"&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;links/&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;content&gt;&lt;![CDATA[&lt;p&gt;At vero eos ...&lt;/p&gt;]]&gt;&lt;/content&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/Text&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Image&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Image&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;link type="WEAK"&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;target&gt;&lt;![CDATA[/sites/default/.galleries/samples/11.jpg]]&gt;&lt;/target&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;uuid&gt;c6d9d552-4705-11e3-8417-000c29d28104&lt;/uuid&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/link&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/Image&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Title&gt;&lt;![CDATA[Vanilla]]&gt;&lt;/Title&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/Image&gt;<br />&nbsp;&nbsp;&nbsp; &lt;/Paragraph&gt;<br />&nbsp;&nbsp;&nbsp; &lt;Author&gt;&lt;![CDATA[Jay Pritchett]]&gt;&lt;/Author&gt;<br />&nbsp; &lt;/BootstrapBlog&gt;<br />&lt;/BootstrapBlogs&gt;</code></pre>
+<pre><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+
+&lt;BootstrapBlogs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"<br />    xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.bootstrap.schemas/schemas/blog.xsd"&gt;
+&lt;BootstrapBlog language="en"&gt;
+&lt;Title&gt;&lt;![CDATA[OpenCms is intuitive]]&gt;&lt;/Title&gt;<br />&nbsp;&nbsp;&nbsp; &lt;Date&gt;1400763600000&lt;/Date&gt;<br />&nbsp;&nbsp;&nbsp; &lt;Paragraph&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Text name="Text0"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;links/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;content&gt;&lt;![CDATA[&lt;p&gt;At vero eos ...&lt;/p&gt;]]&gt;&lt;/content&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/Text&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Image&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Image&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;link type="WEAK"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;target&gt;&lt;![CDATA[/sites/default/.galleries/samples/11.jpg]]&gt;&lt;/target&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;uuid&gt;c6d9d552-4705-11e3-8417-000c29d28104&lt;/uuid&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/link&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/Image&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Title&gt;&lt;![CDATA[Vanilla]]&gt;&lt;/Title&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/Image&gt;
+&nbsp;&nbsp;&nbsp; &lt;/Paragraph&gt;
+&nbsp;&nbsp;&nbsp; &lt;Author&gt;&lt;![CDATA[Jay Pritchett]]&gt;&lt;/Author&gt;
+&nbsp; &lt;/BootstrapBlog&gt;
+&lt;/BootstrapBlogs&gt;</code></pre>
 <p>The interesting part is wrapped in the <code>&lt;BootrapBlog language="en"&gt;</code> node. The surrounding structure is caused by the multi-language support. In the example we have the following schema element sequence:</p>
 <ul>
 <li><code>Title</code></li>

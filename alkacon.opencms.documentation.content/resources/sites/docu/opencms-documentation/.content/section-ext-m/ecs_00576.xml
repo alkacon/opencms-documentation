@@ -6,12 +6,11 @@
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>The <code>&lt;xsd:choice&gt;</code>-element can be used as single or multiple choice. To use the single choice do not use any attributes on the <code>&lt;xsd:choice&gt;</code>-node. This is the default setting.<br />To use the multiple choice set following attributes:</p>
+        <content><![CDATA[<p>The <code>&lt;xsd:choice&gt;</code>-element can be used as single or multiple choice. To use the single choice do not use any attributes on the <code>&lt;xsd:choice&gt;</code>-node. This is the default setting. To use the multiple choice set following attributes:</p>
 <ul>
 <li><code>minOccurs="0"</code> and</li>
 <li><code>maxOccurs="[max number of elements]"</code>, e.g., <code>maxOccurs="5"</code></li>
-</ul>
-<p><strong>&nbsp;</strong></p>]]></content>
+</ul>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

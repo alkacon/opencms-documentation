@@ -2,11 +2,11 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Simplest way to map a schema element to a search field ]]></Title>
+    <Title><![CDATA[Define a custom Solr field]]></Title>
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>For each schema element, you can specify a Solr search field, that should hold the (possibly processed) value of that field. Here is a very simple example:</p>]]></content>
+        <content><![CDATA[<p>For each schema element, one can define additional Solr fields that store the (possibly processed) value of that element. The result of the example below is the following: for each locale, and extra Solr field <code>atitle_{locale}</code> , e.g. <code>article_en</code>, is added and filled with the locale specific value of the content's <code>Title</code> field.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

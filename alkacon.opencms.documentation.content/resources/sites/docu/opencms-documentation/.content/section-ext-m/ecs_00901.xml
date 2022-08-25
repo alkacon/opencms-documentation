@@ -2,11 +2,11 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Additional attributes of <solrfield> and attribute overview]]></Title>
+    <Title><![CDATA[Attribute overview]]></Title>
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>There are more options to specify the indexing behavior for a content type. In particular, the attributes <code>locale</code>, <code>default</code> and <code>boost</code> can be given for the node <code>&lt;solrfield&gt;</code>. Moreover, since OpenCms 9.5.1, it is possible to add a Solr field not only to the content itself, but also to the containerpages the content is placed on.</p>]]></content>
+        <content><![CDATA[<p>There are more options to specify the indexing behavior for a content type. In particular, the attributes <code>locale</code>, <code>default</code> and <code>boost</code> can be set for <code>&lt;solrfield&gt;</code>. Moreover, it is possible to add a Solr field not only to the content itself, but also to the containerpages the content is placed on.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

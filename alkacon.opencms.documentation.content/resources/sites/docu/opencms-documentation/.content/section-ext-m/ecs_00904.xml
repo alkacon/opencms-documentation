@@ -10,7 +10,7 @@
             <target><![CDATA[https://documentation.opencms.org/javadoc/core/org/opencms/search/fields/I_CmsSearchFieldMapping.html]]></target>
           </link>
         </links>
-        <content><![CDATA[<p>In the example, a dynamic mapping is specified. The class <code>com.alkacon.opencms.documentation.search.CmsVersionNumberSearchFieldMapping</code>&nbsp; (that implements <code><a href="%(link0)">I_CmsSearchFieldMapping</a></code>) specifies how to convert version numbers to long integers. It takes a parameter string that is specified in the body of the <code>&lt;mapping&gt;</code> node (or alternatively given as <code>param</code> attribute). In general, this parameter is an arbitrary string that has to fit the requirements of your class that implements the dynamic mapping. Concerning the example, the class takes the schema element that contains the version number as string.</p>]]></content>
+        <content><![CDATA[<p>In the example, a dynamic mapping is specified. The class <code>com.alkacon.opencms.documentation.search.CmsVersionNumberSearchFieldMapping </code>(that implements <code><a href="%(link0)">I_CmsSearchFieldMapping</a></code>) specifies how to convert version numbers to long integers. It takes a parameter string that is specified in the body of the <code>&lt;mapping&gt;</code> node (or alternatively given as <code>param</code> attribute). In general, this parameter is an arbitrary string that has to fit the requirements of your class that implements the dynamic mapping. Concerning the example, the class takes the schema element that contains the version number as string.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

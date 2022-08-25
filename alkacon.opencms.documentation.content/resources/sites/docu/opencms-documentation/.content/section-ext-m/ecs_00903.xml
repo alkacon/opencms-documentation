@@ -2,11 +2,12 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Indexing more than schema elements]]></Title>
+    <Title><![CDATA[Define custom mappings]]></Title>
     <Section>
       <Text name="Text0">
         <links/>
         <content><![CDATA[<p>OpenCms allows you to map more than single schema elements to a search field. The node <code>&lt;solrfield&gt;</code> takes a series of <code>&lt;mapping&gt;</code> sub nodes. In each such sub node, you can specify which value should be mapped to the Solr target field. Values can be the whole content or schema elements, properties and attributes. Moreover, you can specify your own mappings. All values (of all <code>&lt;mapping&gt;</code> nodes) are stored one after another in the (multi-valued) Solr target field.</p>
+<div class="alert alert-info">Note that the mappings for elements of nested contents can only be defined in the root content's schema document, and not in the nested schema document.&nbsp;</div>
 <p>Here is an example of such a mapping definition:</p>]]></content>
       </Text>
     </Section>

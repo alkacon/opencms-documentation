@@ -2,12 +2,11 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Accessing values in JSPs 2]]></Title>
+    <Title><![CDATA[Default configuration]]></Title>
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>Note that the property <code>exists</code> checks if an element exists, while <code>isSet</code> checks if the element exists <em>and</em> is not empty.</p>
-<p>The other choice elements can be accessed in the same way. Complete example with a choice element inside a nested content:</p>]]></content>
+        <content><![CDATA[<p>If the <code>&lt;searchsettings&gt;</code> element is not present at all, the internal default configurations are applied to the content.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

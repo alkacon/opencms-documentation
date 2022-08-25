@@ -2,11 +2,16 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[General structure of schema type]]></Title>
+    <Title><![CDATA[General structure of a schema type]]></Title>
     <Section>
       <Text name="Text0">
-        <links/>
-        <content><![CDATA[<p>The structure of the schema type reflects the structure of your content. For a schema that is used to define a content type, the structure always is a sequence of elements followed by a language attribute:</p>]]></content>
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/form-based-editor/]]></target>
+            <uuid>2c5345c7-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The general structure of an XSD content definition always is of type <code>&lt;xsd:sequence&gt;</code> followed by a language attribute. This means, that the fields of an XML content are always stored in the order they are defined in the XSD sequence and also in the <a href="%(link0)">Form editor</a> appear in this order. Above that, XML contents are prepared to be multilingual:</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

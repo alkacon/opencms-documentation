@@ -2,13 +2,12 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Add or not add a schema element to the content_{locale} fields]]></Title>
+    <Title><![CDATA[The content_{locale} field]]></Title>
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>The index fields <code>content_{locale}</code> are special fields they are intended to represent the language specific content of a resource. For XML contents, you can decide on schema element level if an element should be added to the <code>content_{locale}</code> fields or not. This is done by the optional attribute <code>searchcontent</code>, available for the tag <code>&lt;searchsetting&gt;</code>. The default value is <code>true</code>, indicating that the element's value is added to the <code>content_{locale}</code>. Setting the value to <code>false</code> will prevent the element from being added to the <code>content_{locale}</code> field.</p>
-<div class="alert alert-info">Note that the mapping setting for elements of nested contents only can be made in the root content's schema <code>element="root element/nested element"</code>. The "searchcontent" attribute can be set in nested and root schema, where the root schema's value is overwrites the value from the nested schema.</div>
-<p>Here's an example configuration, telling that a <code>Date</code> schema element should not be added to the <code>content_{locale}</code> field - while <code>Title</code> and <code>Text</code> should be added.</p>]]></content>
+        <content><![CDATA[<p>The index fields <code>content_{locale}</code> are special fields. They collect all textual data of one language of a content into a common field and so to say represent the language specific content of a resource. For each content element one can decide if the textual data should be added to the <code>content_{locale}</code> fields or not. This is done by the optional attribute <code>searchcontent</code>, available for the <code>&lt;searchsetting&gt;</code> tag. The default value is <code>true </code>indicating that the element's value is added to the <code>content_{locale}</code> fields.</p>
+<p>Here's an example configuration, where <code>Date</code> is not added to the <code>content_{locale}</code> field whilst <code>Title</code> and <code>Text</code> are added.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

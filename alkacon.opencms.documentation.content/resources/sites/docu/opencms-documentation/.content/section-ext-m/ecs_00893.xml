@@ -2,16 +2,16 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Short-cut syntax for the most relevant search settings]]></Title>
+    <Title><![CDATA[Short configuration syntax]]></Title>
     <Section>
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/field-settings/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/field-settings-reference/]]></target>
             <uuid>069bfb76-d1c9-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>Since OpenCms 11, the field settings syntax provides for a simple notification for the most relevant search settings. The basic field settings syntax is explained <a href="%(link0)">here</a>. In the <code>&lt;FieldSetting&gt;</code> sub-node <code>&lt;Search&gt;</code>, the following values are allowed:</p>]]></content>
+        <content><![CDATA[<p>The easiest way to ajust search settings is via <a href="%(link0)">field settings</a>. With field settings you don't have the full flexibility of the search settings syntax explained below, but most use cases are covered. In the <code>&lt;FieldSetting&gt;</code> sub-node <code>&lt;Search&gt;</code>, the following values are allowed:</p>]]></content>
       </Text>
     </Section>
     <Section>
@@ -33,7 +33,7 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/special-predefined-content-types/list-configuration/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/built-in-content-types/list-configuration/]]></target>
             <uuid>bc331ac0-d1c9-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
@@ -45,7 +45,7 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/special-predefined-content-types/list-configuration/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/built-in-content-types/list-configuration/]]></target>
             <uuid>bc331ac0-d1c9-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
@@ -57,7 +57,7 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/special-predefined-content-types/list-configuration/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/built-in-content-types/list-configuration/]]></target>
             <uuid>bc331ac0-d1c9-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
@@ -69,7 +69,7 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/widget-configuration/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/content-editor-configuration/widget-configuration/]]></target>
             <uuid>01d93703-db28-11ec-8fb9-0242ac11002b</uuid>
             <anchor><![CDATA[location-picker-widget-c11068bb]]></anchor>
           </link>

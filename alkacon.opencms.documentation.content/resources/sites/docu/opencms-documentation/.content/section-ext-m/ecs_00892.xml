@@ -2,16 +2,16 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Configure how schema elements are indexed]]></Title>
+    <Title><![CDATA[Full configuration syntax]]></Title>
     <Section>
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/more-opencms-features/solr-search-integration/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/solr-search-integration/]]></target>
             <uuid>3afada83-d1ca-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>By default, OpenCms creates for each resource the same index fields. These are of course not specific to the content's structure. You can look up these fields <a href="%(link0)">here</a>. But, if you want to allow a sophisticated search queries for a specific content type, more index fields are needed. For each content element, you can specify the fields to create via a <code>&lt;searchsetting&gt;</code> node.</p>]]></content>
+        <content><![CDATA[<p>By default, OpenCms creates the same index fields for each resource. These are of course not specific to the content's structure. You can look up these fields <a href="%(link0)">here</a>. But, if you want to allow sophisticated search queries for a specific content type, more index fields can be configured. Configuration is done with the <code>&lt;searchsettings&gt;</code> element and it's child elements as explained below.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

@@ -6,8 +6,7 @@
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>The result of the example configuration is, that a locale specific fields <code>date_{locale}_dt</code>, e.g., <code>date_en_dt</code>, are added to the index, These have type <code>date</code>. Having search fields of different types is important for your search. For example, for a range search concerning dates, fields of type <code>date</code> are required.</p>
-<p>Sometimes it is also useful, to have the same thing index more than once and with different types, e.g., as <code>string</code> and as <code>text</code> to allow for phrase search and for search of single words. To index schema elements multiple times, you can use the attribute <code>copyfields</code>.</p>]]></content>
+        <content><![CDATA[<p>The result of the example configuration is, that a locale specific field <code>date_{locale}_dt</code>, e.g. <code>date_en_dt</code>, is added to the index for each locale available. The <code>*_dt</code> definition causes all the fields to be of type <code>date</code>. The fields can be used to realise a date range search, for example.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

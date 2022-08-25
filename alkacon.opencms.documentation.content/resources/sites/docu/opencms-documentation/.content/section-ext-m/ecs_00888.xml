@@ -2,7 +2,7 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Use-cases for adjusting search settings]]></Title>
+    <Title><![CDATA[Use-cases]]></Title>
     <Section>
       <Text name="Text0">
         <links>
@@ -15,7 +15,7 @@
             <anchor><![CDATA[content_field]]></anchor>
           </link>
         </links>
-        <content><![CDATA[<p>OpenCms ships with a default configuration for the indexation of resources. The configuration is optimized w.r.t. the structure of OpenCms resources. So, for example, properties are indexed by default. But, some choices do not have an over-all good default. In particular concerning XML contents, the answers to the following questions are specific to the actual use case:</p>
+        <content><![CDATA[<p>OpenCms ships with a default configuration for the indexation of resources. The configuration is optimized with respect to the structure of OpenCms resources. So, for example, properties are indexed by default. But, some choices do not have an over-all good default. In particular concerning XML contents, the answers to the following questions are specific to the actual use case:</p>
 <ul>
 <li>Which schema elements of a structured content should not be indexed at all?</li>
 <li>Which schema elements of a structured content should be mapped to special index fields (of special type)?</li>
@@ -31,8 +31,7 @@
 <ul>
 <li>The content of all schema elements of one language version will be stored in one language-specific text field called <code>content_{locale}</code>, e.g., <code>content_en</code>. (Here the dates or Boolean values should usually be omitted - learn later <a href="%(link1)">how</a>)</li>
 <li>The content is indexed such, that it can be found stand-alone (and also the container-page it is located on is findable).</li>
-</ul>
-<p>&nbsp;</p>]]></content>
+</ul>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

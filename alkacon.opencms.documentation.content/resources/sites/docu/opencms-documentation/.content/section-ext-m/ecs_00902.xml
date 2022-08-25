@@ -7,14 +7,14 @@
       <Caption><![CDATA[targetfield (required)]]></Caption>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>The attribute <code>targetfield</code> defines the name of the Solr field where the mapped content is written to. The actual resulting Solr field name consists of <code>{targetfield}_{locale}</code>. The content is written into a locale-specific text field for each locale the document is defined in. E.g.: If the content is available in the locales English (<code>en</code>) and German (<code>de</code>), the values will be mapped to the field <code>{targetfield}_en</code> and <code>{targetfield}_de</code>.</p>]]></content>
+        <content><![CDATA[<p>The attribute <code>targetfield</code> defines the name of the Solr field where the mapped content is written to. The actual resulting Solr field name has the form <code>{targetfield}_{locale}</code>. The content is written into a locale-specific text field for each locale the document is defined in. E.g.: If the content is available in the locales English (<code>en</code>) and German (<code>de</code>), the values will be mapped to the fields <code>{targetfield}_en</code> and <code>{targetfield}_de</code>.</p>]]></content>
       </Text>
     </Section>
     <Section>
       <Caption><![CDATA[locale (optional)]]></Caption>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>If not provided, a search field is created for every locale the content is defined in. If you specify a specific locale in this parameter, the search field is created only for the provided locale - even if the content exists in other locales as well.</p>]]></content>
+        <content><![CDATA[<p>If not provided, a search field is created for every locale the content is defined in. If you specify a specific locale in this parameter, the search field is created for the provided locale only—even if the content exists in other locales as well.</p>]]></content>
       </Text>
     </Section>
     <Section>
@@ -60,7 +60,6 @@
       <Text name="Text0">
         <links/>
         <content><![CDATA[<p>This attribute specifies to which documents (search index entries) the field should be added. By default, it is added to the document of the XML content. But you can also add it to all containerpages the content is placed on. Set <code>addto="page,element"</code> to add the field to the documents of containerpages and XML content. Choose <code>addto="page"</code> to add it only to containerpages.</p>
-<p>&nbsp;</p>
 <p>Adding search fields to containerpages is in particular useful, if you have a facetted search over containerpages. You can build facets over fields that are filled from XML contents - as, for example done for this documentation.</p>
 <div class="alert alert-info">If you add a search field to containerpages, ensure to use a multivalued field. Think about two contents on a page mapping to the same field of the containerpage's document.</div>]]></content>
       </Text>
