@@ -2,11 +2,11 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Options of the field settings]]></Title>
+    <Title><![CDATA[Available options]]></Title>
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>The following table explains the available options.&nbsp;All of them except <code>&lt;PropertyName&gt;</code> are optional, but have to occur in the order listed below. All options except <code>&lt;Mapping&gt;</code> can be used only once.</p>]]></content>
+        <content><![CDATA[<p>The following table explains the available options. All of them expect the <code>&lt;PropertyName&gt;</code> element. All other elements are optional, but have to occur in the order listed below. All options except <code>&lt;Mapping&gt;</code> can be used once only.</p>]]></content>
       </Text>
     </Section>
     <Section>
@@ -35,11 +35,11 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/widget-configuration/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/content-editor-configuration/widget-configuration/]]></target>
             <uuid>01d93703-db28-11ec-8fb9-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>The widget to use for the field. Widget name are defined in the <code>opencms-vfs.xml</code> configuration file. For further information see&nbsp;<a href="%(link0)">widget configuration</a>.</p>]]></content>
+        <content><![CDATA[<p>The widget to use for the field. Widget names are defined in the <code>opencms-vfs.xml</code> configuration file. For further information see&nbsp;<a href="%(link0)">widget configuration</a>.</p>]]></content>
       </Text>
     </Section>
     <Section>
@@ -54,7 +54,7 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/mappings-and-defaults-with-macros/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/content-type-definition-with-xml-schema/mappings-and-defaults-with-macros/]]></target>
             <uuid>272cc671-d1c9-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
@@ -66,7 +66,7 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/widget-configuration/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/content-editor-configuration/widget-configuration/]]></target>
             <uuid>01d93703-db28-11ec-8fb9-0242ac11002b</uuid>
           </link>
         </links>
@@ -110,7 +110,7 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/search-settings/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/content-type-definition-with-xml-schema/search-settings/]]></target>
             <uuid>355223d8-d1c9-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
@@ -128,7 +128,7 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/hiding-schema-elements/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/content-editor-configuration/hiding-schema-elements/]]></target>
             <uuid>0aa876d5-db28-11ec-8fb9-0242ac11002b</uuid>
           </link>
         </links>
@@ -140,7 +140,7 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/hiding-schema-elements/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/content-editor-configuration/hiding-schema-elements/]]></target>
             <uuid>0aa876d5-db28-11ec-8fb9-0242ac11002b</uuid>
           </link>
         </links>
@@ -157,7 +157,7 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/mappings-and-defaults-with-macros/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/content-type-definition-with-xml-schema/mappings-and-defaults-with-macros/]]></target>
             <uuid>272cc671-d1c9-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
@@ -195,7 +195,7 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/language-independend-valuese/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/content-editor-configuration/language-independent-values/]]></target>
             <uuid>28d97fdd-db28-11ec-8fb9-0242ac11002b</uuid>
           </link>
         </links>
