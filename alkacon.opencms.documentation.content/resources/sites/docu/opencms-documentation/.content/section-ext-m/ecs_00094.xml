@@ -10,37 +10,10 @@
             <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/resource-types-app/]]></target>
             <uuid>dd59c3c2-d1c6-11ec-9238-0242ac11002b</uuid>
           </link>
-          <link name="link1" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/launchpad/]]></target>
-            <uuid>6bf9fb4c-d1c5-11ec-9238-0242ac11002b</uuid>
-          </link>
-          <link name="link2" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/main-toolbar/]]></target>
-            <uuid>d955b2fe-d1c4-11ec-9238-0242ac11002b</uuid>
-          </link>
-          <link name="link3" internal="true" type="A">
-            <target><![CDATA[/system/modules/org.opencms.examples.content/schemas/example-content-v1.xsd]]></target>
-          </link>
         </links>
-        <content><![CDATA[<p>The easiest way to add a new content type is by using the <a href="%(link0)">Resource types app</a>.</p>
-<p>Why is it called <em>resource types</em> app and not <em>content types</em> app? A content type alone is not enough to have a fully working content available that an editor can drag and drop to a web page. There is some more configuration needed in the background. The resource types app is an utility that does all the necessary initial configuration for a fully working content.</p>
-<p>Create a new content type as follows:</p>
-<ul>
-<li>From the Quick launch menu, open the <a href="%(link1)">Launchpad</a></li>
-<li>In the Launchpad, click on the Resource type app</li>
-<li>Start creating a new resource type by clicking on the wand icon in the <a href="%(link2)">Main toolbar</a></li>
-<li>Type in the following data:<br />
-<ul>
-<li><strong>Name:</strong> <code>example-content-v1</code></li>
-<li><strong>XPath element-name:</strong> <code>ExampleContentV1</code></li>
-<li><strong>Display name:</strong> Example Content V1</li>
-<li><strong>Description:</strong> Version 1 of the example content.</li>
-</ul>
-</li>
-<li>Leave the rest as is and click on save</li>
-</ul>
-<p>To verify that the content type is available, call the newly created XML schema document:</p>
-<p><a href="%(link3)">http://localhost/system/modules/org.opencms.examples.content/schemas/example-content-v1.xsd</a></p>
+        <content><![CDATA[<p>In this ,</p>
+<p>The easiest way to add a new content type is by using the <a href="%(link0)">Resource types app</a>.</p>
+<p>Why is it called <em>resource types</em> app and not <em>content types</em> app? A content type alone is not enough to have a fully working content type available that an editor can drag and drop onto a web page. There is some more configuration needed in the background. The resource types app is an utility that does all the necessary initial configuration for a fully working content.</p>
 <p>The created XML Schema document consists of three parts mainly:</p>
 <ol>
 <li>A section defining the root element named <code>OpenCmsExampleContentV1Data</code>.</li>

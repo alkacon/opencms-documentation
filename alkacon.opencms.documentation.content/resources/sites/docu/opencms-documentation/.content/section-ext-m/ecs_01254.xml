@@ -2,19 +2,28 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Template JSP with styles]]></Title>
+    <Title><![CDATA[HTML wrapper document]]></Title>
     <Section>
       <Text name="Text0">
-        <links>
-          <link name="link0" internal="false" type="A">
-            <target><![CDATA[https://bulma.io/]]></target>
-          </link>
-        </links>
-        <content><![CDATA[<p>In a real world scenario, you typically are developing a template JSP by starting with a HTML prototype, e.g., provided by a design agency.</p>
-<p>It is straight forward to transform such an HTML prototype into a OpenCms template.</p>
-<p>As an example, download the CSS file of the <a href="%(link0)" target="_blank" rel="noopener">Bulma</a> framework and store it under <code>/system/modules/org.opencms.examples.template/resources/css/bulma.min.css</code>.</p>
-<p>Include the CSS file in the head section of your template JSP. Use a <code>&lt;cms:link&gt;</code> tag and the <code>%(link.weak:)</code> Macro for this. The macro has the purpose that if you once rename or move the CSS file, OpenCms will automatically adjust the link in the template JSP.</p>
+        <links/>
+        <content><![CDATA[<p>In a real world scenario, one typically starts developing a template JSP by transforming a static HTML prototype, as provided by a design agency for example, into a template JSP.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Styles]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>By convention, all kinds of static resources such as CSS and JavaScript files are stored in a module folder called <code>resources/</code>, for example, at <code>/system/modules/org.opencms.examples/resources/css/agency.min.css</code>.</p>
+<p>Include CSS file and other static resources in the head section of your template JSP by means of a <code>&lt;cms:link&gt;</code> tag and the <code>%(link.weak:)</code> macro as shwon in the example below. The macro has the advantage that—if you once rename or move a static resource file—OpenCms will automatically adjust the link in the template JSP.</p>
 <p>The example below renders a nicely styled notification using some class names from the included CSS.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Header and footer]]></Caption>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Since a template is getting larger and larger over time, it is good practice to split the template JSP into several parts. For example, the header section and the footer section of a website may themselves be quite extensive JSP code blocks. Store such code blocks into their own <code>header.jsp</code> and <code>footer.jsp</code> files and include the JSPs by means of a <code>&lt;cms:include&gt;</code> tag and the <code>%(link.weak:)</code> macro. By convention, the right place for included JSP files is in the <code>elements/</code> folder of a module, e.g., <code>/system/modules/org.opencms.examples/elements/</code>.</p>
+<p>Note that all parts of a webpage that are defined in the template JSP or in outsourced JSP files cannot be edited by a content editor. If you want the content editor being able to change information in the header section or the footer section, use a <code>&lt;cms:container&gt;</code> instead as explained below.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

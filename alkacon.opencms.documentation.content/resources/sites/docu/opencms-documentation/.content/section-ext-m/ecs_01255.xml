@@ -2,14 +2,24 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Template JSP with context information]]></Title>
+    <Title><![CDATA[Container pages]]></Title>
     <Section>
       <Text name="Text0">
-        <links/>
-        <content><![CDATA[<p>There is some magic going on if a web page is called that loads a template JSP in the background.</p>
-<p>The OpenCms servlet provides the template with many context information such as the title of the requested page, or the user requesting the page.</p>
-<p>This version of the template replaces the unordered number list with some more relevant context information.<code></code></p>
-<p>Open diffferent pages to see the result.</p>]]></content>
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://example.com/index.html]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[https://example.com/foo/bar/index.html]]></target>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/properties-dialog/]]></target>
+            <uuid>6a49a907-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Template JSPs are never called directly in a request chain. The entry point of an OpenCms request points to a so called container page. Say, a website user requests a page like <a href="%(link0)">https://example.com/index.html</a> or <a href="%(link1)">https://example.com/foo/bar/index.html</a>, then the resource type behind each <code>index.html</code> file is a container page.</p>
+<p>Whilst template JSPs are saved in modules under the <code>/system/modules/</code> directory of the virtual file system, container pages are stored below the <code>/sites/</code> folder, e.g., in the default website folder <code>/sites/default/</code>. A container page must be linked with a template JSP. If a container page is not linked with a template, it is incomplete, and an error is thrown by the servlet. The linking is done via the resource property named <code>template</code> that can be set via the <a href="%(link2)">Properties dialog</a>. Normally, the <code>template</code> property is set at the root folder of a website and then inherited to each container page of a site.</p>
+<p>Linked in this way and indirectly called by a container page, a template JSP is served with various request and servlet related context information:</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

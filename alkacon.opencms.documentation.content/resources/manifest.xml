@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The contents of the Alkacon OpenCms documentation.]]></description>
-		<version>13.0.54</version>
+		<version>13.0.55</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -17299,6 +17299,40 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>sites/docu/opencms-documentation/.content/flexible-m/fc_00281.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/flexible-m/fc_00281.xml</destination>
+			<type>m-flexible-up</type>
+			<uuidstructure>69b7bb98-27a1-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>69b7bb99-27a1-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Mon, 29 Aug 2022 13:49:33 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Creating a template JSP: Tag file]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/flexible-m/fc_00282.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/flexible-m/fc_00282.xml</destination>
+			<type>m-flexible-up</type>
+			<uuidstructure>77129e31-27a1-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>77129e32-27a1-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Mon, 29 Aug 2022 13:49:55 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Creating a template JSP: Template JSP]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>sites/docu/opencms-documentation/.content/function_config</destination>
 			<type>folder</type>
 			<uuidstructure>8e50a273-e30a-11ec-8d31-0242ac11002b</uuidstructure>
@@ -25577,7 +25611,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Creating a template JSP: Template JSP with Advanced direct editing]]></value>
+					<value><![CDATA[Creating a template JSP: Advanced direct editing]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -40316,24 +40350,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Creating a template JSP: JSP]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01252.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01252.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>fc723dc9-1c9a-11ed-a6b6-0242ac11002b</uuidstructure>
-			<uuidresource>fc723dca-1c9a-11ed-a6b6-0242ac11002b</uuidresource>
-			<datecreated>Mon, 15 Aug 2022 13:05:50 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Creating a template JSP: Basic Template JSP]]></value>
+					<value><![CDATA[Creating a template JSP: Template JSP]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -40367,7 +40384,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Creating a template JSP: Template JSP with styles]]></value>
+					<value><![CDATA[Creating a template JSP: HTML wrapper document]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -40384,7 +40401,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Creating a template JSP: Template JSP with context information]]></value>
+					<value><![CDATA[Creating a template JSP: Container pages]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -40401,7 +40418,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Creating a template JSP: Template JSP with Container]]></value>
+					<value><![CDATA[Creating a template JSP: Container]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -40731,23 +40748,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01276.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01276.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>d8276474-2233-11ed-8700-0242ac11002b</uuidstructure>
-			<uuidresource>d8276475-2233-11ed-8700-0242ac11002b</uuidresource>
-			<datecreated>Mon, 22 Aug 2022 16:02:38 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Creating a template JSP: Template JSP devided into separate elements]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01277.xml</source>
 			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01277.xml</destination>
 			<type>m-section-ext</type>
@@ -40827,6 +40827,108 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Writing a formatter: Display variations]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01282.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01282.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>93d211c8-2778-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>93d211c9-2778-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Mon, 29 Aug 2022 08:57:14 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Defining a content type: The example]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01283.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01283.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>326ff460-279d-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>326ff461-279d-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Mon, 29 Aug 2022 13:19:22 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Creating a template JSP: Container pages continued]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01284.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01284.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>d72a5a95-2799-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>d72a5a96-2799-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Mon, 29 Aug 2022 12:55:21 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Creating a template JSP: Custom JSP tag files]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01285.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01285.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>f412f622-279f-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>f412f623-279f-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Mon, 29 Aug 2022 13:39:06 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Creating a template JSP: Custom JSP tag files continued]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01286.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01286.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>18915cf2-27a5-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>18915cf3-27a5-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Mon, 29 Aug 2022 14:15:55 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Creating a template JSP: Site plugins]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01287.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01287.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>e92b599f-27a6-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>e92b59a0-27a6-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Mon, 29 Aug 2022 14:28:54 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Creating a template JSP: Meta mappings]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -46029,6 +46131,46 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>sites/docu/opencms-documentation/template-examples/configuring-a-template-from-scratch</destination>
+			<type>folder</type>
+			<uuidstructure>520ab9c8-2217-11ed-8700-0242ac11002b</uuidstructure>
+			<datecreated>Mon, 22 Aug 2022 12:38:27 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>NavPos</name>
+					<value><![CDATA[0.4140625]]></value>
+				</property>
+				<property>
+					<name>NavText</name>
+					<value><![CDATA[Configuring a template from scratch]]></value>
+				</property>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Configuring a template from scratch]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/template-examples/configuring-a-template-from-scratch/index.html</source>
+			<destination>sites/docu/opencms-documentation/template-examples/configuring-a-template-from-scratch/index.html</destination>
+			<type>containerpage</type>
+			<uuidstructure>52120ccd-2217-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>52120cce-2217-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Mon, 22 Aug 2022 12:38:27 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Configuring a template from scratch]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>sites/docu/opencms-documentation/template-examples/creating-a-template-jsp</destination>
 			<type>folder</type>
 			<uuidstructure>e78e9b74-1c99-11ed-a6b6-0242ac11002b</uuidstructure>
@@ -46077,7 +46219,7 @@
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[0.40625]]></value>
+					<value><![CDATA[0.34375]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
@@ -46117,7 +46259,7 @@
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[4.90625]]></value>
+					<value><![CDATA[0.40429688]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
@@ -46149,46 +46291,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>sites/docu/opencms-documentation/template-examples/enabling-a-content-type</destination>
-			<type>folder</type>
-			<uuidstructure>520ab9c8-2217-11ed-8700-0242ac11002b</uuidstructure>
-			<datecreated>Mon, 22 Aug 2022 12:38:27 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[0.4140625]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[Enabling a content type]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Enabling a content type]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/template-examples/enabling-a-content-type/index.html</source>
-			<destination>sites/docu/opencms-documentation/template-examples/enabling-a-content-type/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>52120ccd-2217-11ed-8700-0242ac11002b</uuidstructure>
-			<uuidresource>52120cce-2217-11ed-8700-0242ac11002b</uuidresource>
-			<datecreated>Mon, 22 Aug 2022 12:38:27 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Enabling a content type]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<destination>sites/docu/opencms-documentation/template-examples/lists</destination>
 			<type>folder</type>
 			<uuidstructure>a57fcb55-d1c9-11ec-9238-0242ac11002b</uuidstructure>
@@ -46197,7 +46299,7 @@
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[4.4375]]></value>
+					<value><![CDATA[0.39453125]]></value>
 				</property>
 				<property>
 					<name>NavText</name>

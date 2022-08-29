@@ -2,7 +2,7 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[JSP]]></Title>
+    <Title><![CDATA[Template JSP]]></Title>
     <Section>
       <Text name="Text0">
         <links>
@@ -10,9 +10,14 @@
             <target><![CDATA[https://jakarta.ee/specifications/pages/3.0/]]></target>
           </link>
         </links>
-        <content><![CDATA[<p>OpenCms is a Java servlet supporting <a href="%(link0)">Java Server Pages</a> (JSP).</p>
-<p>In order to try this, go to the explorer and create a new JSP file under <em>/system/test/hello.jsp</em>.</p>
-<p>Open the file in the explorer with the built-in code editor, paste the follwing JSP, and save it.</p>]]></content>
+        <content><![CDATA[<p>OpenCms is a Java servlet supporting <a href="%(link0)">Java Server Pages</a> (JSP). As a default, the standard JSP libraries as well as the OpenCms specific tag library and expression language are supported by the OpenCms servlet:</p>
+<ul>
+<li>JSTL core tags</li>
+<li>JSTL formatting tags</li>
+<li>JSTL functions</li>
+<li>OpenCms taglib</li>
+<li>OpenCms expression language</li>
+</ul>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

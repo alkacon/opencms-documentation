@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Custom JSP tag files continued]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/modules-app/]]></target>
+            <uuid>85b70871-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>JSP tag files by convention are stored with the <code>*.tag</code> suffix in a module's <code>tags/</code> directory, e.g., at <code>/system/modules/org.opencms.examples/tags/container.tag</code>. In order to make the tag files of a module work, a module's <code>tags/</code> folder has to be exported to a subfolder of Tomcat's <code>WEB-INF/tags/</code> directory on the server's file system. Use the <a href="%(link0)">Modules app</a> to configure a new export folder like this:</p>
+<ul>
+<li><strong>Source</strong>: <code>/system/modules/org.opencms.examples/tags/</code></li>
+<li><strong>Target</strong>: <code>WEB-INF/tags/examples/</code></li>
+</ul>
+<div class="alert alert-info">Make sure to use the resource type <code>JSP</code> and not <code>Plain text</code> when creating a new tag file. Changes to tag files are available only after publication since only the publication causes the tag file to be exported to Tomcat's <code>WEB-INF/tags/</code> directory.</div>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

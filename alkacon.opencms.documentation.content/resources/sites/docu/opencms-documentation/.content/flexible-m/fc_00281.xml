@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Tag file]]></Title>
+    <Code><![CDATA[<%@tag pageEncoding="UTF-8"
+    display-name="container"
+    body-content="empty"
+    trimDirectiveWhitespaces="true"
+    description="Generates a container." %>
+
+<%@attribute name="name" type="java.lang.String" required="true"
+        description="A unique name for the container." %>
+
+<%@attribute name="type" type="java.lang.String" required="true"
+        description="The type assigned to the container, e.g. 'element',
+            used to define which content formatters may occupy the container." %>
+
+<%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms"%>
+
+<cms:container name="${name}" type="${type}" maxElements="100">
+  <div class="notification is-info is-light">
+    <h3>Container <small>for ${type}</small></h3>
+    <p>Drag and drop new elements here.</p>
+  </div>
+</cms:container>]]></Code>
+  </Flexible>
+</FlexibleData>

@@ -2,19 +2,23 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Template JSP with Advanced direct editing]]></Title>
+    <Title><![CDATA[Advanced direct editing]]></Title>
     <Section>
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/advanced-direct-editing/]]></target>
+            <uuid>a868c6d2-1e27-11ed-8700-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
             <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/page-editor/]]></target>
             <uuid>0597a70a-d1c5-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>As a last step we activate OpenCms' Advanced direct editing feature. Advanced direct editing means that all necessary tools to edit and manage content is available in-place together with the web page you are currently editing.</p>
+        <content><![CDATA[<p>In order to make a template JSP fully interactive for content edition, the <a href="%(link0)">Advanced direct editing</a> feature must be activated. Advanced direct editing means that all necessary tools to edit and manage content is available in-place together with the web page the content editor is currently editing.</p>
 <p>Just add the tag <code>&lt;cms:enable-ade/&gt;</code> to the head section of your template JSP.</p>
-<p>If you now open a page, a <a href="%(link0)">Toolbar</a> appears at the top of the page that allows to add new contents, publish changes, set bookmarks, manage image galleries, and much more.</p>
-<p>The toolbar has a height of 52 pixels. It is recommended to add a margin of 52 pixels at the top of the page, in order to prevent the toolbar hiding the actual page content.</p>]]></content>
+<p>If the content editor now opens a page, a <a href="%(link1)">Toolbar</a> appears at the top of the page that allows to add new contents, publish changes, set bookmarks, manage image galleries, and much more.</p>
+<p>The toolbar has a height of 52 pixels. It is recommended to add a margin of 52 pixels at the top of the page, in order to prevent the toolbar hiding the actual page content when in the editing mode.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

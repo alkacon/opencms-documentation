@@ -15,11 +15,13 @@
     href="<cms:link>%(link.weak:/system/modules/org.opencms.examples.template/resources/css/bulma.min.css)</cms:link>">
 </head>
 <body class="content">
+<cms:include file="%(link.weak:/system/modules/org.opencms.examples/elements/header.jsp)"/>
 <h1><cms:info property="opencms.title"/></h1>
 <div class="notification is-success">
   <button class="delete"></button>
   <p>This is a nicely styled notification.</p>
 </div>
+<cms:include file="%(link.weak:/system/modules/org.opencms.examples/elements/footer.jsp)"/>
 </body>
 </html>]]></Code>
   </Flexible>
