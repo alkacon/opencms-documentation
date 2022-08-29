@@ -6,7 +6,7 @@
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>The CSS styles and JavaScript that a formatter employs should be added to the formatter configuration. Formatter configurations are XML files (of type <code>formatter-config</code>) that are editable via the form-based editor. Multiple CSS or JavaScript includes can be added - either inline or as links to files.</p>
+        <content><![CDATA[<p>The CSS styles and JavaScript that a formatter employs should be added to the formatter configuration. Formatter configurations are XML files (of type <code>formatter_config</code>) that are editable via the form-based editor. Multiple CSS or JavaScript includes can be added - either inline or as links to files.</p>
 <p>The editor looks as follows:</p>]]></content>
       </Text>
     </Section>
@@ -20,13 +20,6 @@
         </Image>
         <Title><![CDATA[Adding head includes via the formatter configuration]]></Title>
       </Image>
-    </Section>
-    <Section>
-      <Caption><![CDATA[Deprecated way to configure head includes]]></Caption>
-      <Text name="Text0">
-        <links/>
-        <content><![CDATA[<p>The formatter configuration was introduced in OpenCms 9.0. Before, head includes were configured in the XSD that defined the content type. We strongly recommend avoiding this old method of adding head includes.</p>]]></content>
-      </Text>
     </Section>
   </ExtendedSection>
 </ExtendedSectionData>

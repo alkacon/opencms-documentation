@@ -7,25 +7,17 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/special-predefined-content-types/element-group-depricated/]]></target>
-            <uuid>e1b32b30-d1c9-11ec-9238-0242ac11002b</uuid>
-          </link>
-          <link name="link1" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/special-predefined-content-types/inheritance-grous-depricated/]]></target>
-            <uuid>cf646e67-d1c9-11ec-9238-0242ac11002b</uuid>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/built-in-content-types/model-group/]]></target>
+            <uuid>c7803d09-d1c7-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>Nested container have various application:</p>
+        <content><![CDATA[<p>Nested container have various applications:</p>
 <ul>
 <li>Tab elements where each tab can hold different contents,</li>
 <li>Flexible template design, by using "structure" contents to fix the page layout,</li>
 <li>Fine-grained restrictions on where to put different content, e.g., allowing content of some type only in nested containers.</li>
 </ul>
-<p>If your focus is on grouping content, such that the whole group can be moved across and used in various pages, nested containers are <em>not</em> what you need. Use instead</p>
-<ul>
-<li><a href="%(link0)">Element groups</a>&nbsp;or</li>
-<li><a href="%(link1)">Inheritance groups</a>.</li>
-</ul>]]></content>
+<p>If your focus is on grouping content, such that the whole group can be moved across and used in various pages, nested containers are <em>not</em> what you need. Use instead <a href="%(link0)">Model groups</a>.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

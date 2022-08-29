@@ -7,11 +7,11 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/launchpad-and-other-apps/modules/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/modules-app/]]></target>
             <uuid>85b70871-d1c5-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>Formatters and their configuration are usually shipped with modules and both placed in the formatters/ sub-folder of a module. Since a formatter and its configuration are closely related, they typically get identical names (except for the suffix).</p>
+        <content><![CDATA[<p>Formatters and their configuration are usually shipped with modules and both placed in the <code>formatters/</code> sub-folder of a module. Since a formatter and its configuration are closely related, they typically get identical names (except for the suffix).</p>
 <p>Whether formatters, configurations and content type definitions should be placed in the same module is a design decision where two options may be advantageous:</p>
 <ul>
 <li>You can place content type definition, formatters and configurations in one module and make up modules for particular content types. Then you can add and remove the individual content types easily.</li>

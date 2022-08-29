@@ -6,30 +6,26 @@
     <Section>
       <Text name="Text0">
         <links>
-          <link name="link0" internal="true" type="IMG">
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/element-settings/]]></target>
+            <uuid>49061617-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="IMG">
             <target><![CDATA[/sites/docu/.galleries/icons_big/propertyBigIconActive.png]]></target>
             <uuid>df8c0d3f-c9f9-11ec-a595-0242ac11002b</uuid>
             <query><![CDATA[__scale=h:14,w:14,c:transparent]]></query>
           </link>
-          <link name="link1" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/todo/demos/element-settings/]]></target>
-            <uuid>e49bec17-d1cc-11ec-9238-0242ac11002b</uuid>
-          </link>
           <link name="link2" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/formatters-and-their-configuration/element-settings/]]></target>
-            <uuid>49061617-d1c9-11ec-9238-0242ac11002b</uuid>
-          </link>
-          <link name="link3" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/formatters-and-their-configuration/element-settings/common-element-settings/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/element-settings/common-element-settings/]]></target>
             <uuid>78d5c578-d1c9-11ec-9238-0242ac11002b</uuid>
           </link>
-          <link name="link4" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/meta-mappings/]]></target>
+          <link name="link3" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/formatters-and-their-configuration/meta-mappings/]]></target>
             <uuid>4c0f9acf-e273-11ec-8d31-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>In the tab "Element settings" you can configure element settings. These settings are shown when you click the <img style="width: 14px;" title="propertyBigIconActive" src="%(link0)" alt="" /> symbol at an element that is rendered with the formatter. The content editor can alter these settings to adjust the behavior of the formatter. A demo on how to use element settings is found <a href="%(link1)">here</a>, some more explanations are given <a href="%(link2)">here</a>. You can also link to a configuration file with already configured <a href="%(link3)">common element settings</a>, which are reused by many other formatters.</p>
-<p>In OpenCms 11, the tab "<a href="%(link4)">Meta mappings</a>" was added, where you can set which values should be available to the page template as a meta mapping.</p>]]></content>
+        <content><![CDATA[<p>In the tab "Element settings" you can configure <a href="%(link0)">Element settings</a>. These settings are shown when you click the <img style="width: 14px;" title="propertyBigIconActive" src="%(link1)" alt="" /> symbol at an element that is rendered with the formatter. The content editor can alter these settings to adjust the behavior of the formatter.&nbsp;You can also link to a configuration file with already configured <a href="%(link2)">common element settings</a>, which are reused by many other formatters.</p>
+<p>In the tab "<a href="%(link3)">Meta mappings</a>", you can set which values should be available to the page template as a meta mapping.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>
