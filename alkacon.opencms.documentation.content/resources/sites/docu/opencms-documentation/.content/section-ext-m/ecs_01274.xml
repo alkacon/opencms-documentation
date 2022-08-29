@@ -2,11 +2,12 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Meta mappings]]></Title>
+    <Title><![CDATA[Responsive layout continued]]></Title>
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>Meta mappings enable you to read the information of an element on a container page before the element is rendered. Here, we have two elements. One element contains meta information and defines the meta mappings, the other element on the same page can simply read this information by using EL.</p>]]></content>
+        <content><![CDATA[<p>The content represents a page layout where <code>Title</code> contains a human readeble description of the page layout and <code>Variant</code> a machine readable code. The layout is designed such that it all in all spans <code>3 + 9 = 12</code> grid cells. In the very example layout, the left column spans <code>3</code> grid cells and the right column spans <code>9</code> grid cells. There might be more such layout contents with variants such as <code>12</code>, <code>6-6</code>, <code>4-4-4</code>, <code>3-3-3-3</code>, <code>2-2-2-2-2-2</code> that together provide the repertoire of all page layouts available for a website.</p>
+<p>A formatter JSP transforming the layout content into the according HTML markup could look like this:</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

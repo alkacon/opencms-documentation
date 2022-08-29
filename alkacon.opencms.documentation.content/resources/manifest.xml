@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The contents of the Alkacon OpenCms documentation.]]></description>
-		<version>13.0.53</version>
+		<version>13.0.54</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -17248,6 +17248,57 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>sites/docu/opencms-documentation/.content/flexible-m/fc_00278.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/flexible-m/fc_00278.xml</destination>
+			<type>m-flexible-up</type>
+			<uuidstructure>451bfa87-246d-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>451bfa88-246d-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Thu, 25 Aug 2022 11:58:44 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Writing a formatter: Example content]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/flexible-m/fc_00279.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/flexible-m/fc_00279.xml</destination>
+			<type>m-flexible-up</type>
+			<uuidstructure>3712594a-2766-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>3712594b-2766-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Mon, 29 Aug 2022 06:45:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Writing a formatter: Example content for a responsive layout]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/flexible-m/fc_00280.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/flexible-m/fc_00280.xml</destination>
+			<type>m-flexible-up</type>
+			<uuidstructure>0a2b46ab-276d-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>0a2b46ac-276d-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Mon, 29 Aug 2022 07:34:39 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Writing a formatter: Formatter JSP for a responsive layout content]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>sites/docu/opencms-documentation/.content/function_config</destination>
 			<type>folder</type>
 			<uuidstructure>8e50a273-e30a-11ec-8d31-0242ac11002b</uuidstructure>
@@ -26485,6 +26536,40 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00436.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00436.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>0bcd8eb6-2469-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>0bcd8eb7-2469-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Thu, 25 Aug 2022 11:28:30 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Writing a formatter: Element settings]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00438.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00438.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>d277c3f0-246e-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>d277c3f1-246e-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Thu, 25 Aug 2022 12:09:51 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Writing a formatter: Element settings continued]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00439.xml</source>
 			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00439.xml</destination>
 			<type>m-section-ext</type>
@@ -26972,6 +27057,23 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Apache web server configuration: Configuration of multiple sites]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00468.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00468.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>40e30ed2-2471-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>40e30ed3-2471-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Thu, 25 Aug 2022 12:27:15 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Writing a formatter: Element settings continued]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -34475,6 +34577,23 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00914.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00914.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>e1094255-2474-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>e1094256-2474-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Thu, 25 Aug 2022 12:53:12 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Writing a formatter: Responsive layouts]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00915.xml</source>
 			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00915.xml</destination>
 			<type>m-section-ext</type>
@@ -39483,7 +39602,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Writing a formatter: Image scaling]]></value>
+					<value><![CDATA[Writing a formatter: Responsive images]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -40581,14 +40700,14 @@
 			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01274.xml</source>
 			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01274.xml</destination>
 			<type>m-section-ext</type>
-			<uuidstructure>bede12ff-2231-11ed-8700-0242ac11002b</uuidstructure>
-			<uuidresource>bede1300-2231-11ed-8700-0242ac11002b</uuidresource>
-			<datecreated>Mon, 22 Aug 2022 15:47:36 GMT</datecreated>
+			<uuidstructure>8949dce5-2766-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>8949dce6-2766-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Mon, 29 Aug 2022 06:48:06 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Writing a formatter: Meta mappings]]></value>
+					<value><![CDATA[Writing a formatter: Responsive layout continued]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -40598,14 +40717,14 @@
 			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01275.xml</source>
 			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01275.xml</destination>
 			<type>m-section-ext</type>
-			<uuidstructure>50ed6dfa-2232-11ed-8700-0242ac11002b</uuidstructure>
-			<uuidresource>50ed6dfb-2232-11ed-8700-0242ac11002b</uuidresource>
-			<datecreated>Mon, 22 Aug 2022 15:51:41 GMT</datecreated>
+			<uuidstructure>ba6d1491-276e-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>ba6d1492-276e-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Mon, 29 Aug 2022 07:46:44 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Writing a formatter: Nested containers]]></value>
+					<value><![CDATA[Writing a formatter: Responsive layouts continued]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -40707,7 +40826,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Writing a formatter: Display variation]]></value>
+					<value><![CDATA[Writing a formatter: Display variations]]></value>
 				</property>
 			</properties>
 			<relations/>

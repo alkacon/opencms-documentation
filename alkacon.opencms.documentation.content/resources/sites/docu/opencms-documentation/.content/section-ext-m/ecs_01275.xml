@@ -2,7 +2,20 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Nested containers]]></Title>
-    <Section/>
+    <Title><![CDATA[Responsive layouts continued]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-examples/creating-a-template-jsp/]]></target>
+            <uuid>e78e9b74-1c99-11ed-a6b6-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The example JSP uses a CSS framework where the <code>is-full</code> class name results in a full-width column. The <code>is-one-quarter</code> class name makes the left column occupying 3 of 12 grid cells whilst the right column automatically occupies the remaining 9 cells, without a class name given.</p>
+<p>The <code>&lt;cms:container&gt;</code> tag is the area where content editors can drop new contents. Make sure that the name of the container is unique for one hierarchy level. <code>leftcol</code> and <code>rightcol</code> are the names for the <code>3-9</code> layout variant example. When realizing a <code>3-3-3</code> variant, for example, <code>col1</code>, <code>col2</code>, <code>col3</code> would be suitable container names.</p>
+<p>With the type attribute—<code>element</code> in the example, which is a freely choosen name—you can help the content editor with <strong>content nesting</strong>. Normally, the aim is to allow content elements of any type, such as <em>card</em> or <em>alert</em>, to be inserted into the container of a layout column. But probably it is not intended that a layout column can be inserted into another layout column, for example. With the <code>type</code> attribute of <code>&lt;cms:container&gt;</code> you can control the nesting.</p>
+<p>In order to allow card and alert contents to be inserted into a column, it is necessary to define the <code>element</code> container type in the formatter configurations of the card type and the alerts type. Container techniques are described in more detail in the chapter about <a href="%(link0)">creating a template JSP</a>.</p>]]></content>
+      </Text>
+    </Section>
   </ExtendedSection>
 </ExtendedSectionData>

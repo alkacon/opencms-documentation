@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Element settings continued]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/formatters-and-their-configuration/element-settings/common-element-settings/]]></target>
+            <uuid>78d5c578-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-variants/element-setting-overrides/]]></target>
+            <uuid>81203dda-d1cc-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>In the example, the settings <code>key</code> serves as an HTML class name turning the HTML alert into the according state.</p>
+<p>It is typical for website projects that more and more element settings are requested by content editors, as time goes on. Further design variations for an alert component may include borders, font sizes or spaces. Especially when developing a generic template used by many website projects, formatters tend to have a lot of settings. Element settings can become confusing then for the content editor as well as for the developer.</p>
+<p>To deal with the situation of element settings getting out of hand, OpenCms provides two useful helpers, so called <a href="%(link0)">Shared element settings</a> and <a href="%(link1)">Element setting overrides</a>. With shared element settings you can make sure that, if there are a lot of settings for each formatter, the settings are at least consistent. This makes them more understandable for users. With element setting overrides, you can customize a generic list of settings for the needs of individual users. For example, you can set certain default values or hide settings that are not needed.</p>
+<p>There are two examples included in the example module that demonstrate the usage of shared settings and element overrides.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

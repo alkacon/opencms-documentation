@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Formatter JSP for a responsive layout content]]></Title>
+    <Code><![CDATA[<cms:formatter var="content" val="value">
+  <c:choose>
+    <c:when test="${value.Variant eq '12'}">
+      <div class="columns">
+        <div class="column is-full">
+          <cms:container name="maincol" type="element"/>
+        </div>
+      </div>
+    </c:when>
+    <c:when test="${value.Variant eq '3-9'}">
+      <div class="columns">
+        <div class="column is-one-quarter">
+          <cms:container name="leftcol" type="element">
+            <div class="notification">Drop new contents of type element here.</div>
+          </cms:container>
+        </div>
+        <div class="column">
+          <cms:container name="rightcol" type="element">
+            <div class="notification">Drop new contents of type element here.</div>
+          </cms:container>
+        </div>
+      </div>
+    </c:when>
+    <c:otherwise>Unknown layout variant.</c:otherwise>
+  </c:choose>
+</cms:formatter>]]></Code>
+  </Flexible>
+</FlexibleData>

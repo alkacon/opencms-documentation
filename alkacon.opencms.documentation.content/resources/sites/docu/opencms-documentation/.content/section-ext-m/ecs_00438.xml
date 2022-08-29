@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Element settings continued]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/content-editor-configuration/widget-configuration/]]></target>
+            <uuid>01d93703-db28-11ec-8fb9-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>The example shows element settings for the four states an alert component can have. The <a href="%(link0)">syntax</a> for the alert's state selection has the form of <code>key-</code><code>value</code> pairs separated by a pipe symbol (<code>|</code>). Defined in such a way, the content editor is offered a settings dialog in which she or he can select the desired alert state. The state selected can finally be read out in the formatter JSP as follows:&nbsp;</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>
