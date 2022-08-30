@@ -6,13 +6,13 @@
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>The interesting parts where value transformers make your code nicer are:</p>
+        <content><![CDATA[<p>The interesting parts where value transformers can make your code nicer in a next step are:</p>
 <ol>
 <li>the check if the element setting <code>showImage</code> is <code>true</code> (line 8),</li>
 <li>the part where the image link is rendered (line 9).</li>
 </ol>
-<p>For the setting, that is probably visible as a check box in the settings dialog, it would be nice to access it as boolean value, since we know it is a boolean value. For the image, it would be nice to access it as image bean, since we know it is an image and we might want to scale it or add correct width and height attributes, or even produce a whole source set of images from the provided one. Our initial formatter will return the URL to the unscaled image and the browser will have to resize the image to width of 400 pixels.</p>
-<p>With value wrappers, we can get the information typed as we like. Here's an adjusted version of the formatter using the wrappers:</p>]]></content>
+<p>For the setting, that is probably visible as a check box in the settings dialog, it would be nice to access it as boolean value, since we know it is a boolean value. For the image, it would be nice to access it as an image bean. Since we know it is an image and we might want to scale it or add correct width and height attributes, or even produce a whole source set of images from the provided one. Our initial formatter will return the URL to the unscaled image and the browser will have to resize the image to a width of 400 pixels.</p>
+<p>With value wrappers, we can get the information typed. Here's an adjusted version of the formatter using the wrappers:</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

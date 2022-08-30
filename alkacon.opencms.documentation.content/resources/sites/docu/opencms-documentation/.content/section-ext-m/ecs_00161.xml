@@ -6,10 +6,10 @@
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>In the improved formatter, we use value wrappers:</p>
+        <content><![CDATA[<p>In the improved formatter, value wrappers are used:</p>
 <ol>
-<li>We access the element setting via<code> cms.element.setting</code> (<code>setting</code> without 's' in the end - in comparism to the first formatter) and make it a boolean value by <code>toBoolean</code>.</li>
-<li>We access the image as image bean by using <code>content.value.Image.toImage</code> and directly scale it and output the <code>src</code>, <code>width</code> and <code>height</code> attribute of the <code>&lt;img&gt;</code> tag by calling <code>imgSrc</code>. Hence, the correctly scaled image is served by the browser.</li>
+<li>access the element setting via<code> cms.element.setting</code> (<code>setting</code> without 's' in the end in comparison to the first formatter) and make it a boolean value by means of <code>toBoolean</code> expression.</li>
+<li>access the image as image bean by using <code>content.value.Image.toImage</code> and directly scale it and output the <code>src</code>, <code>width</code> and <code>height</code> attribute of the <code>&lt;img&gt;</code> tag by calling <code>imgSrc</code>. Hence, the correctly scaled image is delivered to the browser.</li>
 </ol>]]></content>
       </Text>
     </Section>

@@ -2,37 +2,77 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Writing JSPs]]></Title>
+    <Title><![CDATA[JSP]]></Title>
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>JSPs (Java Server Pages) provide a powerful way to build web pages dynamically. They are <em>the</em> way, web pages are generated in OpenCms. In essence a JSP is a Java program that looks like HTML code and, if executed, creates a HTML page. The particular advantage of a JSP is that arbitrary Java code can be executed to produce HTML output. There are three ways to accomplish dynamic HTML creation by executing Java code:</p>
+        <content><![CDATA[<p>In essence, a JSP is a Java program that looks like HTML code and, if executed, creates a HTML page. The particular advantage of a JSP is that arbitrary Java code can be executed to produce HTML output. There are three ways to accomplish dynamic HTML creation by executing Java code:</p>
 <ul>
 <li>Special tags provided via taglibs</li>
 <li>The expression language (EL)</li>
 <li>Writing scriptlet code</li>
 </ul>
-<p>In order to keep your JSPs simple and maintainable, it is good style to avoid scriptlet code and use tags and the EL. For more details about JSPs in general, in particular the JSTL (the standard tag libraries) and the EL, please consult the very good books or tutorials around.</p>
-<p>When writing JSPs in OpenCms, you should be aware of the following:</p>
+<p>In order to keep your JSPs simple and maintainable, it is good style to avoid scriptlet code and use tags and the EL. For more details about JSPs in general, in particular the JSTL (the standard tag libraries) and the EL, please consult the very good books or tutorials around.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[OpenCms specifics]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/background/the-virtual-file-system/]]></target>
+            <uuid>711b44d5-d1b9-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/explorer/]]></target>
+            <uuid>71c1c77d-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/caching-in-opencms/the-flex-cache/]]></target>
+            <uuid>9717a5e0-d124-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link3" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/jsp-development-00001/opencms-el-expressions/]]></target>
+            <uuid>96f20003-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link4" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/jsp-development-00001/opencms-taglib/]]></target>
+            <uuid>a797c7bb-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link5" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/jsp-development-00001/value-wrappers/]]></target>
+            <uuid>b2a44d5e-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link6" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/jsp-development-00001/image-handling/]]></target>
+            <uuid>bc83ebc1-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link7" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/jsp-development-00001/json-support/]]></target>
+            <uuid>5be70afe-d1ca-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>When writing JSPs in OpenCms, you should be aware of the following:</p>
 <ul>
-<li>JSPs are managed/added via the OpenCms workplace and have the resource type “jsp”</li>
-<li>Each JSP exists in an “offline” and an “online” version</li>
-<li>JSPs can't be exported statically, but there rendered output can be cached</li>
-<li>To increase performance you might have to alter FlexCache settings</li>
+<li>JSPs are managed/added in the <a href="%(link0)">virtual file system</a> via the <a href="%(link1)">OpenCms workplace</a> and have the resource type <code>JSP</code></li>
+<li>each JSP exists in an “offline” and an “online” version</li>
+<li>JSPs can't be exported statically, but their rendered output can be cached</li>
+<li>to increase performance, you might have to alter <a href="%(link2)">FlexCache</a> settings</li>
 </ul>
-<p>In OpenCms JSPs are used for several purposes:</p>
+<p>In OpenCms, JSPs are used for several purposes:</p>
 <ul>
-<li>Templates that provide for WYSIWYG editable pages</li>
-<li>Formatters for XML contents</li>
-<li>Pages with special functionality, e.g. login forms, search result pages, etc.</li>
+<li>templates that realize WYSIWYG editable pages</li>
+<li>formatters for XML contents</li>
+<li>pages with special functionality, e.g. login forms, search result pages, etc.</li>
 </ul>
 <p>To easily create JSPs for the purposes just described, OpenCms comes with a special API for JSPs that consists mainly of two parts:</p>
 <ul>
-<li>The OpenCms taglib</li>
-<li>A set of Java beans to make OpenCms functionality accessible via the EL</li>
+<li>a set of Java beans to make functionality accessible via the <a href="%(link3)">OpenCMs EL</a></li>
+<li>the <a href="%(link4)">OpenCms taglib</a></li>
 </ul>
-<p>This page forwards you to the relevant topics on writing JSPs in OpenCms.</p>]]></content>
+<p>Accessing content values via <a href="%(link5)">value wrappers</a>, generating <a href="%(link6)">responsive images</a>, and also generating <a href="%(link7)">JSON output</a> are three recurring requirements when developing a modern website template, thus described in extra chapters here.</p>]]></content>
       </Text>
     </Section>
+    <Section/>
   </ExtendedSection>
 </ExtendedSectionData>

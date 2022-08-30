@@ -6,9 +6,8 @@
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>Writing a formatter you access content values, properties and element settings. The values of element settings and properties are by default available as String, the values of content elements as CmsJspContentValueAccessWrapper. But you might know that you deal with a more specific kind of value, e.g., a link to a VFS resource, an image, a boolean value, ....</p>
-<p>Since OpenCms 11, you can directly transform the properties, element settings and content values into the thing they really are. This is handled by so called value wrappers and the topic explains how to use them.</p>
-<p>More over, for resources a specific wrapper is provided and returned by EL expressions. It let's you get the correct link, check the type of the resource, and many more things the plain resource object would not support.</p>]]></content>
+        <content><![CDATA[<p>Writing a formatter means, for the most part, accessing content values, accessing properties, and accessing element settings. The values of element settings and properties are by default available as strings of type <code>java.lang.String</code>, whilst the values of content elements by default are available as content value access wrappers of type <code>CmsJspContentValueAccessWrapper</code>.</p>
+<p>The content value access wrapper bean allows to transform properties, element settings, and content values into their more specific internal Schema types, for example, into primitive types like booleans and numbers, or into complex types like <code>org.opencms.jsp.util.CmsJspImageBean</code>.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

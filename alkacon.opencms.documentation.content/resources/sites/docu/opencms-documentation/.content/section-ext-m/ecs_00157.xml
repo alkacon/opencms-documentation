@@ -7,10 +7,10 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="false" type="A">
-            <target><![CDATA[http://files.opencms.org/javadoc/tld/]]></target>
+            <target><![CDATA[https://documentation.opencms.org/javadoc/tld/]]></target>
           </link>
         </links>
-        <content><![CDATA[<div class="alert alert-info"><a href="%(link0)">Please consult the taglib documentation for more information on the individual functions and their arguments</a>.</div>]]></content>
+        <content><![CDATA[<div class="alert alert-info">Please consult the <a href="%(link0)">taglib</a> documentation for more information on the individual functions and their arguments.</div>]]></content>
       </Text>
     </Section>
   </ExtendedSection>
