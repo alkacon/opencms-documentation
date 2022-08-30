@@ -6,7 +6,8 @@
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>You can set the open graph meta tags and Twitter Card tags to adapt the appearance of your website in the social media according to your wishes. Meta mappings are particularly&nbsp;useful for detail pages. With a few small steps, you can give every detail page its own entries in the meta-tags.&nbsp;</p>]]></content>
+        <content><![CDATA[<p>The primary usage of meta mappings is to generate HTML <code>&lt;meta&gt;</code> tags in the <code>&lt;head&gt;</code> section of a template JSP. Meta mapping definitions select information such as the <strong>title</strong>, the <strong>description</strong>, and an <strong>image</strong> from a content and bind this information to a meta information map. Keys and values from this meta information map can then be read in the template JSP or in any formatter JSP.</p>
+<p>Meta mappings in OpenCms by default are active for detail pages only. On a detail page, it is clear which of the contents on a page is the main content and thus which meta information to export via HTML <code>&lt;meta&gt;</code> tags for the public. On container pages containing different content types or even lists with many contents of the same type, the main content cannot be identified in an easy way. There is a rank property available in meta mapping definitions to rank some mappings higher than others. For container pages, though, it is better practice to provide an extra meta information content that should be manually inserted on a page by the content editor.&nbsp;&nbsp;</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

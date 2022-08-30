@@ -2,7 +2,7 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Usage of the common element settings]]></Title>
+    <Title><![CDATA[Usage of the shared element settings]]></Title>
     <Section>
       <Text name="Text0">
         <links>
@@ -12,7 +12,7 @@
           </link>
         </links>
         <content><![CDATA[<p>Now the element setting can be used in the tab "Supported settings" of any formatter configuration simply by using the <code>Setting name</code>. Remember to link to the configuration file to make the default element settings available.</p>
-<div class="alert alert-info">Note: The other fields are not required, unless you want to change the default values as shown in the <a href="%(link0)">demo</a>.</div>]]></content>
+<div class="alert alert-info">Note: The other fields are not required unless you want to change the default values as shown in the <a href="%(link0)">demo</a>.</div>]]></content>
       </Text>
     </Section>
     <Section>

@@ -11,7 +11,9 @@
             <uuid>c5d47aa1-d1cd-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>OpenCms does not provide a formatter for the list contents by default. The formatter is very specific for your template, hence there's no point in providing a default one. In essence, you feed the list content into the <code>&lt;cms:simplesearch&gt;</code> tag and then you get the collected contents (and some extra information) as result.</p>
+        <content><![CDATA[<p>The integrated list is designed to ease list creation. OpenCms 10 introduced the <code>&lt;cms:search&gt;</code> tag and propagated it's use for building lists. Since for most use cases the tag is far too powerful and hence unnecessarily complicated to configure, the integrated list type with all its related features (e.g., a new tag <code>&lt;cms:simplesearch&gt;</code>) is the easy to configure way of building lists that are sufficient for most use cases.</p>
+<p>Using the integrated list, all you need to do is writing a formatter for it.</p>
+<p>OpenCms does not provide a formatter for the list content type by default. The formatter is very specific for a template, hence there's no point in providing a default one. In essence, you feed the list content into the <code>&lt;cms:simplesearch&gt;</code> tag and then you get the collected contents (and some extra information) as result.</p>
 <ul>
 <li><a href="%(link0)">See the demo on using the integrated list type to get more information.</a></li>
 </ul>

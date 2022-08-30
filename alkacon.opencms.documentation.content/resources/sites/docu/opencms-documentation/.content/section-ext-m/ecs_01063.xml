@@ -6,10 +6,10 @@
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>To use the list in your template you have to:</p>
+        <content><![CDATA[<p>To activate the list configuration type for a website, two configuration are needed:</p>
 <ul>
-<li>Configure the list type (<code>listconfig</code>) in your (sub-)sitemap or in one module in your system</li>
-<li>Write a formatter for type <code>listconfig</code> that allows you to drop the list to your pages.</li>
+<li>configure the list type (<code>listconfig</code>) in your (sub-)sitemap or in one module in your system</li>
+<li>configure a formatter for type <code>listconfig</code> that allows you to drop the list to your pages.</li>
 </ul>]]></content>
       </Text>
     </Section>
@@ -35,7 +35,7 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/ade-configuration/content-element-configuration/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/advanced-direct-editing/content-element-configuration/]]></target>
             <uuid>51aa1d06-d1c8-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>

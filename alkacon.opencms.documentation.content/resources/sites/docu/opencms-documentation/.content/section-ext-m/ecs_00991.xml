@@ -2,25 +2,28 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Lists with the integrated list type]]></Title>
+    <Title><![CDATA[List configuration]]></Title>
     <Section>
       <Text name="Text0">
-        <links/>
-        <content><![CDATA[<p>Since version 11, OpenCms ships with an integrated list type that supports the collection of list entries via Solr and features:</p>
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/lists-app/]]></target>
+            <uuid>7fd26570-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>OpenCms ships with an integrated list type that supports the collection of list entries via Solr. The list type supports the following features:</p>
 <ul>
-<li>Full text search</li>
-<li>Sorting by title, date or order</li>
-<li>Blacklisting of contents</li>
-<li>Various time range constraints</li>
-<li>Pagination, even with different page sizes</li>
-<li>Filter facets for categories</li>
-<li>Filter facet for folders</li>
-<li>Range facet for time ranges (year and month, as useful for archives)</li>
+<li>full text search</li>
+<li>sorting by title, date or order</li>
+<li>blacklisting of contents</li>
+<li>various time range constraints</li>
+<li>pagination with different page sizes</li>
+<li>facets for categories</li>
+<li>facets for folders</li>
+<li>range facets for time ranges (year and month, as useful for archives)</li>
 </ul>
-<p>Lists of that type even have a dedicated workplace app for managing the list.</p>
-<p>The integrated list is designed to ease list creation. OpenCms 10 introduced the <code>&lt;cms:search&gt;</code> tag and propagated it's use for building lists. Since for most use cases the tag is far too powerful and hence unnecessarily complicated to configure, the integrated list type with all its related features (e.g., a new tag <code>&lt;cms:simplesearch&gt;</code>) is the easy to configure way of building lists that are sufficient for most use cases.</p>
-<p>Using the integrated list, all you need to do is writing a formatter for it.</p>
-<p>This topic explains the integrated list type and directs you to other topics that describe features that are relevant for building lists as well.</p>]]></content>
+<p>With the built-in list content type (<code>listconfig</code>) content editors can preconfigure a list that collects one content type or contents of different types in a dynamic list. For example a content editor might display the latest 10 news published within the last month. A formatter displaying a list configuration can read the pre-configured contents and can add further dynamic aspects to the list: interactive searching and sorting as well as faceted filtering and pagination.</p>
+<p>The workplace offers a dedicated <a href="%(link0)">Lists app</a> for managing of lists.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>
