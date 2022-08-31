@@ -7,7 +7,7 @@
       <Text name="Text0">
         <links/>
         <content><![CDATA[<p>Welcome to the OpenCms documentation.</p>
-<p>OpenCms is a powerful content management system providing compelling features, especially for large Internet and Intranet websites.</p>]]></content>
+<p>OpenCms is a powerful and highly customizable content management system providing compelling features, especially useful for large Internet and Intranet websites.</p>]]></content>
       </Text>
       <Image>
         <Image>
@@ -34,11 +34,11 @@
             <uuid>cd282cfa-d1c4-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>If you are <strong>completely new</strong> to OpenCms, follow these links:</p>
+        <content><![CDATA[<p>If you are <strong>completely new</strong> to OpenCms, the following links provide a good starting point:</p>
 <ul>
-<li>visit the <a href="%(link0)">source code repository</a> of OpenCms to get an overview of all content management features currently available</li>
+<li>visit the <a href="%(link0)">source code repository</a> of OpenCms, in the README, you get an overview of all features currently available</li>
 <li>create an account on the <a href="%(link1)" target="_blank" rel="noopener">OpenCms demo server</a> and follow the tutorial where you will learn the basics of content editing</li>
-<li><span style="font-size: 1.6rem;">get an in-depth impression of what you can do with the user interface of OpenCms beyond content edition by reading the <a href="%(link2)">OpenCms workplace</a> chapter&nbsp;&nbsp;</span></li>
+<li><span style="font-size: 1.6rem;">get an in-depth impression of what you can do with OpenCms beyond content edition by reading the <a href="%(link2)">OpenCms workplace</a> chapter&nbsp;&nbsp;</span></li>
 </ul>]]></content>
       </Text>
     </Section>
@@ -69,12 +69,13 @@
             <uuid>30c1d17c-d1ca-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p><span style="font-size: 1.6rem;">If you are a <strong>web developer</strong> and, for the first time, want to realize a website for your customer's project, it is not recommended to develop a new website template from scratch, but to <strong>use the standard <em>Mercury</em> template</strong> as a starting point. To get started, follow these links:</span></p>
+        <content><![CDATA[<p><span style="font-size: 1.6rem;">If you are a <strong>web developer</strong> and, for the first time, want to realize a website project, it is recommended to start with<strong>&nbsp;</strong>the <strong>standard <em>Mercury</em> template </strong>instead of developing a template from scratch. To get started, follow these links:</span></p>
 <ul>
-<li>have a look at the <a href="%(link0)" target="_blank" rel="noopener">source code repository</a> of the Mercury template where you get an impression of Mercury's features and how to customize Mercury's CSS styles</li>
+<li>have a look at the <a href="%(link0)" target="_blank" rel="noopener">source code repository</a> of the Mercury template, in the README, you get an impression of Mercury's features and how to customize Mercury's style sheets</li>
 <li><a href="%(link1)">install</a> OpenCms with Mercury on your local PC—the easiest way to do this is to use the <a href="%(link2)" target="_blank" rel="noopener">official docker image</a></li>
 <li>read the <a href="%(link3)">template tutorial</a> which introduces into the basic concepts and methods of template development</li>
-<li>before you start developing new features, have a look at the <a href="%(link4)">template variants</a> chapter of this documentation, describing how Mercury can be customized for individual project requirements</li>
+<li>install and experiment with the template examples</li>
+<li>have a look at the <a href="%(link4)">template variants</a> chapter of this documentation, describing how Mercury can be customized</li>
 <li><span style="font-size: 1.6rem;">the <a href="%(link5)">template development</a> chapter of this documentation finally provides a full reference of all technical possibilities</span></li>
 </ul>]]></content>
       </Text>

@@ -2,7 +2,7 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[The image bean 2]]></Title>
+    <Title><![CDATA[Technical details]]></Title>
     <Section>
       <Caption><![CDATA[Provider class]]></Caption>
       <Text name="Text0">
@@ -18,7 +18,7 @@
 <ul>
 <li><code>content.<strong>value.{XML node name}.toImage</strong></code></li>
 </ul>
-<p>With content of type res of type <code>CmsJspResourceWrapper</code> (as typical, when you read a resource via some EL expression):</p>
+<p>With <code>content</code> of type <code>CmsJspResourceWrapper</code> (as typical, when you read a resource via some EL expression):</p>
 <ul>
 <li><code>res.toImage</code></li>
 </ul>

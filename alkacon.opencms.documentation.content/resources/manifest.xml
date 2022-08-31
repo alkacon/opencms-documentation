@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The contents of the Alkacon OpenCms documentation.]]></description>
-		<version>13.0.58</version>
+		<version>13.0.59</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -20654,6 +20654,23 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00103.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00103.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>f962625b-28fb-11ed-8700-0242ac11002b</uuidstructure>
+			<uuidresource>f962625c-28fb-11ed-8700-0242ac11002b</uuidresource>
+			<datecreated>Wed, 31 Aug 2022 07:10:20 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Image handling: The image processing library]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00107.xml</source>
 			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00107.xml</destination>
 			<type>m-section-ext</type>
@@ -21633,7 +21650,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Image handling: Special image handling in JSPs]]></value>
+					<value><![CDATA[Image handling: Usage in JSPs]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -21667,41 +21684,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Image handling: The image bean 2]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00167.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00167.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>42eb2d1c-d7f9-11ec-98d0-0242ac11002b</uuidstructure>
-			<uuidresource>42eb2d1d-d7f9-11ec-98d0-0242ac11002b</uuidresource>
-			<datecreated>Fri, 20 May 2022 04:56:51 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Image handling: Interesting methods of the bean]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00168.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00168.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>7809a856-d7f9-11ec-98d0-0242ac11002b</uuidstructure>
-			<uuidresource>7809a857-d7f9-11ec-98d0-0242ac11002b</uuidresource>
-			<datecreated>Fri, 20 May 2022 04:58:20 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Image handling: Scaling, cropping, squezing]]></value>
+					<value><![CDATA[Image handling: Technical details]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -21718,7 +21701,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Image handling: Transformation methods of the image bean (incomplete)]]></value>
+					<value><![CDATA[Image handling: Scaling, cropping, squeezing]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -21735,7 +21718,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Image handling:  Dealing with source sets]]></value>
+					<value><![CDATA[Image handling: HTML Serialization]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -21769,7 +21752,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Image handling: Getting information on the image]]></value>
+					<value><![CDATA[Image handling: Accessing meta information]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -21787,40 +21770,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Image handling: Accessing meta information of the wrapped image (incomplete)]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00174.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00174.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>83f4ff46-d7fa-11ec-98d0-0242ac11002b</uuidstructure>
-			<uuidresource>83f4ff47-d7fa-11ec-98d0-0242ac11002b</uuidresource>
-			<datecreated>Fri, 20 May 2022 05:05:49 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Image handling: Getting the URLs into the HTML code]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00175.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00175.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>9c55fec9-d7fa-11ec-98d0-0242ac11002b</uuidstructure>
-			<uuidresource>9c55feca-d7fa-11ec-98d0-0242ac11002b</uuidresource>
-			<datecreated>Fri, 20 May 2022 05:06:30 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Image handling: Methods for rendering the image urls and extra information (incomplete)]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -34866,23 +34815,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00947.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00947.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>f86212bd-f60c-11ec-9ae6-0242ac11002b</uuidstructure>
-			<uuidresource>f86212be-f60c-11ec-9ae6-0242ac11002b</uuidresource>
-			<datecreated>Mon, 27 Jun 2022 11:33:30 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[JSON support: Introduction]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00948.xml</source>
 			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00948.xml</destination>
 			<type>m-section-ext</type>
@@ -39303,23 +39235,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01211.xml</source>
-			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01211.xml</destination>
-			<type>m-section-ext</type>
-			<uuidstructure>f2bbca45-026c-11ed-8ebc-0242ac11002b</uuidstructure>
-			<uuidresource>f2bbca46-026c-11ed-8ebc-0242ac11002b</uuidresource>
-			<datecreated>Wed, 13 Jul 2022 05:30:47 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[About: Additional documentation]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01212.xml</source>
 			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_01212.xml</destination>
 			<type>m-section-ext</type>
@@ -39381,7 +39296,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Additional documentation: Mailing list]]></value>
+					<value><![CDATA[Mailing list]]></value>
 				</property>
 			</properties>
 			<relations/>

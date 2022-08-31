@@ -2,12 +2,12 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[ Dealing with source sets]]></Title>
+    <Title><![CDATA[HTML Serialization]]></Title>
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p><span lang="en">Modern websites need to be able to handle images according to the used screen size to prevent unnecessarily large images on small devices. HTML5 provides the attribute <code>srcset</code> in the tag <code>&lt;img&gt;</code>, into which you insert a set of images from which the browser chooses the image with the appropriate resolution.</span> To manage an image on a fully responsive website, you have to create a set of images. Usu<span lang="en">ally, the image is scaled for five different screen sizes and also for high dpi devices (retina displays).</span></p>
-<p><span lang="en">The image bean provides methods to generate and deal with the source sets. Below, <code>ib</code> is the image bean.</span></p>]]></content>
+        <content><![CDATA[<p><span lang="en">Responsive images are crucial in modern web design. Besides the <code>&lt;img&gt;</code> tag and its <code>src</code> attribute, the HTML5 language introduces the attribute <code>srcset</code> in the <code>&lt;img&gt;</code> tag where one can define a set of image URLs for different screen sizes</span><span lang="en">&nbsp;and also for high dpi devices (retina displays).</span></p>
+<p><span lang="en">The image bean provides methods to generate and deal with the HTML <code>src</code> attribute as well as the <code>srcset</code> attribute. <code>ib</code> means image bean.</span></p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

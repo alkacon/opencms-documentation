@@ -6,8 +6,7 @@
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>OpenCms supports image scaling on demand, i.e., editors upload one (big) image, but the server delivers scaled versions of the image to the client. The images are scaled when the image is requested for the first time. How images should be scaled can be selected by the editor and by the template developer, when scaling the image in the JSP.</p>
-<div class="alert alert-info">We use the <strong>image bean</strong> for scaling images, introduced in OpenCms 11, which is far more flexible and powerful than the <code>&lt;cms:img&gt;</code> tag used before.</div>]]></content>
+        <content><![CDATA[<p>OpenCms integrates a server-side image processing library that is able to apply transformations and filters to images on demand. The image library is especially useful to realize responsive websites: content editors need to upload one image in good quality only—later on, the content editor and also the template developer can decide to deliver certain cutouts of images only or images in different sizes optimized for (mobile) client devices.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

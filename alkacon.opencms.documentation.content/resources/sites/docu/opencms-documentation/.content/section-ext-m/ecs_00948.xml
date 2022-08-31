@@ -8,10 +8,9 @@
         <links/>
         <content><![CDATA[<p>This following&nbsp; assumes that in your JSPs, you include the OpenCms tag library as follows:</p>
 <pre><code>&lt;%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms"%&gt;</code></pre>
-<p>&nbsp;</p>
 <p>When the URL of an incoming request contains the request parameter "<code>__json=true</code>", JSON conversion is activated for this request. This means that instead of rendering the page by default, OpenCms produces JSON output that contains selected sections of the page's HTML as JSON values.</p>
 <p>The <code>&lt;cms;jsonpart&gt;</code> tag can be used to control which parts of the JSP output should be used as JSON values, and the <code>element</code> attribute of the tag is used to control the JSON key for the value produced from the tag's body.</p>
-<p><br />For example, the output of the JSP code:</p>
+<p>For example, the output of the JSP code:</p>
 <pre><code>&lt;%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms"%&gt;
 lorem ipsum&lt;
 &lt;cms:jsonpart element="part1"&gt;this is the first part&lt;/cms:jsonpart&gt;

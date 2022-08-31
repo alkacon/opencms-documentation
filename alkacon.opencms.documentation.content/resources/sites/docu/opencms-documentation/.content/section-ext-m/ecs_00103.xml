@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[The image processing library]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The image processing library supports all kinds of image transformations relevant for website building such as scaling, cropping, and filtering. All modern image formats are supported besides the <em>SVG</em> and also not the <em>JPEG 2000</em> format.</p>
+<p>Image processing is possible for large images in a multi-user scenario due to an integrated cache: a transformed image version is processed only when requested for the first time, and is immediately stored to a file system cache. Further requests of the same transformation of an image are then delivered directly from the file system.</p>
+<p>How an image should be scaled, can be decided by the content editor as well as the template developer. The OpenCms workplace integrates an image editor where the content editor can crop and scale an image, and also can set a focus point. The template developer can use the available JSP APIs for image processing as described below.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>
