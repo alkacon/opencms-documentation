@@ -2,30 +2,22 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Welcome to the template examples]]></Title>
+    <Title><![CDATA[Welcome to the template development guide]]></Title>
     <Section>
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/template-development/]]></target>
-            <uuid>30c1d17c-d1ca-11ec-9238-0242ac11002b</uuid>
-          </link>
-          <link name="link1" internal="false" type="A">
-            <target><![CDATA[https://github.com/alkacon]]></target>
-          </link>
-          <link name="link2" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/introduction/getting-started/]]></target>
-            <uuid>ec02eecb-0269-11ed-8ebc-0242ac11002b</uuid>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/getting-started/configuring-a-template-from-scratch/]]></target>
+            <uuid>520ab9c8-2217-11ed-8700-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>This part of the documentation provides a collection of simple and reproducible examples to learn the basics of <a href="%(link0)">template development</a>.</p>
-<p>The source code for each example is <a href="%(link1)">available on GitHub</a>. There are three possibilites what you can do with the source code:</p>
-<ol>
-<li>You can just read the source code while going through the examples.</li>
-<li>You can install the example modules into your <a href="%(link2)">local OpenCms installation</a> and you can experiment with and modify the example source code.</li>
-<li>You can reproduce the examples from. You do this best starting with a fresh and empty local installation. There is no development environment needed for this. You can use OpenCms' built-in editing tools.</li>
-</ol>
-<p>The second option is recommended if you are new to OpenCms. Install the examples and go through the examples from begin to end. The former chapters cover simpler topics such as developing formatters and templates with JSP. The latter chapters explain advanced aspects of configuration, which can be challenging even for advanced OpenCms developers.</p>
+        <content><![CDATA[<p>Every good getting started guide about a technical system should start with some bad news: unfortunately, learning template development in OpenCms is not as easy as learning a web language or a web framework.</p>
+<p>When learning CSS, for example, all you need is a browser, a text editor, and the joy of learning a new language. Learning a web framework such as Spring is not much different if you have some coding experience. After some hours, the beginner has overcome the hello world stage and starts writing code that is already relevant for real projects.</p>
+<p>It would be great if the same learning curve would be possible with OpenCms too. But it is not realistic to start with an empty OpenCms installation, a hello world template, and after some hours having a nice looking website available that can be authored by content editors. To build a website template from scratch needs an understanding of many concepts and tools integrated into OpenCms, such as the Module application or the Sitemap editor.&nbsp; &nbsp;</p>
+<p>The problem to get started with template development is obviously the "to start from scratch".</p>
+<p>And now the good news: with this getting started guide, you need not to start from scratch. There is a Docker image available that provides a fully working OpenCms installation together with an examples module. After installation is completed, you can login to the OpenCms workplace and explore the examples with the file system Explorer, or if you like, make your first development steps with the integrated code editor.</p>
+<p>This guide starts with explaining the interesting area of writing content formatters and functionalities, then continues with the somehow more abstract topic of content schema definitions, and ends with explaining the specifics of JSP template development with OpenCms.</p>
+<p>If you have gone through all these chapters and now are interested in <a href="%(link0)">how to configure a template from scratch</a>, there is an appendix available with a step-by-step guide. As an alternative you can install the standard template <em>Mercury</em> into your local OpenCms installation and start to customize and extend it. Especially the chapter about template variants opens up the of <em>Mercury</em> customization.</p>
 <p>Topics overview:</p>]]></content>
       </Text>
     </Section>

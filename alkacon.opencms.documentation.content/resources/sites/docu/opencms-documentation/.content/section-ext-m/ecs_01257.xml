@@ -2,7 +2,7 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Template examples]]></Title>
+    <Title><![CDATA[Getting started]]></Title>
     <Section>
       <Text name="Text0">
         <links>
@@ -10,7 +10,7 @@
             <target><![CDATA[https://bitbucket.org/alkacon/opencms-examples/src/master/]]></target>
           </link>
         </links>
-        <content><![CDATA[<p>A collection of examples to level up your OpenCms template development expertise. The source code of the examples is available on <a href="%(link0)">GitHub</a>.</p>]]></content>
+        <content><![CDATA[<p>This getting started guide is about the basic concepts and methods of template development by means of simple, reproducible examples. The source code of the examples is available on <a href="%(link0)">GitHub</a>.</p>]]></content>
       </Text>
     </Section>
     <Section/>

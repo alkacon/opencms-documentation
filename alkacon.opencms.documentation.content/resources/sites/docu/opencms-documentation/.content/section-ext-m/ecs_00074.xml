@@ -7,7 +7,7 @@
       <Text name="Text0">
         <links/>
         <content><![CDATA[<p>Welcome to the OpenCms documentation.</p>
-<p>OpenCms is a powerful and highly customizable content management system providing compelling features, especially useful for large Internet and Intranet websites.</p>]]></content>
+<p>OpenCms is a powerful and highly customizable content management system providing compelling features especially for large Internet and Intranet websites.</p>]]></content>
       </Text>
       <Image>
         <Image>
@@ -57,7 +57,7 @@
             <target><![CDATA[https://hub.docker.com/r/alkacon/opencms-docker/]]></target>
           </link>
           <link name="link3" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/template-examples/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/getting-started/]]></target>
             <uuid>6f1ab190-d1c7-11ec-9238-0242ac11002b</uuid>
           </link>
           <link name="link4" internal="true" type="A">
@@ -73,8 +73,8 @@
 <ul>
 <li>have a look at the <a href="%(link0)" target="_blank" rel="noopener">source code repository</a> of the Mercury template, in the README, you get an impression of Mercury's features and how to customize Mercury's style sheets</li>
 <li><a href="%(link1)">install</a> OpenCms with Mercury on your local PC—the easiest way to do this is to use the <a href="%(link2)" target="_blank" rel="noopener">official docker image</a></li>
-<li>read the <a href="%(link3)">template tutorial</a> which introduces into the basic concepts and methods of template development</li>
-<li>install and experiment with the template examples</li>
+<li>read the <a href="%(link3)">getting started guide</a> which introduces into the basic concepts and methods of template development</li>
+<li>install the template examples module and experiment with the available examples</li>
 <li>have a look at the <a href="%(link4)">template variants</a> chapter of this documentation, describing how Mercury can be customized</li>
 <li><span style="font-size: 1.6rem;">the <a href="%(link5)">template development</a> chapter of this documentation finally provides a full reference of all technical possibilities</span></li>
 </ul>]]></content>
