@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Example content]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>Below is an example content shown that we will use throughout this chapter to learn the basics of writing a formatter. The example is a simple <strong>section</strong> content with three content fields—<code>Title</code>, <code>Text</code>, and <code>Image</code>. Although we do not care about the internal content definition, we should know at this point, that the fields are typed: <code>Title</code> is a simple string value, <code>Text</code> contains HTML with inline markup, and <code>Image</code> is a complex type with child elements. The fields are contained in wrapper element with a <code>language</code> attribute making it possible to store section contents in different languages. There are additional rules regarding the structure: in the example we assume that <code>Title</code> and <code>Text</code> are required elements that always exist, whilst <code>Image</code> is an optional element that may be completely missing. We assume that <code>Title</code> in contrast to <code>Text</code>&nbsp;may not be empty.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

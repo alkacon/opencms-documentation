@@ -7,11 +7,11 @@
 <cms:formatter var="content" value="value">
   <div class="block">
     <h3>${value.Title}</h3>
-    <c:if test="${value.Image.isSet)}">
-      <img src="${value.Image.toImage}">
-    </c:if>
     <c:if test="${value.Text.isSet}">
       <p>${value.Text}</p>
+    </c:if>
+    <c:if test="${value.Image.isSet)}">
+      <img src="${value['Image/path']}">
     </c:if>
   </div>
 </cms:formatter>]]></Code>

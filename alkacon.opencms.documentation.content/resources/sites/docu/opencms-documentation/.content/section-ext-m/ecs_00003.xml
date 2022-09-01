@@ -6,13 +6,13 @@
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>The Flex cache caches HTML output produced by JSPs. The HTML snippets are kept in the memory of the server. The snippets produced by a JSP may differ depending on various factors, e.g., the page on which the HTML snippet should be included, the user that is logged in, the current time, etc. To avoid using the "wrong" snippet of HTML, the Flex cache is highly configurable and can cache various versions of the HTML output of a single JSP.New text.</p>]]></content>
+        <content><![CDATA[<p>The Flex cache caches HTML output produced by JSPs. The HTML snippets are kept in the memory of the server. The snippets produced by a JSP may differ depending on various factors, e.g., the page on which the HTML snippet should be included, the user that is logged in, the current time, etc. To avoid using the "wrong" snippet of HTML, the Flex cache is highly configurable and can cache various versions of the HTML output of a single JSP.</p>]]></content>
       </Text>
       <Link>
         <Text><![CDATA[Read more on how the cache works and how to configure it]]></Text>
         <URI>
           <link internal="true" type="WEAK">
-            <target><![CDATA[/sites/docu/opencms-documentation/caching-in-opencms/the-flex-cache/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/caching-in-opencms/the-flex-cache/]]></target>
             <uuid>9717a5e0-d124-11ec-9238-0242ac11002b</uuid>
           </link>
         </URI>

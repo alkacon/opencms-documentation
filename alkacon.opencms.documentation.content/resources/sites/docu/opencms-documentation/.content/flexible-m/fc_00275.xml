@@ -16,11 +16,6 @@
       <div class="content">
         <h2>${value.Title}</h2>
         <p>${value.Text}</p>
-        <c:if test="${value.LinkURI.isSet}">
-          <div>
-            <a class="button" href="<cms:link>${value.LinkURI}</cms:link>">Read more...</a>
-          </div>
-        </c:if>
       </div>
     </div>
   </div>

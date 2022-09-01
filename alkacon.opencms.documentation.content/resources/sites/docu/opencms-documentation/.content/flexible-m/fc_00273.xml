@@ -9,12 +9,11 @@
 <cms:formatter var="content">
   <div class="block">
     <h3>${content.value.Title}</h3>
-    <c:if test="${content.value.Image.isSet)}">
-      <img src="${content.value.Image.toImage}">
-    </c:if>
-    <c:if test="${content.value.Text.isSet}">
-      <p>${content.value.Text}</p>
-    </c:if>
+    <h3>${content.value['Title']}</h3>
+    <p>${content.value.Text}</p>
+    <p>${content.localeValue['en']['Text']}</p>
+    <img src="${content.value['Image/path']}">
+    <pre>${content.filename}</pre>
   </div>
 </cms:formatter>]]></Code>
   </Flexible>

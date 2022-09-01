@@ -4,11 +4,14 @@
   <Flexible language="en">
     <Title><![CDATA[Example content]]></Title>
     <Code><![CDATA[<SectionData>
-    <Section language="en">
-        <Title>My title</Title>
-        <Text><p>Lorem ipsum dolor sit <strong>amet</strong>.</p></Text>
-        <Image>/sites/examples/.galleries/Example-Gallery/opencms-logo.svg</Image>
-    </Section>
+  <Section language="en">
+    <Title>My title</Title>
+    <Text><p>Lorem ipsum dolor sit <strong>amet</strong>.</p></Text>
+    <Image>
+	  <path>/sites/examples/.galleries/Example-Gallery/opencms-logo.svg</path>
+	</Image>
+  </Section>
+  <Section language="de">...</Section>
 </SectionData>]]></Code>
   </Flexible>
 </FlexibleData>

@@ -2,7 +2,7 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Basic formatter]]></Title>
+    <Title><![CDATA[Basic formatter JSP]]></Title>
     <Section>
       <Text name="Text0">
         <links>
@@ -11,8 +11,8 @@
             <uuid>b2a44d5e-d1c4-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>A formatter's task is to create a nicely styled HTML markup for a content type. It does this by reading data from an XML content via a <a href="%(link0)">value wrapper</a> and by inserting the data into the HTML markup.</p>
-<p>Say we have the following XML content and the following formatter JSP:</p>]]></content>
+        <content><![CDATA[<p>A formatter JSPs task is to transform an XML content into nicely styled HTML markup. It does this by reading data fields from an XML content with a path-like syntax, storing the read data into a so called <a href="%(link0)">value wrapper</a> and by inserting those data into the HTML markup.</p>
+<p>Say we have the following formatter JSP:</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

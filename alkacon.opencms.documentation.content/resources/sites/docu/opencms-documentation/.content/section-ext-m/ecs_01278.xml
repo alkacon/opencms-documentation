@@ -7,17 +7,25 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/getting-started/writing-a-formatter/]]></target>
+            <uuid>bc0403ab-21ff-11ed-8700-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/getting-started/defining-a-content-type/]]></target>
+            <uuid>ad3bfea2-d1c7-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link2" internal="true" type="A">
             <target><![CDATA[/sites/docu/opencms-documentation/template-development/getting-started/configuring-a-template-from-scratch/]]></target>
             <uuid>520ab9c8-2217-11ed-8700-0242ac11002b</uuid>
           </link>
         </links>
         <content><![CDATA[<p>Every good getting started guide about a technical system should start with some bad news: unfortunately, learning template development in OpenCms is not as easy as learning a web language or a web framework.</p>
-<p>When learning CSS, for example, all you need is a browser, a text editor, and the joy of learning a new language. Learning a web framework such as Spring is not much different if you have some coding experience. After some hours, the beginner has overcome the hello world stage and starts writing code that is already relevant for real projects.</p>
-<p>It would be great if the same learning curve would be possible with OpenCms too. But it is not realistic to start with an empty OpenCms installation, a hello world template, and after some hours having a nice looking website available that can be authored by content editors. To build a website template from scratch needs an understanding of many concepts and tools integrated into OpenCms, such as the Module application or the Sitemap editor.&nbsp; &nbsp;</p>
-<p>The problem to get started with template development is obviously the "to start from scratch".</p>
-<p>And now the good news: with this getting started guide, you need not to start from scratch. There is a Docker image available that provides a fully working OpenCms installation together with an examples module. After installation is completed, you can login to the OpenCms workplace and explore the examples with the file system Explorer, or if you like, make your first development steps with the integrated code editor.</p>
-<p>This guide starts with explaining the interesting area of writing content formatters and functionalities, then continues with the somehow more abstract topic of content schema definitions, and ends with explaining the specifics of JSP template development with OpenCms.</p>
-<p>If you have gone through all these chapters and now are interested in <a href="%(link0)">how to configure a template from scratch</a>, there is an appendix available with a step-by-step guide. As an alternative you can install the standard template <em>Mercury</em> into your local OpenCms installation and start to customize and extend it. Especially the chapter about template variants opens up the of <em>Mercury</em> customization.</p>
+<p>When learning HTML, CSS, or JavaScript, all you need is a browser, a text editor, and the joy of learning a new language. Learning one of the many fancy web frameworks out there is not much different if you have some coding experience: after some hours, the beginner has his hello world project up and running and starts writing code that is already relevant for real projects.</p>
+<p>It would be great if the same learning curve would be possible with OpenCms. Unfortunately, the approach to start with a hello world template and after some hours having a nice looking website available that can be authored by content editors, does not work with OpenCms. To build a website template from scratch needs an understanding of many concepts integrated into OpenCms as well as their interaction and configuration.</p>
+<p>But what you get at the end of this getting started guide is of course more than a simple tool written with a fancy web framework. You have a fully interactive website template running in a professional website system that supports the requirements of modern web design and search engine optimization. The template runs in a website system that can host the whole internet presence of larger (international) organizations, where your template can be customized for the needs of individual organizational websites. Websites using your template can be authored by whole content editor and administration teams with different responsibilities and levels of technical expertise.</p>
+<p>The problem when you as a web developer are getting started with template development is the "to start from scratch". Thus, this getting started guide is accompanied by an examples module that already contains all the necessary configuration for a website template. In this way, you can concentrate on single aspects of template development such as <a href="%(link0)">writing formatters</a> or <a href="%(link1)">defining a content type</a>, without having to know all the configuration details around.</p>
+<p>There is a <code>docker-compose.yml</code> file available on GitHub, with which you should get OpenCms and the examples module up and running locally within minutes. After installation is completed, you can just login to the OpenCms workplace and start exploring and modifying the examples.</p>
+<p>Those web developers that have successfully gone through the first chapters of this guide and now want to know the whole story of setting up a website template might be interested in the last chapter of this guide, <a href="%(link2)">configuring a template from scratch</a>.</p>
 <p>Topics overview:</p>]]></content>
       </Text>
     </Section>
