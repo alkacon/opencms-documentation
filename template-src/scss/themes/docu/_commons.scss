@@ -100,32 +100,53 @@ $policy-banner-accept-hover-color:  $color-oc-blue !default;
 
 $zoomer-icon:                       "\f065" !default;
 
-$bg-colors: (
-    ("grey-light",     $grey-light,          $grey-lighter),
-    ("grey-lighter",   $grey-lighter,        $grey-light),
-    ("red",            $color-oc-red,        $color-oc-blue),
-    ("orange",         $color-oc-orange,     $color-oc-blue),
-    ("blue",           $color-oc-blue,       $color-red-light),
-    ("pagehint",       $color-orange-light,  $color-red-light),
-    ("cyan",           $color-cyan,          $color-red-light),
-    ("default",        $highlight-color,     $grey-light)
+$theme-colors: (
+    ("grey-light",     $grey-light),
+    ("grey-lighter",   $grey-lighter),
+    ("red",            $color-oc-red),
+    ("orange",         $color-oc-orange),
+    ("blue",           $color-oc-blue),
+    ("pagehint",       $color-orange-light),
+    ("cyan",           $color-cyan),
+    ("default",        $highlight-color)
+) !default;
+
+$match-defaults-dark: (
+    "body-color": $text-dark,
+    "link-color": $link-color,
+    "link-hover-color": $link-hover-color
+);
+
+$theme-matched-colors: (
+    $white:             $match-defaults-dark,
+    $grey:              $match-defaults-dark,
+    $grey-light:        $match-defaults-dark,
+    $grey-lighter:      $match-defaults-dark,
+    $color-cyan-light:  $match-defaults-dark,
+    $color-orange-light:$match-defaults-dark,
+    $color-cyan: (
+        "body-color": $white,
+        "link-color": $link-color,
+        "link-hover-color": $link-hover-color
+    ),
+    $color-oc-orange: (
+        "body-color": $white,
+        "link-color": $link-color,
+        "link-hover-color": $link-hover-color
+    ),
+    $color-oc-red: (
+        "body-color": $white,
+        "link-color": $color-oc-orange,
+        "link-hover-color": $grey-light
+    ),
+    $color-oc-blue: (
+        "body-color": $white,
+        "link-color": $color-oc-orange,
+        "link-hover-color": $link-hover-color
+    )
 ) !default;
 
 $link-colors: (
     ("ib-light",       $white,               $color-blue-lighter),
     ("ib-dark",        $text-dark,           $color-oc-red)
 ) !default;
-
-
-$match-text-bg-colors: (
-    $grey:              ($text-dark, $link-color,       $link-hover-color),
-    $grey-light:        ($text-dark, $link-color,       $link-hover-color),
-    $grey-lighter:      ($text-dark, $link-color,       $link-hover-color),
-    $color-cyan-light:  ($text-dark, $link-color,       $link-hover-color),
-    $color-cyan:        ($white,     $link-color,       $link-hover-color),
-    $color-oc-red:      ($white,     $color-oc-orange,  $grey-light),
-    $color-oc-orange:   ($white,     $link-color,       $link-hover-color),
-    $color-oc-blue:     ($white,     $color-oc-orange,  $link-hover-color),
-    $white:             ($text-dark, $link-color,       $link-hover-color)
-) !default;
-

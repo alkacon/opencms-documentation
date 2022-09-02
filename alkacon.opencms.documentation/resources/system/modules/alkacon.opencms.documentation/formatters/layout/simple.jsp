@@ -12,14 +12,17 @@
 
 <cms:formatter var="content" val="value">
 
+<mercury:setting-defaults>
+
 <c:set var="variant"            value="${value.Variant}" />
 <c:set var="setting"            value="${cms.element.setting}" />
 <c:set var="detailContainer"    value="${setting.detailContainer.toString}" />
-<c:set var="cssWrapper"         value="${setting.cssWrapper.isSet ? ' '.concat(setting.cssWrapper.toString) : ''}" />
 <c:set var="reverseOrder"       value="${setting.containerOrder.toString eq 'reversed'}" />
 
 <c:set var="isMainDetail"       value="${(detailContainer eq 'maincol') or (detailContainer eq 'maincust')}" />
 <c:set var="mainDetailType"     value="${detailContainer eq 'maincust' ? 'special' : 'element'}" />
+
+<c:set var="cssWrapper"         value="${setCssWrapperAll}" />
 
 <jsp:useBean id="valueMap"      class="java.util.HashMap" />
 
@@ -239,7 +242,7 @@
             <c:when test="${useTile}">
                 <%-- Generate tile row --%>
                 <c:set target="${valueMap}" property="Type"     value="tile"/>
-                <c:set target="${valueMap}" property="Css"      value="${'row-tile '}${tileMargin}${cssWrapper}" />
+                <c:set target="${valueMap}" property="Css"      value="${'row '}${tileMargin}${cssWrapper}" />
                 <c:set target="${params}"   property="tilegrid" value="${tileCss}" />
             </c:when>
             <c:otherwise>
@@ -340,4 +343,7 @@
 <mercury:nl />
 
 <mercury:container-box label="${value.Title}" boxType="model-end" />
+
+</mercury:setting-defaults>
+
 </cms:formatter>

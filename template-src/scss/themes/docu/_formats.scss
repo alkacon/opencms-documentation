@@ -33,7 +33,7 @@ pre code {
 }
 
 ul, ol {
-    padding-inline-start: calc(3 * var(--#{$prefix}spacer));
+    padding-inline-start: 3rem;
 }
 
 code {
