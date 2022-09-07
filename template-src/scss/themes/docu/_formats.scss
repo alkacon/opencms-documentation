@@ -29,7 +29,7 @@ pre code {
     tab-size: 2em;
     border: 1px solid $form-border-color;
     background-color: var(--#{$prefix}body-bg);
-    @include round-corners(var(--#{$prefix}border-radius));
+    border-radius: var(--#{$prefix}border-radius);
 }
 
 ul, ol {
@@ -52,7 +52,7 @@ code {
     padding-left: calc(var(--#{$prefix}margin) - 4px);
     border-left: 4px solid;
     margin-bottom: var(--#{$prefix}margin);
-    @include round-corners(var(--#{$prefix}border-radius));
+    border-radius: var(--#{$prefix}border-radius);
 }
 
 .box.box-pagehint {
