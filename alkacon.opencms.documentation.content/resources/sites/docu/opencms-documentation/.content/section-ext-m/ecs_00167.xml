@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Dynamic functions]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The chapter about formatters has shown that XML contents in the actual sense contain textual and image data that are visually shown on a website. There was one exception though, the layout content describing a responsive page layout, which did not directly produce visual output in the end but was the configuration for a responsive page structure. The idea of using contents for configuration purposes is continued by dynamic functions.</p>
+<p><code>Dynamic function</code> (<code>function_config</code>) in OpenCms is an XML content type as well, namely, a built-in configuration type that does not display any user authored content but is the configuration for any kind of functionality that we want the content editor to drag and drop onto a web page. For example, we like to social sharing buttons. Dynamic functions are stored in modules in a directory called <code>functions/</code>. Similar to formatters they consist of a function JSP and a function configuration, where the names of the files as a convention should be named in the same way besides the suffix and should inform about what the function does, for example:</p>
+<p><code>/functions/current-date.jsp</code><br /><code>/functions/current-date.xml</code></p>
+<p>Say, we have a <code>current-date.jsp</code> that prints the current date on a website in a formatted way:</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

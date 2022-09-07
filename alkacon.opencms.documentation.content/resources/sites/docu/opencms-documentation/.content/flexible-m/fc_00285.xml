@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Example JSP for image drag-and-drop]]></Title>
+    <Code><![CDATA[<cms:formatter var="content" val="value" rdfa="rdfa">
+  <div class="block">
+    <div ${content.imageDnd[value.Image.path]}>
+      <img src="${value.Image.toImage}" ${rdfa.Image}/>
+    </div>
+    <hr>
+  </div>
+</cms:formatter>
+]]></Code>
+  </Flexible>
+</FlexibleData>

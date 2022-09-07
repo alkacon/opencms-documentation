@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Example element setting for an alert formatter]]></Title>
+    <Code><![CDATA[<Setting>
+  <PropertyName>alert-state</PropertyName>
+  <DisplayName>Alert state</DisplayName>
+  <Widget>select</Widget>
+  <Default>has-background-success-light</Default>
+  <WidgetConfig>has-background-success-light:Success|
+      has-background-danger-light:Danger|
+      has-background-warning-light:Warning|
+      has-background-info-light:Info</WidgetConfig>
+</Setting>]]></Code>
+  </Flexible>
+</FlexibleData>

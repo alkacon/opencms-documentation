@@ -3,33 +3,19 @@
 <FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
   <Flexible language="en">
     <Title><![CDATA[Image scaling]]></Title>
-    <Code><![CDATA[<%@page pageEncoding="UTF-8" buffer="none" session="false" trimDirectiveWhitespaces="true"%>
-
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="cms" uri="http://www.opencms.org/taglib/cms"%>
-
-<cms:formatter var="content" val="value">
-
-  <%-- get the image from the content as image bean --%>
+    <Code><![CDATA[<cms:formatter var="content" val="value">
+  <c:set var="imageBeanCropped" value="${value.ImageCropped.toImage}"/>
   <c:set var="imageBean" value="${value.Image.toImage}"/>
-
-  <%-- add (links to) scaled versions of the image to the bean's source set
-       Note: We provide 250px and 350px, and double the sizes for retina displays --%>
-  <c:set target="${imageBean}" property="srcSets" value="${imageBean.scaleWidth[250]}" />
-  <c:set target="${imageBean}" property="srcSets" value="${imageBean.scaleWidth[350]}" />
+  <c:set target="${imageBeanCropped}" property="srcSets" value="${imageBeanCropped.scaleWidth[250]}" />
+  <c:set target="${imageBeanCropped}" property="srcSets" value="${imageBeanCropped.scaleWidth[350]}" />
   <c:set target="${imageBean}" property="srcSets" value="${imageBean.scaleWidth[500]}" />
   <c:set target="${imageBean}" property="srcSets" value="${imageBean.scaleWidth[700]}" />
-
   <div class="clearfix">
-    <%-- use image bean with the img tag: Provide a default 400px image for browsers not supporting
-         the srcset attibute, and provide our srcset as well.
-	     The sizes are needed to tell the browser when to use which resolution. --%>
-    <img class="demo-float-on-big-screen"
-         src="${imageBean.scaleWidth[400]}"
-	     srcset="${imageBean.srcSet}"
-	     sizes="(min-width: 768px) 350px, 250px">
-
-    ${value.Text}
+    <picture>
+      <source media="(max-width: 799px)" srcset="${imageBeanCropped.srcSet}">
+      <source media="(min-width: 800px)" srcset="${imageBean.srcSet}">
+      <img src="${imageBean.src}" alt="">
+    </picture>
   </div>
 </cms:formatter>]]></Code>
   </Flexible>

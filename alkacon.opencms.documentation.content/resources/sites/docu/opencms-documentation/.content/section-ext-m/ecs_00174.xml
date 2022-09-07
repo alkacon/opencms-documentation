@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Caching]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/caching-in-opencms/the-flex-cache/]]></target>
+            <uuid>9717a5e0-d124-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/properties-dialog/]]></target>
+            <uuid>6a49a907-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/cache-app/]]></target>
+            <uuid>eb9ac077-d1c6-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>JSP caching is probably one of the most powerful internal features OpenCms offers but is also one of the most difficult to understand. Why is caching important? Think of a normal HTML page consisting of a header, a body, and a footer. The output of an HTML page is often not longer than several hundred lines of HTML code. Be aware, though, that in a content management system, an HTML page is dynamically composed on request by many different data.</p>
+<p>From the perspective of a formatter, a request proceeds as follows:</p>
+<ul style="list-style-type: square;">
+<li><strong>Step 1</strong>: when calling some <code>index.html</code> page, OpenCms at first loads and parses a so called container page; a container page is an XML document that describes which text-image and layout contents appear on a page <strong>in which order</strong> and <strong>in which nesting</strong>, and for each appearance of a content has additional formatting information available; the appearance of a formatted content on a page is called a <strong>container element</strong></li>
+<li><strong>Step 2</strong>: the request chain iterates over each <strong>container element</strong> and
+<ul style="list-style-type: square;">
+<li>loads and parses the XML content referenced</li>
+<li>loads the referenced formatter configuration to get the formatter JSP and the default element settings</li>
+<li>loads the individual element settings the content editor did set</li>
+</ul>
+</li>
+<li><strong>Step 3</strong>: finally the formatter JSP is evaluated; the formatter JSP transforms and combines the content fields and the element settings into HTML markup; the resulting HTML markup is not always the same on each HTML page and even not on every occurence on one HTML page but depends on context information: the content, the language, the formatter used, the settings choosen by the content editor, user permissions, ACLs, request paramters, and so on.</li>
+</ul>
+<p>It is obvious that this request chain needs time. Let it be only 20 container elements on a page, this can already mean several hundred database queries, parsing steps, permission checks, and transformations per user request. <strong>To guarantee good performance, caching is a must</strong>. As a template developer, you should not rely on the existence of an external website cache, but use the OpenCms internal <a href="%(link0)">Flex cache</a>.</p>
+<p>The flex cache is an in-memory key value store that stores the finally generated HTML markup as described in step 3 above. The key encodes all the context information (content, language, formatter, and so on) that led to the particular HTML output. As a template developer you are responsible to tell the flex cache how exactly the key must be generated for a specific formatter JSP:</p>
+<ul>
+<li>you have to ensure that a key really encodes <strong>all</strong> relevant context information, if some context information is missing in the key, it might happen, that wrong content not matching the request is delivered to the client</li>
+<li>you have to ensure that <strong>not too much</strong> context information is encoded in the key, respectively, context information that is different per request but does not change the HTML output, does not generate a cache entry</li>
+</ul>
+<p>For the different context information such as content, formatter, element settings, and language, the flex cache offers a defined set of cache directives. For formatter JSPs, these are the most relevant directives:</p>
+<ul>
+<li><code><strong>container-element</strong></code>: encodes the internal ID of a container element into the flex cache key, which means, a cache entry is created relative to the content, formatter, and element settings a container element references</li>
+<li><code><strong>uri</strong></code>: additionally encodes the request uri into the flex cache key, which means, the identical internal container element ID is cached multiple times relative to the URI requested; this is for technical reasons because it may happen that internal IDs of container elements are not unique, e.g., since <code>&lt;cms:container&gt;</code> elements have no unique IDs but only names as described above; you should always combine the <code>container-element</code> and <code>uri</code> directive for technical reasons unless you are absolutely sure that your container element IDs are globally unique</li>
+<li><code><strong>locale</strong></code>: additionally encodes the requested client's locale into the key</li>
+</ul>
+<p>One could argue why OpenCms does not assume these three directives as a default for every formatter JSP. The reason is that OpenCms cannot know if these three directives are already enough or already too much. Just as an example: maybe your website has visitors from several hundred countries with client devices requesting web pages in several hundred locales every day, but at the same time your website offers english contents only. The <code>locale</code> directive in this case would cause the flex cache to create several hundred cache entries with always the same HTML output. On the other hand, if your formatter JSP contains logic that produces different HTML output relative to some request parameter, this logic would not work any more with only the three directives configured. In this case, the <code>params</code> directive must be additionally set by the template developer, since the flex cache cannot analyze specific logic implemented in formatter JSPs in an automatic way.</p>
+<p>After this theoretical explanation, here finally the practical hint, how the flex cache can be configured for a formatter JSP. Cache directives are set for each formatter JSP individually with the <a href="%(link1)">Properties dialog</a>. There is a property named <code>cache</code> that expects a list of flex cache directives separated by semicolon. A typical flex cache setting for a formatter JSP would look like this:&nbsp;</p>
+<p><code>container-element</code>;<code>uri</code>;<code>locale</code></p>
+<p>There is a <a href="%(link2)">Cache app</a> available, with which one can understand how cache settings affect the flex cache entries.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

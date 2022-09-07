@@ -5,13 +5,20 @@
     <Title><![CDATA[Inline editing]]></Title>
     <Section>
       <Text name="Text0">
-        <links/>
-        <content><![CDATA[<p>Inline editing is a special feature since not supported by every content management system. When editors initially create a new content, the form editor is used in OpenCms. At an advanced stage of content authoring, when editors need to make minor textual corrections only, it is of great help if an inline editor is available. While the form editor interrupts the flow of reading and correcting each time, with an inline editor, content editors can stay in the flow.</p>
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/formatters-and-their-configuration/configure-inline-editing/]]></target>
+            <uuid>57eec466-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p><a href="%(link0)">Inline editing</a> is a special feature since not supported by every content management system. When editors initially create a new content, the form editor is used in OpenCms. At an advanced stage of content authoring though, when editors need to make minor textual corrections only, it is of great help if an inline editor is available. While the form editor interrupts the flow of reading and correcting each time, with an inline editor, content editors can stay in the flow.</p>
 <p>Since it is relatively easy to enable inline editing, and the feature is of great help for content editors, you should not miss this opportunity when writing a formatter JSP.</p>
-<p>As a third attribute in the <code>&lt;cms:formatter&gt;</code> tag, the rdfa attribute now comes into play. rdfa is an abbreviation for RDF anntotation. The RDF annotation denotes that a certain HTML markup tag displaying a content field belongs to a certain XML content element storing the field. In declaring the rdfa attribute directly in the formatter tag, the short syntax <code>rdfa.*</code> instead of the longer syntax <code>content.rdfa.*</code> is available, as with the <code>value</code> attribute above.</p>
+<p>As a third attribute in the <code>&lt;cms:formatter&gt;</code> tag, the <code>rdfa</code> attribute now comes into play. <code>rdfa</code> is an abbreviation for RDF anntotation. The RDF annotation denotes that a certain HTML markup tag belongs to a certain XML content element storing the field. In this way, OpenCms can turn a certain HTML markup tag that display a content field into an inline editing field and at the same time knows where to store a field value when edited inline.</p>
 <p>The example below uses rdfa annotations for three content elements—<code>Title</code>, <code>Text</code> and <code>Image</code>.</p>
-<p>The rdfa annotations must be placed directly at the HTML tags surrounding the textual content values <code>Title</code> and <code>Text</code>. When hovering over a textual value where inline editing is enabled, a pencil is shown to the content editor. A click into the textual value turns the text output into a text input field. For nontextual fields such as the <code>Image</code> field, the rdfa annotation must be placed at some ancestor <code>&lt;div&gt;</code> tag and results in an edit point at the right-hand side of the inline editor. When hovering such a right-hand edit point, the annotated block element is getting highlighted.</p>
-<p>As mentioned above, inline editing is helpful especially in an advanced stage of content authoring. If your project requires inline editing from the beginning of content creation, the way to go is providing default values for each textual field and to provide placeholder images for image fields.</p>]]></content>
+<p>In the case of textual fields such as <code>Title</code> and <code>Text</code>, the rdfa annotations are placed directly at the HTML tags surrounding the textual content values. When hovering over a textual value where inline editing is enabled, a pencil is shown to the content editor. A click into the textual value turns the text output into a text input field.</p>
+<p>For nontextual fields such as the <code>Image</code> field, the rdfa annotation are placed at some ancestor <code>&lt;div&gt;</code> tag and results in an edit point at the right-hand side of the inline editor. When hovering such a right-hand edit point, the RDF annotated block element is getting highlighted.</p>
+<p>Inline editing works for non empty fields only.</p>
+<p>In declaring the rdfa attribute directly in the formatter tag, the short syntax <code>rdfa.*</code> instead of the longer syntax <code>content.rdfa.*</code> is available, as with the <code>value</code> attribute above.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

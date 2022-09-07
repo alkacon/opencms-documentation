@@ -2,9 +2,12 @@
 
 <FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
   <Flexible language="en">
-    <Title><![CDATA[JSP]]></Title>
-    <Code><![CDATA[<%@page pageEncoding="UTF-8" buffer="none" session="false"%>
-<%@ taglib prefix="example" tagdir="/WEB-INF/tags/example" %>
-<example:container name="main" type="element"/>]]></Code>
+    <Title><![CDATA[Example JSP for element settings]]></Title>
+    <Code><![CDATA[<cms:formatter var="content" val="value">
+  <div class="box block ${cms.element.settings['type']}">
+    <h3>${value.Title}</h3>
+    <p>${value.Text}</p>
+  </div>
+</cms:formatter>]]></Code>
   </Flexible>
 </FlexibleData>
