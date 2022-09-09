@@ -46,12 +46,12 @@ code {
 
 .alert {
     position: relative;
-    padding-top: var(--#{$prefix}margin);
-    padding-bottom: var(--#{$prefix}margin);
-    padding-right: var(--#{$prefix}margin-xl);
-    padding-left: calc(var(--#{$prefix}margin) - 4px);
+    padding-top: var(--#{$prefix}default-margin-small);
+    padding-bottom: var(--#{$prefix}default-margin-small);
+    padding-right: var(--#{$prefix}default-margin);
+    padding-left: calc(var(--#{$prefix}default-margin-small) - 4px);
     border-left: 4px solid;
-    margin-bottom: var(--#{$prefix}margin);
+    margin-bottom: var(--#{$prefix}default-margin-small);
     border-radius: var(--#{$prefix}border-radius);
 }
 
