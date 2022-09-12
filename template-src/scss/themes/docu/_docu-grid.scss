@@ -30,24 +30,24 @@ $full-flow-assumed-width:               map-get($container-max-widths, xl) !defa
 @function get-col-flex-abs-size($col-size, $parent-col-size, $grand-parent-col-size: $grid-columns, $reduce: 0) {
     @return floor(
         ($full-flow-assumed-width
-            * divide($col-size, $grid-columns)
-            * divide($parent-col-size, $grid-columns)
-            * divide($grand-parent-col-size, $grid-columns)
+            * divide($col-size, $grid-columns, $divide-precision)
+            * divide($parent-col-size, $grid-columns, $divide-precision)
+            * divide($grand-parent-col-size, $grid-columns, $divide-precision)
         ) - ((0.5 * $grid-gutter-width) + $reduce));
 }
 
 @function get-col-float-abs-size($col-size, $parent-col-size, $grand-parent-col-size: $grid-columns, $reduce: 0) {
     @return floor(
         ($full-flow-assumed-width
-            * divide($col-size, $grid-columns)
-            * divide($parent-col-size, $grid-columns)
-            * divide($grand-parent-col-size, $grid-columns)
+            * divide($col-size, $grid-columns, $divide-precision)
+            * divide($parent-col-size, $grid-columns, $divide-precision)
+            * divide($grand-parent-col-size, $grid-columns, $divide-precision)
         ) - ($grid-gutter-width + $reduce));
 }
 
 @function get-col-abs-size($col-size) {
     @if ($col-size < 12) {
-        @return floor($full-flow-assumed-width * divide($col-size, $grid-columns));
+        @return floor($full-flow-assumed-width * divide($col-size, $grid-columns, $divide-precision));
     } @else {
         @return 100%;
     }
@@ -56,11 +56,11 @@ $full-flow-assumed-width:               map-get($container-max-widths, xl) !defa
 @mixin make-col-abs-size($own-col-size, $remaining: false) {
     @if ($own-col-size < $grid-columns) {
         @if ($remaining) {
-            $col-width: floor($full-flow-assumed-width * divide(($grid-columns - $own-col-size), $grid-columns));
+            $col-width: floor($full-flow-assumed-width * divide(($grid-columns - $own-col-size), $grid-columns, $divide-precision));
             flex: 0 0 calc(100% - #{$col-width + 1px});
             max-width: calc(100% - #{$col-width + 1px});
         } @else {
-            $col-width: floor($full-flow-assumed-width * divide($own-col-size, $grid-columns));
+            $col-width: floor($full-flow-assumed-width * divide($own-col-size, $grid-columns, $divide-precision));
             flex: 0 0 #{$col-width};
             max-width: #{$col-width};
         }
