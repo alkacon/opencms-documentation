@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The contents of the Alkacon OpenCms documentation.]]></description>
-		<version>13.0.62</version>
+		<version>13.0.63</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -17384,6 +17384,23 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>sites/docu/opencms-documentation/.content/flexible-m/fc_00286.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/flexible-m/fc_00286.xml</destination>
+			<type>m-flexible-up</type>
+			<uuidstructure>654c1042-39b9-11ed-bed2-0242ac11002b</uuidstructure>
+			<uuidresource>654c1043-39b9-11ed-bed2-0242ac11002b</uuidresource>
+			<datecreated>Wed, 21 Sep 2022 14:26:34 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Writing a formatter: New flexible content]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>sites/docu/opencms-documentation/.content/function_config</destination>
 			<type>folder</type>
 			<uuidstructure>8e50a273-e30a-11ec-8d31-0242ac11002b</uuidstructure>
@@ -20528,7 +20545,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Defining a content type: Add a new content type]]></value>
+					<value><![CDATA[Defining a content type: The default content type]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -21889,6 +21906,23 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Writing a formatter: Caching]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00175.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00175.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>e8701186-2f49-11ed-bed2-0242ac11002b</uuidstructure>
+			<uuidresource>e8701187-2f49-11ed-bed2-0242ac11002b</uuidresource>
+			<datecreated>Thu, 08 Sep 2022 07:43:19 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Defining a content type: Understanding content types]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -29392,6 +29426,23 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00617.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00617.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>bacc738a-39b8-11ed-bed2-0242ac11002b</uuidstructure>
+			<uuidresource>bacc738b-39b8-11ed-bed2-0242ac11002b</uuidresource>
+			<datecreated>Wed, 21 Sep 2022 14:21:48 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Writing a formatter: Caching continued]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00618.xml</source>
 			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00618.xml</destination>
 			<type>m-section-ext</type>
@@ -33993,6 +34044,40 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Search settings: Use-cases]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00889.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00889.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>ac9ae78a-2f52-11ed-bed2-0242ac11002b</uuidstructure>
+			<uuidresource>ac9ae78b-2f52-11ed-bed2-0242ac11002b</uuidresource>
+			<datecreated>Thu, 08 Sep 2022 08:46:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Defining a content type: Automatic form editor generation]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00890.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/section-ext-m/ecs_00890.xml</destination>
+			<type>m-section-ext</type>
+			<uuidstructure>8a506f1e-39be-11ed-bed2-0242ac11002b</uuidstructure>
+			<uuidresource>8a506f1f-39be-11ed-bed2-0242ac11002b</uuidresource>
+			<datecreated>Wed, 21 Sep 2022 15:03:24 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Writing a formatter: Microdata]]></value>
 				</property>
 			</properties>
 			<relations/>

@@ -7,12 +7,16 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/template-development/formatters-and-their-configuration/element-settings/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/element-settings/element-settings/]]></target>
             <uuid>49061617-d1c9-11ec-9238-0242ac11002b</uuid>
           </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/explorer/]]></target>
+            <uuid>71c1c77d-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
         </links>
-        <content><![CDATA[<p>While a content type can be displayed in different variations with the help of different formatters, the formatters themselves can have design variations. A simple example: an alert UI component typically occurs in four different states—<em>success</em>, <em>warning</em>, <em>info</em>, <em>error</em>—with each state represented by a another color like <em>green</em>, <em>orange</em>, <em>blue</em>, and <em>red</em>.</p>
-<p><span style="font-size: 1.6rem;">Combinations of design variations for a UI component can be realized with the help of </span><a style="background-color: #ffffff; font-size: 1.6rem;" href="%(link0)">Element settings</a><span style="font-size: 1.6rem;">.</span></p>]]></content>
+        <content><![CDATA[<p>Whilst a content type can be displayed in different variations with the help of different formatters, the formatters themselves can have display variations. A simple example: an alert UI component typically occurs in four different states—<em>success</em>, <em>warning</em>, <em>info</em>, <em>error</em>—with each state represented by a another color like <em>green</em>, <em>orange</em>, <em>blue</em>, and <em>red</em>.</p>
+<p><span style="font-size: 1.6rem;">Combinations of design variations for a UI component can be realized with the help of </span><a style="background-color: #ffffff; font-size: 1.6rem;" href="%(link0)">Element settings</a><span style="font-size: 1.6rem;">. Element settings are defined in formatter configrations. The easiest way to develop element settings is by opening a formatter configuration in the OpenCms workplace. Open the <a href="%(link1)">explorer</a>, navigate to the formatter configuration, right click on the file and choose "edit".</span></p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

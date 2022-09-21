@@ -6,13 +6,13 @@
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>Defining content types is a core requirement of template development. In OpenCms, a subset of the XML Schema language is used to define the structure and data fields of content types. Once created, a content type in OpenCms is automatically provided with a user-friendly form editor. There are numerous configuration options for fine-grained customization of the form editor, some of them showcased in the examples.&nbsp;</p>]]></content>
+        <content><![CDATA[<p>Defining content types is not a challenging task from a technical point of view. Content types can be defined with an easy to understand subset of the XML Schema language. There are numerous schema documents available which can be reused. In addition, OpenCms is able to automatically generates fully featured form and inline editors from schema documents. There are some best practices presented in this chpater though, to make content types from the beginning as stable as possible, i.e., to avoid later schema changes.</p>]]></content>
       </Text>
       <Link>
         <Text/>
         <URI>
           <link internal="true" type="WEAK">
-            <target><![CDATA[/sites/docu/opencms-documentation/template-examples/defining-a-content-type/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/getting-started/defining-a-content-type/]]></target>
             <uuid>ad3bfea2-d1c7-11ec-9238-0242ac11002b</uuid>
           </link>
         </URI>

@@ -2,7 +2,7 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Add a new content type]]></Title>
+    <Title><![CDATA[The default content type]]></Title>
     <Section>
       <Text name="Text0">
         <links>
@@ -11,10 +11,8 @@
             <uuid>dd59c3c2-d1c6-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>In this ,</p>
-<p>The easiest way to add a new content type is by using the <a href="%(link0)">Resource types app</a>.</p>
-<p>Why is it called <em>resource types</em> app and not <em>content types</em> app? A content type alone is not enough to have a fully working content type available that an editor can drag and drop onto a web page. There is some more configuration needed in the background. The resource types app is an utility that does all the necessary initial configuration for a fully working content.</p>
-<p>The created XML Schema document consists of three parts mainly:</p>
+        <content><![CDATA[<p>An easy way to create a new content type from scratch is by using the <a href="%(link0)">Resource types app</a>.</p>
+<p>The resource type app helps that XML schema document&nbsp; structure:</p>
 <ol>
 <li>A section defining the root element named <code>OpenCmsExampleContentV1Data</code>.</li>
 <li>Content types in OpenCms by definition are multilingual. Thus, the root element is a wrapper element for the original content element named <code>OpenCmsExampleContentV1</code> that holds the locale specific data and defines all the data fields.</li>

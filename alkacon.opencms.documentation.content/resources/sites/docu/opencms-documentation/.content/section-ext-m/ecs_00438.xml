@@ -11,7 +11,7 @@
             <uuid>01d93703-db28-11ec-8fb9-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>The example shows element settings for the four states an alert component can have. An element setting consists of an internal key (<code>PropertyName</code>), a human readable name (<code>DisplayName</code>), and can have a default value (<code>Default</code>). Numerous <a href="%(link0)">widgets</a> are availabel to make element settings easy to edit. In the example, a <code>select</code> widget is choosen from which's value list the content editor can select an alert state.</p>
+        <content><![CDATA[<p>The example shows element settings for the four states an alert component can have. An element setting consists of an internal key (<code>PropertyName</code>), a human readable name (<code>DisplayName</code>), and can have a default value (<code>Default</code>). Numerous <a href="%(link0)">widgets</a> are availabel to make element settings easy to edit for the content editor. In the example, a <code>select</code> widget is choosen from which's value list the content editor can select an alert state.</p>
 <p>The <code>WidgetConfig</code> element contains configurations that are widget specific. The syntax for the select widget, as shown in the example, has the form of key-value<code></code> pairs such as <code>has-background-success-light:Success</code> separated by a pipe symbol (<code>|</code>). Defined in such a way, the content editor is offered a drop down list in which she or he can select the desired alert state. The state selected can finally be read out in the formatter JSP as follows:&nbsp;</p>]]></content>
       </Text>
     </Section>

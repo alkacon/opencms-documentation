@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Caching continued]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The JSP snippet would produce different HTML markup depending of the value of the <code>name</code> request parameter. In this case, the formatter JSP in addition to to <code>container-element;uri;locale</code> would declare a <code>params</code> directive.</p>
+<p>This is just a first starting point about JSP caching in OpenCms. The topic is described in more detail in one of the next chapters.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

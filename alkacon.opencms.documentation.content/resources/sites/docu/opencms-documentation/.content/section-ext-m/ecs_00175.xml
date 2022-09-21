@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Understanding content types]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/mercury-template]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[https://schema.org/]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>Unlike other content management systems, a fresh OpenCms installation does not provide any predefined content type such as a blog entry to the content editor unless you provide one with your template.</p>
+<p>Content types are defined as XML Schema documents and stored in modules, by convention in a folder named <code>schemas/</code>. An advantage of the XML Schema document approach is that types can be easily copied from one template into another and adapted for individual needs. There is no need to build all the types for a website from scratch. A good starting point are the schema documents of OpenCms' default template <a href="%(link0)">Mercury</a>.</p>
+<p>A typical website project at first needs some display oriented types with which content editors can build up web pages in a free layout and with a free combination of texts, links, images, and other media. Examples from Mercury are the following:</p>
+<ul dir="auto">
+<li><strong>Content section</strong> element that can be formatted in many ways to place text, images or a combination thereof everywhere on a page.</li>
+<li><strong>Media</strong> element for referencing to external media files. e.g. YouTube videos.</li>
+<li><strong>Slider</strong> element that allows the content manger to create image slideshows or logo carousels.</li>
+<li><strong>Image series</strong> element that create gallery like image series with support for zooming individual images.</li>
+<li><strong>Link sequence</strong> element to simple bullet point lists for navigation and other purposes.</li>
+<li><strong>Layout</strong> element to realize responsive layouts.</li>
+</ul>
+<p>Content types in OpenCms can also be structured data. In today's world, content editors usually know about the benefits of gathering contents in a structued way since they know this eases search engine optimization. Mercury in this area offers the following types inspired by the <a href="%(link1)" target="_blank" rel="noopener">Schema.org</a> initiative:</p>
+<ul dir="auto">
+<li><strong>Article</strong> element that supports tags, all kind of sort options as well as archive display.</li>
+<li><strong>Event</strong> element including support for recurring events.</li>
+<li><strong>Person</strong> element.</li>
+<li><strong>Organization</strong> element.</li>
+<li><strong>Point of interest (POI)</strong> to describe locations with geo coordinates.</li>
+<li><strong>FAQ entry</strong> element to build basic lists for FAQs.</li>
+<li><strong>Job advertisement</strong> element to create job ads.</li>
+<li><strong>Meta info</strong> element that can be dropped to add SEO meta information for a whole page.</li>
+</ul>
+<p>The rest of the data model a website project needs is mostly domain specific, for example, the model of a very specific product or a very specific event type.</p>
+<p>The following chapters explain best practices of content type definition.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>
