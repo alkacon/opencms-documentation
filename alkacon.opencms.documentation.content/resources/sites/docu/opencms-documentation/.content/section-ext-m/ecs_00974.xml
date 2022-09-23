@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Create an Eclipse project]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<ul>
+<li>Download and extract, or clone the source code from GitHub into your Eclipse workspace</li>
+<li>Open Eclipse</li>
+<li>Goto "File" &gt; "Import..." &gt; "General" &gt; "Existing projects into workspace"</li>
+<li>Click "Next" and select the folder where you did extract the source code as the "root directory"</li>
+<li>Click on "Finish"</li>
+<li>Wait until Eclipse has initialized the Gradle project</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

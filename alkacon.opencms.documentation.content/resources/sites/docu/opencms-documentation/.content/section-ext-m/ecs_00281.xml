@@ -2,16 +2,11 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Adding context menu items in the explorer]]></Title>
+    <Title><![CDATA[Adding a context menu item]]></Title>
     <Section>
       <Text name="Text0">
-        <links>
-          <link name="link0" internal="false" type="A">
-            <target><![CDATA[https://github.com/alkacon/opencms-documentation/tree/branch_10_0_x/com.alkacon.opencms.documentation.examples.contextmenuitem]]></target>
-          </link>
-        </links>
-        <content><![CDATA[<p>Adding a new context menu item to the resource's context menu in the explorer is fairly easy since OpenCms 10.</p>
-<div class="alert alert-danger">In this topic, we only show the output of the example. To understand it, <a href="%(link0)" target="_blank" rel="noopener">view the source (with an additional explanation) on GitHub</a>.</div>]]></content>
+        <links/>
+        <content><![CDATA[<p>This example demonstrates how to add a new menu item to the OpenCms explorer's context menu.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

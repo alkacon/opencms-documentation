@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Install Java]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>You need a Java Development Kit (JDK) of version 8 or higher installed, but it is not necessary to install Gradle because it's bundled with the OpenCms source code project.</p>
+<p>Although a server-side Java application, OpenCms uses some UI-related libraries for its image processing functionalities. Standard JDK distributions contain all the UI-related packages needed. There are "slim" JDKs available for headless systems, though, that cannot be used.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>
