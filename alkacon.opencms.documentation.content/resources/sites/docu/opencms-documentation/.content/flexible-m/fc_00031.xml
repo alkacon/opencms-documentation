@@ -3,7 +3,10 @@
 <FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
   <Flexible language="en">
     <Title><![CDATA[Step 4: Insert containers and enable "Advanced Direct Edit" 2]]></Title>
-    <Code><![CDATA[<cms:container name="centercontainer" type="center" 
-               width="500" maxElements="8" detailview="true"/>]]></Code>
+    <Code><![CDATA[<main>
+  <cms:container name="centercontainer" type="center">
+    <div>Add contents here.</div>
+  </cms:container>
+</main>]]></Code>
   </Flexible>
 </FlexibleData>

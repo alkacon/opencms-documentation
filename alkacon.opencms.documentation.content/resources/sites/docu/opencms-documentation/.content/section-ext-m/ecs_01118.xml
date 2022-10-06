@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Nested containers]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/formatters-and-their-configuration/nested-containers/]]></target>
+            <uuid>50efff2f-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/formatters-and-their-configuration/nested-containers/]]></target>
+            <uuid>50efff2f-d1c9-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>An extraordinary feature of containers is that they can realize responsive layouts with grids, rows, and columns, for example. The technique is called <a href="%(link0)">nested containers</a>. Containers can be nested in any depth. For example, a nested structure can be defined such that a layout area container may contain rows, a row container may contain columns, and a colum container may contain content elements of type <code>article</code>,&nbsp;<code>section</code>, or <code>faq</code>.</p>
+<p>Nested containers are described in more detail <a href="%(link1)">here</a>.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

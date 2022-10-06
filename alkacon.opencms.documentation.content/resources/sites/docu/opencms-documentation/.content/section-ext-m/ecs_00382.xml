@@ -6,7 +6,8 @@
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>The first step in developing a template is the design. It is assumed you have a HTML <code>&lt;div&gt;</code>-based layout in a file called <code>index.html</code> that refers the needed resources relatively to the index file itself. The structure should look like:</p>]]></content>
+        <content><![CDATA[<p>When realising a website project, one typically starts developing a template JSP by transforming a static HTML prototype, as provided by a design agency for example, into a template JSP. In this tutorial it is assumed that you have a prototype of your choice available. The prototype should contain at least one HTML document called <code>index.html</code> that links to static CSS, JavaScript, and image resources relatively to the index file. Please have your HTML prototype ready as a ZIP file.</p>
+<p>The <code>index.html</code> file should be located in a folder named <code>templates/</code> whilst the static resources should be located in a folder called <code>resources/</code> like shown below:</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

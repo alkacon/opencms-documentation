@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Formatter of the layout element]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>The most interesting part is the &lt;cms:container&gt; tag. Using this tag, the formatter exposes a new container. Setting the (optional) attribute editableby, it restricts the users that are able to add or remove contents from the exposed container. Via tagClass we add a css class to the HTML-tag (div) that is rendered for the container. In the example, the gray borders are added by that class. The type attribute is used to specify which formatters can be used in the container and the name attribute becomes (prefixed with the layout element's id) the id of the container in the container page, and the HTML-tag rendered by the container tag. Last but not least, the (optional) param attribute is used to attach some extra data to the container: Here, the information on which container of how many in the containers in the row this one is.</p>
+<p>In the body of the &lt;cms:container&gt; tag we placed some HTML. It is shown whenever the container is empty.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

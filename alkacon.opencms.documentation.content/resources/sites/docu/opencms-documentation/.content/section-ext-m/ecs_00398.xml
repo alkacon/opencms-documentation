@@ -7,14 +7,11 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/creating-template-models/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/template-models/]]></target>
             <uuid>b69ca905-d1c7-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>Go to the sitemap editor in the (sub-)site using your template. Choose the view "Templates" and adjust either the already existing template model(s) or add new owns. Template models are the master copy used when creating new pages via the sitemap editor. The models can already have set specific properties and contain content that should be placed on all pages created by the model.</p>
-<ul>
-<li><a href="%(link0)">Learn how to create and use template models.</a></li>
-</ul>]]></content>
+        <content><![CDATA[<p>Go to the sitemap editor in the (sub-)site using your template. Choose the view "Templates" and adjust either the already existing template model(s) or add new ones. Template models are the master copy used when creating new pages via the sitemap editor. The models can already have set specific properties and contain content that should be placed on all pages created by the model. Learn more about creating template models <a href="%(link0)">here</a>.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

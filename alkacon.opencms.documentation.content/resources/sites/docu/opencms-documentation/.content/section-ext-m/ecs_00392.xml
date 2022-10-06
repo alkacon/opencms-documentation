@@ -7,20 +7,21 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-sitemap-editor/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/sitemap-editor/]]></target>
             <uuid>0d5f13cb-d1c5-11ec-9238-0242ac11002b</uuid>
           </link>
           <link name="link1" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/editors/the-page-editor/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/properties-dialog/]]></target>
+            <uuid>6a49a907-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/page-editor/]]></target>
             <uuid>0597a70a-d1c5-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>If you want to set your template for a<em>n existing site or subsite</em><span class="footnote">Of course, you can also create the subsite first using the sitemap editor.</span>, go to the sitemap editor, choose the "Resources" view and select "Properties" from the main folder of the (sub-)site. Then, in the tab "Complete Properties", set the property template to your <code>template</code> by choosing it (via its name "My Template") from the drop-down list.</p>
-<ul>
-<li><a href="%(link0)">Get more information on the sitemap editor.</a></li>
-</ul>
-<p>If you want to <em>create a new site</em> that uses your template, use the "Site Management" in the administration view. Choose "New site" and fill out the form, in particular "Title", "Folder name", "Server URL" and "Template". The remaining things can be empty. For "Template" enter <code>provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=/system/modules/my.template/templates/main.jsp</code>. For "Server URL" you may choose "http://localhost:8081". If you created the site, go to the explorer view and switch to the newly created site. In this site's root folder add an index.html by choosing "New" (see the upper left corner of the explorer view) and selecting "Container page" in the appearing dialog. Click "Continue" and set the file name, thus that is "index.html" in the end.</p>
-<p>In order to check, if everything works fine, go to the <code>index.html</code> directly in the main folder of your site or subsite. You should see your template JSP coming up and an edit point in the upper right corner. If you click it, the menu of the&nbsp;<a href="%(link1)">page editor</a> should appear.</p>]]></content>
+        <content><![CDATA[<p>If you want to set your template for an existing site or subsite, go to the <a href="%(link0)">sitemap editor,</a> choose the "Resources" view and open the <a href="%(link1)">properties dialog</a> by clicking on the burger menu of the main folder of the (sub-)site. Then, in the tab "Complete Properties", set the property template to your <code>template</code> by choosing it (via its name "My Template") from the drop-down list.</p>
+<p>If you want to <em>create a new site</em> that uses your template, use the "Site Management" in the administration view. Choose "New site" and fill out the form, in particular "Title", "Folder name", "Server URL" and "Template". The remaining things can be empty. For "Template" enter <code>template=/system/modules/my.template/templates/main.jsp</code>. For "Server URL" you may choose "http://localhost:8081". If you created the site, go to the explorer view and switch to the newly created site. In this site's root folder add an <code>index.html</code> by choosing "New" (see the wand icon at the upper left corner of the explorer view) and selecting "Container page" in the appearing dialog. Click "Continue" and set the file name to "index.html".</p>
+<p>In order to check if everything works fine, go to the <code>index.html</code> directly in the main folder of your site or subsite. You should see your template JSP coming up and the toolbar of the <a href="%(link2)">page editor</a> should appear at the top.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

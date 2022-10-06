@@ -10,8 +10,8 @@
             <target><![CDATA[https://docs.oracle.com/javaee/5/tutorial/doc/bnama.html]]></target>
           </link>
         </links>
-        <content><![CDATA[<p>Besides splitting large JSP code blocks into smaller parts by means of the <code>&lt;cms:include&gt;</code> tag, there is the possibility of encapsulating code redundancies in custom, reusable <a href="%(link0)" target="_blank" rel="noopener">JSP tag files</a>.</p>
-<p>If there appear many <code>&lt;cms:container&gt;</code> tags in a template JSP, for example, it may be useful to define the all the container related markup in a JSP tag file and then to call the newly defined <code>&lt;example:container&gt;</code> tag in the template JSP:</p>]]></content>
+        <content><![CDATA[<p>Besides splitting large JSP code blocks into smaller parts by means of the <code>&lt;cms:include&gt;</code> tag, there is the possibility of encapsulating code redundancies into custom reusable <a href="%(link0)" target="_blank" rel="noopener">JSP tag files</a>.</p>
+<p>If there appear many <code>&lt;cms:container&gt;</code> tags in a template JSP, for example, it may be useful to define all the container related markup in a JSP tag file and then call the <code>&lt;example:container&gt;</code> tag in the template JSP.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

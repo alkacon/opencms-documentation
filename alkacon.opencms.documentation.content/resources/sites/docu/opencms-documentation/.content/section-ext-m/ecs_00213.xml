@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
+  <ExtendedSection language="en">
+    <Title><![CDATA[Basic usage]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links/>
+        <content><![CDATA[<p>While templates define the static frame of a website, OpenCms inserts content dynamically for the <code>&lt;cms:container&gt;</code> tag. A template may define one or more containers.&nbsp;</p>
+<p>The most important attributes of <code>&lt;cms:container&gt;</code> are these:</p>
+<ul>
+<li><code>name</code>. Unique name of the container. Required attribute. The name must be unique for the template. In the example above, the container<code></code> is named <code>main</code>. There may be containers named <code>side</code> or <code>footer</code> defining other places on the website where content elements can be inserted.</li>
+<li><code>type</code>. A comma separated list of container type identifiers. Optional attribute. If not defined, content elements of any type can be inserted into a container. Although the attribute is optional, the content types allowed should be restricted. In the example above, content elements of type <code>article</code>, <code>section</code>, and <code>faq</code> can be inserted in the <code>main</code> container.&nbsp;</li>
+<li><code>maxElements</code>. The maximum number of elements that can be placed in a container. Optional attribute, defaults to 100. The <code>maxElements</code><span style="font-size: 1.6rem;"> attribute in the example above restricts the number of elements to 30.</span></li>
+<li><span style="font-size: 1.6rem;"><code>editableby</code>. Specifies who is allowed to add, edit, and remove elements from a container. Optional attribute. If not set, any logged in user has permissions. Typically, roles are specified, e.g., <code>ROLE.ELEMENT_AUTHOR</code>, <code>ROLE.EDITOR</code>, <code>ROLE.DEVELOPER</code>, etc. In the example above.</span></li>
+</ul>
+<p>Above the three attributes, there should be an HTML <code>&lt;div&gt;</code> tag (or another HTML block element) inside a container representing a drop area to insert contents. Since the <code>&lt;div&gt;</code> tag is shown when a container is empty, make sure that the <code>&lt;div&gt;</code> has a defined width and height.</p>]]></content>
+      </Text>
+    </Section>
+  </ExtendedSection>
+</ExtendedSectionData>

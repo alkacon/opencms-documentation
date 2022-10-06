@@ -12,18 +12,23 @@
     <Section>
       <Caption><![CDATA[Adding and editing a formatter configuration]]></Caption>
       <Text name="Text0">
-        <links/>
-        <content><![CDATA[<p>Use the traditional workplace's explorer view to add and edit a formatter configuration. Navigate to the folder where the configuration should be placed and click "New" -&gt; "Other options" -&gt; "Formatter configuration" to add a new formatter configuration.</p>
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/explorer/]]></target>
+            <uuid>71c1c77d-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>Use the <a href="%(link0)">explorer</a> to add and edit a formatter configuration. Navigate to the folder where the configuration should be placed and click "New" -&gt; "Other options" -&gt; "Formatter configuration" to add a new formatter configuration.</p>
 <p>The typical name for a formatter configuration is similar to the configured formatter's name. The usual suffix is "<code>.xml</code>".</p>
 <p>To edit a formatter configuration right-click on it and choose "Edit". The form-based content editor opens.</p>]]></content>
       </Text>
     </Section>
     <Section>
-      <Caption><![CDATA[Specification inside in a formatter configuration]]></Caption>
+      <Caption><![CDATA[Available configuration options]]></Caption>
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/creating-a-template-jsp/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/creating-a-template-jsp/]]></target>
             <uuid>95522bfc-d1c7-11ec-9238-0242ac11002b</uuid>
           </link>
           <link name="link1" internal="false" type="A">
@@ -37,7 +42,7 @@
 <li>The containers in which the formatter should be used ("Match" as "Container types" or "Container width")</li>
 </ul>
 <p>For specifying in which containers a formatter is used, we strongly recommend to match by "Container types". Containers (see <a href="%(link0)">here</a> and <a href="%(link1)">here</a>) have a <code>type</code> attribute where you can specify container types (just a comma-separated list of Strings, e.g. <code>"default,center,flexible"</code>). If the formatter configuration lists at least one of the types mentioned there (e.g. <code>default</code>), the formatter can be used for the container, i.e., the content is rendered with the formatter.</p>
-<p>Here is a formatter configuration:</p>]]></content>
+<p>Here is an example formatter configuration:</p>]]></content>
       </Text>
     </Section>
     <Section>

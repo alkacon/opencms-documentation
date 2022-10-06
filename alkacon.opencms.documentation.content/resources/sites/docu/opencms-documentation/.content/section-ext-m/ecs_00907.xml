@@ -5,10 +5,19 @@
     <Title><![CDATA[How content is rendered]]></Title>
     <Section>
       <Text name="Text0">
-        <links/>
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/element-settings/]]></target>
+            <uuid>0ff9f8ae-2848-11ed-8700-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/modules-app/]]></target>
+            <uuid>85b70871-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
         <content><![CDATA[<p>All HTML rendered in OpenCms is rendered via JSPs. Thus, also the HTML that displays content is rendered via JSPs. A JSP that renders content is called a <em>formatter</em>. A formatter is configured via a <em>formatter configuration</em>. The configuration specifies which content of which type is rendered with which formatter in which containers.</p>
-<div class="alert alert-danger">Content items that should be rendered via formatters must be configured as resource types.</div>
-<p>In addition to information about where to use a formatter, the configuration can contain information about special settings available for the formatter. These are called 'element settings'.</p>]]></content>
+<p>In addition to information about where to use a formatter, the configuration can contain information about special settings available for the formatter. These are called <a href="%(link0)">element settings</a>.</p>
+<p>When you use&nbsp;<a href="%(link1)">the "Add resource type" wizard</a> of the module administration, an example formatter and formatter configuration are generated automatically. Using this wizard is the best option if you create a new content type that is exposed as a resource type.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

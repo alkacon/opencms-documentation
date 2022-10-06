@@ -2,14 +2,101 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Dynamic functions]]></Title>
+    <Title><![CDATA[Examples]]></Title>
+    <Section>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/mercury-template]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>Unlike other content management systems, a fresh OpenCms installation does not provide any predefined content type—such as a blog entry or an article—to the content editor unless you provide one with your template.</p>
+<p>There is no need though to build all the content types for a website from scratch. Since content types are defined by XSD documents, they can be simply copied from one template into another. OpenCms' default template <a href="%(link0)" target="_blank" rel="noopener">Mercury</a>, for example, provides a rich set of content types which we will shortly introduce here and which you should consider to reuse.</p>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Mercury's display oriented content types]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/mercury-template/blob/master/alkacon.mercury.template/resources/system/modules/alkacon.mercury.template/schemas/section.xsd]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/mercury-template/blob/master/alkacon.mercury.template/resources/system/modules/alkacon.mercury.template/schemas/media.xsd]]></target>
+          </link>
+          <link name="link2" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/mercury-template/blob/master/alkacon.mercury.template/resources/system/modules/alkacon.mercury.template/schemas/slider.xsd]]></target>
+          </link>
+          <link name="link3" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/mercury-template/blob/master/alkacon.mercury.template/resources/system/modules/alkacon.mercury.template/schemas/imageseries.xsd]]></target>
+          </link>
+          <link name="link4" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/mercury-template/blob/master/alkacon.mercury.template/resources/system/modules/alkacon.mercury.template/schemas/linksequence.xsd]]></target>
+          </link>
+          <link name="link5" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/mercury-template/blob/master/alkacon.mercury.template/resources/system/modules/alkacon.mercury.template/schemas/layout-simple.xsd]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>A typical website project at first needs some display oriented types with which content editors can build up web pages in a free layout and with a free combination of texts, links, images, and other media. Mercury among others provides the following types in this area:</p>
+<ul dir="auto">
+<li><a href="%(link0)" target="_blank" rel="noopener"><strong>Content section</strong></a> element that can be formatted in many ways to place text, images or a combination thereof everywhere on a page.</li>
+<li><a href="%(link1)" target="_blank" rel="noopener"><strong>Media</strong></a> element for referencing to external media files. e.g., to YouTube videos.</li>
+<li><a href="%(link2)" target="_blank" rel="noopener"><strong>Slider</strong></a> element that allows the content manger to create image slideshows or logo carousels.</li>
+<li><a href="%(link3)" target="_blank" rel="noopener"><strong>Image series</strong></a> element that create gallery like image series with support for zooming individual images.</li>
+<li><a href="%(link4)" target="_blank" rel="noopener"><strong>Link sequence</strong></a> element to simple bullet point lists for navigation and other purposes.</li>
+<li><a href="%(link5)" target="_blank" rel="noopener"><strong>Layout</strong></a> element to realize responsive page layouts.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
+    <Section>
+      <Caption><![CDATA[Mercury's semantic content types]]></Caption>
+      <Text name="Text0">
+        <links>
+          <link name="link0" internal="false" type="A">
+            <target><![CDATA[https://schema.org/]]></target>
+          </link>
+          <link name="link1" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/mercury-template/blob/master/alkacon.mercury.template/resources/system/modules/alkacon.mercury.template/schemas/article.xsd]]></target>
+          </link>
+          <link name="link2" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/mercury-template/blob/master/alkacon.mercury.template/resources/system/modules/alkacon.mercury.template/schemas/event.xsd]]></target>
+          </link>
+          <link name="link3" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/mercury-template/blob/master/alkacon.mercury.template/resources/system/modules/alkacon.mercury.template/schemas/person.xsd]]></target>
+          </link>
+          <link name="link4" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/mercury-template/blob/master/alkacon.mercury.template/resources/system/modules/alkacon.mercury.template/schemas/organization.xsd]]></target>
+          </link>
+          <link name="link5" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/mercury-template/blob/master/alkacon.mercury.template/resources/system/modules/alkacon.mercury.template/schemas/poi.xsd]]></target>
+          </link>
+          <link name="link6" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/mercury-template/blob/master/alkacon.mercury.template/resources/system/modules/alkacon.mercury.template/schemas/faq.xsd]]></target>
+          </link>
+          <link name="link7" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/mercury-template/blob/master/alkacon.mercury.template/resources/system/modules/alkacon.mercury.template/schemas/job.xsd]]></target>
+          </link>
+          <link name="link8" internal="false" type="A">
+            <target><![CDATA[https://github.com/alkacon/mercury-template/blob/master/alkacon.mercury.template/resources/system/modules/alkacon.mercury.template/schemas/metainfo.xsd]]></target>
+          </link>
+        </links>
+        <content><![CDATA[<p>Content types in OpenCms can also be structured data easying the automatic generation of HTML Markup optimized for search engine optimization. Mercury in this area offers the following types inspired by the <a href="%(link0)" target="_blank" rel="noopener">Schema.org</a> initiative:</p>
+<ul dir="auto">
+<li><a href="%(link1)" target="_blank" rel="noopener"><strong>Article</strong></a> element that supports tags, all kind of sort options as well as archive display.</li>
+<li><a href="%(link2)" target="_blank" rel="noopener"><strong>Event</strong></a> element including support for recurring events.</li>
+<li><a href="%(link3)" target="_blank" rel="noopener"><strong>Person</strong></a> element.</li>
+<li><a href="%(link4)" target="_blank" rel="noopener"><strong>Organization</strong></a> element.</li>
+<li><a href="%(link5)" target="_blank" rel="noopener"><strong>Point of interest (POI)</strong></a> to describe locations with geo coordinates.</li>
+<li><a href="%(link6)" target="_blank" rel="noopener"><strong>FAQ entry</strong></a> element to build basic lists for FAQs.</li>
+<li><a href="%(link7)" target="_blank" rel="noopener"><strong>Job advertisement</strong></a> element to create job ads.</li>
+<li><a href="%(link8)" target="_blank" rel="noopener"><strong>Meta info</strong></a> element that can be dropped to add SEO meta information for a whole page.</li>
+</ul>]]></content>
+      </Text>
+    </Section>
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>The chapter about formatters has shown that XML contents in the actual sense contain textual and image data that are visually shown on a website. There was one exception though, the layout content describing a responsive page layout, which did not directly produce visual output in the end but was the configuration for a responsive page structure. The idea of using contents for configuration purposes is continued by dynamic functions.</p>
-<p><code>Dynamic function</code> (<code>function_config</code>) in OpenCms is an XML content type as well, namely, a built-in configuration type that does not display any user authored content but is the configuration for any kind of functionality that we want the content editor to drag and drop onto a web page. For example, we like to social sharing buttons. Dynamic functions are stored in modules in a directory called <code>functions/</code>. Similar to formatters they consist of a function JSP and a function configuration, where the names of the files as a convention should be named in the same way besides the suffix and should inform about what the function does, for example:</p>
-<p><code>/functions/current-date.jsp</code><br /><code>/functions/current-date.xml</code></p>
-<p>Say, we have a <code>current-date.jsp</code> that prints the current date on a website in a formatted way:</p>]]></content>
+        <content><![CDATA[<p>The rest of the data model a website project needs is mostly domain specific, for example, the model of a very specific product or a very specific event type. These types can be defined from scratch with the techniques described in the next chapters.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

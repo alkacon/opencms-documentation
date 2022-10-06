@@ -5,13 +5,21 @@
     <Title><![CDATA[Step 2: Get the HTML prototype into OpenCms]]></Title>
     <Section>
       <Text name="Text0">
-        <links/>
-        <content><![CDATA[<p>If the HTML prototype is zipped and you have named the module you just created <code>my.template</code>, go to the folder <code>/system/modules/my.template</code> and upload the ZIP file with the ZIP-inflating option. Afterwards go to <code>/system/modules/my.template/templates/</code> and rename the <code>index.html</code> to <code>main.jsp</code>, then right click on <code>main.jsp</code> and choose the option: “Advanced” -&gt; “Change type”, choose the "Configurations" group and select "Page template". With a click on the <code>main.jsp</code> a new browser window should open that shows the prototype correctly.</p>
-<p>At the<code> main.jsp</code>, set the (individual) properties</p>
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/explorer/]]></target>
+            <uuid>71c1c77d-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/properties-dialog/]]></target>
+            <uuid>6a49a907-d1c4-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>If the HTML prototype is zipped and you have named the module you just created <code>my.template</code>, use the <a href="%(link0)">explorer</a> to navigate to the folder <code>/system/modules/my.template</code>. Upload the ZIP file here with the ZIP-inflating option. Afterwards go to <code>/system/modules/my.template/templates/</code> and rename the <code>index.html</code> file into <code>main.jsp</code>, then right click on <code>main.jsp</code> and choose the option: “Advanced” -&gt; “Change type”, choose the "Configurations" group and select "Page template". Confirm the choosen resource type with "ok" which closes the dialog. Now click on the <code>main.jsp</code>. A new browser window should open that shows the prototype correctly.</p>
+<p>At the<code> main.jsp</code>, set the (individual) properties by means of the <a href="%(link1)">properties dialog</a>:</p>
 <ul>
-<li><code>template.provider</code> to <code>provider=org.opencms.loader.CmsDefaultTemplateContextProvider,template=%(templatepath)</code>.<span class="footnote">This will cause the use of a template context provider, adding features for device dependent representation when you choose the template from the drop down list.</span></li>
 <li><code>Title</code> to a meaningful value, for the tutorial "My Template".<span class="footnote">The title will appear in a list when choosing the template.</span></li>
-<li><code>template</code> to <code>/system/modules/my.template/resources/screen.css</code>.<span class="footnote">This will cause the style to be used in HTML editor when editing content.</span></li>
+<li><code>template</code> to <code>/system/modules/my.template/resources/css/site.css</code>. <span class="footnote">This will cause the style to be used for the HTML editor when editing content.</span></li>
 </ul>]]></content>
       </Text>
     </Section>

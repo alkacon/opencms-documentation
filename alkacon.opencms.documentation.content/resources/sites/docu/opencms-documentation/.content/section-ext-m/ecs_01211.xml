@@ -2,11 +2,11 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Step 3: Adjust links to static resources]]></Title>
+    <Title><![CDATA[Step 3 continued]]></Title>
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>Open the <code>main.jsp</code> with the code editor (right-click the file and choose "Edit" from the context menu) and add the following lines to the beginning of the file:</p>]]></content>
+        <content><![CDATA[<p>Using the <code>&lt;cms:link&gt;</code> tag in combination with the <code>%(link.weak:)</code> macro as shwon in the example above has the advantage that—if you once rename or move a static resource file—OpenCms will automatically adjust the link in the template JSP for you.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

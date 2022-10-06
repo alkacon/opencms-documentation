@@ -2,11 +2,23 @@
 
 <ExtendedSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.extension.section_ext/schemas/section-ext.xsd">
   <ExtendedSection language="en">
-    <Title><![CDATA[Step 4: Insert containers and enable "Advanced Direct Edit"]]></Title>
+    <Title><![CDATA[Step 4: Insert containers and enable the page editor]]></Title>
     <Section>
       <Text name="Text0">
-        <links/>
-        <content><![CDATA[<p>Enable ADE features by adding the following tag in the head section of your main template.</p>]]></content>
+        <links>
+          <link name="link0" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/page-editor/]]></target>
+            <uuid>0597a70a-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+          <link name="link1" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/page-editor/]]></target>
+            <uuid>0597a70a-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
+        </links>
+        <content><![CDATA[<p>In order to activate the OpenCms <a href="%(link0)">page editor</a>, the so called advanced direct editing features must be activated. Advanced direct editing means that all necessary tools to edit and manage content is available in-place together with the web page the content editor is currently editing.</p>
+<p>Just add the tag <code>&lt;cms:enable-ade/&gt;</code> to the head section of your template JSP.</p>
+<p>If the content editor now opens a page, a <a href="%(link1)">toolbar</a> appears at the top of the page that allows to add new contents, publish changes, set bookmarks, manage image galleries, and much more.</p>
+<p>The toolbar has a height of 52 pixels. It is recommended to add a margin of 52 pixels at the top of the page, in order to prevent the toolbar hiding the actual page content when in the editing mode as shown in the example below.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

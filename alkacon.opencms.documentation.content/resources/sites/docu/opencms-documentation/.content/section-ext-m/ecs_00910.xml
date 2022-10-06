@@ -51,15 +51,15 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/appearance-in-the-content-editor/widget-configuration/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/content-editor-configuration/widget-configuration/]]></target>
             <uuid>01d93703-db28-11ec-8fb9-0242ac11002b</uuid>
           </link>
           <link name="link1" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/lists-and-detail-pages/building-lists/lists-since-opencms-11/]]></target>
-            <uuid>a57fcb55-d1c9-11ec-9238-0242ac11002b</uuid>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/built-in-content-types/list-configuration/]]></target>
+            <uuid>bc331ac0-d1c9-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
-        <content><![CDATA[<p>If a non-empty value is provided, the formatter is used by the tag <code>&lt;cms:display&gt;</code> by default for resources of that type<span class="footnote">If more than one display formatter is present, the rank is used to select the formatter. Moreover, in the tag, a formatter might be specified explictly, overwriting the default.</span>. Moreover, the formatter is added as option in the <a href="%(link0)">DisplayTypeSelectWidget</a>. Via the widgets configuration option <code>matchTypes</code> the combination of display formatters can be restricted to the ones that have the same display type set here. This is for example used by the <a href="%(link1)">integrated list type</a> and allows you to guarantee mixing only compatible display formatters.</p>]]></content>
+        <content><![CDATA[<p>If a non-empty value is provided, the formatter is used by the tag <code>&lt;cms:display&gt;</code> by default for resources of that type. <span class="footnote">If more than one display formatter is present, the rank is used to select the formatter. Moreover, in the tag, a formatter might be specified explictly, overwriting the default.</span>. Moreover, the formatter is added as option in the <a href="%(link0)">DisplayTypeSelectWidget</a>. Via the widgets configuration option <code>matchTypes</code> the combination of display formatters can be restricted to the ones that have the same display type set here. This is for example used by the <a href="%(link1)">integrated list type</a> and allows you to guarantee mixing only compatible display formatters.</p>]]></content>
       </Text>
     </Section>
     <Section>
@@ -97,7 +97,7 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/meta-mappings/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/formatters-and-their-configuration/meta-mappings/]]></target>
             <uuid>4c0f9acf-e273-11ec-8d31-0242ac11002b</uuid>
           </link>
         </links>
@@ -109,7 +109,7 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/formatters-and-their-configuration/element-settings/options-for-display-formatters/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/element-settings/options-for-display-formatters/]]></target>
             <uuid>6da8c03e-d1c9-11ec-9238-0242ac11002b</uuid>
           </link>
         </links>
@@ -135,7 +135,7 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/head-includes/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/formatters-and-their-configuration/head-includes/]]></target>
             <uuid>338b5be9-e273-11ec-8d31-0242ac11002b</uuid>
           </link>
         </links>
@@ -147,7 +147,7 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/creating-a-website/creating-a-template-jsp/advanced-template-features/head-includes/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/formatters-and-their-configuration/head-includes/]]></target>
             <uuid>338b5be9-e273-11ec-8d31-0242ac11002b</uuid>
           </link>
         </links>

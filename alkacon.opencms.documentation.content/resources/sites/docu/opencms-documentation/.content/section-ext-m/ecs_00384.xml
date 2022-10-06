@@ -14,16 +14,14 @@
             <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/modules-app/]]></target>
             <uuid>85b70871-d1c5-11ec-9238-0242ac11002b</uuid>
           </link>
+          <link name="link2" internal="true" type="A">
+            <target><![CDATA[/sites/docu/opencms-documentation/the-opencms-workplace/explorer/]]></target>
+            <uuid>71c1c77d-d1c5-11ec-9238-0242ac11002b</uuid>
+          </link>
         </links>
-        <content><![CDATA[<p>Functionality in OpenCms (except the core functionality) is packaged in modules. All the resources needed to build your website will as well reside in one or more modules. In particular the template JSP and all the related resources are packaged in a module. So let's create one.</p>
-<ul>
-<li><a href="%(link0)">Get more information on the module system and what to package how.</a></li>
-</ul>
-<p>After logging into the workplace switch to the “Administration View” and select “Module Management” -&gt; “New Module”. In the upcoming dialog you will be asked to enter a package name that must fulfill the Java package name conventions. Please use <code>my.template</code> as package name if you follow this short tutorial. Moreover, you can enter a nice name and a module description as well as a module number, a group and optionally a module action class. Below the author information you can select which folders should be created automatically. Choose only the module folder and the folder "elements".<span class="footnote">Typically you would also create the subfolders "templates" and "resources", but they will come in when we import our HTML prototype in the next step.</span></p>
-<p>After you filled out the dialog, click ok and the module as well as the checked module folders will be created.</p>
-<ul>
-<li><a href="%(link1)">Get more information on&nbsp;managing modules here.</a></li>
-</ul>]]></content>
+        <content><![CDATA[<p>Functionality in OpenCms (except the core functionality) is packaged in <a href="%(link0)">modules</a>. All the resources needed to build a website reside in one or more modules as well. In particular, also the template JSP is packaged in a module. So let's create one.</p>
+<p>After logging into the workplace, open the <a href="%(link1)">modules app</a> and click on the wand icon to open the "create new module dialog". In the "create new module dialog", you will be asked to enter a package name that must fulfill the Java package name conventions. Use <code>my.template</code> as package name if you follow this tutorial. Enter a nice name and a module description as well as a module number. Below the author information, you can choose which folders should be created automatically. Choose only the module folder and the folder "elements". <span class="footnote">Typically you would also create the subfolders "templates" and "resources", but they will come in when we import our HTML prototype in the next step.</span></p>
+<p>Confirm by clicking "ok" and the module will be created. Open the <a href="%(link2)">explorer</a> and navigate to <code>/system/modules/my.template/</code> to check that all module folders are available.</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

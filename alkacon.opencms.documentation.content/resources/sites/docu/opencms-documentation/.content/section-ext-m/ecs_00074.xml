@@ -47,8 +47,8 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/template-development/getting-started/]]></target>
-            <uuid>6f1ab190-d1c7-11ec-9238-0242ac11002b</uuid>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/creating-a-template-jsp/]]></target>
+            <uuid>95522bfc-d1c7-11ec-9238-0242ac11002b</uuid>
           </link>
           <link name="link1" internal="true" type="A">
             <target><![CDATA[/sites/docu/opencms-documentation/template-development/]]></target>
@@ -57,9 +57,9 @@
         </links>
         <content><![CDATA[<p><span style="font-size: 1.6rem;">If you are a <strong>web developer</strong> and want to realize a website project, here are some useful links to get started:</span></p>
 <ul>
-<li>read the <a href="%(link0)">getting started guide</a> which introduces into the basic methods of template development</li>
-<li>install the template examples module, try out and the examples and modify them with the built-in editor</li>
-<li><span style="font-size: 1.6rem;">the <a href="%(link1)">template development</a> chapter of this documentation finally provides a full reference of all technical possibilities</span></li>
+<li>read the tutorial about <a href="%(link0)">creating a template JSP</a> which introduces into the basic methods of template development</li>
+<li>install the template examples module, try out and modify them with the built-in editor</li>
+<li><span style="font-size: 1.6rem;">the <a href="%(link1)">template development</a> chapter of this documentation provides a full reference of all technical possibilities</span></li>
 </ul>]]></content>
       </Text>
     </Section>

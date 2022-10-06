@@ -6,7 +6,7 @@
     <Section>
       <Text name="Text0">
         <links/>
-        <content><![CDATA[<p>Somewhere in the prototype there might be a sections with content that should be addable via drag&amp;drop. Remove the HTML of these sections and place <code>&lt;cms:container&gt;</code>-tags instead. This will enable the content manager to place elements easily via “drag &amp; drop”. For the main content part you could choose the tag like</p>]]></content>
+        <content><![CDATA[<p>Somewhere in the prototype, there might be sections with content that should be editable by the content editor. Remove the HTML of these sections and insert a <code>&lt;cms:container&gt;</code> tag instead. This will enable the content editor to place elements via drag-and-drop. For the main content part, you could define the <code>&lt;cms:container&gt;</code> the tag as follows:</p>]]></content>
       </Text>
     </Section>
   </ExtendedSection>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FlexibleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/flexible-up.xsd">
+  <Flexible language="en">
+    <Title><![CDATA[Basic usage]]></Title>
+    <Code><![CDATA[<cms:container name="main" type="article,section,faq">
+  <div class="notification is-info is-light">
+    <h3>Main container</h3>
+    <p>Drag and drop new articles, sections, and FAQs here.</p>
+  </div>
+</cms:container>
+<cms:container name="footer" type="linklist,address" maxElements="5" editableby="ROLE.ADMINISTRATOR">
+  <div class="notification is-info is-light">
+    <h3>Footer container</h3>
+    <p>Drag and drop new link lists and address contents here.</p>
+  </div>
+</cms:container>]]></Code>
+  </Flexible>
+</FlexibleData>
