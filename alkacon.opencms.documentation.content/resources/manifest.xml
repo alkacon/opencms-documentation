@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The contents of the Alkacon OpenCms documentation.]]></description>
-		<version>13.0.67</version>
+		<version>13.0.68</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -39464,13 +39464,13 @@
 		<file>
 			<destination>sites/docu/opencms-documentation/background</destination>
 			<type>folder</type>
-			<uuidstructure>5ac111eb-d1b9-11ec-9238-0242ac11002b</uuidstructure>
-			<datecreated>Thu, 12 May 2022 06:04:16 GMT</datecreated>
+			<uuidstructure>e65c1748-4592-11ed-88de-0242ac11002b</uuidstructure>
+			<datecreated>Thu, 06 Oct 2022 16:21:15 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[1.8535156]]></value>
+					<value><![CDATA[1.8525391]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
@@ -39480,6 +39480,10 @@
 					<name>Title</name>
 					<value><![CDATA[Background]]></value>
 				</property>
+				<property>
+					<name>default-file</name>
+					<value><![CDATA[##navigation_level_folder##]]></value>
+				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
@@ -39487,15 +39491,27 @@
 		<file>
 			<source>sites/docu/opencms-documentation/background/index.html</source>
 			<destination>sites/docu/opencms-documentation/background/index.html</destination>
-			<type>containerpage</type>
-			<uuidstructure>5ac7c8b0-d1b9-11ec-9238-0242ac11002b</uuidstructure>
-			<uuidresource>5ac7c8b1-d1b9-11ec-9238-0242ac11002b</uuidresource>
-			<datecreated>Thu, 12 May 2022 06:04:16 GMT</datecreated>
+			<type>htmlredirect</type>
+			<uuidstructure>e65e884e-4592-11ed-88de-0242ac11002b</uuidstructure>
+			<uuidresource>e65e884f-4592-11ed-88de-0242ac11002b</uuidresource>
+			<datecreated>Thu, 06 Oct 2022 16:21:15 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
 					<name>Title</name>
-					<value><![CDATA[Background]]></value>
+					<value><![CDATA[page]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+				<property type="shared">
+					<name>template-elements</name>
+					<value><![CDATA[/system/modules/org.opencms.ade.sitemap/pages/redirect-detail.jsp]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -39510,7 +39526,7 @@
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[2.5]]></value>
+					<value><![CDATA[0.9375]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
@@ -39550,7 +39566,7 @@
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[1.5]]></value>
+					<value><![CDATA[0.75]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
@@ -39750,7 +39766,7 @@
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[2.0]]></value>
+					<value><![CDATA[0.875]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
@@ -39790,7 +39806,7 @@
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[4.0]]></value>
+					<value><![CDATA[0.96875]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
@@ -39830,7 +39846,7 @@
 			<properties>
 				<property>
 					<name>NavPos</name>
-					<value><![CDATA[1.0]]></value>
+					<value><![CDATA[0.5]]></value>
 				</property>
 				<property>
 					<name>NavText</name>
