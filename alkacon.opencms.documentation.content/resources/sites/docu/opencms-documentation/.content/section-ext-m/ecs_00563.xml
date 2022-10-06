@@ -7,12 +7,12 @@
       <Text name="Text0">
         <links>
           <link name="link0" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-structure/]]></target>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/content-type-definition-with-xml-schema/defining-content-fields-by-xsd-elements/]]></target>
             <uuid>c9fda3de-d1c8-11ec-9238-0242ac11002b</uuid>
           </link>
           <link name="link1" internal="true" type="A">
-            <target><![CDATA[/sites/docu/opencms-documentation/content-in-opencms/defining-the-schema-of-a-content-type/defining-the-contents-behaviour/]]></target>
-            <uuid>d7b80b71-d1c8-11ec-9238-0242ac11002b</uuid>
+            <target><![CDATA[/sites/docu/opencms-documentation/template-development/content-editor-configuration/]]></target>
+            <uuid>f426f0c8-1e21-11ed-8700-0242ac11002b</uuid>
           </link>
         </links>
         <content><![CDATA[<p>The schema definition for the content type includes various <code>&lt;xsd:element&gt;</code> and <code>&lt;xsd:complexType&gt;</code> nodes to define the structure of a content. The complex type that defines the structure of the content for one language, we call the <strong>schema type</strong>. In the above example, the schema type is named "SimpleExample". The structure of the schema type, and thus of the contents, is defined in the node <code>&lt;xsd:complexType name="OpenCmsSimpleExample"&gt;</code>. In the example, the content has just one (schema) element, named <code>Title</code>.</p>
