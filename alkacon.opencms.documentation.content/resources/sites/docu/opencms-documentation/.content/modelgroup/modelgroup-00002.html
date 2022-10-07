@@ -34,23 +34,23 @@
       <Type><![CDATA[row]]></Type>
       <ParentInstanceId><![CDATA[8385a77b-c48d-11ec-a595-0242ac11002b]]></ParentInstanceId>
       <Elements>
-        <ElementInstanceId>cda52db9-c48d-11ec-a595-0242ac11002b</ElementInstanceId>
-        <FormatterKey>m/layout/row-simple</FormatterKey>
+        <ElementInstanceId>fc520504-4643-11ed-88de-0242ac11002b</ElementInstanceId>
+        <FormatterKey>m/layout/row-complex</FormatterKey>
         <Uri>
           <link type="STRONG">
-            <target><![CDATA[/system/shared/mercury/template/layout-row/lr_00001.xml]]></target>
-            <uuid>f5151b14-3a95-11e9-bd84-0242ac11002b</uuid>
+            <target><![CDATA[/sites/docu/central/.content/layout-row-custom-m/clr_00001.xml]]></target>
+            <uuid>ece96ce8-4642-11ed-88de-0242ac11002b</uuid>
           </link>
         </Uri>
       </Elements>
     </Containers>
     <Containers>
-      <Name><![CDATA[cda52db9-c48d-11ec-a595-0242ac11002b-maincol]]></Name>
+      <Name><![CDATA[fc520504-4643-11ed-88de-0242ac11002b-aside]]></Name>
       <Type><![CDATA[element]]></Type>
-      <ParentInstanceId><![CDATA[cda52db9-c48d-11ec-a595-0242ac11002b]]></ParentInstanceId>
+      <ParentInstanceId><![CDATA[fc520504-4643-11ed-88de-0242ac11002b]]></ParentInstanceId>
       <Elements>
         <ElementInstanceId>f04a0bcf-c48d-11ec-a595-0242ac11002b</ElementInstanceId>
-        <FormatterKey>m/section/text-image</FormatterKey>
+        <FormatterKey>m/section/image-only</FormatterKey>
         <Uri>
           <link type="STRONG">
             <target><![CDATA[/sites/docu/opencms-documentation/.content/section-m/cs_00002.xml]]></target>
@@ -70,33 +70,9 @@
           </Value>
         </Properties>
         <Properties>
-          <Name><![CDATA[effect]]></Name>
-          <Value>
-            <String><![CDATA[none]]></String>
-          </Value>
-        </Properties>
-        <Properties>
-          <Name><![CDATA[hsize]]></Name>
-          <Value>
-            <String><![CDATA[0]]></String>
-          </Value>
-        </Properties>
-        <Properties>
           <Name><![CDATA[imageRatio]]></Name>
           <Value>
             <String><![CDATA[none]]></String>
-          </Value>
-        </Properties>
-        <Properties>
-          <Name><![CDATA[linkOption]]></Name>
-          <Value>
-            <String><![CDATA[button]]></String>
-          </Value>
-        </Properties>
-        <Properties>
-          <Name><![CDATA[pieceLayout]]></Name>
-          <Value>
-            <String><![CDATA[7]]></String>
           </Value>
         </Properties>
         <Properties>
@@ -123,10 +99,43 @@
             <String><![CDATA[false]]></String>
           </Value>
         </Properties>
+      </Elements>
+    </Containers>
+    <Containers>
+      <Name><![CDATA[fc520504-4643-11ed-88de-0242ac11002b-main]]></Name>
+      <Type><![CDATA[element]]></Type>
+      <ParentInstanceId><![CDATA[fc520504-4643-11ed-88de-0242ac11002b]]></ParentInstanceId>
+      <Elements>
+        <ElementInstanceId>4abfc18c-4642-11ed-88de-0242ac11002b</ElementInstanceId>
+        <FormatterKey>m/section/text-only</FormatterKey>
+        <Uri>
+          <link type="STRONG">
+            <target><![CDATA[/sites/docu/opencms-documentation/.content/section-m/cs_00002.xml]]></target>
+            <uuid>f19158e9-c48d-11ec-a595-0242ac11002b</uuid>
+          </link>
+        </Uri>
         <Properties>
-          <Name><![CDATA[sizeMobile]]></Name>
+          <Name><![CDATA[cssVisibility]]></Name>
           <Value>
-            <String><![CDATA[99]]></String>
+            <String><![CDATA[always]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[cssWrapper]]></Name>
+          <Value>
+            <String><![CDATA[mb-10]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[hsize]]></Name>
+          <Value>
+            <String><![CDATA[0]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[linkOption]]></Name>
+          <Value>
+            <String><![CDATA[heading]]></String>
           </Value>
         </Properties>
         <Properties>
@@ -141,10 +150,44 @@
             <String><![CDATA[default]]></String>
           </Value>
         </Properties>
+      </Elements>
+      <Elements>
+        <ElementInstanceId>2a96a3db-4640-11ed-88de-0242ac11002b</ElementInstanceId>
+        <FormatterKey>m/element/linksequence</FormatterKey>
+        <Uri>
+          <link type="STRONG">
+            <target><![CDATA[/sites/docu/opencms-documentation/.content/linksequence-m/ls_00027.xml]]></target>
+            <uuid>2b9b69af-4640-11ed-88de-0242ac11002b</uuid>
+          </link>
+        </Uri>
         <Properties>
-          <Name><![CDATA[visualOption]]></Name>
+          <Name><![CDATA[SYSTEM::create_new]]></Name>
           <Value>
-            <String><![CDATA[2]]></String>
+            <String><![CDATA[true]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[cssWrapper]]></Name>
+          <Value>
+            <String><![CDATA[none]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[hsize]]></Name>
+          <Value>
+            <String><![CDATA[0]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[iconClass]]></Name>
+          <Value>
+            <String><![CDATA[line]]></String>
+          </Value>
+        </Properties>
+        <Properties>
+          <Name><![CDATA[linksequenceType]]></Name>
+          <Value>
+            <String><![CDATA[ls-row]]></String>
           </Value>
         </Properties>
       </Elements>

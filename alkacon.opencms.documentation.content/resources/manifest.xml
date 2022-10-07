@@ -13,7 +13,7 @@
 		<import-site>/</import-site>
 		<export-mode name="reduced"/>
 		<description><![CDATA[The contents of the Alkacon OpenCms documentation.]]></description>
-		<version>13.0.71</version>
+		<version>13.0.72</version>
 		<autoincrement>true</autoincrement>
 		<authorname><![CDATA[Alkacon Software GmbH & Co. KG]]></authorname>
 		<authoremail/>
@@ -11724,6 +11724,33 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>sites/docu/central/.content/layout-row-custom-m</destination>
+			<type>folder</type>
+			<uuidstructure>ece83466-4642-11ed-88de-0242ac11002b</uuidstructure>
+			<datecreated>Fri, 07 Oct 2022 13:21:17 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/central/.content/layout-row-custom-m/clr_00001.xml</source>
+			<destination>sites/docu/central/.content/layout-row-custom-m/clr_00001.xml</destination>
+			<type>m-layout-row-complex</type>
+			<uuidstructure>ece96ce8-4642-11ed-88de-0242ac11002b</uuidstructure>
+			<uuidresource>ece96ce9-4642-11ed-88de-0242ac11002b</uuidresource>
+			<datecreated>Fri, 07 Oct 2022 13:21:17 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Footer layout row]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>sites/docu/central/.content/linksequence-m</destination>
 			<type>folder</type>
 			<uuidstructure>1cb222d7-d1d8-11ec-9238-0242ac11002b</uuidstructure>
@@ -11886,23 +11913,6 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Header: OpenCms Documentation]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>sites/docu/central/.content/section-m/cs_00002.xml</source>
-			<destination>sites/docu/central/.content/section-m/cs_00002.xml</destination>
-			<type>m-section</type>
-			<uuidstructure>1cc29cb7-d1d8-11ec-9238-0242ac11002b</uuidstructure>
-			<uuidresource>1cc29cb8-d1d8-11ec-9238-0242ac11002b</uuidresource>
-			<datecreated>Thu, 12 May 2022 09:44:26 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Footer: ]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -17615,6 +17625,23 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Editing properties: Related links]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>sites/docu/opencms-documentation/.content/linksequence-m/ls_00027.xml</source>
+			<destination>sites/docu/opencms-documentation/.content/linksequence-m/ls_00027.xml</destination>
+			<type>m-linksequence</type>
+			<uuidstructure>2b9b69af-4640-11ed-88de-0242ac11002b</uuidstructure>
+			<uuidresource>2b9b69b0-4640-11ed-88de-0242ac11002b</uuidresource>
+			<datecreated>Fri, 07 Oct 2022 13:01:34 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Footer for the OpenCms Documentation: Footer links]]></value>
 				</property>
 			</properties>
 			<relations/>

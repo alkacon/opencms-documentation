@@ -16,8 +16,6 @@ apply plugin: 'org.opencms.modules.defaultdependencies'
 // here you can configure the default dependencies via 'ocDependencies'
 // see the output of `./gradlew ocDependenciesDemo` for an example
 ocDependencies {
-    // this is required because jars for jcaptcha, sac and cssparser are placed in the repository directly
-    inModuleDeps=true
 }
 // NOTE: If you need additional a dependencies, declare them in a 'dependencies.gradle' file in this folder.
 //       If declared differently, they will not be applied in the required point of the configuration.
