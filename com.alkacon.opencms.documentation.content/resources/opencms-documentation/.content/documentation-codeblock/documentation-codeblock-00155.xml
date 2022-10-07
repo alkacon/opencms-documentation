@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<DocumentationCodeBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.alkacon.opencms.documentation/schemas/documentation-codeblock.xsd">
-  <DocumentationCodeBlock language="en">
-    <Code><![CDATA[java -classpath "$OPENCMS/WEB-INF/lib/*:$OPENCMS/WEB-INF/classes:/usr/share/tomcat7/lib/*"\
-org.opencms.setup.CmsAutoSetup\
--path $CONFIG_FILE]]></Code>
-  </DocumentationCodeBlock>
-</DocumentationCodeBlocks>
