@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LayoutComplexData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/layout-complex.xsd">
+  <LayoutComplex language="en">
+    <Title><![CDATA[Footer layout row]]></Title>
+    <PreMarkup><![CDATA[<div class="row">]]></PreMarkup>
+    <PostMarkup><![CDATA[</div>]]></PostMarkup>
+    <Container>
+      <Name><![CDATA[main]]></Name>
+      <Type><![CDATA[element]]></Type>
+      <PreMarkup><![CDATA[<div class="col-12 col-md-8 col-lg-9 col-xxl-10">]]></PreMarkup>
+      <PostMarkup><![CDATA[</div>]]></PostMarkup>
+    </Container>
+    <Container>
+      <Name><![CDATA[aside]]></Name>
+      <Type><![CDATA[element]]></Type>
+      <PreMarkup><![CDATA[<div class="col-6 col-md-4 col-lg-3 col-xxl-2">]]></PreMarkup>
+      <PostMarkup><![CDATA[</div>]]></PostMarkup>
+    </Container>
+  </LayoutComplex>
+</LayoutComplexData>
