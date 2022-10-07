@@ -2,16 +2,16 @@
 
 <ContentSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/section.xsd">
   <ContentSection language="en">
-    <Title><![CDATA[Wiki]]></Title>
+    <Title><![CDATA[Docker Hub]]></Title>
     <Text name="Text0">
       <links/>
-      <content><![CDATA[<p>Not always up to date but still valuable</p>]]></content>
+      <content><![CDATA[<p>Official OpenCms Docker image</p>]]></content>
     </Text>
     <Link>
       <Text/>
       <URI>
         <link internal="false" type="WEAK">
-          <target><![CDATA[http://www.opencms-wiki.org/]]></target>
+          <target><![CDATA[https://hub.docker.com/r/alkacon/opencms-docker/]]></target>
         </link>
       </URI>
     </Link>
